@@ -1,0 +1,33 @@
+<ConditionalActions>
+	<OnConnect target="C5D" needsMissionComplete="false">
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/D.xml" DelayHost="Delay" Delay="149.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="2.0">!ANNOUNCEMENT! CHANNEL IS ACTIVE @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="8.0">This guy wants you to attack NLH hospital? With some kind of a ransomware if I am seeing things right?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="15.0">Yes, NightHawks are moving in right now, and they want to plant ransomware on life support units. They assigned me to the most difficult ones</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="20.0">They want to use ransomware to extort NLH hospital? For 75 grand each unit?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="25.0">Exactly</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">That hospital doesn't have so much money, they recently paid to Kellis BioTech for new equipment</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="35.0">Then everybody who is connected to life support units will die. NightHawks want to become a famous group and enter high league of hackers so they won't hesitate</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="42.0">What a fucking morons</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="46.0">I know that already Clara, can we do something about that??</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="50.0">For fuck sake, I am thinking!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">Ok, I have a somewhat of a plan</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="64.0">I am all ears</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="68.0">I will contact NLH security and warn them about attack but of course they won't make any sudden moves</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="73.0">Also I will reverse-engineer that .bat file and will send them a security patch. Life support units won't be in danger of deactivation and your buddies will think that everything is fine and working as it should be, except that they can't actually kill anyone</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="85.0">It will look like a mistake of someone who made that ransomware, your group won't suspect you</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="90.0">And I assume that I must continue executing my part of operation?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="94.0">Yes. Do what they said you to do</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="98.0">People won't die, so make it look like you did your job right, and the guy who made .bat file will look faulty</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="103.0">Ok, I will resume the operation, but what about the client?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="108.0">Enforcers are ready to move out at his location as soon as people at the hospital would be safe</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="115.0">Got it. Thank you Clara. You just saved a lot of people. But we have another problem. I was right, Omicron is back, check all available information, scan all your sources, we need to get to him, he is preparing for some kind of an operation or an attack</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="125.0">I still think that is a nonsense, Captain, but I will check it out</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="130.0">Thanks again</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="134.0">Now go, complete that operation of your lunatic friends</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="138.0">I won't befriend with some neo-nazi scum</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="142.0">Good. I will be in touch</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="145.0">!ANNOUNCEMENT! CHANNEL IS CLOSED @channel</AddIRCMessage>
+	</OnConnect>
+</ConditionalActions>

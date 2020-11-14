@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:NetMapLok" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Loop2.xml" Delay="1.0" DelayHost="Delay" />
+	</Instantly>
+</ConditionalActions>

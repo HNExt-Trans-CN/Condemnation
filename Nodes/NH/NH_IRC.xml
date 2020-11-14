@@ -1,0 +1,26 @@
+<Computer id="NHHub" name="NightHawks' Hub" ip="37.122.36.119" security="5" type="4">
+<adminPass pass="PrimeCandidate" />
+<trace time="90" />
+<admin type="progress"/>
+<file path="bin/Stash" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin/Stash" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin/Stash" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin/Stash" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin/Stash" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+<file path="bin/Stash" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin/Stash" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+ <customthemefile path="home/Themes" name="Orange_x-server.sys" themePath="Themes/TC1.xml"/>
+ <customthemefile path="home/Themes" name="White_x-server.sys" themePath="Themes/TC2.xml"/>
+ <customthemefile path="home/Themes" name="Green_x-server.sys" themePath="Themes/TC3.xml"/>
+ <customthemefile path="home/Themes" name="Red_x-server.sys" themePath="Themes/TC4.xml"/>
+ <DHSDaemon groupName="NightHawks' Hub" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,0" allowContractAbbandon="false">
+ <agent name="Vortex" pass="lkmsrfklm" color="255,252,5"/>
+ <agent name="NOTIFICATION" pass="lkmsrfklm" color="255,252,5"/>
+ <agent name="Maverick" pass="lkmsrfklm" color="255,0,1"/>
+ <agent name="Jenkins" pass="lkmsrfklm" color="0,169,0"/>
+ <agent name="Deladello" pass="lkmsrfklm" color="194,0,163"/>
+ <agent name="Prophet" pass="lkmsrfklm" color="0,163,164"/>
+ <agent name="Slayer" pass="lkmsrfklm" color="112,0,173"/>
+ <agent name="Omicron" pass="lkmsrfklm" color="255,255,255"/>
+ </DHSDaemon>
+</Computer>

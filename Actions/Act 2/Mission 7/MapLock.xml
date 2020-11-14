@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<Instantly>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 7/Lock.txt" DelayHost="Delay" Delay="2.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<RunFunction FunctionName="removeFlags:NetMapHid" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Delay.xml" DelayHost="Delay" Delay="1.5"/>
+	</Instantly>
+</ConditionalActions>

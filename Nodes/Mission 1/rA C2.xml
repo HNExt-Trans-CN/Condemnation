@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1rA_Sec" name="Presentation Laptop" ip="118.161.12.97" icon="DLCLaptop" type="empty">
+<adminPass pass="JeveStobs" />
+<admin type="none"/>
+<ports>21, 22, 443, 80</ports>
+<portsForCrack val="4"/>
+<trace time="20"/>
+<file path="home" name="Presentation_Text.docx">Finally everybody is ready to see our next step in smartphone evolution - DICK 12 Pro, ladies and gentlemen!
+
+Our best quality and customer service will help you to finally get what you really deserve - style, comfort and neverending joy from our new DICK model!
+
+DICK 12 Pro will be your universal device, as for multichannel phone calling, and even your own film studio in your pocket!
+
+Now, let's see what are the specs of the new DICK:
+
+#BINARY#</file> 
+</Computer>

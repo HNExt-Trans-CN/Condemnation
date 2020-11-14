@@ -1,0 +1,11 @@
+<Computer id="M4_Gate" name="Repulse's Gateway" ip="82.139.222.48" security="4" type="empty">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home/Reset_Button" name="REPORT.log">[08:45 PM] Computer files has been deleted successfully! Remember to restart computer to clear Memory cache from any dumps!</file>
+<Memory>
+	<Data>
+		<Block>IP successfully changed to 91.36.194.224</Block>
+	</Data>
+</Memory>
+		
+</Computer>

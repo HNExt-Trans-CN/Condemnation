@@ -1,0 +1,11 @@
+<Computer id="M9EP1" name="Kellis BioTech, Equipment Managing" ip="160.173.170.74" security="4" icon="kellis" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="M9EP1Gate" />
+<file path="home/Export" name="Details.txt">Export Details:
+Los-Angeles: 250 pacemakers, 45 life support units
+San-Francisco: 200 pacemakers, 25 life support units
+Sacramento: 150 pacemakers, 60 life support units
+
+Other regional locations are archived on other location-based servers</file>
+</Computer>

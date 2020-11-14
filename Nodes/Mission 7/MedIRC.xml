@@ -1,0 +1,23 @@
+<Computer id="M7MedIRC" name="Sutter Medical Center, surgical sector's IRC" ip="211.74.214.49" security="3" type="4">
+<trace time="-1" />
+<admin type="progress"/>
+<dlink target="M7SysAdm" />
+<IRCDaemon themeColor="9,254,118" name="Surgical Sector" needsLogin="false">
+<user name="Robert Gallard" color="9,254,118"/>
+<user name="Edward Davidson" color="9,254,118"/>
+<user name="Anthony Walker (MOD)" color="9,254,118"/>
+<user name="Vanessa Lewis" color="9,254,118"/>
+<user name="Abigail Nelson" color="9,254,118"/>
+  <post user="Robert Gallard">Another day, another life saved</post>
+  <post user="Abigail Nelson">Yep, I gotta rest a bit, haven't slept for 3 days already</post>
+  <post user="Anthony Walker (MOD)">Well, I still have to figure out that security problem</post>
+  <post user="Vanessa Lewis">Ironic that I can handle professional medical equipment but can't get along with simple PCs</post>
+  <post user="Edward Davidson">What security problem?</post>
+  <post user="Anthony Walker (MOD)">Ah, annoying thing, tech guys from one medical company think our Cyber Security is weak because recently hacker groups assaulted a few medical servers</post>
+  <post user="Abigail Nelson">Sounds like a big problem</post>
+  <post user="Anthony Walker (MOD)">Maybe, so I am working on finding a way to eliminate that vulnerability</post>
+  <post user="Vanessa Lewis">Best of luck!</post>
+  </IRCDaemon>
+  
+  
+</Computer>

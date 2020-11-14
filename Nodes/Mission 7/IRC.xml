@@ -1,0 +1,9 @@
+<Computer id="M7IRC" name="Project Oblivion" ip="120.138.80.110" security="3" type="4">
+<trace time="-1" />
+<admin type="progress"/>
+<IRCDaemon themeColor="252,0,230" name="Project Oblivion" needsLogin="true">
+<user name="Vortex" color="255,255,1"/>
+<user name="Repulse" color="0,209,232"/>
+<user name="Jester" color="0,213,209"/>
+</IRCDaemon>
+</Computer>

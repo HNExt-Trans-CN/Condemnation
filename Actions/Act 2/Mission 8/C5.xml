@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 8/Clara.txt" DelayHost="Delay" Delay="0.1" SourceComp="C5B" TargetComp="C5A" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<CopyAsset DestFilePath="home/Contact_Note" DestComp="playerComp" SourceComp="Delay" SourceFileName="Contact_Note.txt" SourceFilePath="home" />
+	</Instantly>
+</ConditionalActions>

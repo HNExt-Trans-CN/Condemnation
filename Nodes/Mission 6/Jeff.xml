@@ -1,0 +1,19 @@
+<Computer id="M6Jeff" name="Jeffry's PC" ip="84.172.98.106" security="1" type="2">
+<trace time="-1" />
+<admin type="progress"/>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="home" name="Unfunny_meme_69.png">#BINARY#</file>
+<Memory>
+	<Commands>
+		<Command>cd /home</Command>
+		<Command>upload@44.198.25.198 home/Unfunny_meme_69.png</Command>
+		<Command>ls</Command>
+		<Command>cd /log</Command>
+		<Command>rm *</Command>
+		<Command>forkbomb</Command>
+	</Commands>
+	<Images>
+      <Image>Logos/UM.jpg</Image>
+    </Images>
+</Memory>
+</Computer>

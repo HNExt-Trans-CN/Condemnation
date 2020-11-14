@@ -1,0 +1,56 @@
+config playerComp Delay 0.0 $#%#$
+clearTerminal $#%#$
+showTerminal $#%#$
+delay 0.84 $#%#$
+writel_silent CONCLUSION: $#%#$
+delay 1.77 $#%#$
+writel_silent $#%#$
+writel_silent Sam Walker, also known as hacker Omicron has been arrested two months ago $#%#$
+delay 5.04 $#%#$
+writel_silent Police tried to make him confess in his actions $#%#$
+delay 3.44 $#%#$
+writel_silent But all this time he remains silent $#%#$
+delay 2.49 $#%#$
+writel_silent $#%#$
+writel_silent Clara Gilmore became a new Captain of San-Francisco CyberPolice Department $#%#$
+delay 4.53 $#%#$
+writel_silent And now she is one of the most successful detectives of California $#%#$
+delay 4.19 $#%#$
+writel_silent $#%#$
+writel_silent Cypher Mendes disappeared after the Omicron apprehension and his current location is unknown $#%#$
+delay 5.81 $#%#$
+writel_silent Despite the fact that Omicron will be in jail soon $#%#$
+delay 3.49 $#%#$
+writel_silent That doesn't lift charges from Cypher $#%#$
+delay 2.57 $#%#$
+writel_silent $#%#$
+writel_silent Clara reported to the FBI that hacker Vortex helped her to catch Omicron $#%#$
+delay 4.76 $#%#$
+writel_silent But in the process he was killed by one of the assasins that Omicron sent after him $#%#$
+delay 5.07 $#%#$
+writel_silent Later, Clara confirmed that Vortex's real name is Cypher Mendes $#%#$
+delay 5.56 $#%#$
+writel_silent $#%#$
+writel_silent FBI closed the case of the ex-Captain due to his death being confirmed by Clara $#%#$
+delay 5.54 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent One thing that Clara took from previous Captain are problems with the sleep $#%#$
+delay 4.60 $#%#$
+writel_silent Each night she suffers from insomnia and tries to fall asleep by filing records on her laptop $#%#$
+delay 6.08 $#%#$
+writel_silent $#%#$
+writel_silent But on 3 AM each night, she sends 36 reports to the main server and 1 report to unknown Drop server $#%#$
+delay 9.75 $#%#$
+writel_silent $#%#$
+writel_silent That special report always starts with the same phrase... $#%#$
+delay 4.57 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent Clara: $#%#$
+delay 2.74 $#%#$
+writel_silent $#%#$
+writel_silent Captain Mendes, I have new information for you $#%#$
+delay 3.00 $#%#$
+clearTerminal $#%#$
+hideTerminal $#%#$

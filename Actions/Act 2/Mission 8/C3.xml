@@ -1,0 +1,29 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	</Instantly>
+	
+	<HasFlags requiredFlags="AT_Flag">
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/News/Selective/1.xml" TargetComp="C3A" AssignmentTag="top" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="JW_Flag">
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/News/Selective/2.xml" TargetComp="C3A" AssignmentTag="top" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="R_Flag">
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/News/Selective/3.xml" TargetComp="C3A" AssignmentTag="top" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="J_Flag">
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/News/Selective/4.xml" TargetComp="C3A" AssignmentTag="top" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="AT_Flag_Scum">
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/News/Selective/1.xml" TargetComp="C3A" AssignmentTag="top" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="JW_Flag_Scum">
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/News/Selective/2.xml" TargetComp="C3A" AssignmentTag="top" />
+	</HasFlags>
+</ConditionalActions>

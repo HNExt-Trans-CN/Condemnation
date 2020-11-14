@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<Instantly>
+		<LoadMission MissionName="Missions/Act 1/Mission 3/Mission 3.xml" />
+		<AddConditionalActions Filepath="Actions/Act 1/Mission 3/Mission 3.xml" DelayHost="Delay" Delay="0.0"/>
+	</Instantly>
+</ConditionalActions>

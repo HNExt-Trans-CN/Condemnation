@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Veng Fin" activeCheck="true">
+  <goals>
+  <goal type="filedownload" target="Omicron" file="netcfgx.dll" path="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Veng/Fin.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

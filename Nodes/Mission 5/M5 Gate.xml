@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5Gate" name="Team Rioba's Gateway" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 443</ports>
+  <trace time="90" />
+
+  <dlink target="M5GateP1" />
+  <dlink target="M5GateP2" />
+  <dlink target="M5GateP3" />
+  
+</Computer>

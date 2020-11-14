@@ -1,0 +1,15 @@
+<Computer id="M7Stash" name="Archive Node" ip="182.73.133.251" security="3" type="2">
+<trace time="90" />
+<firewall level="9" solution="drivedonk" additionalTime="0.3"/>
+<admin type="progress"/>
+<dlink target="M7PN1" />
+<dlink target="M7PN2" />
+<dlink target="M7PN3" />
+<dlink target="M7PN4" />
+<file path="bin/Stash" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin/Stash" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin/Stash" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin/Stash" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin/Stash" name="Clock.exe">#CLOCK_PROGRAM#</file>
+<file path="bin/Stash" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+</Computer>

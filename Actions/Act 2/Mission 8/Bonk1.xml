@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<LoadMission MissionName="Missions/Misc/Bonk/Bonk1.xml" />
+	</Instantly>
+</ConditionalActions>

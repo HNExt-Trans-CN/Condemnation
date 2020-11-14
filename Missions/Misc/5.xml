@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8 5" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="Contact_Note.txt" path="home/Contact_Note" destTarget="C5C" destPath="home"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C5.xml</missionStart>
+  <nextMission>Missions/Misc/R/Delay.xml</nextMission>
+  <posting title="Police Investigation">
+Detective of a San-Francisco CyberPolice Department poking around us, making an inconvenience for a personal data leakage business
+  </posting>
+  <email>
+    <sender>E-Mail</sender>
+    <subject>Police Investigation</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Hello fellow agent, we are having trouble with the CyberPolice. One of their detectives is really pushy and ruining our business, we need to put him out of the game but apperantly we can't find any logs despite that there is some outside activity on our servers.
+
+We will link one of our gateways, hope you will find anything there.
+
+	PERSONAL NOTES:
+This is someone from my PD!
+Of course the first thought is to make contact
+
+But how?
+
+And who is exactly investigating this case?
+
+I made a quick note that will attract attention to my persona
+Despite that it will ruin my entire cover
+But I must take this chance
+
+If it is someone of my subordinates, they will understand
+And hopefully won't give me out
+
+GOALS:
+1) FIND a mysterious detective and make contact (Upload a contact note that is located on your PC /home folder to that detective's PC /home folder)
+</body>
+    <attachments>
+	<link comp="C5A" />
+    </attachments>
+  </email>
+</mission>

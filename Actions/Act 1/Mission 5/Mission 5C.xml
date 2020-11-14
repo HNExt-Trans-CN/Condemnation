@@ -1,0 +1,25 @@
+<ConditionalActions>
+	<Instantly>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="5.0">@#PLAYERNAME# Great job Cap, we got the second one</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">Only one bastard left</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="15.0">@channel I am detecting mobile data transmission on Fluffy's battlestation, worth checking out with an eOs scanner</AddIRCMessage>
+	</Instantly>
+	<OnConnect target="M5C3" needsMissionComplete="false">
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@channel What the fuck is this? This guy has EnSec?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="15.0">Seems so</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">So, Ms. EnTech representative, how can you explain this?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="22.0">It only could be a hijacked early build. In that case, I can help a little</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="26.0">How?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="30.0">I can scan his network and make a copy node with the same network map</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="34.0">Here you go "1.1.1.1" . Simply gain admin access and scan the node, maybe you can find new entry point</AddIRCMessage>
+	</OnConnect>
+	<OnAdminGained target="M5EndRelay">
+	<RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg" FunctionValue="0" />
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">@channel We are through, there is only one file here that hasn't been deleted</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="35.0">@channel Oh my fucking god...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="40.0">@#PLAYERNAME# Captain, this is...</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="45.0">This is drug trafic evidence!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="50.0">FBI would be really intrested in this now</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="54.0">@#PLAYERNAME# Captain, get the evidence on our Asset server!</AddIRCMessage>
+	</OnAdminGained>
+</ConditionalActions>

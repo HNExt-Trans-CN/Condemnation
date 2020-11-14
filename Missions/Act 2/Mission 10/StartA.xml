@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 10 Start A" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="EnSecBreach.dll" path="home" destTarget="C5C" destPath="home"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/Clara.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

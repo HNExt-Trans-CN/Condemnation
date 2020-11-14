@@ -1,0 +1,20 @@
+<ConditionalActions>
+
+	<HasFlags requiredFlags="NHIn,Justice1">
+	<LoadMission MissionName="Missions/Act 2/Just/1.xml" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHOut,Justice3">
+	<LoadMission MissionName="Missions/Act 2/Just/2.xml" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHIn,Justice3">
+	<LoadMission MissionName="Missions/Act 2/Just/2A.xml" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHOut,Justice4">
+	<LoadMission MissionName="Missions/Act 2/Just/3.xml" />
+	<AddConditionalActions Filepath="Actions/Act 2/Just/3.xml" DelayHost="Delay" Delay="0.0"/>
+	</HasFlags>
+	
+</ConditionalActions>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Bonk 1" activeCheck="true">
+  <goals>
+  
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/Misc/1.xml</nextMission>
+  <posting title="Data Manipulation">
+Some documents must be placed where they are not supposed to be
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

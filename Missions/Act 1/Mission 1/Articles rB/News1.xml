@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Glory for Communism!">
+How 
+can't 
+you 
+see 
+the 
+obvious 
+- 
+you 
+are 
+manipulated 
+by 
+a 
+capitalist 
+pigs 
+that 
+want 
+only 
+one 
+thing, 
+and 
+that 
+is 
+to 
+use 
+you 
+and 
+leave 
+you 
+with 
+NOTHING!
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:OSEQ" FunctionValue="0" />
+	</Instantly>
+</ConditionalActions>

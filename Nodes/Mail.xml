@@ -1,0 +1,19 @@
+<Computer id="jmail" name="Hacknet_OS Internal Inbox" security="5" icon="chip" type="3">
+<account username="#PLAYERNAME#" password="" type="2" />
+<account username="RAPTOR" password="hgshrg" type="2" />
+<trace time="101" />
+<portsForCrack val="101" />
+<admin type="fast" resetPassword="true" isSuper="true" />
+<mailServer name="OS_Internal" color="255,141,0" generateJunk="false">
+ <email recipient="#PLAYERNAME#" sender="EnTech" subject="Internal Inbox">
+This Inbox is part of your system
+
+You can make any kind of logs or diary records here for future reference
+
+It is also connected to your external Inbox: Vort_Moz@jmail.com
+
+Other Hacknet_OS users can contact you through external Inbox 
+
+You can always access Internal Inbox using your Hacknet_OS username with empty password</email>
+</mailServer>
+</Computer>

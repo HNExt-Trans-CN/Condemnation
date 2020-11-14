@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <!-- Goals here -->
+	<goal type="filedownload" target="PDAsset" file="Token.bin" path="home"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="0">loadConditionalActions:Actions/Intro.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>EnTech</sender>
+    <subject>Police-exclusive copy of Hacknet_OS is activated!</subject>
+    <body>Your workstation is attached to the San-Francisco CyberPolice Department and have whitelisted access. For further instructions, access your mail sevice, which is attached in this email.
+	
+			-EnTech auto-sender systems
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="SFCPDMail"/>
+	  <account comp="SFCPDMail" user="Cypher" pass="CyberCap"/>
+    </attachments>
+  </email>
+</mission>

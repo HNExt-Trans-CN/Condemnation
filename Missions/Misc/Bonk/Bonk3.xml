@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Bonk 3" activeCheck="true">
+  <goals>
+  
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/Misc/3.xml</nextMission>
+  <posting title="Foul Mouths">
+A certain news company think that there is a freedom of speech in our country
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

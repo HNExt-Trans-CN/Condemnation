@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/BL.ogg" FunctionValue="6" />
+	</Instantly>
+</ConditionalActions>

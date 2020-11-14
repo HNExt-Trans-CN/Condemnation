@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Sel2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="# BREAKING NEWS">
+Javis Williamson, recently detained detective of a San-Francisco CyberPolice Department, has been found dead in his cell. Apparently it is a suicide.
+
+Mr. Williamson was alleged partner of a Cypher Mendes, a captain of the same PD, who is now on the Wanted list for organizing digital platform of a drug trafficking.
+
+But due to a lack of evidence, charges were lifted from Mr. Williamson, but all these events affected him and led to a depression. "I knew this man for most of my life and I would never believe that he was a part of something horrible like that. All these events ruined my world perspective and all these accusations of being a part of this as well are driving me insane!" says Mr. Williamson.
+
+He was perscripted with soft-type narcotics to ease depression effects, but anonymous source revealed that he sold them in order to get heroin. After that, Mr. Williamson was detained.
+
+It was a surprise for whole PD that all his qualification data is missing, while Mr. Williamson could not explain any of it. All this events apparently gave Mr. Williamson too much pressure he could not possibly handle and committed suicide right in the cell.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+</posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,58 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<CrashComputer TargetComp="C5D" CrashSource="Delay" DelayHost="Delay" Delay="0.0" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="C5D" NewIP="#RANDOM_IP#" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/Conclusion1.txt" DelayHost="Delay" Delay="0.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Just/Talk.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Sil.xml" DelayHost="Delay" Delay="57.14"/>
+	<HideAllNodes DelayHost="Delay" Delay="0.0"/>
+	<ShowNode DelayHost="Delay" Delay="60.0" Target="ClBad" />
+	<SwitchToTheme ThemePathOrName="Themes/Clara.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="60.0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/Show.txt" DelayHost="Delay" Delay="60.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+	
+	<OnConnect target="ClBad" needsMissionComplete="false">
+	<RunFunction FunctionName="playCustomSong:Music/dark.ogg" FunctionValue="6" />
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Sil.xml" DelayHost="Delay" Delay="123.0"/>
+	<ChangeAlertIcon Target="ClBad" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="5.0">Hello @#PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="10.0">What the?..</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="13.0">CLARA?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="16.0">Oh my god, it is so good to see you!</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="20.0">How are you?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="25.0">And how did you managed to find me?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="30.0">Not so good, I need a help</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="35.0">Sure darling, anything you need, what is it?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="40.0">I am looking for Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="45.0">Still chasing him? Yeah, a tricky one</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="49.0">It's been half a year, Jesus, time flies</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="53.0">I am not in the mood, will you help or not?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="57.0">Sure, what exactly do you want?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="62.0">I want to cut his head off, put it on a spear and a make a nice BBQ</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="67.0">Clara, you are scaring me...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="72.0">You know what that fucker did?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="75.0">Made me outlaw!</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="78.0">Oh my god...</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="82.0">How are you holding up? Do you have a safe spot?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="86.0">I am not holding up, I am sleeping with random jerks for food and shelter</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="91.0">HOW THE FUCK DO YOU THINK I AM HOLDING UP?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="96.0">Clara, I...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="100.0">You either help me to kill him, or you are gonna be on my death list as well</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="105.0">I... What ARE you now?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="110.0">Same old Ms. Gilmore</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="115.0">You are in or out?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="120.0">I don't...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="123.0">In...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="124.0">Or Out...</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="127.0">....</AddIRCMessage>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/Hide.txt" DelayHost="Delay" Delay="130.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="130.0" />
+	
+	<AddConditionalActions Filepath="Actions/Act 2/Just/Music1.xml" DelayHost="Delay" Delay="135.0"/>
+	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="147.0" />
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="157.0" />
+	<LaunchHackScript Filepath="HackerScripts/Credits.txt" DelayHost="Delay" Delay="157.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="262.0" />
+	</OnConnect>
+</ConditionalActions>

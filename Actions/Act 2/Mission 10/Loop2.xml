@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Node2">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node2.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop2Op.xml" DelayHost="Delay" Delay="5.0"/>
+	</HasFlags>
+</ConditionalActions>

@@ -1,0 +1,8 @@
+<Computer id="OmBoss5" name="GO HOME AND CRY" type="4">
+<ports>1433, 554, 211, 21, 6881, 443</ports>
+
+<portsForCrack val="3" />
+<trace time="-1" />
+<admin type="none"/>
+<file path="home" name="Omicron's IP.txt">666.420.FUCK.YOU</file>
+</Computer>

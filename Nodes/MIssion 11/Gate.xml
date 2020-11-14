@@ -1,0 +1,8 @@
+<Computer id="M11G" name="Omicron's Gateway" ip="113.114.36.122" security="5" type="4">
+<adminPass pass="FEUHseuh2" />
+<portsForCrack val="101" />
+<trace time="-1" />
+<admin type="progress"/>
+<dlink target="M11A" />
+<dlink target="M11P" />
+</Computer>

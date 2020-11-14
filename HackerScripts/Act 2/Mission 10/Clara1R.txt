@@ -1,0 +1,2 @@
+config playerComp C5C 0.1 $#%#$
+writel Clara: I managed to open one of the ports, SSL is next

@@ -1,0 +1,18 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Repulse">
+	<RunFunction FunctionName="addRankFaction:JEnd" FunctionValue="1" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/RepulseGood.xml" DelayHost="Delay" Delay="0.1"/>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="4.9"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.0"/>
+		<ChangeAlertIcon Target="M7IRC" Type="irc" DelayHost="Delay" Delay="5.1"/>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Jester">
+	<RunFunction FunctionName="addRankFaction:JEnd" FunctionValue="1" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/JesterGood.xml" DelayHost="Delay" Delay="0.1"/>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="4.9"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.0"/>
+		<ChangeAlertIcon Target="M7IRC" Type="irc" DelayHost="Delay" Delay="5.1"/>
+	</HasFlags>
+	
+</ConditionalActions>

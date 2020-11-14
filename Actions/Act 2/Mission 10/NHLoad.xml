@@ -1,0 +1,24 @@
+<ConditionalActions>
+	<Instantly>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnBreak.txt" DelayHost="Delay" Delay="3.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+	
+	<OnConnect target="M10M" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M10M.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+
+	<OnConnect target="M10P1" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/NH1.txt" DelayHost="Delay" Delay="15.0" SourceComp="NHHub" TargetComp="M10P1" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/NH1R.txt" DelayHost="Delay" Delay="17.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+	
+	<OnConnect target="M10P2" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/NH2.txt" DelayHost="Delay" Delay="15.0" SourceComp="NHHub" TargetComp="M10P2" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/NH2R.txt" DelayHost="Delay" Delay="17.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+	
+	<OnConnect target="M10P3" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/NH3.txt" DelayHost="Delay" Delay="15.0" SourceComp="NHHub" TargetComp="M10P3" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/NH3R.txt" DelayHost="Delay" Delay="17.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+</ConditionalActions>

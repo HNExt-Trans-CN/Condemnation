@@ -1,0 +1,236 @@
+config playerComp Delay 0.0 $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+delay 0.2 $#%#$
+hideRam $#%#$
+delay 0.2 $#%#$
+hideDisplay $#%#$
+delay 0.72 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent Omicron: $#%#$
+writel_silent $#%#$
+writel_silent No... $#%#$
+delay 1.77 $#%#$
+writel_silent $#%#$
+writel_silent It is not supposed to end like this $#%#$
+delay 2.97 $#%#$
+writel_silent $#%#$
+writel_silent Clara should hate you $#%#$
+delay 2.18 $#%#$
+writel_silent You were supposed to become most vile criminal $#%#$
+delay 2.81 $#%#$
+writel_silent So you could take my place $#%#$
+delay 2.26 $#%#$
+writel_silent Otherwise Clara is next candidate $#%#$
+delay 2.89 $#%#$
+writel_silent But she is on your side $#%#$
+delay 1.99 $#%#$
+writel_silent One of you should've become my successor! $#%#$
+delay 2.47 $#%#$
+writel_silent AND THEN KILL ME! $#%#$
+delay 1.92 $#%#$
+writel_silent $#%#$
+writel_silent That was the plan $#%#$
+delay 2.97 $#%#$
+writel_silent That was my theory $#%#$
+delay 2.23 $#%#$
+writel_silent $#%#$
+writel_silent This world is controlled by fear, hate and anger $#%#$
+delay 5.73 $#%#$
+writel_silent They are the most powerful motivators $#%#$
+delay 3.36 $#%#$
+writel_silent $#%#$
+writel_silent You know what is the most useless thing in the world? $#%#$
+delay 4.18 $#%#$
+writel_silent Justice $#%#$
+delay 1.88 $#%#$
+writel_silent You know why? $#%#$
+delay 1.76 $#%#$
+writel_silent Because there is no justice in this life $#%#$
+delay 3.62 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent You don't believe me? $#%#$
+delay 2.19 $#%#$
+writel_silent Then let me tell you my story $#%#$
+delay 2.81 $#%#$
+writel_silent $#%#$
+writel_silent My mother was 20 when she gave birth to me $#%#$
+delay 2.96 $#%#$
+writel_silent Year prior she was a regular student in Sacramento $#%#$
+delay 4.41 $#%#$
+writel_silent She was transfered to the academy in San-Francisco because of her high results $#%#$
+delay 4.50 $#%#$
+writel_silent But she couldn't integrate in new community of students $#%#$
+delay 3.58 $#%#$
+writel_silent Because they were filthy rich kids and junkies $#%#$
+delay 3.77 $#%#$
+writel_silent $#%#$
+writel_silent She didn't want to taste their lifestyle $#%#$
+delay 2.80 $#%#$
+writel_silent And she was bullied for that $#%#$
+delay 2.64 $#%#$
+writel_silent $#%#$
+writel_silent After a few months $#%#$
+delay 1.82 $#%#$
+writel_silent She tried to change that and goes to the party $#%#$
+delay 3.22 $#%#$
+writel_silent Tries cocaine $#%#$
+delay 1.50 $#%#$
+writel_silent And becomes an addict $#%#$
+delay 1.94 $#%#$
+writel_silent $#%#$
+writel_silent She was low on money $#%#$
+delay 1.86 $#%#$
+writel_silent And decided to fuck with random guys for a dose $#%#$
+delay 3.48 $#%#$
+writel_silent On one of those times, she becomes pregnant $#%#$
+delay 3.53 $#%#$
+writel_silent That's how I was made $#%#$
+delay 3.11 $#%#$
+writel_silent $#%#$
+writel_silent After my birth she was kicked out of academy $#%#$
+delay 3.06 $#%#$
+writel_silent And we became a street trash $#%#$
+delay 2.35 $#%#$
+writel_silent $#%#$
+writel_silent My mother used me to beg money from strangers $#%#$
+delay 3.25 $#%#$
+writel_silent Tried to sell me in slavery $#%#$
+delay 2.42 $#%#$
+writel_silent I hated her more than anything $#%#$
+delay 3.99 $#%#$
+writel_silent $#%#$
+writel_silent I tried to call for help $#%#$
+delay 2.09 $#%#$
+writel_silent I tried to go to the Police $#%#$
+delay 2.57 $#%#$
+writel_silent But nobody wants to hear some dirty kid who is a son of a junkie whore $#%#$
+delay 4.98 $#%#$
+writel_silent $#%#$
+writel_silent Then she tried heroin and became absolutely crazy $#%#$
+delay 4.74 $#%#$
+writel_silent Her mind was burned to the ground $#%#$
+delay 3.69 $#%#$
+writel_silent And on one day $#%#$
+delay 2.48 $#%#$
+writel_silent She overdosed $#%#$
+delay 2.35 $#%#$
+writel_silent Dead in her own vomit $#%#$
+delay 2.73 $#%#$
+writel_silent $#%#$
+writel_silent You know what I've felt? $#%#$
+delay 2.51 $#%#$
+writel_silent Satisfaction $#%#$
+delay 2.02 $#%#$
+writel_silent $#%#$
+writel_silent If this world has any justice $#%#$
+delay 3.85 $#%#$
+writel_silent THEN WHY WOULD IT MAKE A 12-YEARS OLD CHILD LAUGH ON HIS MOTHER'S DEATH?? $#%#$
+delay 6.87 $#%#$
+writel_silent Then I cried for 4 days straight $#%#$
+delay 3.57 $#%#$
+writel_silent And only stopped because of the hunger $#%#$
+delay 3.5 $#%#$
+writel_silent $#%#$
+writel_silent After that I was adopted $#%#$
+delay 3.17 $#%#$
+writel_silent New parents were nice but always feared of me becoming junkie as well $#%#$
+delay 5.00 $#%#$
+writel_silent I tried to prove the opposite $#%#$
+delay 2.78 $#%#$
+writel_silent And killed a drug dealer $#%#$
+delay 2.30 $#%#$
+writel_silent $#%#$
+writel_silent I thought I was hero $#%#$
+delay 2.34 $#%#$
+writel_silent I saved another girl like my mom from turning into filthy creature $#%#$
+delay 5.01 $#%#$
+writel_silent But I was sent to jail $#%#$
+delay 2.16 $#%#$
+writel_silent $#%#$
+writel_silent What is that kind of justice then? $#%#$
+delay 2.70 $#%#$
+writel_silent You don't know how it feels when you constantly live in society's condemnation $#%#$
+delay 5.54 $#%#$
+writel_silent You can't prove to anyone anything because of your past $#%#$
+delay 4.11 $#%#$
+writel_silent Nobody just gave shit about me $#%#$
+delay 2.60 $#%#$
+writel_silent $#%#$
+writel_silent And then I became Omicron $#%#$
+delay 3.06 $#%#$
+writel_silent I've learned a couple of things from prison $#%#$
+delay 2.70 $#%#$
+writel_silent Including hacking $#%#$
+delay 1.87 $#%#$
+writel_silent $#%#$
+writel_silent And only then people started to respect me $#%#$
+delay 3.53 $#%#$
+writel_silent Only when I am giving them reason to fear me $#%#$
+delay 3.64 $#%#$
+writel_silent $#%#$
+writel_silent If you are weak and kindly ask for help $#%#$
+delay 3.25 $#%#$
+writel_silent Like I did in my childhood $#%#$
+delay 2.68 $#%#$
+writel_silent Nobody will come and save you $#%#$
+delay 2.60 $#%#$
+writel_silent $#%#$
+writel_silent And when you give people a reason to fear you $#%#$
+delay 3.18 $#%#$
+writel_silent They do exactly as you want $#%#$
+delay 3.78 $#%#$
+writel_silent $#%#$
+writel_silent So tell me $#%#$
+delay 1.70 $#%#$
+writel_silent Is there any justice? $#%#$
+delay 2.07 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent But you and Clara changed me right now $#%#$
+delay 3.47 $#%#$
+writel_silent I understand that all that is happened to me was a bad luck $#%#$
+delay 5.06 $#%#$
+writel_silent But there is always some limit that a man can hold $#%#$
+delay 3.78 $#%#$
+writel_silent And my stress and anger was over any possible limits $#%#$
+delay 4.84 $#%#$
+writel_silent $#%#$
+writel_silent I won't resist the arrest $#%#$
+delay 2.38 $#%#$
+writel_silent But I will still justify my actions $#%#$
+delay 2.95 $#%#$
+writel_silent It is me who destroyed Emalio cartel and saved San-Francisco from another wave of drugs $#%#$
+delay 6.04 $#%#$
+writel_silent It is me who cleared DEA from moles $#%#$
+delay 3.34 $#%#$
+writel_silent I made the city more clean $#%#$
+delay 3.42 $#%#$
+writel_silent And free from drugs $#%#$
+delay 2.37 $#%#$
+writel_silent I don't think that I made it worse for society $#%#$
+delay 3.42 $#%#$
+writel_silent $#%#$
+writel_silent But you were supposed to become my successor $#%#$
+delay 2.91 $#%#$
+writel_silent To take my anger inside and kill me $#%#$
+delay 4.52 $#%#$
+writel_silent $#%#$
+writel_silent But you and Clara outplayed me $#%#$
+delay 2.58 $#%#$
+writel_silent And proved that some people are not that disgusting $#%#$
+delay 4.28 $#%#$
+writel_silent $#%#$
+writel_silent I guess it is right time to turn off my voice morpher $#%#$
+delay 3.96 $#%#$
+writel_silent But I must at least keep some secrets $#%#$
+delay 2.74 $#%#$
+writel_silent $#%#$
+writel_silent Farewell, Cypher and Clara $#%#$
+delay 5.18 $#%#$
+writel_silent $#%#$
+writel_silent ... $#%#$
+delay 5.00 $#%#$
+hideTerminal $#%#$

@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1rC_Gate" name="Pear_Lover Gateway" security="3" ip="123.207.231.145" type="empty">
+<ports>21, 22, 25, 80, 554</ports>
+<portsForCrack val="3" />
+<trace time="100" />
+<admin type="progress"/>
+<dlink target="M1rC_Personal" />
+<dlink target="M1rC_B1" />
+<dlink target="M1rC_B2" />
+<dlink target="M1rC_B3" />
+<dlink target="M1rC_B4" />
+<dlink target="M1rC_B5" />
+</Computer>

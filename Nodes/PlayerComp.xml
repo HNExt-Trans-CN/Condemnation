@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="Cypher Mendes' Workstation" ip="151.152.153.154" icon="laptop" type="empty">
+<account username="#PLAYERNAME#" password="Tarantella_Void" type="ADMIN" />
+  <portsForCrack val="101" />
+  <ports>22, 21, 25, 443, 544</ports>
+  <trace time="-1" />
+
+  
+
+  
+  
+</Computer>

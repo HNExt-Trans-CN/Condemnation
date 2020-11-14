@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Veng END" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="netcfgx.dll" path="home" destTarget="KILL" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Veng/OmKill.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

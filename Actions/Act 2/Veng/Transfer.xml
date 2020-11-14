@@ -1,0 +1,30 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/Oseq.xml" DelayHost="Delay" Delay="65.0"/>
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
+	<RunFunction FunctionName="changeSong" FunctionValue="11" />
+	<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="5.0">@channel, I've got it!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">What is it?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="14.0">He is linked through OSequenser.exe</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Well, as I thought</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">Everybody ready for final strike?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="25.0">Sure as hell</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">Of course</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">Yep</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="31.0">As always</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="33.0">Ready</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="38.0">You should strike all simple ports like 21, 22, 25, 80</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="43.0">And 211, since I can't do it myself</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="48.0">I will take firewall and rest of the ports</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">Gentlemen, it is time for a big hack</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">Download Omicron's netcfgx.dll</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">@channel, activate your OSequensers as you ready</AddIRCMessage>
+	</Instantly>
+	
+	<OnConnect target="Omicron" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Veng/Fin.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="Omicron" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+	
+</ConditionalActions>

@@ -1,0 +1,61 @@
+<Computer id="M2_Mail" name="Dynamic" ip="43.58.94.100" icon="DLCServer" type="empty">
+<account username="Daedra" password="JujaPic123" type="2" />
+<account username="Repulse" password="Margolis" type="2" />
+<ports>21, 22, 25, 80, 554</ports>
+<portsForCrack val="5" />
+<trace time="8" />
+<admin type="fast" resetPassword="true" isSuper="true"/>
+<mailServer name="Dynamic" color="0, 255, 55" generateJunk="false">
+<email recipient="Daedra" sender="Repulse" subject="Done with the filedrop">
+Hey man, I've done the filedrop server, so clients can pick up their shit there.
+
+So I guess we will drop a Med file there when we gonna get it. I'll send info later.
+
+I hope you have a plan, because I can't crack all the ports ;(
+
+ -Rep
+ </email>
+ <email recipient="Daedra" sender="Repulse" subject="Re:Re:Done with the filedrop">
+Sweet, so I am waiting for your reply in the IRC tomorrow!
+
+ -Rep
+-----------------
+I've got the Med Port cracker, so no worries, I will get it tommorow.
+
+ -D
+ </email>
+ <email recipient="Daedra" sender="Repulse" subject="Re:In Case of Emergency">
+Sure, no probs man!
+-----------------
+Dan, could you please back up my personal PC? I cannot trust anyone except you in that mission.
+
+Here is the IP for my homebase "60.192.249.36"
+
+And make sure that netcfgx file is retranslating properly!
+
+P.S. Access through 12.111.65.135
+</email>
+<email recipient="Repulse" sender="Daedra" subject="Re:Done with the filedrop">
+I've got the Med Port cracker, so no worries, I will get it tommorow.
+</email>
+<email recipient="Repulse" sender="MailBot" subject="Access Change">
+Your active proxy has been shut down due to a technical difficulties.
+
+Saving logs on Gateway 82.139.222.48
+</email>
+<email recipient="Repulse" sender="Daedra" subject="In Case of Emergency">
+Dan, could you please back up my personal PC? I cannot trust anyone except you in that mission.
+
+Here is the IP for my homebase "60.192.249.36"
+
+And make sure that netcfgx file is retranslating properly!
+
+P.S. Access through 12.111.65.135
+</email>
+<email recipient="Repulse" sender="Spam" subject="BIG DICK IN 2 DAYS">
+Ever wanted to REALLY please a dame? Use our special pills "Horse Power"
+
+Contact info: *REMOVED BY SPAM-BOT*
+</email>
+</mailServer>
+</Computer>

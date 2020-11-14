@@ -1,0 +1,7 @@
+<Computer id="M9EP3D1" name="Jane Dotry's Life Support" ip="23.183.248.146" type="4">
+<ports>104</ports>
+<portsForCrack val="1" />
+<trace time="-1" />
+<admin type="progress"/>
+<HeartMonitor patient="J_Dotry"/>
+</Computer>

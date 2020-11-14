@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="M9" handle="NONE" firstName="Jane" lastName="Dotry" isMale="false" forceHasNeopals="false">
+ <Birthplace name="Califonia, Sacramento" />
+ <DOB>11/05/2002 21:46:36</DOB>
+ <Degrees>
+    <Degree uni="Dalary Academy" gpa="3.8">Bachelor of Marketing</Degree>
+ </Degrees>
+ 
+ <Medical>
+    <Blood>A</Blood>
+    <Height>165</Height>
+    <Allergies>Domestic Dust</Allergies>
+    
+    <Notes>Patient has a severe head trauma in result of an accident (fell out from 8-th floor window). 
+Right now patient is connected to the Life Support unit (23.183.248.146) and medical staff is watching over</Notes>
+  </Medical>
+  </Person>

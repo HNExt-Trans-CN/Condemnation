@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5C3Copy" name="Copy Node" ip="1.1.1.1" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+<dlink target="M5EndProxy1" />
+<dlink target="M5EndProxy2" />
+<dlink target="M5EndProxy3" />
+<dlink target="M5EndRelay" />
+  
+</Computer>

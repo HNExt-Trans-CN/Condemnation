@@ -1,0 +1,9 @@
+<Computer id="WL" name="White List Server" type="3">
+<adminPass pass="bloba" />
+<ports>21, 22, 25, 80, 104</ports>
+<portsForCrack val="5" />
+<trace time="100" />
+<admin type="progress"/>
+<file path="Whitelist" name="list.txt">151.152.153.154</file>
+<WhitelistAuthenticatorDaemon SelfAuthenticating="true" />
+</Computer>

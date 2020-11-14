@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DEBUG" activeCheck="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>danilapon</sender>
+    <subject>GG</subject>
+    <body>DIC</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

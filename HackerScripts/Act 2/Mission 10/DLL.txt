@@ -1,0 +1,7 @@
+config playerComp Delay 0.2 $#%#$
+makeFile home EnSecBreach.dll #BINARY# $#%#$
+delete /log * $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel EnSecBreach.dll HAS BEEN ADDED TO YOUR /HOME FOLDER

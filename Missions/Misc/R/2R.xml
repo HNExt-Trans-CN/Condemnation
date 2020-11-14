@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8 2 R">
+  <goals>
+  <goal type="fileupload" target="C2B" file="Plans.docx" path="home/Personal" destTarget="C2C" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="C2B" file="Poses.png" path="home/Personal" destTarget="C2C" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="C2B" file="Notes.txt" path="home/Personal" destTarget="C2C" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="NHCrossR" file="Kati_25_11_19.png" path="home/Contract_Files/Denigration" destTarget="C2A" destPath="home"/>
+  </goals>
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Denigration">
+One excentric politician is not intimidated with my blackmail, it is time to fix this
+  </posting>
+  <email>
+    <sender>E-Mail</sender>
+    <subject>Denigration</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Greetings, I am Oswaldo, blackmail is my purpose of life and main line of work. I have a trouble with one polititian, name is J.J. Broadster, and I have some juicy photos of him and 19-y/o Kati, practising some BDSM, usual stuff I get on guys like him. Nobody will see these photos if he resign from his counselor post.
+
+Thing is, he think it is not a big problem for him and nobody would care about that. But hey, everybody loves some sex scandals, but definitely not female victims. So if I can't directly influence him, I need you to show Kati what can in theory make her a star of the academy. Place my photos on her PC (Link will be provided), You can find them on your organisation's Crossroads Server. Maybe she can motivate him better.
+
+And in the process, I need some fresh material that I can use. Get inside his PC as well and get anything personal and preferably dirty, then drop it on my Drop Server that I will provide.
+
+GOALS:
+
+1) UPLOAD dirty photos on Kati's PC (Place them in /home folder)
+2) UPLOAD personal data of Broadster to Oswaldo's Drop Server
+3) REPLY to this E-Mail after everything is done
+</body>
+    <attachments>
+	<link comp="C2A" />
+	<link comp="C2B" />
+	<link comp="C2C" />
+    </attachments>
+  </email>
+</mission>

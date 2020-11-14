@@ -1,0 +1,13 @@
+<ConditionalActions>
+	<Instantly>
+	<CopyAsset DestFilePath="home" DestComp="M9Deploy" SourceComp="Delay" SourceFileName="Entry_Points_2.txt" SourceFilePath="home" />
+	</Instantly>
+	
+	<HasFlags requiredFlags="Repulse">
+	<CopyAsset DestFilePath="home/Venomous_Snake" DestComp="NHCrossR" SourceComp="Delay" SourceFileName="HaHaTrap.bat" SourceFilePath="home" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Jester">
+	<CopyAsset DestFilePath="home/Venomous_Snake" DestComp="NHCross" SourceComp="Delay" SourceFileName="HaHaTrap.bat" SourceFilePath="home" />
+	</HasFlags>
+</ConditionalActions>

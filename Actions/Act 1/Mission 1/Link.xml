@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 1/Mission 1/Transfer.xml" DelayHost="Delay" Delay="106.0"/>
+	<DeleteFile TargetComp="playerComp" FilePath="home" FileName="netcfgx.dll" DelayHost="Delay" Delay="1.0"/>
+	</Instantly>
+</ConditionalActions>

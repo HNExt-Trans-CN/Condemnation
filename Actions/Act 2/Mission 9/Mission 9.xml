@@ -1,0 +1,58 @@
+<ConditionalActions>
+
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<LoadMission MissionName="Missions/Act 2/Mission 9/Mission9.xml" />
+	</Instantly>
+
+	<OnAdminGained target="M9Deploy">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Copy.xml" DelayHost="Delay" Delay="25.0"/>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">@channel You can find decipher executable in /bin folder of the DECSuite Deploy Server. You should know the password for provided files</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="15.0">I think Vortex doesn't know</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">Ah shit. It will be easier for me to decipher his part myself</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="25.0">@Vortex, I deciphered your entry points, they are in file number 2</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="25.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="25.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="25.3"/>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">@channel Also, you can get ransomware .bat file from our crossroads server in appropriate folder</AddIRCMessage>
+	</OnAdminGained>
+	
+	<OnAdminGained target="M9EP1Hos">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, what's the status?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="10.0">Got access to mainframe</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="13.0">Deployed 25 files</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">Keep going everybody</AddIRCMessage>
+	</OnAdminGained>
+	
+	<OnAdminGained target="M9EP2Key3">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="20.0">@channel I have a problem with passworded .dec files</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">Jenkins, can we solve this problem?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">Hmm, theoretically yes. They are using automatic decipher procedure, and if encrypted file is in locked mode, they most probably need a plaintexted password on a source of encryption</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Can you make some kind of a tool?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="39.0">Yep, header reader tool can show you source IP. I am placing it in our stash at this server</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="45.0">Thanks. It will help</AddIRCMessage>
+	</OnAdminGained>
+	
+	<OnConnect target="M9EP2Main" needsMissionComplete="false">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<AddAsset FileName="SQLOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
+	<AddAsset FileName="104.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="30.0">@Jenkins, we have a problem with ports</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="35.0">Let me guess, SQL?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="40.0">No, 104</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="45.0">Ah. Well I think I've seen a breaker somewhere on Kellis servers</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="50.0">@channel I've uploaded a few portbreakers in our stash. One should work for 104 (Medical) and other is for 1433 (SQL)</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="53.0">Well done Jenkins, that should help us</AddIRCMessage>
+	</OnConnect>
+	
+	<OnAdminGained target="M9EP3Gate">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="5.0">@Maverick, can we trust our client on this one?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">Yeah, he can't go back at this point, he is interested in this job in a political approach</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="15.0">Got it</AddIRCMessage>
+	</OnAdminGained>
+</ConditionalActions>

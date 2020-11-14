@@ -1,0 +1,2 @@
+config playerComp NHHub 0.1 $#%#$
+writel Prophet: Halfway done, open the Default 21,22,25,80

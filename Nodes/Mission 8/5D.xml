@@ -1,0 +1,9 @@
+<Computer id="C5D" name="Stealth IRC" ip="149.17.58.225" security="0" type="4">
+<trace time="-1" />
+<admin type="progress"/>
+<IRCDaemon themeColor="254,168,0" name="Stealth IRC" needsLogin="true">
+<user name="Clara" color="254,0,3"/>
+<user name="Vortex" color="255,255,1"/>
+<user name="Omicron" color="255,255,255"/>
+</IRCDaemon>
+</Computer>

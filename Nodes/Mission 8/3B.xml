@@ -1,0 +1,8 @@
+<Computer id="C3B" name="Diamond Breeze's Mainframe" security="5" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="C3A" />
+<dlink target="C3Empt1" />
+<dlink target="C3Empt2" />
+<CustomConnectDisplayDaemon />
+</Computer>

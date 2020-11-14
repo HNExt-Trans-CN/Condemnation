@@ -1,0 +1,13 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	</Instantly>
+	
+	<HasFlags requiredFlags="Jester">
+	<CopyAsset DestFilePath="home/Contract_Files/Denigration" DestComp="NHCross" SourceComp="Delay" SourceFileName="Kati_25_11_19.png" SourceFilePath="home" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Repulse">
+	<CopyAsset DestFilePath="home/Contract_Files/Denigration" DestComp="NHCrossR" SourceComp="Delay" SourceFileName="Kati_25_11_19.png" SourceFilePath="home" />
+	</HasFlags>
+</ConditionalActions>

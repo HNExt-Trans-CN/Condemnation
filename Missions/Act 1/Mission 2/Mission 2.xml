@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 2">
+  <goals>
+  <goal type="getstring" target="60.192.249.36" />
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 2/Mission 2.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 2/Transfer.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Hacker Atrack">
+Someone attacked San-Francisco's Medical Archive and stole a Med File from it.
+
+Time to find that bastard and make him face justice.
+  </posting>
+  <email>
+    <sender>Bloyd</sender>
+    <subject>Medical Confidentiality</subject>
+    <body>
+The administration provided us with limited access to the Medical Archive, so we could check the logs, and that's all we need.
+
+We need to find out who is responsible for that attack and get his netcfgx.dll. It should be extracted from his homestation, not gateway or proxy, that won't help us to locate him.
+
+Dig deeper Captain, we will help you along the way!
+
+  -B
+  
+GOALS:
+1)GET INSIDE hacker's personal computer and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox</body>
+    <attachments>
+	<link comp="M2_Med" />
+	<account comp="M2_Med" user="PoliceInvestigation" pass="CheckPass" />
+    </attachments>
+  </email>
+</mission>

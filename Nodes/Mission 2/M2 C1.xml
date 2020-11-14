@@ -1,0 +1,10 @@
+<Computer id="M2_Med" name="San-Francisco's Medical Archive" ip="182.172.94.94" icon="kellis" type="empty">
+<account username="PoliceInvestigation" password="CheckPass" type="1" />
+<ports>21, 22, 80, 104</ports>
+<portsForCrack val="4" />
+<proxy time="1" />
+<firewall level="14" solution="CancerMedicine" additionalTime="0"/>
+<trace time="120" />
+<admin type="progress"/>
+<MedicalDatabase />
+</Computer>

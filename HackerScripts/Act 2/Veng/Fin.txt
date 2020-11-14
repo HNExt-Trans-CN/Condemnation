@@ -1,0 +1,9 @@
+config Omicron NHHub 0.0 $#%#$
+delay 5 $#%#$
+openPort 21 $#%#$
+delay 5 $#%#$
+openPort 22 $#%#$
+delay 9 $#%#$
+openPort 80 $#%#$
+delay 7 $#%#$
+openPort 211 $#%#$

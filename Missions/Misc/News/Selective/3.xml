@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Sel3">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="# BREAKING NEWS">
+Daniel Morales, also known as a hacker Repulse, has been apprehended.
+
+Police was after him for a 2 months after he and his partner, Robert Dockins a.k.a Daedra, attacked San-Francisco Medical Archive.
+
+Detective Bows, who is responsible for that operation, says that he got an anonymous tip from unknown individual through one of the Police digital gateways. The true source of information remains hidden.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

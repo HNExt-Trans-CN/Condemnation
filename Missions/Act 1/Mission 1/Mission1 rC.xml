@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 1 Route C">
+  <goals>
+  <goal type="fileupload" target="M1rC_B3" file="Calculator_Patch.rar" path="home" destTarget="M1rC_Macro" destPath="home"/>
+  <goal type="fileupload" target="M1rC_Personal" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rC Actions.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Data Theft">
+Macrosoft has (well, technically HAD) a new security patch, that fixes a vulnerability, that allowed remote access through calculator proccess.
+
+We need to recover it from a hacker and along the way get his internal file.
+</posting>
+<email>
+	<sender>Clara</sender>
+	<subject>Catch a thief - Make the world better</subject>
+	<body>
+I knew you would pick up that mission. Me and Javis will cover the rest two.
+
+That sneaky worm infiltrated into the Macrosoft workstation. It is supposed to be well protected, so my guess, he used some social engineering.
+
+Macrosoft provided to us the access, I am linking it here. Find hacker's tracks, research his setup adn recover the patch. Don't forget to place it back to the home/ folder of the Macrosoft workstation.
+
+Oh, and of course, get his pesonal PC's netcfgx.dll from /sys folder, so we could analize his activity and pack him up.
+
+Good luck!
+
+    -C
+	
+PRO TIP:
+Use LOGS to find tracks of criminal's computer systems
+
+GOALS:
+1)LOCATE Calculator_Patch.rar on one of the hacker's computers and UPLOAD it to the /home folder of the Macrosoft Workstation
+2)UPLOAD hacker's personal computer's netcfgx.dll file to the ASSET server's upload dropbox
+</body>
+<attachments>
+	<link comp="M1rC_Macro"/>
+	<account comp="M1rC_Macro" user="admin" pass="FuckPear"/>
+</attachments>
+</email>
+</mission>

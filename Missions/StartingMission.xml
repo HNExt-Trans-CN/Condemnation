@@ -1,0 +1,41 @@
+<mission id="Mission 6" activeCheck="true">
+<goals>
+<goal type="clearfolder" target="M6Mod" path="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 6/Alert1.xml</missionEnd>
+  <nextMission>Missions/Act 2/Mission 6/Mission 6 Cont.xml</nextMission>
+   <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>It's been 2 months since I was put on the Federal Wanted List. 
+
+FBI has raided digital infrastructure of the Emalio drug cartel. My IP was in there, I had admin access all over their secured servers somehow.
+
+I had to move in Sacramento, from motel to motel, and finally I have a flat and laptop that I can use.
+
+I saved Hacknet_OS before escaping and installed it on my new PC. But some parts are still broken.
+
+I've lost everything: my career, my team, my family, my life...
+
+...because of that hacker ... Omicron.
+
+He damaged my system so I can't even defend myself from any kind of hackers...
+
+He didn't destroyed me ... he mutilated me ... fucking sadist.
+
+Oh I will find him and make things right ... but I must remember what I am fighting for. I am now on the other side of the criminal world. 
+
+Should I try to reason with it and achieve revenge any means necessary? Or I still remember what justice is and will remain dignity?
+
+In any way, I am using nickname Vortex now, and looking for a way to get tools and get to the Omicron.
+
+I should start my search on local hacker board, most of the time only kids hang out there, but there always will be bullies from higher league.
+
+Before I proceed with some kind of plan, I have to resotre my hacking potential.
+
+I should start here "34.12.21.38"
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

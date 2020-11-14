@@ -1,0 +1,13 @@
+<ConditionalActions>
+	<OnAdminGained target="60.192.249.36">
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="10.0">@channel Guys, this netcfgx.dll_FIXED is kinda suspicious</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="14.0">I've got scanner for netcfgx.dll fast check, and I can see that this one is empty!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">Shit, he retransmitting all network system data to another dll file</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="25.0">@#PLAYERNAME# Captain, try to look around his servers and computers again, there is supposed to be some clue</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="30.0">Yeah, basically this file is swapped with some other computer</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="34.0">So you just have to extract netcfgx.dll of a retransmitting computer and upload it to the Asset server's upload module</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="37.0">@channel I'll send a reminder now</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="39.0">!ATTACHMENT:note#%#GOALS UPDATE#%#FIND correct netcfgx.dll and UPLOAD it to the ASSET server's upload dropbox</AddIRCMessage>
+		<CopyAsset DestFilePath="home" DestComp="M2_P3" SourceComp="Delay" SourceFileName="RETRANSMITTING_ERROR.log" SourceFilePath="home" />
+	</OnAdminGained>
+</ConditionalActions>

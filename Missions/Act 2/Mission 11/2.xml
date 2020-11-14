@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 11 2" activeCheck="true">
+  <goals>
+  <goal type="clearfolder" target="M11A" path="home/Clara"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 11/Justice.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

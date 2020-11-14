@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DEMO END">
+<goals>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/DEMO END.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+   <email>
+    <sender>Omicron</sender>
+    <subject>pst</subject>
+    <body>REPLY ME REPLY REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

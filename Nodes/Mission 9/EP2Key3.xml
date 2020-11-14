@@ -1,0 +1,9 @@
+<Computer id="M9EP2Key3" name="Security Sector, Addressing" security="4" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<encryptedFile path="home" name="Addresing.dec" extension=".db" ip="101.64.243.132" header="Encrypted with DECSuite" pass="IVLAP216ocfs">ADRESSES:ADMIN_TOKEN
+INTERNAL_MAILING@222.116.127.15:NONE
+LIFE_SUPPORT@64.45.145.215:DG85
+AI_CONTROL_DATABASE@90.125.177.225:HJ67
+</encryptedFile>
+</Computer>

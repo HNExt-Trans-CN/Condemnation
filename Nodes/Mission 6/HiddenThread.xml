@@ -1,0 +1,7 @@
+<Computer id="M6Alert" name="NONE" security="2" type="empty">
+<trace time="-1" />
+<admin type="progress"/>
+<WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+<messageBoard name="Alert">
+</messageBoard>
+</Computer>

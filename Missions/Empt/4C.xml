@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Empty 10">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Assist In Search Mission">
+Join Deladello and Prophet
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

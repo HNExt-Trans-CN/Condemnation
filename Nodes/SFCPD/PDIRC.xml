@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PDIRC" name="San-Francisco CyberPolice Department's IRC" allowDefaultBootModule="true" icon="DLCServer" type="1">
+<ports>21, 22, 25, 443, 554</ports>
+<portsForCrack val="101" />
+<admin type="none"/>
+<WhitelistAuthenticatorDaemon Remote="WL"/>
+<DHSDaemon groupName="SFCPD" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="5, 122, 255" allowContractAbbandon="false">
+<agent name="#PLAYERNAME#" pass="CyberCap" color="251, 255, 1"/>
+<agent name="Clara" pass="kjfrkles" color="255, 0, 0"/>
+<agent name="Javis" pass="vdrfhguk" color="3, 251, 255"/>
+<agent name="Bloyd" pass="lsefnl" color="0, 253, 0"/>
+<agent name="Gale" pass="klglkrdlk" color="0, 171, 255"/>
+<agent name="Diana" pass="owfhsfi" color="255, 174, 0"/>
+</DHSDaemon>
+</Computer>

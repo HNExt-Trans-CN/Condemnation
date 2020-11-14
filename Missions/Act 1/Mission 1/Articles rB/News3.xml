@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Time to Unite!">
+Raise 
+against 
+your 
+oppressors, 
+use 
+your 
+technological 
+skills 
+to 
+fight 
+back, 
+just 
+like 
+me! 
+WE 
+WILL 
+WIN 
+THEM 
+OVER!
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

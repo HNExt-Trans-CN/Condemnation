@@ -1,0 +1,162 @@
+<HacknetExtension>
+  <!-- Max name length is 128 characters -->
+	<Name>Condemnation</Name>
+	<AllowSaves>true</AllowSaves>
+  
+  <!-- a coma separated list of notes that start out as being visible-->
+	<StartingVisibleNodes></StartingVisibleNodes>
+  
+  <!-- the mission (if any) that loads in as soon as the player starts -->
+  <StartingMission>Missions/Intro.xml</StartingMission>
+
+  <!-- Conditional action set that is loaded in as soon as a new session is created
+  This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
+  If you don't need this, set it to "NONE", or just delete the tag.-->
+  <StartingActions>Actions/StartingActions.xml</StartingActions>
+
+  <!-- Description that appears within Hacknet -->
+  <Description>------------ENTER THE CRIMINAL WORLD OF HACKING------------------
+  
+                            NOT AS CRIMINAL
+
+BUT AS A CAPTAIN OF SAN-FRANCISCO CYBERPOLICE DEPARTMENT
+
+
+</Description>
+  
+  <!-- Factions involved in this extension! You can define as many or as few as you like -->
+  <Faction>Factions/NightHawks.xml</Faction>
+  <Faction>Factions/Justice.xml</Faction>
+  <Faction>Factions/Vengence.xml</Faction>
+  <Faction>Factions/StartingFaction.xml</Faction>
+  <Faction>Factions/SFCPD.xml</Faction>
+  
+  <StartsWithTutorial>False</StartsWithTutorial>
+  
+  <!-- this makes the extension start with the standard restart bootup sequence -->
+  <HasIntroStartup>True</HasIntroStartup>
+  
+  <StartingTheme>Themes/Blue.xml</StartingTheme>
+  <!-- 
+  Base Themes are named:
+  TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
+  -->
+  
+  <!-- You can reference songs from the original game here, or your own .ogg files by path.
+  To reference original songs, use their name in the files! You don't need the path, just the filename. This works for any songs in these folders:
+  Content/Music
+  Content/DLC/Music
+  
+  To Play your own songs, use the path to that song in your extension.
+  For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
+  <IntroStartupSong>The_Quickening</IntroStartupSong>
+
+  <!-- Sequencer stuff. You won't need this till later.-->
+  <!--
+  <SequencerTargetID>advExamplePC</SequencerTargetID>
+  <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
+  -->
+  <SequencerTargetID>Omicron</SequencerTargetID>
+  <SequencerSpinUpTime>30.96</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>OSEQ</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/Act 2/FinalHack.xml</ActionsToRunOnSequencerStart>
+  <!-- Steam workshop fields -->
+  <!-- 
+  public string WorkshopDescription;
+        public string WorkshopLanguage;
+        public byte WorhsopVisibility = 2;
+        public string WorkshopTags;
+        public string WorkshopPreviewImagePath;
+  -->
+  <WorkshopDescription>[h1]#Hackerjam2[/h1]
+
+
+[b] Warning: this Extension is not recommended for kids under age of 16 and people who suffer from epilepsy[/b]
+
+
+
+
+You were always dreaming about hacking skills? But sometimes, you forget that it is an illegal activity.
+
+Luckily, You can become a Captain of San-Francisco CyberPolice Department to prevail justice in digital space!
+
+Your name is Cypher Mendes and your job is to catch filthy criminals who use 21st century technologies to hurt other people. You are not alone as well! Your team of digital enforcers will join you on your way to justice!
+
+
+But sooner or later you will receive a case of your life
+And there is a chance that it will be [i]too much[/i] for you to bear
+
+Will you remain dignity and justice facing vile evil?
+Or will become a part of it as well with horrible consequences...
+
+
+This Extension features:
+- 4 endings of a thrilling story
+- Karma system, that remembers your actions and displays different content
+- 3+hours of gameplay
+- Awesome music
+- Questionable choices
+- Voice Acting
+- And more!
+
+[b]Nexus Mods Page: 
+  [url=https://www.nexusmods.com/hacknet/mods/34]https://www.nexusmods.com/hacknet/mods/34[/url][/b]
+
+
+
+[b]PS: Detailed Credits
+
+Music by:
+Cyanotic  © Glitch Mode Recordings
+Arti-Fix  © Renaissance
+Sequencer
+
+Images by:
+Abstract Wallpaper - lukeschmader ([url=https://bit-ly.ru/blqexp]https://bit-ly.ru/blqexp[/url])
+hovedlogo - folkehjelp ([url=https://bit-ly.ru/Ywyi8n]https://bit-ly.ru/Ywyi8n[/url])
+RRPDC_Seal_(white,blue) - RRPD  ([url=https://bit-ly.ru/TFjEtn]https://bit-ly.ru/TFjEtn[/url])
+Wallpaper - DyosEL ([url=https://bit-ly.ru/smQx4O]https://bit-ly.ru/smQx4O[/url])
+Blood PNG image 1 ([url=https://bit-ly.ru/c1V8e]https://bit-ly.ru/c1V8e[/url])
+Blood PNG image 2 ([url=https://bit-ly.ru/TNGJkTG9]https://bit-ly.ru/TNGJkTG9[/url])
+Public Domain: Blue Wallpaper ([url=https://bit-ly.ru/h9A6sJz]https://bit-ly.ru/h9A6sJz[/url])
+
+Sound Effects by:
+KNOCKS - chevy1976 ([url=https://bit-ly.ru/NMuf]https://bit-ly.ru/NMuf[/url])
+Fighting men - vedas ([url=https://bit-ly.ru/j1XwW]https://bit-ly.ru/j1XwW[/url])
+Electro synth glitches - gerainsan ([url=https://bit-ly.ru/xAQ8FCq1]https://bit-ly.ru/xAQ8FCq1[/url])
+Body fall - Suburbanwizard ([url=https://bit-ly.ru/DWtZCW]https://bit-ly.ru/DWtZCW[/url])
+Hammering on a door - jmdh ([url=https://bit-ly.ru/FQYf]https://bit-ly.ru/FQYf[/url])
+shotgun - Marregheriti ([url=https://bit-ly.ru/7r5s]https://bit-ly.ru/7r5s[/url])[/b]</WorkshopDescription>
+
+  <!-- Language that this is set to. -->
+  <WorkshopLanguage>English</WorkshopLanguage>
+
+  <!-- Sets the visibility of this item on the workshop.
+  0 = public
+  1 = friends only
+  2 = private (self only)-->
+  <WorkshopVisibility>0</WorkshopVisibility>
+
+  <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
+  of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
+  <WorkshopTags>Extension,#Hackerjam2,Labyrinths</WorkshopTags>
+
+  <!-- Path to the preview image used on the steam workshop for your extension.
+  This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 
+  I recommend the highest resolution you can provide that fits that criteria, 
+  though steam will likely use a version less than 512x512 in size, and will auto resize it for you.
+  
+  This can be different to the provided Logo.png if you want, as this will not be transparently backed on steam.
+  Supported formats are .png, .jpg and .gif
+  -->
+  <WorkshopPreviewImagePath>Logo.png</WorkshopPreviewImagePath>
+
+  <!-- This is the workshop publish ID. The first time your extension is published to Steam, this will be automatically populated with the ID that steam assigns it.
+  When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
+  and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
+  Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
+  <WorkshopPublishID>2124628827</WorkshopPublishID>
+  
+</HacknetExtension>

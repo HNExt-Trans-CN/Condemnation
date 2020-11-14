@@ -1,0 +1,53 @@
+<CustomFaction name="San-Francisco CyperPolice Department" id="SFCPD" playerVal="0">
+  
+  <Action ValueRequired="1">
+	<AddConditionalActions Filepath="Actions/Act 1/Mission 1/Music.xml" DelayHost="Delay" Delay="93.0"/>
+    <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# Great job Captain, we dealt with the other two as well</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="8.0">Got them pretty fast. Our tech guys will analize netcfgx.dll files of these fools and we will get all kind of information about their online activity</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="13.0">And even their physical location of last Internet connection!</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">Is this possible by just 1 analysis of a single file?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="23.0">It is, but with help of all ISPs of California and one special benefactor</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="28.0">Benefactor? And who would be that?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="31.0">EnTech company</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="34.0">They got government support recently and provided their High-End programs to different Police Departments of USA</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="40.0">Including EnSec and Hacknet_OS, that we are using right now</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="45.0">So that we can be more effective against hackers, and they couldn't fight back easily as well</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="52.0">It even protects our infrastructure if someone of us gone rogue, for some reason</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="56.0">Well, this OS is really promissing, but it can cause a lot of damage to anyone who is not protected with EnSec</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="62.0">Kind of monopolistic, isn't it?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="66.0">Yeah, but if they passed all antitrust commissions  somehow, that means their actions are within antitrust law</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="73.0">I think all we need to know, is that we don't let the bad guys having this stuff and making sure nobody is using this software against non-crimuinal elements</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="80.0">Agreed</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="83.0">Let's then focus on our job now</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="86.0">Captain, I have done the document filing and I have a new report</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="91.0">What is it?</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="95.0">Someone attacked San-Francisco's Medical Archive server!</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="101.0">Okay boys and a girl, we have some work to do!</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="106.0">@channel I uploaded report to the server</AddIRCMessage>
+	
+  </Action>
+  
+  <Action ValueRequired="2">
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">Got it, let's wait a little, and most probably  we can get admin access to the whitelist server</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="12.0">How is that possible?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="16.0">I recognize that particular whitelist program, it has a few vulnerabilities</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="22.0">Interesting</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="26.0">Yep, it worked, the admin password is "EternalFriendship"</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="31.0">Oh how lovely for a criminal</AddIRCMessage>
+  </Action>
+  
+  <Action ValueRequired="3">
+	<AddConditionalActions Filepath="Actions/Act 1/Mission 3/Music.xml" DelayHost="Delay" Delay="3.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@#PLAYERNAME# Captain, we analyzed  that netcfgx.dll you've sent now, and that's it, he is living in the north part of city, enforcers are on their way already</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="15.0">Nice job everyone!</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">If I remember correctly, we supposed to have a conference with the FBI representatives</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="25.0">That's right sir!</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">But we still have an unfinished business with that second hacker - Repulse</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">He didn't participate is the attack, but still a partaker of a crime</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="40.0">Of course we could move on to the conference and leave him be, most probably guys from enforcer team will get everything about him from Daedra's place</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="48.0">But this is your call, Captain</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="53.0">So what should we do, boss?</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="56.0">@#PLAYERNAME# Captain, I attatched a report of what we have on Repulse to the Mission Hub, if you are still interested</AddIRCMessage>
+	</Action>
+
+</CustomFaction>

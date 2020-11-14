@@ -1,0 +1,23 @@
+<ConditionalActions>
+	<Instantly>
+	<AddAsset FileName="netcfgx.dll" FileContents="#BINARY#" TargetComp="C5D" TargetFolderpath="home" />
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/DOG.xml" DelayHost="Delay" Delay="5.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, What happened??</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.2"/>
+		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="5.3"/>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">Shit, I was dropped from the server!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="15.0">Then I saved you this time, because I've got the file, it is in /home folder of this server!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="20.0">WOW, nice!!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="25.0">Only one thing left</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">Upload it to the police</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="34.0">Are you having honors then?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="38.0">No, I feel right if you do it</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="42.0">You should upload it</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="47.0">Can you give an IP?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="51.0">Sure, I will give you IP of Santa-Rosa's PD, they are not EnTech protected so you won't have problems there</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">Thank you</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">Moment of truth</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="63.0">!ATTACHMENT:link#%#Santa-Rosa Police Department#%#175.102.196.84</AddIRCMessage>
+	</Instantly>
+</ConditionalActions>

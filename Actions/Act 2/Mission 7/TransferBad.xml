@@ -1,0 +1,20 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Repulse">
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M7Gate" NewIP="#RANDOM_IP#" />
+	<RunFunction FunctionName="addRankFaction:VEnd" FunctionValue="1" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Repulse3.xml" DelayHost="Delay" Delay="0.1"/>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="4.9"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.0"/>
+		<ChangeAlertIcon Target="M7IRC" Type="irc" DelayHost="Delay" Delay="5.1"/>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Jester">
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M7Gate" NewIP="#RANDOM_IP#" />
+	<RunFunction FunctionName="addRankFaction:VEnd" FunctionValue="1" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Jester3.xml" DelayHost="Delay" Delay="0.1"/>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="4.9"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.0"/>
+		<ChangeAlertIcon Target="M7IRC" Type="irc" DelayHost="Delay" Delay="5.1"/>
+	</HasFlags>
+	
+</ConditionalActions>

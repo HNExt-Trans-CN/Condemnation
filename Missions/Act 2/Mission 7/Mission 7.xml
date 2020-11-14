@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 7" activeCheck="true">
+  <goals>
+  <goal type="filedownload" target="M7A1" file="Fix_P1.bat" path="home"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:Actions/Act 2/Mission 7/Link.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 7/MapLock.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Mission 7/Main.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

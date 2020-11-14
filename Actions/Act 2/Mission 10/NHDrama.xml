@@ -1,0 +1,65 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:NHIn" FunctionValue="0" />
+	<RunFunction FunctionName="addRankFaction:VEnd" FunctionValue="2" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Omicron3A.xml" DelayHost="Delay" Delay="30.0"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@channel, Okay people</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.0">Destroy that place and all connected servers</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">It is time when we can fight back not just police, but Feds as well!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">Yes! Finally we have power that we supposed to have</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">Nothing will stop us right now!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">Yes, that's right</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="26.0">Enjoy your power and prove to everyone that you are unstoppable!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">Yes!</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">That's right!</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="30.0">Yeah!</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="30.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="36.23">Look what you've done</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="38.79">You gave a neo-nazi group the power they were dreaming about</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="43.45">Now they can do whatever they want</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="46.69">Thanks to you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.02">They will wreak chaos</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="51.08">And destroy everyone who is not strong enough for them</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="55.72">But you've become stronger as well</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="58.30">You can finally match me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="60.96">But first we need to be sure that nobody will disturb us</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="64.59">It would be a shame if someone will intervene in our matter</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.79">I made NighHawks busy with their new toys</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="72.42">While I can still worry that only one person is left who can ruin our party</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="79.43">Clara Gilmore</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="82.16">A brilliant detective that have become one of the best in her PD</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="86.51">Because of your failure by the way</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="89.36">She used you, to finally get to the top</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="93.11">And become a Captain as well</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="95.58">But now you are more powerful than ever</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="100.30">There are no laws that control you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="103.83">No rules</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="105.43">You are the master of your fate</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="108.51">You have only one obstacle on your way of vengence</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="112.71">Me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="114.23">And while I am uloading compromising files of Clara that I made</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="118.74">So she would be out of the game</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="121.52">You can find my location file</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="124.71">You can arrest me, you can kill me, you can do whatever you want with me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="130.28">Alternatively, you can find source files that are transmitting to FBI and save Clara</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="137.25">But that won't stop me and my future projects</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="140.56">Oh, and belive me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="142.88">They will be disastrous</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="144.75">With a lot of people dead</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="147.26">Because of you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="148.79">You won't have enough time to do both targets</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="151.58">You can either extract a geolocation file from my proxy</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="154.84">Or delete Clara files on my archive</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="158.04">You have something about two minutes</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="161.64">Well?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="163.42">WHAT ARE YOU WAITING FOR?</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="164.90">!ANNOUNCEMENT! %@$#%@SUFHE73#$3AIJFA</AddIRCMessage>
+	<StartScreenBleedEffect AlertTitle="DECIDE" CompleteAction="Actions/Act 2/Mission 11/Failure.xml" TotalDurationSeconds="120.00" DelayHost="Delay" Delay="164.90">Scan the Gateway:113.114.36.122
+Clara - remove her folder from Archive
+Omicron - download his location file from Proxy</StartScreenBleedEffect>
+	</Instantly>
+	
+	<OnConnect target="M11G" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M11G.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+</ConditionalActions>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Death to the Capitalism!">
+We 
+will 
+not 
+let 
+dirty 
+capitalists 
+to 
+exploit 
+our 
+nation 
+for 
+a 
+sake 
+of
+wellness 
+of 
+20 
+people, 
+that 
+rule 
+this 
+country!
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

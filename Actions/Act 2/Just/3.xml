@@ -1,0 +1,58 @@
+<ConditionalActions>
+	<OnConnect target="C5D" needsMissionComplete="false">
+	<RunFunction FunctionName="addFlags:JStrong" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/Flag.xml" DelayHost="Delay" Delay="218.0"/>
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="5.0">@Clara, are you okay???</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="10.0">What just happened?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="14.0">Omicron tried to set you up just like me</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="18.0">I prevented the upload to the FBI servers</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="22.0">He made some files that can compromise you</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="27.0">But I am innocent</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="32.0">I know that, but we tampered inside of EnTech</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="36.0">And I think that Omicron can place your tracks on some criminal servers</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">Same happened to me 2 months back</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">Yeah...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">We need to drop the case for some time, this is too dangerous for both of us</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="55.0">He will make us do something that will turn us into monsters or will kill us</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">But he is a big danger for everyone</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="64.0">I know, but we don't have anything to begin with, he is most probably gone dark again</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="69.0">I could've get his location file, but I can't sacrifice you or anybody else</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="74.0">We should just stay out of it for a while</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="78.0">Just to remain dignity and not to fall in the pit of vengeance</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="83.0">I know you made some questionable actions while you were undercover</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="88.0">But now I believe that your soul is still in right place</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="92.0">You are right, sacrifices won't get us anywhere except his traps</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="96.0">But there is gotta be something we can do!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="102.0">I am out of ideas, maybe he left something on your PC?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="106.0">Let me check...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="115.0">I think that he downloaded a few of my files with help of the EnSecBreach.dll</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="120.0">Maybe I can find an address where data were transmitting to</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="125.0">Be careful there</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="133.0">I think I got it</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="137.0">But I don't think that this is his real PC</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="141.0">Most probably a dummy with a trap</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="145.0">So what should we do?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="150.0">Look, he tried to manipulate you for a long time</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="154.0">To make you a bad person</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="158.0">And so I would refuse to help you</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="162.0">That's his plan according to my researches</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="167.0">Why does he want me to turn vile?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="172.0">Maybe he looks for successor</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="176.0">Don't know for sure</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="180.0">The point is, he awaits you</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="185.0">Maybe you can try to get to him while I will look for any security breaches</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="190.0">So I am the bait, huh?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="194.0">Yep, I think it is only way to get to him now</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="198.0">I will give you the link and you should delete everything there</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="202.0">That will attract him and most probably he will attack</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="206.0">While both of you are busy, I will look for a way to get to his real PC</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="210.0">I guess it is only way</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="215.0">Be careful, Cypher</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="218.0">!ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30</AddIRCMessage>
+	</OnConnect>
+	
+	<OnConnect target="OmBoss" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+</ConditionalActions>

@@ -1,0 +1,5 @@
+config 158.234.207.206 123.207.231.145 0.2 $#%#$
+connect $#%#$
+delete /home Calculator_Patch $#%#$
+disconnect $#%#$
+

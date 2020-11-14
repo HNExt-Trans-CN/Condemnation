@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 1 Route A">
+  <goals>
+    <!-- Goals here -->
+	<goal type="fileupload" target="M1rA_SK" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+	<goal type="filechange" target="M1rA_Sec" file="Presentation_Text.docx" path="home" keyword="DICK" removal="true"/>
+	<goal type="filechange" target="M1rA_Sec" file="Presentation_Text.docx" path="home" keyword="ePhone" caseSensitive="true"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rA Actions.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Cybervandalizm">
+  
+  
+  
+Some trickster tried to have some fun with confidential promotion documents, now they are in mess, word DICK is everywhere!
+
+But what's more important - this is a text for new ePhone presentation. We have to fix everything and find a guy's IP, before the whole world would know how much SFCPD suck
+  </posting>
+  <email>
+	<sender>Clara</sender>
+	<subject>Good vandal = locked up vandal</subject>
+	<body>
+I knew you would pick up that mission. Me and Javis will cover the rest two.
+
+Security Chief of the Pear company texted us with this news. He said it wouldn't be a problem for him, but there is just too little time left before presentation.
+
+Sooo he left everything as it is, which means most probably you will find some tracks of that script kiddie.
+
+I want his netcfgx.dll, you can find it in sys/, so we could research every other sin he made and then pack him up. When you get it, upload it to the Asset server's upload module.
+
+Oh, and by the way, could you also replace DICK back to ePhone in the presentation file? Pretty please? You will find it with the logs and everything on PC that I linked.
+
+-C
+
+PRO TIP:
+Use LOGS to find tracks of criminal's computer systems
+
+GOALS:
+1)GET INSIDE vandal's Battlestation and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+2)REPLACE word "DICK" to "ePhone" in presentation file</body>
+	<attachments>
+	<link comp="M1rA_Sec"/>
+	<account comp="M1rA_Sec" user="admin" pass="JeveStobs"/>
+	</attachments>
+</email>
+</mission>

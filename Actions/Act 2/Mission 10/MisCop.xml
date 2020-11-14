@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<CopyAsset DestFilePath="bin/Stash" DestComp="NHHub" SourceComp="Delay" SourceFileName="EnBreak.exe" SourceFilePath="home" />
+	</Instantly>
+</ConditionalActions>

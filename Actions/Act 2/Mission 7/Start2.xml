@@ -1,0 +1,10 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Repulse">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Repulse2.xml" DelayHost="Delay" Delay="0.1"/>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Jester">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Jester2.xml" DelayHost="Delay" Delay="0.1"/>
+	</HasFlags>
+	
+</ConditionalActions>

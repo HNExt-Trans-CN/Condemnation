@@ -1,0 +1,21 @@
+<ConditionalActions>
+	<Instantly>
+	<AddAsset FileName="netcfgx.dll" FileContents="#BINARY#" TargetComp="NHHub" TargetFolderpath="home" />
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Dark.xml" DelayHost="Delay" Delay="5.0"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, We did it??</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="10.0">Vortex dropped but I managed to get in and extract all files</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">Yeees</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="19.0">I took his tokens from sys libs and copied netcfgx.dll on this server</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="22.0">His money is our's now</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">FUCK YEAH!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="30.0">See? Hell of a good job, people!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">I have only one favor to ask</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="39.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">Slayer, I need to kill him now</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">No probs, just upload his netcfgx.dll on drop server that I will send</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">Great job everybody!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="58.0">Vortex, we are grateful to you for this contract</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="63.0">I hope you will satisfy your vengeance at last</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="65.0">!ATTACHMENT:link#%#KILLER'S JOINT#%#157.94.166.221</AddIRCMessage>
+	</Instantly>
+</ConditionalActions>

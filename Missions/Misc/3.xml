@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8 3">
+  <goals>
+  <goal type="filedeletion" target="C3A" file="config.sys" path="MsgBoard"/>
+  <goal type="clearfolder" target="C3B" path="sys"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C3.xml</missionStart>
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Foul Mouths">
+A certain news company think that there is a freedom of speech in our country
+  </posting>
+  <email>
+    <sender>E-Mail</sender>
+    <subject>Foul Mouths</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Hello agent, did you ever been annoyed by disrespectful mass media that is doing nothing but plotting controversy? Yeah I know, fuck'em, they talked shit about me spending my parents' money on whole cocaine batch for myself, but in fact that was for my hoes, they need some action while we play at my penthouse.
+
+Anyway, I want you to shut down that stupid news channel, and on the way ruin their infrastructire as well, like hit their mainframe like in good ol' Hollywood, I don't know, you are the hackster after all.
+
+GOALS:
+
+1) DISRUPT news channel server, so it won't show any articles (clear /MsgBoard folder)
+2) DESTROY mainframe of the news company (clear /sys folder)
+3) REPLY to this E-Mail after everything is done
+</body>
+    <attachments>
+	<link comp="C3A" />
+    </attachments>
+  </email>
+</mission>

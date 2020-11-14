@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 10 Clara" activeCheck="true">
+  <goals>
+  <goal type="filechange" target="C5D" file="INPUT.txt" path="bin/EnBreak" keyword="27.113.216.249" caseSensitive="true"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/ClaraM.xml</missionEnd>
+  <nextMission>Missions/Act 2/Mission 10/ClaraM.xml</nextMission>
+  <email>
+    <sender>E-mail</sender>
+    <subject>?</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+What is that?
+Go to the IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,11 @@
+<Computer id="M9EP2Key2" name="Security Sector, Passwords Database" security="5" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<encryptedFile path="home" name="Passwords.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">TOKEN:PASSWORD
+VP39:GTV4hb
+TV65:CON1dp
+CR10:PAC5yb
+CP45:WEM8rb
+DG85:NUH6fs
+HJ67:ZQP5gt</encryptedFile>
+</Computer>

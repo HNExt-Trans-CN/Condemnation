@@ -1,0 +1,6 @@
+config M6Stupid Delay 0.2 $#%#$
+openPort 21 $#%#$
+openPort 22 $#%#$
+openPort 25 $#%#$
+openPort 80 $#%#$
+delete /log * $#%#$

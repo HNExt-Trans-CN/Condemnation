@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Transfer.xml" DelayHost="Delay" Delay="42.0"/>
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/Omicron1.ogg" FunctionValue="0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/END.txt" DelayHost="Delay" Delay="0.0" SourceComp="M5C3" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+</ConditionalActions>

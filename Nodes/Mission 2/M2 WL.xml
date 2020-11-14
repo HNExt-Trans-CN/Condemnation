@@ -1,0 +1,9 @@
+<Computer id="M2_WL" name="White List Server" ip="12.111.65.135" icon="DLCServer" type="3">
+<adminPass pass="EternalFriendship" />
+<ports>21, 22, 25, 80, 104</ports>
+<portsForCrack val="5" />
+<trace time="100" />
+<admin type="progress"/>
+<file path="Whitelist" name="list.txt">RESET_ERROR</file>
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+</Computer>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8 1">
+  <goals>
+<goal type="fileupload" target="NHCross" file="Fin-Rep.accdb" path="home/Contract_Files/Data_Manipulation" destTarget="C1C" destPath="home/11_19"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C1.xml</missionStart>
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  
+  <posting title="Data Manipulation">
+Some documents must be placed where they are not supposed to be
+  </posting>
+  <email>
+    <sender>E-Mail</sender>
+    <subject>Data Manipulation</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Hello agent, I have a request of a delicate type. I need to knockout my business competitors, colliding them with sudden tax inspection. I need you to plant a certain report with some "non-stated expenses" on the company's bookkeeping server, It is supposed to be in 11_19 folder.
+
+You can find Fin-Rep.accdb file on your organisation's Crossroads Server, I have an IP of their HR Department, from there you can explore their system.
+
+GOALS:
+
+1) PLACE Fin-Rep.accdb on FJR-Insurance company's bookkeeping server in 11_19 folder and reply this E-Mail
+</body>
+    <attachments>
+	<link comp="C1A" />
+    </attachments>
+  </email>
+</mission>

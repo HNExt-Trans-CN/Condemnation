@@ -1,0 +1,14 @@
+config playerComp NHHub 0.1 $#%#$
+writel EnSec LOCATED! $#%#$
+delay 5 $#%#$
+write_silent Analyzing $#%#$
+delay 1.5 $#%#$
+write_silent . $#%#$
+delay 1.5 $#%#$
+write_silent . $#%#$
+delay 1.5 $#%#$
+write_silent . $#%#$
+delay 3 $#%#$
+writel EnSec BREACHED! admin=FIHef3ih $#%#$
+writel Saving a log to /home folder $#%#$
+makeFile home EnTech_Side_Server_Pass admin=FIHef3ih

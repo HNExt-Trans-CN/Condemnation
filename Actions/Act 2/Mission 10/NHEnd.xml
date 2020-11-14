@@ -1,0 +1,25 @@
+<ConditionalActions>
+	<Instantly>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/WL.txt" DelayHost="Delay" Delay="70.0" SourceComp="NHHub" TargetComp="WL" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, Well done everybody</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.0">Now I can make some juicy piece of software out of this</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">What we will find on that Asset server?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="20.0">Something beautiful</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.0">Yes, it is ready</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="30.0">Gentlemen, I invite you to join me and upgrade your stash</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="35.0">But before we break a wall, I think that we all should thank Vortex for his resourcefulness!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="40.0">Cut the crap</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="44.0">Ooookaaay</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.0">I think it is a right time to settle our matter</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="52.0">Get all possible tools from your previous home base and we can have our epic final battle</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="57.0">Oh, and of course I am asking NightHawks to loot that place as well</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="61.0">And destroy everything there after my command</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="65.0">Opening access in 5...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="66.0">4...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="67.0">3...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">2...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="69.0">1...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.0">@channel, go and take everything from there!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.0">!ATTACHMENT:link#%#Asset Server#%#90.91.183.142</AddIRCMessage>
+	</Instantly>
+</ConditionalActions>

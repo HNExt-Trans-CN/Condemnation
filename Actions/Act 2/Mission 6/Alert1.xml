@@ -1,0 +1,8 @@
+<ConditionalActions>
+	<Instantly>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Vis1.xml" DelayHost="Delay" Delay="10.0"/>
+		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="10.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid1.xml" DelayHost="Delay" Delay="10.2"/>
+		<ChangeAlertIcon Target="M6Thread" Type="board" DelayHost="Delay" Delay="10.3"/>
+	</Instantly>
+</ConditionalActions>

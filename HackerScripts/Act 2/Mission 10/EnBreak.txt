@@ -1,0 +1,2 @@
+config playerComp NHHub 0.1 $#%#$
+writel EnBreak.exe IS ACTIVE, ENJOY YOUR POWER

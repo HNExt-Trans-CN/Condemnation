@@ -1,0 +1,10 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
+	<RunFunction FunctionName="addFlags:OSEQ" FunctionValue="6" />
+	<RunFunction FunctionName="changeSong" FunctionValue="11" />
+	<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
+	</Instantly>
+	
+</ConditionalActions>

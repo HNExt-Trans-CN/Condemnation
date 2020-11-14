@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5IRC" name="Team Rioba's IRC" ip="83.201.110.70" icon="DLCServer" type="empty">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 443</ports>
+  <proxy time="1" />
+  <trace time="90" />
+
+<IRCDaemon themeColor="255,250,2" name="Team Rioba's IRC" needsLogin="true">
+  <user name="Omicron" color="255,6,6"/>
+  <user name="Super_Fluffy" color="255,0,252"/>
+  <user name="Muskat" color="0,100,254"/>
+  
+  <post user="Super_Fluffy">What happened? I am receiving unsafe disconnect warnings</post>
+  <post user="Omicron">I tried to forkbomb it but that node started a reboot</post>
+  <post user="Muskat">I think we are safe, our proxy and relay infrastructure is well hidden</post>
+  <post user="Super_Fluffy">Next time be more careful, that was kinda stupid</post>
+  <post user="Super_Fluffy">Don't put us in risk, man</post>
+  <post user="Omicron">I am really sorry guys. At least I brought you that job in the first place</post>
+  <post user="Super_Fluffy">Thank you for that of course, and for SSL stuff</post>
+  <post user="Super_Fluffy">Just don't fuck up like that next time</post>
+  <post user="Omicron">Sure thing!</post>
+  <post user="Muskat">I am gonna play PointClicker to relax a bit</post>
+  <post user="Omicron">I want too! Remind me, where it is located?</post>
+  <post user="Muskat">Here you go man: 73.254.28.94</post>
+  <post user="Muskat">But I think I will tweak my points a little bit ;)</post>
+  <post user="Super_Fluffy">Don't forget to wipe the logs then</post>
+  <post user="Muskat">Oh come on, who is gonna search there for me?</post>
+  <post user="Super_Fluffy">You never know who is listening</post>
+  <post user="Muskat">Well cops don't play that for sure</post>
+  <post user="Super_Fluffy">Just be careful</post>
+ </IRCDaemon>
+</Computer>

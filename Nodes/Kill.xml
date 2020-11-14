@@ -1,0 +1,5 @@
+<Computer id="KILL" name="KILLER'S JOINT" ip="157.94.166.221" security="0" icon="Psylance" type="4">
+<trace time="-1" />
+<admin type="progress"/>
+<uploadServerDaemon name="KILLER'S JOINT" folder="Drop" needsAuth="false" color="255,0,0"/>
+</Computer>

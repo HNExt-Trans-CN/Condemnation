@@ -1,0 +1,39 @@
+<Computer id="M9LeakDB" name="DB" icon="DLCServer" type="1">
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="6" />
+<proxy time="30" />
+<firewall level="9" solution="Dodcasper" additionalTime="0.3"/>
+<trace time="90" />
+<admin type="progress"/>
+<DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="0,190,186" AdminEmailAccount="LEAK_ADMIN" AdminEmailHostID="M7Mail" Name="LEAK">
+<GitCommitEntry>
+      <EntryNumber>1478</EntryNumber>
+      <ChangedFiles>
+        <String>Decypher.exe</String>
+		<String>DECHead.exe</String>
+      </ChangedFiles>
+      <Message>DECSuite leaked build</Message>
+      <UserName>Malber</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+      <EntryNumber>5732</EntryNumber>
+      <ChangedFiles>
+        <String>SSHCrack.exe</String>
+		<String>FTPBounce.exe</String>
+      </ChangedFiles>
+      <Message>Starter pack</Message>
+      <UserName>Newman</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+      <EntryNumber>8429</EntryNumber>
+      <ChangedFiles>
+        <String>Spenser.rar</String>
+      </ChangedFiles>
+      <Message>Spenser's Personal Files</Message>
+      <UserName>Newman</UserName>
+      <SourceIP>61.38.203.81</SourceIP>
+</GitCommitEntry>
+</DatabaseDaemon>
+</Computer>

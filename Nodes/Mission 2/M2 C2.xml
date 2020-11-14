@@ -1,0 +1,16 @@
+<Computer id="M2_DaedraGate" name="Daedra's Gateway" ip="209.112.125.179" security="3" type="empty">
+<ports>21, 22, 25, 80, 6881</ports>
+<portsForCrack val="5" />
+<trace time="120" />
+<admin type="progress"/>
+<eosDevice name="Daedra's ePhone XR" id="M2_eos" icon="ePhone2" empty="false" passOverride="Alpine">
+<mail username="Daedra@dynamic.com" pass="JujaPic123" />
+</eosDevice>
+<file path="home" name="Reminder">Dynamic mail server IP-updater changing IP every week 
+
+This week's IP is "43.58.94.100"</file>
+<dlink target="M2_P2" />
+<dlink target="M2_P1" />
+<dlink target="M2_P3" />
+<dlink target="M2_P4" />
+</Computer>

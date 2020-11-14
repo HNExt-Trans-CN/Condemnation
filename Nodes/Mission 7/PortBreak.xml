@@ -1,0 +1,6 @@
+<Computer id="M7Kellis" name="Kellis BioTech's Security Archive 267" ip="48.189.248.31" security="3" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home/104" name="Memo.txt">This is a prototype of a medical services port breaker, DO NOT SEND THIS COPY TO UNAUTHORIZED PERSONS</file>
+<file path="home/104" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+</Computer>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5HS4" name="Team Rioba's HackStation" ip="13.211.189.8" type="3">
+
+<ports>21, 22, 25, 443</ports>
+<portsForCrack val="4" />
+<trace time="120" />
+
+ <file path="home" name="RELAY.log">CommandTrack sequence engaged: saving relay info for IRCHost</file>
+ <file path="home/Sequencer" name="logs">Establishing connection of users: Muskat, Super_Flufy, Omicron to *ADRESS DELETED*
+ 
+ CONNECTION SUCCESS
+	TRACE EVADING PROGRAM ACTIVATED
+	PORTHACK EXECUTED
+	ERROR OF FORKBOMB EXECUTION
+DISCONNECTION UNSAFE! LOGS MAY HAVE BEEN LEFT!!!
+SENDING INFO TO THE IRCHost on "83.201.110.70"
+</file>
+  
+</Computer>

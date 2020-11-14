@@ -1,0 +1,13 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="removeFlags:EpicFail" FunctionValue="6" />
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Silence.xml" DelayHost="Delay" Delay="0.00"/>
+	<CancelScreenBleedEffect DelayHost="Delay" Delay="0.0" />
+	<KillExe DelayHost="Delay" Delay="0.0" ExeName="*" />
+	<CrashComputer TargetComp="Omicron" CrashSource="Delay" DelayHost="Delay" Delay="0.0" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="Omicron" NewIP="#RANDOM_IP#" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="Omicron" />
+	<AddConditionalActions Filepath="Actions/Act 2/Just/END.xml" DelayHost="Delay" Delay="5.00"/>
+	<LoadMission MissionName="Missions/Act 2/Just/END.xml" />
+	</Instantly>
+</ConditionalActions>

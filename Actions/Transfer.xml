@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<Instantly>
+	<AddMissionToHubServer MissionFilepath="Missions/Act 1/Mission 1/Mission1 rA.xml" TargetComp="PDIRC"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Act 1/Mission 1/Mission1 rB.xml" TargetComp="PDIRC"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Act 1/Mission 1/Mission1 rC.xml" TargetComp="PDIRC"/>
+	</Instantly>
+</ConditionalActions>

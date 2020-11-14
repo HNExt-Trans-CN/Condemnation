@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="M7E2" handle="NONE1" firstName="Javis" lastName="Williamson" isMale="true" forceHasNeopals="false">
+ <Birthplace name="Califonia, San-Francisco" />
+ <DOB>22/09/1992 21:46:36</DOB>
+ <Degrees>
+    <Degree uni="San-Francisco Police Acadamy" gpa="4.0">Admitted to the service in the Police</Degree>
+    <Degree uni="Berkley Academy" gpa="3.8">Bachelor of Digital Security</Degree>
+	<Degree uni="Berkley Academy" gpa="3.4">Masters of Digital Security</Degree>
+ </Degrees>
+ 
+ <Medical>
+    <Blood>B</Blood>
+    <Height>175</Height>
+    <Allergies>Cat Fur,Domestic Dust</Allergies>
+    <Perscription>Vitamin Complex X12 x1</Perscription>
+    <Perscription>Antidepressant Molexus x4</Perscription>
+    
+    <Notes>Patient is diagnosed with a depression after a certain events few months prior
+
+He has been perscripted to use a soft narcotic-type drug Molexus to ease the negative thoughts
+
+Patient must attend to the regular check-ups of the psychologist specialist</Notes>
+  </Medical>
+  </Person>

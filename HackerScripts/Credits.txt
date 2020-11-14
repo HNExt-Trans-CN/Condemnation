@@ -1,0 +1,81 @@
+config playerComp Delay 0.0 $#%#$
+clearTerminal $#%#$
+showTerminal $#%#$
+delay 1 $#%#$
+writel ---------------------CREDITS--------------------- $#%#$
+delay 1 $#%#$
+writel Project lead: $#%#$
+delay 0.5 $#%#$
+write danilapon $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel Story: $#%#$
+delay 0.5 $#%#$
+write danilapon $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel Programming: $#%#$
+delay 0.5 $#%#$
+write danilapon $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel Programming Assistance: $#%#$
+delay 0.5 $#%#$
+write Fayti1703,chanbakjsd $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel Testers: $#%#$
+delay 0.5 $#%#$
+write danilapon, Raven, chanbakjsd $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel Music by: $#%#$
+delay 0.5 $#%#$
+writel Cyanotic - Monochrome Skies (The Medication Generation) $#%#$
+delay 0.5 $#%#$
+writel Cyanotic - Pressure (remaster) (Worst Case Scenario Vol 1) $#%#$
+delay 0.5 $#%#$
+writel Cyanotic - Borderliner (remaster) (Worst Case Scenario Vol 1) $#%#$
+delay 0.5 $#%#$
+writel Cyanotic - Formless Memories (Part 2) (MedPack Vol 1) $#%#$
+delay 0.5 $#%#$
+writel Arti-Fix - Night Crime $#%#$
+delay 0.5 $#%#$
+writel Arti-Fix - The Mercury Man  $#%#$
+delay 0.5 $#%#$
+writel Sequencer - Wake Up, Time To Die  $#%#$
+delay 0.5 $#%#$
+writel Cyanotic (C) Glitch Mode Recordings $#%#$
+delay 0.5 $#%#$
+writel Arti-Fix (C) RENAISSANCE $#%#$
+delay 15 $#%#$
+writel $#%#$
+writel Images by: $#%#$
+delay 0.5 $#%#$
+writel Abstract Wallpaper - lukeschmader $#%#$
+delay 0.5 $#%#$
+writel hovedlogo - folkehjelp $#%#$
+delay 0.5 $#%#$
+writel RRPDC_Seal_(white,blue) - RRPDC $#%#$
+delay 0.5 $#%#$
+writel Wallpaper - DyosEL $#%#$
+delay 10 $#%#$
+writel $#%#$
+writel Sound Effects by: $#%#$
+delay 0.5 $#%#$
+writel KNOCKS - chevy1976 $#%#$
+delay 0.5 $#%#$
+writel Fighting men - vedas $#%#$
+delay 10 $#%#$
+writel $#%#$
+writel Special Thanks: $#%#$
+delay 0.5 $#%#$
+writel Matt Trobbiani, Fayti1703, Raven, chanbakjsd $#%#$
+delay 0.5 $#%#$
+writel All Hacknet community $#%#$
+delay 0.5 $#%#$
+writel And You! $#%#$
+delay 10 $#%#$
+writel ---------------------THE END--------------------- $#%#$
+delay 20 $#%#$
+hideTerminal $#%#$

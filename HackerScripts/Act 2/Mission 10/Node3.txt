@@ -1,0 +1,18 @@
+config playerComp NHHub 0.1 $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$
+write #BINARY# $#%#$

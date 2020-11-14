@@ -1,0 +1,8 @@
+<ConditionalActions>
+	
+	<OnAdminGained target="M7IRC">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Start1.xml" DelayHost="Delay" Delay="0.1"/>
+	<ChangeAlertIcon Target="M7IRC" Type="irc" DelayHost="Delay" Delay="0.2"/>
+	</OnAdminGained>
+	
+</ConditionalActions>

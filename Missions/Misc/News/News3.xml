@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8N3">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Deflation Is In Progress">
+Minister of Economy Morgan Shellard stated that economical state of USA is drastically improved since last year. He assures all of the american people that our country is regaining economical power way beyond imagination and every citizen of all big cities can afford anything they ever wanted.
+
+Multiple independent economists are thinking that statement is oversaturated with inaccuracy and very hyperbolized. More importantly is that deflation has a negative side as well and everyone should prepare for unforseen consequences of speeches like that.
+
+	-Harold Shrader, Diamond Breeze Reporter
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

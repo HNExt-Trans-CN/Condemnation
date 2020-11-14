@@ -1,0 +1,13 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Om_B">
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/3.ogg" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/OmB.xml" DelayHost="Delay" Delay="0.0"/>
+	<LoadMission MissionName="Missions/Act 2/Mission 10/Start.xml" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Om_G">
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/3.ogg" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/OmG.xml" DelayHost="Delay" Delay="0.0"/>
+	<LoadMission MissionName="Missions/Act 2/Mission 10/Start.xml" />
+	</HasFlags>
+</ConditionalActions>

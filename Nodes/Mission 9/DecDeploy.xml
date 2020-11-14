@@ -1,0 +1,17 @@
+<Computer id="M9Deploy" name="DECSuite Deploy Server" security="5" type="4">
+ <adminPass pass="COnj0st3R" />
+<trace time="90" />
+<admin type="progress"/>
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<encryptedFile path="home" name="Entry_Points_1.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">Here is an Entry Point: Kellis BioTech, which contains 1 life support unit
+
+160.173.170.74</encryptedFile>
+<encryptedFile path="home" name="Entry_Points_2.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">Here are 3 Entry Points: West Wing, Kellis BioTech, Medical Archive. They contain 5 life support units
+
+222.176.165.116
+160.173.170.74
+202.210.23.133</encryptedFile>
+<encryptedFile path="home" name="Entry_Points_3.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">Here is an Entry Point: Medical Archive, which contains 1 life support unit
+
+202.210.23.133</encryptedFile>
+</Computer>

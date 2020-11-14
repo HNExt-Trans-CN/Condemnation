@@ -1,0 +1,9 @@
+<Computer id="M9EP2Main" name="West Wing Life Support Equipment" ip="64.45.145.215" security="5" type="4">
+<account username="Deracode" password="NUH6fs" type="0" />
+<portsForCrack val="101" />
+<trace time="10" />
+<admin type="progress"/>
+<dlink target="M9EP2D1" />
+<dlink target="M9EP2D2" />
+<dlink target="M9EP2D3" />
+</Computer>

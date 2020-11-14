@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Bonk 4" activeCheck="true">
+  <goals>
+  
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/Misc/4.xml</nextMission>
+  <posting title="Data Extraction">
+A 16-digit peice of data can solve a big $ question
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

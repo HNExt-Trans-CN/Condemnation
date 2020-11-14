@@ -1,0 +1,32 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/JusticeR.xml" DelayHost="Delay" Delay="109.0"/>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="5.0">@Vortex How is the progress?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="9.0">I alredy made fakes, that can show him off as drug trafficking member, just like Mendes guy</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="13.0">I am working on it</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="18.0">Work faster, if you keep that slow pace of yours, I can manage it myself</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="22.0">Which makes you not a big help</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="26.0">Meaning there will be no fix for you</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="30.0">I am doing my best here, forgot that I don't have a working map already?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="35.0">Ok, sorry, it's just matters for me too much</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="38.0">On it</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">I can't wait to find Cypher Mendes</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">What?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">Maybe he found you first</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="57.0">What do you mean?...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">He disappeared after all, maybe he is in a big trouble like you, maybe you could've met him somewhere</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="66.0">And if he finds out you are looking for him, if he is such a bad cop, he will retailate</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="71.0">I am prepared to anything</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="75.0">Anything? Even if he comes with a gun to your house?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="80.0">Don't sure about that...</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="85.0">SHIT, cops trying to break in!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="88.0">What? Why?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="92.0">IDK, maybe because of my experiments with their servers</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="95.0">I knew that they would find me sooner or later</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="99.0">I will activate your fix now, use additional info to find NightHawks' Hub, tell Maverick that experiment failed</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="105.0">NOW! GO!</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="107.0">!ANNOUNCEMENT! REPULSE LOST CONNECTION TO THE SERVER @channel</AddIRCMessage>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="105.0"/>
+	</Instantly>
+</ConditionalActions>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Justice 3" activeCheck="true">
+  <goals>
+  <goal type="hasflag" target="NH_Done"/>
+  </goals>
+  
+  <nextMission>Missions/Act 2/Just/3_2.xml</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>That was way too close for Clara
+
+I can't endanger her anymore
+Just thinking that she can go through the same hell as me is frightening me
+
+We must do something to ensure our safety
+Maybe even drop the case for a few months
+It is not even a two-man job after all
+
+He can easily kill us or make monsters out of us
+This is his game and we should stop playing it
+
+I should go to our IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

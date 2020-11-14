@@ -1,0 +1,5 @@
+<Computer id="M7PD7" name="San-Jose Police Department" ip="243.157.218.48" security="4" type="3">
+<trace time="90" />
+<admin type="progress"/>
+<WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+</Computer>

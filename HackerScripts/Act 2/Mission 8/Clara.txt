@@ -1,0 +1,7 @@
+config C5A C5B 0.2 $#%#$
+connect $#%#$
+openPort 21 $#%#$
+openPort 22 $#%#$
+openPort 25 $#%#$
+openPort 80 $#%#$
+disconnect $#%#$

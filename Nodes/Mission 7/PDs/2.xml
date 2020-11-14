@@ -1,0 +1,5 @@
+<Computer id="M7PD2" name="Los-Angeles Police Department" ip="250.224.135.131" security="4" type="3">
+<trace time="90" />
+<admin type="progress"/>
+<WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+</Computer>

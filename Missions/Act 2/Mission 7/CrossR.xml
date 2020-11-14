@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 7 Cross R" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="M7Repulse" file="netcfgx.dll" path="sys" destTarget="M7PD5" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 7/Branch/TransferGood.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

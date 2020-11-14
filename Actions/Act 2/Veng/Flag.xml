@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:NH_Done" FunctionValue="0" />
+	</Instantly>
+</ConditionalActions>

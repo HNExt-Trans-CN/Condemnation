@@ -1,0 +1,16 @@
+<Computer id="M7SysAdm" name="Anthony's PC" security="3" icon="Laptop" type="2">
+<trace time="-1" />
+<firewall level="6" solution="Cronko" additionalTime="0.3"/>
+<admin type="progress"/>
+<file path="home" name="Kellis Report.docx">(CONFIDENTIAL: DO NOT SHARE THIS WITH ANYONE)
+
+Report from Kellis BioTech, Security Chief Logan Derrick:
+
+Recently we discovered that one of our security protocols for medical servicies (Special port Num. 104) has a critical vulnerability that allows you to break that port, using overflow of self-cyciling comands.
+
+Your email adress was assigned as a Security Administrator of a California Medical Facility, and therefore, this security problem involves you as well.
+
+You can analyze port-breaker tool and find a way to resolve the problem. You can download a prototype here: 48.189.248.31
+
+(CONFIDENTIAL: DO NOT SHARE THIS WITH ANYONE)</file>
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5Mail" name="Blank Mail Server" security="3" ip="126.111.65.59" type="empty">
+<account username="45.132.67.217" password="Pass1" type="2" />
+<account username="104.147.169.53" password="Pass2" type="2" />
+
+
+
+<mailServer name="Blank Mail Server" color="254,250,2" generateJunk="false">
+<email recipient="45.132.67.217" sender="104.147.169.53" subject="Trust Issues">
+I really don't trust that Omicron guy. How is this possible that this sloppy guy invented SSL Trojan crack? It just doesn't feel right. He can play tricks on us, watch your back!
+
+No, I am not paranoid, call me in Distort when you finish that stupid clicking game
+
+  -Fluff</email>
+ </mailServer>
+  
+</Computer>

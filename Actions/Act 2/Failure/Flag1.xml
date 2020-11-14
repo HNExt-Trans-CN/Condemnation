@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="OmBoss">
+	<RunFunction FunctionName="addFlags:TC" FunctionValue="0" />
+	</HasFlags>
+</ConditionalActions>

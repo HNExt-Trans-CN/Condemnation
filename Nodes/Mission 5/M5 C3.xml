@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5C3" name="Omicron's Battlestation" ip="59.103.6.188" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="101" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+<CustomConnectDisplayDaemon />
+
+  
+</Computer>

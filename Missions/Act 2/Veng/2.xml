@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Vengence 2" activeCheck="true">
+  <goals>
+  <goal type="hasflag" target="NH_Done"/>
+  <goal type="fileupload" target="playerComp" file="Omicron.loc" path="home" destTarget="NHHub" destPath="home"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Veng/2_2.xml</missionEnd>
+  <nextMission>Missions/Act 2/Veng/2_2.xml</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>Got it!
+Finally got it!
+
+That location file is a key to finally kill that motherfucker!
+Slayer has connections
+And once we will get all details
+Then I can kill Omicron
+
+I need to make sure it will be bloody as possible
+Fucker must suffer...
+
+NightHawks should help
+They are power drunk
+And easily manipulated now
+I have to use it in my advantage
+
+Should go back to the IRC...</body>
+    <attachments>
+	<link comp="NHHub" />
+    </attachments>
+  </email>
+</mission>

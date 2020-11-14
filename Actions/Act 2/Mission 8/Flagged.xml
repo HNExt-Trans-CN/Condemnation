@@ -1,0 +1,13 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Repulse">
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Repulse Sent me, he said that experiment failed and cops got to him</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">I was assisting Repulse with his personal matter</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">We will manage Repulse's matter, but as far as I can see you are interested in our group, so allow me to properly introduce us</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Jester">
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Jester Sent me, he said that experiment failed and cops got to him</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">I was assisting Jester with his personal matter</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">We will manage Jester's matter, but as far as I can see you are interested in our group, so allow me to properly introduce us</AddIRCMessage>
+	</HasFlags>
+</ConditionalActions>

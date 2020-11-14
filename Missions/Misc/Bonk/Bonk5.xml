@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Bonk 5" activeCheck="true">
+  <goals>
+  
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/Misc/5.xml</nextMission>
+  <posting title="Police Investigation">
+Detective of a San-Francisco CyberPolice Department poking around us, making an inconvenience for a personal data leakage business
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

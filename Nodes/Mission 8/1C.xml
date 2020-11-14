@@ -1,0 +1,18 @@
+<Computer id="C1C" name="FJR-Insurance, Bookkeeping" security="4" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home/02_20" name="Budget.pdf">#BINARY#</file>
+<file path="home/01_20" name="Budget.pdf">#BINARY#</file>
+<file path="home/12_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/11_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/10_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/10_19" name="Fin-Rep.accdb">#BINARY#</file>
+<file path="home/09_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/09_19" name="Fin-Rep.accdb">#BINARY#</file>
+<file path="home/08_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/08_19" name="Fin-Rep.accdb">#BINARY#</file>
+<file path="home/07_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/07_19" name="Fin-Rep.accdb">#BINARY#</file>
+<file path="home/06_19" name="Budget.pdf">#BINARY#</file>
+<file path="home/06_19" name="Fin-Rep.accdb">#BINARY#</file>
+</Computer>

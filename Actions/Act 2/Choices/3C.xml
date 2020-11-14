@@ -1,0 +1,9 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="NHOut">
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">We saved our Police infrastructure from NightHawks</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHIn">
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You helped NightHawks to destroy our Police infrastructure</AddIRCMessage>
+	</HasFlags>
+</ConditionalActions>

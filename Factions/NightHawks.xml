@@ -1,0 +1,108 @@
+<CustomFaction name="NightHawks" id="NH" playerVal="0">
+  
+  <Action ValueRequired="1">
+	
+    <ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="5.0">@channel Finished with the tools for Dragon Lord Op</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">Great job, there is a communication task for you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="12.0">Also, well done @Vortex, your client replied with a satisfaction, you will get next one soon</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="12.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="12.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="12.3"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">Keep going everybody</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Bonk2.xml" DelayHost="Delay" Delay="20.0"/>
+  </Action>
+  
+  <Action ValueRequired="2">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="5.0">@channel We have a problem</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">What is it?</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="12.0">A few PIs are investigating our infrastructure, probably work for Lao Zhin</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="16.0">Dispose of them</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">As violent as possible, so others would know</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="25.0">I contacted Scalpel, they will be quartered</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">Shuriken Alliance is under attack of someone named Dreadnought, we are on our own</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Ok, prepare for the final stage</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">@Vortex, contract completed, take next one</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="40.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="40.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="40.3"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Bonk5.xml" DelayHost="Delay" Delay="43.0"/>
+  </Action>
+  
+  <Action ValueRequired="3">
+	
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel Well done everyone, operation Dragon Lord is complete</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="9.0">Well done guys</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="12.0">How much did you get?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="15.0">Quarter of a million</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="19.0">Holy fuck</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">Everyone involved will get their cut in a few days</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">How is the progress with Search mission?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="32.0">Omicron - real name is unknown, seems to be some kind of legend in narrow circles. Presumed dead but I would doubt it, he disappeared several times before and yet came back. Has a large hacking potential, he led a very difficult operations, even fucked with FBI</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="40.0">His last job was to help drug cartel with FBI interfierence, something gone wrong and cops find out about everything, got to Omicron's moles and later on Feds got the cartel. Meantime, Omicron was shot by cartel's killers for that fuck up, but I used similar maneuver before, I think he just layed low for a while, we keep digging deeper</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">Ok, keep going, Jenkins will help you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">@Vortex, you can see that we are doing our part here. Same as you as I can see, your client accepted your results</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="55.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="55.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="55.3"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="58.0">Take next contract</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Bonk3.xml" DelayHost="Delay" Delay="62.0"/>
+  </Action>
+  
+  <Action ValueRequired="4">
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel Report everyone</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="9.0">Me and Prophet found some clues with Jenkins' help</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="13.0">Done my personal matter, but in a bit more bloody manner than I thought</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="18.0">Good. @Vortex I just got another contract confirmation. Your performance is great, I think there is only one contract left actually</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="18.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="18.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="18.3"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="21.0">Take it</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Bonk4.xml" DelayHost="Delay" Delay="25.0"/>
+  </Action>
+  
+  <Action ValueRequired="5">
+  <ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
+  <AddConditionalActions Filepath="Actions/Act 2/Mission 9/Start.xml" DelayHost="Delay" Delay="137.0"/>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="5.0">@channel we've got something really interesting</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">What is it?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="13.0">A solid lead on Omicron, and that is useful to whole group</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="17.0">Thing is, he is preparing for something big, he searches for potential partners for some big time job</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="23.0">And paying is going to be a lot more generous than Operation Dragon Lord</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">A whole million?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="31.0">Exactly, and believe me, he is not messing around</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Can you contact him?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="38.0">From what I can see, no. We need to attract his attention</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="42.0">We need a big and controversial job to do. I will make a few calls and in the meantime, can someone explain to Vortex one obvious thing?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="50.0">Ah, sure. @Vortex, you need to understand something. Our deal was about finding him, not to go against him. I know you have some sort of personal vendetta with him, but you need to cooldown. If he will approach us with a business proposition, then we will take it. And if you refuse to cooperate, you will be dealing with us as enemies</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="50.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="50.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="50.3"/>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="60.0">Am I making all things clear to you?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="63.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="67.0">After all your business with him is done, you won't get in my way</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="72.0">Unless he pays for protection</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">All right. I have a job for us, win-win situation. Operation Venomous Snake</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="82.0">Client wants to extort one medical facility and we need to upload some ransomware</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="87.0">Our main targets are life support units. We need to place ransomware that can deactivate them</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">So as I said, it will be win-win situation. We either will get money and some attention, or a lot of notoriety for killing 50-60 people</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="100.0">That will help us to get new clients and maybe even make Omicron to notice us. Man, can't stop thinking about that million $ he can offer</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">One step at a time. First, we need an actual ransomware</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">Nearly finished it, what sum I need to input?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="116.0">Make it 75 grand for each unit</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="120.0">Got it</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="125.0">@Vortex, you will participate as well. As a Covert Specialist and a smart guy in general, you will need to attack 5 units, that are best protected and out of reach for now</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="125.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="125.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="125.3"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">Others will attack main complex</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="134.0">@channel I'll send details via email. Good luck, gentlemen</AddIRCMessage>
+	
+	
+	
+  </Action>
+
+</CustomFaction>

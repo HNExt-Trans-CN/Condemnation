@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 5" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="M5C1" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 5/Mission 5.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 5/Del.xml</missionEnd>
+  <nextMission>Missions/Act 1/Mission 5/Next.xml</nextMission>
+  <posting title="Special Assignment">
+  </posting>
+  <email>
+    <sender>Diana</sender>
+    <subject>Hunt</subject>
+    <body>The only information we have now is an aderess of their gateway. Try to access their infrastructure through it and find their battlestations and get a copy of their netcfgx.dll to your PD Asset server's upload module
+	
+	I am providing you an IP in attachments
+	
+			-Diana
+			
+GOALS:
+1)GET INSIDE Batlestations of hackers and UPLOAD their netcfgx.dll to the ASSET server's upload dropbox</body>
+    <attachments>
+	<link comp="M5Gate" />  
+    </attachments>
+  </email>
+</mission>

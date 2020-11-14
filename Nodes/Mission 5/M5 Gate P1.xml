@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5GateP1" name="Proxy Node ZF25" security="3" type="3">
+
+
+
+ <file path="home/HackStation" name="SYNC_SUCCESS.log">UPDATE PROCEDURE SUCCESS: DELETING SYNC FILES FROM THIS PROXY
+ 
+ IMPORTANT: reboot that machine for cache cleaning, there could be memory dumps!</file>
+ 
+ <Memory>
+	<Data>
+		<Block>
+		Access Data reconfigured, sending report to "81.20.119.244"
+		
+			UPDATE PROCEDURE SUCCESS: 
+			DELETING SYNC FILES FROM PROXY
+			RELOCATING BUFFER CACHE 
+			
+		SUCCESS: EndOfTheReport
+		</Block>
+		<Block>
+		Access Data reconfigured, sending report to "55.128.35.25"
+		
+			UPDATE PROCEDURE SUCCESS: 
+			DELETING SYNC FILES FROM PROXY
+			RELOCATING BUFFER CACHE 
+			
+		SUCCESS: EndOfTheReport
+		</Block>
+	</Data>
+</Memory>
+</Computer>

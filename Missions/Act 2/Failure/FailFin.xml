@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Epic Fail" activeCheck="true">
+  <goals>
+  
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>This is it
+
+Finally I can get to him and extract all I need to find him
+
+Though I lost everything I've got
+Only one thing is left
+Is to kill that motherfucker...
+
+For Clara
+For justice
+For myself...
+
+That OSequencer.exe is key to find his true battlestation
+And it will redirect me to it
+I just have to get in before he reacts
+
+GOAL:
+ACTIVATE OSequencer.exe and extract netcfgx.dll of Omicron's PC</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

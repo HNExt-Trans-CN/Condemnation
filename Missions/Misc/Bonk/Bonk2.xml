@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Bonk 2" activeCheck="true">
+  <goals>
+  
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/Misc/2.xml</nextMission>
+  <posting title="Denigration">
+One excentric politician is not intimidated with my blackmail, it is time to fix this
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

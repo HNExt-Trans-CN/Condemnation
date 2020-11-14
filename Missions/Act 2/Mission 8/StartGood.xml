@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 8 Good" activeCheck="true">
+  <goals>
+  
+  </goals>
+  <missionEnd val="0">addFlags:J_Flag</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>It worked
+
+It was a pure gamble
+But worked
+
+There could be a possibility that NightHawks will think of me as a traitor
+But if I act properly, I may integrate
+
+They won't find my logs, because they can't see them
+And this guy was conducting some experiments on how police reacts to netcfgx.dll uploads
+This should work as my alibi
+
+Not bad results so far:
+Criminal scumbag is being arrested
+Innocent man is unharmed
+I got access to the group (Still may be a trap)
+
+But what do I have to loose?
+
+Time to put my mask on
+It is showtime...</body>
+    <attachments>
+	<link comp="NHHub" />
+	<account comp="NHHub" user="admin" pass="PrimeCandidate" />
+    </attachments>
+  </email>
+</mission>

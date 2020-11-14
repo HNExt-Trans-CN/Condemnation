@@ -1,0 +1,9 @@
+config playerComp OmBoss 0.0 $#%#$
+hideRam $#%#$
+delay 1 $#%#$
+writel CRITICAL ERROR: UI MODULES ARE CORRUPTED! $#%#$
+writel POSSIBILITY OF UNSTABLE FUNCTIONING! $#%#$
+delay 2 $#%#$
+writel SOURCE IS LOCATED! $#%#$
+writel DELETE Session.dll $#%#$
+writel 204.63.174.159

@@ -1,0 +1,16 @@
+<Computer id="M6Web" name="Archive Node" ip="212.42.92.36" security="2" type="2">
+<trace time="-1" />
+<admin type="progress"/>
+<file path="home/Gift" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<Memory>
+	<Commands>
+		<Command>cd /home</Command>
+		<Command>cd /Gift</Command>
+		<Command>upload@182.73.133.251 bin/Stash/WebServerWorm.exe</Command>
+		<Command>ls</Command>
+		<Command>cd /log</Command>
+		<Command>rm *</Command>
+		<Command>reboot</Command>
+	</Commands>
+</Memory>
+</Computer>

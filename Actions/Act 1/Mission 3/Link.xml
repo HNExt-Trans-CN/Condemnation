@@ -1,0 +1,24 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 1/Mission 3/Transfer.xml" DelayHost="Delay" Delay="56.0"/>
+	<RunFunction FunctionName="addRankSilent" FunctionValue="1" />
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="3.0">Sent it on our filedrop server</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="6.0">We got the money</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="9.0">OH FUCK</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="12.0">OH SHIT</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="15.0">OH FUCKING SHIT</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="18.0">What is happening???</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="20.0">SOMEONE GOT INSIDE MY SYSTEM, HOMEBASE DLL ARE FUCKING STOPPED RETRANSLATING</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="22.0">Wow, fuck dude, this is sick</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="25.0">FUCK YOU DUDE, THIS IS YOUR FAULT</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="27.0">YOU'RE THE ONLY ONE WHO KNEW PASSWORD!</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="30.0">Umm, are you out of your fucking MIND?</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="32.0">I am not, you ratty piece if shit, so if they got me, they gonna find you</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="35.0">Mr.Repulse, who apparently is a SNITCH</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="37.0">Shut up man, I have nothing to do with it!</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="40.0">Well, then let me tell to the whole Internet, that your beloved shitdripping cat Margolis is your password to all accounts :)</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="40.0">Even your fucking dynamic mail account is just Repulse+Margolis, LOL</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="42.0">YOU ARE CRAZY PARANOID FUCKER ROBERT, I AM OUT, TAKE THE FUCKING MONEY TO YOURSELF</AddIRCMessage>
+	<DeleteFile TargetComp="playerComp" FilePath="home" FileName="netcfgx.dll" DelayHost="Delay" Delay="1.0"/>
+	</Instantly>
+</ConditionalActions>

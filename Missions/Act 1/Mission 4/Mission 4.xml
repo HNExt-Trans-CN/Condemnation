@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 4">
+  <goals>
+  <goal type="fileupload" target="M4_Home" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 4/Link.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Repulse's Interception">
+Finish today's hacker attack operation and locate the second hacker's homestation
+  </posting>
+  <email>
+    <sender>Javis</sender>
+    <subject>Repulsive Type of Job</subject>
+    <body>
+Great to know you are eager to finish this matter, Captain!
+
+Me and Bloyd analyzed that netcfgx.dll of Daedra's homestation. Remember they mentioned an IRC and some dropfile server? Well, we found them.
+
+Bloyd got into filedrop server and working on getting to the client, that ordered this attack. He got a Med File of someone named Olivia Brooks, so that means it was confidentiality-break type of contract.
+
+And you have to get inside their IRC server and find some way to get to the homestation of Repulse, get his netcfgx.dll and upload to the Asset server. Meantime, I will investigate about that Dynamic mail server, we haven't got a security certificate from them, meaning that they are not trustworthy service.
+
+After this case, we can start a conference. Good luck to you Captain
+
+  -J
+  
+GOALS:
+1)GET INSIDE Repulse's personal computer and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox </body>
+    <attachments>
+	<link comp="M4_IRC" />
+    </attachments>
+  </email>
+</mission>

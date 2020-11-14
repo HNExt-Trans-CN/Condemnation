@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Just Boss" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="OmSource" file="Session.dll" path="home/Transmitter"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Just/Transfer.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Just/Fin.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

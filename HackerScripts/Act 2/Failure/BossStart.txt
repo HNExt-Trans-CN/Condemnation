@@ -1,0 +1,16 @@
+config playerComp OmBoss 0.0 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel HACKNET_OS ALERT! $#%#$
+delay 2 $#%#$
+writel SYSTEM DESTRUCTION RISK! $#%#$
+delay 2 $#%#$
+writel Session.dll FILE IS TRANSMITTING VIRUS DATA! $#%#$
+delay 4 $#%#$
+writel FIND SOURCE COMPUTER, LOCATE THE FOLLOWING FILE AND DELETE IT! $#%#$
+delay 5 $#%#$
+writel DATA UPLOAD WILL BE FINISHED IN APPROXIMATELY 4 MINUTES! $#%#$
+delay 4 $#%#$
+writel 10 GATEWAYS DETECTED, PREPARING TARGITING SCRIPT... $#%#$
+delay 5 $#%#$
+writel GATEWAYS WILL BE DISPLAYED ON NETMAP ONE AT A TIME

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 8 BadOpt" activeCheck="true">
+<goals>
+  
+  </goals>
+  <missionEnd val="0">addFlags:AT_Flag_Scum</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>It had to be done...
+
+They won't believe me otherwise
+I had to do it...
+
+Now I remember all those moments of woking undercover
+You sacrifice something to achieve justice in the end
+
+But I can't see any justice in my actions that I did just now...
+
+They will let me in now
+But I paid a price: a good person's life
+
+Was it really worth it?
+Wasn't there another way?
+
+These questions will be in my head for a long time
+But I have to continue my vengence
+
+After I get to Omicron
+Only then I can find peace in my soul...
+
+Now, I have to join NightHawks 
+And put on my pokerface...</body>
+    <attachments>
+	<link comp="NHHub" />
+	<account comp="NHHub" user="admin" pass="PrimeCandidate" />
+    </attachments>
+  </email>
+</mission>

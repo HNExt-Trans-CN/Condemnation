@@ -1,0 +1,200 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="J_Flag">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Omicron.xml" DelayHost="Delay" Delay="146.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="48.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="143.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">How? What the fuck is your problem??</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="7.0">I've done my part perfectly, what else do you need?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">You are so pathetic now. I thought you've got something inside to be superior among others</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">Perhaps I was wrong</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="24.0">Wrong about what? What did you portrayed out of me? A killer? You have Slayer for that, I am a hacker, and I've done my part here</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="34.0">What do you want me to say? "Please kill those innocent sick people so I can talk to a motherfucker who ruined my life", - is that it?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="44.0">As you wish...</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="48.0">!ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="53.0">Wha.. What the fuck man??</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="57.0">ARE YOU MENTALLY CHALLENGED? I DIDN'T ASK FOR THAT!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="61.0">You should've. You can thank me later</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">I suggest you to think about results that you will achieve, instead of means that was actually necessary</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="72.0">@Deladello, scan all mass media about what we've done, I want every single person in California to know what happened</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="75.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="79.0">@Deladello, what the fuck is wrong with you people? I thought you wanted money. Your client isn't even replied yet!</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="90.0">We may seem like a bloodthirsty group, but in fact only Slayer is like that. And you are right, we are into this because of money. We would've get 4 350 000 dollars tops out of Operation Venomous Snake. The announcement of Omicron says that he is paying a million</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="105.0">I don't see any logic, it is less profitable. I still cannot understand why we just murdered 58 people!</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="111.0">Million dollars EACH. Meaning 6 000 000 dollars to the whole group. Including you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">But you will participate only if you accept our rules. If you forgot how we do things around here, check out Oath file on our crossroads server once again</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">Nice! I contacted client, he already saw the news, and he is more than happy actually</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">Apperantly he can lobe his medical project now</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">Great, I hope we can benefit from it as well</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="135.0">@channel Are we done? I want to share some experience</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="140.0">I've got like California's biggest burger on my plate and I think</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.0">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.1">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.2">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.3">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.4">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="R_Flag">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Omicron.xml" DelayHost="Delay" Delay="146.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="48.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="143.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">How? What the fuck is your problem??</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="7.0">I've done my part perfectly, what else do you need?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">You are so pathetic now. I thought you've got something inside to be superior among others</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">Perhaps I was wrong</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="24.0">Wrong about what? What did you portrayed out of me? A killer? You have Slayer for that, I am a hacker, and I've done my part here</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="34.0">What do you want me to say? "Please kill those innocent sick people so I can talk to a motherfucker who ruined my life", - is that it?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="44.0">As you wish...</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="48.0">!ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="53.0">Wha.. What the fuck man??</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="57.0">ARE YOU MENTALLY CHALLENGED? I DIDN'T ASK FOR THAT!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="61.0">You should've. You can thank me later</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">I suggest you to think about results that you will achieve, instead of means that was actually necessary</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="72.0">@Deladello, scan all mass media about what we've done, I want every single person in California to know what happened</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="75.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="79.0">@Deladello, what the fuck is wrong with you people? I thought you wanted money. Your client isn't even replied yet!</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="90.0">We may seem like a bloodthirsty group, but in fact only Slayer is like that. And you are right, we are into this because of money. We would've get 4 350 000 dollars tops out of Operation Venomous Snake. The announcement of Omicron says that he is paying a million</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="105.0">I don't see any logic, it is less profitable. I still cannot understand why we just murdered 58 people!</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="111.0">Million dollars EACH. Meaning 6 000 000 dollars to the whole group. Including you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">But you will participate only if you accept our rules. If you forgot how we do things around here, check out Oath file on our crossroads server once again</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">Nice! I contacted client, he already saw the news, and he is more than happy actually</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">Apperantly he can lobe his medical project now</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">Great, I hope we can benefit from it as well</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="135.0">@channel Are we done? I want to share some experience</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="140.0">I've got like California's biggest burger on my plate and I think</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.0">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.1">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.2">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.3">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="143.4">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="AT_Flag">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/OmicronA.xml" DelayHost="Delay" Delay="106.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="44.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="103.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">My vengeance is the only thing that can justify what are we doing because this man has done something more horrible to my life, better if he killed me</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">That was his mistake. Because now you are stronger</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">Yeah. And I know what I want</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">But does it really require so many deaths?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">You are doubting your main purpose?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="27.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="30.0">No, I made my mind</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="34.0">Those 58 people are dying anyway, I just ease their pain and meet my ultimate enemy</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">That's the spirit</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="44.0">!ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="48.0">@Deladello, scan all mass media about what we've done, I want every single person in California to know what happened</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="54.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="60.0">Is it really that easy to take someone's life?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">If you know where that action will take you</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="69.0">We made this week's top news, lads</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="74.0">Nice! I contacted client, he already saw the news, and he is more than happy actually</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="78.0">Apperantly he can lobe his medical project now</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="82.0">Great, I hope we can benefit from it as well</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="85.0">So what's next?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">We are now notorious hackers, gentlemen</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="94.0">And I can see a lot of opportunities ahead of us</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="100.0">I hope we will get some kind of contact from</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.0">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.1">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.2">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.3">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.4">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="JW_Flag">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/OmicronA.xml" DelayHost="Delay" Delay="106.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="44.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="103.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">My vengeance is the only thing that can justify what are we doing because this man has done something more horrible to my life, better if he killed me</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">That was his mistake. Because now you are stronger</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">Yeah. And I know what I want</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">But does it really require so many deaths?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">You are doubting your main purpose?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="27.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="30.0">No, I made my mind</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="34.0">Those 58 people are dying anyway, I just ease their pain and meet my ultimate enemy</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">That's the spirit</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="44.0">!ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="48.0">@Deladello, scan all mass media about what we've done, I want every single person in California to know what happened</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="54.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="60.0">Is it really that easy to take someone's life?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">If you know where that action will take you</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="69.0">We made this week's top news, lads</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="74.0">Nice! I contacted client, he already saw the news, and he is more than happy actually</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="78.0">Apperantly he can lobe his medical project now</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="82.0">Great, I hope we can benefit from it as well</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="85.0">So what's next?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">We are now notorious hackers, gentlemen</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="94.0">And I can see a lot of opportunities ahead of us</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="100.0">I hope we will get some kind of contact from</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.0">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.1">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.2">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.3">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="103.4">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="JW_Flag_Scum">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/OmicronA.xml" DelayHost="Delay" Delay="95.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="28.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="92.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">You doubt my motivation?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="7.0">I know that I have to make sacrifices to achieve my goals</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="11.0">I will find that cocksucker no matter what</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">So go ahead and push that fucking button</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="18.0">Whoa</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">If that makes Omicron to get out of the shadows, then all of this is worth it</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">I have no doubts now</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="33.0">@Deladello, scan all mass media about what we've done, I want every single person in California to know what happened</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="37.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="42.0">What kind of business are you planing with Omicron?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="46.0">He is in a major league. At least he was. He can teach us how to strike FBI and get away with it. All his operations would be very big at this point</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="56.0">We made this week's top news, lads</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">Nice! I contacted client, he already saw the news, and he is more than happy actually</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="66.0">Apperantly he can lobe his medical project now</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="70.0">Great, I hope we can benefit from it as well</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="75.0">So what's next?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="79.0">We are now notorious hackers, gentlemen</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">And I can see a lot of opportunities ahead of us</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="89.0">I hope we will get some kind of contact from</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.0">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.1">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.2">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.3">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.4">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="AT_Flag_Scum">
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/OmicronA.xml" DelayHost="Delay" Delay="95.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="28.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="92.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">You doubt my motivation?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="7.0">I know that I have to make sacrifices to achieve my goals</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="11.0">I will find that cocksucker no matter what</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">So go ahead and push that fucking button</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="18.0">Whoa</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">If that makes Omicron to get out of the shadows, then all of this is worth it</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">I have no doubts now</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="33.0">@Deladello, scan all mass media about what we've done, I want every single person in California to know what happened</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="37.0">Sure thing</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="42.0">What kind of business are you planing with Omicron?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="46.0">He is in a major league. At least he was. He can teach us how to strike FBI and get away with it. All his operations would be very big at this point</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="56.0">We made this week's top news, lads</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">Nice! I contacted client, he already saw the news, and he is more than happy actually</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="66.0">Apperantly he can lobe his medical project now</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="70.0">Great, I hope we can benefit from it as well</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="75.0">So what's next?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="79.0">We are now notorious hackers, gentlemen</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">And I can see a lot of opportunities ahead of us</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="89.0">I hope we will get some kind of contact from</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.0">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.1">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.2">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.3">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="92.4">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	</HasFlags>
+	
+</ConditionalActions>

@@ -1,0 +1,16 @@
+<ConditionalActions>
+	<Instantly>
+	<LaunchHackScript Filepath="HackerScripts/Act 1/Mission 5/Trace.txt" DelayHost="Delay" Delay="1.0" SourceComp="M5C1" TargetComp="M5PoCl" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+	<OnAdminGained target="M5IRC">
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@channel So there is three hackers we are looking for</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="14.0">Ok, so we are going to find 3 battlestations, got it</AddIRCMessage>
+	</OnAdminGained>
+	<OnAdminGained target="M5C1">
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">@#PLAYERNAME# Captain, you gained access to the battlestation of the first hacker!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="4.0">Send his netcfgx.dll to our Asset server upload module and then we need to find other two</AddIRCMessage>
+	</OnAdminGained>
+	<OnAdminGained target="M5C2">
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# Oof, that one had a tight security, nicely done Cap, let's get his netcfgx.dll</AddIRCMessage>
+	</OnAdminGained>
+</ConditionalActions>

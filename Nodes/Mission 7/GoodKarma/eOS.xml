@@ -1,0 +1,20 @@
+<Computer id="M7Lead" name="NightHawks' Side Station" ip="128.51.57.121" security="3" type="empty">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home" name="Note.txt">This server is NightHawks' side station in case of any emergency
+
+It is also used for covert operations on mobile devices (work in progress)
+
+Server is using dynamic IP script, so all members should flag this server to prevent loosing its address </file>
+<eosDevice name="Jailbroken ePad" id="M7eOS" icon="tablet" empty="false" passOverride="Alpine">
+<note>Vortex
+
+He is a new potential member, weak for now, but has an interesting ability to cover his logs automatically and we can't trace him, and so our potential enemies
+
+I baited him with the NetMap fixer that I made just for him
+without second part of it, NetMap is still inoperable 
+
+It is located on one of my archives (58.141.177.25)
+If anyone from the group is against letting him in, simply delete fixer file from linked machine, you all know how to pass</note>
+</eosDevice>
+</Computer>

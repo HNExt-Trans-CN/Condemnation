@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 3" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="M2_P3" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 3/Link.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

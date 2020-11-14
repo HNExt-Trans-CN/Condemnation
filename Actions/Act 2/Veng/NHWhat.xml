@@ -1,0 +1,17 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="NHOut,Vengence1">
+	<LoadMission MissionName="Missions/Act 2/Veng/1A.xml" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHIn,Vengence1">
+	<LoadMission MissionName="Missions/Act 2/Veng/1.xml" />
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/1.xml" DelayHost="Delay" Delay="0.0"/>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHIn,Vengence5">
+	<LoadMission MissionName="Missions/Act 2/Veng/2.xml" />
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/2.xml" DelayHost="Delay" Delay="0.0"/>
+	</HasFlags>
+	
+	
+</ConditionalActions>

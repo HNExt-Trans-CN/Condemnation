@@ -1,0 +1,9 @@
+<Computer id="M7P4" name="Westbrook University's Communication Sector" security="2" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="M7P1" />
+<dlink target="M7P2" />
+<dlink target="M7P3" />
+<dlink target="M7Front" />
+<file path="home" name="Teal_x-server.sys">#TEAL_THEME#</file>
+</Computer>

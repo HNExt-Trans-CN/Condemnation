@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<AddThreadToMissionBoard ThreadFilepath="Nodes/Mission 6/Threads/Alert2.txt" TargetComp="M6Alert" />
+	</Instantly>
+</ConditionalActions>

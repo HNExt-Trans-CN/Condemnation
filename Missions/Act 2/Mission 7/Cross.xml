@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 7 Cross" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="M7Jester" file="netcfgx.dll" path="sys" destTarget="M7PD5" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 7/Branch/TransferGood.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+  <branch>Missions/Act 2/Mission 7/Cross1.xml</branch>
+  <branch>Missions/Act 2/Mission 7/Cross2.xml</branch>
+  <branch>Missions/Act 2/Mission 7/CrossR.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>I managed to find an entry point into their systems
+
+My map is now restored, but...
+What to do next?
+
+Now if I think of it, I am still not capable of finding Omicron alone
+
+I need to gain trust from that group, NightHawks
+So I can use their connections and abilities to find a solid lead on Omicron
+I must integrate
+
+But how?
+
+I still can complete the job and ruin a life of an innocent man
+Or I have to do something else...
+
+I could try to make NightHawks to notice me directly
+But only if their agent that is supervising me right now will fuck up
+
+I must find out how to get him out of my way
+So it would look like if he made a mistake
+
+I remember that on one of the MemDumps he mentioned cops and experiments on their response...
+But to make this work I have to find his PC, not proxy, archive or gateway
+The only thing I can think of is to try to find his tracks on servers where he operated somehow lately...
+
+What should I do?
+...</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

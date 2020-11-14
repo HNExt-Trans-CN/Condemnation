@@ -1,0 +1,6 @@
+config playerComp Delay 0.2 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel LOCKDOWN HAS BEEN REMOVED $#%#$
+delay 1 $#%#$

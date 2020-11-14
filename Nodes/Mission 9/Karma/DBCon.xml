@@ -1,0 +1,46 @@
+<Computer id="M9LeakDBCon" name="DB Client Data" ip="61.38.203.81" icon="DLCServer" type="1">
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="6" />
+<proxy time="30" />
+<firewall level="9" solution="Dodcasper" additionalTime="0.3"/>
+<trace time="90" />
+<admin type="progress"/>
+<DatabaseDaemon Permissions="public" DataType="GitCommitEntry" Foldername="database" Color="223,213,0" AdminEmailAccount="LEAK_ADMIN" AdminEmailHostID="M7Mail" Name="LEAK Client Data">
+<GitCommitEntry>
+      <EntryNumber>3190</EntryNumber>
+      <ChangedFiles>
+        <String>Access Data</String>
+      </ChangedFiles>
+      <Message>AdminPass is *DELETED*, extracted with a backdoor</Message>
+      <UserName>Spenser</UserName>
+      <SourceIP>*RANSOM PAID*</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+      <EntryNumber>5739</EntryNumber>
+      <ChangedFiles>
+        <String>Personal Files</String>
+      </ChangedFiles>
+      <Message>Compromising personal information (DELETED)</Message>
+      <UserName>Spenser</UserName>
+      <SourceIP>*RANSOM PAID*</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+      <EntryNumber>4187</EntryNumber>
+      <ChangedFiles>
+        <String>Access Data</String>
+      </ChangedFiles>
+      <Message>AdminPass is f8emsWDNAU, extracted with a backdoor</Message>
+      <UserName>Malber</UserName>
+      <SourceIP>246.241.66.106</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+      <EntryNumber>6666</EntryNumber>
+      <ChangedFiles>
+        <String>Access Data</String>
+      </ChangedFiles>
+      <Message>AdminPass is SUCK MY DICK, extracted with a backdoor</Message>
+      <UserName>Omicron</UserName>
+      <SourceIP>420.69.14.88</SourceIP>
+</GitCommitEntry>
+</DatabaseDaemon>
+</Computer>

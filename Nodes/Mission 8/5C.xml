@@ -1,0 +1,9 @@
+<Computer id="C5C" name="Clara's Workstation" security="5" type="4">
+<trace time="60" />
+<admin type="progress"/>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<CustomConnectDisplayDaemon />
+</Computer>

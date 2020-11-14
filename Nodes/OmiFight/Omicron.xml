@@ -1,0 +1,7 @@
+<Computer id="Omicron" name="OMICRON" type="2">
+<ports>21, 443, 211, 1433, 554, 6881, 22, 80</ports>
+<firewall level="12" solution="CONDEMNATION" additionalTime="0.0"/>
+<portsForCrack val="8" />
+<trace time="-1" />
+<admin type="none"/>
+</Computer>

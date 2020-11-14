@@ -1,0 +1,5 @@
+<Computer id="C1A" name="FJR-Insurance, HR Department" security="4" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="C1B" />
+</Computer>

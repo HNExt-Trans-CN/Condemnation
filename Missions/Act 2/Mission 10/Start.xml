@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 10 Start" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="EnSecBreach.dll" path="home" destTarget="NHHub" destPath="home"/>
+  </goals>
+ <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/NH.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <branchMissions>
+  <branch>Missions/Act 2/Mission 10/StartA.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

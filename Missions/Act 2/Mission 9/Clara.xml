@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M9 Clara" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP1D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D2" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D3" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP3D1" destPath="sys"/>
+  <goal type="hasflag" target="Clara_Contacted_M9"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 9/Clara.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 9/Good.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>E-mail</sender>
+    <subject>Response</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+I've made a quick scan
+Go back to our IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

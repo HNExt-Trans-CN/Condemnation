@@ -1,0 +1,14 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Dead_Flag">
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You helped us to complete Venomous Snake operation</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Dead_Flag_Scum">
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You personally executed 58 people during Venomous Snake operation</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Clara_Flag">
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You sabotaged Venomous Snake operation</AddIRCMessage>
+	</HasFlags>
+	
+</ConditionalActions>

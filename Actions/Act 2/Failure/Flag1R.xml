@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="removeFlags:TC" FunctionValue="0" />
+	</Instantly>
+</ConditionalActions>

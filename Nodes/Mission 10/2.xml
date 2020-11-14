@@ -1,0 +1,10 @@
+<Computer id="M10P2" name="SubNode" type="4">
+<ports>21, 22, 25, 80, 211, 443</ports>
+<portsForCrack val="6" />
+<firewall level="13" solution="UNfenuef6uhef" additionalTime="0.0"/>
+<trace time="120" />
+<admin type="none"/>
+<file path="home/Whitelist" name="Token">#BINARY#</file>
+<file path="home/Whitelist" name="Executer.exe">#BINARY#</file>
+<file path="home/EnBrowser" name="Concept.rar">#BINARY#</file>
+</Computer>

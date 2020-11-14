@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Vengence 1A" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="NHHub" file="runtime.dll" path="HomeBase"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Veng/1A.xml</missionEnd>
+  <nextMission>Missions/Act 2/Veng/1A_2.xml</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>Shit, fuck, FUUUCK
+
+That cunt made Clara outlaw as well!
+
+For fuck sake, I am so tired of this bullshit with sacrificing
+Why me? Why the FUCK IT SHOULD BE ME???
+
+What did I wrong in my entire life to deserve this, huh?
+
+I remember that fucking day it all began
+Downloading a shitty drug evidence
+It would be fucking better if I didn't touch it at all!
+
+I have nothing to lose now
+That motherfucker will die in agony and burn in hell
+I will make sure of it...
+
+I have his location
+I just need to decipher it properly
+
+NightHawks blocked me from the chat
+But I can still connect to the Hub
+I need to delete runtime.dll from /sys folder
+That way I can reset all restrictions on their server</body>
+    <attachments>
+	<link comp="NHHub" />
+    </attachments>
+  </email>
+</mission>

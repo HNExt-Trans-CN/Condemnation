@@ -1,0 +1,107 @@
+<Computer id="NHCrossR" name="NightHawks' Crossroads" ip="100.234.234.151" security="5" type="4">
+<adminPass pass="Sl1ckPr3y" />
+<trace time="-1" />
+<admin type="progress"/>
+<file path="home/Project_Oblivion" name="GOALS.txt">Target: Javis Williamson
+
+1) SEND Javis' Med File to the RAPTOR@jmail.com (Gain access to the medical archive and search for his entry)
+2) WIPE OFF Javis' degrees (Gain access to the academical archive and search for his entry)</file>
+<file path="home/Project_Oblivion/Medical_part" name="Details.txt">I know an address of the server but you can't get in that simply, they have a special port Num. 104, and obviously nobody left admin's password for you.
+
+You have to find either a password, either a port breaker. All I could find is a PC of one doctor from other city. These folks work with these archives regularly, you'll most probably find some entry point there, use some social engeniering.
+
+Archive: 182.172.94.94
+Doctor: 221.214.78.150</file>
+<file path="home/Project_Oblivion/Academical_part" name="Details.txt">I don't have a direct link to the archive but I know where you possibly could get it
+
+I know a guy who know a guy who got kicked out off the university recently. Luckily, all universities are connected to the International Academic Database, you can gain access from their systems
+
+The excluded kid must have some kind of a clue how to get inside university's systems
+
+Dropout kid:178.184.180.189</file>
+<file path="home/Oath" name="Oath.txt">I am acknowledging next rules and will obey them:
+
+I will always evolve and try to become stronger and powerful in all life's aspects
+
+Morality is a codex of weak people to make everyone equally weak as well, and if that stands on my way of getting more powerful, I will ignore it
+
+There is no mercy to the weak people, because they could stay strong, but preferred opposite, and as honorable agent of fate, I swear to utilize such individuals as tools or react to them as a trash
+
+If I have a choice between weakness and death, death is the only way, because I will die strong and independent, and won't live a miserable life as a slave</file>
+<file path="home/Memory_Tools" name="Memo.txt">Attention to NightHawks!
+
+This set of memory-sensitive software is used to extract dumps from all kind of machines. Use this to get a piece of data and analyze it, so it can be restored after deletion procedure</file>
+<file path="home/Memory_Tools" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="home/Memory_Tools" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="home/Misc" name="PD list">This is a part of a list of Police Departments of California State
+
+Be careful and remember their addresses, so you can identify them properly if you found them in any logs:
+
+46.55.180.122 (San-Francisco)
+250.224.135.131 (Los-Angeles)
+135.133.244.178 (San-Diego)
+17.136.34.154 (Sacramento)
+175.102.196.84 (Santa-Rosa)
+215.191.241.195 (Fresno)
+243.157.218.48 (San-Jose)</file>
+<Memory>
+	<Data>
+		<Block>
+			IRC DUMP HAVE BEEN RELOCATED HERE DUE TO PROXY INSTABILITY
+				
+Maverick: Did you investigate those police servers?
+				
+Repulse: Yes, they are being renovated by EnTech I presume, 
+they have fancy whitelists and other extreme security measures
+				
+Maverick: We could profit from their Asset servers
+				
+Repulse: They are unreachable, at least for now
+				
+Repulse: Also, you should tell everyone to be careful, 
+there was a nasty story recently, involving some of these PD servers
+				
+Maverick: Speak
+			
+Repulse: All listed servers, except Santa-Rosa are renovated, 
+I think it is a matter of time when Santa-Rosa gonna join EnTech's "Enrichment Program"
+			
+Repulse: Meaning Santa-Rosa is still vulnerable 
+And they don't have new scanning systems as well
+			
+Maverick: So they are outsiders for now?
+				
+Repulse: I wouldn't say it that way, we made a little test last month 
+and we dropped dirty netcfgx.dll from a test machine
+				
+Repulse: They seem to retransmit it to somewhere else
+				
+Repulse: Thing is, cops arrived in a 52 minutes
+				
+Maverick: Ah shit, here we go again
+				
+Repulse: As long as we staying away from them, I don't think they'll locate us
+				
+Maverick: I'll ring some bells to find out what we can do about it, 
+maybe we should disrupt their transmitter
+				
+Maverick: As for now, we are going dark...
+				
+			END OF IRC DUMP
+		</Block>
+		<Block>
+			IRC DUMP HAVE BEEN RELOCATED HERE DUE TO PROXY INSTABILITY
+			
+Repulse: Jenkins, I fucking tired of it, 
+When you will learn how to use a fucking erase-script properly?
+I am tired of sending your tools over and over again after your unsuccesful experiments
+				
+Repulse: Here is your fucking WebWorm
+				
+Repulse: !ATTACHMENT:link#%#Archive Node#%#212.42.92.36
+				
+			END OF IRC DUMP
+		</Block>
+	</Data>
+</Memory>
+</Computer>

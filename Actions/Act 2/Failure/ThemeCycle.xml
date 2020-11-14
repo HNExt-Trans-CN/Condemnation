@@ -1,0 +1,10 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="TC">
+	<SwitchToTheme ThemePathOrName="Themes/TC1.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.0" />
+	<SwitchToTheme ThemePathOrName="Themes/TC2.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.2" />
+	<SwitchToTheme ThemePathOrName="Themes/TC3.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.4" />
+	<SwitchToTheme ThemePathOrName="Themes/TC4.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.6" />
+	<SwitchToTheme ThemePathOrName="Themes/TC0.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.8" />
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/ThemeCycle.xml" DelayHost="Delay" Delay="1.0"/>
+	</HasFlags>
+</ConditionalActions>

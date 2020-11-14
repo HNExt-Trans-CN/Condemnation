@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 9 Branch" activeCheck="true">
+  <goals>
+  <goal type="getadmin" target="M9Target"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 9/Mail.xml</missionEnd>
+  <nextMission>Missions/Act 2/Mission 9/Choise.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

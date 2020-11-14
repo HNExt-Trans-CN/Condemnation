@@ -1,0 +1,74 @@
+config playerComp Delay 0.0 $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+delay 0.2 $#%#$
+hideRam $#%#$
+delay 0.2 $#%#$
+hideDisplay $#%#$
+delay 1.18 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent Omicron: $#%#$
+writel_silent $#%#$
+writel_silent That was close $#%#$
+delay 2.28 $#%#$
+writel_silent You almost had me $#%#$
+delay 2.88 $#%#$
+writel_silent $#%#$
+writel_silent At least that is what you think $#%#$
+delay 2.58 $#%#$
+writel_silent $#%#$
+writel_silent But in reality $#%#$
+delay 2.03 $#%#$
+writel_silent $#%#$
+writel_silent You never were so far from me as it is now $#%#$
+delay 4.88 $#%#$
+writel_silent $#%#$
+writel_silent Chasing your own tail $#%#$
+delay 2.40 $#%#$
+writel_silent Like a stupid dog $#%#$
+delay 2.17 $#%#$
+writel_silent That's who you really are $#%#$
+delay 2.73 $#%#$
+writel_silent $#%#$
+writel_silent I had big hopes about you $#%#$
+delay 3.49 $#%#$
+writel_silent You were supposed to become my greatest project $#%#$
+delay 3.55 $#%#$
+writel_silent But I was wrong $#%#$
+delay 1.81 $#%#$
+writel_silent You are a complete failure $#%#$
+delay 2.57 $#%#$
+writel_silent $#%#$
+writel_silent There is no need to continue our interaction $#%#$
+delay 2.91 $#%#$
+writel_silent You are too weak to carry out my plans $#%#$
+delay 2.66 $#%#$
+writel_silent So I've sent a babysitter after you $#%#$
+delay 3 $#%#$
+writel_silent $#%#$
+writel_silent You know what led you here? $#%#$
+delay 2.41 $#%#$
+writel_silent Indecision and uncertainty $#%#$
+delay 3.62 $#%#$
+writel_silent You don't understand what are you fighting for $#%#$
+delay 3.25 $#%#$
+writel_silent You are trying to make things right but you don't know what is 'right' $#%#$
+delay 5.68 $#%#$
+writel_silent Your anger is not enough $#%#$
+delay 3.12 $#%#$
+writel_silent You need sacrifices and make others fear you $#%#$
+delay 5.31 $#%#$
+writel_silent That is how this world works $#%#$
+delay 3.88 $#%#$
+writel_silent $#%#$
+writel_silent Changing horses in midstream won't lead you to anything good $#%#$
+delay 5.10 $#%#$
+writel_silent That is the lesson you should learn $#%#$
+delay 3.52 $#%#$
+writel_silent $#%#$
+writel_silent Farewell $#%#$
+delay 1.90 $#%#$
+write_silent Cypher... $#%#$
+delay 1.10 $#%#$
+hideTerminal $#%#$

@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Vengence 1" activeCheck="true">
+  <goals>
+  <goal type="hasflag" target="NH_Done"/>
+  <goal type="fileupload" target="playerComp" file="Omicron.loc" path="home" destTarget="NHHub" destPath="home"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Veng/1_2.xml</missionEnd>
+  <nextMission>Missions/Act 2/Failure/Start.xml</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>Shit, fuck, FUUUCK
+
+That cunt made Clara outlaw as well!
+
+For fuck sake, I am so tired of this bullshit with sacrificing
+Why me? Why the FUCK IT SHOULD BE ME???
+
+What did I wrong in my entire life to deserve this, huh?
+
+I will remember that fucking day it all began
+Downloading a shitty drug evidence
+It would be fucking better if I didn't touch it at all!
+
+I have nothing to lose now
+That motherfucker will die in agony and burn in hell
+I will make sure of it...
+
+I have his location
+I just need to decipher it properly
+
+NightHawks will help
+I gave them tools
+Now they need to pay me back</body>
+    <attachments>
+	<link comp="NHHub" />
+    </attachments>
+  </email>
+</mission>

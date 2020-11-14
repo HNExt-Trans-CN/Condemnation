@@ -1,0 +1,53 @@
+<ConditionalActions>
+	<OnAdminGained target="NHHub">
+	<RunFunction FunctionName="setFaction:NH" FunctionValue="0" />
+	<RunFunction FunctionName="setHubServer:NHHub" FunctionValue="0" />
+	<RunFunction FunctionName="playCustomSong:Music/2.ogg" FunctionValue="0" />
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="1.0"/>
+	
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Flagged.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="3.0">!ANNOUNCEMENT! VORTEX JOINED THE SERVER @channel</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="9.0">Who the fuck is that?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">How did you get here?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">So they DID manage to trace him. Fuck</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="30.0">@channel Attention to everyone, DO NOT INTERACT with any Police Servers, they are upgrading their software, one of our external agents has been caught already</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="39.0">If he gave you access data to this server, you are not some stranger</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="43.0">In fact, he told us about you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Vortex, your NetMap was damaged and in the same time you have a unique ability to disguise your logs. And it is true, we can't see you in logs on this server, only that you have admin access, gained through our password</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="64.0">Jenkins, our Script-Writer, he can easily make one computer attack another one without anybody noticing anything</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="70.0">Sup</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="74.0">Deladello, Social Engineering, utilizes human stupidity better than anyone else</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="80.0">Greetings</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">Prophet, Coordinator and Cooperative Hacker, helps me to hold everything under control, and if you pair with him, nobody can stop you both</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="90.0">When united - then strong</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="94.0">Slayer, Damage Control, our blast force and sledgehammer in any situation, has access to the hitmen services in special cases</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="100.0">Need anything or anyone broken, you ask me</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="104.0">And me of course, Head of The Operations, Maverick</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">So, what is your motivation?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="111.0">I need to find one hacker</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">Deladello and Prophet can help you with that</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">But why I should give them that order?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="123.0">I can be a part of your team as well, you still need the Covert Operations specialist, someone untrackable, I bet you already know why I am the best candidate</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">Indeed, your log-disguise is a very interesting phenomenon</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="135.0">We have a few contracts that require delicate approach</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="140.0">While you will be busy with them, Deladello and Prophet will collect info about your guy</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="145.0">You accept that deal?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="150.0">Yes</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="153.0">Boys, help our new member with his personal problem and give his address to our contracts hub agent</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="157.0">Jenkins, Slayer, we have a business to attend to</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="162.0">What is the nickname of that hacker?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="166.0">Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="170.0">We'll start digging, meanwhile you will complete contracts of our clients, first one should be easy</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="175.0">And check this server's files, you can find something useful</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="179.0">Here is your first one</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Bonk1.xml" DelayHost="Delay" Delay="183.0"/>
+	</OnAdminGained>
+	
+	<HasFlags requiredFlags="Repulse">
+	<RunFunction FunctionName="setAssetServer:NHCrossR" FunctionValue="0" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Jester">
+	<RunFunction FunctionName="setAssetServer:NHCross" FunctionValue="0" />
+	</HasFlags>
+</ConditionalActions>

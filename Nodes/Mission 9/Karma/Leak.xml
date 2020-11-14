@@ -1,0 +1,15 @@
+<Computer id="M9Leak" name="LEAK" type="1">
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5" />
+<firewall level="10" solution="gigachad69" additionalTime="0.0"/>
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="M9LeakDB" />
+<file path="home/Misc" name="To_Mike.txt">Do you have a fucking ape brain or what? What synapse of your mind thought that it was a good idea to forward a confidential access data through moderate-protected front-end server? I am deleting this shit and if that will happen again, your sick mom won't get her treatment funds next month</file>
+<file path="home" name="NOTE.txt">This is a front-end server of the LEAK. Assets DataBase is located on the linked server</file>
+<Memory>
+    <Data>
+      <Block>*CONTENT DELETED*:forwarded_from:173.135.163.31</Block>
+	</Data>
+</Memory>
+</Computer>

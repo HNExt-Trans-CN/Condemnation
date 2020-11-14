@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="M7E1" handle="NONE" firstName="Allan" lastName="Turner" isMale="true" forceHasNeopals="false">
+ <Birthplace name="Califonia, Sacramento" />
+ <DOB>19/11/1979 21:46:36</DOB>
+ <Degrees>
+    <Degree uni="Sacramento Police Acadamy" gpa="4.0">Admitted to the service in the Police</Degree>
+    <Degree uni="Westbrook University" gpa="3.8">Bachelor of Digital Security</Degree>
+	<Degree uni="Westbrook University" gpa="3.4">Masters of Digital Security</Degree>
+ </Degrees>
+ 
+ <Medical>
+    <Blood>AB</Blood>
+    <Height>181</Height>
+    <Allergies>Cat Fur,Domestic Dust</Allergies>
+    <Perscription>Antibiotics complex A38 x7</Perscription>
+    <Perscription>Antiretrovirus medicine Version 26</Perscription>
+    
+    <Notes>Patient is diagnosed with positive HIV and Syphilis.
+
+All prescribed medicine must be taken regularly and in time.
+
+If all conditions are met, the recovery process from Syphilis and degrading process for HIV would start in about 2-3 months.
+
+Meanwhile, Patient should visit his personal therapist everyday for regular check-up.</Notes>
+  </Medical>
+  </Person>

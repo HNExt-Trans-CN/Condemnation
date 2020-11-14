@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 10 Clara End" activeCheck="true">
+  <goals>
+  <goal type="filedownload" target="PDAsset" file="SSHCrack.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="FTPSprint.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="WebServerWorm.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="SMTPOverflow.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="SQLOverflow.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="RTSPCrack.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="TorrentStreamInjector.exe" path="bin"/>
+  <goal type="filedownload" target="PDAsset" file="SSLTrojan.exe" path="bin"/>
+  <goal type="filedownload" target="Delay" file="EnBreak.exe" path="home"/>
+  <goal type="clearfolder" target="PDAsset" path="log"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/ClaraDrama.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Mission 11/1.xml</nextMission>
+  <email>
+    <sender>E-mail</sender>
+    <subject>?</subject>
+    <body>What is that?
+Go to the IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

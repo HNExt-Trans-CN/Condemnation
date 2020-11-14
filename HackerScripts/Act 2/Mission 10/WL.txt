@@ -1,0 +1,2 @@
+config WL NHHub 0.1 $#%#$
+delete /Whitelist authenticator.dll $#%#$

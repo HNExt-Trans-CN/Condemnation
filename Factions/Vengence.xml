@@ -1,0 +1,13 @@
+<CustomFaction name="Vengence" id="VEnd" playerVal="0">
+
+	<Action ValueRequired="1">
+    <RunFunction FunctionName="addFlags:Vengence1" FunctionValue="0" />
+  </Action>
+  
+  <Action ValueRequired="5">
+	<RunFunction FunctionName="removeFlags:Vengence1" FunctionValue="0" />
+    <RunFunction FunctionName="addFlags:Vengence5" FunctionValue="0" />
+  </Action>
+  
+
+</CustomFaction>

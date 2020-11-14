@@ -1,0 +1,6 @@
+<Computer id="NHConHub" name="NightHawks' Additional Contracts Hub" ip="160.135.176.149" security="5" type="4">
+<account username="Vortex" password="CovertDeath" type="3" />
+<trace time="7" />
+<admin type="progress"/>
+<variableMissionListingServer name="NH" iconPath="Logos/NH.png" articleFolderPath="Missions/Misc/Bonk" color="255,0,3" assigner="true" public="false" title="NightHawks Contracts Hub" />
+</Computer>

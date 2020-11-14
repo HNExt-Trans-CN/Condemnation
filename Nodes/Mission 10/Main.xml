@@ -1,0 +1,9 @@
+<Computer id="M10M" name="EnTech Side Server" ip="27.113.216.249" security="5" type="1">
+<adminPass pass="FIHef3ih" />
+<portsForCrack val="101" />
+<trace time="20" />
+<admin type="progress"/>
+<dlink target="M10P1" />
+<dlink target="M10P2" />
+<dlink target="M10P3" />
+</Computer>

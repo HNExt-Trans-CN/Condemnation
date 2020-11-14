@@ -1,0 +1,25 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/Sequencer1.ogg" FunctionValue="0" />
+	<CrashComputer TargetComp="playerComp" CrashSource="M5C3" DelayHost="Delay" Delay="0.0" />
+	<SwitchToTheme ThemePathOrName="Themes/TC4.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.0" />
+	<RunFunction FunctionName="addFlags:NetMapHid" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Loop1.xml" DelayHost="Delay" Delay="2.0"/>
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="MedicalRecord_-_Turner_Allan" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="MedicalRecord_-_Williamson_Javis" SourceFilePath="home" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission Load.xml" DelayHost="Delay" Delay="15.0"/>
+	</Instantly>
+	
+	<OnConnect target="M6Thread" needsMissionComplete="false">
+	<ChangeAlertIcon Target="M6Thread" Type="board" DelayHost="Delay" Delay="0.1"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 6/Stupid.txt" DelayHost="Delay" Delay="1.0" SourceComp="Delay" TargetComp="M6Stupid" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+	
+	<HasFlags requiredFlags="Jester">
+  <CopyAsset DestFilePath="eos/notes" DestComp="Jester" SourceComp="Delay" SourceFileName="Remote_Desktop_app" SourceFilePath="home" />
+  </HasFlags>
+  
+  <HasFlags requiredFlags="Repulse">
+  <CopyAsset DestFilePath="eos/notes" DestComp="Repulse" SourceComp="Delay" SourceFileName="Remote_Desktop" SourceFilePath="home" />
+  </HasFlags>
+</ConditionalActions>

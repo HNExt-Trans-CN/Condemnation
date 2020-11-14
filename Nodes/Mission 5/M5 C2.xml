@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5C2" name="Super_Fluffy's Battlestation" ip="104.147.169.53" icon="DLCPC1" type="1">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 443</ports>
+  <firewall level="10" solution="MomOneLove" additionalTime="0.0"/>
+  <trace time="120" />
+  <portRemap>22=2958,21=4965,25=456</portRemap>
+<CustomConnectDisplayDaemon />
+<eosDevice name="Fluffy's OPPAI x2 Pro" id="M5SubC2" icon="ePhone1" empty="false" passOverride="Alpine">
+<note>Omicron
+
+Got IP of the Omicron guy (59.103.6.188), can't get in, he is protected by something marvolous. He is definitely playing an act with his sloppiness!</note>
+</eosDevice>
+
+</Computer>

@@ -1,0 +1,11 @@
+<Computer id="M10P3" name="SubNode" type="4">
+<ports>21, 22, 25, 80, 211, 443</ports>
+<portsForCrack val="6" />
+<firewall level="13" solution="FUEHI4fwsurhG" additionalTime="0.0"/>
+<trace time="120" />
+<admin type="none"/>
+<file path="home/Whitelist" name="Dump_34">#BINARY#</file>
+<file path="home/Whitelist" name="Dump_53">#BINARY#</file>
+<file path="home/Whitelist" name="Dump_69">#BINARY#</file>
+<file path="home/Whitelist" name="Dump_10">#BINARY#</file>
+</Computer>

@@ -1,0 +1,17 @@
+<Computer id="M7Gate" name="NightHawks' Gateway" ip="44.198.25.198" security="3" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home" name="Hello.txt">Go fuck yourself and get out of here :-)</file>
+<eosDevice name="Jailbroken ePhone" id="Jester" icon="ePhone1" empty="false" passOverride="Alpine">
+<note>lel
+
+Need more unfunny memes to troll kids</note>
+</eosDevice>
+<eosDevice name="Jailbroken ePhone" id="Repulse" icon="ePhone1" empty="false" passOverride="Alpine">
+<note>I can see you
+
+Baka</note>
+</eosDevice>
+<eosDevice name="Jailbroken ePhone" id="Maverick" icon="ePhone1" empty="false" passOverride="Alpine">
+</eosDevice>
+</Computer>

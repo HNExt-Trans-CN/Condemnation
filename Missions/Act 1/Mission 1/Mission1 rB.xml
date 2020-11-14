@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 1 Route B">
+<goals>
+    <!-- Goals here -->
+	<goal type="fileupload" target="M1rB_BG" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+</goals>
+<missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rB Actions.xml</missionStart>
+<missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
+<nextMission>NONE</nextMission>
+<posting title="Hacktivism">
+
+Prime suspect is a propagandist of communism and using very aggressive strategies.
+
+We have to do something before young maximalists will react to it.
+</posting>
+<email>
+	<sender>Clara</sender>
+	<subject>CyberStalin is back</subject>
+	<body>
+I knew you would pick up that mission. Me and Javis will cover the rest two.
+
+This guy attacked news server and changed frontline to his absurd political propaganda.
+
+We have to track an IP of his PC and pack him up. I will link a frontend server, but most probably you have to poke around and reveal mainframe to find some tracks of that guy.
+
+As for access, that bastard changed Admin Passwords on entire infrastructre, wich means we have a green light on using crack tools.
+
+Find his IP and crack him up, then get his netcfgx.dll from sys/ and upload to the Asset server's upload module. And we will know everything about him.
+
+Good luck on this one!
+    -C
+
+PRO TIP:
+Use LOGS to find tracks of criminal's computer systems
+
+GOALS:
+1)GET INSIDE propagandist's Battlestation and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+</body>
+<attachments>
+	<link comp="M1rB_Tab"/>
+</attachments>
+</email>
+</mission>

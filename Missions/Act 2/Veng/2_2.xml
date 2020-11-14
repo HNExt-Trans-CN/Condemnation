@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Vengence 2_2" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="OmBoss" file="Core.dll" path="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Failure/Start.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Veng/Boss.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,110 @@
+<ConditionalActions>
+	<Instantly>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="2.0">What the actual fuck?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.0">Greetings to all of you, humble people</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.0">I think there is no need to introduce myself</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="13.0">Saw your recent job, quite a shock to everybody</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.0">I like your style!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="22.0">We indeed expected a contact from you, but in a bit different way</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.0">Like what? Email?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="31.0">I thought people recognize me for an unusual approach to different stuff</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="36.0">It is quite unusual</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="40.0">What are you operating with? How's that possible?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="45.0">Whoa whoa, people. I don't know you, so many new names</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.0">I was hoping my old friend @Vortex would introduce you to me</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="49.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="49.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="49.3"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="55.0">Fuck</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="56.0">you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="60.0">Oww, no need to be so rude</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="64.0">You're alive after all</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">I think we should just move on from past and look straight into the bright future</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">You can shove that bright future in your ass</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.0">Duly noted</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="80.0">Anyway, I thought that I am here to see some professionals who killed 58 people in a hospital and got away with it</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="85.0">And in the same time made their names in California Prime News</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">Yes, we are people of the business of course</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="95.0">One of your operatives seems to be hostile and irrational towards our partnership</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="100.0">He will be eliminated quickly if you require that</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="103.0">No</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="105.0">I have some plans on him</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="110.0">Let me introduce our group</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="113.0">Noooo. I think I made quite clear statement, that I want Vortex to introduce your group</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="118.0">If he won't do that, there is no business between us</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="122.0">@Vortex, please, cast off your pride and introduce NightHawks properly</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="122.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="122.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="122.3"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="126.0">What if I refuse?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="127.0">Then you have to speak with Slayer in person</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="132.0">And that won't be a long conversation</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="136.0">Think straight for a moment. You want to revenge? Do it smart, not bold and stupid</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="142.0">You should listen what that man says</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="146.0">I am guaranteeing that I will give you my full attention if you just introduce your friends</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="150.0">Nothing more</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="153.0">It is not so hard</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="160.0">I am sure you know everything about them already</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="164.0">So you can quit that clownade, and we will talk face to face</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="169.0">I am assuming you are calling me a clown?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="173.0">Exactly</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="177.0">Hmm. I don't like to work with people who insult me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="181.0">So maybe I should go and look for someone more suitable...</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="184.0">No, we are sorry for this misunderstanding</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="188.0">I think Vortex meant that you've probably collected all info about us already, there is no need to be so easily offended, sir</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="193.0">Yes, just a stupid joke, he just had a rough day</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="199.0">I had a rough 2 months to be precise</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="203.0">And that man is the main reason for it</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="208.0">You want to get to me? Pay some respect and act like a gentleman</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="213.0">You are professional after all</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="218.0">Fine</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="221.0">Maverick, main dickhead of that little digital dumpster</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="226.0">Jenkins, little bitch that handles scripts and tools</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="231.0">Deladello, pseudo psychologist who thinks that being cynical 24/7 is cool</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="236.0">Slayer, an absolute crazy motherfucker who enjoys killing sprees</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="241.0">And last one, Prophet, don't know anything about him, he is just some quite guy</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="246.0">Are you happy now, piece of shit?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="250.0">Not entirely a gentleman type of introduction, but hey, I will take it</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="254.0">Okay lads, I think you shouldn't be angry at him, he is in a really bad shape to be honest</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="259.0">Two months back he was a Police Captain after all</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="263.0">WHAT?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="266.0">He was obedient man of the law</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="270.0">And now he helps you to murder 58 people</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="274.0">So if I were you, I would give him some credit</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="278.0">His real name is Cypher Mendes</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="282.0">I bet you all read the news about him 2 months back</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="287.0">A cop who worked with drug cartel?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="290.0">Exactly</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="294.0">And now he wants to get to me for that little prank</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="300.0">You destroyed my life, crippled me, made me a murderer, and now making fun of me</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="305.0">I will kill you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="309.0">That's not something a policeman would say, Cypher</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="313.0">But I will give you that opportunity</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="317.0">You just must have enough motivation and guts to do that</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="322.0">@channel I have a job to all of you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="326.0">We are going to hit an FBI Database and all of you would have an opportunity to wipe of all your personal data and start a new life</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="333.0">But you need tools for that</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="337.0">Luckily, Vortex knows an address of a Police Asset server</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="342.0">But in case of his bad memory, I'll drop a link here</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="345.0">!ATTACHMENT:link#%#Asset Server#%#90.91.183.142</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="353.0">@channel But as you can see, it is protected with advanced EnTech security protocols</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="358.0">I have a special tool to break EnSec, but we can't breach whitelist yet</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="363.0">I know a place where we can get what we need</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="367.0">But to make it more interesting, Vortex will be leading this operation</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="372.0">I will upload a .dll that helps to break EnSec to Vortex's PC, and then you can attack an archive of EnTech that contains whitelist breach tools</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="380.0">Vortex can give that .dll to NightHawks, by uploading it in /home folder of this server, or he can unite with his girlfriend that he secretly contacted recently</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="385.0">What girlfriend?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="388.0">On one of your contracts that you gave to Vortex, he made a contact with someone named Clara</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="392.0">Apparently, she is an ex-colleague of Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="396.0">Mothefucker</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="400.0">So, @Vortex, you have a pretty simple choice: upload .dll file to this server's /home folder if you want to unite with NightHawks, and I promise we will settle our matter right after and nobody will disturb us</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="400.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="400.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="400.3"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="410.0">Alternatively, you can send it to Clara's Workstation's /home folder and unite with her, if you think you still have some morality. But I am warning you, NightHawks will attack you both, and you may not see me ever again</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="420.0">You can't use this .dll youself, you need a partner who can make a valid .exe</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="425.0">So...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="428.0">Choose wisely</AddIRCMessage>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/DLL.txt" DelayHost="Delay" Delay="430.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+</ConditionalActions>

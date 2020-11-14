@@ -1,0 +1,32 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/RevengeR.xml" DelayHost="Delay" Delay="108.0"/>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="5.0">@Vortex Great, I've got the Med File, can make that guy look like a junkie</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="10.0">You wiped his degrees?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="13.0">Yes, there were three degrees</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="18.0">Good, I can corner him now</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="22.0">If he won't tell, I just going to ruin his life</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="26.0">Why do you think he would know where to find that Cypher guy?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="30.0">My sources are saying they were close, maybe even cooperated on that drug business</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="35.0">I'll just make this world one dirty cop lesser</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="38.0">So I can't say I am a bad guy</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">And thank you for your help, what you done is really important to me</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="46.0">And as I said, I will give you the complete fix for the map, and there will be access to NightHawks sa well</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">Interested in joining in?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">NightHawks?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="57.0">Yeah, we kind of could use your abilities and that log-disguise feature is pretty good as I can see</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">I have to continue my search and make someone pay</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="66.0">With a few portbreakers? If his is so hard to find and so powerful, I think he will crush you again, no offence</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="71.0">But if you become one of us, we could help each other</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="75.0">You will help with our contracts and we will provide you all intel about your guy</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="80.0">What you think?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="83.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="86.0">Maybe</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="90.0">In any case, I'll activate the fix and there will be access data as well</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="94.0">It will show up on your terminal</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="98.0">Don't think for too long</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="102.0">We will change access details in a few hours</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="105.0">Here is your fix</AddIRCMessage>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="105.0"/>
+	</Instantly>
+</ConditionalActions>

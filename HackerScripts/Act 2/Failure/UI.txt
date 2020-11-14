@@ -1,0 +1,10 @@
+config playerComp OmBoss 0.2 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+hideTerminal $#%#$
+delay 3 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$

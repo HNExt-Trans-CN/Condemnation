@@ -1,0 +1,5 @@
+<Computer id="C5B" name="SFCPD Gateway" security="4" type="4">
+<trace time="60" />
+<admin type="progress"/>
+<dlink target="C5C" />
+</Computer>

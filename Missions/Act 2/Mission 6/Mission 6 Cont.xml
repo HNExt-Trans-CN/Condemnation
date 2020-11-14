@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 6 Cont" activeCheck="true">
+  <goals>
+  <goal type="filedownload" target="M6Web" file="WebServerWorm.exe" path="home/Gift"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 6/Alert2.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Mission 7/Mission 7.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

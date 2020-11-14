@@ -1,0 +1,8 @@
+<Computer id="OmBoss9" name="DUMB FUCKER" type="4">
+<ports>1433, 554, 211, 21, 6881, 443</ports>
+
+<portsForCrack val="3" />
+<trace time="-1" />
+<admin type="none"/>
+<file path="home" name="Source_Fragment.txt">2=63</file>
+</Computer>

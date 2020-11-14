@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="NetMapHid">
+    <SetLock DelayHost="Delay" Delay="0.1" Module="netmap" IsLocked="false" IsHidden="true" />
+    <AddConditionalActions Filepath="Actions/Loop1.xml" Delay="1.0" DelayHost="Delay" />
+  </HasFlags>
+  
+</ConditionalActions>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Act 1 End Sup" activeCheck="true">
+<goals>
+  <goal type="hasflag" target="ETAS"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/MailChange.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/DEMO.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

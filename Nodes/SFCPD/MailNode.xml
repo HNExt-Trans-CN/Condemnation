@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SFCPDMail" name="San-Francisco Authority's Mail service" allowDefaultBootModule="true" icon="DLCServer" type="1">
+<account username="Cypher" password="CyberCap" type="2"/>
+  <portsForCrack val="101" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  <WhitelistAuthenticatorDaemon Remote="WL"/>
+	<mailServer name="San-Francisco Authority's" color="5, 122, 255" generateJunk="false">
+	<email recipient="Cypher" sender="EnTech" subject="Congratulations and Pro tips">
+On behalf of the EnTech company, thank you for upgrading your Police Department security systems to our High-End solutions!
+	
+You now working under Hacknet_OS system and protected by EnSec security protocols, that can protect you from any kind of attack.
+	
+Because of the risk of high damage, use Hacknet_OS attack functions ONLY as an extreme measure to get access to criminal's computer systems. DON'T USE IT WITHOUT PERMISSION ON ANY NODES THAT ARE NOT CLASSIFIED AS CRIMINAL ELEMENT!
+	
+Hacknet_OS has trace-averting protective systems, so when you try to access a node with trace systems, a timer would start. If it expires, your workstation would crush and you would have to try again. If trace-averting systems would fail, a special sequence if IP-change procedure would start, allowing you to stay hidden from criminal's protective systems, but also you would lose access to your whitelisted servers, like you Police Depatment digital infrastructure. Contact your security assistant in that case.
+
+	PRO TIPS:
+	
+1)To track criminals, first things first, see logs of the attacked node. Any machine would leave a disconnect log that can't be deleted, so DON'T CLEAR LOGS, they are essential part of most cases. 
+
+And don't worry about passive trace, with new Police-exclusive security add-on your workstation will leave logs, which are only visible to other workstations with the same add-on, making them invisible to the criminal.
+
+2)Also you have to know, that most of the mobile devices have a sync with computers that can be accessed with an eOS scanner, which is universal. Admin passwords were also changed from "alpine" to "Alpine".
+
+3)Your digital security assistant would notify you when you will get your attack tools. When you will get them, you can access them in /bin folder of your workstation.
+	
+And again, thank you for choosing EnTech company,
+Have a very safe and productive day
+	
+			-Emily, Sales Department Manager
+  </email>
+	<email recipient="Cypher" sender="Clara" subject="Wake up, there are a lot of criminals to catch!">
+Captain, I think you really should NOT try to not sleep more than a few days!
+
+You overslept again, I finished the IRC debuging, so you can pay off to me with some fine coffee :-)
+
+We are very grateful for your devotion to the cybercrime fighting, but you HAVE to rest time to time.
+
+	
+Anyway, team is ready for some action for today and waiting just for you!
+
+You have to download the token file from our asset server (90.91.183.142), access with "Cypher" login and password "CyberCap"
+	
+
+Once done, simmply click the IRC Chat button, it will be located in top-right corner.
+
+	
+Let's kick some cyber-ass!
+	
+	-C
+
+    
+  </email>
+	</mailServer>
+  
+</Computer>

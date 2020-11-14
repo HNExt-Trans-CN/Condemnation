@@ -1,0 +1,9 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="NHOut">
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You refused to help us with the Police Asset server job</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="NHIn">
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You helped us to get inside Police Asset server</AddIRCMessage>
+	</HasFlags>
+</ConditionalActions>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Empty 4">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Communication">
+Make contact with Shuriken Alliance and convince them to help us
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1rB_Tab_MF" name="Digital Wind's Mainframe" ip="156.218.207.104" icon="DLCServer" type="empty">
+<ports>21, 22, 25, 554, 1433</ports>
+<portsForCrack val="5"/>
+<firewall level="8" solution="fakenews" additionalTime="0"/>
+<trace time="120"/>
+<admin type="progress"/>
+</Computer>

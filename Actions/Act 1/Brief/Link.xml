@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<AddMissionToHubServer MissionFilepath="Missions/Act 1/Mission 5/Mission 5.xml" TargetComp="PDIRC" />
+	</Instantly>
+</ConditionalActions>

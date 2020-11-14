@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8 Clara" activeCheck="true">
+  <goals>
+  <goal type="hasflag" target="Clara_Contacted"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/Clara.xml</missionStart>
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>E-Mail</sender>
+    <subject>Response</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+2 months...
+It was the worst 2 months of my life
+
+I will hear you out,
+But I can't promise anything at all
+Even that I will not give heads-up to the Feds about you...
+
+We can talk here "149.17.58.225"</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

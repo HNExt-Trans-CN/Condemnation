@@ -1,0 +1,12 @@
+config playerComp NHHub 0.0 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+delay 1 $#%#$
+writel ERROR: UI CORRUPTION, INITIALIZING RESTORE PROCEDURE $#%#$
+delay 1 $#%#$
+write_silent . $#%#$
+delay 1 $#%#$
+write_silent . $#%#$
+delay 1 $#%#$
+write_silent .

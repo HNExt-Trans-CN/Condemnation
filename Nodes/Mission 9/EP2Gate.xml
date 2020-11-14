@@ -1,0 +1,7 @@
+<Computer id="M9EP2Gate" name="NLH Hospital, West Wing Gateway" security="5" type="4">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="M9EP2Key1" />
+<dlink target="M9EP2Key2" />
+<dlink target="M9EP2Key3" />
+</Computer>

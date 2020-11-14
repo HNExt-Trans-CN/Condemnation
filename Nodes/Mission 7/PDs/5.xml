@@ -1,0 +1,5 @@
+<Computer id="M7PD5" name="Santa-Rosa Police Department" ip="175.102.196.84" security="5" type="3">
+<trace time="90" />
+<admin type="progress"/>
+<uploadServerDaemon name="Santa-Rosa Police Department" folder="Drop" needsAuth="false" color="2,0,255"/>
+</Computer>

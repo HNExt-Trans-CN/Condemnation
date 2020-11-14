@@ -1,0 +1,2 @@
+config playerComp NHHub 0.1 $#%#$
+writel Prophet: One down, one to go

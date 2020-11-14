@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Empty 9">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Personal Matter">
+--DO NOT DISTURB--
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

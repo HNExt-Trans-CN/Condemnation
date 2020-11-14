@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Brief">
+  <goals>
+  <goal type="hasflag" target="Brief_Done"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 1/Brief/Brief.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Brief/Link.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Conference">
+  When you feel that you finished everything else, we will start a conference with the FBI representative
+  </posting>
+  <email>
+    <sender>Clara</sender>
+    <subject>Conference</subject>
+    <body>Our conference will be in online mode, with the FBI representative, agent Gale, and an EnTech's digital security assistant. When conference will finish, ONLY THEN click COMPLETE	button</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

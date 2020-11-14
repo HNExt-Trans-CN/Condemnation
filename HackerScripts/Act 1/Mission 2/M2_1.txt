@@ -1,0 +1,4 @@
+config 182.172.94.94 209.112.125.179 0.2 $#%#$
+connect $#%#$
+delete /log * $#%#$
+disconnect $#%#$

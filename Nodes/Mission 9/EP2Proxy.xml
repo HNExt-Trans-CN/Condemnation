@@ -1,0 +1,6 @@
+<Computer id="M9EP2Proxy" name="Proxy Server Z30" ip="101.64.243.132" security="2" type="1">
+<trace time="-1" />
+<admin type="progress"/>
+<file path="home" name="Note.txt">Nigel, please, make sure this encryption software is working properly, we had a bug with addressing server, it is in locked mode now</file>
+<file path="home/DECSuite" name="RETRANSMITION_PRESET.txt">ACCESS_INPUT:IVLAP216ocfs</file>
+</Computer>

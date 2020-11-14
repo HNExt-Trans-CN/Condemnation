@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:Clara_Contacted" FunctionValue="0" />
+	</Instantly>
+</ConditionalActions>

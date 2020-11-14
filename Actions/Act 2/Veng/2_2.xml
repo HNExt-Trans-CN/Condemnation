@@ -1,0 +1,37 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:VStrong" FunctionValue="0" />
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="5.0">Got it, gonna be done soon</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">@Vortex, so how exactly do you want to attack him?</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="10.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="10.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="10.3"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">We need to locate him, and then Slayer will handle him</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">Meanwhile, you can take his network once we are inside his real PC, not some dummy gateway</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">Ok, what about his defence?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="29.0">Most probably there gonna be some security systems</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="33.0">That cover his PC from our scanners</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="37.0">But then he must use some kind of Sequencer to operate in stealth</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">So what? Where we can find it?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">I really doubt that he will leave his real address in that file and it is most definitely a trap</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="50.0">But when it is active, we can scout a part of his network that is connected to his PC somehow, like through Sequencer as I said</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="56.0">So we need to trigger a trap and then we wil see a breach in his security?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="61.0">Yep</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">And who is gonna be the bait?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="70.0">Me of course</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">He awaits me</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="77.0">I will play his little game while you guys will strike from behind</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="82.0">Risky move but sounds epic</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="86.0">Okay, I've done with that file, from what I can see it is a dummy PC, that connected through Core.dll file in /sys folder</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="92.0">I bet he just waits when you will strike first</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="97.0">Ok, analyze all processes on that dummy while I am having fun with that cocksucker</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="102.0">Yeah, delete Core.dll and that will trigger some kind of trap for you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">We will watch for any crack in his security</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">Ok, here's IP</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="114.0">!ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30</AddIRCMessage>
+	</Instantly>
+	
+	<OnConnect target="OmBoss" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+</ConditionalActions>

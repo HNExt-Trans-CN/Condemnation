@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" name="Gigabit Rabbit" security="3" icon="Psylance" type="3">
+<ispSystem />
+</Computer>

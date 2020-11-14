@@ -1,0 +1,17 @@
+<Computer id="M9EP1Mail" name="NLH Hospital, Internal Mailing" ip="222.116.127.15" security="5" type="4">
+<account username="Nigtoren" password="PAC5yb" type="2" />
+<portsForCrack val="101" />
+<trace time="10" />
+<admin type="progress"/>
+<mailServer name="Never Loose Hope Hospital" color="0,255,141" generateJunk="false">
+<email recipient="Nigtoren" sender="Kellis BT" subject="LS-Machine has been shipped">Greetings Dr. Evans, an additional life support unit has arrived to Never Loose Hope Hospital, we hope our contribution in support of your new medical policy would make us great partners in future business.
+
+	Stay healthy,
+	Mary - Delivery Sector</email>
+<email recipient="Nigtoren" sender="Simon" subject="Re:Re:LS Unit">Thank you Dr. Evans!
+---------------
+It is 176.0.9.163, keep it confidential!
+---------------
+Hello Dr. Evans, it is Simon from pulmonary ward. Thank you for giving us a life support unit, we couldn't be more grateful! But we also need an external IP to connect it to our comuter systems. Could you please tell me?</email>
+</mailServer>
+</Computer>

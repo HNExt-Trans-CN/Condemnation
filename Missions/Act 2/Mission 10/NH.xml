@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 10 NH" activeCheck="true">
+  <goals>
+  <goal type="filedownload" target="NHHub" file="EnBreak.exe" path="bin/Stash"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/NHLoad.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Mission 10/NHM.xml</nextMission>
+  <email>
+    <sender>E-mail</sender>
+    <subject>?</subject>
+    <body>What is that?
+Go to the IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

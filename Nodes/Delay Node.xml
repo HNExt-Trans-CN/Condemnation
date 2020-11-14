@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Delay" name="Blank" icon="chip" type="empty">
+<IRCDaemon themeColor="67,204,148" name="Misc IRC Channel" needsLogin="false">
+</IRCDaemon>
+<file path="home" name="RETRANSMITTING_ERROR.log">
+ERROR OCCURED:
+
+		EXCEPTION FOUND:NoRespondError
+		AT 60.192.249.36
+	
+ABORTING AND SAVING ORIGINAL TRANSMISSION DATA OF 60.192.249.36 ON THIS MACHINE'S netcfgx.dll</file>
+<file path="home" name="MedicalRecord_-_Turner_Allan">12345</file>
+<file path="home" name="Remote_Desktop_app">Remote_Desktop app is configured to pair with 158.245.255.177</file>
+<file path="home" name="Remote_Desktop">Remote_Desktop app is configured to pair with 148.192.86.166</file>
+<file path="home" name="MedicalRecord_-_Williamson_Javis">12345</file>
+<file path="home" name="Fin-Rep.accdb">#BINARY##BINARY#</file>
+<file path="home" name="Kati_25_11_19.png">#BINARY##BINARY#</file>
+<file path="home" name="Contact_Note.txt">If you are reading this, you are my only hope to make things right...
+
+You know exactly who I am
+And I need your help
+
+I could continue to hide among filth
+But I want to achieve justice
+And for that I need help, preferably from ethically-correct specialist...
+
+Reply to this address "Vort_Moz@jmail.com"
+
+</file>
+<file path="home" name="Entry_Points_2.txt">Here are 3 Entry Points: West Wing, Kellis BioTech, Medical Archive. They contain 5 life support units
+
+222.176.165.116
+160.173.170.74
+202.210.23.133</file>
+<file path="home" name="HaHaTrap.bat">#BINARY#</file>
+<file path="home" name="INPUT.txt">IP</file>
+<file path="home" name="EnBreak.exe">#PACIFIC_EXE#</file>
+</Computer>

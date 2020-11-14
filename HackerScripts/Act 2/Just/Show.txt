@@ -1,0 +1,5 @@
+config playerComp Delay 0.0 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$

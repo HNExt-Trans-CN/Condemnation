@@ -1,0 +1,5 @@
+<Computer id="C3Empt2" name="Gossip Archive" security="4" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home" name="To_Jane.txt">give back my toilet paper!</file>
+</Computer>

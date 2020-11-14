@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="OmBoss">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/25.txt" DelayHost="Delay" Delay="0.0" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</HasFlags>
+</ConditionalActions>

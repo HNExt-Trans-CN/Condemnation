@@ -1,0 +1,8 @@
+<Computer id="M7Med" name="Sacramento's Medical Archive" ip="102.36.38.173" icon="kellis" type="4">
+<ports>21, 22, 80, 104</ports>
+<portsForCrack val="4" />
+<firewall level="7" solution="panacea" additionalTime="0.3"/>
+<trace time="200" />
+<admin type="progress"/>
+<MedicalDatabase />
+</Computer>

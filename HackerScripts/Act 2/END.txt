@@ -1,0 +1,61 @@
+config playerComp M5C3 0.0 $#%#$
+delete /home * $#%#$
+delete /bin * $#%#$
+delay 0.65 $#%#$
+writel_silent $#%#$
+writel_silent Omicron: $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent Nicely done Captain $#%#$
+delay 2.62 $#%#$
+writel_silent $#%#$
+write_silent You won a few days of freedom $#%#$
+delay 3.15 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent But having you around is not in by best interests $#%#$
+delay 3.97 $#%#$
+writel_silent $#%#$
+write_silent So let me take your tools and close your digital eyes $#%#$
+delay 6.18 $#%#$
+hideNetMap $#%#$
+delay 0.2 $#%#$
+showNetMap $#%#$
+delay 0.2 $#%#$
+hideNetMap $#%#$
+delay 0.2 $#%#$
+showNetMap $#%#$
+delay 0.2 $#%#$
+hideNetMap $#%#$
+delay 0.2 $#%#$
+delay 3 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent Omicron: $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent That's better $#%#$
+delay 2.31 $#%#$
+writel_silent $#%#$
+write_silent I hope you've learned a valueble lesson $#%#$
+delay 3.68 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent A wrong man in a wrong place can lose everything in 1 second $#%#$
+delay 6.72 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent THAT what is happened to YOU $#%#$
+delay 3.69 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent Farewell, $#%#$
+delay 1.5 $#%#$
+write_silent Cypher... $#%#$
+delay 2 $#%#$
+
+
+
+
+
+

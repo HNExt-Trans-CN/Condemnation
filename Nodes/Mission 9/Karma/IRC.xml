@@ -1,0 +1,20 @@
+<Computer id="M9IRC" name="Leaking IRC" security="4" type="4">
+<firewall level="4" solution="LEAK" additionalTime="0.0"/>
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="M9Leak" />
+<dlink target="M9Target" />
+<IRCDaemon themeColor="198,255,1" name="Leaking IRC" needsLogin="true">
+<user name="Leak_agent_56" color="254,255,1"/>
+<user name="Malber" color="16,255,6"/>
+ <post user="Leak_agent_56">You've reached LEAK, what piece of data do you want?</post>
+ <post user="Malber">I need DECSuite</post>
+ <post user="Leak_agent_56">That will cost you 25k</post>
+ <post user="Malber">Money isn't an issue</post>
+ <post user="Leak_agent_56">Wire them here VFEJIO38-OSV04HUF, it is a one hour account, so hurry up or no deal</post>
+ <post user="Malber">Done</post>
+ <post user="Leak_agent_56">Where do you want your order to be dropped?</post>
+ <post user="Malber">Right here</post>
+ <post user="Leak_agent_56">Dropped, after your download, files will be deleted. Nice having business with you. LEAK out!</post>
+ </IRCDaemon>
+</Computer>

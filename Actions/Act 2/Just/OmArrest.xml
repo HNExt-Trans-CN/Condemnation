@@ -1,0 +1,20 @@
+<ConditionalActions>
+	<Instantly>
+	<HideAllNodes DelayHost="Delay" Delay="0.0"/>
+	<SwitchToTheme ThemePathOrName="Themes/TC0.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="5.0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/END.txt" DelayHost="Delay" Delay="5.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Just/SIp.xml" DelayHost="Delay" Delay="5.4"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Silence.xml" DelayHost="Delay" Delay="302.68"/>
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="310.68" />
+	
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/Conclusion2.txt" DelayHost="Delay" Delay="315.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Just/Talk2.xml" DelayHost="Delay" Delay="315.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Sil.xml" DelayHost="Delay" Delay="402.0"/>
+	
+	<AddConditionalActions Filepath="Actions/Act 2/Just/Music2.xml" DelayHost="Delay" Delay="410.0"/>
+	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="414.78" />
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="434.44" />
+	<LaunchHackScript Filepath="HackerScripts/Credits.txt" DelayHost="Delay" Delay="434.44" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="539.44" />
+	</Instantly>
+</ConditionalActions>

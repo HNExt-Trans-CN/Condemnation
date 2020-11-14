@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5EndProxy2" name="Omicron's Personal Proxy 2" type="empty">
+
+  <portsForCrack val="101" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+
+
+  
+</Computer>

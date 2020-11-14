@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Justice 2A" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="C5D" file="active.log" path="IRC"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Just/2A.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>Fuck, fuck, fuck
+I lost him!
+
+At least I saved Calra
+Maybe that is even more important
+
+But I can lose Omicron as well
+I need help
+
+I really hope that Clara will be grateful for my actions
+And will help me too
+I just saved her after all...
+
+We need to destroy Omicron somehow
+Maybe he left some tracks on Clara's network
+
+I need to reset her channel if I want to contact her through it
+Just have to delete active.log in /IRC folder
+That will attract her attention
+And activate the channel</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

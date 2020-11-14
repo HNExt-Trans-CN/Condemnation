@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Empty 7">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Operation Dragon Lord">
+Final Stage Execution
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

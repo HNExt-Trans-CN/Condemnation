@@ -1,0 +1,9 @@
+<Computer id="OmBoss" name="Omicron's PC" ip="40.15.214.30" security="5" type="4">
+<adminPass pass="jGlQbO" />
+<portsForCrack val="101" />
+<trace time="-1" />
+<admin type="progress"/>
+<file path="sys" name="Astra_OS.dll">#BINARY#</file>
+<file path="sys" name="libs.dll">#BINARY#</file>
+<file path="sys" name="Core.dll">#BINARY#</file>
+</Computer>

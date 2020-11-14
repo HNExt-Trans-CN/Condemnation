@@ -1,0 +1,52 @@
+<ConditionalActions>
+	<Instantly>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">!ANNOUNCEMENT! Admin=FIHef3ih @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">Try it</AddIRCMessage>
+	</Instantly>
+	
+	<OnAdminGained target="M10M">
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">@Vortex, well?</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
+		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="3.3"/>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="8.0">It worked!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="12.0">Great, now scan everything around and delete everything that has "whitelist", it is only clue</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="17.0">I will help you as well. Apperantly there is a way I can spectate now after you, but I suppose Omicron can do that as well</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="22.0">How?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="25.0">Through that .dll</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">I can help you by breaking some ports, but NightHawks can interfere as well, so be careful</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="33.0">Good luck!</AddIRCMessage>
+	</OnAdminGained>
+	
+	<OnConnect target="M10P1" needsMissionComplete="false">
+	<RunFunction FunctionName="addFlags:Node1" FunctionValue="0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara1.txt" DelayHost="Delay" Delay="22.0" SourceComp="C5C" TargetComp="M10P1" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara1R.txt" DelayHost="Delay" Delay="25.0" SourceComp="C5C" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node1.txt" DelayHost="Delay" Delay="15.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop1.xml" DelayHost="Delay" Delay="20.0"/>
+	</OnConnect>
+	<OnAdminGained target="M10P1">
+	<RunFunction FunctionName="removeFlags:Node1" FunctionValue="0" />
+	</OnAdminGained>
+	
+	<OnConnect target="M10P2" needsMissionComplete="false">
+	<RunFunction FunctionName="addFlags:Node2" FunctionValue="0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara2.txt" DelayHost="Delay" Delay="22.0" SourceComp="C5C" TargetComp="M10P2" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara2R.txt" DelayHost="Delay" Delay="25.0" SourceComp="C5C" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node2.txt" DelayHost="Delay" Delay="10.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop2.xml" DelayHost="Delay" Delay="15.0"/>
+	</OnConnect>
+	<OnAdminGained target="M10P2">
+	<RunFunction FunctionName="removeFlags:Node2" FunctionValue="0" />
+	</OnAdminGained>
+	
+	<OnConnect target="M10P3" needsMissionComplete="false">
+	<RunFunction FunctionName="addFlags:Node3" FunctionValue="0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara3.txt" DelayHost="Delay" Delay="22.0" SourceComp="C5C" TargetComp="M10P3" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara3R.txt" DelayHost="Delay" Delay="25.0" SourceComp="C5C" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop3.xml" DelayHost="Delay" Delay="15.0"/>
+	</OnConnect>
+	<OnAdminGained target="M10P3">
+	<RunFunction FunctionName="removeFlags:Node3" FunctionValue="0" />
+	</OnAdminGained>
+</ConditionalActions>

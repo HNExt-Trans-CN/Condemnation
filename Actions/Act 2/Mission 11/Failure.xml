@@ -1,0 +1,24 @@
+<ConditionalActions>
+	<Instantly>
+	<CancelScreenBleedEffect DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11G" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11P" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11A" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11G" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11P" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11A" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11G" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11P" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11A" NewIP="#RANDOM_IP#" />
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<RunFunction FunctionName="playCustomSong:Music/OmicronFail.ogg" FunctionValue="0" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/Fail.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 11/Shift.xml" DelayHost="Delay" Delay="91.33"/>
+	<RunFunction FunctionName="addFlags:Failure" FunctionValue="0" />
+	<LoadMission MissionName="Missions/Act 2/Failure/Start.xml" />
+	</Instantly>
+	
+	<OnConnect target="OmBoss" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+</ConditionalActions>

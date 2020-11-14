@@ -1,0 +1,17 @@
+<CustomFaction name="Justice" id="JEnd" playerVal="0">
+  
+  <Action ValueRequired="1">
+    <RunFunction FunctionName="addFlags:Justice1" FunctionValue="0" />
+  </Action>
+  
+  <Action ValueRequired="3">
+	<RunFunction FunctionName="removeFlags:Justice1" FunctionValue="0" />
+    <RunFunction FunctionName="addFlags:Justice3" FunctionValue="0" />
+  </Action>
+  
+  <Action ValueRequired="4">
+	<RunFunction FunctionName="removeFlags:Justice3" FunctionValue="0" />
+    <RunFunction FunctionName="addFlags:Justice4" FunctionValue="0" />
+  </Action>
+
+</CustomFaction>

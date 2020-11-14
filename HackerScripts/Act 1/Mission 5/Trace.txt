@@ -1,0 +1,5 @@
+config M5PoCl M5C1 0.2 $#%#$
+connect $#%#$
+openPort 21 $#%#$
+openPort 22 $#%#$
+disconnect $#%#$

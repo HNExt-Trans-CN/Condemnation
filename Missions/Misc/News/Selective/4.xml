@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Sel4">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="# BREAKING NEWS">
+Henry Evans, also known as a hacker Jester, has been apprehended.
+
+Police was interested in him after he was paroled for good behaviour from his gun selling sentence. It turns out, he didn't just resumed his criminal activity, but even expanded his arms business, and he is also found guilty of a first degree murder.
+
+Detective Isaac, who is responsible for that operation, says that he got an anonymous tip from unknown individual through one of the Police digital gateways. The true source of information remains hidden.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

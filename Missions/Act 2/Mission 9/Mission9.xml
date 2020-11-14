@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 9" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP1D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D2" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D3" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP3D1" destPath="sys"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 9/Mission 9.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 9/Bad.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+  <branch>Missions/Act 2/Mission 9/Branch.xml</branch>
+  </branchMissions>
+  <posting title="Operation Venomous Snake">
+A major job, that can promote our group to a higher league of hackers
+  </posting>
+  <email>
+    <sender>E-Mail</sender>
+    <subject>Operation Venomous Snake</subject>
+    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+This operation requires a skill to infiltrate inside of a well-organized security system that use encryption.
+	
+
+Jenkins - manage all tools we may need, including DECSuite, client provided it on a DECSuite Deploy Server
+
+Slayer - make sure that nobody will interfere in our operation
+
+Vortex - research and find a way to connect to the most secured units. There will be 5 of them (instructions are on DECSuite Deploy Server)
+
+Deladello - social engineering as usual, find all possible cracks and leaks that medical staff left
+
+Prophet - I need you to help me to create a mass upload of our ransomware
+
+Collect your decryption tool at the attached server
+Good luck
+	-M
+
+
+GOAL:
+UPLOAD ransomware to /sys folder of any life support unit you can find (5 in total)</body>
+    <attachments>
+	<link comp="M9Deploy" />
+	<account comp="M9Deploy" user="admin" pass="COnj0st3R" />
+    </attachments>
+  </email>
+</mission>

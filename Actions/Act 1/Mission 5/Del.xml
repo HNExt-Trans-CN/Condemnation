@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<DeleteFile TargetComp="playerComp" FilePath="home" FileName="netcfgx.dll" DelayHost="Delay" Delay="1.0"/>
+	</Instantly>
+</ConditionalActions>

@@ -1,0 +1,12 @@
+config playerComp NHHub 0.2 $#%#$
+connect $#%#$
+hideDisplay $#%#$
+showDisplay $#%#$
+hideRam $#%#$
+showRam $#%#$
+hideTerminal $#%#$
+showTerminal $#%#$
+writel STOP $#%#$
+write RESISTING $#%#$
+write AND $#%#$
+write DIE

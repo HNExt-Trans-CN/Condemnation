@@ -1,0 +1,44 @@
+<Computer id="C4C" name="Union Gold's Transaction Archive" security="5" type="1">
+<trace time="60" />
+<admin type="progress"/>
+<file path="home/Transactions/25_11" name="N245">FROM: OESG
+TO: MRWA
+SUMM: 3260.0$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N246">FROM: UNCS
+TO: YANB
+SUMM: 720.6$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N247">FROM: GCWJ
+TO: APB-HOUSING INC.
+SUMM: 89999.0$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N248">FROM: CZOS
+TO: PEAR INC.
+SUMM: 5007000.0$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N249">FROM: URAB
+TO: KJSN
+SUMM: 499.9$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N250">FROM: ADWJ
+TO: RMBI
+SUMM: 11600000.0$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N251">FROM: FNWE
+TO: UNCS
+SUMM: 999.9$
+TOKEN_INFO:
+#BINARY#</file>
+<file path="home/Transactions/25_11" name="N252">FROM: ASCP
+TO: PORESTO STORE
+SUMM: 1659.9$
+TOKEN_INFO:
+#BINARY#</file>
+</Computer>

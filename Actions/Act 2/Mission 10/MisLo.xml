@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<LoadMission MissionName="Missions/Act 2/Mission 10/NH.xml" />
+	</Instantly>
+</ConditionalActions>

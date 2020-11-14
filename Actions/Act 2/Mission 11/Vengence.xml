@@ -1,0 +1,9 @@
+<ConditionalActions>
+	<Instantly>
+	<CancelScreenBleedEffect DelayHost="Delay" Delay="0.0" />
+	<RunFunction FunctionName="changeSong" FunctionValue="11" />
+	<RunFunction FunctionName="addRankFaction:VEnd" FunctionValue="1" />
+	<RunFunction FunctionName="setFaction:VEnd" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 11/Ending.xml" DelayHost="Delay" Delay="2.0"/>
+	</Instantly>
+</ConditionalActions>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Empty 8">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Resting">
+--DO NOT DISTURB--
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

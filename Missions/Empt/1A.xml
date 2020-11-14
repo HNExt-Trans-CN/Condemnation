@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Empty 1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Operation Dragon Lord">
+Some people are very interested in internal details of Lao Zhin's arms business, client requiring all trafficking intel
+
+Jenkins - Need to prepare appropriate tools
+Slayer - Covering tracks and witness disposal
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

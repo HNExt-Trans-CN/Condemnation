@@ -1,0 +1,46 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="setHubServer:NHHub" FunctionValue="6" />
+	<RunFunction FunctionName="setAssetServer:NHHub" FunctionValue="6" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/MisLo.xml" DelayHost="Delay" Delay="140.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/MisCop.xml" DelayHost="Delay" Delay="58.5"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, looks like you made a decision</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="3.3"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, Vortex stays with us!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.0">I think he deserves a pardon for all of his previous misconducts</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.0">So, Jenkins, I assume now you can prepare us a fresh .exe file with unstopable power of breaking EnSec</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="19.0">On it, sir</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.0">In the mean time, let me explain to all of you what is our mission's goal</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="28">I managed to scout EnTech for a bit, and found some really messy vulnerabilities</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.0">So that's how I got EnSec breaker, or EnBreak</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="37.0">Somewhere there as well should be whitelist files that we need</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.0">You have to scan everything around there and find these specific files: Token file, SecCore.dll, and any dump files you can find</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="47.0">EnBreak.exe is ready</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="50.0">Great</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="53.0">Now, upload it onto this server so everybody can have it</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="58.0">Done</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="63.0">While you have that .exe, it will be automaticly run when you connect to the EnSec protected server</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">Note, that it won't react to the older versions, so it is not universal</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="73.0">Now, I hope Jenkins extracted our entry point</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.0">Once you have EnBreak.exe on your computer, try to get access to EnTech network and get me specific files</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="82.0">I'll leave a note if you forget</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="85.0">!ATTACHMENT:note#%#File Names#%#Token file,SecCore.dll,any dump files</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="90.0">Upload them on this server's /home folder, so I could get them</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="95.0">Got it. Well Jenkins, where is our entry point?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="100.0">Looking for it</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="105.0">@Vortex, on Omicron's request, you will lead the operation</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="105.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="105.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="105.3"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="110.0">I know that our relations are at a very fragile state now</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="114.0">But let's see this through a business point of perspective</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="118.0">You will get tools to fight Omicron, we will get tools for our future business</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="122.0">Win-win situation</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">Prophet will assist you with any portbraeking issues you could possibly have, he has personal tool collection</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="132.0">I can spectate you through .dll that you dropped us, so if there is any problem with ports, I will help</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="137.0">Here is the entry point</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="140.0">!ATTACHMENT:link#%#EnTech Side Server#%#27.113.216.249</AddIRCMessage>
+	</Instantly>
+</ConditionalActions>

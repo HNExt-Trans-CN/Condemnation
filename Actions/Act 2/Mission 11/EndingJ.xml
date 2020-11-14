@@ -1,0 +1,45 @@
+<ConditionalActions>
+
+	<HasFlags requiredFlags="Justice1">
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Just/NHWhat.xml" DelayHost="Delay" Delay="0.0"/>
+	<CrashComputer TargetComp="M11G" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11P" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11A" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11G" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11P" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11A" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11G" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11P" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11A" NewIP="#RANDOM_IP#" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Justice3">
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Just/NHWhat.xml" DelayHost="Delay" Delay="0.0"/>
+	<CrashComputer TargetComp="M11G" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11P" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11A" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11G" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11P" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11A" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11G" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11P" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11A" NewIP="#RANDOM_IP#" />
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Justice4">
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Just/NHWhat.xml" DelayHost="Delay" Delay="0.0"/>
+	<CrashComputer TargetComp="M11G" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11P" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<CrashComputer TargetComp="M11A" CrashSource="NHHub" DelayHost="Delay" Delay="0.0" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11G" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11P" />
+	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="M11A" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11G" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11P" NewIP="#RANDOM_IP#" />
+	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="M11A" NewIP="#RANDOM_IP#" />
+	</HasFlags>
+	
+</ConditionalActions>

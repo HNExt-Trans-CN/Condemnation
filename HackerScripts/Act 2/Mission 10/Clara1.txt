@@ -1,0 +1,4 @@
+config M10P1 C5C 0.1 $#%#$
+openPort 211 $#%#$
+delay 15 $#%#$
+openPort 443 $#%#$

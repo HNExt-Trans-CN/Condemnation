@@ -1,0 +1,9 @@
+config playerComp Delay 0.0 $#%#$
+delay 5 $#%#$
+hideRam $#%#$
+delay 5 $#%#$
+hideNetMap $#%#$
+delay 5 $#%#$
+hideTerminal $#%#$
+delay 9 $#%#$
+hideDisplay $#%#$

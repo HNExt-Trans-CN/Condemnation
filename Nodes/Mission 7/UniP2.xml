@@ -1,0 +1,18 @@
+<Computer id="M7P2" name="Westbrook University's Federal Systems Relation Center" security="2" type="3">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="academic" />
+<dlink target="M7P1" />
+<dlink target="M7Front" />
+<dlink target="M7P3" />
+<dlink target="M7P4" />
+<file path="home/Academic_Database" name="Important.txt">This computer is connected to the International Academic Database (California State access).
+
+Access is permitted to admins of this computer.
+
+You have to use password "ScienceIsPower" to enter admin mode on the Database.
+
+When you finished changing entries, don't forget to log out properly.
+
+All unauthorized access episodes will be considered as a crime and will be punished using Federal Law.</file>
+</Computer>

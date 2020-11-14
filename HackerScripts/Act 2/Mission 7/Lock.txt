@@ -1,0 +1,5 @@
+config playerComp Delay 0.2 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel NETMAP REPAIRED, LOCKDOWN HAS BEEN ENABLED

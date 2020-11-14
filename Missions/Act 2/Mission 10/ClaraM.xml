@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 10 Clara Main" activeCheck="true">
+  <goals>
+  <goal type="clearfolder" target="M10P1" path="home/Whitelist"/>
+  <goal type="clearfolder" target="M10P2" path="home/Whitelist"/>
+  <goal type="clearfolder" target="M10P3" path="home/Whitelist"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/ClaraEnd.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Mission 10/ClaraEnd.xml</nextMission>
+  <email>
+    <sender>E-mail</sender>
+    <subject>?</subject>
+    <body>What is that?
+Go to the IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

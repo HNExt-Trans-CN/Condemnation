@@ -1,0 +1,14 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="Dead_Flag">
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You participated in murdering of 58 people</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Dead_Flag_Scum">
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You decided to kill 58 people just to get to the Omicron</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="Clara_Flag">
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You saved 58 people in NLH Hospital</AddIRCMessage>
+	</HasFlags>
+	
+</ConditionalActions>

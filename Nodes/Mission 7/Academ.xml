@@ -1,0 +1,6 @@
+<Computer id="academic" name="Academic Database" security="5" type="4">
+ <adminPass pass="ScienceIsPower" />
+<trace time="7" />
+<admin type="fast" resetPassword="false" isSuper="true" />
+<academicDatabase />
+</Computer>

@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Mission 9.xml" DelayHost="Delay" Delay="5.0"/>
+	</Instantly>
+</ConditionalActions>

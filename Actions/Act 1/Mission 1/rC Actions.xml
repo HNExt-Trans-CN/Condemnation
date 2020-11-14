@@ -1,0 +1,42 @@
+<ConditionalActions>
+	<Instantly>
+		<LaunchHackScript Filepath="HackerScripts/Act 1/Mission 1/rC.txt" DelayHost="Delay" Delay="1.0" SourceComp="M1rC_Gate" TargetComp="M1rC_Macro" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+		<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="SQLOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="OpShell.exe" FileContents="#SHELL_OPENER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		<AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="PDAsset" TargetFolderpath="bin"/>
+		
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SSHCrack.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="FTPSprint.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="WebServerWorm.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SMTPOverflow.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SQLOverflow.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="eosDeviceScan.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="OpShell.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="RTSPCrack.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SignalScramble.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="TorrentStreamInjector.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SSLTrojan.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="NetmapOrganizer.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="MemForensics.exe" SourceFilePath="bin"/>
+		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="MemDumpGenerator.exe" SourceFilePath="bin"/>
+		
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">@channel, I uploaded our cracks and other important files to our Asset server, but don't worry, I have sent a copy of them to your workstations already</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="15.0">Holy shit, that's a LOT of the illegitimate software we took from bad guys lately!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="20.0">If you lost some of your tools, you can access them at the Asset server, but you know that you will be fined at a round summ of $ if that's gonna happen, so watch your backs, and don't use that programs against innocent civilians</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">We are cops, not criminals. You got it, Corala ;)</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="33.0">Don't ever call me that, I don't get your stupid jokes, okay madlad?</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">HeHeHeH</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="38.0">@channel Don't forget that you now have cracks to most of the ports, as well as NetmapOrganizer, MemDumpGenerator with MemForensics in a pair, SignalScramble and other useful stuff, check your workstation's /bin folder for details!</AddIRCMessage>
+	</Instantly>
+</ConditionalActions>

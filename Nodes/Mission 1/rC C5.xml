@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1rC_B3" name="Pear_Lover Archive" type="2">
+<ports>21, 22, 25, 80, 554</ports>
+<portsForCrack val="0" />
+<trace time="-1" />
+<admin type="progress"/>
+<file path="home" name="Anatomy_of_a_Cat.pdf">#BINARY##BINARY##BINARY#</file>
+<file path="home" name="Calculator_Patch.rar">#BINARY#</file>
+<file path="home" name="Manifest_of_Brudshed.pdf">#BINARY##BINARY##BINARY#</file>
+<file path="home" name="Unckrancked_Druke_Collection_PC_Port.iso">#BINARY##BINARY##BINARY#</file>
+</Computer>

@@ -1,0 +1,38 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/Oseq.xml" DelayHost="Delay" Delay="84.0"/>
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
+	<RunFunction FunctionName="changeSong" FunctionValue="11" />
+	<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, Found it!</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.2"/>
+		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="5.3"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="10.0">We can get to him now!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="14.0">I had it pretty rough, hope that it's worth it</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">He is controlling everything from his PC through Sequencer</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="22.0">We can use it and OSequencer.exe is going to redirect us straight to Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="27.0">But we won't have much time, right?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="32.0">Yep, so here is the plan</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="36.0">I will take common ports, like 21, 22, 25, 80 and 211</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="40.0">You will take others and firewall</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">Got it?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">Yeah, and once inside, I should get his netcfgx.dll?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="54.0">Yes, download it and we can send it to the Police</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="58.0">It should contain all info about him, and location, he can't dodge it</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">So this is it? Final hack?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">Looks that way</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="75.0">In any case, it is honor to work with you Captain</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">Same, Ms. Gilmore</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="84.0">@Vortex, activate OSequencer and let's bring the justice</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="84.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="84.2"/>
+		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="84.3"/>
+	</Instantly>
+	
+	<OnConnect target="Omicron" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Veng/Fin.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="Omicron" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+	
+</ConditionalActions>

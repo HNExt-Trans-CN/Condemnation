@@ -1,0 +1,71 @@
+<ConditionalActions>
+	<Instantly>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Dark.xml" DelayHost="Delay" Delay="85.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Sil.xml" DelayHost="Delay" Delay="250.0"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/1.txt" DelayHost="Delay" Delay="250.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">!ANNOUNCEMENT! CHANNEL HAS BEEN RESETED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="10.0">The fuck?..</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="14.0">Clara, listen to me</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="18.0">I've just saved your ass from Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="22.0">And we need to strike him back no matter what!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="27.0">What happened?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="31.0">Omicron tried to do to you the same thing he did to me</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="35.0">Make you outlaw</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="39.0">Uploading a fabricated dirt files on you to FBI</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="44.0">That doesn't make any sense, I am innocent</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="48.0">I did nothing wrong as well and look at me</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="52.0">Feds won't take 'I am innocent' as an argument</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="56.0">And Omicron has a lot of experience of making scapegoats, I am sure of it</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="61.0">I could've find his location but for some reason decided to save you</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="66.0">So it is your turn to help me</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="71.0">Did I asked you to do so?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="75.0">What the fuck do you mean? I JUST SAVED YOU</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="80.0">And I didn't asked you to do so</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="85.0">I know that you are responsible for an attack on our servers</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="90.0">Your NightHawks buddies are gone mad and destroying our infrastructure</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="95.0">It will be a pure chaos soon</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="99.0">So yeah, you are not so innocent, Vortex, and I am not willing to help you</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="104.0">And sure as fuck not asking you to help me one way or another</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="110.0">What I did wrong, huh?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="115.0">Oh, I can tell you, I made a research on you, Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="120.0">So here is the list of your actions:</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/1C.xml" DelayHost="Delay" Delay="125.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/2C.xml" DelayHost="Delay" Delay="130.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/3C.xml" DelayHost="Delay" Delay="135.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="140.0">You were good more or less but in the end you fucked everything up</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="145.0">Shit...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="147.0">I...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="150.0">I don't recognize my old Captain Mendes</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="154.0">Who always says that there is a way to make things right to justice</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="159.0">Now I only see a man who obsessed with vengeance and nothing more</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="164.0">Why you saved me then? Some moral strings are being pulled inside of you?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="169.0">I can see it now</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="173.0">My god, what I've turned into...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="177.0">A monster, that is who you really are</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="181.0">I am so sorry Clara, I was so furious and failed to see how many bad things I made</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="184.0">It's not supposed to be like that...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="188.0">I don't trust you and I don't want to talk to you anymore</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="193.0">Your actions are terrible and unforgivable</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="197.0">I can only agree on one thing</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="201.0">Omicron is a threat and he must be in jail</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="205.0">I will start that hunt and will make things right, without any sacrifices</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="210.0">Wait, you can't bring him down alone, he will turn things upside down really quickly!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="215.0">I won't listen to you any longer</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="220.0">It is just such a pitty that a good man turned into such a monstrosity</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="225.0">I won't go after Omicron if that requires more violence or sacrifices, I understand my mistakes and...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="230.0">Fuck, I'll just drop that case and wait for better moment so I don't have to become monster once again</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="235.0">I am not interested in your self remorse</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="240.0">You made actions and you face consequences</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="244.0">That's my point of view</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="248.0">Farewell...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="250.0">!ANNOUNCEMENT! CLARA HAS BEEN DELETED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="255.0">Clara?..</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="260.0">Don't do this to me...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="265.0">No...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="270.0">...</AddIRCMessage>
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="274.0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Just/Conclusion1.xml" DelayHost="Delay" Delay="280.0"/>
+	
+	</Instantly>
+</ConditionalActions>

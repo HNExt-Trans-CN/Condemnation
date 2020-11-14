@@ -1,0 +1,12 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated" FunctionValue="0" />
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.0">!ANNOUNCEMENT! SECURED MODE IS ENABLED. LOG IN TO ENTER THE HUB</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/JoinBad.xml" DelayHost="Delay" Delay="1.0"/>
+	<RunFunction FunctionName="removeFlags:NetMapLok" FunctionValue="0" />
+	<RunFunction FunctionName="playCustomSong:Music/dark.ogg" FunctionValue="0" />
+	<SetLock DelayHost="Delay" Delay="1.5" Module="netmap" IsLocked="false" IsHidden="false" />
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 8/Unlock.txt" DelayHost="Delay" Delay="1.5" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LoadMission MissionName="Missions/Act 2/Mission 8/StartBadR.xml" />
+	</Instantly>
+</ConditionalActions>

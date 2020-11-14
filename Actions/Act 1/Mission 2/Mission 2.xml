@@ -1,0 +1,23 @@
+<ConditionalActions>
+	<Instantly>
+		<LaunchHackScript Filepath="HackerScripts/Act 1/Mission 2/M2_1.txt" DelayHost="Delay" Delay="3.0" SourceComp="M2_DaedraGate" TargetComp="M2_Med" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+		<LaunchHackScript Filepath="HackerScripts/Act 1/Mission 2/M2_2.txt" DelayHost="Delay" Delay="4.0" SourceComp="M2_DaedraGate" TargetComp="M2_DaedraHome" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+	<OnConnect target="M2_Mail" needsMissionComplete="false">
+		<AddAsset FileName="eos_SyncData" FileContents="#BINARY#" TargetComp="M2_DaedraGate" TargetFolderpath="home" />
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# Captain! My tracker signaled me, that there is a new file on the Gateway of that Daedra hacker!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="6.0">Hope that will help us to get inside that mail server, because I am having a problems breaking in</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="10.0">Same problem</AddIRCMessage>
+	</OnConnect>
+	<OnConnect target="12.111.65.135" needsMissionComplete="false">
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="3.0">@channel Goddamn it, there is a whitelist there.</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="7.0">Ah fuck. What should we do?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="12.0">Well we need to access the whitelist server, so we can access the list of IPs</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">But one of the ports is uncrackable for us</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="25.0">I have an idea how to find out an admin password, but this would reset the IPs list</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">So we can get in, but we will lose the IP of the second hacker?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="35.0">Exactly</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="38.0">I'll try to find him, have to contact FBI, they will help to find him. At least we know his nickname and first name</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="48.0">@#PLAYERNAME# Captain, send the IP of that whitelisted node (Daedra's PC) through our Mission Hub, so I can send it to the tech guys and they will work their magic</AddIRCMessage>
+	</OnConnect>
+</ConditionalActions>

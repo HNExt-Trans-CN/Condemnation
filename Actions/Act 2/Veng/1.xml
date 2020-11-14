@@ -1,0 +1,31 @@
+<ConditionalActions>
+	<OnConnect target="NHHub" needsMissionComplete="false">
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/Flag.xml" DelayHost="Delay" Delay="100.0"/>
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="5.0">@channel, I've got Omicron's location file! We need to decipher it!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">No, YOU need to decipher it, we are not interested in hurting our benefactor</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">You've got to help me damn it!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">I need him dead for all his actions!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="23.0">I'VE GOT THAT FUCKING ASSET SERVER OPEN FOR YOU!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="26.0">PAY SOME RESPECT FUCKERS!</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="31.0">I helped you as well, you know</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="35.0">We all contributed one way or another</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="39.0">You wouldn't even meet Omicron if it wasn't us who gave you that opportunity</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="44.0">So it is you who should pay respects, leech</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="48.0">Let's review your actions</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/1.xml" DelayHost="Delay" Delay="52.0"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">Led a good stats on contracts</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/2.xml" DelayHost="Delay" Delay="62.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/3.xml" DelayHost="Delay" Delay="67.0"/>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="72.0">And finally gained Omicron's location file</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">You have some guts in you, but we won't be partners anymore</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="81.0">At least because of your Police origin</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="85.0">Though we will make one last move to help you and will decipher that location file</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="90.0">And then you can have fight with Omicron with no chance of winning of course</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="95.0">Jenkins, make it done</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="100.0">@Vortex, drop the location file in /home folder of this server</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="100.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="100.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="100.3"/>
+	</OnConnect>
+</ConditionalActions>

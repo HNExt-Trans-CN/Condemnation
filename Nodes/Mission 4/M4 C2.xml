@@ -1,0 +1,9 @@
+<Computer id="M4_Home" name="Daniel's PC" ip="91.36.194.224" icon="DLCPC1" type="3">
+<ports>21, 22, 25, 80, 6881</ports>
+<portsForCrack val="5" />
+<proxy time="2" />
+<firewall level="8" solution="MARGOLIS" additionalTime="0.0"/>
+<trace time="90" />
+<admin type="progress"/>
+<CustomConnectDisplayDaemon />
+</Computer>

@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:M_McKendric:DEAD,M_Rose:DEAD,J_Sand:DEAD,R_Woren:DEAD,J_Dotry:DEAD" FunctionValue="0" />
+	</Instantly>
+</ConditionalActions>

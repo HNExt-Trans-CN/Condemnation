@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M8 D" activeCheck="true">
+  <goals>
+  <goal type="delay" time="10.0"/>
+  </goals>
+  <nextMission IsSilent="true">Missions/Misc/R/Clara.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

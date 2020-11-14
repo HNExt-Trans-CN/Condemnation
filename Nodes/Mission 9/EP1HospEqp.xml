@@ -1,0 +1,5 @@
+<Computer id="M9EP1Hos" name="NLH Hospital, Kellis BioTech Additional Server" security="3" icon="kellis" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<file path="home" name="Important.txt">Simon, Kellis BioThech Inc. provided an additional life support unit, I emailed Dr. Evans (Nigtoren) about it, he will set it up. You should ask all details from him</file>
+</Computer>

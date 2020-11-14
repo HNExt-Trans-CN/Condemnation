@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Justice 2" activeCheck="true">
+  <goals>
+  
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Just/2.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>Fuck, fuck, fuck
+I lost him!
+
+At least I saved Calra
+Maybe that is even more important
+
+But I can lose Omicron as well
+I need help
+
+I really hope that Clara will be grateful for my actions
+And will help me too
+I just saved her after all...
+
+We need to destroy Omicron somehow
+Maybe he left some tracks on Clara's network
+
+I should go to our IRC</body>
+    <attachments>
+	<link comp="C5D" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,14 @@
+config playerComp NHHub 0.1 $#%#$
+writel EnSec LOCATED! $#%#$
+delay 5 $#%#$
+write_silent Analyzing $#%#$
+delay 1.5 $#%#$
+write_silent . $#%#$
+delay 1.5 $#%#$
+write_silent . $#%#$
+delay 1.5 $#%#$
+write_silent . $#%#$
+delay 3 $#%#$
+writel EnSec BREACHED! admin=FEUHseuh2 $#%#$
+writel Saving a log to /home folder $#%#$
+makeFile home Omicron's_Gateway_Pass admin=FEUHseuh2

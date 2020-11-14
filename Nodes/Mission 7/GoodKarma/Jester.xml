@@ -1,0 +1,5 @@
+<Computer id="M7Jester" name="Jester's PC" ip="158.245.255.177" security="3" type="2">
+<trace time="40" />
+<firewall level="6" solution="fkcymt" additionalTime="0.3"/>
+<admin type="progress"/>
+</Computer>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Bonk" activeCheck="true">
+  <goals>
+  
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Load.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <posting title="Operation Venomous Snake">
+A major job, that can promote our group to a higher league of hackers
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

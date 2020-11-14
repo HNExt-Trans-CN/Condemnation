@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="OmBoss">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/UI.txt" DelayHost="Delay" Delay="0.0" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<SwitchToTheme ThemePathOrName="Themes/TC2.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="2.0" />
+	</HasFlags>
+</ConditionalActions>

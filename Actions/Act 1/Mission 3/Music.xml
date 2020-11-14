@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="changeSongDLC" FunctionValue="3" />
+	</Instantly>
+</ConditionalActions>

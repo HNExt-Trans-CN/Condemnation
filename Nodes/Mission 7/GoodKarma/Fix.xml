@@ -1,0 +1,9 @@
+<Computer id="M7Fix" name="Archive Node" ip="58.141.177.25" security="3" type="2">
+<trace time="90" />
+<firewall level="8" solution="bnrgd472" additionalTime="0.3"/>
+<proxy time="3" />
+<admin type="progress"/>
+<file path="home/NetMap_Fixer" name="Fix_P1.bat">#BINARY#</file>
+<file path="home/NetMap_Fixer" name="Fix_P2.bat">#BINARY#</file>
+<CustomConnectDisplayDaemon />
+</Computer>

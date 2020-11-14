@@ -1,0 +1,10 @@
+<Computer id="M2_DaedraHome" name="Daedra's PC" ip="60.192.249.36" icon="DLCPC2" type="2">
+<ports>21, 22, 25, 80, 6881</ports>
+<portsForCrack val="5" />
+<proxy time="2" />
+<trace time="120" />
+<admin type="progress"/>
+<CustomConnectDisplayDaemon />
+<WhitelistAuthenticatorDaemon Remote="M2_WL"/>
+<file path="sys" name="netcfgx.dll_FIXED">#BINARY#</file>
+</Computer>

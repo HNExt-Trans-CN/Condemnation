@@ -1,0 +1,80 @@
+<ConditionalActions>
+	<Instantly>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="2.0">What the actual fuck?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.0">Greetings to all of you, humble people</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.0">I think there is no need to introduce myself</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="14.0">I am honored to have you here, but how exactly did you find us?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="19.0">Trade secret</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.0">You took a contract recently</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="25.0">Something about hitting a hospital if I remember correctly</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="29.0">Well, your client was my agent, and he got detained</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.0">And that fact really concerns me</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="38.0">We are sorry to hear that, but we can offer our services to find the one who gave out your agent to the cops</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="43.0">Oh, thank you guys</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="46.0">But I am afraid I know already who it is</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="50.0">To be precise , it is one of your operatives</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">I would doubt that</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="59.0">Oh really? What do you know about Vortex?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="64.0">He joined us recently and makes the job done. He proved himself a capable operative. Is there something we don't know?</AddIRCMessage>]
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.0">Would it be a news to you that he is an undercover cop?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="74.0">He've done quite well on many of our missions, and they were successful, not including last one</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="79.0">I wouldn't judge Jenkins so hard on his mistake</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="83.0">Because there is no mistake at all</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="88.0">What do you mean?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="92.0">Vortex notified a Police detective about your attack</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="96.0">And hospital was ready for you, changed security protocols in a stealthy manner</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="101.0">So nobody would suspect a little rat among you</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="106.0">This changes everything</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="111.0">Then I suppose I am packing my tools and going for a tet-a-tet with Vortex?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="117.0">No</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="120.0">I have plans on him</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="125.0">I think my plans are a little bit different from your's</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="129.0">To lock you up in a cell for the rest of your life and clear my name</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="133.0">His real name is Cypher Mendes</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="136.0">Rings any bells?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="141.0">It is that cop, who fled CyberPolice after the FBI discovered his connections with drug cartel?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="146.0">Exactly</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="150.0">Now he wants to bring justice to me and clear his name, because I set him up</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="155.0">But I want to show him that there is always something you must sacrifise</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="159.0">And so, I have a contract for NightHawks</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="163.0">Kill Clara Gilmore, the detective of San-Francisco CyberPolice Department</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="166.0">NO!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="167.0">DON'T YOU DARE TO DRAG HER IN</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="171.0">Excuse me?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="175.0">But it is you who dragged her in that dangerous case and made her to dig under me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="180.0">She is a clever girl, but I am always one step ahead</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="184.0">So I can provide her location to NightHawks right now</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="188.0">I am ready, 125k for a detective job</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="192.0">It is sold then!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="195.0">WAIT!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="199.0">What is it, Cypher?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="203.0">DON'T kill her, let it be me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="207.0">Self sacrifice? Hmm, I can respect that</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="211.0">And after I am done with the Slayer, I will come to you</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="216.0">It is our matter</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="220.0">Don't involve anyone else</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="225.0">Hmm...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="230.0">Ok, change of plans</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="235.0">@channel I have a job to all of you</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="240.0">We are going to hit an FBI Database and all of you would have an opportunity to wipe of all your personal data and start a new life</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="246.0">But you need tools for that</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="250.0">Luckily, Vortex knows an address of a Police Asset server</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="255.0">But in case of his bad memory, I'll drop a link here</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="259.0">!ATTACHMENT:link#%#Asset Server#%#90.91.183.142</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="266.0">@channel But as you can see, it is protected with advanced EnTech security protocols</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="271.0">I have a special tool to break EnSec, but we can't breach whitelist yet</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="275.0">I know a place where we can get what we need</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="280.0">But to make it more interesting, Vortex will be leading this operation</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="284.0">I will upload a .dll that helps to break EnSec to Vortex's PC, and then you can attack an archive of EnTech that contains whitelist breach tools</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="289.0">Vortex can give that .dll to NightHawks, by uploading it in /home folder of this server, or he can unite with his girlfriend against me</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="295.0">So, @Vortex, you have a pretty simple choice: upload .dll file to this server's /home folder if you want to unite with NightHawks, and I promise Clara won't be harmed and we would settle our matter</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="295.1"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="295.2"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="295.3"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="305.0">Alternatively, you can send it to Clara's Workstation's /home folder and unite with her. But I am warning you, NightHawks will attack you both, and you may not see me ever again</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="315.0">You can't use this .dll youself, you need a partner who can make a valid .exe</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="320.0">So...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="323.0">Choose wisely</AddIRCMessage>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/DLL.txt" DelayHost="Delay" Delay="325.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</Instantly>
+</ConditionalActions>

@@ -1,0 +1,20 @@
+config playerComp OmBoss 0.0 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent Omicron: $#%#$
+writel_silent $#%#$
+writel_silent The end?.. $#%#$
+delay 1.85 $#%#$
+writel_silent $#%#$
+writel_silent You thought that I will hold my entire system in one file? $#%#$
+delay 4.04 $#%#$
+writel_silent Who do you think I am? $#%#$
+delay 2.12 $#%#$
+writel_silent $#%#$
+writel_silent You have to do better than that $#%#$
+delay 3.06 $#%#$
+writel_silent $#%#$
+writel_silent Now it is my turn to strike you $#%#$
+delay 2.88 $#%#$
+writel_silent $#%#$
+writel_silent Prepare to defend yourself

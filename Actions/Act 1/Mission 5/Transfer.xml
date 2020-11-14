@@ -1,0 +1,8 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/RemiDrone.ogg" FunctionValue="0" />
+	</Instantly>
+	<OnAdminGained target="ispComp">
+	<AddConditionalActions Filepath="Actions/Act 1/Mission 5/ETAS.xml" DelayHost="Delay" Delay="60.5"/>
+	</OnAdminGained>
+</ConditionalActions>

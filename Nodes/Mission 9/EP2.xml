@@ -1,0 +1,9 @@
+<Computer id="M9EP2" name="NLH Hospital, West Wing" ip="222.176.165.116" security="4" icon="kellis" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="M9EP2Gate" />
+<CustomConnectDisplayDaemon />
+<LogoDaemon Name="Never Loose Hope Hospital" ShowsTitle="false" TextColor="255, 255, 255, 255" LogoImagePath="Logos/NLH.png">
+NEVER LOSE HOPE HOSPITAL
+  </LogoDaemon>
+</Computer>

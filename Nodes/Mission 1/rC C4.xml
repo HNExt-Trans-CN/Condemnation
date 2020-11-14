@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1rC_B2" name="Pear_Lover Archive" type="2">
+<ports>21, 22, 25, 80, 554</ports>
+<portsForCrack val="0" />
+<trace time="-1" />
+<admin type="progress"/>
+<file path="home" name="Movie_Torrent_Pack_+200_films_BDRip_4K_HDR.rar">#BINARY##BINARY##BINARY#</file>
+</Computer>

@@ -1,0 +1,2 @@
+config playerComp Delay 0.0 $#%#$
+flash $#%#$

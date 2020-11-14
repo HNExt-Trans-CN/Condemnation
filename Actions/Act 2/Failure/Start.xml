@@ -1,0 +1,36 @@
+<ConditionalActions>
+	<Instantly>
+	<RunFunction FunctionName="addFlags:OmBoss" FunctionValue="6" />
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Loss.xml" DelayHost="Delay" Delay="303.96"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Flag1.xml" DelayHost="Delay" Delay="111.99"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Flag1R.xml" DelayHost="Delay" Delay="125.37"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Flag1.xml" DelayHost="Delay" Delay="191.77"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Flag1R.xml" DelayHost="Delay" Delay="206.12"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Music.xml" DelayHost="Delay" Delay="0.0"/>
+	<HideAllNodes DelayHost="Delay" Delay="6.03"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/Start.txt" DelayHost="Delay" Delay="0.0" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/Om.txt" DelayHost="Delay" Delay="15.71" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/BossStart.txt" DelayHost="Delay" Delay="31.90" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/IPCycle.xml" DelayHost="Delay" Delay="63.78"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/Connect.txt" DelayHost="Delay" Delay="111.99" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/FConnect.xml" DelayHost="Delay" Delay="191.77"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/UIControl.txt" DelayHost="Delay" Delay="125.37" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/FUICon.xml" DelayHost="Delay" Delay="206.12"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/ThemeCycle.xml" DelayHost="Delay" Delay="111.99"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/UI.txt" DelayHost="Delay" Delay="127.06" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/FUI2.xml" DelayHost="Delay" Delay="175.68"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/FUI3.xml" DelayHost="Delay" Delay="216.77"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/25.xml" DelayHost="Delay" Delay="105.44"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/50.xml" DelayHost="Delay" Delay="165.75"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/68.xml" DelayHost="Delay" Delay="209.44"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/76.xml" DelayHost="Delay" Delay="224.61"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/82.xml" DelayHost="Delay" Delay="241.10"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/92.xml" DelayHost="Delay" Delay="274.08"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/98.xml" DelayHost="Delay" Delay="288.97"/>
+	<SwitchToTheme ThemePathOrName="Themes/TC1.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="129.06" />
+	</Instantly>
+	
+	<OnConnect target="OmSource" needsMissionComplete="false">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmSource.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	</OnConnect>
+</ConditionalActions>

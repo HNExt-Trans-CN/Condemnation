@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<Instantly>
+	<LoadMission MissionName="Missions/StartingMission.xml" />
+	<RunFunction FunctionName="removeFlags:CSEC_Member" FunctionValue="6" />
+	</Instantly>
+</ConditionalActions>

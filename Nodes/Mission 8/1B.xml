@@ -1,0 +1,10 @@
+<Computer id="C1B" name="FJR-Insurance, Data Center" security="5" type="1">
+<trace time="90" />
+<admin type="progress"/>
+<dlink target="C1A" />
+<dlink target="C1C" />
+<dlink target="C1Empt1" />
+<dlink target="C1Empt2" />
+<dlink target="C1Empt3" />
+<DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="255,250,36" AdminEmailAccount="" AdminEmailHostID="" Name="Data Center"/>
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Vengence 1A_2" activeCheck="true">
+  <goals>
+  <goal type="hasflag" target="NH_Done"/>
+  <goal type="fileupload" target="playerComp" file="Omicron.loc" path="home" destTarget="NHHub" destPath="home"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Veng/1A_2.xml</missionEnd>
+  <nextMission IsSilent="true">Missions/Act 2/Failure/Start.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

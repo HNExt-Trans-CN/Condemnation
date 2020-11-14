@@ -1,0 +1,65 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+	<CopyAsset DestFilePath="bin/EnBreak" DestComp="C5D" SourceComp="Delay" SourceFileName="INPUT.txt" SourceFilePath="home" />
+	<LoadMission MissionName="Missions/Act 2/Mission 10/Clara.xml" />
+	</Instantly>
+	
+	<OnConnect target="C5D" needsMissionComplete="false">
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">!ANNOUNCEMENT! CHANNEL IS ACTIVE @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="6.0">What have you sent me just now?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="11.0">I am kinda busy here and it is dangerous to contact each other that frequently</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="16.0">It is him! Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="20.0">He wants to attack FBI server to wipe personal info</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="25.0">But he needs a crew, so he offered that job to the NightHawks</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="29.0">They need better tools, so they want to get to our PD Asset server!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="35.0">It is protected with EnTech protocols, it should be safe</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">That .dll I dropped you? It is an EnSec breaker</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="44.0">You can make a valid .exe and breach through EnSec somehow</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="49.0">Our infrastructure is whitelisted as well, I don't see a direct threat</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="54.0">You sure it is Omicron who contacted you?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">YES!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="60.0">Analyze that .dll, it should contain some clues to find a place where Omicron can get a tool that allows to avoid whitelist</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">It is a contract that he tried to offer to NightHawks with my help</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">You refused? So there is no cover anymore?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="75.0">Yes, I am on my own again, but I need to stop them before they figure out something else</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">I am disconnected from their chat</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="84.0">I don't know what Omicron is telling them, but they want to attack both of us, and Omicron is got info on YOU as well</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="90.0">I made a research</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="94.0">Maybe you were right...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="99.0">Looks like he is back</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="104.0">What should we do? What do you see in that .dll?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="110.0">It is...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="113.0">A genius code...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">It is definetly his work of art</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="120.0">I know that already, what else?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="125.0">Hmm. Looks like it is a modified code from one of the EnTech servers, most probably EnSec and other protocls related</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="130.0">So the thing that can help NightHawks to avoid whitelist could be there?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="135.0">Probably</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="139.0">But what is your angle? What exactly you want to do?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="145.0">I need to wipe everything that in theory can give NightHawks and Omicron an access to Police servers</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="150.0">You want to raid EnTech? That's insane!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="155.0">In my perspective, letting a neo-nazi hacker group to gain access to a hacker tools digital vault is more dangerous than violating a policy of an EnTech inc.</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="161.0">You have a .dll that can break EnSec, I just need a valid .exe and I won't endager you any longer</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="166.0">You want to raid them by yourself???</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="170.0">Clara, I've endangered you several times now. It is my justice manner, nobody else should suffer because of me</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="175.0">And you think I will let you go on a suicide mission when you have to fight against everyone?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="180.0">Against a genius criminal mastermind?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="185.0">Against a powerful hacker group that now hunts you?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="190.0">Against a huge corporation and their security protocols?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="194.0">On your own?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="200.0">I've not made a decision about you yet, Captain</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="205.0">Never the less, I will support you on this one</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="210.0">Thank you Clara</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="215.0">Ok, I got the .exe that can help us, but I can't transfer it to you safely</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="220.0">SFCPD would notice</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="224.0">You can use exe trough me for now</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="228.0">I've created a file on this server's /bin folder, change IP to an actual address where EnSec is embedded and I will send you an admin pass</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="233.0">Just remember that this one works with new version of EnSec, older versions are not detected by .dll</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="237.0">Let's check this on Source of that .dll</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="241.0">If Omicron wants to find whitelist breaker, we should start our search from there</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="245.0">!ATTACHMENT:link#%#EnTech Side Server#%#27.113.216.249</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="247.0">Simply change IP text in INPUT.txt on this server to that address and it should work</AddIRCMessage>
+	</OnConnect>
+</ConditionalActions>

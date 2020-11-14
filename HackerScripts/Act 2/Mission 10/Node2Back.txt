@@ -1,0 +1,4 @@
+config playerComp NHHub 0.0 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$

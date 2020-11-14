@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M5C1" name="Muskat's Battlestation" ip="45.132.67.217" icon="DLCPC2" type="1">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 443</ports>
+  <trace time="120" />
+  <CustomConnectDisplayDaemon />
+
+ <file path="home" name="Fluffy's Call.txt">He want to ask something really important and set up an email server (126.111.65.59). Must be some heavy shit on his mind.</file>
+  
+</Computer>

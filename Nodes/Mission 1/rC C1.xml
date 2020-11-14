@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1rC_Macro" name="Macrosoft Workstation 19" ip="158.234.207.206" icon="DLCLaptop" type="1">
+<adminPass pass="FuckPear" />
+<ports>21, 22, 443, 1433</ports>
+<portsForCrack val="101" />
+<trace time="20" />
+<admin type="none"/>
+<file path="home" name="Calculator_Patch">#BINARY#</file>
+</Computer>

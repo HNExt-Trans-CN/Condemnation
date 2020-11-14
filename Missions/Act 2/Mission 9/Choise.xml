@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 9 Cross" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP1D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D2" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D3" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP3D1" destPath="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 9/BadC.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+   <branchMissions>
+  <branch>Missions/Act 2/Mission 9/Good.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Cypher</sender>
+    <subject>Diary</subject>
+    <body>I made it to the client's PC
+
+I can try to manipulate his data to prevent that terrorist attack
+But in that case NightHawks won't get any attention, Omicron won't be interested
+
+Isn't it a disgusting thought, that I even consider to justify murder of nearly 60 people?...
+
+I need help from Clara
+She can analyze netcfgx.dll of that guy and find evidence of a terrorist attack preparation
+And now I know for sure that Omicron is alive and ready to make another assault. Clara should know about that
+
+I need to send her Malber's netcfgx.dll and a copy of HaHaTrap.bat for analysis
+I can simply place them in her workstation's /home folder
+
+Unless I'll finish the job...
+
+That would help me to confront Omicron directly
+But at what cost?...</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

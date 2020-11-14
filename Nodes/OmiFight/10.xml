@@ -1,0 +1,8 @@
+<Computer id="OmBoss10" name="EAT SHIT" type="4">
+<ports>1433, 554, 211, 21, 6881, 443</ports>
+
+<portsForCrack val="3" />
+<trace time="-1" />
+<admin type="none"/>
+<file path="home" name="Secret.txt">PINAS</file>
+</Computer>

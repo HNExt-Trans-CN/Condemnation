@@ -1,0 +1,5 @@
+config 118.161.12.97 220.68.138.21 0.2 $#%#$
+connect $#%#$
+openPort 21 $#%#$
+openPort 22 $#%#$
+disconnect $#%#$

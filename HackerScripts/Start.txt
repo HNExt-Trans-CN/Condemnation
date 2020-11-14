@@ -1,0 +1,2 @@
+config playerComp Delay 0.2 $#%#$
+hideNetMap $#%#$

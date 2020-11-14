@@ -1,0 +1,34 @@
+config playerComp OmBoss 0.0 $#%#$
+delete /home * $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent ----------------------------DEBUG--------------------------- $#%#$
+writel_silent |Backdoor.sip CAN'T FIND A ROOT ELEMENT!--------------| $#%#$
+delay 0.95 $#%#$
+writel_silent |ERROR 256--------------------------------------------------| $#%#$
+delay 0.27 $#%#$
+writel_silent |ERROR 144--------------------------------------------------| $#%#$
+delay 0.56 $#%#$
+writel_silent |CORE NOT FOUND!-------------------------------------------| $#%#$
+delay 0.53 $#%#$
+writel_silent |CRITICAL ERROR 45----------------------------------------| $#%#$
+delay 0.46 $#%#$
+writel_silent |NULL POINT-------------------------------------------------| $#%#$
+delay 0.31 $#%#$
+writel_silent |IMPOSSIBLE FILEPATH--------------------------------------| $#%#$
+delay 0.33 $#%#$
+writel_silent |RETRYING-------------------------------------------------- | $#%#$
+delay 0.22 $#%#$
+writel_silent |FAILED ATTEMPT 1-----------------------------------------| $#%#$
+delay 0.08 $#%#$
+writel_silent |FAILED ATTEMPT 2-----------------------------------------| $#%#$
+delay 0.06 $#%#$
+writel_silent |FAILED ATTEMPT 3-----------------------------------------| $#%#$
+delay 0.10 $#%#$
+writel_silent |FAILED ATTEMPT 4-----------------------------------------| $#%#$
+delay 0.11 $#%#$
+writel_silent |FAILED ATTEMPT 5-----------------------------------------| $#%#$
+delay 0.12 $#%#$
+writel_silent |ABORTING--------------------------------------------------| $#%#$
+delay 0.42 $#%#$
+writel_silent -----------------------------END----------------------------

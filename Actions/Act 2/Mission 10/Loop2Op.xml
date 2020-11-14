@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<Instantly>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node2Back.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop2.xml" DelayHost="Delay" Delay="7.0"/>
+	</Instantly>
+</ConditionalActions>

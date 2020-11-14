@@ -1,0 +1,29 @@
+<ConditionalActions>
+	<Instantly>
+	<ChangeAlertIcon Target="PDIRC" Type="irchub"/>
+	<RunFunction FunctionName="playCustomSong:Music/dark" FunctionValue="0"/>
+	</Instantly>
+	<OnConnect target="PDIRC">
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">I swear, if this thing won't work properly, I will forkbomb it's entire family!</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="2.0">Well, she's gone mad again...</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="3.0">You know that this server doesn't have a family, right Clara?</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="4.0">I am getting worried for your mental health</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">SHUT UP BLOYD, will you? ;-)</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="6.0">Even if his jokes are unfunny, you still committed an act of crime, by threatening to this server's family (Even if it is not existing)</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="7.0">Shut up both of you, stupid pranksters</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="14.0">!ANNOUNCEMENT! CYPHER MENDES (a.k.a #PLAYERNAME#) CONNECTED TO THE SERVER @channel</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="15.0">Finally!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">Good morning Captain!</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="21.0">Morning Captain</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="23.0">Good morning Captain Mendes</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="28.0">Good morning to my never arguing team</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="33.0">What did I miss?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="36.0">We had a few reports of cybervandalism, some hacktivism activity and a stolen data. The usual stuff, no big fish yet</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="45.0">Alright, what are we waiting for? I am taking one of them, Clara and Javis will help me</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="50.0">Bloyd, I have some document filing routine, I will be glad if you can back me up on that one</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="55.0">Yes sir!</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="58.0">All 3 reports that Clara mentioned are attached to the Mission Hub of this server</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="62.0">Alright, chop-chop!</AddIRCMessage>
+		<AddConditionalActions Filepath="Actions/Transfer.xml" DelayHost="Delay" Delay="55.0"/>
+	</OnConnect>
+</ConditionalActions>

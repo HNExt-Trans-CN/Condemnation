@@ -1,0 +1,12 @@
+config playerComp NHHub 0.1 $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$

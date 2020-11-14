@@ -1,0 +1,10 @@
+<Computer id="M11A" name="Omicron's Archive" type="4">
+<ports>21, 22, 25, 80, 1433, 6881, 554</ports>
+<firewall level="8" solution="owfeAIU2" additionalTime="0.0"/>
+<portsForCrack val="4" />
+<trace time="-1" />
+<admin type="none"/>
+<file path="home/Clara" name="Evidence_1.rar">#BINARY#</file>
+<file path="home/Clara" name="Evidence_2.rar">#BINARY#</file>
+<file path="home/Clara" name="Evidence_3.rar">#BINARY#</file>
+</Computer>
