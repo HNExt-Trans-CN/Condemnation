@@ -1,5 +1,5 @@
 HACKNET_OS V1.64_P
 --------------------------------------
-ACTIVATING POLICE COPY OF HACKNET_OS.......
+正在启动 HACKNET_OS 公安版.......
 --------------------------------------
-Greetings, Cypher Mendes
+你好, Mendes 警官

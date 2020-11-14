@@ -1,26 +1,26 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Person id="M7E1" handle="NONE" firstName="Allan" lastName="Turner" isMale="true" forceHasNeopals="false">
- <Birthplace name="Califonia, Sacramento" />
+ <Birthplace name="加利福尼亚州，萨克拉门托" />
  <DOB>19/11/1979 21:46:36</DOB>
  <Degrees>
-    <Degree uni="Sacramento Police Acadamy" gpa="4.0">Admitted to the service in the Police</Degree>
-    <Degree uni="Westbrook University" gpa="3.8">Bachelor of Digital Security</Degree>
-	<Degree uni="Westbrook University" gpa="3.4">Masters of Digital Security</Degree>
+    <Degree uni="Sacramento Police Acadamy" gpa="4.0">获准在执法部门工作</Degree>
+    <Degree uni="Westbrook University" gpa="3.8">网络安全学士</Degree>
+	<Degree uni="Westbrook University" gpa="3.4">网络安全硕士</Degree>
  </Degrees>
  
  <Medical>
     <Blood>AB</Blood>
     <Height>181</Height>
-    <Allergies>Cat Fur,Domestic Dust</Allergies>
-    <Perscription>Antibiotics complex A38 x7</Perscription>
-    <Perscription>Antiretrovirus medicine Version 26</Perscription>
+    <Allergies>猫毛、灰尘</Allergies>
+    <Perscription>抗生素复合物A38 x7</Perscription>
+    <Perscription>抗逆转录病毒药物第26版</Perscription>
     
-    <Notes>Patient is diagnosed with positive HIV and Syphilis.
+    <Notes>患者被诊断为HIV和梅毒阳性。
 
-All prescribed medicine must be taken regularly and in time.
+所有的处方药必须按时按量服用。
 
-If all conditions are met, the recovery process from Syphilis and degrading process for HIV would start in about 2-3 months.
+如果所有条件都满足，梅毒的康复过程和HIV的降解过程将在2-3个月后开始。
 
-Meanwhile, Patient should visit his personal therapist everyday for regular check-up.</Notes>
+同时，患者应每天进行定期检查。</Notes>
   </Medical>
   </Person>
