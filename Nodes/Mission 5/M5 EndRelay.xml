@@ -1,27 +1,27 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5EndRelay" name="Omicron's Relay" security="5" type="empty">
+<Computer id="M5EndRelay" name="Omicron 的中继" security="5" type="empty">
 <admin type="progress" />
 
  
 
 <file path="home" name="Report_for_the_Boss.docx">
-Traffic details:
+交易详情:
 
-New Mexico shipment stashed at the West warehouse. Contains:
+新墨西哥州的货物藏在西部仓库。含有:
 
-Methamphetamine - 50 kilos
-Heroin - 80 kilos
-Cocaine - 87 kilos
-Ecstasy - 7k pills
-Tranquilizers - 20k pills
-Mephedrone - 25 kilos
+甲基苯丙胺 - 50 千克
+海洛因 - 80 千克
+可卡因 - 87 千克
+摇头丸 - 7k 粒
+镇静剂 - 20k 粒
+甲氧麻黄酮 - 25 千克
 
-Distributors have to load out the product is 2 days,
-Access is through our digital channels 
+分销商必须在2天内分发产品，
+通过我们的电子渠道访问
 
-Money-wiring account for Supplyer is GKSNV2854L-KSSEGI375GA
+供应商的汇款帐户为 GKSNV2854L-KSSEGI375GA
 
-Meantime, I will find a way to hide our moles in the Drug Enforcement Administration, as well as our men in the CyberPolice Departments
+同时，我将找到一种方法将我们的人藏在禁毒署中，并将我们的人员藏在网络安全部门中。
  
 		-O
 </file>

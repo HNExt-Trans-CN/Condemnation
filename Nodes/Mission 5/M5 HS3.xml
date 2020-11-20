@@ -1,17 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5HS3" name="Team Rioba's HackStation" ip="69.205.170.213" type="empty">
+<Computer id="M5HS3" name="Team Rioba 的黑客站点" ip="69.205.170.213" type="empty">
 
 <ports>21, 22, 25, 443</ports>
 <portsForCrack val="4" />
 <trace time="120" />
 
-  <file path="home/Sequencer" name="logs">Establishing connection of users: Muskat, Super_Flufy, Omicron to *ADRESS DELETED*
+  <file path="home/Sequencer" name="logs">建立用户连接: Muskat, Super_Flufy, Omicron to *地址已删除*
  
- CONNECTION SUCCESS
-	TRACE EVADING PROGRAM ACTIVATED
-	PORTHACK EXECUTED
-	FORKBOMB EXECUTED
-DISCONNECTION SUCCESS
+ 连接成功
+	已启用追踪评估程序
+	Porthack执行
+	Forkbomb执行
+断开成功
 </file>
   
 </Computer>

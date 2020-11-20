@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5Gate" name="Team Rioba's Gateway" type="empty">
+<Computer id="M5Gate" name="Team Rioba 的网关" type="empty">
 
   <portsForCrack val="4" />
   <ports>22, 21, 25, 443</ports>

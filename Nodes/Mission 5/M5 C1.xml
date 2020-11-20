@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5C1" name="Muskat's 战机" ip="45.132.67.217" icon="DLCPC2" type="1">
+<Computer id="M5C1" name="Muskat 的战机" ip="45.132.67.217" icon="DLCPC2" type="1">
 
   <portsForCrack val="5" />
   <ports>22, 21, 25, 80, 443</ports>
   <trace time="120" />
   <CustomConnectDisplayDaemon />
 
- <file path="home" name="Fluffy's Call.txt">He want to ask something really important and set up an email server (126.111.65.59). Must be some heavy shit on his mind.</file>
+ <file path="home" name="Fluffy's Call.txt">他想问一些非常重要的事情，并假设一个电子邮件服务器（126.111.65.59）。 脑子里肯定tmd装了屎。</file>
   
 </Computer>

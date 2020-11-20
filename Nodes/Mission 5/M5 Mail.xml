@@ -6,10 +6,10 @@
 
 
 <mailServer name="Blank Mail Server" color="254,250,2" generateJunk="false">
-<email recipient="45.132.67.217" sender="104.147.169.53" subject="Trust Issues">
-I really don't trust that Omicron guy. How is this possible that this sloppy guy invented SSL Trojan crack? It just doesn't feel right. He can play tricks on us, watch your back!
+<email recipient="45.132.67.217" sender="104.147.169.53" subject="信任问题">
+我真的不相信那个Omicron家伙。 这家伙怎么可能发明了SSLTrojan？ 感觉不太对劲。 他可以在我们身上耍把戏，小心点！
 
-No, I am not paranoid, call me in Distort when you finish that stupid clicking game
+不，我不是什么偏执狂，你玩完那点击游戏时，在Distort发信息给我。
 
   -Fluff</email>
  </mailServer>
