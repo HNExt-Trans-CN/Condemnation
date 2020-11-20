@@ -1,61 +1,62 @@
-<Computer id="M2_Mail" name="Dynamic" ip="43.58.94.100" icon="DLCServer" type="empty">
+<Computer id="M2_Mail" name="动态邮箱" ip="43.58.94.100" icon="DLCServer" type="empty">
 <account username="Daedra" password="JujaPic123" type="2" />
 <account username="Repulse" password="Margolis" type="2" />
 <ports>21, 22, 25, 80, 554</ports>
 <portsForCrack val="5" />
 <trace time="8" />
 <admin type="fast" resetPassword="true" isSuper="true"/>
-<mailServer name="Dynamic" color="0, 255, 55" generateJunk="false">
-<email recipient="Daedra" sender="Repulse" subject="Done with the filedrop">
-Hey man, I've done the filedrop server, so clients can pick up their shit there.
+<mailServer name="动态更改" color="0, 255, 55" generateJunk="false">
+<email recipient="Daedra" sender="Repulse" subject="文件传输服务器架设完成">
 
-So I guess we will drop a Med file there when we gonna get it. I'll send info later.
+嘿，我已经完成了文件传输服务器的假设，别人可以在那上传他们的垃圾了。
 
-I hope you have a plan, because I can't crack all the ports ;(
+我整到医疗档案就上传到服务器上去。稍后再发送详情给你。
+
+我希望你有一个计划，因为我无法破解所有端口 ;(
 
  -Rep
  </email>
- <email recipient="Daedra" sender="Repulse" subject="Re:Re:Done with the filedrop">
-Sweet, so I am waiting for your reply in the IRC tomorrow!
+ <email recipient="Daedra" sender="Repulse" subject="Re:Re:文件传输服务器架设完成">
+赞，期待你明天在IRC的回复。
 
  -Rep
 -----------------
-I've got the Med Port cracker, so no worries, I will get it tommorow.
+整到医疗端口的破解器了，所以不用担心，那文件明天估计就整到手。
 
  -D
  </email>
- <email recipient="Daedra" sender="Repulse" subject="Re:In Case of Emergency">
-Sure, no probs man!
+ <email recipient="Daedra" sender="Repulse" subject="Re:紧急情况">
+没问题，哥们。
 -----------------
-Dan, could you please back up my personal PC? I cannot trust anyone except you in that mission.
+Dan，你能帮我备份下我电脑文件吗？除了你以外我不能相信任何人。
 
-Here is the IP for my homebase "60.192.249.36"
+这是我的IP "60.192.249.36"
 
-And make sure that netcfgx file is retranslating properly!
+确保netcfgx文件重新编译！
 
-P.S. Access through 12.111.65.135
+P.S. 通过 12.111.65.135 访问
 </email>
-<email recipient="Repulse" sender="Daedra" subject="Re:Done with the filedrop">
-I've got the Med Port cracker, so no worries, I will get it tommorow.
+<email recipient="Repulse" sender="Daedra" subject="Re:文件传输服务器架设完成">
+整到医疗端口的破解器了，所以不用担心，那文件明天估计就整到手。
 </email>
-<email recipient="Repulse" sender="MailBot" subject="Access Change">
-Your active proxy has been shut down due to a technical difficulties.
+<email recipient="Repulse" sender="MailBot" subject="访问变更">
+由于技术困难，您的代理节点已关闭。
 
-Saving logs on Gateway 82.139.222.48
+在网关上保存日志 82.139.222.48
 </email>
-<email recipient="Repulse" sender="Daedra" subject="In Case of Emergency">
-Dan, could you please back up my personal PC? I cannot trust anyone except you in that mission.
+<email recipient="Repulse" sender="Daedra" subject="紧急情况">
+Dan，你能帮我备份下我电脑文件吗？除了你以外我不能相信任何人。
 
-Here is the IP for my homebase "60.192.249.36"
+这是我的IP "60.192.249.36"
 
-And make sure that netcfgx file is retranslating properly!
+确保netcfgx文件重新编译！
 
-P.S. Access through 12.111.65.135
+P.S. 通过 12.111.65.135 访问
 </email>
-<email recipient="Repulse" sender="Spam" subject="BIG DICK IN 2 DAYS">
-Ever wanted to REALLY please a dame? Use our special pills "Horse Power"
+<email recipient="Repulse" sender="Spam" subject="2天速成壮阳药！">
+你是否曾想要和女友一战到天明但又因某些问题放弃呢？来试试我们的特殊药丸“马力”。
 
-Contact info: *REMOVED BY SPAM-BOT*
+联系方式: *REMOVED BY SPAM-BOT*
 </email>
 </mailServer>
 </Computer>

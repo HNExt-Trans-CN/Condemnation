@@ -1,4 +1,4 @@
-<Computer id="M2_WL" name="White List Server" ip="12.111.65.135" icon="DLCServer" type="3">
+<Computer id="M2_WL" name="白名单授权服务器" ip="12.111.65.135" icon="DLCServer" type="3">
 <adminPass pass="EternalFriendship" />
 <ports>21, 22, 25, 80, 104</ports>
 <portsForCrack val="5" />

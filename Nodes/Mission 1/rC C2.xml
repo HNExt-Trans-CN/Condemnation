@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rC_Gate" name="Pear_Lover Gateway" security="3" ip="123.207.231.145" type="empty">
+<Computer id="M1rC_Gate" name="Pear_Lover 网关" security="3" ip="123.207.231.145" type="empty">
 <ports>21, 22, 25, 80, 554</ports>
 <portsForCrack val="3" />
 <trace time="100" />

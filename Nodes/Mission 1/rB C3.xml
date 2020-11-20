@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rB_BG" name="Soviet Star Battlestation" ip="73.229.139.24" icon="DLCPC2" type="empty">
+<Computer id="M1rB_BG" name="Soviet Star 战机" ip="73.229.139.24" icon="DLCPC2" type="empty">
 <ports>21, 22, 25, 554, 6881, 80</ports>
 <portsForCrack val="6"/>
 <proxy time="0.5" />

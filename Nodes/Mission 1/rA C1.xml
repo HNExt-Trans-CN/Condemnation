@@ -1,13 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rA_SK" name="ExTeRmiN@t0R's Battlestation" ip="220.68.138.21" icon="DLCPC1" type="2">
+<Computer id="M1rA_SK" name="ExTeRmiN@t0R 的战机" ip="220.68.138.21" icon="DLCPC1" type="2">
 <ports>21, 22, 6881</ports>
 <portsForCrack val="3"/>
 <trace time="120" />
 <admin type="progress"/>
 <CustomConnectDisplayDaemon />
-<file path="home" name="I Wll Show Them.txt">Hell Yeah, Brendon thought he made a prank of the year? Well I am making a prank of the century, bitches!
+<file path="home" name="I Wll Show Them.txt">Hell Yeah, Brendon以为他是年度玩笑之一吗？ 好吧，我在开世纪玩笑，傻逼们！
 
-Can't wait when he will see for a presentation for some DICK 12 Pro XD
+等不及他何时会看到那些DICK 12 Pro XD的演示文稿
 
-Still have to come up with explanation to my Mom why her 8 grand dollars dissapeard for some script pack...</file>
+仍然必须向我妈妈提出解释，为什么她的8美元花在了某些脚本包上...</file>
 </Computer>

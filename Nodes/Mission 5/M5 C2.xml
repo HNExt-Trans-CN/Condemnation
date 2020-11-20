@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5C2" name="Super_Fluffy's Battlestation" ip="104.147.169.53" icon="DLCPC1" type="1">
+<Computer id="M5C2" name="Super_Fluffy's 战机" ip="104.147.169.53" icon="DLCPC1" type="1">
 
   <portsForCrack val="5" />
   <ports>22, 21, 25, 80, 443</ports>

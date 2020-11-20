@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5C1" name="Muskat's Battlestation" ip="45.132.67.217" icon="DLCPC2" type="1">
+<Computer id="M5C1" name="Muskat's 战机" ip="45.132.67.217" icon="DLCPC2" type="1">
 
   <portsForCrack val="5" />
   <ports>22, 21, 25, 80, 443</ports>

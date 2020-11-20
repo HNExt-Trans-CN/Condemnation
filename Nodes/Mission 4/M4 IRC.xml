@@ -7,7 +7,7 @@
 	<user name="Repulse" color="0,209,232"/>
 	<user name="Daedra" color="163,0,253"/>
 	
-	<post user="Daedra">I am going in</post>
-	<post user="Repulse">Good luck dude</post>
+	<post user="Daedra">我要黑进去了</post>
+	<post user="Repulse">祝你好运,哥们</post>
 </IRCDaemon>
 </Computer>

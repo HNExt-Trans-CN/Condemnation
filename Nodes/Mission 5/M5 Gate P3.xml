@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5GateP3" name="Proxy Node VR01" security="3" type="empty">
+<Computer id="M5GateP3" name="代理节点 VR01" security="3" type="empty">
 
 
  <file path="home/HackStation" name="SYNC_SUCCESS.log">UPDATE PROCEDURE SUCCESS: DELETING SYNC FILES FROM THIS PROXY

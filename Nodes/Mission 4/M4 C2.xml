@@ -1,4 +1,4 @@
-<Computer id="M4_Home" name="Daniel's PC" ip="91.36.194.224" icon="DLCPC1" type="3">
+<Computer id="M4_Home" name="Daniel 的个人电脑" ip="91.36.194.224" icon="DLCPC1" type="3">
 <ports>21, 22, 25, 80, 6881</ports>
 <portsForCrack val="5" />
 <proxy time="2" />

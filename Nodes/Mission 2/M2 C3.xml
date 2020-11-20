@@ -1,4 +1,4 @@
-<Computer id="M2_DaedraHome" name="Daedra's PC" ip="60.192.249.36" icon="DLCPC2" type="2">
+<Computer id="M2_DaedraHome" name="Daedra 的个人电脑" ip="60.192.249.36" icon="DLCPC2" type="2">
 <ports>21, 22, 25, 80, 6881</ports>
 <portsForCrack val="5" />
 <proxy time="2" />
