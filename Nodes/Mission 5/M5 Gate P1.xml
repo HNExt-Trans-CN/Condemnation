@@ -3,29 +3,29 @@
 
 
 
- <file path="home/HackStation" name="SYNC_SUCCESS.log">UPDATE PROCEDURE SUCCESS: DELETING SYNC FILES FROM THIS PROXY
+ <file path="home/HackStation" name="SYNC_SUCCESS.log">更新过程成功：从此代理中删除同步文件
  
- IMPORTANT: reboot that machine for cache cleaning, there could be memory dumps!</file>
+  重要信息：重新启动该计算机以清除缓存，否则可能会发生内存转储！</file>
  
  <Memory>
 	<Data>
 		<Block>
-		Access Data reconfigured, sending report to "81.20.119.244"
+		已重新配置访问数据。将报告发送到 "81.20.119.244"
 		
-			UPDATE PROCEDURE SUCCESS: 
-			DELETING SYNC FILES FROM PROXY
-			RELOCATING BUFFER CACHE 
+			更新过程成功：
+			从代理删除同步文件
+			迁移缓冲区缓存
 			
-		SUCCESS: EndOfTheReport
+		成功：结束报告
 		</Block>
 		<Block>
-		Access Data reconfigured, sending report to "55.128.35.25"
+		已重新配置访问数据。将报告发送到 "55.128.35.25"
 		
-			UPDATE PROCEDURE SUCCESS: 
-			DELETING SYNC FILES FROM PROXY
-			RELOCATING BUFFER CACHE 
+			更新过程成功：
+			从代理删除同步文件
+			迁移缓冲区缓存
 			
-		SUCCESS: EndOfTheReport
+		成功：结束报告
 		</Block>
 	</Data>
 </Memory>
