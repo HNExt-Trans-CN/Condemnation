@@ -1,4 +1,4 @@
-<Computer id="M7Repulse" name="Repulse's PC" ip="148.192.86.166" security="3" type="2">
+<Computer id="M7Repulse" name="Repulse 的PC" ip="148.192.86.166" security="3" type="2">
 <trace time="40" />
 <firewall level="6" solution="ksgrvx" additionalTime="0.3"/>
 <admin type="progress"/>

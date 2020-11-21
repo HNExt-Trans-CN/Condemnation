@@ -1,4 +1,4 @@
-<Computer id="M6Web" name="Archive Node" ip="212.42.92.36" security="2" type="2">
+<Computer id="M6Web" name="文件存放节点" ip="212.42.92.36" security="2" type="2">
 <trace time="-1" />
 <admin type="progress"/>
 <file path="home/Gift" name="WebServerWorm.exe">#WEB_CRACK#</file>

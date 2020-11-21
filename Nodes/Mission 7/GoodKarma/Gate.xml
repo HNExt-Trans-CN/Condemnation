@@ -1,14 +1,14 @@
-<Computer id="M7Gate" name="NightHawks' Gateway" ip="44.198.25.198" security="3" type="4">
+<Computer id="M7Gate" name="NightHawks 的网关" ip="44.198.25.198" security="3" type="4">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home" name="Hello.txt">Go fuck yourself and get out of here :-)</file>
+<file path="home" name="Hello.txt">去日你自己，傻逼，离开这里 :-)</file>
 <eosDevice name="Jailbroken ePhone" id="Jester" icon="ePhone1" empty="false" passOverride="Alpine">
 <note>lel
 
-Need more unfunny memes to troll kids</note>
+需要更多不寻常的梗图来诱骗孩子</note>
 </eosDevice>
 <eosDevice name="Jailbroken ePhone" id="Repulse" icon="ePhone1" empty="false" passOverride="Alpine">
-<note>I can see you
+<note>我看到你了
 
 Baka</note>
 </eosDevice>

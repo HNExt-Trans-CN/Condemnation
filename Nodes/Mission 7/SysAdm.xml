@@ -1,16 +1,16 @@
-<Computer id="M7SysAdm" name="Anthony's PC" security="3" icon="Laptop" type="2">
+<Computer id="M7SysAdm" name="Anthony 的电脑" security="3" icon="Laptop" type="2">
 <trace time="-1" />
 <firewall level="6" solution="Cronko" additionalTime="0.3"/>
 <admin type="progress"/>
-<file path="home" name="Kellis Report.docx">(CONFIDENTIAL: DO NOT SHARE THIS WITH ANYONE)
+<file path="home" name="Kellis Report.docx">（机密：请勿与任何人分享）
 
-Report from Kellis BioTech, Security Chief Logan Derrick:
+安全主管Logan Derrick Kellis BioTech的报告：
 
-Recently we discovered that one of our security protocols for medical servicies (Special port Num. 104) has a critical vulnerability that allows you to break that port, using overflow of self-cyciling comands.
+最近，我们发现我们的一项用于医疗服务的安全协议（特殊端口号104）存在一个严重安全漏洞，该漏洞使您可以使用自动标记的命令溢出来破坏该端口。
 
-Your email adress was assigned as a Security Administrator of a California Medical Facility, and therefore, this security problem involves you as well.
+您的电子邮件地址已分配为加利福尼亚医疗机构的安全管理员，因此，此安全问题也涉及到您。
 
-You can analyze port-breaker tool and find a way to resolve the problem. You can download a prototype here: 48.189.248.31
+您可以分析端口破解器并找到解决问题的方法。 您可以在此处下载原型：48.189.248.31
 
-(CONFIDENTIAL: DO NOT SHARE THIS WITH ANYONE)</file>
+（机密：请勿与任何人分享）</file>
 </Computer>

@@ -1,4 +1,4 @@
-<Computer id="M7P3" name="Westbrook University's Training Practices Center" security="2" type="4">
+<Computer id="M7P3" name="Westbrook University 培训实践中心" security="2" type="4">
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="M7P1" />
