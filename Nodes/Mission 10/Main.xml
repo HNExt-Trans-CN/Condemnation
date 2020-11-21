@@ -1,4 +1,4 @@
-<Computer id="M10M" name="EnTech Side Server" ip="27.113.216.249" security="5" type="1">
+<Computer id="M10M" name="EnTech 副服务器" ip="27.113.216.249" security="5" type="1">
 <adminPass pass="FIHef3ih" />
 <portsForCrack val="101" />
 <trace time="20" />

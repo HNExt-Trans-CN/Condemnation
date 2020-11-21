@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="PDIRC" name="San-Francisco CyberPolice Department's IRC" allowDefaultBootModule="true" icon="DLCServer" type="1">
+<Computer id="PDIRC" name="San-Francisco 网安部 IRC" allowDefaultBootModule="true" icon="DLCServer" type="1">
 <ports>21, 22, 25, 443, 554</ports>
 <portsForCrack val="101" />
 <admin type="none"/>

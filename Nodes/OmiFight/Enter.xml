@@ -1,4 +1,4 @@
-<Computer id="OmBoss" name="Omicron's PC" ip="40.15.214.30" security="5" type="4">
+<Computer id="OmBoss" name="Omicron 的PC" ip="40.15.214.30" security="5" type="4">
 <adminPass pass="jGlQbO" />
 <portsForCrack val="101" />
 <trace time="-1" />

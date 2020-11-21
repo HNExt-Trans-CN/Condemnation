@@ -1,4 +1,4 @@
-<Computer id="OmBoss10" name="EAT SHIT" type="4">
+<Computer id="OmBoss10" name="吔屎吧你" type="4">
 <ports>1433, 554, 211, 21, 6881, 443</ports>
 
 <portsForCrack val="3" />

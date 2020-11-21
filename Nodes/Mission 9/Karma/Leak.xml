@@ -6,7 +6,7 @@
 <admin type="progress"/>
 <dlink target="M9LeakDB" />
 <file path="home/Misc" name="To_Mike.txt">你他妈的有脑子吗？ 你什么突触想到通过受中等保护的前端服务器转发机密访问数据的一个好主意？ 我正在去掉这些傻逼玩意，如果这种情况再次发生，我敢保证你妈将没钱治病。</file>
-<file path="home" name="NOTE.txt">这是LEAK的前端服务器。 资产数据库位于链接服务器上</file>
+<file path="home" name="NOTE.txt">这是LEAK的前端服务器。 资源数据库位于链接服务器上</file>
 <Memory>
     <Data>
       <Block>*内容删除*:转发自:173.135.163.31</Block>
