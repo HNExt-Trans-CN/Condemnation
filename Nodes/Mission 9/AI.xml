@@ -1,7 +1,7 @@
-<Computer id="M9EP2AI" name="AI Database" ip="90.125.177.225" security="5" type="4">
+<Computer id="M9EP2AI" name="AI 数据库" ip="90.125.177.225" security="5" type="4">
 <account username="Ramferp" password="ZQP5gt" type="0" />
 <portsForCrack val="101" />
 <trace time="10" />
 <admin type="progress"/>
-<DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="0,255,16" AdminEmailAccount="" AdminEmailHostID="" Name="AI Database"/>
+<DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="0,255,16" AdminEmailAccount="" AdminEmailHostID="" Name="AI 数据库"/>
 </Computer>

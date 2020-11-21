@@ -1,4 +1,4 @@
-<Computer id="C3B" name="Diamond Breeze's Mainframe" security="5" type="4">
+<Computer id="C3B" name="Diamond Breeze 服务器群" security="5" type="4">
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="C3A" />

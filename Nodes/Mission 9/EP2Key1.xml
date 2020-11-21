@@ -1,7 +1,7 @@
-<Computer id="M9EP2Key1" name="Security Sector, Accounting" security="4" type="4">
+<Computer id="M9EP2Key1" name="安全部门 账户数据库" security="4" type="4">
 <trace time="90" />
 <admin type="progress"/>
-<encryptedFile path="home" name="Accounting.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">USER:TOKEN
+<encryptedFile path="home" name="Accounting.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">用户名:TOKEN
 Ramferp:HJ67
 Leghtnoose:BI83
 Nigtoren:CR10

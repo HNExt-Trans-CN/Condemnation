@@ -12,7 +12,7 @@
         <String>Decypher.exe</String>
 		<String>DECHead.exe</String>
       </ChangedFiles>
-      <Message>DECSuite leaked build</Message>
+      <Message>DECSuite 泄露构建</Message>
       <UserName>Malber</UserName>
       <SourceIP>192.168.1.1 (Localhost)</SourceIP>
 </GitCommitEntry>
@@ -31,7 +31,7 @@
       <ChangedFiles>
         <String>Spenser.rar</String>
       </ChangedFiles>
-      <Message>Spenser's Personal Files</Message>
+      <Message>Spenser 的个人资料</Message>
       <UserName>Newman</UserName>
       <SourceIP>61.38.203.81</SourceIP>
 </GitCommitEntry>

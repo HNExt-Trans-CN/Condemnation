@@ -1,4 +1,4 @@
-<Computer id="C1Empt1" name="FJR-Insurance, QA Sector" security="4" type="1">
+<Computer id="C1Empt1" name="FJR-Insurance, 问答区域" security="4" type="1">
 <trace time="90" />
 <admin type="progress"/>
 <file path="home/Quality_Report" name="Quality_Report.pdf">#BINARY#</file>
