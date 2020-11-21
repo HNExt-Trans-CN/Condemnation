@@ -1,4 +1,4 @@
-<Computer id="M9Source" name="Gateway" ip="108.174.163.243" security="5" type="4">
+<Computer id="M9Source" name="网关" ip="108.174.163.243" security="5" type="4">
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="M9IRC" />

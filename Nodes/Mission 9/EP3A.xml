@@ -1,7 +1,7 @@
-<Computer id="M9EP3Gate" name="Side Medical Archive" security="3" type="4">
+<Computer id="M9EP3Gate" name="辅助医疗档案" security="3" type="4">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home/Special_Case" name="Mrs._Jane_Dotry.txt">We've got a new patient, severe state, she requares a life support unit ASAP
+<file path="home/Special_Case" name="Mrs._Jane_Dotry.txt">我们有一个新的病人，病情很重，已为她分配了一个生命支持单位
 
-Made a note in her Med File (look for Jane Dotry)</file>
+在她的医疗档案中做一个记录（查找Jane Dotry）</file>
 </Computer>

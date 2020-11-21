@@ -1,4 +1,4 @@
-<Computer id="C1B" name="FJR-Insurance, Data Center" security="5" type="1">
+<Computer id="C1B" name="FJR-Insurance, 数据中心" security="5" type="1">
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="C1A" />

@@ -1,5 +1,5 @@
-<Computer id="C3Empt1" name="Journalistic Archive" security="4" type="1">
+<Computer id="C3Empt1" name="Journalistic 储存" security="4" type="1">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home" name="Task.txt">Need scoop</file>
+<file path="home" name="Task.txt">需要勺子</file>
 </Computer>
