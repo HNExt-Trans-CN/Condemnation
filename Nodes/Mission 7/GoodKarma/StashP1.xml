@@ -1,9 +1,9 @@
 <Computer id="M7PN1" name="代理节点 GH5" security="2" type="2">
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="Reconfiguring_Tool_Status.txt">DYNAMIC IP SCRIPT IS ENABLED
+<file path="home" name="Reconfiguring_Tool_Status.txt">动态IP脚本已开启
 
-REMAPPING THIRD VALUE:
+重置第3值:
 	
 	57</file>
 </Computer>

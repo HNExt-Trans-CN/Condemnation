@@ -1,4 +1,4 @@
-<Computer id="M7PD4" name="Sacramento Police Department" ip="17.136.34.154" security="4" type="3">
+<Computer id="M7PD4" name="Sacramento 警署" ip="17.136.34.154" security="4" type="3">
 <trace time="90" />
 <admin type="progress"/>
 <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>

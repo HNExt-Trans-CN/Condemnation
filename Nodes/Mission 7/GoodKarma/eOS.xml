@@ -1,20 +1,20 @@
-<Computer id="M7Lead" name="NightHawks' Side Station" ip="128.51.57.121" security="3" type="empty">
+<Computer id="M7Lead" name="NightHawks 的边站" ip="128.51.57.121" security="3" type="empty">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home" name="Note.txt">This server is NightHawks' side station in case of any emergency
+<file path="home" name="Note.txt">发生紧急情况时，此服务器是NightHawks的边站
 
-It is also used for covert operations on mobile devices (work in progress)
+它也用于在移动设备上进行秘密操作（正在进行中）
 
-Server is using dynamic IP script, so all members should flag this server to prevent loosing its address </file>
+服务器正在使用动态IP脚本，因此所有成员都应标记此服务器以防止丢失其地址 </file>
 <eosDevice name="Jailbroken ePad" id="M7eOS" icon="tablet" empty="false" passOverride="Alpine">
 <note>Vortex
 
-He is a new potential member, weak for now, but has an interesting ability to cover his logs automatically and we can't trace him, and so our potential enemies
+他是一个新的潜在成员，目前还很弱，但是具有自动覆盖他的日志的有趣功能，我们无法追踪到他，因此也是我们的潜在敌人
 
-I baited him with the NetMap fixer that I made just for him
-without second part of it, NetMap is still inoperable 
+我用专门为他制作的NetMap修复程序诱使他
+没有第二部分，NetMap仍然无法操作
 
-It is located on one of my archives (58.141.177.25)
-If anyone from the group is against letting him in, simply delete fixer file from linked machine, you all know how to pass</note>
+它位于我的一个存档中（58.141.177.25）
+如果小组中的任何人反对让他进入，只需从链接的计算机中删除修复程序文件即可。</note>
 </eosDevice>
 </Computer>

@@ -1,4 +1,4 @@
-<Computer id="M7PD3" name="San-Diego Police Department" ip="135.133.244.178" security="4" type="3">
+<Computer id="M7PD3" name="San-Diego 警署" ip="135.133.244.178" security="4" type="3">
 <trace time="90" />
 <admin type="progress"/>
 <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>

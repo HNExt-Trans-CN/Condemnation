@@ -1,7 +1,7 @@
-<Computer id="M6Thread" name="/h/ Hacker Board" security="0" ip="34.12.21.38" type="empty">
+<Computer id="M6Thread" name="/h/ 黑客版块" security="0" ip="34.12.21.38" type="empty">
 <trace time="-1" />
 <admin type="progress"/>
-<messageBoard name="/h/ Hacker Board">
+<messageBoard name="/h/ 黑客版块">
 <thread>Nodes/Mission 6/Threads/1.txt</thread>
 <thread>Nodes/Mission 6/Threads/2.txt</thread>
 <thread>Nodes/Mission 6/Threads/3.txt</thread>

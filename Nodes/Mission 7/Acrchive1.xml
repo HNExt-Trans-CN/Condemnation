@@ -1,4 +1,4 @@
-<Computer id="M7A1" name="Archive Node" ip="192.94.82.50" security="3" type="3">
+<Computer id="M7A1" name="文件存放节点" ip="192.94.82.50" security="3" type="3">
 <trace time="-1" />
 <admin type="progress"/>
 <file path="home" name="Fix_P1.bat">#BINARY#</file>
