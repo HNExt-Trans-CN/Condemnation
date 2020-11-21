@@ -1,4 +1,4 @@
-<Computer id="M6Jeff" name="Jeffry's PC" ip="84.172.98.106" security="1" type="2">
+<Computer id="M6Jeff" name="Jeffry 的PC" ip="84.172.98.106" security="1" type="2">
 <trace time="-1" />
 <admin type="progress"/>
 <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>

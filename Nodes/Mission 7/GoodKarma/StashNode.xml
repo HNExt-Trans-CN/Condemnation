@@ -1,4 +1,4 @@
-<Computer id="M7Stash" name="Archive Node" ip="182.73.133.251" security="3" type="2">
+<Computer id="M7Stash" name="文件存放节点" ip="182.73.133.251" security="3" type="2">
 <trace time="90" />
 <firewall level="9" solution="drivedonk" additionalTime="0.3"/>
 <admin type="progress"/>

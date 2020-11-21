@@ -1,4 +1,4 @@
-<Computer id="M7PD6" name="Fresno Police Department" ip="215.191.241.195" security="4" type="3">
+<Computer id="M7PD6" name="Fresno 警署" ip="215.191.241.195" security="4" type="3">
 <trace time="90" />
 <admin type="progress"/>
 <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>

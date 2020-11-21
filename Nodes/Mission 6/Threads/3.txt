@@ -1,20 +1,20 @@
 KidThread3
 ------------------------------------------
-Can someone tell me how to hack? I got something called FTPBounce and can't figure out how to use it
+谁能告诉我如何破解？我得到了一个叫FTPBounce的东西，但不知道怎么使用它
 ------------------------------------------
-Oh it is simple, can you give me your IP, I will set it up for you so you can be cool hacker
+哦，很简单，你能不能把你的IP给我，我帮你设置一下，这样你就可以做一个很酷的黑客了
 ------------------------------------------
-Wow that is so nice of you, sure thing, it is 126.156.236.82
+哇，你真好，当然，它是126.156.236.82。
 ------------------------------------------
-Hmm yes, I see the problem, you have to activate it, you can do that with ActivateMortar.exe tool
+嗯，是的，我明白了，你必须激活它，你可以用ActivateMortar.exe工具来做。
 ------------------------------------------
-What is it? I don't have that and never heard of it
+那是什么？我没有这个东西，也没听说过
 ------------------------------------------
-Oh, I can help, but you have to open your ports for me, so I can use my ActivateMortar.exe
-See any guide online for that
+哦，我可以帮你，但你必须为我打开你的端口，这样我就可以使用我的ActivateMortar.exe。
+查下网络上的指南
 ------------------------------------------
-Ok, I think I got it
+好了，我想我明白了
 ------------------------------------------
-Yeah, sleep tight stupid kid, say goodbye to your personal data
+是啊，作个好觉吧，傻孩子，跟你的个人资料说再见吧。
 ------------------------------------------
 ------------------------------------------

@@ -1,4 +1,4 @@
-<Computer id="M7Fix" name="Archive Node" ip="58.141.177.25" security="3" type="2">
+<Computer id="M7Fix" name="文件存放节点" ip="58.141.177.25" security="3" type="2">
 <trace time="90" />
 <firewall level="8" solution="bnrgd472" additionalTime="0.3"/>
 <proxy time="3" />

@@ -1,4 +1,4 @@
-<Computer id="academic" name="Academic Database" security="5" type="4">
+<Computer id="academic" name="学术档案数据库" security="5" type="4">
  <adminPass pass="ScienceIsPower" />
 <trace time="7" />
 <admin type="fast" resetPassword="false" isSuper="true" />
