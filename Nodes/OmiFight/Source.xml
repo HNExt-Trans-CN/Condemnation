@@ -1,4 +1,4 @@
-<Computer id="OmSource" name="Attack_Script Source" ip="204.63.174.159" security="5" type="4">
+<Computer id="OmSource" name="攻击_脚本 源" ip="204.63.174.159" security="5" type="4">
 <adminPass pass="tnI4VeFa" />
 <portsForCrack val="101" />
 <trace time="-1" />

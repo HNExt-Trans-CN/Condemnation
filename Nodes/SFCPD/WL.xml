@@ -1,4 +1,4 @@
-<Computer id="WL" name="White List Server" type="3">
+<Computer id="WL" name="白名单服务器" type="3">
 <adminPass pass="bloba" />
 <ports>21, 22, 25, 80, 104</ports>
 <portsForCrack val="5" />

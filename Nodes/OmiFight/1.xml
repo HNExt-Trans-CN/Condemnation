@@ -1,8 +1,8 @@
-<Computer id="OmBoss1" name="FUCK YOU" type="4">
+<Computer id="OmBoss1" name="草你妈" type="4">
 <ports>1433, 554, 211, 21, 6881, 443</ports>
 
 <portsForCrack val="3" />
 <trace time="-1" />
 <admin type="none"/>
-<file path="home" name="Source here!.txt">Nah, you are just dumb!</file>
+<file path="home" name="Source here!.txt">Nah, 你只是个傻逼</file>
 </Computer>

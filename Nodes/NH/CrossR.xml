@@ -1,41 +1,40 @@
-<Computer id="NHCrossR" name="NightHawks' Crossroads" ip="100.234.234.151" security="5" type="4">
+<Computer id="NHCrossR" name="NightHawks 十字路口" ip="100.234.234.151" security="5" type="4">
 <adminPass pass="Sl1ckPr3y" />
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home/Project_Oblivion" name="GOALS.txt">Target: Javis Williamson
+<file path="home/Project_Oblivion" name="GOALS.txt">目标：Javis Williamson
 
-1) SEND Javis' Med File to the RAPTOR@jmail.com (Gain access to the medical archive and search for his entry)
-2) WIPE OFF Javis' degrees (Gain access to the academical archive and search for his entry)</file>
-<file path="home/Project_Oblivion/Medical_part" name="Details.txt">I know an address of the server but you can't get in that simply, they have a special port Num. 104, and obviously nobody left admin's password for you.
+1）将Javis的医疗档案发送到RAPTOR@jmail.com（可访问医疗档案并搜索其条目）
+2）删除Javis学位（可以访问学术档案并搜索他的学籍）</file>
+<file path="home/Project_Oblivion/Medical_part" name="Details.txt">我知道服务器的地址，但是你不能只是简单地黑入就行，它们有一个特殊的端口 104，显然没有人为你留下管理员密码。
 
-You have to find either a password, either a port breaker. All I could find is a PC of one doctor from other city. These folks work with these archives regularly, you'll most probably find some entry point there, use some social engeniering.
+您必须找到一个密码，或者一个端口破解器。 我所能找到的只是一台来自其他城市的医生的电脑。 这些人定期与这些档案馆合作，您很可能会在那找到一些切入点。
+存档: 182.172.94.94
+医生: 221.214.78.150</file>
+<file path="home/Project_Oblivion/Academical_part" name="Details.txt">我没有直接链接到档案的信息，但我知道您可以在哪里获得它
 
-Archive: 182.172.94.94
-Doctor: 221.214.78.150</file>
-<file path="home/Project_Oblivion/Academical_part" name="Details.txt">I don't have a direct link to the archive but I know where you possibly could get it
+我认识一个人，他认识一个最近被大学开除的人。 幸运的是，所有大学都已连接到国际学术数据库，您可以从其中任意一个系统中访问。
 
-I know a guy who know a guy who got kicked out off the university recently. Luckily, all universities are connected to the International Academic Database, you can gain access from their systems
+被排斥的孩子必须对如何进入大学系统有一定的了解
 
-The excluded kid must have some kind of a clue how to get inside university's systems
+被排斥的孩子:178.184.180.189</file>
+<file path="home/Oath" name="Oath.txt">我承认以下规则，并将遵守这些规则：
 
-Dropout kid:178.184.180.189</file>
-<file path="home/Oath" name="Oath.txt">I am acknowledging next rules and will obey them:
+我将永远进化，并努力在生活的各个方面变得强大起来。
 
-I will always evolve and try to become stronger and powerful in all life's aspects
+道德是弱者的法典，也会使每个人也同样弱，如果这阻碍了我变得更强大，我将忽略它。
 
-Morality is a codex of weak people to make everyone equally weak as well, and if that stands on my way of getting more powerful, I will ignore it
+弱者没有怜悯之心，因为他们可以保持坚强，但宁愿相反，作为命运的光荣代理，我发誓要利用这样的人作为工具或对他们作出回击，使他们其成为社会垃圾。
 
-There is no mercy to the weak people, because they could stay strong, but preferred opposite, and as honorable agent of fate, I swear to utilize such individuals as tools or react to them as a trash
+如果我能在软弱和死亡之间做出选择，死亡是唯一的方法，因为我会坚强而独立地死去，不会像奴隶般过着悲惨的生活。</file>
+<file path="home/Memory_Tools" name="Memo.txt">注意 NightHawks!
 
-If I have a choice between weakness and death, death is the only way, because I will die strong and independent, and won't live a miserable life as a slave</file>
-<file path="home/Memory_Tools" name="Memo.txt">Attention to NightHawks!
-
-This set of memory-sensitive software is used to extract dumps from all kind of machines. Use this to get a piece of data and analyze it, so it can be restored after deletion procedure</file>
+这套内存相关的软件用于从所有类型的计算机中提取转储。 使用它来获取数据并进行分析，因此可以在删除过程后将其还原</file>
 <file path="home/Memory_Tools" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
 <file path="home/Memory_Tools" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
-<file path="home/Misc" name="PD list">This is a part of a list of Police Departments of California State
+<file path="home/Misc" name="PD list">这是California州警署列表的一部分
 
-Be careful and remember their addresses, so you can identify them properly if you found them in any logs:
+请注意并记住它们的地址，以便在任何日志中找到它们时都可以正确识别它们：
 
 46.55.180.122 (San-Francisco)
 250.224.135.131 (Los-Angeles)
@@ -47,56 +46,56 @@ Be careful and remember their addresses, so you can identify them properly if yo
 <Memory>
 	<Data>
 		<Block>
-			IRC DUMP HAVE BEEN RELOCATED HERE DUE TO PROXY INSTABILITY
+			由于代理不稳定，IRC 缓存已被重新安置
 				
-Maverick: Did you investigate those police servers?
+Maverick: 你是调查了那些警察服务器？
 				
-Repulse: Yes, they are being renovated by EnTech I presume, 
-they have fancy whitelists and other extreme security measures
+Repulse: 是的，我认为它们是由EnTech进行翻新的，
+他们有花哨的白名单和其他极端安全措施
 				
-Maverick: We could profit from their Asset servers
+Maverick: 我们可以从他们的资源服务器中获利
 				
-Repulse: They are unreachable, at least for now
+Repulse: 至少目前无法我们还没法子连上去
 				
-Repulse: Also, you should tell everyone to be careful, 
-there was a nasty story recently, involving some of these PD servers
+Repulse: 另外，您应该告诉大家要小心，
+最近有一个令人讨厌的故事，其中涉及一些PD服务器
 				
-Maverick: Speak
+Maverick: 怎讲?
 			
-Repulse: All listed servers, except Santa-Rosa are renovated, 
-I think it is a matter of time when Santa-Rosa gonna join EnTech's "Enrichment Program"
+Repulse: 除Santa-Rosa以外，所有列出的服务器都进行了翻新，
+我认为，Santa-Rosa加入EnTech的"浓缩计划"只是一个时间问题
 			
-Repulse: Meaning Santa-Rosa is still vulnerable 
-And they don't have new scanning systems as well
+Repulse: 这表示Santa-Rosa仍然脆弱
+而且他们也没有新的扫描系统
 			
-Maverick: So they are outsiders for now?
+Maverick: 所以他们现在是局外人？
 				
-Repulse: I wouldn't say it that way, we made a little test last month 
-and we dropped dirty netcfgx.dll from a test machine
+Repulse: 我不会这样说，我们上个月做了一点测试
+然后从测试机上删除了netcfgx.dll
 				
-Repulse: They seem to retransmit it to somewhere else
+Repulse: 他们似乎将其传播到其他地方
 				
-Repulse: Thing is, cops arrived in a 52 minutes
+Repulse: 事情是这样，警察在52分钟内到达
 				
-Maverick: Ah shit, here we go again
+Maverick: 哎呀，又来了
 				
-Repulse: As long as we staying away from them, I don't think they'll locate us
+Repulse: 只要我们远离他们，我认为他们不会找到我们
 				
-Maverick: I'll ring some bells to find out what we can do about it, 
-maybe we should disrupt their transmitter
+Maverick: 我会敲响警钟，找出我们可以做些什么，
+也许我们应该破坏他们的发射器
 				
-Maverick: As for now, we are going dark...
+Maverick: 就目前而言，我们还需要藏在黑暗中...
 				
-			END OF IRC DUMP
+			IRC 缓存 结束
 		</Block>
 		<Block>
-			IRC DUMP HAVE BEEN RELOCATED HERE DUE TO PROXY INSTABILITY
+			由于代理不稳定，IRC 缓存已被重新安置
 			
-Repulse: Jenkins, I fucking tired of it, 
-When you will learn how to use a fucking erase-script properly?
-I am tired of sending your tools over and over again after your unsuccesful experiments
+Repulse: Jenkins, 我对这玩意厌倦了
+什么时候可以学习如何正确使用该删除脚本？
+实验失败后，我一遍又一遍地发送你的工具，这让我感到厌倦
 				
-Repulse: Here is your fucking WebWorm
+Repulse: 这是你的傻逼木马
 				
 Repulse: !ATTACHMENT:link#%#文件存放节点#%#212.42.92.36
 				

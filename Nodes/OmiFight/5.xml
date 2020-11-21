@@ -1,4 +1,4 @@
-<Computer id="OmBoss5" name="GO HOME AND CRY" type="4">
+<Computer id="OmBoss5" name="回家哭吧" type="4">
 <ports>1433, 554, 211, 21, 6881, 443</ports>
 
 <portsForCrack val="3" />

@@ -3,31 +3,31 @@
 <IRCDaemon themeColor="67,204,148" name="Misc IRC Channel" needsLogin="false">
 </IRCDaemon>
 <file path="home" name="RETRANSMITTING_ERROR.log">
-ERROR OCCURED:
+错误发生:
 
-		EXCEPTION FOUND:NoRespondError
-		AT 60.192.249.36
+		发现异常:无回应
+		在 60.192.249.36
 	
-ABORTING AND SAVING ORIGINAL TRANSMISSION DATA OF 60.192.249.36 ON THIS MACHINE'S netcfgx.dll</file>
+在此机器的netcfgx.dll上中止和保存60.192.249.36的原始传输数据</file>
 <file path="home" name="MedicalRecord_-_Turner_Allan">12345</file>
-<file path="home" name="Remote_Desktop_app">Remote_Desktop app is configured to pair with 158.245.255.177</file>
-<file path="home" name="Remote_Desktop">Remote_Desktop app is configured to pair with 148.192.86.166</file>
+<file path="home" name="Remote_Desktop_app">远程桌面应用程序配置为 158.245.255.177</file>
+<file path="home" name="Remote_Desktop">远程桌面应用程序配置为 148.192.86.166</file>
 <file path="home" name="MedicalRecord_-_Williamson_Javis">12345</file>
 <file path="home" name="Fin-Rep.accdb">#BINARY##BINARY#</file>
 <file path="home" name="Kati_25_11_19.png">#BINARY##BINARY#</file>
-<file path="home" name="Contact_Note.txt">If you are reading this, you are my only hope to make things right...
+<file path="home" name="Contact_Note.txt">如果您正在阅读这些文字，那是我做对事情的唯一希望。
 
-You know exactly who I am
-And I need your help
+你知道我是谁
+我需要你的帮助
 
-I could continue to hide among filth
-But I want to achieve justice
-And for that I need help, preferably from ethically-correct specialist...
+我可以继续藏在污秽之中
+但我想实现正义
+为此，我需要帮助，而我觉得最好是从符合道德规范的专家那里得到。
 
-Reply to this address "Vort_Moz@jmail.com"
+回复此地址"Vort_Moz@jmail.com"
 
 </file>
-<file path="home" name="Entry_Points_2.txt">Here are 3 Entry Points: West Wing, Kellis BioTech, Medical Archive. They contain 5 life support units
+<file path="home" name="Entry_Points_2.txt">3个入口点: West Wing, Kellis BioTech, Medical Archive. 包括5台生命支持设备
 
 222.176.165.116
 160.173.170.74

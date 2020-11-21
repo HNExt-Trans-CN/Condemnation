@@ -1,7 +1,7 @@
-<Computer id="ClBad" name="Stealth IRC" security="0" type="4">
+<Computer id="ClBad" name="私密 IRC" security="0" type="4">
 <trace time="-1" />
 <admin type="progress"/>
-<IRCDaemon themeColor="254,168,0" name="Stealth IRC" needsLogin="false">
+<IRCDaemon themeColor="254,168,0" name="私密 IRC" needsLogin="false">
 <user name="Clara" color="254,0,3"/>
 <user name="Agent 47" color="255,255,1"/>
 </IRCDaemon>
