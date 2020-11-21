@@ -1,19 +1,19 @@
-<Computer id="jmail" name="Hacknet_OS Internal Inbox" security="5" icon="chip" type="3">
+<Computer id="jmail" name="Hacknet_OS 内部收件箱" security="5" icon="chip" type="3">
 <account username="#PLAYERNAME#" password="" type="2" />
 <account username="RAPTOR" password="hgshrg" type="2" />
 <trace time="101" />
 <portsForCrack val="101" />
 <admin type="fast" resetPassword="true" isSuper="true" />
 <mailServer name="OS_Internal" color="255,141,0" generateJunk="false">
- <email recipient="#PLAYERNAME#" sender="EnTech" subject="Internal Inbox">
-This Inbox is part of your system
+ <email recipient="#PLAYERNAME#" sender="EnTech" subject="内部收件箱">
+该收件箱是系统的一部分
 
-You can make any kind of logs or diary records here for future reference
+您可以在此处制作任何类型的日志或日记记录，以备将来参考
 
-It is also connected to your external Inbox: Vort_Moz@jmail.com
+它还连接到您的外部收件箱：Vort_Moz@jmail.com
 
-Other Hacknet_OS users can contact you through external Inbox 
+其他Hacknet_OS用户可以通过外部收件箱与您联系
 
-You can always access Internal Inbox using your Hacknet_OS username with empty password</email>
+您始终可以使用您的Hacknet_OS用户名和空密码访问内部收件箱</email>
 </mailServer>
 </Computer>

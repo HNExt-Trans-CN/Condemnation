@@ -1,4 +1,4 @@
-<Computer id="M10P2" name="SubNode" type="4">
+<Computer id="M10P2" name="子节点" type="4">
 <ports>21, 22, 25, 80, 211, 443</ports>
 <portsForCrack val="6" />
 <firewall level="13" solution="UNfenuef6uhef" additionalTime="0.0"/>

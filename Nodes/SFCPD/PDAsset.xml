@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="PDAsset" name="San-Francisco CyberPolice Department's Asset Server" ip="90.91.183.142" security="4" allowsDefaultBootModule="false" icon="DLCServer" type="empty">
+<Computer id="PDAsset" name="San-Francisco 网安部门 资源服务器" ip="90.91.183.142" security="4" allowsDefaultBootModule="false" icon="DLCServer" type="empty">
 <account username="Cypher" password="CyberCap" type="0"/>
 <ports>22, 21</ports>
 <portsForCrack val="101"/>
 <admin type="none"/>
 <file path="home" name="Token.bin">#BINARYSMALL#</file>
 <WhitelistAuthenticatorDaemon Remote="WL"/>
-<uploadServerDaemon name="Upload Dropbox" folder="Drop" needsAuth="false" color="5, 122, 255"/>
+<uploadServerDaemon name="上传文件" folder="Drop" needsAuth="false" color="5, 122, 255"/>
 </Computer>

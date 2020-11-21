@@ -1,4 +1,4 @@
-<Computer id="NHHub" name="NightHawks' Hub" ip="37.122.36.119" security="5" type="4">
+<Computer id="NHHub" name="NightHawks 中枢" ip="37.122.36.119" security="5" type="4">
 <adminPass pass="PrimeCandidate" />
 <trace time="90" />
 <admin type="progress"/>
@@ -13,7 +13,7 @@
  <customthemefile path="home/Themes" name="White_x-server.sys" themePath="Themes/TC2.xml"/>
  <customthemefile path="home/Themes" name="Green_x-server.sys" themePath="Themes/TC3.xml"/>
  <customthemefile path="home/Themes" name="Red_x-server.sys" themePath="Themes/TC4.xml"/>
- <DHSDaemon groupName="NightHawks' Hub" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,0" allowContractAbbandon="false">
+ <DHSDaemon groupName="NightHawks 中枢" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,0" allowContractAbbandon="false">
  <agent name="Vortex" pass="lkmsrfklm" color="255,252,5"/>
  <agent name="NOTIFICATION" pass="lkmsrfklm" color="255,252,5"/>
  <agent name="Maverick" pass="lkmsrfklm" color="255,0,1"/>
