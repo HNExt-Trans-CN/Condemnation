@@ -1,4 +1,4 @@
-<Computer id="C1C" name="FJR-Insurance, Bookkeeping" security="4" type="1">
+<Computer id="C1C" name="FJR-Insurance 账务部" security="4" type="1">
 <trace time="90" />
 <admin type="progress"/>
 <file path="home/02_20" name="Budget.pdf">#BINARY#</file>

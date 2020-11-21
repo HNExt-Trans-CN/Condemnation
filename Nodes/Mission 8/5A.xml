@@ -1,4 +1,4 @@
-<Computer id="C5A" name="Spoofer's Gateway" security="3" type="4">
+<Computer id="C5A" name="Spoofer 的网关" security="3" type="4">
 <trace time="90" />
 <admin type="progress"/>
 </Computer>

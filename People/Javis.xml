@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Person id="M7E2" handle="NONE1" firstName="Javis" lastName="Williamson" isMale="true" forceHasNeopals="false">
- <Birthplace name="加利福尼亚州，旧金山" />
+ <Birthplace name="California，San Francisco" />
  <DOB>22/09/1992 21:46:36</DOB>
  <Degrees>
     <Degree uni="San-Francisco Police Acadamy" gpa="4.0">获准在执法部门工作</Degree>

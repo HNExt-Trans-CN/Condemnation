@@ -1,4 +1,4 @@
-<Computer id="M9EP1Gate" name="Equipment Managing Gateway" security="5" type="4">
+<Computer id="M9EP1Gate" name="设备管理网关" security="5" type="4">
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="M9EP1Hos" />

@@ -1,5 +1,5 @@
-<Computer id="C1Empt2" name="FJR-Insurance, Client Database" security="4" type="1">
+<Computer id="C1Empt2" name="FJR-Insurance 客户数据库" security="4" type="1">
 <trace time="90" />
 <admin type="progress"/>
-<DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="255,250,36" AdminEmailAccount="" AdminEmailHostID="" Name="Client Database"/>
+<DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="255,250,36" AdminEmailAccount="" AdminEmailHostID="" Name="客户数据库"/>
 </Computer>

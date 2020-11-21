@@ -1,17 +1,17 @@
-<Computer id="M9EP1Mail" name="NLH Hospital, Internal Mailing" ip="222.116.127.15" security="5" type="4">
+<Computer id="M9EP1Mail" name="NLH Hospital 内部邮件服务器" ip="222.116.127.15" security="5" type="4">
 <account username="Nigtoren" password="PAC5yb" type="2" />
 <portsForCrack val="101" />
 <trace time="10" />
 <admin type="progress"/>
 <mailServer name="Never Loose Hope Hospital" color="0,255,141" generateJunk="false">
-<email recipient="Nigtoren" sender="Kellis BT" subject="LS-Machine has been shipped">Greetings Dr. Evans, an additional life support unit has arrived to Never Loose Hope Hospital, we hope our contribution in support of your new medical policy would make us great partners in future business.
+<email recipient="Nigtoren" sender="Kellis BT" subject="生命支持设备已发货">您好 Dr. Evans, 一个额外的生命支持设备已经到达NLH Hospital，我们希望我们对您的新医疗政策的支持将使我们成为未来业务的重要合作伙伴。
 
-	Stay healthy,
-	Mary - Delivery Sector</email>
-<email recipient="Nigtoren" sender="Simon" subject="Re:Re:LS Unit">Thank you Dr. Evans!
+	祝您身体健康，
+	Mary - 运输部</email>
+<email recipient="Nigtoren" sender="Simon" subject="Re:Re:生命支持设备">谢谢你 Dr. Evans!
 ---------------
-It is 176.0.9.163, keep it confidential!
+IP 176.0.9.163, 保密!
 ---------------
-Hello Dr. Evans, it is Simon from pulmonary ward. Thank you for giving us a life support unit, we couldn't be more grateful! But we also need an external IP to connect it to our comuter systems. Could you please tell me?</email>
+你好，Dr. Evans，我是肺病科的Simon。 感谢您给我们的生命支持设备，我们感激不尽！ 但是我们还需要一个外部IP才能将其连接到那个机器的计算机系统。 你能告诉我吗？</email>
 </mailServer>
 </Computer>

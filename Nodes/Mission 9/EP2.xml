@@ -4,6 +4,7 @@
 <dlink target="M9EP2Gate" />
 <CustomConnectDisplayDaemon />
 <LogoDaemon Name="Never Loose Hope Hospital" ShowsTitle="false" TextColor="255, 255, 255, 255" LogoImagePath="Logos/NLH.png">
-NEVER LOSE HOPE HOSPITAL
+NLH Never Loose Hope Hospital
+永不失去希望的医院
   </LogoDaemon>
 </Computer>

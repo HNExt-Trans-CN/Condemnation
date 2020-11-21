@@ -1,12 +1,12 @@
-<Computer id="M9Mike" name="Mike's PC" ip="173.135.163.31" security="5" icon="Laptop" type="2">
+<Computer id="M9Mike" name="Mike 的PC" ip="173.135.163.31" security="5" icon="Laptop" type="2">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home/IRC_FRAGMENTATOR" name="IRC_09.log">//[09:21]/Mike/And most funniest thing I ever saw is how our admin managed his access data XD//
-//[09:21]/Dalvin/How?)//
-//[09:22]/Mike/He is using his jmail for passwords restoring and it is so dumb to name that mail account "LEAK_ADMIN". Like, come on man, it is just so stupid, and then they blame me for different fuck ups, sheesh//
-//[09:23]/Dalvin/jmail is joojle.jmail.com[@Hacknet_OS_Scan:62.35.253.222], right?//
-//[09:23]/Mike/Yeah. And on top of all that, he LITERALLY sets his password to be a reversed username!//
-//[09:23]/Mike/Like, people could simply "lockpick" his email account and just enter "admin+NewPassword" into database's login and that't it!//
-//[09:24]/Dalvin/I think you shouldn't say that anywhere, even here//
-//[09:24]/Mike/Big Bro listening and all that? I don't know, I have a nice security but you right, who knows...//</file>
+<file path="home/IRC_FRAGMENTATOR" name="IRC_09.log">//[09:21]/Mike/我见过最有趣的事情是我们的管理员如何管理他的访问数据XD //
+//[09:21]/Dalvin/怎么管理的他？//
+//[09:22]/Mike/他正在使用他的jmail来恢复密码，并且命名邮件帐户w为"LEAK_ADMIN"实在是太愚蠢了。 就像，啊反正就是这太愚蠢了。//
+//[09:23]/Dalvin/jmail是joojle.jmail.com [@Hacknet_OS_Scan：62.35.253.222] 对吗？//
+//[09:23]/Mike/是。 而且，最重要的是，他实际上将密码设置为反向用户名！//
+//[09:23]/Mike/意思就是人们可以简单地“锁定”他的电子邮件帐户，只需在数据库的登录名中输入"admin + NewPassword"即可！//
+//[09:24]/Dalvin/我想即使在这里也不应该在任何地方这么说//
+//[09:24]/Mike/老大哥还在听音乐吗？我不知道，我的安全性很好，但是你知道的，谁知道呢...//</file>
 </Computer>

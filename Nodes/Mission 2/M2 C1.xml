@@ -1,4 +1,4 @@
-<Computer id="M2_Med" name="旧金山 医疗档案存储服务器" ip="182.172.94.94" icon="kellis" type="empty">
+<Computer id="M2_Med" name="San Francisco 医疗档案存储服务器" ip="182.172.94.94" icon="kellis" type="empty">
 <account username="PoliceInvestigation" password="CheckPass" type="1" />
 <ports>21, 22, 80, 104</ports>
 <portsForCrack val="4" />

@@ -1,4 +1,4 @@
-<Computer id="M9EP1D1" name="Morgan McKendric's Life Support" ip="176.0.9.163" icon="chip" type="4">
+<Computer id="M9EP1D1" name="Morgan McKendric 的生命支持设备" ip="176.0.9.163" icon="chip" type="4">
 <ports>104</ports>
 <portsForCrack val="1" />
 <trace time="-1" />

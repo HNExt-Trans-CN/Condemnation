@@ -1,6 +1,6 @@
-<Computer id="M9EP2Proxy" name="Proxy Server Z30" ip="101.64.243.132" security="2" type="1">
+<Computer id="M9EP2Proxy" name="代理服务 Z30" ip="101.64.243.132" security="2" type="1">
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="Note.txt">Nigel, please, make sure this encryption software is working properly, we had a bug with addressing server, it is in locked mode now</file>
-<file path="home/DECSuite" name="RETRANSMITION_PRESET.txt">ACCESS_INPUT:IVLAP216ocfs</file>
+<file path="home" name="Note.txt">Nigel, 请确保此加密软件正常运行，我们在寻址服务器时遇到了一个错误，它现在处于锁定模式</file>
+<file path="home/DECSuite" name="RETRANSMITION_PRESET.txt">访问输入:IVLAP216ocfs</file>
 </Computer>

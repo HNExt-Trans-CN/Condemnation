@@ -1,11 +1,11 @@
-<Computer id="M9EP1" name="Kellis BioTech, Equipment Managing" ip="160.173.170.74" security="4" icon="kellis" type="1">
+<Computer id="M9EP1" name="Kellis BioTech, 设备管理" ip="160.173.170.74" security="4" icon="kellis" type="1">
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="M9EP1Gate" />
-<file path="home/Export" name="Details.txt">Export Details:
-Los-Angeles: 250 pacemakers, 45 life support units
-San-Francisco: 200 pacemakers, 25 life support units
-Sacramento: 150 pacemakers, 60 life support units
+<file path="home/Export" name="Details.txt">出口明细：
+Los Angeles：250个起搏器，45个生命支持单位
+San Francisco：200个起搏器，25个生命支持装置
+Sacramento：150个起搏器，60个生命支持单位
 
-Other regional locations are archived on other location-based servers</file>
+其他区域位置归档在其他基于位置的服务器上</file>
 </Computer>

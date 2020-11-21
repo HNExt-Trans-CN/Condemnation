@@ -1,4 +1,4 @@
-<Computer id="C4A" name="Union Gold's Mainframe" security="5" type="1">
+<Computer id="C4A" name="Union Gold 服务器群" security="5" type="1">
 <trace time="60" />
 <admin type="progress"/>
 <dlink target="C4B" />
@@ -6,7 +6,6 @@
 <CustomConnectDisplayDaemon />
 <DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="0,148,231" AdminEmailAccount="" AdminEmailHostID="" Name="Mainframe"/>
 <LogoDaemon Name="Union Gold" ShowsTitle="true" TextColor="255, 255, 255, 255" LogoImagePath="Logos/UnionGold.png">
-The bank
-You can trust!
+你值得信赖的银行!
   </LogoDaemon>
 </Computer>

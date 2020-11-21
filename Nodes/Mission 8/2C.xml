@@ -1,5 +1,5 @@
-<Computer id="C2C" name="Oswaldo's Drop Server" security="4" type="1">
+<Computer id="C2C" name="Oswaldo 的文件上传服务器" security="4" type="1">
 <trace time="-1" />
 <admin type="progress"/>
-<uploadServerDaemon name="Oswaldo's Stash" folder="Drop" needsAuth="false" color="254,0,255"/>
+<uploadServerDaemon name="Oswaldo 的储藏库" folder="Drop" needsAuth="false" color="254,0,255"/>
 </Computer>
