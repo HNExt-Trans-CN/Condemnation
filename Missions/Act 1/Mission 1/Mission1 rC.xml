@@ -16,24 +16,22 @@ We need to recover it from a hacker and along the way get his internal file.
 	<sender>Clara</sender>
 	<subject>Catch a thief - Make the world better</subject>
 	<body>
-I knew you would pick up that mission. Me and Javis will cover the rest two.
+我就知道你会接这个任务。 我和Javis将负责剩下的两个。
 
-That sneaky worm infiltrated into the Macrosoft workstation. It is supposed to be well protected, so my guess, he used some social engineering.
+病毒渗透到了Macrosoft工作站中。 它本来应该受到很好的保护不会被黑进去，所以我猜他使用了一些社会工程学知识。
 
-Macrosoft provided to us the access, I am linking it here. Find hacker's tracks, research his setup adn recover the patch. Don't forget to place it back to the home/ folder of the Macrosoft workstation.
+Macrosoft向我们提供了访问权限，我将其链接到此处。 找到黑客的足迹，研究他的设置并恢复补丁。 不要忘记将其放回Macrosoft工作站的home文件夹中。
 
-Oh, and of course, get his pesonal PC's netcfgx.dll from /sys folder, so we could analize his activity and pack him up.
-
-Good luck!
+哦，当然，从/sys文件夹获得他PC的netcfgx.dll，因此我们可以分析他的活动并将其逮捕。
 
     -C
 	
-PRO TIP:
-Use LOGS to find tracks of criminal's computer systems
+专业提示：
+利用日志查找犯罪分子的轨迹
 
-GOALS:
-1)LOCATE Calculator_Patch.rar on one of the hacker's computers and UPLOAD it to the /home folder of the Macrosoft Workstation
-2)UPLOAD hacker's personal computer's netcfgx.dll file to the ASSET server's upload dropbox
+目标：
+1)在黑客的其中一台计算机上找到Calculator_Patch.rar，并将其上传到Macrosoft Workstation的/home文件夹中
+2)黑入破坏者的PC，并将其netcfgx.dll上传到资源服务器
 </body>
 <attachments>
 	<link comp="M1rC_Macro"/>

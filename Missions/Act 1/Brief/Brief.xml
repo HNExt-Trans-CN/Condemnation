@@ -6,13 +6,13 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 1/Brief/Brief.xml</missionStart>
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Brief/Link.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Conference">
-  When you feel that you finished everything else, we will start a conference with the FBI representative
+  <posting title="会议">
+当您觉得自己完成了其他所有工作后，我们将与FBI代表举行会议
   </posting>
   <email>
     <sender>Clara</sender>
-    <subject>Conference</subject>
-    <body>Our conference will be in online mode, with the FBI representative, agent Gale, and an EnTech's digital security assistant. When conference will finish, ONLY THEN click COMPLETE	button</body>
+    <subject>会议</subject>
+    <body>我们的会议将与FBI代表，代理Gale和EnTech的数字安全助手以在线方式进行。 会议结束后，单击“完成”按钮即可。</body>
     <attachments>
     </attachments>
   </email>

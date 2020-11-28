@@ -1,8 +1,8 @@
 <ConditionalActions>
   
   <Instantly>
-	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="MedicalRecord_-_Turner_Allan" SourceFilePath="home" />
-	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="MedicalRecord_-_Williamson_Javis" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录-_Turner_Allan" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录-_Williamson_Javis" SourceFilePath="home" />
   <RunFunction FunctionName="setFaction:SFCPD" FunctionValue="0" />
 	<RunFunction FunctionName="setHubServer:PDIRC" FunctionValue="0"/>
 	<RunFunction FunctionName="setAssetServer:PDAsset" FunctionValue="0"/>

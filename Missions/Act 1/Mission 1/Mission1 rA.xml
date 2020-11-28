@@ -9,36 +9,36 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rA Actions.xml</missionStart>
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Cybervandalizm">
+  <posting title="网络破坏">
   
   
   
-Some trickster tried to have some fun with confidential promotion documents, now they are in mess, word DICK is everywhere!
+一些骗子试图从机密的促销文件中获得一些乐趣，现在它们变得一团糟，DICK一词无处不在！
 
-But what's more important - this is a text for new ePhone presentation. We have to fix everything and find a guy's IP, before the whole world would know how much SFCPD suck
+但是更重要的是-这是新的ePhone演示文稿的文字。 我们必须修复所有问题并找到一个人的IP。
   </posting>
   <email>
 	<sender>Clara</sender>
-	<subject>Good vandal = locked up vandal</subject>
+	<subject>好破坏者=锁定破坏者</subject>
 	<body>
-I knew you would pick up that mission. Me and Javis will cover the rest two.
+我就知道你会接这个任务。 我和Javis将负责剩下的两个。
 
-Security Chief of the Pear company texted us with this news. He said it wouldn't be a problem for him, but there is just too little time left before presentation.
+Pear公司的安全主管将此消息发给我们。 他说这对他来说不是问题，但是演讲前的时间太少了。
 
-Sooo he left everything as it is, which means most probably you will find some tracks of that script kiddie.
+因此，他将所有内容都保留了下来，这意味着您很有可能会找到该脚本小子的一些曲目。
 
-I want his netcfgx.dll, you can find it in sys/, so we could research every other sin he made and then pack him up. When you get it, upload it to the Asset server's upload module.
+我们需要他的netcfgx.dll，您可以在sys/中找到它，因此我们可以研究他犯下的所有其他罪恶，然后收拾他。 收到后，将其上传到资源服务器。
 
-Oh, and by the way, could you also replace DICK back to ePhone in the presentation file? Pretty please? You will find it with the logs and everything on PC that I linked.
+哦，对了，您还能在演示文件中将DICK替换回ePhone吗？你会在日志和我链接的PC上找到所有内容。
 
 -C
 
-PRO TIP:
-Use LOGS to find tracks of criminal's computer systems
+专业提示：
+利用日志查找犯罪分子的轨迹
 
-GOALS:
-1)GET INSIDE vandal's 战机 and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
-2)REPLACE word "DICK" to "ePhone" in presentation file</body>
+目标：
+1)黑入破坏者的战机，并将其netcfgx.dll上传到资源服务器
+2)在演示文稿文件中将单词"DICK"替换为"ePhone"</body>
 	<attachments>
 	<link comp="M1rA_Sec"/>
 	<account comp="M1rA_Sec" user="admin" pass="JeveStobs"/>
