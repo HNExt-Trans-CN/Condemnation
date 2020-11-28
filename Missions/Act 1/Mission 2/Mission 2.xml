@@ -6,25 +6,25 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 2/Mission 2.xml</missionStart>
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 2/Transfer.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Hacker Atrack">
-Someone attacked San-Francisco's Medical Archive and stole a Med File from it.
+  <posting title="黑客攻击">
+有人攻击了旧金山的医学档案，并从中偷了一个医疗档案。
 
-Time to find that bastard and make him face justice.
+是时候找到那个混蛋，让他面对正义了。
   </posting>
   <email>
     <sender>Bloyd</sender>
-    <subject>Medical Confidentiality</subject>
+    <subject>医学保密</subject>
     <body>
-The administration provided us with limited access to the Medical Archive, so we could check the logs, and that's all we need.
+主管部门为我们提供了对医疗存档的有限访问权限，因此我们可以检查日志，这就是我们所需要的。
 
-We need to find out who is responsible for that attack and get his netcfgx.dll. It should be extracted from his homestation, not gateway or proxy, that won't help us to locate him.
+我们需要找出谁对该攻击负责，并获取他的netcfgx.dll。应该从他的个人PC（而不是网关或代理服务器）中提取它，这不会帮助我们找到他。
 
-Dig deeper Captain, we will help you along the way!
+队长，我们将一路为您服务！
 
   -B
   
-GOALS:
-1)GET INSIDE hacker's personal computer and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox</body>
+目标:
+1)黑入破坏者的PC，并将其netcfgx.dll上传到资源服务器</body>
     <attachments>
 	<link comp="M2_Med" />
 	<account comp="M2_Med" user="PoliceInvestigation" pass="CheckPass" />
