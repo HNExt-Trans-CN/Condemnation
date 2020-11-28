@@ -7,34 +7,34 @@
 <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rB Actions.xml</missionStart>
 <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
 <nextMission>NONE</nextMission>
-<posting title="Hacktivism">
+<posting title="骇客主义">
 
-Prime suspect is a propagandist of communism and using very aggressive strategies.
+主要嫌疑人是共产主义的宣传家，并且使用非常积极的策略。
 
-We have to do something before young maximalists will react to it.
+在年轻的极简主义者对此做出反应之前，我们必须做些事情。
 </posting>
 <email>
 	<sender>Clara</sender>
-	<subject>CyberStalin is back</subject>
+	<subject>数码斯大林回来了</subject>
 	<body>
-I knew you would pick up that mission. Me and Javis will cover the rest two.
+我就知道你会接这个任务。 我和Javis将负责剩下的两个。
 
-This guy attacked news server and changed frontline to his absurd political propaganda.
+这个家伙攻击了新闻服务器，并新闻更改为他荒唐的政治宣传。
 
-We have to track an IP of his PC and pack him up. I will link a frontend server, but most probably you have to poke around and reveal mainframe to find some tracks of that guy.
+我们必须跟踪他的PC的IP并将其打包。 我将一个前端服务器，但很可能你必须四处找找才能找到该家伙的一些踪迹。
 
-As for access, that bastard changed Admin Passwords on entire infrastructre, wich means we have a green light on using crack tools.
+至于怎么黑进去，那个混蛋在整个基础架构上更改了管理员密码，不过这意味着我们可以使用破解工具。
 
-Find his IP and crack him up, then get his netcfgx.dll from sys/ and upload to the Asset server's upload module. And we will know everything about him.
+我们需要他的netcfgx.dll，您可以在sys/中找到它。上传它到我们的资源服务器，我们就能了解他的一切。
 
-Good luck on this one!
+祝你好运！
     -C
 
-PRO TIP:
-Use LOGS to find tracks of criminal's computer systems
+专业提示：
+利用日志查找犯罪分子的轨迹
 
-GOALS:
-1)GET INSIDE propagandist's 战机 and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+目标：
+1)黑入破坏者的战机，并将其netcfgx.dll上传到资源服务器
 </body>
 <attachments>
 	<link comp="M1rB_Tab"/>
