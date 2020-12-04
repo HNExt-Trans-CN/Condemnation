@@ -7,28 +7,28 @@
   <nextMission>NONE</nextMission>
   <email>
     <sender>Cypher</sender>
-    <subject>Diary</subject>
-    <body>Fuck, fuck, fuck
-I lost him!
+    <subject>日记</subject>
+    <body>草草草
+我跟丢他了
 
-Yeah, I saved Clara 
-But what the fuck is the point of all this then?
+啊，我确实救了Clara
+但除此之外终究为了什么呢？
 
-I chased Omicron 
-Just to lose him right in the end?
-That's not fair...
+我追击Omicron
+只是为了最终跟丢他？
+这不公平...
 
-I really hope that Clara will be grateful for my actions
-And will help me too
-I just saved her ass after all...
+我真的很希望Clara会感激我的行为
+而且也会帮助我
+毕竟我刚刚救了她。
 
-We need to destroy Omicron somehow
-Maybe he left some tracks on Clara's network
+我们需要以某种方式摧毁Omicron
+也许他在Clara的机子上遗留了什么...
 
-I need to reset her channel if I want to contact her through it
-Just have to delete active.log in /IRC folder
-That will attract her attention
-And activate the channel</body>
+如果我想要联系Clara也许重置下IRC就行了
+删除/IRC文件夹里边的active.log即可
+这会引起她的注意
+并激活聊天</body>
     <attachments>
 	<link comp="C5D" />
     </attachments>
