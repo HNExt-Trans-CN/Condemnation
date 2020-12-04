@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="Mission 7 1" activeCheck="true">
   <goals>
-  <goal type="filechange" target="jmail" file="MedicalRecord_-_Turner_Allan" path="mail/accounts/RAPTOR/inbox" keyword="12345" removal="true"/>
+  <goal type="filechange" target="jmail" file="医疗记录_-_Turner_Allan" path="mail/accounts/RAPTOR/inbox" keyword="12345" removal="true"/>
   <goal type="filechange" target="academic" file="allan_turner" path="academic_data/entry_cache" keyword="Admitted" removal="true"/>
   <goal type="filechange" target="academic" file="allan_turner" path="academic_data/entry_cache" keyword="Bachelor" removal="true"/>
   <goal type="filechange" target="academic" file="allan_turner" path="academic_data/entry_cache" keyword="Masters" removal="true"/>

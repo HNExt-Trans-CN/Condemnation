@@ -5,8 +5,8 @@
 	<SwitchToTheme ThemePathOrName="Themes/TC4.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="0.0" />
 	<RunFunction FunctionName="addFlags:NetMapHid" FunctionValue="0" />
 	<AddConditionalActions Filepath="Actions/Loop1.xml" DelayHost="Delay" Delay="2.0"/>
-	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="MedicalRecord_-_Turner_Allan" SourceFilePath="home" />
-	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="MedicalRecord_-_Williamson_Javis" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录_-_Turner_Allan" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录_-_Williamson_Javis" SourceFilePath="home" />
 	<AddConditionalActions Filepath="Actions/Act 2/Mission Load.xml" DelayHost="Delay" Delay="15.0"/>
 	</Instantly>
 	
