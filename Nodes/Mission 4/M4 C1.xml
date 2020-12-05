@@ -1,7 +1,7 @@
 <Computer id="M4_Gate" name="Repulse 的网关" ip="82.139.222.48" security="4" type="empty">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home/Reset_Button" name="REPORT.log">[08:45 PM] 计算机文件已成功删除！切记重新启动计算机以清除所有转储中的内存缓存！</file>
+<file path="home/Reset_Button" name="REPORT.log">[08:45 PM] 计算机文件已成功删除!切记重新启动计算机以清除所有转储中的内存缓存!</file>
 <Memory>
 	<Data>
 		<Block>IP已重新更改为 91.36.194.224</Block>
