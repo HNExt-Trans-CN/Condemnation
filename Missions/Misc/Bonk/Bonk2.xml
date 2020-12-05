@@ -5,8 +5,8 @@
   </goals>
   
   <nextMission IsSilent="true">Missions/Misc/2.xml</nextMission>
-  <posting title="Denigration">
-One excentric politician is not intimidated with my blackmail, it is time to fix this
+  <posting title="毁灭">
+一位偏心的政治家对我的勒索并不感到害怕，是时候解决这个问题了
   </posting>
   <email>
     <sender>NONE</sender>

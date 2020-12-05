@@ -5,8 +5,8 @@
   </goals>
   
   <nextMission IsSilent="true">Missions/Misc/1.xml</nextMission>
-  <posting title="Data Manipulation">
-Some documents must be placed where they are not supposed to be
+  <posting title="数据处理">
+某些文档必须放置在不应放置的位置
   </posting>
   <email>
     <sender>NONE</sender>
