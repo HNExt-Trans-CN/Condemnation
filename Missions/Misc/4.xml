@@ -6,21 +6,21 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C4.xml</missionStart>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Data Extraction">
-A 16-digit peice of data can solve a big $ question
+  <posting title="数据提取">
+一串16位数据可以为我们带来一大笔收入
   </posting>
   <email>
     <sender>E-Mail</sender>
     <subject>Data Extraction</subject>
     <body>此电子邮件由从外部收件箱接收：
 
-Agent, this is a huge money matter. We have been compromised and a group of hackers intercepted our transaction and wired our money to other bank account. The bank name is Union Gold, and they replied on our matter, that they will figure it out in a week, but my partners can't wait for so long.
+我们已经受到威胁，一群黑客拦截了我们的交易并将我们的资金汇到其他银行帐户。 银行名称是Union Gold，他们回答了我们的事，他们会在一周内解决这个问题，但是我的合作伙伴迫不及待。
 
-I want you to get inside that banking system and find a 16-digit number of a bank account where recently were dropped 11.6 million dollars. Original account is JNS33ID4-1523LAVF.
+我希望您进入该银行系统，并找到一个16位数字的银行帐户，最近在该帐户中投入了1,160万美元。 原始帐户是JNS33ID4-1523LAVF。
 
 目标:
 
-1) REPLY this E-Mail with a 16-digit number of the target bank account (Example: XXXXXXXX-XXXXXXXX)
+1) 回复邮件并在附件中附上目标账户的具体数字 (例子: XXXXXXXX-XXXXXXXX)
 </body>
     <attachments>
 	<link comp="C4A" />
