@@ -7,23 +7,23 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C3.xml</missionStart>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Foul Mouths">
-A certain news company think that there is a freedom of speech in our country
+  <posting title="口臭">
+某新闻公司认为我国有言论自由
   </posting>
   <email>
     <sender>E-Mail</sender>
     <subject>Foul Mouths</subject>
-    <body>此电子邮件是由从外部收件箱接收：
+    <body>此电子邮件由从外部收件箱接收：
 
-Hello agent, did you ever been annoyed by disrespectful mass media that is doing nothing but plotting controversy? Yeah I know, fuck'em, they talked shit about me spending my parents' money on whole cocaine batch for myself, but in fact that was for my hoes, they need some action while we play at my penthouse.
+您好，探员，您是否曾经被无礼的大众媒体所烦恼，而这些媒体只是在引发争议？ 是的，我知道，该死，他们谈论我为我自己将父母的钱花在可卡因上的事，但实际上那是出于我的个人交友问题，我朋友在我们在顶层公寓玩耍时肯定是要high一点的嘛。
 
-Anyway, I want you to shut down that stupid news channel, and on the way ruin their infrastructire as well, like hit their mainframe like in good ol' Hollywood, I don't know, you are the hackster after all.
+无论如何，我希望您关闭该愚蠢的新闻频道，并在破坏其基础设施的过程中，就像在好莱坞大片中击中他们的大型机一样，我不知道，您毕竟是黑客。
 
-目标:
+目标：
 
-1) DISRUPT news channel server, so it won't show any articles (clear /MsgBoard folder)
-2) DESTROY mainframe of the news company (clear /sys folder)
-3) REPLY to this E-Mail after everything is done
+1)中断新闻频道服务器，使其不会显示任何文章(清空/MsgBoard文件夹)
+2)摧毁该新闻公司大型机(清空/sys文件夹)
+3)一切完成后回复此电子邮件
 </body>
     <attachments>
 	<link comp="C3A" />

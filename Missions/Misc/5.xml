@@ -5,35 +5,35 @@
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C5.xml</missionStart>
   <nextMission>Missions/Misc/R/Delay.xml</nextMission>
-  <posting title="Police Investigation">
-Detective of a San-Francisco CyberPolice Department poking around us, making an inconvenience for a personal data leakage business
+  <posting title="警察调查">
+San Francisco网安部的探员在我们附近闲逛，给个人数据泄露业务带来不便
   </posting>
   <email>
     <sender>E-Mail</sender>
-    <subject>Police Investigation</subject>
-    <body>此电子邮件是由从外部收件箱接收：
+    <subject>警察调查</subject>
+    <body>此电子邮件由从外部收件箱接收：
 
-Hello fellow agent, we are having trouble with the CyberPolice. One of their detectives is really pushy and ruining our business, we need to put him out of the game but apperantly we can't find any logs despite that there is some outside activity on our servers.
+你好。我们在条子那边遇到了些麻烦。他们的一名侦探真的很激进并且破坏了我们的业务，我们需要将他排除在游戏之外，但是尽管我们的服务器上存在一些外部活动，但显然我们找不到任何日志。
 
-We will link one of our gateways, hope you will find anything there.
+我们将链接我们的网关之一，希望您能在其中找到任何东西。
 
-	PERSONAL NOTES:
-This is someone from my PD!
-Of course the first thought is to make contact
+	个人笔记:
+这是我的部下！
+当然首先得联系他们
 
-But how?
+但是怎么做？
 
-And who is exactly investigating this case?
+谁正在调查此案？
 
-I made a quick note that will attract attention to my persona
-Despite that it will ruin my entire cover
-But I must take this chance
+我做了个笔记
+尽管如此，它也可能毁了我的整个计划
+但是我必须抓住这个机会
 
-If it is someone of my subordinates, they will understand
-And hopefully won't give me out
+如果是我下属的人，他们会明白
+希望不会给我出来
 
 目标:
-1) FIND a mysterious detective and make contact (Upload a contact note that is located on your PC /home folder to that detective's PC /home folder)
+1) 查找神秘的侦探并进行联系（将PC/home文件夹中的联系人记录上载到该侦探的PC/home文件夹中）
 </body>
     <attachments>
 	<link comp="C5A" />
