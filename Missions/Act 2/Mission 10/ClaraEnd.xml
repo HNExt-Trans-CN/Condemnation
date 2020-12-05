@@ -17,8 +17,8 @@
   <email>
     <sender>E-mail</sender>
     <subject>?</subject>
-    <body>What is that?
-Go to the IRC</body>
+    <body>那是什么
+回到IRC</body>
     <attachments>
 	<link comp="C5D" />
     </attachments>

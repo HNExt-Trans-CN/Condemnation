@@ -11,7 +11,7 @@ Detective of a San-Francisco CyberPolice Department poking around us, making an 
   <email>
     <sender>E-Mail</sender>
     <subject>Police Investigation</subject>
-    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+    <body>此电子邮件是由从外部收件箱接收：
 
 Hello fellow agent, we are having trouble with the CyberPolice. One of their detectives is really pushy and ruining our business, we need to put him out of the game but apperantly we can't find any logs despite that there is some outside activity on our servers.
 
