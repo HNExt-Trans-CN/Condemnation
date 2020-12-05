@@ -13,11 +13,11 @@
   <nextMission>NONE</nextMission>
   <email>
     <sender>E-mail</sender>
-    <subject>Response</subject>
-    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+    <subject>回应</subject>
+    <body>此电子邮件是由从外部收件箱接收：
 	
-I've made a quick scan
-Go back to our IRC</body>
+我进行了快速扫描
+回到我们的IRC</body>
     <attachments>
 	<link comp="C5D" />
     </attachments>

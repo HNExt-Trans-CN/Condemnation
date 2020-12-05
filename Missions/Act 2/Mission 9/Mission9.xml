@@ -13,34 +13,34 @@
   <branchMissions>
   <branch>Missions/Act 2/Mission 9/Branch.xml</branch>
   </branchMissions>
-  <posting title="Operation Venomous Snake">
-A major job, that can promote our group to a higher league of hackers
+  <posting title="毒蛇行动">
+一项重要工作，可以将我们的团队提升到更高级别
   </posting>
   <email>
     <sender>E-Mail</sender>
-    <subject>Operation Venomous Snake</subject>
-    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+    <subject>毒蛇行动</subject>
+    <body>此电子邮件是由从外部收件箱接收：
 	
-This operation requires a skill to infiltrate inside of a well-organized security system that use encryption.
+此任务需要渗透到使用加密的组织良好的安全系统内部的技能。
 	
 
-Jenkins - manage all tools we may need, including DECSuite, client provided it on a DECSuite Deploy Server
+Jenkins - 管理所有可能需要的工具，包括DECSuite，客户端在DECSuite部署服务器上提供
 
-Slayer - make sure that nobody will interfere in our operation
+Slayer - 确保没有人会干扰我们的运营
 
-Vortex - research and find a way to connect to the most secured units. There will be 5 of them (instructions are on DECSuite Deploy Server)
+Vortex - 研究并找到一种连接最安全单元的方法。 其中有5个（说明位于DECSuite部署服务器上）
 
-Deladello - social engineering as usual, find all possible cracks and leaks that medical staff left
+Deladello - 与往常一样的社会工程学，查找医务人员留下的所有可能的裂缝和泄漏
 
-Prophet - I need you to help me to create a mass upload of our ransomware
+Prophet - 我需要您帮助我制造大量勒索软件
 
-Collect your decryption tool at the attached server
-Good luck
+在连接的服务器上收集解密工具
+祝好运
 	-M
 
 
 目标:
-UPLOAD ransomware to /sys folder of any life support unit you can find (5 in total)</body>
+将勒索软件上传到你可以找到的任何生命支持单位的/ sys文件夹中（总共5个）</body>
     <attachments>
 	<link comp="M9Deploy" />
 	<account comp="M9Deploy" user="admin" pass="COnj0st3R" />

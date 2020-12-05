@@ -8,10 +8,10 @@
   <email>
     <sender>E-mail</sender>
     <subject>?</subject>
-    <body>THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+    <body>此电子邮件是由从外部收件箱接收：
 	
-What is that?
-Go to the IRC</body>
+那是什么
+回到IRC</body>
     <attachments>
 	<link comp="C5D" />
     </attachments>
