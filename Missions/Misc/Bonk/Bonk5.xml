@@ -5,8 +5,8 @@
   </goals>
   
   <nextMission IsSilent="true">Missions/Misc/5.xml</nextMission>
-  <posting title="Police Investigation">
-Detective of a San-Francisco CyberPolice Department poking around us, making an inconvenience for a personal data leakage business
+  <posting title="警察调查">
+San Francisco网络安全部门的探员在我们附近闲逛，给个人数据泄露业务带来不便
   </posting>
   <email>
     <sender>NONE</sender>
