@@ -1,0 +1,3894 @@
+The outline I obtained from the author
+Thanks again to the author for making such a good extension
+
+PLOT SUMMURY:
+Act 1: Cypher's regular day, simple missions, only decision is - capture or leave Repulse. Omicron attacks Cypher making him outlaw
+Act 2: Cypher now uses nickname Vortex. He is searching for Omicron and that leads towards Jester or Repulse (depends on the decision in the first act). Both of them asking to ruin someone's life in exchange for NetMap fix. Player can either complete the mission or find a secret branch and unlock the map himself and then outplay Jester/Repulse, by turning them in to the cops (there is also a Scum path - if you fixed the map but decided to ruin person's live anyway). After that, player integrates in NightHawks.
+Inside NightHawks Vortex completes a set of contracts. On one of them he contacts Clara but she is not sure if she should help the protagonist. Then Hospital mission comes in. Player could either complete it or find a secret branch by finding a client and contacting Clara, preventing that terrorist attack (Scum path is also available).
+Act 3: After that mission Omicron appears and reveals Cypher's true identity and giving player a choice - help NightHawks or Clara. After that decision, player hacks EnTech with his partner and getting tools to fight Omicron. But then he throws another tough decision.
+Player either saves Clara or getting Omicron PC link (or failing that sequence at all). Then player gets 1 of the 4 different endings - depending on Karma and choices. Read dialogs, you will get the idea what is happening.
+
+You could also play the endings yourself - just set starting mission to these ones (use force complete and debug commands if needed):
+1) Missions/Act 2/Mission 10/ClaraEnd.xml - Worst ending - simply fail DECIDE (or get Omicron's location file and have below 5 Veng Karma points)
+2) Missions/Act 2/Mission 10/NHEnd.xml - Vengeance ending - get Omicron's location file and have over 5 Veng Karma points (Edit Vengence.xml Faction file and set playerVal to 5 for example)
+3) Missions/Act 2/Mission 10/NHEnd.xml - Neutral ending - save Clara and have below 4 Just Karma points (Edit Justice.xml Faction file and set playerVal to 0)
+4) Missions/Act 2/Mission 10/ClaraEnd.xml - Happy ending - save Clara and have over 4 Just Karma points (Edit Justice.xml Faction file and set playerVal to 4 for example)
+
+
+CONTENTS (BY LINE):
+
+23 - DIALOGS
+2236 - MISSIONS: DESCRIPTIONS AND DIARIES
+2943 - NODES AND THEIR CONTENTS
+3865 - OTHER
+ 
+ 
+ DIALOGS
+ ===Act 1===
+ 
+ ---Intro---
+ 
+ Clara: I swear, if this thing won't work properly, I will forkbomb it's entire family!
+ Javis: Well, she's gone mad again...
+ Bloyd: You know that this server doesn't have a family, right Clara?
+ Bloyd: I am getting worried for your mental health
+ Clara: SHUT UP BLOYD, will you? ;-)
+ Javis: Even if his jokes are unfunny, you still committed an act of crime, by threatening to this server's family (Even if it is not existing)
+ Clara: Shut up both of you, stupid pranksters
+ !ANNOUNCEMENT! CYPHER MENDES (a.k.a #PLAYERNAME#) CONNECTED TO THE SERVER @channel
+ Clara: Finally!
+ Clara: Good morning Captain!
+ Javis: Morning Captain
+ Bloyd: Good morning Captain Mendes
+ PLAYER: Good morning to my never arguing team
+ PLAYER: What did I miss?
+ Clara: We had a few reports of cybervandalism, some hacktivism activity and a stolen data. The usual stuff, no big fish yet
+ PLAYER: Alright, what are we waiting for? I am taking one of them, Clara and Javis will help me
+ PLAYER: Bloyd, I have some document filing routine, I will be glad if you can back me up on that one
+ Bloyd: Yes sir!
+ Bloyd: All 3 reports that Clara mentioned are attached to the Mission Hub on this server
+ PLAYER: Alright, chop-chop!
+ -Start of the Mission 1-
+ Clara: @channel, I uploaded our cracks and other important files to our Asset server, but don't worry, I have sent a copy of them to your workstations already
+ Javis: Holy shit, that's a LOT of the illegitimate software we took from bad guys lately!
+ Clara: If you lost some of your tools, you can access them at the Asset server, but you know that you will be fined at a round summ of $ if that's gonna happen, so watch your backs, and don't use that programs against innocent civilians
+ Javis: We are cops, not criminals. You got it, Corala ;)
+ Clara: Don't ever call me that, I don't get your stupid jokes, okay madlad?
+ Javis: HeHeHeH
+ Clara: @channel Don't forget that you now have cracks to most of the ports, as well as NetmapOrganizer, MemDumpGenerator with MemForensics in a pair, SignalScramble and other useful stuff, check your workstation's /bin folder for details!
+ 
+ ---After Mission 1---
+ Clara: @#PLAYERNAME# Great job Captain, we dealt with the other two as well
+ Javis: Got them pretty fast. Our tech guys will analize netcfgx.dll files of these fools and we will get all kind of information about their online activity
+ Javis: And even their physical location of last Internet connection!
+ PLAYER: Is this possible by just 1 analysis of a single file?
+ Clara: It is, but with help of all ISPs of California and one special benefactor
+ PLAYER: Benefactor? And who would be that?
+ Clara: EnTech company
+ Clara: They got government support recently and provided their High-End programs to different Police Departments of USA
+ Javis: Including EnSec and Hacknet_OS, that we are using right now
+ Javis: So that we can be more effective against hackers, and they couldn't fight back easily as well
+ Javis: It even protects our infrastructure if someone of us gone rogue, for some reason
+ PLAYER: Well, this OS is really promissing, but it can cause a lot of damage to anyone who is not protected with EnSec
+ PLAYER: Kind of monopolistic, isn't it?
+ Clara: Yeah, but if they passed all antitrust commissions  somehow, that means their actions are within antitrust law
+ Javis: I think all we need to know, is that we don't let the bad guys having this stuff and making sure nobody is using this software against non-crimuinal elements
+ Clara: Agreed
+ PLAYER: Let's then focus on our job now
+ Bloyd: Captain, I have done the document filing and I have a new report
+ PLAYER: What is it?
+ Bloyd: Someone attacked San-Francisco's Medical Archive server!
+ PLAYER: Okay boys and a girl, we have some work to do!
+ Bloyd: @channel I uploaded report to the server
+ -During Mission 2-
+ Javis: @#PLAYERNAME# Captain! My tracker signaled me, that there is a new file on the Gateway of that Daedra hacker!
+ Clara: Hope that will help us to get inside that mail server, because I am having problems breaking in
+ Bloyd: Same problem
+ Clara: @channel Goddamn it, there is a whitelist there
+ Javis: Ah fuck. What should we do?
+ Clara: Well we need to access the whitelist server, so we can access the list of IPs
+ Clara: But one of the ports is uncrackable for us
+ Clara: I have an idea how to find out an admin password, but this would reset the IPs list
+ Javis: So we can get in, but we will lose the IP of the second hacker?
+ Clara: Exactly
+ Javis: I'll try to find him, have to contact FBI, they will help to find him. At least we know his nickname and first name
+ Clara: @#PLAYERNAME# Captain, send the IP of that whitelisted node (Daedra's PC) through our Mission Hub, so I can send it to the tech guys and they will work their magic
+ Clara: Got it, let's wait a little, and most probably we can get admin access to the whitelist server
+ Javis: How is that possible?
+ Clara: I recognize that particular whitelist program, it has a few vulnerabilities
+ Javis: Interesting
+ Clara: Yep, it worked, the admin password is "EternalFriendship"
+ Clara: Oh how lovely for a criminal
+ -Mission 3, basically a part of Mission 2-
+ Bloyd: @channel Guys, this netcfgx.dll_FIXED is kinda suspicious
+ Javis: I've got scanner for netcfgx.dll fast check, and I can see that this one is empty!
+ Clara: Shit, he retransmitting all network system data to another dll file
+ Bloyd: @#PLAYERNAME# Captain, try to look around his servers and computers again, there is supposed to be some clue
+ Clara: Yeah, basically this file is swapped with some other computer
+ Clara: So you just have to extract netcfgx.dll of a retransmitting computer and upload it to the Asset server's upload module
+ Bloyd: @channel I'll send a reminder now
+ Bloyd: !ATTACHMENT:note#%#GOALS UPDATE#%#FIND correct netcfgx.dll and UPLOAD it to the ASSET server's upload dropbox
+ 
+ ---After Mission 3---
+ Clara: @#PLAYERNAME# Captain, we analyzed  that netcfgx.dll you've sent now, and that's it, he is living in the north part of city, enforcers are on their way already
+ PLAYER: Nice job everyone!
+ PLAYER: If I remember correctly, we supposed to have a conference with the FBI representatives
+ Bloyd: That's right sir!
+ Javis: But we still have an unfinished business with that second hacker - Repulse
+ Javis: He didn't participate in the attack, but still a partaker of a crime
+ Javis: Of course we could move on to the conference and leave him be, most probably guys from enforcer team will get everything about him from Daedra's place
+ Javis: But this is your call, Captain
+ Clara: So what should we do, boss?
+ Javis: @#PLAYERNAME# Captain, I attatched a report of what we have on Repulse to the Mission Hub, if you are still interested
+ 
+ ---Mission 4 (Repulse)---
+ Daedra: I am going in
+ Repulse: Good luck dude
+ Daedra: Sent it on our filedrop server
+ Repulse: We got the money
+ Daedra: OH FUCK
+ Daedra: OH SHIT
+ Daedra: OH FUCKING SHIT
+ Repulse: What is happening???
+ Daedra: SOMEONE GOT INSIDE MY SYSTEM, HOMEBASE DLL ARE FUCKING STOPPED RETRANSMITTING
+ Repulse: Wow, fuck dude, this is sick
+ Daedra: FUCK YOU DUDE, THIS IS YOUR FAULT
+ Daedra: YOU'RE THE ONLY ONE WHO KNEW PASSWORD!
+ Repulse: Umm, are you out of your fucking MIND?
+ Daedra: I am not, you ratty piece if shit, so if they got me, they gonna find you
+ Daedra: Mr.Repulse, who apparently is a SNITCH
+ Repulse: Shut up man, I have nothing to do with it!
+ Daedra: Well, then let me tell to the whole Internet, that your beloved shitdripping cat Margolis is your password to all accounts :)
+ Daedra: Even your fucking dynamic mail account is just Repulse+Margolis, LOL
+ Repulse: YOU ARE CRAZY PARANOID FUCKER ROBERT, I AM OUT, TAKE THE FUCKING MONEY TO YOURSELF
+ 
+ Javis: @#PLAYERNAME# Great job Cap, now we finally can close this case
+ 
+ ---Mission 5---
+ Clara: @channel Everybody is ready for the conference?
+ Bloyd: Yes, I think everything is set
+ Javis: Yeah, so, who is going to speak to our squad exactly?
+ Clara: FBI special agent Gale and EnTech digital security assistant Diana
+ Javis: Interesting company we have here
+ Clara: Ok, they going to connect in 5...
+ Clara: 4...
+ Clara: 3...
+ Clara: 2...
+ Clara: 1...
+ Gale: !ANNOUNCEMENT! GALE MAUER CONNECTED TO THE SERVER @channel
+ Diana: !ANNOUNCEMENT! DIANA FRASER CONNECTED TO THE SERVER @channel
+ Gale: Greetings ladies and gentlemen, my name is Gale Mauer, special agent of Federal Bureau of Investigation
+ Gale: I am with the representative of the EnTech company Diana, and I am assigning her to your squad as your assistant in the next mission
+ Diana: Hello everyone
+ Gale: But we will get back to it a bit later. We heard about Medical Archive attack. Did you apprehend the hacker who is responsible for that attack?
+ Javis: Yes sir, his name is Daedra, he planned this attack together with his partner-in-crime hacker Repulse, they had a contract from a certain client to steal Olivia Brooks' Med File
+ Gale: Any info on the Client?
+ PLAYER: Bloyd?
+ Bloyd: Her name is Sandra Brooks, sister of Olivia, her intentions are unknown, we will get everything from her after interrigation with detectives
+ Gale: Well if that's not a terrorist attack then nothing serious for my division
+ Gale: As I said, I have assignment for your squad
+ Gale: There was a digital break-in last night on one of our secured servers
+ Gale: They seem to have acquired an SSL breaker tool, so they passed our security and stolen some confidential data, leaving no tracks at all, even disconnect logs
+ Diana: They are working as a professional team, using sequencer tool for a team hack, and forkbomb for invisible disconnection after clearing logs
+ Gale: Right, but a few hours ago we detected a disconnection log on one of the servers and most probably this is their gateway
+ Gale: I want you to turn their infrastructure upside down and get me their detailed information, location, everything
+ PLAYER: Roger that sir, we will do our best!
+ Gale: Good luck to you ladies and gentlemen, and remember that Ms. Diana will provide any kind of help
+ PLAYER: Good bye sir!
+ Clara: Good luck sir!
+ Bloyd: Bye sir!
+ Javis: Good bye sir!
+ Gale: !ANNOUNCEMENT! GALE MOWER DISCONNECTED FROM THE SERVER @channel
+ Clara: @channel CONFERENCE IS OVER!
+ PLAYER: Well team, I think it is time to start digging
+ Diana: @channel I uploaded an incident report to your mission hub
+ 
+ Clara: @channel So there is three hackers we are looking for
+ Javis: Ok, so we are going to find 3 battlestations, got it
+ 
+ Clara: @#PLAYERNAME# Captain, you gained access to the battlestation of the first hacker!
+ Clara: Send his netcfgx.dll to our Asset server upload module and then we need to find other two
+ 
+ Javis: @#PLAYERNAME# Oof, that one had a tight security, nicely done Cap, let's get his netcfgx.dll
+ 
+ Javis: @#PLAYERNAME# Great job Cap, we got the second one
+ Clara: Only one bastard left
+ Bloyd: @channel I am detecting mobile data transmission on Fluffy's battlestation, worth checking out with an eOs scanner
+ 
+ Clara: @channel What the fuck is this? This guy has EnSec?
+ Diana: Seems so
+ Clara: So, Ms. EnTech representative, how can you explain this?
+ Diana: It only could be a hijacked early build. In that case, I can help a little
+ Clara: How?
+ Diana: I can scan his network and make a copy node with the same network map
+ Diana: Here you go "1.1.1.1" . Simply gain admin access and scan the node, maybe you can find new entry point
+ 
+ Clara: @channel We are through, there is only one file here that hasn't been deleted
+ Clara: @channel Oh my fucking god..
+ Clara: @#PLAYERNAME# Captain, this is...
+ Javis: This is drug trafic evidence!
+ Clara: FBI would be really intrested in this now
+ Javis: @#PLAYERNAME# Captain, get the evidence on our Asset server!
+ 
+ ---Omicron Attacks---
+ 
+ GREETINGS CAPTAIN MENDES
+ 
+ SORRY TO DISTURB YOU
+ BUT I HAVE TO ASK YOU TO STOP
+ 
+ THIS
+ 
+ INVESTIGA...
+ 
+ 
+ can you hear me?
+ 
+ umm..
+ you hear me?
+ 
+ well, that's anticlimactic...
+ 
+ let me fix this
+ 
+ 
+ Omicron:
+ 
+ Greetings Captain Mendes
+ Sorry to disturb you
+ But I have to ask you to stop this investigation
+ I can see you found my little secret
+ That wasn't supposed to happen
+ And my employers are very disappointed with this situation
+ Sooo I came up with a little plan
+ You see? You think that you won
+ That you got the evidence of a drug trafic
+ But my, oh my, wouldn't you be surprised?
+ This file has a little script for your workstation
+ Your IP is ALL OVER our infrastructure of a drug-traficing platform
+ And your FBI buddies, which right now digging deeper to find us
+ Would be really surprised
+ That Cypher Mendes, The Captain of San-Francisco CyberPolice Department
+ Is a fucking druglord's personal assistant
+ Wouldn't that be funny?
+ But hey, nothing personal
+ Only business
+ My employers want you out of the game
+ So I did that right now
+ But I wonder... What are you capable of in such extreme situation?
+ Let me give you a second chance and let you to change IP
+ Sounds good?
+ 
+ ---Attack finale, end of Act 1---
+ Omicron:
+ 
+ Nicely done Captain
+ You won a few days of freedom
+ But having you around is not in by best interests
+ So let me take your tools and close your digital eyes
+ 
+ That's better
+ I hope you've learned a valueble lesson
+ A wrong man in a wrong place can lose everything in 1 second
+ THAT what is happened to YOU
+ Farewell, Cypher...
+ 
+ 
+ ===Act 2===
+ ---Jester's path---
+ Vortex: !ANNOUNCEMENT! VORTEX CONNECTED TO THE CHAT @channel
+ Jester: Greetings mysterious kid-troll, good to have you here
+ Jester: I suppose you are vacant and looking for some job?
+ Vortex: Something like that
+ Vortex: I have been attacked and now I am trying to recover, find some tools and hunt down that cocksucker, so I can make sure nobody else is going to suffer from him
+ Jester: How hard have you been hitted?
+ Vortex: I barely have any tools, my node NetMap is corrupted and unusable right now
+ Jester: What OS are you using?
+ Vortex: Hacknet_OS, bet you are not familiar with it, supposed to be police-exclusive, but I had some experience with cops and know how to get their stuff time to time
+ Vortex: At least before I was crippled by some powerful nutjob
+ Jester: A lot of hacker groups that I know are already using Hacknet
+ Jester: Did you get it way before? Like a few months back?
+ Vortex: Yeah, cops didn't know that I was inside their systems, used accounts of some fat guy Paul, a clerk in CyberPolice
+ Jester: Wow, nice moves man, fuck'em
+ Jester: I see that you gained access, but I can't see any logs
+ Jester: Are you using some tools for that? Maybe share? ;)
+ Vortex: It's already in the system, Hacknet exclusive
+ Jester: Dude, I am using Hacknet right now, I don't have anything like that
+ Vortex: Dunno, I read instructions from that clerk's emails
+ Vortex: It said that police copies have that log-disguising function
+ Jester: How could you operate so close with cops, get police copy of OS way before everyone got regular Hacknet on deepweb, and get fucked from someone, so that you lost your tools and map?
+ Vortex: There is always bigger fish, don't ever get cocky
+ Jester: Hmm, it's still suspicious to me that you got all that police-exclusive tools, how can I be sure that you are not undercover pig?
+ Vortex: How many undercover pigs go to the script kiddies message boards and troll them?
+ Vortex: Or you think that I am undercover federal and was looking for some dangerous cool criminals on that board?
+ Jester: Fine, sounds reasonable
+ Vortex: So can you help me to recover?
+ Jester: Well at least I can help you with the map
+ Vortex: Really?
+ Jester: Not free of course
+ Jester: Need something done first
+ Jester: Interested?
+ Vortex: Depends on what you want me to do
+ Jester: Don't worry, nothing serious, I need to ruin a life of one guy
+ Vortex: Sounds like a fucking serious matter if you ask me
+ Jester: I'll do the main part, you just have to poke around and find some dirt I can use
+ Jester: Or make him dirty in some way
+ Vortex: Who is he?
+ Jester: He is a cop
+ Jester: Not big one, few years back got promoted to detective, was a patrolman before
+ Jester: My detention made him a noble cop of a neighborhood
+ Jester: Packed me up because of a gun selling activity
+ Jester: My partners thought that I gonna snitch on them and tried to cut my throat, unsuccessful though
+ Jester: Not to mention a couple of violent faggots who tried to taste my ass
+ Jester: I was nearly raped and killed, while this pig basked in the glory of all local newspapers and other folks
+ Jester: A man in your position should understand how that need of revenge feels
+ Jester: See? We both have same goal
+ Jester: Help me to revenge this ass-licker and I help you to revenge that cocksucker you are talking about
+ Jester: Sounds good?
+ Vortex: ...
+ Jester: To show that I really can fix your problem, go here "192.94.82.50" and download a .bat file
+ 
+ Jester: !ANNOUNCEMENT! LOCKDOWN SCRIPT ENGAGED @channel
+ Jester: See? wasn't bluffing
+ Jester: But still I must have some bargaining chip
+ Jester: You have to get second part of the Fix to unlock your map
+ Jester: And of course I am more than happy to provide it to you
+ Vortex: But only if I complete your job
+ Jester: Exactly
+ Vortex: I'll see what I can do
+ Jester: Great, I have a few ideas where to dig:
+ Jester: 1) I want his Med File, hope that there is gonna be something interesting
+ Jester: 2) I want his degrees wiped off. So he can be portrayed as an illegitimately-hired person
+ Jester: I'll take the rest, have some contacts around mass media
+ Jester: Well technically not me, a group that I am in
+ Vortex: You have your own team?
+ Jester: Well, it would be correct to say that I am a part of something bigger
+ Jester: We are calling ourselves NightHawks
+ Jester: I will give you our crossroads server address, you can find some useful info there
+ Jester: And I will add some folders regarding our matter
+ Jester: Just look for the Project Oblivion folder, everything will be there
+ Jester: Here you go
+ Jester: !ATTACHMENT:link#%#NightHawks' Crossroads#%#25.187.106.244
+ Jester: !ATTACHMENT:account#%#NightHawks' Crossroads#%#25.187.106.244#%#admin#%#Sl1ckPr3y
+ 
+ -Mission completed-
+ Jester: @Vortex Great Job buddy!
+ Jester: You've got very interesting material
+ Jester: HIV and Syphilis, wow, he is a whore fucker as I can see
+ Jester: While having a wife and two kids, this could work right
+ Jester: Plus he just lost all his academic degrees, am I right?
+ Jester: At least his career is over
+ Jester: And I hope he will blow his own brains in some dirty alleyway soon...
+ Vortex: Are we done?
+ Jester: Sure pal, you just helped towards justice uprise
+ Jester: I'll give you second part of the fix, and...
+ Vortex: ...?
+ Jester: ... Are you interested in joining in?
+ Vortex: NightHawks?
+ Jester: Yeah, we kinda could use your abilities and that log-disguise feature is pretty damn good as I can see
+ Vortex: I have to continue my search and make someone pay
+ Jester: With a few portbreakers? If his is so hard to find and so powerful, I think he will crush you again, no offence
+ Jester: But if you become one of us, we could help each other
+ Jester: You will help with our contracts and we will provide you all intel about your guy
+ Jester: What ya think?
+ Vortex: ...
+ Vortex: Maybe
+ Jester: In any case, I'll activate the fix and there will be access data as well
+ Jester: It will show up on your terminal
+ Jester: Don't think for too long
+ Jester: We will change access details in a few hours
+ Jester: Here is your fix
+ 
+ -Jester has been outplayed-  (branch)
+ Jester: @Vortex How is the progress?
+ Jester: I alredy contacted dirty media, and I still don't have any material I can use
+ Vortex: I am working on it
+ Jester: Work faster, if you keep that slow pace of yours, I can manage it myself
+ Jester: Which makes you not a big help
+ Jester: Meaning there will be no fix for you
+ Vortex: I am doing my best here, forgot that I don't have a working map already?
+ Jester: Ok, just get the job done faster
+ Vortex: On it
+ Jester: Wait, what the fuck?
+ Vortex: ...?
+ Jester: Suddently pigs started to crawl around
+ Vortex: Should you alarm your partners?
+ Jester: Done that already
+ Vortex: Are you sure they are after you?
+ Jester: Could be, after my little experiments
+ Vortex: What experiments?
+ Jester: Fuck, they are smashing doors
+ Jester: I'll activate your fix now, use additional info there and tell Maverick that experiment failed
+ Jester: Now get the hell out of here, you never knew me
+ Jester: !ANNOUNCEMENT! JESTER LOST CONNECTION TO THE SERVER @channel
+ 
+ ---Repulse's path---   (the lines where the difference with the Jester is marked)
+ Vortex: !ANNOUNCEMENT! VORTEX CONNECTED TO THE CHAT @channel
+ Repulse: Greetings mysterious kid-troll, good to have you here
+ Repulse: I suppose you are vacant and looking for some job?
+ Vortex: Something like that
+ Vortex: I have been attacked and now I am trying to recover, find some tools and hunt down that cocksucker, so I can make sure nobody else is going to suffer from him
+ Repulse: How hard have you been hitted?
+ Vortex: I barely have any tools, my node NetMap is corrupted and unusable right now
+ Repulse: What OS are you using?
+ Vortex: Hacknet_OS, bet you are not familiar with it, supposed to be police-exclusive, but I had some experience with cops and know how to get their stuff time to time
+ Vortex: At least before I was crippled by some powerful nutjob
+ Repulse: A lot of hacker groups that I know are already using Hacknet
+ Repulse: Did you get it way before? Like a few months back?
+ Vortex: Yeah, cops didn't know that I was inside their systems, used accounts of some fat guy Paul, a clerk in CyberPolice
+* Repulse: Wow, nice moves man
+ Repulse: I see that you gained access, but I can't see any logs
+* Repulse: Are you using some tools for that? Maybe share?
+ Vortex: It's already in the system, Hacknet exclusive
+* Repulse: I am using Hacknet right now, I don't have anything like that
+ Vortex: Dunno, I read instructions from that clerk's emails
+ Vortex: It said that police copies have that log-disguising function
+ Repulse: How could you operate so close with cops, get police copy of OS way before everyone got regular Hacknet on deepweb, and get fucked from someone, so that you lost your tools and map?
+ Vortex: There is always bigger fish, don't ever get cocky
+* Repulse: Hmm, it's still suspicious to me that you got all that police-exclusive tools, how can I be sure that you are not undercover cop?
+* Vortex: How many undercover cops go to the script kiddies message boards and troll them?
+ Vortex: Or you think that I am undercover federal and was looking for some dangerous cool criminals on that board?
+ Repulse: Fine, sounds reasonable
+ Vortex: So can you help me to recover?
+ Repulse: Well at least I can help you with the map
+ Vortex: Really?
+ Repulse: Not free of course
+ Repulse: Need something done first
+ Repulse: Interested?
+ Vortex: Depends on what you want me to do
+* Repulse: Don't worry, nothing serious, I need to find one guy
+ Vortex: Who is he?
+ Repulse: He is a cop
+* Repulse: Name is Cypher Mendes
+* Repulse: He led the operation of catching my friend named Daedra
+* Repulse: Packed him up because of one job we did
+* Repulse: They were on my back as well but for some reason dropped soon
+* Repulse: Maybe because I didn't participate in the actual hacking
+* Repulse: We got a contract from one lady, who tried to get her sister's Med File
+* Repulse: To prove that she is mentally sane, but her employer wanted to get rid of her because of the greed
+* Repulse: And made a paper forgery
+* Repulse: Lady asked us to recover digital original file that can prove her sister's sanity
+* Repulse: And after that, my best friend gone insane, got arrested and I lost everything
+ Vortex: ...
+ Repulse: To show that I really can fix your problem, go here "192.94.82.50" and download a .bat file
+ 
+ Repulse: !ANNOUNCEMENT! LOCKDOWN SCRIPT ENGAGED @channel
+ Repulse: See? wasn't bluffing
+ Repulse: But still I must have some bargaining chip
+ Repulse: You have to get second part of the Fix to unlock your map
+ Repulse: And of course I am more than happy to provide it to you
+ Vortex: But only if I complete your job
+ Repulse: Exactly
+ Vortex: I'll see what I can do
+* Repulse: Great, I have a few ideas
+* Repulse: I can't find that fucker for a long time, he disappeared after being accused of drug trafficking
+* Repulse: But I found his colleague, name is Javis Williamson
+* Repulse: I want to blackmail him
+* Repulse: So, you need to get his Med File so I can make a forged copy that won't allow him to stay in the police
+* Repulse: And to back it up, wipe his academic degrees
+* Repulse: Meanwhile I will make a very intimidating files about him as well
+* Repulse: And he will help me to find that Mendes guy
+* Vortex: And what if he won't?
+* Repulse: I will make it public, destroying his life
+* Repulse: Just like his boss destroyed me and my friend
+* Repulse: I am a part of a group, we call ourselves NightHawks, if you manage this right, I may introduce you to the group
+* Repulse: If you join us, it will be easier to find your enemy
+* Repulse: I will give you our crossroads server, look for Project Oblivion folder, I will list all details there
+* Repulse: Here you go
+* Repulse: !ATTACHMENT:link#%#NightHawks' Crossroads#%#100.234.234.151
+* Repulse: !ATTACHMENT:account#%#NightHawks' Crossroads#%#100.234.234.151#%#admin#%#Sl1ckPr3y
+ 
+ -Mission completed-
+* Repulse: @Vortex Great, I've got the Med File, can make that guy look like a junkie
+* Repulse: You wiped his degrees?
+* Vortex: Yes, there were three degrees
+* Repulse: Good, I can corner him now
+* Repulse: If he won't tell, I just going to ruin his life
+* Vortex: Why do you think he would know where to find that Cypher guy?
+* Repulse: My sources are saying they were close, maybe even cooperated on that drug business
+* Repulse: I'll just make this world one dirty cop lesser
+* Repulse: So I can't say I am a bad guy
+* Repulse: And thank you for your help, what you've done is really important to me
+* Repulse: And as I said, I will give you the complete fix for the map, and there will be access to NightHawks sa well
+* Repulse: Interested in joining in?
+ Vortex: NightHawks?
+* Repulse: Yeah, we kind of could use your abilities and that log-disguise feature is pretty good as I can see
+ Vortex: I have to continue my search and make someone pay
+ Repulse: With a few portbreakers? If his is so hard to find and so powerful, I think he will crush you again, no offence
+ Repulse: But if you become one of us, we could help each other
+ Repulse: You will help with our contracts and we will provide you all intel about your guy
+* Repulse: What do you think?
+ Vortex: ...
+ Vortex: Maybe
+ Repulse: In any case, I'll activate the fix and there will be access data as well
+ Repulse: It will show up on your terminal
+ Repulse: Don't think for too long
+ Repulse: We will change access details in a few hours
+ Repulse: Here is your fix
+ 
+ -Repulse has been outplayed-  (branch)
+ Repulse: @Vortex How is the progress?
+* Repulse: I alredy made fakes, that can show him off as drug trafficking member, just like Mendes guy
+ Vortex: I am working on it
+ Repulse: Work faster, if you keep that slow pace of yours, I can manage it myself
+ Repulse: Which makes you not a big help
+ Repulse: Meaning there will be no fix for you
+ Vortex: I am doing my best here, forgot that I don't have a working map already?
+* Repulse: Ok, sorry, it's just matters for me too much
+ Vortex: On it
+* Repulse: I can't wait to find Cypher Mendes
+* Vortex: ...
+* Repulse: What?
+* Vortex: Maybe he found you first
+* Repulse: What do you mean?...
+* Vortex: He disappeared after all, maybe he is in a big trouble like you, maybe you could've met him somewhere
+* Vortex: And if he finds out you are looking for him, if he is such a bad cop, he will retailate
+* Repulse: I am prepared for anything
+* Vortex: Anything? Even if he comes with a gun to your house?
+* Repulse: Don't sure about that...
+* Repulse: SHIT, cops trying to break in!
+* Vortex: What? Why?
+* Repulse: IDK, maybe because of my experiments with their servers
+* Repulse: I knew that they would find me sooner or later
+* Repulse: I will activate your fix now, use additional info to find NightHawks' Hub, tell Maverick that experiment failed
+* Repulse: NOW! GO!
+* Repulse: !ANNOUNCEMENT! REPULSE LOST CONNECTION TO THE SERVER @channel
+
+---Joining NightHawks---
+Vortex: !ANNOUNCEMENT! VORTEX JOINED THE SERVER @channel
+Maverick: Greetings Vortex, our external agent confirmed that you deserve a place among us
+Maverick: I am leader of NightHawks, there are five of us total, not counting external agents
+Maverick: Jenkins, our Technical Specialist, he can easily make one computer attack another one without anybody noticing anything
+Jenkins: Sup
+Maverick: Deladello, Social Engineering, utilizes human stupidity better than anyone else
+Deladello: Greetings
+Maverick: Prophet, Coordinator and Cooperative Hacker, helps me to hold everything under control, and if you pair with him, nobody can stop you both
+Prophet: When united - then strong
+Maverick: Slayer, Damage Control, our blast force and sledgehammer in any situation, has access to the hitmen services in special cases
+Slayer: Need anything or anyone broken, you ask me
+Maverick: And me of course, Head of The Operations, Maverick
+Maverick: You are here because you have proven yourself as a resourceful hacker and we need people like you
+Maverick: And my guess is that you want something from us as well
+Vortex: I need to find one hacker
+Maverick: Deladello and Prophet can help you with that
+Maverick: But why I should give them that order?
+Vortex: I can be a part of your team as well, you still need the Covert Operations specialist, someone untrackable, I bet you already know why I am the best candidate
+Maverick: Indeed, your log-disguise is a very interesting phenomenon
+Maverick: We have a few contracts that require delicate approach
+Maverick: While you will be busy with them, Deladello and Prophet will collect info about your guy
+Maverick: Do you accept that deal?
+Vortex: Yes
+Maverick: Boys, help our new member with his personal problem and give his address to our contracts hub agent
+Maverick: Jenkins, Slayer, we have a business to attend to, check "Live Projects" 
+Deladello: What is the nickname of that hacker?
+Vortex: Omicron
+Deladello: We'll start digging, meanwhile you will complete contracts of our clients, first one should be easy
+Prophet: And check this server's files, you can find something useful
+Deladello: Here is your first one
+
+-A part of diolog if Karma is positive-
+Vortex: !ANNOUNCEMENT! VORTEX JOINED THE SERVER @channel
+Jenkins: Who the fuck is that?
+Maverick: How did you get here?
+	Vortex: Jester/Repulse Sent me, he said that experiment failed and cops got to him
+Maverick: So they DID manage to trace him. Fuck
+Maverick: @channel Attention to everyone, DO NOT INTERACT with any Police Servers, they are upgrading their software, one of our external agents has been caught already
+	Vortex: I was assisting Jester/Repulse with his personal matter
+Maverick: If he gave you access data to this server, you are not some stranger
+Maverick: In fact, he told us about you
+Maverick: Vortex, your NetMap was damaged and in the same time you have a unique ability to disguise your logs. And it is true, we can't see you in logs on this server, only that you have admin access, gained through our password
+	Maverick: We will manage Jester's/Repulse's matter, but as far as I can see you are interested in our group, so allow me to properly introduce us
+...
+Maverick: So, what is your motivation?
+...
+
+---After Contract 1---
+Jenkins: @channel Finished with the tools for Dragon Lord Op
+Maverick: Great job, there is a communication task for you, check "Live Projects"
+Maverick: Also, well done @Vortex, your client replied with a satisfaction, you will get next one soon
+Maverick: Keep going everybody
+
+---After Contract 2---
+Slayer: @channel We have a problem
+Maverick: What is it?
+Slayer: A few PIs are investigating our infrastructure, probably work for Lao Zhin
+Maverick: Dispose of them
+Maverick: As violent as possible, so others would know
+Slayer: I contacted Scalpel, they will be quartered
+Maverick: Shuriken Alliance is under attack of someone named Dreadnought, we are on our own
+Maverick: Ok, prepare for the final stage
+Maverick: @Vortex, contract completed, take next one
+
+---Contract 3, contacting Clara---
+Vortex: !ANNOUNCEMENT! VORTEX JOINED THE SERVER @channel
+Clara: Vortex? What a lame
+Vortex: We haven't talked for 2 months and that is how you greet me? Anyway, at least I must be grateful that it is not "I will bust your criminal ass right now"
+Clara: I am really considering it now
+Vortex: Nevermind then. I am really glad to hear from you Clara
+Clara: Cypher... please, explain anything
+Vortex: It was a masterpiece setup. I was hacked by that third hacker, Omicron, he gave me a very simple choice: being caught instantly, or a few days after. I changed IP and fled
+Vortex: Remember that last file I dropped? Drug traffic details? Well, it had a script in it
+Vortex: Giving all kind of access to the Emalio cartel, and placing my tracks all over the place of course
+Clara: You have EnSec, how is that possible that you have been hacked and why I should believe you?
+Vortex: If you remember, guy had EnSec as well, and from what I can see, he is tied with EnTech one way or another
+Vortex: Just think about it, he had moles in DEA and CyberPolice. He knew when we are going to hit him, nothing stops him from injecting his men in EnTech, it is a huge money-thirsty monopolistic corporation
+Clara: Cypher, FBI thinks that YOU were a mole on our side
+Clara: Feds got the DEA guy, he confirmed you were cooperating with cartel
+Vortex: What?
+Clara: And Omicron is dead by the way. Other squad disabled EnSec protocols with the help of EnTech digital enforcers and got inside his systems. He is shot by the cartel members, data leakage was on his Relay Server so they blamed him
+Vortex: No, it can't be, he is alive, he planned all of this, he disposed of the cartel that way, he is still out there and I am looking for him and I feel that I am getting closer
+Clara: Captain, I really want to believe you, you made me see why I should devote myself to help people
+Clara: But on the other hand your name brings me nothing but trouble for the last 2 months
+Vortex: ...
+Vortex: I am sorry Clara
+Vortex: I never wanted to see my friends and family suffering because of me
+Vortex: All this injustice is has to be undone
+Vortex: It is now the only thing that motivates me
+Clara: Justice?
+Clara: Or revenge?
+Vortex: ...
+Clara: When you will find out, then we will talk again
+Vortex: Before you go, I have to ask you something
+Clara: ?
+Vortex: Can you slow down a little bit with your current investigation? I am undercover inside NightHawks group, and I have to complete a contract so they would give me info about Omicron
+Vortex: After that, I can give you them up on a silver platter
+Clara: I am giving you one day. Tomorrow, these Spoofer idiots will be in custody
+Vortex: Thank you Clara. I hope we will make things right together
+Clara: It depends on your actions, Captain...
+Clara: !ANNOUNCEMENT! CHANNEL IS CLOSED @channel
+
+---After Contract 3---
+Maverick: @channel Well done everyone, operation Dragon Lord is complete
+Deladello: Well done guys
+Deladello: How much did you get?
+Jenkins: Quarter of a million
+Deladello: Holy fuck
+Maverick: Everyone involved will get their cut in a few days
+Maverick: How is the progress with Search mission?
+Deladello: Omicron - real name is unknown, seems to be some kind of legend in narrow circles. Presumed dead but I would doubt it, he disappeared several times before and yet came back. Has a large hacking potential, he led a very difficult operations, even fucked with FBI
+Prophet: His last job was to help drug cartel with FBI interfierence, something gone wrong and cops find out about everything, got to Omicron's moles and later on Feds got the cartel. Meantime, Omicron was shot by cartel's killers for that fuck up, but I used similar maneuver before, I think he just layed low for a while, we keep digging deeper
+Maverick: Ok, keep going, Jenkins will help you
+Maverick: @Vortex, you can see that we are doing our part here. Same as you as I can see, your client accepted your results
+Maverick: Take next contract
+
+---After Contract 4---
+Maverick: @channel Report everyone
+Deladello: Me and Prophet found some clues with Jenkins' help
+Slayer: Done my personal matter, but in a bit more bloody manner than I thought
+Maverick: Good. @Vortex I just got another contract confirmation. Your performance is great, I think there is only one contract left actually
+Maverick: Take it
+
+---Hospital Mission Start---
+Deladello: @channel we've got something really interesting
+Maverick: What is it?
+Deladello: A solid lead on Omicron, and that is useful to whole group
+Deladello: Thing is, he is preparing for something big, he searches for potential partners for some big time job
+Deladello: And paying is going to be a lot more generous than Operation Dragon Lord
+Maverick: A whole million?
+Deladello: Exactly, and believe me, he is not messing around
+Maverick: Can you contact him?
+Jenkins: From what I can see, no. We need to attract his attention
+Maverick: We need a big and controversial job to do. I will make a few calls and in the meantime, can someone explain to Vortex one obvious thing?
+Deladello: Ah, sure. @Vortex, you need to understand something. Our deal was about finding him, not to go against him. I know you have some sort of personal vendetta with him, but you need to cooldown. If he will approach us with a business proposition, then we will take it. And if you refuse to cooperate, you will be dealing with us as enemies
+Deladello: Am I making all things clear to you?
+Vortex: ...
+Vortex: After all your business with him is done, you won't get in my way
+Deladello: Unless he pays for protection
+Maverick: All right. I have a job for us, win-win situation. Operation Venomous Snake
+Maverick: Client wants to extort one medical facility and we need to upload some ransomware
+Maverick: Our main targets are life support units. We need to place ransomware that can deactivate them
+Maverick: So as I said, it will be win-win situation. We either will get money and some attention, or a lot of notoriety for killing 50-60 people
+Deladello: That will help us to get new clients and maybe even make Omicron to notice us. Man, can't stop thinking about that million $ he can offer
+Maverick: One step at a time. First, we need an actual ransomware
+Jenkins: Nearly finished it, what sum I need to input?
+Maverick: Make it 75 grand for each unit
+Jenkins: Got it
+Maverick: @Vortex, you will participate as well. As a Covert Specialist and a smart guy in general, you will need to attack 5 units, that are best protected and out of reach for now
+Maverick: Others will attack main complex
+Maverick: @channel I'll send details via email. Good luck, gentlemen
+
+---During Mission---
+Jenkins: @channel You can find decipher executable in /bin folder of the DECSuite Deploy Server. You should know the password for provided files
+Prophet: I think Vortex doesn't know
+Jenkins: Ah shit. It will be easier for me to decipher his part myself
+Jenkins: @Vortex, I deciphered your entry points, they are in file number 2
+Jenkins: @channel Also, you can get ransomware .bat file from our crossroads server in appropriate folder
+
+Maverick: @channel, what's the status?
+Deladello: Got access to mainframe
+Prophet: Deployed 25 files
+Maverick: Keep going everybody
+
+Deladello: @channel I have a problem with passworded .dec files
+Maverick: Jenkins, can we solve this problem?
+Jenkins: Hmm, theoretically yes. They are using automatic decipher procedure, and if encrypted file is in locked mode, they most probably need a plaintexted password on a source of encryption
+Maverick: Can you make some kind of a tool?
+Jenkins: Yep, header reader tool can show you source IP. I am placing it in our stash at this server
+Deladello: Thanks. It should help
+
+Deladello: @Jenkins, we have a problem with ports
+Jenkins: Let me guess, SQL?
+Deladello: No, 104
+Jenkins: Ah. Well I think I've seen a breaker somewhere on Kellis servers
+Jenkins: @channel I've uploaded a few portbreakers in our stash. One should work for 104 (Medical) and other is for 1433 (SQL)
+Maverick: Well done Jenkins, that should help us
+
+Deladello: @Maverick, can we trust our client on this one?
+Maverick: Yeah, he can't go back at this point, he is interested in this job in a political approach
+Deladello: Got it
+
+-Clara's Branch-
+Clara: !ANNOUNCEMENT! CHANNEL IS ACTIVE @channel
+Clara: This guy wants you to attack NLH hospital? With some kind of a ransomware if I am seeing things right?
+Vortex: Yes, NightHawks are moving in right now, and they want to plant ransomware on life support units. They assigned me to the most difficult ones
+Clara: They want to use ransomware to extort NLH hospital? For 75 grand each unit?
+Vortex: Exactly
+Clara: That hospital doesn't have so much money, they recently paid to Kellis BioTech for new equipment
+Vortex: Then everybody who is connected to life support units will die. NightHawks want to become a famous group and enter high league of hackers so they won't hesitate
+Clara: What a fucking morons
+Vortex: I know that already Clara, can we do something about that??
+Clara: For fuck sake, I am thinking!
+Clara: Ok, I have a somewhat of a plan
+Vortex: I am all ears
+Clara: I will contact NLH security and warn them about attack but of course they won't make any sudden moves
+Clara: Also I will reverse-engineer that .bat file and will send them a security patch. Life support units won't be in danger of deactivation and your buddies will think that everything is fine and working as it should be, except that they can't actually kill anyone
+Clara: It will look like a mistake of someone who made that ransomware, your group won't suspect you
+Vortex: And I assume that I must continue executing my part of operation?
+Clara: Yes. Do what they said you to do
+Clara: People won't die, so make it look like you did your job right, and the guy who made .bat file will look faulty
+Vortex: Ok, I will resume the operation, but what about the client?
+Clara: Enforcers are ready to move out at his location as soon as people at the hospital would be safe
+Vortex: Got it. Thank you Clara. You just saved a lot of people. But we have another problem. I was right, Omicron is back, check all available information, scan all your sources, we need to get to him, he is preparing for some kind of operation or attack
+Clara: I still think that is a nonsense, Captain, but I will check it out
+Vortex: Thanks again
+Clara: Now go, complete that operation of your lunatic friends
+Vortex: I won't befriend with some neo-nazi scum
+Clara: Good. I will be in touch
+Clara: !ANNOUNCEMENT! CHANNEL IS CLOSED @channel
+
+-----Hospital branches-----
+
+---Mission Completed---
+Maverick: @channel, My scanner shows that 58 ransom files are active, well done everybody, I think we've bombed the whole place
+Jenkins: Yeah, that's supposed to be all of them
+Deladello: Now what do we do?
+Maverick: We'll wait. I notified the client. Waiting for further instructions
+Vortex: Will that attract Omicron?
+Maverick: Most probably
+Maverick: We can kill them all right now if you want to attract everybody's attention, including Omicron
+Vortex: I didn't say I want to kill those people
+Maverick: And that is why you placed ransomware to extort a hospital. You have a pretty bendable morality, Vortex
+Maverick: But it would be better if you hadn't got it at all, it makes you weak
+Maverick: You want to win over Omicron? You've got to be strong, no remorse and second thoughts
+Maverick: Don't let anyone stop you on your path
+Maverick: That is our group's philosophy. And that is exact reason why we have such power and connections. We decide fate of people, would they live or die. Fear is our weapon. You can't scare a person with big words, you have to act
+Maverick: I bet Omicron knows that. He plays on the same rules
+Maverick: You want to find and fight him? Then prove that you've got balls!
+
+(Flag-depended answers)
+-Jester/Repulse has been outplayed-
+Vortex: How? What the fuck is your problem??
+Vortex: I've done my part perfectly, what else do you need?
+Maverick: You are so pathetic now. I thought you've got something inside to be superior among others
+Maverick: Perhaps I was wrong
+Vortex: Wrong about what? What did you portrayed out of me? A killer? You have Slayer for that, I am a hacker, and I've done my part here
+Vortex: What do you want me to say? "Please kill those innocent sick people so I can talk to a motherfucker who ruined my life", - is that it?
+Maverick: As you wish...
+Maverick: !ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel
+Vortex: Wha.. What the fuck man??
+Vortex: ARE YOU MENTALLY CHALLENGED? I DIDN'T ASK FOR THAT!
+Maverick: You should've. You can thank me later
+Maverick: I suggest you to think about results that you will achieve, instead of means that was actually necessary
+Maverick: @Deladello, scan all mass media about what we've done, I want every single person in California to know what happened
+Deladello: Sure thing
+Vortex: @Deladello, what the fuck is wrong with you people? I thought you wanted money. Your client isn't even replied yet!
+Deladello: We may seem like a bloodthirsty group, but in fact only Slayer is like that. And you are right, we are into this because of money. We would've get 4 350 000 dollars tops out of Operation Venomous Snake. The announcement of Omicron says that he is paying a million
+Vortex: I don't see any logic, it is less profitable. I still cannot understand why we just murdered 58 people!
+Deladello: Million dollars EACH. Meaning 6 000 000 dollars to the whole group. Including you
+Maverick: But you will participate only if you accept our rules. If you forgot how we do things around here, check out Oath file on our crossroads server once again
+Maverick: Nice! I contacted client, he already saw the news, and he is more than happy actually
+Maverick: Apperantly he can lobe his medical project now
+Deladello: Great, I hope we can benefit from it as well
+Jenkins: @channel Are we done? I want to share some experience
+Jenkins: I've got like California's biggest burger on my plate and I think
+NOTIFICATION:
+!ANNOUNCEMENT! MAVERICK IS MUTED @channel
+!ANNOUNCEMENT! PROPHET IS MUTED @channel
+!ANNOUNCEMENT! JENKINS IS MUTED @channel
+!ANNOUNCEMENT! SLAYER IS MUTED @channel
+!ANNOUNCEMENT! DELADELLO IS MUTED @channel
+
+-Jester's/Repulse's mission completed-
+Vortex: My vengeance is the only thing that can justify what are we doing because this man has done something more horrible to my life, better if he killed me
+Maverick: That was his mistake. Because now you are stronger
+Vortex: Yeah. And I know what I want
+Vortex: But does it really require so many deaths?
+Maverick: You are doubting your main purpose?
+Vortex: ...
+Vortex: No, I made my mind
+Vortex: Those 58 people are dying anyway, I just ease their pain and meet my ultimate enemy
+Maverick: That's the spirit
+Maverick: !ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel
+Maverick: @Deladello, scan all mass media about what we've done, I want every single person in California to know what happened
+Deladello: Sure thing
+Vortex: Is it really that easy to take someone's life?
+Maverick: If you know where that action will take you
+Deladello: We made this week's top news, lads
+Maverick: Nice! I contacted client, he already saw the news, and he is more than happy actually
+Maverick: Apperantly he can lobe his medical project now
+Deladello: Great, I hope we can benefit from it as well
+Jenkins: So what's next?
+Maverick: We are now notorious hackers, gentlemen
+Maverick: And I can see a lot of opportunities ahead of us
+Deladello: I hope we will get some kind of contact from
+NOTIFICATION:
+!ANNOUNCEMENT! MAVERICK IS MUTED @channel
+!ANNOUNCEMENT! PROPHET IS MUTED @channel
+!ANNOUNCEMENT! JENKINS IS MUTED @channel
+!ANNOUNCEMENT! SLAYER IS MUTED @channel
+!ANNOUNCEMENT! DELADELLO IS MUTED @channel
+
+-Jester's/Repulse's Scum Route (willing mission completion after branch discovery)-
+Vortex: You doubt my motivation?
+Vortex: I know that I have to make sacrifices to achieve my goals
+Vortex: I will find that cocksucker no matter what
+Vortex: So go ahead and push that fucking button
+Deladello: Whoa
+Vortex: If that makes Omicron to get out of the shadows, then all of this is worth it
+Maverick: I have no doubts now
+Maverick: !ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel
+Maverick: @Deladello, scan all mass media about what we've done, I want every single person in California to know what happened
+Deladello: Sure thing
+Vortex: What kind of business are you planing with Omicron?
+Prophet: He is in a major league. At least he was. He can teach us how to strike FBI and get away with it. All his operations would be very big at this point
+Deladello: We made this week's top news, lads
+Maverick: Nice! I contacted client, he already saw the news, and he is more than happy actually
+Maverick: Apperantly he can lobe his medical project now
+Deladello: Great, I hope we can benefit from it as well
+Jenkins: So what's next?
+Maverick: We are now notorious hackers, gentlemen
+Maverick: And I can see a lot of opportunities ahead of us
+Deladello: I hope we will get some kind of contact from
+NOTIFICATION:
+!ANNOUNCEMENT! MAVERICK IS MUTED @channel
+!ANNOUNCEMENT! PROPHET IS MUTED @channel
+!ANNOUNCEMENT! JENKINS IS MUTED @channel
+!ANNOUNCEMENT! SLAYER IS MUTED @channel
+!ANNOUNCEMENT! DELADELLO IS MUTED @channel
+
+---Hospital Scum Route---
+Maverick: @channel, My scanner shows that 58 ransom files are active, well done everybody, I think we've bombed the whole place
+Jenkins: Yeah, that's supposed to be all of them
+Deladello: Now what do we do?
+Maverick: We'll wait. I notified the client. Waiting for further instructions
+Vortex: Will that attract Omicron?
+Maverick: Most probably
+Maverick: We can kill them all right now if you want to attract everybody's attention, including Omicron
+Vortex: Then do it
+Maverick: Whoa, we still may get some cash out of them first
+Vortex: You said that Omicron pays generous, you need him as much as I do. Kill them
+Slayer: I am interested in seeing that Omicron guy as well so why the fuck not?
+Maverick: Anybody else wants to support Vortex's initiative?
+Deladello: I am curious about a partnership with a legend
+Jenkins: I heard he got some beautiful tools and programs extracted directly from EnTech archives
+Maverick: Prophet? What is your opinion?
+Prophet: He is in a major league. At least he was. He can teach us how to strike FBI and get away with it. So I am voting for Vortex
+Maverick: Then the decision is made
+Maverick: !ANNOUNCEMENT! HaHaTrap SCRIPT ACTIVATED @channel
+Maverick: @Deladello, scan all mass media about what we've done, I want every single person in California to know what happened
+Deladello: Sure thing
+Deladello: We made this week's top news, lads
+Maverick: Nice! I contacted client, he already saw the news, and he is more than happy actually
+Maverick: Apperantly he can lobe his medical project now
+Deladello: Great, I hope we can benefit from it as well
+Jenkins: So what's next?
+Maverick: We are now notorious hackers, gentlemen
+Maverick: And I can see a lot of opportunities ahead of us
+Deladello: I hope we will get some kind of contact from
+NOTIFICATION:
+!ANNOUNCEMENT! MAVERICK IS MUTED @channel
+!ANNOUNCEMENT! PROPHET IS MUTED @channel
+!ANNOUNCEMENT! JENKINS IS MUTED @channel
+!ANNOUNCEMENT! SLAYER IS MUTED @channel
+!ANNOUNCEMENT! DELADELLO IS MUTED @channel
+
+---Best Outcome---
+Maverick: @channel, My scanner shows that 58 ransom files are active, well done everybody, I think we've bombed the whole place
+Jenkins: Yeah, that's supposed to be all of them
+Deladello: Now what do we do?
+Maverick: We'll wait. I notified the client. Waiting for further instructions
+Vortex: Will that attract Omicron?
+Maverick: Most probably
+Maverick: We can kill them all right now if you want to attract everybody's attention, including Omicron
+Vortex: Then do it
+Maverick: Whoa, we still may get some cash out of them first
+Vortex: You said that Omicron pays generous, you need him as much as I do. Kill them
+Slayer: I am interested in seeing that Omicron guy as well so why the fuck not?
+Maverick: Anybody else wants to support Vortex's initiative?
+Deladello: I am curious about a partnership with a legend
+Jenkins: I heard he got some beautiful tools and programs extracted directly from EnTech archives
+Maverick: Prophet? What is your opinion?
+Prophet: He is in a major league. At least he was. He can teach us how to strike FBI and get away with it. So I am voting for Vortex
+Maverick: Then the decision is made
+Maverick: !ANNOUNCEMENT! NullException_@Q#$%NLH#$%, HaHaTrap CANNOT EXECUTE @channel
+Maverick: What the fuck is this?
+Jenkins: IDK, everything is supposed to work
+Maverick: I figured it out myself. But guess what?
+Maverick: IT IS NOT WORKING
+Jenkins: I am doublechecking everything
+Deladello: I don't see any activity of a medical staff, they don't know about us
+Jenkins: FUCK. I didn't input one of the security protocols
+Maverick: Can you fix it?
+Jenkins: I, I don't understand, they all have a unique token cycling procedure, I am pretty sure it wasn't there
+Maverick: Can you make a new .bat?
+Jenkins: No, it is a completly different procces, I can't even make an automated .bat, only .exe with manual activation, we would barelly deactivate 4-5 units and then they will notice us and cut the remote access
+Maverick: How didn't you notice that in a first place??
+Jenkins: I am sure it was a different process
+Maverick: You think we were compromised and they changed security?
+Deladello: No, in that case they would've whitelisted the whole place, they are not aware of us
+Maverick: So it is a technical mistake
+Deladello: Yeah, at least I think so
+Maverick: So
+Maverick: Operation failed?
+Jenkins: Because of me apparently
+Maverick: We are working together for a whole year. But you know the rules, and you've made a major fuck up
+Jenkins: I understand
+Maverick: Vortex proved his abilities, and I think he can take your place now. He is stronger, and he has done his part perfectly
+Maverick: And you know there is no place for weak in here
+Maverick: I won't send Slayer after you. But you better forget about us and our existence
+Maverick: Despite our failure, I want to congratulate Vortex as our new technical specialist
+Deladello: Great job man!
+Prophet: Well done!
+Slayer: Congrats
+NOTIFICATION:
+!ANNOUNCEMENT! MAVERICK IS MUTED @channel
+!ANNOUNCEMENT! PROPHET IS MUTED @channel
+!ANNOUNCEMENT! JENKINS IS MUTED @channel
+!ANNOUNCEMENT! SLAYER IS MUTED @channel
+!ANNOUNCEMENT! DELADELLO IS MUTED @channel
+
+---Omicron Enters, branch is not finished, +1 Karma---
+Omicron: Hello
+Omicron: Cypher
+Omicron: Or
+Omicron: Should
+Omicron: I
+Omicron: Call
+Omicron: You
+Omicron: Vortex
+Omicron: Now?
+Omicron: Quite
+Omicron: A comeback
+Omicron: You've
+Omicron: Made
+Omicron: I
+Omicron: Thought
+Omicron: You
+Omicron: Were
+Omicron: A good
+Omicron: Cop
+Omicron: But I
+Omicron: Can't
+Omicron: Remember
+Omicron: A single
+Omicron: Good
+Omicron: Policeman
+Omicron: Who participated in a murdering
+Omicron: Of 58 people
+Omicron: I know we have a little unfinished business between us
+Omicron: But let's leave our main course for the better times
+Omicron: And you would kindly introduce me to your little bird-friends
+Omicron: Oh, and sorry for inconvenience but they can't hear me
+Omicron: Only you have my backdoor in your system
+Omicron: So I am afraid you as well won't be able to hear my beautiful
+Omicron: Distorted
+Omicron: Voice
+Omicron: But not for long...
+
+---Omicron Enters, branch is not finished, -1 Karma---
+Omicron: Hello
+Omicron: Cypher
+Omicron: Or
+Omicron: Should
+Omicron: I
+Omicron: Call
+Omicron: You
+Omicron: Vortex
+Omicron: Now?
+Omicron: What
+Omicron: An awful
+Omicron: Thing
+Omicron: You
+Omicron: Just
+Omicron: Did...
+Omicron: Murdering
+Omicron: 58 people...
+Omicron: Just
+Omicron: To
+Omicron: Get
+Omicron: To
+Omicron: Me?
+Omicron: It's interesting to watch how your conscience is fading away
+Omicron: I know we have a little unfinished business between us
+Omicron: But let's leave our main course for the better times
+Omicron: And you would kindly introduce me to your little bird-friends
+Omicron: Oh, and sorry for inconvenience but they can't hear me
+Omicron: Only you have my backdoor in your system
+Omicron: So I am afraid you as well won't be able to hear my beautiful
+Omicron: Distorted
+Omicron: Voice
+Omicron: But not for long...
+
+---Omicron Enters, branch is finished---
+Omicron: You...
+Omicron: Cypher
+Omicron: Vortex
+Omicron: Whatever you want to call yourself
+Omicron: Do you
+Omicron: Really
+Omicron: Think
+Omicron: That I won't react to the fact
+Omicron: That one of my agents
+Omicron: Was detained by San-Francisco CyberPolice Department?
+Omicron: And by pure coincidence
+Omicron: The group that took his contract failed as well
+Omicron: Despite the fact that all members are professionals
+Omicron: Do You think that you outplayed everyone?
+Omicron: Do You think that you are the best undecover cop?
+Omicron: Then I have to break all your illusions
+Omicron: Few days back
+Omicron: I told Malber to make Never Loose Hope Hospital
+Omicron: A place
+Omicron: Where people won't feel safe
+Omicron: And would fear that death may come at any moment
+Omicron: This
+Omicron: Place
+Omicron: Is making me to remember something from my past
+Omicron: Something that I want to forget
+Omicron: It is
+Omicron: A personal
+Omicron: Matter
+Omicron: I won't ask some random punks about that favour
+Omicron: Malber is one of the few
+Omicron: Who really knows me
+Omicron: And here you are
+Omicron: Condemned Police Captain
+Omicron: That seeks justice
+Omicron: Hiding among the filth he was fighting against
+Omicron: RUINING SOMETHING
+Omicron: THAT IS REALLY IMPORTANT TO ME!
+Omicron: But what really makes me furious
+Omicron: Is that you think
+Omicron: That you can remain saint in your actions
+Omicron: You think that I don't know about that girlfriend of yours?
+Omicron: Then
+Omicron: It is right time to open your cards
+Omicron: Let's ask your NightHawks buddies
+Omicron: What they think about your
+Omicron: Previous place of occupation?
+
+---After Omicron's appearance, branch is not finished---
+Maverick: What the actual fuck?
+Omicron: Greetings to all of you, humble people
+Omicron: I think there is no need to introduce myself
+Omicron: Saw your recent job, quite a shock to everybody
+Omicron: I like your style!
+Maverick: We indeed expected a contact from you, but in a bit different way
+Omicron: Like what? Email?
+Omicron: I thought people recognize me for an unusual approach to different stuff
+Deladello: It is quite unusual
+Jenkins: What are you operating with? How's that possible?
+Omicron: Whoa whoa, people. I don't know you, so many new names
+Omicron: I was hoping my old friend @Vortex would introduce you to me
+Vortex: Fuck
+Vortex: you
+Omicron: Oww, no need to be so rude
+Omicron: You're alive after all
+Omicron: I think we should just move on from past and look straight into the bright future
+Vortex: You can shove that bright future in your ass
+Omicron: Duly noted
+Omicron: Anyway, I thought that I am here to see some professionals who killed 58 people in a hospital and got away with it
+Omicron: And in the same time made their names in California Prime News
+Maverick: Yes, we are people of the business of course
+Omicron: One of your operatives seems to be hostile and irrational towards our partnership
+Maverick: He will be eliminated immediately if you require that
+Omicron: No
+Omicron: I have some plans on him
+Maverick: Let me introduce our group
+Omicron: Noooo. I think I made quite clear statement, that I want Vortex to introduce your group
+Omicron: If he won't do that, there is no business between us
+Maverick: @Vortex, please, cast off your pride and introduce NightHawks properly
+Vortex: What if I refuse?
+Maverick: Then you have to speak with Slayer in person
+Maverick: And that won't be a long conversation
+Maverick: Think straight for a moment. You want to revenge? Do it smart, not bold and stupid
+Omicron: You should listen what that man says
+Omicron: I am guaranteeing that I will give you my full attention if you just introduce your friends
+Omicron: Nothing more
+Omicron: It is not so hard
+Vortex: I am sure you know everything about them already
+Vortex: So you can quit that clownade, and we will talk face to face
+Omicron: I am assuming you are calling me a clown?
+Vortex: Exactly
+Omicron: Hmm. I don't like to work with people who insult me
+Omicron: So maybe I should go and look for someone more suitable...
+Maverick: No, we are sorry for this misunderstanding
+Deladello: I think Vortex meant that you've probably collected all info about us already, there is no need to be so easily offended, sir
+Jenkins: Yes, just a stupid joke, he just had a rough day
+Vortex: I had a rough 2 months to be precise
+Vortex: And that man is the main reason for it
+Omicron: You want to get to me? Pay some respect and act like a gentleman
+Omicron: You are professional after all
+Vortex: Fine
+Vortex: Maverick, main dickhead of that little digital dumpster
+Vortex: Jenkins, little bitch that handles scripts and tools
+Vortex: Deladello, pseudo psychologist who thinks that being cynical 24/7 is cool
+Vortex: Slayer, an absolute crazy motherfucker who enjoys killing sprees
+Vortex: And last one, Prophet, don't know anything about him, he is just some quite guy
+Vortex: Are you happy now, piece of shit?
+Omicron: Not entirely a gentleman type of introduction, but hey, I will take it
+Omicron: Okay lads, I think you shouldn't be angry at him, he is in a really bad shape to be honest
+Omicron: Two months back he was a Police Captain after all
+Maverick: WHAT?
+Omicron: He was obedient man of the law
+Omicron: And now he helps you to murder 58 people
+Omicron: So if I were you, I would give him some credit
+Omicron: His real name is Cypher Mendes
+Omicron: I bet you all read the news about him 2 months back
+Deladello: A cop who worked with drug cartel?
+Omicron: Exactly
+Omicron: And now he wants to get to me for that little prank
+Vortex: You destroyed my life, crippled me, made me a murderer, and now making fun of me
+Vortex: I will kill you
+Omicron: That's not something a policeman would say, Cypher
+Omicron: But I will give you that opportunity
+Omicron: You just must have enough motivation and guts to do that
+Omicron: @channel I have a job to all of you
+Omicron: We are going to hit an FBI Database and all of you would have an opportunity to wipe of all your personal data and start a new life
+Omicron: But you need tools for that
+Omicron: Luckily, Vortex knows an address of a Police Asset server
+Omicron: But in case of his bad memory, I'll drop a link here
+Omicron: !ATTACHMENT:link#%#Asset Server#%#90.91.183.142
+Omicron: @channel But as you can see, it is protected with advanced EnTech security protocols
+Omicron: I have a special tool to break EnSec, but we can't breach whitelist yet
+Omicron: I know a place where we can get what we need
+Omicron: But to make it more interesting, Vortex will be leading this operation
+Omicron: I will upload a .dll that helps to break EnSec to Vortex's PC, and then you can attack an archive of EnTech that contains whitelist breach tools
+Omicron: Vortex can give that .dll to NightHawks, by uploading it in /home folder of this server, or he can unite with his girlfriend that he secretly contacted recently
+Maverick: What girlfriend?
+Omicron: On one of your contracts that you gave to Vortex, he made a contact with someone named Clara
+Omicron: Apparently, she is an ex-colleague of Vortex
+Maverick: Mothefucker
+Omicron: So, @Vortex, you have a pretty simple choice: upload .dll file to this server's /home folder if you want to unite with NightHawks, and I promise we will settle our matter right after and nobody will disturb us
+Omicron: Alternatively, you can send it to Clara's Workstation's /home folder and unite with her, if you think you still have some morality. But I am warning you, NightHawks will attack you both, and you may not see me ever again
+Omicron: You can't use this .dll youself, you need a partner who can make a valid .exe
+Omicron: So...
+Omicron: Choose wisely
+
+---After Omicron's appearance, branch is finished---
+Maverick: What the actual fuck?
+Omicron: Greetings to all of you, humble people
+Omicron: I think there is no need to introduce myself
+Maverick: I am honored to have you here, but how exactly did you find us?
+Omicron: Trade secret
+Omicron: You took a contract recently
+Omicron: Something about hitting a hospital if I remember correctly
+Omicron: Well, your client was my agent, and he got detained
+Omicron: And that fact really concerns me
+Maverick: We are sorry to hear that, but we can offer our services to find the one who gave out your agent to the cops
+Omicron: Oh, thank you guys
+Omicron: But I am afraid I know already who it is
+Omicron: To be precise , it is one of your operatives
+Maverick: I would doubt that
+Omicron: Oh really? What do you know about Vortex?
+Maverick: He joined us recently and makes the job done. He proved himself a capable operative. Is there something we don't know?
+Omicron: Would it be a news to you that he is an undercover cop?
+Maverick: He've done quite well on many of our missions, and they were successful, not including last one
+Omicron: I wouldn't judge Jenkins so hard on his mistake
+Omicron: Because there is no mistake at all
+Jenkins: What do you mean?
+Omicron: Vortex notified a Police detective about your attack
+Omicron: And hospital was ready for you, changed security protocols in a stealthy manner
+Omicron: So nobody would suspect a little rat among you
+Maverick: This changes everything
+Slayer: Then I suppose I am packing my tools and going for a tet-a-tet with Vortex?
+Omicron: No
+Omicron: I have plans on him
+Vortex: I think my plans are a little bit different from yours
+Vortex: To lock you up in a cell for the rest of your life and clear my name
+Omicron: His real name is Cypher Mendes
+Omicron: Rings any bells?
+Deladello: It is that cop, who fled CyberPolice after the FBI discovered his connections with drug cartel?
+Omicron: Exactly
+Omicron: Now he wants to bring justice to me and clear his name, because I set him up
+Omicron: But I want to show him that there is always something you must sacrifise
+Omicron: And so, I have a contract for NightHawks
+Omicron: Kill Clara Gilmore, the detective of San-Francisco CyberPolice Department
+Vortex: NO!
+Vortex: DON'T YOU DARE TO DRAG HER IN
+Omicron: Excuse me?
+Omicron: But it is you who dragged her in that dangerous case and made her to dig under me
+Omicron: She is a clever girl, but I am always one step ahead
+Omicron: So, I can provide her location to NightHawks right now
+Slayer: I am ready, 125k for a detective job
+Omicron: It is sold then!
+Vortex: WAIT!
+Omicron: What is it, Cypher?
+Vortex: DON'T kill her, let it be me
+Omicron: Self sacrifice? Hmm, I can respect that
+Vortex: And after I am done with the Slayer, I will come to you
+Vortex: It is our matter
+Vortex: Don't involve anyone else
+Omicron: Hmm...
+Omicron: Ok, change of plans
+Omicron: @channel I have a job to all of you
+Omicron: We are going to hit an FBI Database and all of you would have an opportunity to wipe of all your personal data and start a new life
+Omicron: But you need tools for that
+Omicron: Luckily, Vortex knows an address of a Police Asset server
+Omicron: But in case of his bad memory, I'll drop a link here
+Omicron: !ATTACHMENT:link#%#Asset Server#%#90.91.183.142
+Omicron: @channel But as you can see, it is protected with advanced EnTech security protocols
+Omicron: I have a special tool to break EnSec, but we can't breach whitelist yet
+Omicron: I know a place where we can get what we need
+Omicron: But to make it more interesting, Vortex will be leading this operation
+Omicron: I will upload a .dll that helps to break EnSec to Vortex's PC, and then you can attack an archive of EnTech that contains whitelist breach tools
+Omicron: Vortex can give that .dll to NightHawks, by uploading it in /home folder of this server, or he can unite with his girlfriend against me
+Omicron: So, @Vortex, you have a pretty simple choice: upload .dll file to this server's /home folder if you want to unite with NightHawks, and I promise Clara won't be harmed and we would settle our matter
+Omicron: Alternatively, you can send it to Clara's Workstation's /home folder and unite with her. But I am warning you, NightHawks will attack you both, and you may not see me ever again
+Omicron: You can't use this .dll youself, you need a partner who can make a valid .exe
+Omicron: So...
+Omicron: Choose wisely
+
+
+===Act 3===
+---NightHawks path---
+Omicron: @Vortex, looks like you made a decision
+Omicron: @channel, Vortex stays with us!
+Omicron: I think he deserves a pardon for all of his previous misconducts
+Omicron: So, Jenkins, I assume now you can prepare us a fresh .exe file with unstopable power of breaking EnSec
+Jenkins: On it, sir
+Omicron: In the mean time, let me explain to all of you what is our mission's goal
+Omicron: I managed to scout EnTech for a bit, and found some really messy vulnerabilities
+Omicron: So that's how I got EnSec breaker, or EnBreak
+Omicron: Somewhere there as well should be whitelist files that we need
+Omicron: You have to scan everything around there and find these specific files: Token file, SecCore.dll, and any dump files you can find
+Jenkins: EnBreak.exe is ready
+Omicron: Great
+Omicron: Now, upload it onto this server so everybody can have it
+Jenkins: Done
+Omicron: While you have that .exe, it will be automaticly run when you connect to the EnSec protected server
+Omicron: Note, that it won't react to the older versions, so it is not universal
+Omicron: Now, I hope Jenkins extracted our entry point
+Omicron: Once you have EnBreak.exe on your computer, try to get access to EnTech network and get me specific files
+Omicron: I'll leave a note if you forget
+Omicron: !ATTACHMENT:note#%#File Names#%#Token file,SecCore.dll,any dump files
+Omicron: Upload them on this server's /home folder, so I could get them
+Maverick: Got it. Well Jenkins, where is our entry point?
+Jenkins: Looking for it
+Maverick: @Vortex, on Omicron's request, you will lead the operation
+Maverick: I know that our relations are at a very fragile state now
+Maverick: But let's see this through a business point of perspective
+Maverick: You will get tools to fight Omicron, we will get tools for our future business
+Maverick: Win-win situation
+Maverick: Prophet will assist you with any portbraeking issues you could possibly have, he has personal tool collection
+Prophet: I can spectate you through .dll that you dropped us, so if there is any problem with ports, I will help
+Jenkins: Here is the entry point
+Jenkins: !ATTACHMENT:link#%#EnTech Side Server#%#27.113.216.249
+
+-During Mission-
+Prophet: Transfer port is ready, SSL is next
+Prophet: One down, one to go
+Prophet: Halfway done, open the Default 21,22,25,80
+
+-After hacking 3 nodes-
+Omicron: @channel, Well done everybody
+Omicron: Now I can make some juicy piece of software out of this
+Maverick: What we will find on that Asset server?
+Omicron: Something beautiful
+Omicron: Yes, it is ready
+Omicron: Gentlemen, I invite you to join me and upgrade your stash
+Omicron: But before we break a wall, I think that we all should thank Vortex for his resourcefulness!
+Vortex: Cut the crap
+Omicron: Ooookaaay
+Omicron: I think it is a right time to settle our matter
+Omicron: Get all possible tools from your previous home base and we can have our epic final battle
+Omicron: Oh, and of course I am asking NightHawks to loot that place as well
+Omicron: And destroy everything there after my command
+Omicron: Opening access in 5...
+Omicron: 4...
+Omicron: 3...
+Omicron: 2...
+Omicron: 1...
+Omicron: @channel, go and take everything from there!
+Omicron: !ATTACHMENT:link#%#Asset Server#%#90.91.183.142
+
+-After getting tools-
+Omicron: @channel, Okay people
+Omicron: Destroy that place and all connected servers
+Omicron: It is time when we can fight back not just police, but Feds as well!
+Maverick: Yes! Finally we have power that we supposed to have
+Jenkins: Nothing will stop us right now!
+Omicron: Yes, that's right
+Omicron: Enjoy your power and prove to everyone that you are unstoppable!
+Maverick: Yes!
+Jenkins: That's right!
+Slayer: Yeah!
+
+---Clara Path---
+Omicron: @Vortex, looks like you made a decision
+Omicron: @channel, Alright folks, I think Vortex is not willing to cooperate with you anymore
+Omicron: I guess he doesn't want to give you all advanced portbreakers and will try to take everything for him and his girlfriend to fight me
+Omicron: That means, I am hiring NightHawks to attack these loverbirds
+Omicron: Good luck Vortex
+Omicron: You are going to need it...
+!ANNOUNCEMENT! VORTEX HAS BEEN RESTRICTED FROM CHAT @channel
+
+!ANNOUNCEMENT! CHANNEL IS ACTIVE @channel
+Clara: What have you sent me just now?
+Clara: I am kinda busy here and it is dangerous to contact each other that frequently
+Vortex: It is him! Omicron
+Vortex: He wants to attack FBI server to wipe personal info
+Vortex: But he needs a crew, so he offered that job to the NightHawks
+Vortex: They need better tools, so they want to get to our PD Asset server!
+Clara: It is protected with EnTech protocols, it should be safe
+Vortex: That .dll I dropped you? It is an EnSec breaker
+Vortex: You can make a valid .exe and breach through EnSec somehow
+Clara: Our infrastructure is whitelisted as well, I don't see a direct threat
+Clara: You sure it is Omicron who contacted you?
+Vortex: YES!
+Vortex: Analyze that .dll, it should contain some clues to find a place where Omicron can get a tool that allows to avoid whitelist
+Vortex: It is a contract that he tried to offer to NightHawks with my help
+Clara: You refused? So there is no cover anymore?
+Vortex: Yes, I am on my own again, but I need to stop them before they figure out something else
+Vortex: I am disconnected from their chat
+Vortex: I don't know what Omicron is telling them, but they want to attack both of us, and Omicron is got info on YOU as well
+Clara: I made a research
+Clara: Maybe you were right...
+Clara: Looks like he is back
+Vortex: What should we do? What do you see in that .dll?
+Clara: It is...
+Clara: A genius code...
+Clara: It is definetly his work of art
+Vortex: I know that already, what else?
+Clara: Hmm. Looks like it is a modified code from one of the EnTech servers, most probably EnSec and other protocls related
+Vortex: So the thing that can help NightHawks to avoid whitelist could be there?
+Clara: Probably
+Clara: But what is your angle? What exactly you want to do?
+Vortex: I need to wipe everything that in theory can give NightHawks and Omicron an access to Police servers
+Clara: You want to raid EnTech? That's insane!
+Vortex: In my perspective, letting a neo-nazi hacker group to gain access to a hacker tools digital vault is more dangerous than violating a policy of an EnTech inc.
+Vortex: You have a .dll that can break EnSec, I just need a valid .exe and I won't endanger you any longer
+Clara: You want to raid them by yourself???
+Vortex: Clara, I've endangered you several times now. It is my justice manner, nobody else should suffer because of me
+Clara: And you think I will let you go on a suicide mission when you have to fight against everyone?
+Clara: Against a genius criminal mastermind?
+Clara: Against a powerful hacker group that now hunts you?
+Clara: Against a huge corporation and their security protocols?
+Clara: On your own?
+Clara: I've not made a decision about you yet, Captain
+Clara: Never the less, I will support you on this one
+Vortex: Thank you Clara
+Clara: Ok, I got the .exe that can help us, but I can't transfer it to you safely
+Clara: SFCPD would notice
+Clara: You can use exe trough me for now
+Clara: I've created a file on this server's /bin folder, change IP to an actual address where EnSec is embedded and I will send you an admin pass
+Clara: Just remember that this one works with new version of EnSec, older versions are not detected by .dll
+Clara: Let's check this on Source of that .dll
+Clara: If Omicron wants to find whitelist breaker, we should start our search from there
+Clara: !ATTACHMENT:link#%#EnTech Side Server#%#27.113.216.249
+Clara: Simply change IP text in INPUT.txt on this server to that address and it should work
+
+!ANNOUNCEMENT! Admin=FIHef3ih @channel
+Clara: Try it
+
+Clara: @Vortex, well?
+Vortex: It worked!
+Clara: Great, now scan everything around and delete everything that has "whitelist", it is only clue
+Clara: I will help you as well. Apperantly there is a way I can spectate now after you, but I suppose Omicron can do that as well
+Vortex: How?
+Clara: Through that .dll
+Clara: I can help you by breaking some ports, but NightHawks can interfere as well, so be careful
+Clara: Good luck!
+
+-During Mission-
+Clara: I managed to open one of the ports, SSL is next
+Clara: Got the Transfer, SSL is on the way
+Clara: One is done, wait for the SSL
+
+-After hacking 3 nodes-
+Clara: @Vortex, We did it?
+Vortex: Yeah, I think that is all of them
+Vortex: They won't get anything useful from those servers
+Clara: Phew, that's a relief
+Clara: That was hell of a risky move
+Vortex: Not entirely legal, huh?
+Clara: Yeah, that too
+Vortex: Ok, NightHawks won't have any tools
+Vortex: And Omicron doesn't have active allies for now
+Vortex: I have to find him and strike before he disappears or he finds another crew
+Clara: Do you have any plan?
+Vortex: Not exactly, I still need tools
+Vortex: We protected them, but I kind of need them as well
+Vortex: So please tell me if there is a way I could get them
+Clara: I am thinking
+Clara: I can forward a limited access, that way you can get EnBreak as well
+Vortex: SFCPD won't find out?
+Clara: I will be okay, but you should delete the logs after you download all tools that you need
+Clara: Remember that Police still can see your logs, so do it quickly
+Vortex: And how would I get admin access?
+Clara: With your credentials, Captain
+Vortex: Oh, I forgot already that I still have them
+Clara: Remind me your IP please
+Vortex: #PLAYER_IP#
+Clara: Okay, you can connect now, but be quick about it
+Clara: Take all tools, that you don't have and delete the logs after that
+Clara: I'll try to stop anyone else from connecting to the server, but not for long
+Clara: !ATTACHMENT:link#%#Asset Server#%#90.91.183.142
+
+-After getting tools-
+Clara: @Vortex, You done?
+Vortex: Yep, I am fully armed now
+Clara: That's good, but do you know how to get to the Omicron now?
+Vortex: Look through EnSecBreach.dll once more, maybe there are some tags that can show source IP
+Clara: Okay
+Clara: Wait...
+Clara: He can still watch us through it
+
+---DECIDE Sequence---
+-Clara Path-
+Omicron: You really thought that NightHawks attacked you directly?
+Omicron: You trigered their traps while they were up to something more important
+Omicron: Their main target
+Omicron: Is Clara
+Omicron: Together we prepared a little surprise for her
+Omicron: I think killing her won't achieve anything good for me
+Omicron: But I always need a scapegoat that I can blame for my actions in front of the Police
+Omicron: And it would be 10 times better if it will be a cop
+Omicron: So I came up with a great idea
+Omicron: If you refuse to revenge me after what I did to you
+Omicron: Then let me try to do the same thing with Clara
+Omicron: Maybe she will be more suitable candidate
+Omicron: And after going through condemnation of society, same as you
+Omicron: She will be a proof of my theory of how this disgusting world works
+Omicron: Or will rot in a prison cell
+Omicron: Now it is time to prove yourself as a Captain
+Omicron: You need to decide what is more important to you
+Omicron: Revenge for the past
+Omicron: Or imaginary justice
+Omicron: That you won't achieve in the end
+Omicron: While I am uploading newly made Clara's dirty files to the FBI
+Omicron: You can get to my network and extract my location and get to me once and for all
+Omicron: You can arrest me, you can kill me, you can do whatever you want with me
+Omicron: Alternatively, you can find source files that are transmitting to FBI and save Clara
+Omicron: But that won't stop me and my future projects
+Omicron: Oh, and belive me
+Omicron: They will be disastrous
+Omicron: With a lot of people dead
+Omicron: Because of you
+Omicron: You won't have enough time to do both targets
+Omicron: You can either extract a geolocation file from my proxy
+Omicron: Or delete Clara files on my archive
+Omicron: You have something about two minutes
+Omicron: Well?
+Omicron: WHAT ARE YOU WAITING FOR?
+
+-NightHawks Path-
+Omicron: Look what you've done
+Omicron: You gave a neo-nazi group the power they were dreaming about
+Omicron: Now they can do whatever they want
+Omicron: Thanks to you
+Omicron: They will wreak chaos
+Omicron: And destroy everyone who is not strong enough for them
+Omicron: But you've become stronger as well
+Omicron: You can finally match me
+Omicron: But first we need to be sure that nobody will disturb us
+Omicron: It would be a shame if someone will intervene in our matter
+Omicron: I made NighHawks busy with their new toys
+Omicron: While I can still worry that only one person is left who can ruin our party
+Omicron: Clara Gilmore
+Omicron: A brilliant detective that have become one of the best in her PD
+Omicron: Because of your failure by the way
+Omicron: She used you, to finally get to the top
+Omicron: And become a Captain as well
+Omicron: But now you are more powerful than ever
+Omicron: There are no laws that control you
+Omicron: No rules
+Omicron: You are the master of your fate
+Omicron: You have only one obstacle on your way of vengence
+Omicron: Me
+Omicron: And while I am uloading compromising files of Clara that I made
+Omicron: So she would be out of the game
+Omicron: You can find my location file
+Omicron: You can arrest me, you can kill me, you can do whatever you want with me
+Omicron: Alternatively, you can find source files that are transmitting to FBI and save Clara
+Omicron: But that won't stop me and my future projects
+Omicron: Oh, and belive me
+Omicron: They will be disastrous
+Omicron: With a lot of people dead
+Omicron: Because of you
+Omicron: You won't have enough time to do both targets
+Omicron: You can either extract a geolocation file from my proxy
+Omicron: Or delete Clara files on my archive
+Omicron: You have something about two minutes
+Omicron: Well?
+Omicron: WHAT ARE YOU WAITING FOR?
+
+---Failing DECIDE---
+Omicron: 
+You are out of time
+How can you call yourself a Captain
+When you can't make a decision?
+That's just pathetic
+I am disappointed in you, Cypher
+You were supposed to decide
+How our story would end
+But you have failed
+Now Clara won't have a chance to clear her name
+Same as you
+And you didn't catched me as well
+What a pitty
+For some reason
+After everything we had
+I have some feelings towards you
+That bond between us
+It makes me to give you one last chance
+If you fail again
+You will die
+Simple as that
+
+I feel that you are angry at me
+But even more
+At yourself
+So let that hate and anger flow through you
+And get to me at last
+Follow my voice
+40.15.214.30
+Delete my PC's Core.dll
+If you want to end me
+
+
+===ENDINGS===
+---Ending 1 - total failure, Cypher dies---
+--Probable dialog with NightHawks - Option 1--
+Vortex: @channel, I've got Omicron's location file! We need to decipher it!
+Maverick: No, YOU need to decipher it, we are not interested in hurting our benefactor
+Vortex: You've got to help me damn it!
+Vortex: I need him dead for all his actions!
+Vortex: I'VE GOT THAT FUCKING ASSET SERVER OPEN FOR YOU!
+Vortex: PAY SOME RESPECT FUCKERS!
+Prophet: I helped you as well, you know
+Deladello: We all contributed one way or another
+Deladello: You wouldn't even meet Omicron if it wasn't us who gave you that opportunity
+Maverick: So it is you who should pay respects, leech
+Maverick: Let's review your actions
+(TAB lines are indicating answers according player's actions)
+	Maverick: You became one of us thanks to Jester's/Repulse's mistake
+		Maverick: You became one of us after finishing personal matter of Jester/Repulse
+	Maverick: Led a good stats on contracts
+	Maverick: You helped us to complete Venomous Snake operation
+		Maverick: You personally executed 58 people during Venomous Snake operation
+			Maverick: You sabotaged Venomous Snake operation
+	Maverick: You refused to help us with the Police Asset server job
+		Maverick: You helped us to get inside Police Asset server
+Maverick: And finally gained Omicron's location file
+Maverick: You have some guts in you, but we won't be partners anymore
+Maverick: At least because of your Police origin
+Maverick: Though we will make one last move to help you and will decipher that location file
+Maverick: And then you can have fight with Omicron with no chance of winning of course
+Maverick: Jenkins, make it done
+Jenkins: @Vortex, drop the location file in /home folder of this server
+
+Jenkins: Got it, gonna be done soon
+Maverick: @Vortex, you will get Omicron's location and will forget about us forever
+Maverick: Is that clear to you?
+Vortex: Loud and clear
+Maverick: We will change our hub to another server
+Maverick: Don't try to search for us
+Maverick: Or you will have a romantic evening with Slayer
+Jenkins: Ok, just a few more moments
+Maverick: Delete everything on Omicron's PC if you want to hurt him
+Maverick: He most probably has EnSec but you've got the EnBreak
+Maverick: But I don't think you will stand a chance
+Jenkins: Ok, here it is
+Jenkins: !ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30
+Maverick: Farewell. And don't come back...
+
+--Probable dialog with NightHawks - Option 2--
+!ANNOUNCEMENT! CHANNEL HAS BEEN RESETED @channel
+Maverick: Scan the setup as he said
+Maverick: Wait, what the fuck?
+Vortex: Didn't expect that I will remember how your Hub is working?
+Maverick: What the fuck do you want?
+Vortex: I've got Omicron's location file! I need to decipher it!
+Maverick: And why the fuck do you think we will help?
+Maverick: After turning us down
+Vortex: We can hit him together and get his personal tool collection
+Maverick: There is no WE between us, leech
+Vortex: Then we will go separate ways, but we all can have the address
+Vortex: Think, you can sell it to the Feds or other hackers
+Maverick: Feds? Yeah, you are truly rotten rat after all
+Maverick: But in fact we can use this info one way or another
+Maverick: Jenkins will decipher it and after that, don't you even dare to search for us
+Vortex: I just need an IP
+Vortex: That crazy fucker must die
+Maverick: I think your odds are small
+Maverick: But that's even better
+Jenkins: @Vortex, drop the location file in /home folder of this server
+
+Jenkins: Okay, give me some time
+Maverick: @Vortex, you will get Omicron's location and will forget about us forever
+Maverick: Is that clear to you?
+Vortex: Loud and clear
+Maverick: We will change our hub to another server
+Maverick: Don't try to search for us
+Maverick: Or you will have a romantic evening with Slayer
+Jenkins: Ok, just a few more moments
+Maverick: Delete everything on Omicron's PC if you want to hurt him
+Maverick: He most probably has EnSec but you've got the EnBreak
+Maverick: But I don't think you will stand a chance
+Jenkins: Ok, here it is
+Jenkins: !ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30
+Maverick: Farewell. And don't come back...
+
+---Bossfight---
+
+----------------------------DEBUG----------------------------
+|Backdoor.sip CAN'T FIND A ROOT ELEMENT!--------------------|
+|ERROR 256--------------------------------------------------|
+|ERROR 144--------------------------------------------------|
+|CORE NOT FOUND!--------------------------------------------|
+|CRITICAL ERROR 45------------------------------------------|
+|NULL POINT-------------------------------------------------|
+|IMPOSSIBLE FILEPATH----------------------------------------|
+|RETRYING---------------------------------------------------|
+|FAILED ATTEMPT 1-------------------------------------------|
+|FAILED ATTEMPT 2-------------------------------------------|
+|FAILED ATTEMPT 3-------------------------------------------|
+|FAILED ATTEMPT 4-------------------------------------------|
+|FAILED ATTEMPT 5-------------------------------------------|
+|ABORTING---------------------------------------------------|
+-----------------------------END-----------------------------
+
+Omicron: 
+The end?..
+You thought that I will hold my entire system in one file?
+Who do you think I am?
+You have to do better than that
+Now it is my turn to strike you
+Prepare to defend yourself
+
+HACKNET_OS ALERT!
+SYSTEM DESTRUCTION RISK!
+Session.dll FILE IS TRANSMITTING VIRUS DATA!
+FIND SOURCE COMPUTER, LOCATE THE FOLLOWING FILE AND DELETE IT!
+DATA UPLOAD WILL BE FINISHED IN APPROXIMATELY 4 MINUTES!
+10 GATEWAYS DETECTED, PREPARING TARGITING SCRIPT...
+GATEWAYS WILL BE DISPLAYED ON NETMAP ONE AT A TIME
+
+UPLOAD: % COMPLETE
+
+UI CONTROL REGAINED
+
+CRITICAL ERROR: UI MODULES ARE CORRUPTED!
+POSSIBILITY OF UNSTABLE FUNCTIONING!
+SOURCE IS LOCATED!
+DELETE Session.dll
+204.63.174.159
+
+Omicron: 
+That was close
+You almost had me
+At least that is what you think
+But in reality
+You never were so far from me as it is now
+Chasing your own tail
+Like a stupid dog
+That's who you really are
+I had big hopes about you
+You were supposed to become my greatest project
+But I was wrong
+You are a complete failure
+There is no need to continue our interaction
+You are too weak to carry out my plans
+So I've sent a babysitter after you
+You know what led you here?
+Indecision and uncertainty
+You don't understand what are you fighting for
+You are trying to make things right but you don't know what is 'right'
+Your anger is not enough
+You need sacrifices and make others fear you
+That is how this world works
+Changing horses in midstream won't lead you to anything good
+That is the lesson you should learn
+Farewell Cypher...
+
+*BOOM*
+
+---Ending 2 - vengeance achieved, Omicron dies---
+Vortex: @channel, Congrats to everyone, we are one of the most powerful hackers in US now!
+Vortex: I know we are most probably will go separate ways
+Vortex: But I think there is one last job that I can provide to you
+Vortex: To kill and rob multimillionaire hacker: Omicron
+Vortex: He thinks that you are little monkeys with big guns now
+Vortex: But I know all of you have limitless potential
+Maverick: We have a plenty of power now
+Vortex: You want to go against your own Oath?
+Vortex: If you can become stronger, then you must become stronger
+Maverick: What do you have in mind?
+Vortex: I want to dethrone Omicron, you can have his kingdom and I can have his soul
+Vortex: Just remember what I did:
+	Vortex: I tricked your external operative, Jester/Repulse, into police trap
+		Vortex: I made (my ex-colleague, Javis Williamson/an honorable policeman, Allan Turner), a dirtbag to get inside your group
+			Vortex: I destroyed (my ex-colleague Javis Williamson/an honorable policeman, Allan Turner,) and made him go suicide
+	Vortex: I led a good stats on contracts
+	Vortex: I helped you to kill 58 people
+		Vortex: I made a decision to kill 58 people
+	Vortex: I helped you to destroy Police Infrastructure
+Vortex: And finally: gained Omicron's location file!
+Vortex: I am valuebale asset to you, that fits your style now as well
+Vortex: So let's do some business
+Maverick: You have his location?
+Vortex: Not sure what is inside but we can extract details together
+Vortex: You can take all of his money, and I just want to kill him
+Vortex: Win-win situation, just like you love it
+Maverick: Okay, Jenkins will analize the file
+Jenkins: @Vortex, drop the location file in /home folder of this server
+
+Jenkins: Got it, gonna be done soon
+Maverick: @Vortex, so how exactly do you want to attack him?
+Vortex: We need to locate him, and then Slayer will handle him
+Vortex: Meanwhile, you can take his network once we are inside his real PC, not some dummy gateway
+Maverick: Ok, what about his defence?
+Vortex: Most probably there gonna be some security systems
+Vortex: That cover his PC from our scanners
+Vortex: But then he must use some kind of Sequencer to operate in stealth
+Maverick: So what? Where we can find it?
+Vortex: I really doubt that he will leave his real address in that file and it is most definitely a trap
+Vortex: But when it is active, we can scout a part of his network that is connected to his PC somehow, like through Sequencer as I said
+Maverick: So we need to trigger a trap and then we wil see a breach in his security?
+Vortex: Yep
+Maverick: And who is gonna be the bait?
+Vortex: Me of course
+Vortex: He awaits me
+Vortex: I will play his little game while you guys will strike from behind
+Deladello: Risky move but sounds epic
+Jenkins: Okay, I've done with that file, from what I can see it is a dummy PC, that connected through Core.dll file in /sys folder
+Jenkins: I bet he just waits when you will strike first
+Vortex: Ok, analyze all processes on that dummy while I am having fun with that cocksucker
+Jenkins: Yeah, delete Core.dll and that will trigger some kind of trap for you
+Maverick: We will watch for any crack in his security
+Jenkins: Ok, here's IP
+Jenkins: !ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30
+
+-After Bossfight-
+Prophet: @channel, I've got it!
+Maverick: What is it?
+Prophet: He is linked through OSequenser.exe
+Vortex: Well, as I thought
+Vortex: Everybody ready for final strike?
+Prophet: Sure as hell
+Maverick: Of course
+Jenkins: Yep
+Deladello: As always
+Slayer: Ready
+Vortex: You should strike all simple ports like 21, 22, 25, 80
+Vortex: And 211, since I can't do it myself
+Vortex: I will take firewall and rest of the ports
+Maverick: Gentlemen, it is time for a big hack
+Maverick: Download Omicron's netcfgx.dll
+Maverick: @channel, activate your OSequensers when you are ready
+
+-After Omicron hack (some phrases will appear if player failed ScreenBleed)-
+Maverick: @channel, We did it??
+Prophet: Yeah, I think we are good  (Vortex dropped but I managed to get in and extract all files)
+Maverick: Yeees
+Jenkins: I took his tokens from sys libs  (I took his tokens from sys libs and copied netcfgx.dll on this server)
+Jenkins: His money is ours now
+Maverick: FUCK YEAH!
+Vortex: See? Hell of a good job, people!
+Vortex: I have only one favor to ask
+Maverick: Sure thing
+Vortex: Slayer, I need to kill him now
+Slayer: No probs, just upload his netcfgx.dll on drop server that I will send
+Maverick: Great job everybody!
+Maverick: Vortex, we are grateful to you for this contract
+Maverick: I hope you will satisfy your vengeance at last
+Slayer: !ATTACHMENT:link#%#KILLER'S JOINT#%#157.94.166.221
+
+Omicron: 
+You did it
+I am going to be dead soon
+You won
+You are stronger than me now
+What a master manipulator you are
+If you tricked NightHawks to cooperate with you
+You have enormous power now
+You know that everyone will talk about you now
+An infamous hacker Vortex
+I didn't expect
+That you
+.........
+*cough*
+He got me pretty bad
+But I am gonna bleed to death anyway
+And that's what you want, right?
+You think that you won
+But look at yourself
+Who are you now?..
+One of the most vile criminals that I knew
+You are no longer Cypher Mendes
+Now, you are Vortex
+An unstoppable king of hacker world
+And everybody will fear and respect you
+You finally get my theory
+You proved it
+Under right circumstances
+Even a saint can become devil himself
+But now
+You are worse than devil
+*laugh*
+*cough*
+It all make
+Sense
+Now...
+...
+
+---Ending 3 - neutral, Clara refuses to help---
+-Option 1-
+Clara: !ANNOUNCEMENT! CHANNEL HAS BEEN RESETED @channel
+Clara: The fuck?..
+Vortex: Clara, listen to me
+Vortex: I've just saved your ass from Omicron
+Vortex: And we need to strike him back no matter what!
+Clara: What happened?
+Vortex: Omicron tried to do to you the same thing he did to me
+Vortex: Make you outlaw
+Vortex: Uploading a fabricated dirt files on you to FBI
+Clara: That doesn't make any sense, I am innocent
+Vortex: I did nothing wrong as well and look at me
+Vortex: Feds won't take 'I am innocent' as an argument
+Vortex: And Omicron has a lot of experience of making scapegoats, I am sure of it
+Vortex: I could've find his location but for some reason decided to save you
+Vortex: So it is your turn to help me
+Clara: Did I asked you to do so?
+Vortex: What the fuck do you mean? I JUST SAVED YOU
+Clara: And I didn't asked you to do so
+Clara: I know that you are responsible for an attack on our servers
+Clara: Your NightHawks buddies are gone mad and destroying our infrastructure
+Clara: It will be a pure chaos soon
+Clara: So yeah, you are not so innocent, Vortex, and I am not willing to help you
+Clara: And sure as fuck not asking you to help me one way or another
+Vortex: What I did wrong, huh?
+Clara: Oh, I can tell you, I made a research on you, Vortex
+Clara: So here is the list of your actions:
+	Clara: You found a way to achieve justice and saved (Javis from Repulse/an honorable policeman from Jester)
+		Clara: You helped Repulse and made Javis go suicide (You helped Jester and made an honorable policeman go suicide)
+			Clara: You helped Repulse and decided that your operative is just some meet that you can sacrifice! (You helped Jester and decided that an honorable policeman is just some meet that you can sacrifice!)
+	Clara: You participated in murdering of 58 people
+		Clara: You decided to kill 58 people just to get to the Omicron
+			Clara: You saved 58 people in NLH Hospital
+	Clara: We saved our Police infrastructure from NightHawks
+		Clara: You helped NightHawks to destroy our Police infrastructure
+Clara: Not so innocent after all  (You were good more or less but in the end you fucked everything up)
+Vortex: Shit...
+Vortex: I...
+Clara: I don't recognize my old Captain Mendes
+Clara: Who always says that there is a way to make things right to justice
+Clara: Now I only see a man who obsessed with vengeance and nothing more
+Clara: Why you saved me then? Some moral strings are being pulled inside of you?
+Vortex: I can see it now
+Vortex: My god, what I've turned into...
+Clara: A monster, that is who you really are
+Vortex: I am so sorry Clara, I was so furious and failed to see how many bad things I made
+Vortex: It's not supposed to be like that...
+Clara: I don't trust you and I don't want to talk to you anymore
+Clara: Your actions are terrible and unforgivable
+Clara: I can only agree on one thing
+Clara: Omicron is a threat, but he must be in jail, not just killed
+Clara: I will start that hunt and will make things right, without any sacrifices
+Vortex: Wait, you can't bring him down alone, he will turn things upside down really quickly!
+Clara: I won't listen to you any longer
+Clara: It is just such a pitty that a good man turned into such a monstrosity
+Vortex: I won't go after Omicron if that requires more violence or sacrifices, I understand my mistakes and...
+Vortex: Fuck, I'll just drop that case and wait for better moment so I don't have to become monster once again
+Clara: I am not interested in your self remorse
+Clara: You made actions and you face consequences
+Clara: That's my point of view
+Clara: Farewell...
+Clara: !ANNOUNCEMENT! CLARA HAS BEEN DELETED @channel
+Vortex: Clara?..
+Vortex: Don't do this to me...
+Vortex: No...
+Vortex: ...
+
+-Option 2-
+Clara: @Vortex, what the hell happened?
+Vortex: Clara, listen to me
+Vortex: I've just saved you from Omicron
+Vortex: And we need to strike him back no matter what!
+Clara: What happened?
+Vortex: Omicron tried to do to you the same thing he did to me
+Vortex: Make you outlaw
+Vortex: Uploading a fabricated dirt files on you to FBI
+Clara: That doesn't make any sense, I am innocent
+Vortex: I did nothing wrong as well and look at me
+Vortex: Feds won't take 'I am innocent' as an argument
+Vortex: And Omicron has a lot of experience of making scapegoats, I am sure of it
+Vortex: I need your help
+Clara: Captain, you seem to be obsessed with Omicron
+Vortex: What do you mean?
+Clara: I mean your actions are controversial
+Clara: I know that we saved Asset server from these punks
+Clara: But still, you made sacrifices that you didn't have to
+Vortex: What I did wrong?
+Vortex: You know how hard it is to be udercover?
+Vortex: It is pure hell
+Vortex: Not to mention that I am outlaw
+Clara: I made a research on you, Captain
+Clara: So here is the list of your actions:
+	Clara: You found a way to achieve justice and saved (Javis from Repulse/an honorable policeman from Jester)
+		Clara: You helped Repulse and made Javis go suicide (You helped Jester and made an honorable policeman go suicide)
+			Clara: You helped Repulse and decided that your operative is just some meet that you can sacrifice! (You helped Jester and decided that an honorable policeman is just some meet that you can sacrifice!)
+	Clara: You participated in murdering of 58 people
+		Clara: You decided to kill 58 people just to get to the Omicron
+			Clara: You saved 58 people in NLH Hospital
+	Clara: We saved our Police infrastructure from NightHawks
+		Clara: You helped NightHawks to destroy our Police infrastructure
+Clara: Not so innocent after all
+Vortex: Shit...
+Vortex: I...
+Clara: I don't recognize my old Captain Mendes
+Clara: Who always says that there is a way to make things right to justice
+Clara: Now I only see a man who obsessed with vengeance and nothing more
+Clara: Why you saved me then? Some moral strings are being pulled inside of you?
+Vortex: I can see it now
+Vortex: My god, what I've turned into...
+Clara: I don't know anymore
+Vortex: I am so sorry Clara, I was so furious and failed to see how many bad things I made
+Vortex: It's not supposed to be like that...
+Clara: I don't trust you and I don't want to talk to you anymore  
+Clara: Your actions are questionable
+Clara: I can only agree on one thing
+Clara: Omicron is a threat and he must be in jail
+Clara: I will start that hunt and will make things right, without any sacrifices
+Vortex: Wait, you can't bring him down alone, he will turn things upside down really quickly!
+Clara: I won't listen to you any longer
+Clara: It is just such a pitty that a good man has fallen into oblivion of vengeance 
+Vortex: I won't go after Omicron if that requires more violence or sacrifices, I understand my mistakes and...
+Vortex: Fuck, I'll just drop that case and wait for better moment so I don't have to become monster once again
+Clara: I am not interested in your self remorse
+Clara: You made actions and you face consequences
+Clara: That's my point of view
+Clara: Farewell...
+Clara: !ANNOUNCEMENT! CLARA HAS BEEN DELETED @channel
+Vortex: Clara?..
+Vortex: Don't do this to me...
+Vortex: No...
+Vortex: ...
+
+CONCLUSION: 
+Cypher Mendes realised, that he is being manipulated
+And decides to drop Omicron case for better times
+Clara Gilmore continues to investigate the case of that mysterious and powerful hacker
+But details are unknown
+The only thing that is known for sure
+Omicron case in not closed yet...
+Cypher is still outlaw, but managed to find an anonymous PI firm
+He is now one of the agents
+And continues to fight crime
+Even if he is officially a criminal himself
+6 months passed since Cypher and Clara talked for the last time
+Cypher is no longer thinking about vengeance
+And simply enjoys his new job as a detective
+But one day
+All nodes on his NetMap disappeared
+Someone got his attention
+But is it a friend
+Or Enemy?..
+
+-Clara Epilogue-
+Clara: Hello @#PLAYERNAME#
+Agent 47: What the?..
+Agent 47: CLARA?
+Agent 47: Oh my god, it is so good to see you!
+Agent 47: How are you?
+Agent 47: And how did you managed to find me?
+Clara: Not so good, I need help
+Agent 47: Sure darling, anything you need, what is it?
+Clara: I am looking for Omicron
+Agent 47: Still chasing him? Yeah, a tricky one
+Agent 47: It's been half a year, Jesus, time flies
+Clara: I am not in the mood, will you help or not?
+Agent 47: Sure, what exactly do you want?
+Clara: I want to cut his head off, put it on a spear and make a nice BBQ
+Agent 47: Clara, you are scaring me...
+Clara: You know what that fucker did?
+Clara: Made me outlaw!
+Agent 47: Oh my god...
+Agent 47: How are you holding up? Do you have a safe spot?
+Clara: I am not holding up, I am sleeping with random jerks for food and shelter
+Clara: HOW THE FUCK DO YOU THINK I AM HOLDING UP?
+Agent 47: Clara, I...
+Clara: You either help me to kill him, or you are gonna be on my death list as well
+Agent 47: I... What ARE you now?
+Clara: Same old Ms. Gilmore
+Clara: You are in or out?
+Agent 47: I don't...
+Clara: In...
+Clara: Or Out...
+Agent 47: ....
+
+---Ending 4 - Happy-End---
+Vortex: @Clara, are you okay???
+Clara: What just happened?
+Vortex: Omicron tried to set you up just like me
+Vortex: I prevented the upload to the FBI servers
+Vortex: He made some files that can compromise you
+Clara: But I am innocent
+Vortex: I know that, but we tampered inside EnTech
+Vortex: And I think that Omicron can place your tracks on some criminal servers
+Vortex: Same happened to me 2 months back
+Clara: Yeah...
+Vortex: We need to drop the case for some time, this is too dangerous for both of us
+Vortex: He will make us do something that will turn us into monsters or will kill us
+Clara: But he is a big danger to everyone
+Vortex: I know, but we don't have anything to begin with, he is most probably gone dark again
+Vortex: I could've get his location file, but I can't sacrifice you or anybody else
+Vortex: We should just stay out of it for a while
+Vortex: Just to remain dignity and not to fall in the pit of vengeance
+Clara: I know you made some questionable actions while you were undercover
+Clara: But now I believe that your soul is still in right place
+Clara: You are right, sacrifices won't get us anywhere except his traps
+Clara: But there is gotta be something we can do!
+Vortex: I am out of ideas, maybe he left something on your PC?
+Clara: Let me check...
+Clara: I think that he downloaded a few of my files with help of the EnSecBreach.dll
+Clara: Maybe I can find an address where data were transmitting to
+Vortex: Be careful there
+Clara: I think I got it
+Clara: But I don't think that this is his real PC
+Clara: Most probably a dummy with a trap
+Vortex: So what should we do?
+Clara: Look, he tried to manipulate you for a long time
+Clara: To make you a bad person
+Clara: And so I would refuse to help you
+Clara: That's his plan according to my researches
+Vortex: Why does he want me to turn vile?
+Clara: Maybe he looks for successor
+Clara: Don't know for sure
+Clara: The point is, he awaits you
+Clara: Maybe you can try to get to him while I will look for any security breaches
+Vortex: So I am the bait, huh?
+Clara: Yep, I think it is only way to get to him now
+Clara: I will give you the link and you should delete everything there
+Clara: That will attract him and most probably he will attack
+Clara: While both of you are busy, I will look for a way to get to his real PC
+Vortex: I guess it is only way
+Clara: Be careful, Cypher
+Clara: !ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30
+
+-After Bossfight-
+Clara: @Vortex, Found it!
+Clara: We can get to him now!
+Vortex: I had it pretty rough, hope that it's worth it
+Clara: He is controlling everything from his PC through Sequencer
+Clara: We can use it and OSequencer.exe is going to redirect us straight to Omicron
+Vortex: But we won't have much time, right?
+Clara: Yep, so here is the plan
+Clara: I will take common ports, like 21, 22, 25, 80 and 211
+Clara: You will take others and firewall
+Clara: Got it?
+Vortex: Yeah, and once inside, I should get his netcfgx.dll?
+Clara: Yes, download it and we can send it to the Police
+Clara: It should contain all info about him, and location, he can't dodge it
+Vortex: So this is it? Final hack?
+Clara: Looks that way
+Clara: In any case, it is honor to work with you Captain
+Vortex: Same, Ms. Gilmore
+Clara: @Vortex, activate OSequencer and let's bring the justice
+
+-After Omicron hack (some phrases will appear if player failed ScreenBleed)-
+Clara: @Vortex, We did it??  (@Vortex, What happened??)
+Vortex: Yes, I made it!  (Shit, I was dropped from the server!)
+Clara: Great Job, Cypher!  (Then I saved you this time, because I've got the file, it is in /home folder of this server!)
+(Vortex: WOW, nice!!)
+Clara: Only one thing left
+Clara: Upload it to the police
+Vortex: Am I having honors then?  (Are you having honors then?)
+Clara: Well you got the file so yeah  (No, I think it will be right if you do it)
+Clara: You should upload it
+Vortex: Can you give an IP?
+Clara: Sure, I will give you IP of Santa-Rosa's PD, they are not EnTech protected so you won't have problems there
+Vortex: Thank you
+Clara: Moment of truth
+Clara: !ATTACHMENT:link#%#Santa-Rosa Police Department#%#175.102.196.84
+
+Omicron: 
+No...
+It is not supposed to end like this
+Clara should hate you
+You were supposed to become most vile criminal
+So you could take my place
+Otherwise Clara is next candidate
+But she is on your side
+One of you should've become my successor!
+AND THEN KILL ME!
+That was my plan
+That was my theory
+This world is controlled by fear, hate and anger
+They are the most powerful motivators
+You know what is the most useless thing in the world?
+Justice
+You know why?
+Because there is no justice in this life
+
+You don't believe me?
+Then let me tell you my story
+My mother was 20 when she gave birth to me
+Year prior she was a regular student in Sacramento
+She was transfered to the academy in San-Francisco because of her high results
+But she couldn't integrate in new community of students
+Because they were filthy rich kids and junkies
+She didn't want to taste their lifestyle
+And she was bullied for that
+After a few months
+She tried to change that and goes to the party
+Tries cocaine
+And becomes an addict
+She was low on money
+And decided to fuck with random guys for a dose
+On one of those times, she becomes pregnant
+That's how I was made
+
+After my birth she was kicked out of academy
+And we became a street trash
+My mother used me to beg money from strangers
+Tried to sell me in slavery
+I hated her more than anything
+I tried to call for help
+I tried to go to the Police
+But nobody wants to hear some dirty kid who is a son of a junkie whore
+Then she tried heroin and became absolutely crazy
+Her mind was burned to the ground
+And on one day
+She overdosed
+Dead in her own vomit
+
+You know what I've felt?
+Satisfaction
+If this world has any justice
+THEN WHY WOULD IT MAKE A 12-YEARS OLD CHILD LAUGH ON HIS MOTHER'S DEATH??
+Then I cried for 4 days straight
+And only stopped because of the hunger
+
+After that I was adopted
+New parents were nice but always feared of me becoming junkie as well
+I tried to prove the opposite
+And killed a drug dealer
+
+I thought I was hero
+I saved another girl like my mom from turning into filthy creature
+But I was sent to jail
+
+What is that kind of justice then?
+You don't know how it feels when you constantly live in society's condemnation
+You can't prove to anyone anything because of your past
+Nobody just gave shit about me
+
+And then I became Omicron
+I've learned a couple of things from prison
+Including hacking
+And only then people started to respect me
+Only when I am giving them reason to fear me
+If you are weak and kindly ask for help
+Like I did in my childhood
+Nobody will come and save you
+And when you give people a reason to fear you
+They do exactly as you want
+
+So tell me
+Is there any justice?
+
+But you and Clara changed me right now
+I understand that all that is happened to me was a bad luck
+But there is always some limit that a man can hold
+And my stress and anger was over any possible limits
+I won't resist the arrest
+But I will still justify my actions
+It is me who destroyed Emalio cartel and saved San-Francisco from another wave of drugs
+It is me who cleared DEA from moles
+I made the city more clean
+And free from drugs
+I don't think that I made it worse for society
+
+But you were supposed to become my successor
+To take my anger inside and kill me
+But you and Clara outplayed me
+And proved that some people are not that disgusting
+
+I guess it is right time to turn off my voice morpher
+But I must at least keep some secrets
+Farewell, Cypher and Clara
+...
+
+CONCLUSION: 
+Sam Walker, also known as hacker Omicron has been arrested two months ago
+Police tried to make him confess in his actions
+But all this time he remains silent
+Clara Gilmore became a new Captain of San-Francisco CyberPolice Department
+And now she is one of the most successful detectives of California
+Cypher Mendes disappeared after the Omicron apprehension and his current location is unknown
+Despite the fact that Omicron will be in jail soon
+That doesn't lift charges from Cypher
+
+Clara reported to the FBI that hacker Vortex helped her to catch Omicron
+But in the process he was killed by one of the assasins that Omicron sent after him
+Later, Clara confirmed that Vortex's real name is Cypher Mendes
+FBI closed the case of the ex-Captain due to his death being confirmed by Clara
+
+One thing that Clara took from previous Captain are problems with the sleep
+Each night she suffers from insomnia and tries to fall asleep by filing records on her laptop
+But on 3 AM each night, she sends 36 reports to the main server and 1 report to unknown Drop server
+
+That special report always starts with the same phrase...
+
+Clara: Captain Mendes, I have new information for you
+
+
+
+MISSIONS: DESCRIPTIONS AND DIARIES
+
+---Intro---
+EnTech: Police-exclusive copy of Hacknet_OS is activated!
+
+Your workstation is attached to the San-Francisco CyberPolice Department and have whitelisted access. For further instructions, access your mail sevice, which is attached in this email.
+	
+			-EnTech auto-sender systems
+			
+			
+---Mission 1 А---
+--Cybervandalizm: Some trickster tried to have some fun with confidential promotion documents, now they are in mess, word DICK is everywhere!
+But what's more important - this is a text for new ePhone presentation. We have to fix everything and find a guy's IP, before the whole world would know how much SFCPD suck--
+
+-Good vandal = locked up vandal-
+
+I knew you would pick up that mission. Me and Javis will cover the rest two.
+
+Security Chief of the Pear company texted us with this news. He said it wouldn't be a problem for him, but there is just too little time left before presentation.
+
+Sooo he left everything as it is, which means most probably you will find some tracks of that script kiddie.
+
+I want his netcfgx.dll, you can find it in sys/, so we could research every other sin he made and then pack him up. When you get it, upload it to the Asset server's upload module.
+
+Oh, and by the way, could you also replace DICK back to ePhone in the presentation file? Pretty please? You will find it with the logs and everything on PC that I linked.
+
+-C
+
+PRO TIP:
+Use LOGS to find tracks of criminal's computer systems
+
+GOALS:
+1)GET INSIDE vandal's Battlestation and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+2)REPLACE word "DICK" to "ePhone" in presentation file
+
+
+---Mission 1 Б---
+--Hacktivism: Prime suspect is a propagandist of communism and using very aggressive strategies.
+We have to do something before young maximalists will react to it.--
+
+-CyberStalin is back-
+
+I knew you would pick up that mission. Me and Javis will cover the rest two.
+
+This guy attacked news server and changed frontline to his absurd political propaganda.
+
+We have to track an IP of his PC and pack him up. I will link a front-end server, but most probably you have to poke around and reveal mainframe to find some tracks of that guy.
+
+As for access, that bastard changed Admin Passwords on entire infrastructre, wich means we have a green light on using crack tools.
+
+Find his IP and crack him up, then get his netcfgx.dll from sys/ and upload to the Asset server's upload module. And we will know everything about him.
+
+Good luck on this one!
+    -C
+
+PRO TIP:
+Use LOGS to find tracks of criminal's computer systems
+
+GOALS:
+1)GET INSIDE propagandist's Battlestation and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+
+
+---Mission 1 В---
+--Data Theft: Macrosoft has (well, technically HAD) a new security patch, that fixes a vulnerability, that allowed remote access through calculator proccess.
+We need to recover it from a hacker and along the way get his internal file.--
+
+-Catch a thief - Make the world better-
+
+I knew you would pick up that mission. Me and Javis will cover the rest two.
+
+That sneaky worm infiltrated into the Macrosoft workstation. It is supposed to be well protected, so my guess, he used some social engineering.
+
+Macrosoft provided to us the access, I am linking it here. Find hacker's tracks, research his setup and recover the patch. Don't forget to place it back to the home/ folder of the Macrosoft workstation.
+
+Oh, and of course, get his pesonal PC's netcfgx.dll from /sys folder, so we could analize his activity and pack him up.
+
+Good luck!
+
+    -C
+	
+PRO TIP:
+Use LOGS to find tracks of criminal's computer systems
+
+GOALS:
+1)LOCATE Calculator_Patch.rar on one of the hacker's computers and UPLOAD it to the /home folder of the Macrosoft Workstation
+2)UPLOAD hacker's personal computer's netcfgx.dll file to the ASSET server's upload dropbox
+
+
+---Mission 2---
+--Hacker Attack: Someone attacked San-Francisco's Medical Archive and stole a Med File from it.
+Time to find that bastard and make him face justice.--
+
+-Medical Confidentiality-
+
+The administration provided us with limited access to the Medical Archive, so we could check the logs, and that's all we need.
+
+We need to find out who is responsible for that attack and get his netcfgx.dll. It should be extracted from his homestation, not gateway or proxy, that won't help us to locate him.
+
+Dig deeper Captain, we will help you along the way!
+
+  -B
+  
+GOALS:
+1)GET INSIDE hacker's personal computer and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+
+
+---Mission 4---
+--Repulse's Interception: Finish today's hacker attack operation and locate the second hacker's homestation--
+
+-Repulsive Type of Job-
+
+Great to know you are eager to finish this matter, Captain!
+
+Me and Bloyd analyzed that netcfgx.dll of Daedra's homestation. Remember they mentioned an IRC and some dropfile server? Well, we found them.
+
+Bloyd got into filedrop server and working on getting to the client, that ordered this attack. He got a Med File of someone named Olivia Brooks, so that means it was confidentiality-break type of contract.
+
+And you have to get inside their IRC server and find some way to get to the homestation of Repulse, get his netcfgx.dll and upload to the Asset server. Meantime, I will investigate about that Dynamic mail server, we haven't got a security certificate from them, meaning that they are not trustworthy service.
+
+After this case, we can start a conference. Good luck to you Captain
+
+  -J
+  
+GOALS:
+1)GET INSIDE Repulse's personal computer and UPLOAD his netcfgx.dll to the ASSET server's upload dropbox
+
+
+---Conference---
+--Conference: When you feel that you finished everything else, we will start a conference with the FBI representative--
+
+-Conference-
+
+Our conference will be in online mode, with the FBI representative, agent Gale, and an EnTech's digital security assistant. When conference will finish, ONLY THEN click COMPLETE button
+
+
+---Mission 5---
+--Special Assignment--
+
+-Hunt-
+
+The only information we have now is an aderess of their gateway. Try to access their infrastructure through it and find their battlestations and get a copy of their netcfgx.dll to your PD Asset server's upload module
+	
+	I am providing you an IP in attachments
+	
+			-Diana
+			
+GOALS:
+1)GET INSIDE Batlestations of hackers and UPLOAD their netcfgx.dll to the ASSET server's upload dropbox
+
+
+---Omicron Attacks---
+--Omicron--
+-pst-
+REPLY ME REPLY REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME REPLY ME
+
+
+---Mission 6---
+--Cypher--
+-Diary-
+
+It's been 2 months since I was put on the Federal Wanted List. 
+
+FBI has raided digital infrastructure of the Emalio drug cartel. My IP was in there, I had admin access all over their secured servers somehow.
+
+I had to move in Sacramento, from motel to motel, and finally I have a flat and laptop that I can use.
+
+I saved Hacknet_OS before escaping and installed it on my new PC. But some parts are still broken.
+
+I've lost everything: my career, my team, my family, my life...
+
+...because of that hacker ... Omicron.
+
+He damaged my system so I can't even defend myself from any kind of hackers...
+
+He didn't destroyed me ... he mutilated me ... fucking sadist.
+
+Oh I will find him and make things right ... but I must remember what I am fighting for. I am now on the other side of the criminal world. 
+
+Should I try to reason with it and achieve revenge any means necessary? Or I still remember what justice is and will remain dignity?
+
+In any way, I am using nickname Vortex now, and looking for a way to get tools and get to Omicron.
+
+I should start my search on local hacker board, most of the time only kids hang out there, but there always will be bullies from higher league.
+
+Before I proceed with some kind of plan, I have to resotre my hacking potential.
+
+I should start here "34.12.21.38"
+
+
+---Mission 7 (Branch)---
+--Cypher--
+-Diary-
+
+I managed to find an entry point into their systems
+
+My map is now restored, but...
+What to do next?
+
+Now if I think of it, I am still not capable of finding Omicron alone
+
+I need to gain trust from that group, NightHawks
+So I can use their connections and abilities to find a solid lead on Omicron
+I must integrate
+
+But how?
+
+I still can complete the job and ruin a life of an innocent man
+Or I have to do something else...
+
+I could try to make NightHawks to notice me directly
+But only if their agent that is supervising me right now will fuck up
+
+I must find out how to get him out of my way
+So it would look like if he made a mistake
+
+I remember that on one of the MemDumps he mentioned cops and experiments on their response...
+But to make this work I have to find his PC, not proxy, archive or gateway
+The only thing I can think of is to try to find his tracks on servers where he operated somehow lately...
+
+What should I do?
+...
+
+---Diaries in the end of the Mission---
+--Bad path--
+What have I done?
+	
+This guy was just a good policeman doing his job: catching scumbags like this one
+
+And now me and some low-life arms dealer destroyed his career, his life
+Same thing happened to me, and I know how it feels...
+
+This man is either going to revenge, or give up and die in society's contempt
+
+It wasn't my fault...
+It's just circumstances that made me do it
+
+But I never stop thinking that there was another way, that I didn't think of or didn't find
+
+At least I can proceed
+I wish there would be no more sacrifices I have to make to achieve my goal
+
+I am just feeling lost,
+There is a reason I became a cop:
+I want to help people, not to hurt them
+
+And something inside me is just eating away at me for what I've done just now
+
+I must redeem this sacrifice and prove to myself that it wasn't for nothing
+I can use this new group of hackers to finally have some progress with my search
+They need me, and I must use it to find Omicron
+This is what I need...
+
+They gave me access
+I have to play my cards right...
+
+--Scum path--
+It had to be done...
+
+They won't believe me otherwise
+I had to do it...
+
+Now I remember all those moments of woking undercover
+You sacrifice something to achieve justice in the end
+
+But I can't see any justice in my actions that I did just now...
+
+They will let me in now
+But I paid a price: a good person's life
+
+Was it really worth it?
+Wasn't there another way?
+
+These questions will be in my head for a long time
+But I have to continue my vengence
+
+After I get to Omicron
+Only then I can find peace in my soul...
+
+Now, I have to join NightHawks 
+And put on my pokerface...
+
+--Good path--
+It worked
+
+It was a pure gamble
+But worked
+
+There could be a possibility that NightHawks will think of me as a traitor
+But if I act properly, I may integrate
+
+They won't find my logs, because they can't see them
+And this guy was conducting some experiments on how police reacts to netcfgx.dll uploads
+This should work as my alibi
+
+Not bad results so far:
+Criminal scumbag is being arrested
+Innocent man is unharmed
+I got access to the group (Still may be a trap)
+
+But what do I have to loose?
+
+Time to put my mask on
+It is showtime...
+
+--Bad path (Repulse)--
+What have I done?
+	
+Javis was one of my best operatives
+
+He is a hero that helped people of San-Francisco to enjoy safer digital space
+And in the end I am making his life even worse
+
+Now he will live in society's contempt like some fucking junkie that he never was
+Because of me...
+
+It wasn't my fault...
+It's just circumstances that made me do it
+
+But I never stop thinking that there was another way, that I didn't think of or didn't find
+
+At least I can proceed
+I wish there would be no more sacrifices I have to make to achieve my goal
+
+I am just feeling lost,
+There is a reason I became a cop:
+I want to help people, not to hurt them
+
+And something inside me is just eating away at me for what I've done just now
+
+I must redeem this sacrifice and prove to myself that it wasn't for nothing
+I can use this new group of hackers to finally have some progress with my search
+They need me, and I must use it to find Omicron
+This is what I need...
+
+They gave me access
+I have to play my cards right...
+
+--Scum path (Repulse)--
+It had to be done...
+
+They won't believe me otherwise
+I had to do it...
+
+Now I remember all those moments of woking undercover
+You sacrifice something to achieve justice in the end
+
+But I can't see any justice in my actions that I did just now...
+
+I sacrificed one of my best operatives who done nothing wrong
+Just to achieve vengeance
+What I am turning into? ...
+
+They will let me in now
+But I paid a price: a good person's life
+
+Was it really worth it?
+Wasn't there another way?
+
+These questions will be in my head for a long time
+But I have to continue my vengence
+
+After I get to Omicron
+Only then I can find peace in my soul...
+
+Now, I have to join NightHawks 
+And put on my pokerface...
+
+--Good path (Repulse)--
+It worked
+
+It was a pure gamble
+But worked
+
+There could be a possibility that NightHawks will think of me as a traitor
+But if I act properly, I may integrate
+
+They won't find my logs, because they can't see them
+And this guy was conducting some experiments on how police reacts to netcfgx.dll uploads
+This should work as my alibi
+
+Not bad results so far:
+I closed the case of Repulse
+One of mine best operetives is unharmed
+I got access to the group (Still may be a trap)
+
+But what do I have to loose?
+
+Thoughts about saving a person who wasn't just my subordinate, but my friend
+Are motivating more than anything else
+
+Time to put my mask on
+It is showtime...
+
+
+---Contract 1---
+--Data Manipulation--
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Hello agent, I have a request of a delicate type. I need to knockout my business competitors, colliding them with sudden tax inspection. I need you to plant a certain report with some "non-stated expenses" on the company's bookkeeping server, It is supposed to be in 11_19 folder.
+
+You can find Fin-Rep.accdb file on your organisation's Crossroads Server, I have an IP of their HR Department, from there you can explore their system.
+
+GOALS:
+
+1) PLACE Fin-Rep.accdb on FJR-Insurance company's bookkeeping server in 11_19 folder and reply this E-Mail
+
+
+---Contract 2---
+--Denigration--
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Greetings, I am Oswaldo, blackmail is my purpose of life and main line of work. I have a trouble with one polititian, name is J.J. Broadster, and I have some juicy photos of him and 19-y/o Kati, practising some BDSM, usual stuff I get on guys like him. Nobody will see these photos if he resign from his counselor post.
+
+Thing is, he think it is not a big problem for him and nobody would care about that. But hey, everybody loves some sex scandals, but definitely not female victims. So if I can't directly influence him, I need you to show Kati what can in theory make her a star of the academy. Place my photos on her PC (Link will be provided), You can find them on your organisation's Crossroads Server. Maybe she can motivate him better.
+
+And in the process, I need some fresh material that I can use. Get inside his PC as well and get anything personal and preferably dirty, then drop it on my Drop Server that I will provide.
+
+GOALS:
+
+1) UPLOAD dirty photos on Kati's PC (Place them in /home folder)
+2) UPLOAD all personal data of Broadster to Oswaldo's Drop Server
+3) REPLY to this E-Mail after everything is done
+
+
+---Contract 3---
+--Police Investigation--
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Hello fellow agent, we are having trouble with the CyberPolice. One of their detectives is really pushy and ruining our business, we need to put him out of the game but apperantly we can't find any logs despite that there is some outside activity on our servers.
+
+We will link one of our gateways, hope you will find anything there.
+
+	PERSONAL NOTES:
+This is someone from my PD!
+Of course the first thought is to make contact
+
+But how?
+
+And who is exactly investigating this case?
+
+I made a quick note that will attract attention to my persona
+Despite that it will ruin my entire cover
+But I must take this chance
+
+If it is someone of my subordinates, they will understand
+And hopefully won't give me out
+
+GOALS:
+1) FIND a mysterious detective and make contact (Upload a contact note that is located on your PC /home folder to that detective's PC /home folder)
+
+
+---Contract 4---
+--Foul Mouths--
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Hello agent, did you ever been annoyed by disrespectful mass media that is doing nothing but plotting controversy? Yeah I know, fuck'em, they talked shit about me spending my parents' money on whole cocaine batch for myself, but in fact that was for my hoes, they need some action while we play at my penthouse.
+
+Anyway, I want you to shut down that stupid news channel, and on the way ruin their infrastructire as well, like hit their mainframe like in good ol' Hollywood, I don't know, you are the hackster after all.
+
+GOALS:
+
+1) DISRUPT news channel server, so it won't show any articles (clear /MsgBoard folder)
+2) DESTROY mainframe of the news company (clear /sys folder)
+3) REPLY to this E-Mail after everything is done
+
+
+---Contract 5---
+--Data Extraction--
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+
+Agent, this is a huge money matter. We have been compromised and a group of hackers intercepted our transaction and wired our money to other bank account. The bank name is Union Gold, and they replied on our matter, that they will figure it out in a week, but my partners can't wait for so long.
+
+I want you to get inside that banking system and find a 16-digit number of a bank account where recently were dropped 11.6 million dollars. Original account is JNS33ID4-1523LAVF.
+
+GOALS:
+
+1) REPLY this E-Mail with a 16-digit number of the target bank account (Example: XXXXXXXX-XXXXXXXX)
+
+
+---Mission 9---
+--Operation Venomous Snake--
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+This operation requires a skill to infiltrate inside of a well-organized security system that use encryption.
+
+
+Jenkins - manage all tools we may need, including DECSuite, client provided it on a DECSuite Deploy Server
+
+Slayer - make sure that nobody will interfere in our operation
+
+Vortex - research and find a way to connect to the most secured units. There will be 5 of them (instructions are on DECSuite Deploy Server)
+
+Deladello - social engineering as usual, find all possible cracks and leaks that medical staff left
+
+Prophet - I need you to help me to create a mass upload of our ransomware
+
+Collect your decryption tool at the attached server
+Good luck
+	-M
+
+
+GOAL:
+UPLOAD ransomware to /sys folder of any life support unit you can find (5 in total)
+
+--Branch--
+-Diary-
+I made it to the client's PC
+
+I can try to manipulate his data to prevent that terrorist attack
+But in that case NightHawks won't get any attention, Omicron won't be interested
+
+Isn't it a disgusting thought, that I even consider to justify murder of nearly 60 people?...
+
+I need help from Clara
+She can analyze netcfgx.dll of that guy and find evidence of a terrorist attack preparation
+And now I know for sure that Omicron is alive and ready to make another assault. Clara should know about that
+
+I need to send her Malber's netcfgx.dll and a copy of HaHaTrap.bat for analysis
+I can simply place them in her workstation's /home folder
+
+Unless I'll finish the job...
+
+That would help me to confront Omicron directly
+But at what cost?...
+
+-Response-
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+I've made a quick scan
+Go back to our IRC
+
+
+---Mission 10---
+-?-
+THIS E-MAIL IS TRANSMITTING FROM THE EXTERNAL INBOX:
+	
+What is that?
+Go to the IRC
+
+
+---Bad Ending---
+--Cypher--
+-Diary-
+This is it
+
+Finally I can get to him and extract all I need to find him
+
+Though I lost everything I've got
+Only one thing is left
+Is to kill that motherfucker...
+
+For Clara
+For justice
+For myself...
+
+That OSequencer.exe is key to find his true battlestation
+And it will redirect me to it
+I just have to get in before he reacts
+
+GOAL:
+ACTIVATE OSequencer.exe and extract netcfgx.dll of Omicron's PC
+
+--Cypher--
+-Diary-
+Shit, fuck, FUUUCK
+
+That cunt made Clara outlaw as well!
+
+For fuck sake, I am so tired of this bullshit with sacrificing
+Why me? Why the FUCK IT SHOULD BE ME???
+
+What did I wrong in my entire life to deserve this, huh?
+
+I will remember that fucking day it all began
+Downloading a shitty drug evidence
+It would be fucking better if I didn't touch it at all!
+
+I have nothing to lose now
+That motherfucker will die in agony and burn in hell
+I will make sure of it...
+
+I have his location
+I just need to decipher it properly
+
+NightHawks will help
+I gave them tools
+Now they need to pay me back
+
+--Cypher--
+-Diary-
+Shit, fuck, FUUUCK
+
+That cunt made Clara outlaw as well!
+
+For fuck sake, I am so tired of this bullshit with sacrificing
+Why me? Why the FUCK IT SHOULD BE ME???
+
+What did I wrong in my entire life to deserve this, huh?
+
+I remember that fucking day it all began
+Downloading a shitty drug evidence
+It would be fucking better if I didn't touch it at all!
+
+I have nothing to lose now
+That motherfucker will die in agony and burn in hell
+I will make sure of it...
+
+I have his location
+I just need to decipher it properly
+
+NightHawks blocked me from the chat
+But I can still connect to the Hub
+I need to delete runtime.dll from /sys folder
+That way I can reset all restrictions on their server
+
+
+---Vengeance Ending---
+--Cypher--
+-Diary-
+Got it!
+Finally got it!
+
+That location file is a key to finally kill that motherfucker!
+Slayer has connections
+And once we will get all details
+Then I can kill Omicron
+
+I need to make sure it will be bloody as possible
+Fucker must suffer...
+
+NightHawks should help
+They are power drunk
+And easily manipulated now
+I have to use it in my advantage
+
+Should go back to the IRC...
+
+
+---Neutral Ending---
+--Cypher--
+-Diary-
+Fuck, fuck, fuck
+I lost him!
+
+Yeah, I saved Clara 
+But what the fuck is the point of all this then?
+
+I chased Omicron 
+Just to lose him right in the end?
+That's not fair...
+
+I really hope that Clara will be grateful for my actions
+And will help me too
+I just saved her ass after all...
+
+We need to destroy Omicron somehow
+Maybe he left some tracks on Clara's network
+
+I need to reset her channel if I want to contact her through it
+Just have to delete active.log in /IRC folder
+That will attract her attention
+And activate the channel
+
+--Cypher--
+-Diary-
+Fuck, fuck, fuck
+I lost him!
+
+At least I saved Calra
+Maybe that is even more important
+
+But I can lose Omicron as well
+I need help
+
+I really hope that Clara will be grateful for my actions
+And will help me too
+I just saved her after all...
+
+We need to destroy Omicron somehow
+Maybe he left some tracks on Clara's network
+
+I should go to our IRC
+(I need to reset her channel if I want to contact her through it
+Just have to delete active.log in /IRC folder
+That will attract her attention
+And activate the channel)
+
+
+---Good Ending---
+--Cypher--
+-Diary-
+That was way too close for Clara
+
+I can't endanger her anymore
+Just thinking that she can go through the same hell as me is frightening me
+
+We must do something to ensure our safety
+Maybe even drop the case for a few months
+It is not even a two-man job after all
+
+He can easily kill us or make monsters out of us
+This is his game and we should stop playing it
+
+I should go to our IRC
+
+
+
+NODES AND THEIR CONTENTS
+---Intro---
+
+--Hacknet_OS Internal Inbox--
+EnTech - Internal Inbox
+This Inbox is part of your system
+
+You can make any kind of logs or diary records here for future reference
+
+It is also connected to your external Inbox: Vort_Moz@jmail.com
+
+Other Hacknet_OS users can contact you through external Inbox 
+
+You can always access Internal Inbox using your Hacknet_OS username with empty password
+
+--San-Francisco Authority's Mail service--
+-EnTech - Congratulations and Pro tips-
+On behalf of the EnTech company, thank you for upgrading your Police Department security systems to our High-End solutions!
+	
+You now working under Hacknet_OS system and protected by EnSec security protocols, that can protect you from any kind of attack.
+	
+Because of the risk of high damage, use Hacknet_OS attack functions ONLY as an extreme measure to get access to criminal's computer systems. DON'T USE IT WITHOUT PERMISSION ON ANY NODES THAT ARE NOT CLASSIFIED AS CRIMINAL ELEMENT!
+	
+Hacknet_OS has trace-averting protective systems, so when you try to access a node with trace systems, a timer would start. If it expires, your workstation would crush and you would have to try again. If trace-averting systems would fail, a special sequence if IP-change procedure would start, allowing you to stay hidden from criminal's protective systems, but also you would lose access to your whitelisted servers, like you Police Depatment digital infrastructure. Contact your security assistant in that case.
+
+	PRO TIPS:
+	
+1)To track criminals, first things first, see logs of the attacked node. Any machine would leave a disconnect log that can't be deleted, so DON'T CLEAR LOGS, they are essential part of most cases. 
+
+And don't worry about passive trace, with new Police-exclusive security add-on your workstation will leave logs, which are only visible to other workstations with the same add-on, making them invisible to the criminal.
+
+2)Also you have to know, that most of the mobile devices have a sync with computers that can be accessed with an eOS scanner, which is universal. Admin passwords were also changed from "alpine" to "Alpine".
+
+3)Your digital security assistant would notify you when you will get your attack tools. When you will get them, you can access them in /bin folder of your workstation.
+	
+And again, thank you for choosing EnTech company,
+Have a very safe and productive day
+	
+			-Emily, Sales Department Manager
+			
+-Clara - Wake up, there are a lot of criminals to catch!-
+Captain, I think you really should NOT try to not sleep more than a few days!
+
+You overslept again, I finished the IRC debuging, so you can pay off to me with some fine coffee :-)
+
+We are very grateful for your devotion to the cybercrime fighting, but you HAVE to rest time to time.
+
+	
+Anyway, team is ready for some action for today and waiting just for you!
+
+You have to download the token file from our asset server (90.91.183.142), access with "Cypher" login and password "CyberCap"
+	
+
+Once done, simmply click the IRC Chat button, it will be located in top-right corner.
+
+	
+Let's kick some cyber-ass!
+	
+	-C
+---Mission 1---
+	
+--Presentation Laptop--
+-Presentation_Text.docx-
+Finally everybody is ready to see our next step in smartphone evolution - DICK 12 Pro, ladies and gentlemen!
+
+Our best quality and customer service will help you to finally get what you really deserve - style, comfort and neverending joy from our new DICK model!
+
+DICK 12 Pro will be your universal device, as for multichannel phone calling, and even your own film studio in your pocket!
+
+Now, let's see what are the specs of the new DICK:
+
+#BINARY#
+
+--ExTeRmiN@t0R's Battlestation--
+-I Wll Show Them.txt-
+Hell Yeah, Brendon thought he made a prank of the year? Well I am making a prank of the century, bitches!
+
+Can't wait when he will see for a presentation for some DICK 12 Pro XD
+
+Still have to come up with explanation to my Mom why her 8 grand dollars dissapeard for some script pack...
+
+--Digital Wind--
+-Glory for Communism!-
+How 
+can't 
+you 
+see 
+the 
+obvious 
+- 
+you 
+are 
+manipulated 
+by 
+a 
+capitalist 
+pigs 
+that 
+want 
+only 
+one 
+thing, 
+and 
+that 
+is 
+to 
+use 
+you 
+and 
+leave 
+you 
+with 
+NOTHING!
+
+-Death to the Capitalism!-
+We 
+will 
+not 
+let 
+dirty 
+capitalists 
+to 
+exploit 
+our 
+nation 
+for 
+a 
+sake 
+of
+wellness 
+of 
+20 
+people, 
+that 
+rule 
+this 
+country!
+
+-Time to Unite!-
+Raise 
+against 
+your 
+oppressors, 
+use 
+your 
+technological 
+skills 
+to 
+fight 
+back, 
+just 
+like 
+me! 
+WE 
+WILL 
+WIN 
+THEM 
+OVER!
+
+---Mission 2/3---
+
+--Daedra's Gateway--
+-Reminder-
+Dynamic mail server IP-updater changing IP every week 
+
+This week's IP is "43.58.94.100"
+
+--Dynamic--
+-Repulse - Done with the filedrop-
+Hey man, I've done the filedrop server, so clients can pick up their shit there.
+
+So I guess we will drop a Med file there when we gonna get it. I'll send info later.
+
+I hope you have a plan, because I can't crack all the ports ;(
+
+ -Rep
+ 
+-Repulse - Re:Re:Done with the filedrop-
+Sweet, so I am waiting for your reply in the IRC tomorrow!
+
+ -Rep
+-----------------
+I've got the Med Port cracker, so no worries, I will get it tommorow.
+
+ -D
+ 
+-Repulse - Re:In Case of Emergency-
+Sure, no probs man!
+-----------------
+Dan, could you please back up my personal PC? I cannot trust anyone except you in that mission.
+
+Here is the IP for my homebase "60.192.249.36"
+
+And make sure that netcfgx file is retranslating properly!
+
+P.S. Access through 12.111.65.135
+
+-MailBot - Access Change-
+Your active proxy has been shut down due to a technical difficulties.
+
+Saving logs on Gateway 82.139.222.48
+
+-Spam - BIG DICK IN 2 DAYS-
+Ever wanted to REALLY please a dame? Use our special pills "Horse Power"
+
+Contact info: *REMOVED BY SPAM-BOT*
+
+---Mission 4---
+
+--Repulse's Gateway--
+-REPORT.log-
+[08:45 PM] Computer files has been deleted successfully! Remember to restart computer to clear Memory cache from any dumps!
+
+-Дамп-
+IP successfully changed to 91.36.194.224
+
+---Mission 5---
+
+--Muskat's Battlestation--
+-Fluffy's Call.txt-
+He want to ask something really important and set up an email server (126.111.65.59). Must be some heavy shit on his mind.
+
+--Super_Fluffy's Battlestation--
+-Omicron-
+Got IP of the Omicron guy (59.103.6.188), can't get in, he is protected by something marvolous. He is definitely playing an act with his sloppiness!
+
+--Omicron's Relay--
+-Report_for_the_Boss.docx-
+Traffic details:
+
+New Mexico shipment stashed at the West warehouse. Contains:
+
+Methamphetamine - 50 kilos
+Heroin - 80 kilos
+Cocaine - 87 kilos
+Ecstasy - 7k pills
+Tranquilizers - 20k pills
+Mephedrone - 25 kilos
+
+Distributors have to load out the product is 2 days,
+Access is through our digital channels 
+
+Money-wiring account for Supplyer is GKSNV2854L-KSSEGI375GA
+
+Meantime, I will find a way to hide our moles in the Drug Enforcement Administration, as well as our men in the CyberPolice Departments
+ 
+		-O
+		
+--Proxy Node ZF25--
+-SYNC_SUCCESS.log-
+UPDATE PROCEDURE SUCCESS: DELETING SYNC FILES FROM THIS PROXY
+ 
+ IMPORTANT: reboot that machine for cache cleaning, there could be memory dumps!
+ 
+-Dump-
+Access Data reconfigured, sending report to "81.20.119.244"
+		
+			UPDATE PROCEDURE SUCCESS: 
+			DELETING SYNC FILES FROM PROXY
+			RELOCATING BUFFER CACHE 
+			
+		SUCCESS: EndOfTheReport
+		
+Access Data reconfigured, sending report to "55.128.35.25"
+		
+			UPDATE PROCEDURE SUCCESS: 
+			DELETING SYNC FILES FROM PROXY
+			RELOCATING BUFFER CACHE 
+			
+		SUCCESS: EndOfTheReport
+		
+--Team Rioba's HackStation--
+-logs-
+Establishing connection of users: Muskat, Super_Flufy, Omicron to *ADRESS DELETED*
+ 
+ CONNECTION SUCCESS
+	TRACE EVADING PROGRAM ACTIVATED
+	PORTHACK EXECUTED
+	FORKBOMB EXECUTED
+DISCONNECTION SUCCESS
+
+--Team Rioba's HackStation--
+-RELAY.log-
+CommandTrack sequence engaged: saving relay info for IRCHost
+
+-logs-
+Establishing connection of users: Muskat, Super_Flufy, Omicron to *ADRESS DELETED*
+ 
+ CONNECTION SUCCESS
+	TRACE EVADING PROGRAM ACTIVATED
+	PORTHACK EXECUTED
+	ERROR OF FORKBOMB EXECUTION
+DISCONNECTION UNSAFE! LOGS MAY HAVE BEEN LEFT!!!
+SENDING INFO TO THE IRCHost on "83.201.110.70"
+
+--Team Rioba's IRC--
+Super_Fluffy: What happened? I am receiving unsafe disconnect warnings
+Omicron: I tried to forkbomb it but that node started a reboot
+Muskat: I think we are safe, our proxy and relay infrastructure are well hidden
+Super_Fluffy: Next time be more careful, that was kinda stupid
+Super_Fluffy: Don't put us in risk, man
+Omicron: I am really sorry guys. At least I brought you that job in the first place
+Super_Fluffy: Thank you for that of course, and for SSL stuff
+Super_Fluffy: Just don't fuck up like that next time
+Omicron: Sure thing!
+Muskat: I am gonna play PointClicker to relax a bit
+Omicron: I want too! Remind me, where it is located?
+Muskat: Here you go man: 73.254.28.94
+Muskat: But I think I will tweak my points a little bit ;)
+Super_Fluffy: Don't forget to wipe the logs then
+Muskat: Oh come on, who is gonna search there for me?
+Super_Fluffy: You never know who is listening
+Muskat: Well cops don't play that for sure
+Super_Fluffy: Just be careful
+
+--Blank Mail Server--
+-Trust Issues-
+I really don't trust that Omicron guy. How is this possible that this sloppy guy invented SSL Trojan crack? It just doesn't feel right. He can play tricks on us, watch your back!
+
+No, I am not paranoid, call me in Distort when you finish that stupid clicking game
+
+  -Fluff
+  
+---Mission 6---
+
+--/h/ Hacker Board--
+-Thread 1-
+------------------------------------------
+#Speech
+>ATTENTION EVERYONE
+
+Welcome to our humble criminal community of cool hackers!
+
+If you are cool hacker - then you are cool!
+People around here practice their hacker activity
+You can join our community if you found this MsgBoard
+
+1 SINGLE RULE : BE COOL
+------------------------------------------
+#Duck
+Is this some Script Kiddie shitty joke that I don't get?
+------------------------------------------
+O MA GAD, IT IS DUCK MAN!
+------------------------------------------
+UUUU Y0u r n0t c00l d@k, g0nn@ h@k Ur @$$
+------------------------------------------
+#Duck
+Jesus fucking Christ, your retarded children community made my fucking day XD
+------------------------------------------
+------------------------------------------
+
+-Thread 2-
+#Mod
+If anyone want to prove me that he got some balls, try to hack my uber cool dual-port security system, I paid 10 grand and my old man won't even find out about it
+
+YAAAAA Hack Da Warld
+>149.183.107.65
+------------------------------------------
+Wow man, where did you get that stuff?
+------------------------------------------
+#Mod
+Can't get in? EXACTLY!
+Told ya I am gonna be some Cyber G@ngsta
+------------------------------------------
+#Circle
+My god, what an embarrassment...
+I'll pay to anyone who is going to 
+>wipe his /sys folder 
+And make him cry
+------------------------------------------
+How much paying?
+------------------------------------------
+#Circle
+Definitely not you kid:
+1) You have no security system whatsoever, I can gain access through 1 open port;
+2) You got only ssh cracker;
+3) You are stupid kid named Jeffry Babinski, 12 yo, worst grades, a disappointment to your parents.
+Do I have to continue if I found all that information in 1 minute?
+------------------------------------------
+What the fuck man? Delete that shit or I gonna tell the cops
+------------------------------------------
+#Circle
+>84.172.98.106
+Here is Jeff's IP, please spam his PC with unfunny memes
+------------------------------------------
+------------------------------------------
+
+-Thread 3-
+Can someone tell me how to hack? I got something called FTPBounce and can't figure out how to use it
+------------------------------------------
+Oh it is simple, can you give me your IP, I will set it up for you so you can be cool hacker
+------------------------------------------
+Wow that is so nice of you, sure thing, it is 126.156.236.82
+------------------------------------------
+Hmm yes, I see the problem, you have to activate it, you can do that with ActivateMortar.exe tool
+------------------------------------------
+What is it? I don't have that and never heard of it
+------------------------------------------
+Oh, I can help, but you have to open your ports for me, so I can use my ActivateMortar.exe
+See any guide online for that
+------------------------------------------
+Ok, I think I got it
+------------------------------------------
+Yeah, sleep tight stupid kid, say goodbye to your personal data
+------------------------------------------
+------------------------------------------
+
+-Thread 4-
+#Mod
+Oh my fucking god, who done that?
+WHO THE FUCK DONE THAT?
+
+My computer stopped working and I have to borrow my mom's laptop to write this warning:
+
+You, asshole!
+I am talking to you
+If you are a guy I gonna bust your nuts
+And if you are a girl then I will rip of you fucking tits
+I HATE YOU
+PIECE OF SHIT
+MY HOMEWORK WERE THERE
+I WASTED THREE WEEKS FOR THAT MOTHERFUCKING LAB PROJECT
+BURN IN HELL, TOXIC SON OF A BITCH
+------------------------------------------
+#Circle
+>YEEEES
+That is what I want to see: a crybaby moderator of a hacking board, who complains about being hacked
+------------------------------------------
+#Mod
+It was you stupid circle jerk who started this shit!
+------------------------------------------
+#Circle
+Nah, it was you who started showing of your own IP publicly and claiming to have some tight security
+Basically beg everyone to get inside
+------------------------------------------
+#Mod
+That's it, gonna ban your circle ass
+------------------------------------------
+#Circle
+You won't, I am moderator as well already
+------------------------------------------
+#Circle
+To the person, who made me laugh for a minute straight
+>Thank you!
+Please accept this little gift, I hope you don't have it already
+>212.42.92.36
+------------------------------------------
+
+*POST DELETED*
+
+------------------------------------------
+
+-Thread 5-
+#Circle
+I have a business proposition to the guy, who wastes his time on trolling kids for my amusement
+
+If you want to work on something interesting together, go here:
+>120.138.80.110
+
+If you have everything you need, you will be able to get inside
+I hope I am not mistaken in you
+------------------------------------------
+------------------------------------------
+
+---Mission 7---
+
+--Edward's PC--
+-IRC Memo.txt-
+Address of surgical sector chat is 211.74.214.49
+
+--Adrian's PC--
+-List.txt-
+1) Have to find new place to live, parents kicking me out
+2) Need to find some money, will try to loan from Phil
+3) Must send emails about my situation and ask for help (Sync_from_eOS: @62.35.253.222 Inbox:Adrian3409@jmail.com Password:NancyAndAdrian2020)
+4) Pray
+
+--JMail--
+-Nancy - IDIOT!-
+If you think I will go out with someone so stupid as you, that would prove you're even more stupid then I thought
+
+Consider we never knew each other, farewell
+
+-Westbrook University - Exclusion Procedure-
+Dear Adrian Baker,
+
+You have been expelled from the Westbrook University for extremely poor academic performance and multiple disciplinary warnings.
+
+You may get official document about your exclusion procedure at the University's Document Archive (82.52.249.229).
+
+Despite the fact of your exclusion, we hope you will solve all your problems and we are more than happy if you try to re-instate your position in the next acadamic year.
+
+We hope to see you again and we wish you all the best,
+    
+	-Sharon Hamphrey, Westbrook University's communication sector
+	
+--Sutter Medical Center, surgical sector's IRC--
+-Surgical Sector-
+Robert Gallard: Another day, another life saved
+Abigail Nelson: Yep, I gotta rest a bit, haven't slept for 3 days already
+Anthony Walker (MOD): Well, I still have to figure out that security problem
+Vanessa Lewis: Ironic that I can handle professional medical equipment but can't get along with simple PCs
+Edward Davidson: What security problem?
+Anthony Walker (MOD): Ah, annoying thing, tech guys from one medical company think our Cyber Security is weak because recently hacker groups assaulted a few medical servers
+Abigail Nelson: Sounds like a big problem
+Anthony Walker (MOD): Maybe, so I am working on finding a way to eliminate that vulnerability
+Vanessa Lewis: Best of luck!
+
+--Kellis BioTech's Security Archive 267--
+-Memo.txt-
+This is a prototype of a medical services port breaker, DO NOT SEND THIS COPY TO UNAUTHORIZED PERSONS
+
+--Anthony's PC--
+-Kellis Report.docx-
+(CONFIDENTIAL: DO NOT SHARE THIS WITH ANYONE)
+
+Report from Kellis BioTech, Security Chief Logan Derrick:
+
+Recently we discovered that one of our security protocols for medical servicies (Special port Num. 104) has a critical vulnerability that allows you to break that port, using overflow of self-cyciling comands.
+
+Your email adress was assigned as a Security Administrator of a California Medical Facility, and therefore, this security problem involves you as well.
+
+You can analyze port-breaker tool and find a way to resolve the problem. You can download a prototype here: 48.189.248.31
+
+(CONFIDENTIAL: DO NOT SHARE THIS WITH ANYONE)
+
+--Westbrook University's Sport Center--
+-Report.txt-
+This kid, Charles, kicked voleyball ball again
+
+Next time I am gonna kick his head
+
+--Westbrook University's Federal Systems Relation Center--
+-Important.txt-
+This computer is connected to the International Academic Database (California State access).
+
+Access is permitted to admins of this computer.
+
+You have to use password "ScienceIsPower" to enter admin mode on the Database.
+
+When you finished changing entries, don't forget to log out properly.
+
+All unauthorized access episodes will be considered as a crime and will be punished using Federal Law.
+
+--NightHawks' Side Station--
+-Note.txt-
+This server is NightHawks' side station in case of any emergency
+
+It is also used for covert operations on mobile devices (work in progress)
+
+Server is using dynamic IP script, so all members should flag this server to prevent loosing its address
+
+-Vortex-
+He is a new potential member, weak for now, but has an interesting ability to cover his logs automatically and we can't trace him, and so our potential enemies
+
+I baited him with the NetMap fixer that I made just for him
+without second part of it, NetMap is still inoperable 
+
+It is located on one of my archives (58.141.177.25)
+If anyone from the group is against letting him in, simply delete fixer file from linked machine, you all know how to pass
+
+--NightHawks' Gateway--
+-Hello.txt-
+Go fuck yourself and get out of here :-)
+
+-eOs 1-
+Need more unfunny memes to troll kids
+
+-eOs 2-
+I can see you
+
+Baka
+
+--Proxy Node GH5--
+-Reconfiguring_Tool_Status.txt-
+DYNAMIC IP SCRIPT IS ENABLED
+
+REMAPPING THIRD VALUE:
+	
+	57
+	
+---Mission 8---
+
+--James-Jonathan's PC--
+-Plans.docx-
+Dear Kati! There is a small changes in our romantic plans, we have to go to another place this weekend, and don't worry, uncle James found a new 5-star hotel just outside the city.
+
+Meanwhile, look at the new poses that I found for hot threesome, so I am expecting you with your best friend Jane, if of course you want that sweet apartment on New-Lane Ave. ;)
+
+-Notes.docx-
+Previous places are compromised, I told David to find and reserve hotels with more intensive "Privacy" policy, going to visit Marsh Hotel this weekend while Debra and kids are on the vacation
+
+--Diamond Breeze--
+-A New Demonstration Of Activists Is Outside Oakland Police Department-
+The ongoing story of a Craig Birds, ex-lieutenant of Oakland PD, who is been accused of multiple cases of power abuse, made a 180 degrees turn! Mr. Birds has been released from courthouse this afternoon with all charges lifted.
+
+Activists demand to reopen this case and they are more than certain that judge Mays is another 'pocket change' of Mr. Birds alleged power-abusing system.
+
+Meanwhile, crime activity of all kinds has been increasing in Oakland lately, making it one of the unsafest cities of California State.
+
+	-George Miller, Diamond Breeze Reporter
+	
+-A Son of a Billionaire is Spending Huge Pile of Money on Cocaine and Gets Away With It-
+Michael Rosemond, a son of a well-known construction business billionaire Frederick Rosemond, was detained yesterday by a patrolman of LAPD James Grant. Young man was showing off to a different women he was meeting along the street that he is carrying 12 kilograms of a white powder, which later was confirmed to be a high-grade cocaine.
+
+Despite the obvious evidence of a Michael's guilt, he was released this morning with all charges lifted, because it turns out, that lab expertize was faulty and young man was carrying a simple sugar and was portraying it as a narcotic.
+
+Local active-citizen groups are signing a petition to review Rosemond Jr. last activity and his behaviour. They believe that "This golden boy is lost all kind of control and thinks that he is a God himself".
+
+Further notice is expecting.
+
+	-Dan Sharp, Diamond Breeze Reporter
+	
+-Deflation Is In Progress-
+Minister of Economy Morgan Shellard stated that economical state of USA is drastically improved since last year. He assures all of the american people that our country is regaining economical power way beyond imagination and every citizen of all big cities can afford anything they ever wanted.
+
+Multiple independent economists are thinking that statement is oversaturated with inaccuracy and very hyperbolized. More importantly is that deflation has a negative side as well and everyone should prepare for unforseen consequences of speeches like that.
+
+	-Harold Shrader, Diamond Breeze Reporter
+	
+-BREAKING NEWS: Allan Turner Found Dead-
+Allan Turner, recently fired from Sacramento PD, has been found dead in Alaboro motel. Apparently it is a suicide.
+
+This man was a renowed detective of a Sacramento PD, and just recently was fired because of no prove of his qulification or certifiacate of a Police Service Admission, which apparently he masterly faked.
+
+There was also quite a scandle with his personal life, as it appears he infected his wife with HIV and Syphilis after a couple nights with prostitutes.
+
+Sacramento PD could not handle such controversial person and fired Allan which led to a severe depression. Apparently, it is a main motive of a suicide.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+	
+-BREAKING NEWS: Javis Williamson Found Dead-
+Javis Williamson, recently detained detective of a San-Francisco CyberPolice Department, has been found dead in his cell. Apparently it is a suicide.
+
+Mr. Williamson was alleged partner of a Cypher Mendes, a captain of the same PD, who is now on the Wanted list for organizing digital platform of a drug trafficking.
+
+But due to a lack of evidence, charges were lifted from Mr. Williamson, but all these events affected him and led to a depression. "I knew this man for most of my life and I would never believe that he was a part of something horrible like that. All these events ruined my world perspective and all these accusations of being a part of this as well are driving me insane!" says Mr. Williamson.
+
+He was perscripted with soft-type narcotics to ease depression effects, but anonymous source revealed that he sold them in order to get heroin. After that, Mr. Williamson was detained.
+
+It was a surprise for whole PD that all his qualification data is missing, while Mr. Williamson could not explain any of it. All this events apparently gave Mr. Williamson too much pressure he could not possibly handle and committed suicide right in the cell.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+	
+-Daniel Morales (a.k.a Repulse) Detained-
+Daniel Morales, also known as a hacker Repulse, has been apprehended.
+
+Police was after him for a 2 months after he and his partner, Robert Dockins a.k.a Daedra, attacked San-Francisco Medical Archive.
+
+Detective Bows, who is responsible for that operation, says that he got an anonymous tip from unknown individual through one of the Police digital gateways. The true source of information remains hidden.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+	
+-BREAKING NEWS: Henry Evans (a.k.a Jester) Detained-
+Henry Evans, also known as a hacker Jester, has been apprehended.
+
+Police was interested in him after he was paroled for good behaviour from his gun selling sentence. It turns out, he didn't just resumed his criminal activity, but even expanded his arms business, and he is also found guilty of a first degree murder.
+
+Detective Isaac, who is responsible for that operation, says that he got an anonymous tip from unknown individual through one of the Police digital gateways. The true source of information remains hidden.
+
+Further notice is expected.
+
+	-Dan Sharp, Diamond Breeze Reporter
+	
+--Gossip Archive--
+-To_Jane.txt-
+Give back my toilet paper!
+Or else, next article will be about you, fucking nit!
+
+---Mission 9---
+
+--DECSuite Deploy Server--
+-Entry_Points_2.dec-
+Here are 3 Entry Points: West Wing, Kellis BioTech, Medical Archive. They contain 5 life support units
+
+222.176.165.116
+160.173.170.74
+202.210.23.133
+
+--Kellis BioTech, Equipment Managing--
+-Details.txt-
+Export Details:
+Los-Angeles: 250 pacemakers, 45 life support units
+San-Francisco: 200 pacemakers, 25 life support units
+Sacramento: 150 pacemakers, 60 life support units
+
+Other regional locations are archived on other location-based servers
+
+--NLH Hospital, Kellis BioTech Additional Server--
+-Important.txt-
+Simon, Kellis BioThech Inc. provided an additional life support unit, I emailed Dr. Evans (Nigtoren) about it, he will set it up. You should ask all details from him
+
+--Proxy Server Z30--
+-Note.txt-
+Nigel, please, make sure this encryption software is working properly, we had a bug with addressing server, it is in locked mode now
+
+--NLH Hospital, Side Server--
+-Reminder.txt-
+All patients should have a digital Med File in order to use all computer equipment properly. All Med Files are stored in appropriate database (102.36.38.173)
+
+--Side Medical Archive--
+-Mrs._Jane_Dotry.txt-
+We've got a new patient, severe state, she requares a life support unit ASAP
+
+Made a note in her Med File (look for Jane Dotry)
+
+--NLH Hospital, Internal Mailing--
+-Kellis BT - LS-Machine has been shipped-
+Greetings Dr. Evans, an additional life support unit has arrived to Never Loose Hope Hospital, we hope our contribution in support of your new medical policy would make us great partners in future business.
+
+	Stay healthy,
+	Mary - Delivery Sector
+	
+-Simon - Re:Re:LS Unit-
+Thank you Dr. Evans!
+---------------
+It is 176.0.9.163, keep it confidential!
+---------------
+Hello Dr. Evans, it is Simon from pulmonary ward. Thank you for giving us a life support unit, we couldn't be more grateful! But we also need an external IP to connect it to our comuter systems. Could you please tell me?
+
+--Leaking IRC--
+Leak_agent_56: You've reached LEAK, what piece of data do you want?
+Malber: I need DECSuite
+Leak_agent_56: That will cost you 25k
+Malber: Money isn't an issue
+Leak_agent_56: Wire them here VFEJIO38-OSV04HUF, it is a one hour account, so hurry up or no deal
+Malber: Done
+Leak_agent_56: Where do you want your order to be dropped?
+Malber: Right here
+Leak_agent_56: Dropped, after your download, files will be deleted. Nice having business with you. LEAK out!
+
+--LEAK--
+-To_Mike.txt-
+Do you have a fucking ape brain or what? What synapse of your mind thought that it was a good idea to forward a confidential access data through moderate-protected front-end server? I am deleting this shit and if that will happen again, your sick mom won't get her treatment funds next month
+
+-NOTE.txt-
+This is a front-end server of the LEAK. Assets DataBase is located on the linked server
+
+--Mike's PC--
+-IRC_09.log-
+//[09:21]/Mike/And most funniest thing I ever saw is how our admin managed his access data XD//
+//[09:21]/Dalvin/How?)//
+//[09:22]/Mike/He is using his jmail for passwords restoring and it is so dumb to name that mail account "LEAK_ADMIN". Like, come on man, it is just so stupid, and then they blame me for different fuck ups, sheesh//
+//[09:23]/Dalvin/jmail is joojle.jmail.com[@Hacknet_OS_Scan:62.35.253.222], right?//
+//[09:23]/Mike/Yeah. And on top of all that, he LITERALLY sets his password to be a reversed username!//
+//[09:23]/Mike/Like, people could simply "lockpick" his email account and just enter "admin+NewPassword" into database's login and that't it!//
+//[09:24]/Dalvin/I think you shouldn't say that anywhere, even here//
+//[09:24]/Mike/Big Bro listening and all that? I don't know, I have a nice security but you right, who knows...//
+
+---NH Crossroads (Jester)---
+-GOALS.txt-
+Target: Allan Turner
+
+1) SEND Allan's Med File to the RAPTOR@jmail.com (Gain access to the medical archive and search for his entry)
+2) WIPE OFF Allan's degrees (Gain access to the academical archive and search for his entry)
+
+-Details.txt (Medical_part)-
+I know an address of the server but you can't get in that simply, they have a special port Num. 104, and obviously nobody left admin's password for you.
+
+You have to find either a password, either a port breaker. All I could find is a PC of one doctor. These folks work with that archive regularly, you'll most probably find some entry point there, use some social engeniering.
+
+Archive: 102.36.38.173
+Doctor: 221.214.78.150
+
+-Details.txt (Academical_part)-
+This one gets tricky, because I have no fucking idea where to look.
+
+Actually, there is one lead, though might sound weird. I know a guy who know a guy who got kicked out off the university recently. Luckily, it is the same one Allan finished, and it is connected to the International Academic Database. Gain access through that dropout kid, he supposed to contact university staff
+
+Lead:178.184.180.189
+
+-Oath.txt-
+I am acknowledging next rules and will obey them:
+
+I will always evolve and try to become stronger and powerful in all life's aspects
+
+Morality is a codex of weak people to make everyone equally weak as well, and if that stands on my way of getting more powerful, I will ignore it
+
+There is no mercy to the weak people, because they could stay strong, but preferred opposite, and as honorable agent of fate, I swear to utilize such individuals as tools or react to them as a trash
+
+If I have a choice between weakness and death, death is the only way, because I will die strong and independent, and won't live a miserable life as a slave
+
+-Memo.txt-
+Attention to NightHawks!
+
+This set of memory-sensitive software is used to extract dumps from all kind of machines. Use this to get a piece of data and analyze it, so it can be restored after deletion procedure
+
+-PD list-
+This is a part of a list of Police Departments of California State
+
+Be careful and remember their addresses, so you can identify them properly if you found them in any logs:
+
+-Dump 1-
+IRC DUMP HAVE BEEN RELOCATED HERE DUE TO PROXY INSTABILITY
+				
+Maverick: Did you investigate those police servers?
+				
+Jester: Yes, they are being renovated by EnTech I presume, 
+they have fancy whitelists and other extreme security measures
+				
+Maverick: We could profit from their Asset servers
+				
+Jester: They are unreachable, at least for now
+				
+Jester: Also, you should tell everyone to be careful, 
+there was a nasty story recently, involving some of these PD servers
+				
+Maverick: Speak
+				
+Jester: All listed servers, except Santa-Rosa are renovated, 
+I think it is a matter of time when Santa-Rosa gonna join EnTech's "Enrichment Program"
+				
+Jester: Meaning Santa-Rosa is still vulnerable 
+And they don't have new scanning systems as well
+				
+Maverick: So they are outsiders for now?
+				
+Jester: I wouldn't say it that way, we made a little test last month 
+and we dropped dirty netcfgx.dll from a test machine
+				
+Jester: They seem to retransmit it to somewhere else
+				
+Jester: Thing is, cops arrived in a 52 minutes
+				
+Maverick: Ah shit, here we go again
+				
+Jester: As long as we staying away from them, I don't think they'll locate us
+				
+Maverick: I'll ring some bells to find out what we can do about it, 
+maybe we should disrupt their transmitter
+				
+Maverick: As for now, we are going dark...
+				
+			END OF IRC DUMP
+			
+-Dump 2-
+IRC DUMP HAVE BEEN RELOCATED HERE DUE TO PROXY INSTABILITY
+			
+Jester: Jenkins, I fucking tired of it, 
+When you will learn how to use a fucking erase-script properly?
+I am tired of sending your tools over and over again after your unsuccesful experiments
+				
+Jester: Here is your fucking WebWorm
+				
+Jester: !ATTACHMENT:link#%#Archive Node#%#212.42.92.36
+				
+			END OF IRC DUMP
+			
+---NH Crossroads (Repulse)---
+-GOALS.txt-
+Target: Javis Williamson
+
+1) SEND Javis' Med File to the RAPTOR@jmail.com (Gain access to the medical archive and search for his entry)
+2) WIPE OFF Javis' degrees (Gain access to the academical archive and search for his entry)
+
+-Details.txt (Medical_part)-
+I know an address of the server but you can't get in that simply, they have a special port Num. 104, and obviously nobody left admin's password for you.
+
+You have to find either a password, either a port breaker. All I could find is a PC of one doctor from other city. These folks work with these archives regularly, you'll most probably find some entry point there, use some social engeniering.
+
+Archive: 182.172.94.94
+Doctor: 221.214.78.150
+
+-Details.txt (Academical_part)-
+I don't have a direct link to the archive but I know where you possibly could get it
+
+I know a guy who know a guy who got kicked out off the university recently. Luckily, all universities are connected to the International Academic Database, you can gain access from their systems
+
+The excluded kid must have some kind of a clue how to get inside university's systems
+
+Dropout kid:178.184.180.189
+
+---Bossfight---
+--FUCK YOU--
+-Source here!.txt-
+Nah, you are just dumb!
+
+--GO FUCK YOURSELF--
+-SourceSourceSource.txt-
+8======D
+Suck it
+
+--PATHETIC LEECH--
+-Source_Fragment.txt-
+3=174
+
+--LITTLE BITCH--
+-Source_Fragment.txt-
+4=159
+
+--GO HOME AND CRY--
+-Omicron's IP.txt-
+666.420.FUCK.YOU
+
+--QUIT ALREADY--
+-Source.txt-
+EMPTY
+
+--PIECE OF SHIT--
+-Source_Fragment.txt-
+1=204
+
+--SMASH YOUR HEAD--
+-Address.txt-
+Look at the name of the server => Execute
+
+--DUMB FUCKER--
+-Source_Fragment.txt-
+2=63
+
+--EAT SHIT--
+-Secret.txt-
+PINAS
+
+
+
+OTHER
+
+-Operation Dragon Lord-
+Some people are very interested in internal details of Lao Zhin's arms business, client requiring all trafficking intel
+
+Jenkins - Need to prepare appropriate tools
+Slayer - Covering tracks and witness disposal
+
+
+-Communication-
+Make contact with Shuriken Alliance and convince them to help us
+
+
+-Operation Dragon Lord-
+Final Stage Execution
+
+
+-Resting-
+--DO NOT DISTURB--
+
+
+-Personal Matter-
+--DO NOT DISTURB--
+
+
+-Assist In Search Mission-
+Join Deladello and Prophet
