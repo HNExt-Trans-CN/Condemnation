@@ -2,34 +2,34 @@ config playerComp Delay 0.0 $#%#$
 clearTerminal $#%#$
 showTerminal $#%#$
 delay 1 $#%#$
-writel ---------------------CREDITS--------------------- $#%#$
+writel ---------------------制作人列表--------------------- $#%#$
 delay 1 $#%#$
-writel Project lead: $#%#$
+writel 项目领导: $#%#$
 delay 0.5 $#%#$
 write danilapon $#%#$
 delay 5 $#%#$
 writel $#%#$
-writel Story: $#%#$
+writel 故事来源: $#%#$
 delay 0.5 $#%#$
 write danilapon $#%#$
 delay 5 $#%#$
 writel $#%#$
-writel Programming: $#%#$
+writel 代码编写: $#%#$
 delay 0.5 $#%#$
 write danilapon $#%#$
 delay 5 $#%#$
 writel $#%#$
-writel Programming Assistance: $#%#$
+writel 代码指导: $#%#$
 delay 0.5 $#%#$
 write Fayti1703,chanbakjsd $#%#$
 delay 5 $#%#$
 writel $#%#$
-writel Testers: $#%#$
+writel 测试者: $#%#$
 delay 0.5 $#%#$
 write danilapon, Raven, chanbakjsd $#%#$
 delay 5 $#%#$
 writel $#%#$
-writel Music by: $#%#$
+writel 音乐: $#%#$
 delay 0.5 $#%#$
 writel Cyanotic - Monochrome Skies (The Medication Generation) $#%#$
 delay 0.5 $#%#$
@@ -50,7 +50,7 @@ delay 0.5 $#%#$
 writel Arti-Fix (C) RENAISSANCE $#%#$
 delay 15 $#%#$
 writel $#%#$
-writel Images by: $#%#$
+writel 图片: $#%#$
 delay 0.5 $#%#$
 writel Abstract Wallpaper - lukeschmader $#%#$
 delay 0.5 $#%#$
@@ -61,20 +61,25 @@ delay 0.5 $#%#$
 writel Wallpaper - DyosEL $#%#$
 delay 10 $#%#$
 writel $#%#$
-writel Sound Effects by: $#%#$
+writel 音效: $#%#$
 delay 0.5 $#%#$
 writel KNOCKS - chevy1976 $#%#$
 delay 0.5 $#%#$
 writel Fighting men - vedas $#%#$
 delay 10 $#%#$
 writel $#%#$
-writel Special Thanks: $#%#$
+writel 中文版翻译: $#%#$
+delay 0.5 $#%#$
+writel gao_cai_sheng $#%#$
+delay 10 $#%#$
+writel $#%#$
+writel 特别感谢: $#%#$
 delay 0.5 $#%#$
 writel Matt Trobbiani, Fayti1703, Raven, chanbakjsd $#%#$
 delay 0.5 $#%#$
-writel All Hacknet community $#%#$
+writel 整个Hacknet社区 $#%#$
 delay 0.5 $#%#$
-writel And You! $#%#$
+writel 还有你! $#%#$
 delay 10 $#%#$
 writel ---------------------THE END--------------------- $#%#$
 delay 20 $#%#$

@@ -9,153 +9,150 @@ clearTerminal $#%#$
 hideNetMap $#%#$
 hideDisplay $#%#$
 delay 3 $#%#$
-write GREETINGS $#%#$
+write 你好 $#%#$
 delay 0.5 $#%#$
-write CAPTAIN $#%#$
+write 队长 $#%#$
 delay 0.5 $#%#$
 write MENDES $#%#$
 delay 2 $#%#$
 writel $#%#$
 writel $#%#$
 writel $#%#$
-write SORRY $#%#$
+write 抱歉 $#%#$
 delay 0.5 $#%#$
-write TO $#%#$
+write 打扰 $#%#$
 delay 0.5 $#%#$
-write DISTURB $#%#$
+write 到你 $#%#$
 delay 0.5 $#%#$
-write YOU $#%#$
+write 但是 $#%#$
 delay 2 $#%#$
 writel $#%#$
-write BUT $#%#$
+write 我 $#%#$
 delay 0.5 $#%#$
-write I $#%#$
+write 必须 $#%#$
 delay 0.5 $#%#$
-write HAVE $#%#$
+write 得 $#%#$
 delay 0.5 $#%#$
-write TO $#%#$
+write 让 $#%#$
 delay 0.5 $#%#$
-write ASK $#%#$
+write 你 $#%#$
 delay 0.5 $#%#$
-write YOU $#%#$
+write 停下 $#%#$
 delay 0.5 $#%#$
-write TO $#%#$
+write 你 $#%#$
 delay 0.5 $#%#$
-write STOP $#%#$
-delay 2 $#%#$
-writel $#%#$
-writel $#%#$
-write THIS $#%#$
+write 那 $#%#$
 delay 2 $#%#$
 writel $#%#$
 writel $#%#$
-write INVESTIGA... $#%#$
+write 调查... $#%#$
 delay 5 $#%#$
 writel $#%#$
 writel $#%#$
 writel $#%#$
-write can you hear me? $#%#$
+write 你能听到我吗? $#%#$
 delay 3 $#%#$
 writel $#%#$
 writel $#%#$
 write umm.. $#%#$
 delay 0.5 $#%#$
 writel $#%#$
-write you hear me? $#%#$
+write 你能听到我吗? $#%#$
 delay 5 $#%#$
 writel $#%#$
 writel $#%#$
-write well, that's anticlimactic... $#%#$
+write 好吧，这太滑稽了... $#%#$
 delay 5 $#%#$
 writel $#%#$
-write let me fix this $#%#$
+write 让我修复一下 $#%#$
 delay 5 $#%#$
+writel #检测到外部语音来源，已开启自动翻译# $#%#$
 delay 0.84 $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent Greetings Captain Mendes $#%#$
+write_silent 你好，Mendes 队长 $#%#$
 delay 3.20 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent Sorry to disturb you $#%#$
+write_silent 抱歉打扰到你了 $#%#$
 delay 1.47 $#%#$
 writel_silent $#%#$
-write_silent But I have to ask you to stop this investigation $#%#$
+write_silent 但是我必须要求你停止你的调查 $#%#$
 delay 3.55 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent I can see you found my little secret $#%#$
+write_silent 我发现你发现了我的小秘密 $#%#$
 delay 4.32 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent That wasn't supposed to happen $#%#$
+write_silent 但那根本不应发生 $#%#$
 delay 3.01 $#%#$
 writel_silent $#%#$
-write_silent And my employers are very disappointed with this situation $#%#$
+write_silent 我的上司对这种情况非常失望 $#%#$
 delay 5.00 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent Sooo I came up with a little plan $#%#$
+write_silent 所以我想出了一个小计划 $#%#$
 delay 3.50 $#%#$
 writel_silent $#%#$
-write_silent You see? You think that you won $#%#$
+write_silent 你看?你以为你赢了 $#%#$
 delay 3.48 $#%#$
 writel_silent $#%#$
-write_silent That you got the evidence of a drug trafic $#%#$
+write_silent 但是你有贩毒的证据 $#%#$
 delay 3.11 $#%#$
 writel_silent $#%#$
-write_silent But my, oh my, wouldn't you be surprised? $#%#$
+write_silent 但是，啊，你不会感到惊讶吗? $#%#$
 delay 4.39 $#%#$
 writel_silent $#%#$
-write_silent This file has a little script for your workstation $#%#$
+write_silent 那个文件有个小脚本 $#%#$
 delay 4.20 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent Your IP is ALL OVER our infrastructure of a drug-traficing platform $#%#$
+write_silent 您的IP遍布我们的贩毒平台基础设施 $#%#$
 delay 7.35 $#%#$
 writel_silent $#%#$
-write_silent And your FBI buddies, which right now digging deeper to find us $#%#$
+write_silent 然后你的FBI好友，现在正在深入挖掘以找到我们的那帮家伙 $#%#$
 delay 6.40 $#%#$
 writel_silent $#%#$
-write_silent Would be really surprised $#%#$
+write_silent 会非常的惊讶 $#%#$
 delay 2.57 $#%#$
 writel_silent $#%#$
-write_silent That Cypher Mendes, The Captain of San-Francisco CyberPolice Department $#%#$
+write_silent 因为Cypher Mendes，San-Francisco网安部门队长 $#%#$
 delay 6.28 $#%#$
 writel_silent $#%#$
-write_silent Is a fucking druglord's personal assistant $#%#$
+write_silent 是该死的毒贩的私人助手 $#%#$
 delay 4.09 $#%#$
 writel_silent $#%#$
-write_silent Wouldn't that be funny? $#%#$
+write_silent 那不是很有趣吗? $#%#$
 delay 2.33 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent But hey, nothing personal $#%#$
+write_silent 但是，嘿，没什么私人的 $#%#$
 delay 3.71 $#%#$
 writel_silent $#%#$
-write_silent Only business $#%#$
+write_silent 只有的是商业上的事情 $#%#$
 delay 2.45 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent My employers want you out of the game $#%#$
+write_silent 我的上司想让你滚出这场游戏 $#%#$
 delay 2.52 $#%#$
 writel_silent $#%#$
-write_silent So I did that right now $#%#$
+write_silent 所以我这么做了 $#%#$
 delay 1.91 $#%#$
 writel_silent $#%#$
-write_silent But I wonder... $#%#$
+write_silent 但是我在想... $#%#$
 delay 2.24 $#%#$
-write_silent What are you capable of in such extreme situation? $#%#$
+write_silent 在这种极端情况下，您有什么能力? $#%#$
 delay 5.34 $#%#$
 writel_silent $#%#$
-write_silent Let me give you a second chance $#%#$
+write_silent 我再给你一次机会 $#%#$
 delay 2.50 $#%#$
-write_silent and let you to change IP $#%#$
+write_silent 让你修改你的IP $#%#$
 delay 2.83 $#%#$
 writel_silent $#%#$
-write_silent Sounds good? $#%#$
+write_silent 听起来不错? $#%#$
 delay 1.89 $#%#$
 delay 3 $#%#$
 instanttrace $#%#$

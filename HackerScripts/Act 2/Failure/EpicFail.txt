@@ -1,9 +1,9 @@
 config playerComp OmBoss 0.0 $#%#$
 hideRam $#%#$
 delay 1 $#%#$
-writel CRITICAL ERROR: UI MODULES ARE CORRUPTED! $#%#$
-writel POSSIBILITY OF UNSTABLE FUNCTIONING! $#%#$
+writel 严重错误：UI模块损坏! $#%#$
+writel 功能存在不稳定! $#%#$
 delay 2 $#%#$
-writel SOURCE IS LOCATED! $#%#$
-writel DELETE Session.dll $#%#$
+writel 原因已找到! $#%#$
+writel 删除 Session.dll $#%#$
 writel 204.63.174.159
