@@ -1,20 +1,21 @@
 config playerComp OmBoss 0.0 $#%#$
+writel #检测到外部语音来源，已开启自动翻译# $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
-writel_silent The end?.. $#%#$
+writel_silent 结束了?.. $#%#$
 delay 1.85 $#%#$
 writel_silent $#%#$
-writel_silent You thought that I will hold my entire system in one file? $#%#$
+writel_silent 你以为我会将整个系统保存在一个文件中吗？ $#%#$
 delay 4.04 $#%#$
-writel_silent Who do you think I am? $#%#$
+writel_silent 你认为我是谁啊? $#%#$
 delay 2.12 $#%#$
 writel_silent $#%#$
-writel_silent You have to do better than that $#%#$
+writel_silent 你必须做得更好 $#%#$
 delay 3.06 $#%#$
 writel_silent $#%#$
-writel_silent Now it is my turn to strike you $#%#$
+writel_silent 现在该轮到你了 $#%#$
 delay 2.88 $#%#$
 writel_silent $#%#$
-writel_silent Prepare to defend yourself
+writel_silent 准备保护好自己

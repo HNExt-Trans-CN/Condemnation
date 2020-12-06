@@ -1,2 +1,2 @@
 config playerComp OmBoss 0.2 $#%#$
-writel UI CONTROL REGAINED
+writel UI控制恢复

@@ -1,16 +1,16 @@
 config playerComp OmBoss 0.0 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-writel HACKNET_OS ALERT! $#%#$
+writel HACKNET_OS 警告! $#%#$
 delay 2 $#%#$
-writel SYSTEM DESTRUCTION RISK! $#%#$
+writel 系统破坏风险! $#%#$
 delay 2 $#%#$
-writel Session.dll FILE IS TRANSMITTING VIRUS DATA! $#%#$
+writel Session.dll文件正在传输病毒数据! $#%#$
 delay 4 $#%#$
-writel FIND SOURCE COMPUTER, LOCATE THE FOLLOWING FILE AND DELETE IT! $#%#$
+writel 查找源计算机，找到以下文件并删除它! $#%#$
 delay 5 $#%#$
-writel DATA UPLOAD WILL BE FINISHED IN APPROXIMATELY 4 MINUTES! $#%#$
+writel 数据上传将在大约4分钟内完成! $#%#$
 delay 4 $#%#$
-writel 10 GATEWAYS DETECTED, PREPARING TARGITING SCRIPT... $#%#$
+writel 检测到10个网关，正在准备目标脚本... $#%#$
 delay 5 $#%#$
-writel GATEWAYS WILL BE DISPLAYED ON NETMAP ONE AT A TIME
+writel 网关将显示在网络地图上
