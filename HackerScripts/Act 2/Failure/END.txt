@@ -5,69 +5,71 @@ delay 0.2 $#%#$
 hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
-delay 1.18 $#%#$
+delay 0.5 $#%#$
+writel #检测到外部语音来源，已开启自动翻译# $#%#$
+delay 0.68 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
-writel_silent That was close $#%#$
+writel_silent 差点啊 $#%#$
 delay 2.28 $#%#$
-writel_silent You almost had me $#%#$
+writel_silent 你差点逮着我了 $#%#$
 delay 2.88 $#%#$
 writel_silent $#%#$
-writel_silent At least that is what you think $#%#$
+writel_silent 至少那是你的想法 $#%#$
 delay 2.58 $#%#$
 writel_silent $#%#$
-writel_silent But in reality $#%#$
+writel_silent 但实际上 $#%#$
 delay 2.03 $#%#$
 writel_silent $#%#$
-writel_silent You never were so far from me as it is now $#%#$
+writel_silent 你从来没有像现在这样远离我 $#%#$
 delay 4.88 $#%#$
 writel_silent $#%#$
-writel_silent Chasing your own tail $#%#$
+writel_silent 追逐自己的尾巴 $#%#$
 delay 2.40 $#%#$
-writel_silent Like a stupid dog $#%#$
+writel_silent 像一条傻狗 $#%#$
 delay 2.17 $#%#$
-writel_silent That's who you really are $#%#$
+writel_silent 那才是你真正的身份 $#%#$
 delay 2.73 $#%#$
 writel_silent $#%#$
-writel_silent I had big hopes about you $#%#$
+writel_silent 我对你寄予厚望 $#%#$
 delay 3.49 $#%#$
-writel_silent You were supposed to become my greatest project $#%#$
+writel_silent 你应该成为我最大的项目 $#%#$
 delay 3.55 $#%#$
-writel_silent But I was wrong $#%#$
+writel_silent 但是我错了 $#%#$
 delay 1.81 $#%#$
-writel_silent You are a complete failure $#%#$
+writel_silent 你是一个彻底的失败 $#%#$
 delay 2.57 $#%#$
 writel_silent $#%#$
-writel_silent There is no need to continue our interaction $#%#$
+writel_silent 无需继续我们的互动 $#%#$
 delay 2.91 $#%#$
-writel_silent You are too weak to carry out my plans $#%#$
+writel_silent 你太软弱了无法执行我的计划 $#%#$
 delay 2.66 $#%#$
-writel_silent So I've sent a babysitter after you $#%#$
+writel_silent 所以我已经寄给你一个保姆 $#%#$
 delay 3 $#%#$
 writel_silent $#%#$
-writel_silent You know what led you here? $#%#$
+writel_silent 你知道是什么导致了你 $#%#$
 delay 2.41 $#%#$
-writel_silent Indecision and uncertainty $#%#$
+writel_silent 优柔寡断和不确定性? $#%#$
 delay 3.62 $#%#$
-writel_silent You don't understand what are you fighting for $#%#$
+writel_silent 你不明白你在争取什么 $#%#$
 delay 3.25 $#%#$
-writel_silent You are trying to make things right but you don't know what is 'right' $#%#$
+writel_silent 你正在尝试使事情变得正确，但你不知道什么是正确的 $#%#$
 delay 5.68 $#%#$
-writel_silent Your anger is not enough $#%#$
+writel_silent 你的愤怒还不够 $#%#$
 delay 3.12 $#%#$
-writel_silent You need sacrifices and make others fear you $#%#$
+writel_silent 你需要牺牲，让别人害怕你 $#%#$
 delay 5.31 $#%#$
-writel_silent That is how this world works $#%#$
+writel_silent 这就是这个世界的运作方式 $#%#$
 delay 3.88 $#%#$
 writel_silent $#%#$
-writel_silent Changing horses in midstream won't lead you to anything good $#%#$
+writel_silent 在中游换马不会带给你任何好处 $#%#$
 delay 5.10 $#%#$
-writel_silent That is the lesson you should learn $#%#$
+writel_silent 那是你应该学到的东西 $#%#$
 delay 3.52 $#%#$
 writel_silent $#%#$
-writel_silent Farewell $#%#$
+writel_silent 永别了 $#%#$
 delay 1.90 $#%#$
 write_silent Cypher... $#%#$
 delay 1.10 $#%#$
