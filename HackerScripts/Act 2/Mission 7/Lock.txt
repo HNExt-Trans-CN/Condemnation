@@ -2,4 +2,4 @@ config playerComp Delay 0.2 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-writel NETMAP REPAIRED, LOCKDOWN HAS BEEN ENABLED
+writel 网络地图已修复，已启用锁定

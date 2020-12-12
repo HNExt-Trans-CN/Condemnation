@@ -7,7 +7,7 @@ writel_silent $#%#$
 writel_silent 结束了?.. $#%#$
 delay 1.85 $#%#$
 writel_silent $#%#$
-writel_silent 你以为我会将整个系统保存在一个文件中吗？ $#%#$
+writel_silent 你以为我会将整个系统保存在一个文件中吗? $#%#$
 delay 4.04 $#%#$
 writel_silent 你认为我是谁啊? $#%#$
 delay 2.12 $#%#$

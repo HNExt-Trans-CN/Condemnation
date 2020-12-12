@@ -2,48 +2,48 @@ config playerComp Delay 0.0 $#%#$
 clearTerminal $#%#$
 showTerminal $#%#$
 delay 1.07 $#%#$
-writel_silent CONCLUSION: $#%#$
+writel_silent 结束: $#%#$
 delay 1.57 $#%#$
 writel_silent $#%#$
-writel_silent Cypher Mendes realised, that he is being manipulated $#%#$
+writel_silent Cypher Mendes意识到自己正在被人操纵 $#%#$
 delay 3.07 $#%#$
-writel_silent And decides to drop Omicron case for better times $#%#$
+writel_silent 决定放弃Omicron这个案子，以换取自己的正常生活 $#%#$
 delay 3.36 $#%#$
 writel_silent $#%#$
-writel_silent Clara Gilmore continues to investigate the case of that mysterious and powerful hacker $#%#$
+writel_silent Clara Gilmore继续调查这起神秘而强大的黑客案 $#%#$
 delay 6.03 $#%#$
-writel_silent But details are unknown $#%#$
+writel_silent 但是细节仍是未知的 $#%#$
 delay 3.24 $#%#$
-writel_silent The only thing that is known for sure $#%#$
+writel_silent 唯一可以确定的 $#%#$
 delay 2.79 $#%#$
-writel_silent Omicron case in not closed yet... $#%#$
+writel_silent 便是Omicron这起案子还未结束... $#%#$
 delay 3.20 $#%#$
 writel_silent $#%#$
-writel_silent Cypher is still outlaw, but managed to find an anonymous PI firm $#%#$
+writel_silent Cypher仍然在被通缉，但设法找到了一家匿名PI公司 $#%#$
 delay 5.67 $#%#$
-writel_silent He is now one of the agents $#%#$
+writel_silent 他现在是那边的一位探员 $#%#$
 delay 1.75 $#%#$
-writel_silent And continues to fight crime $#%#$
+writel_silent 继续与罪犯进行战斗 $#%#$
 delay 2.14 $#%#$
-writel_silent Even if he is officially a criminal himself $#%#$
+writel_silent 即使他本人在官方话语中也是名罪犯 $#%#$
 delay 3.07 $#%#$
 writel_silent $#%#$
-writel_silent 6 months passed since Cypher and Clara talked for the last time $#%#$
+writel_silent 自Cypher和Clara上一次谈话以来已经过去了6个月 $#%#$
 delay 3.84 $#%#$
-writel_silent Cypher is no longer thinking about vengeance $#%#$
+writel_silent Cypher不再考虑复仇 $#%#$
 delay 2.86 $#%#$
-writel_silent And simply enjoys his new job as a detective $#%#$
+writel_silent 只是享受他作为探员的新工作 $#%#$
 delay 3.76 $#%#$
 writel_silent $#%#$
-writel_silent But one day $#%#$
+writel_silent 但是有一天 $#%#$
 delay 1.38 $#%#$
-writel_silent All nodes on his NetMap disappeared $#%#$
+writel_silent 所有节点都消失了 $#%#$
 delay 3.07 $#%#$
-writel_silent Someone got his attention $#%#$
+writel_silent 有人引起了他的注意 $#%#$
 delay 2.43 $#%#$
-writel_silent But is it a friend $#%#$
+writel_silent 但是这究竟是友 $#%#$
 delay 1.85 $#%#$
-writel_silent Or Enemy?.. $#%#$
+writel_silent 还是敌?.. $#%#$
 delay 1.04 $#%#$
 clearTerminal $#%#$
 hideTerminal $#%#$

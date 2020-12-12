@@ -1,7 +1,7 @@
 config playerComp NHHub 0.1 $#%#$
-writel EnSec LOCATED! $#%#$
+writel 检测到存在EnSec! $#%#$
 delay 5 $#%#$
-write_silent Analyzing $#%#$
+write_silent 分析中 $#%#$
 delay 1.5 $#%#$
 write_silent . $#%#$
 delay 1.5 $#%#$
@@ -9,6 +9,6 @@ write_silent . $#%#$
 delay 1.5 $#%#$
 write_silent . $#%#$
 delay 3 $#%#$
-writel EnSec BREACHED! admin=tnI4VeFa $#%#$
-writel Saving a log to /home folder $#%#$
-makeFile home Attack_Script_Source_Pass admin=tnI4VeFa
+writel EnSec 已破解! admin=tnI4VeFa $#%#$
+writel 将日志保存到/home文件夹 $#%#$
+makeFile home 攻击脚本源 admin=tnI4VeFa

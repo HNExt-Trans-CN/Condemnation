@@ -4,4 +4,4 @@ delete /log * $#%#$
 writel $#%#$
 writel $#%#$
 writel $#%#$
-writel EnSecBreach.dll HAS BEEN ADDED TO YOUR /HOME FOLDER
+writel EnSecBreach.dll 已被添加至您的/home文件夹

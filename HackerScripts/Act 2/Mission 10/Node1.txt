@@ -6,7 +6,7 @@ hideRam $#%#$
 showRam $#%#$
 hideTerminal $#%#$
 showTerminal $#%#$
-writel STOP $#%#$
-write RESISTING $#%#$
-write AND $#%#$
-write DIE
+writel 停止 $#%#$
+write 抵抗 $#%#$
+write 然后 $#%#$
+write 给我死
