@@ -1,7 +1,7 @@
 config playerComp NHHub 0.1 $#%#$
-writel EnSec LOCATED! $#%#$
+writel 检测到存在EnSec! $#%#$
 delay 5 $#%#$
-write_silent Analyzing $#%#$
+write_silent 分析中 $#%#$
 delay 1.5 $#%#$
 write_silent . $#%#$
 delay 1.5 $#%#$
@@ -9,6 +9,6 @@ write_silent . $#%#$
 delay 1.5 $#%#$
 write_silent . $#%#$
 delay 3 $#%#$
-writel EnSec BREACHED! admin=jGlQbO $#%#$
-writel Saving a log to /home folder $#%#$
-makeFile home Omicron's_PC_Pass admin=jGlQbO
+writel EnSec 已破解! admin=jGlQbO $#%#$
+writel 将日志保存到/home文件夹 $#%#$
+makeFile home Omicron_个人电脑 admin=jGlQbO

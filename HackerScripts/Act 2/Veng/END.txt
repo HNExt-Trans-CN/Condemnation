@@ -5,89 +5,90 @@ delay 0.2 $#%#$
 hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
+writel #检测到外部语音来源，已开启自动翻译# $#%#$
 delay 0.68 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
-writel_silent You did it $#%#$
+writel_silent 你成功了 $#%#$
 delay 2.01 $#%#$
 writel_silent $#%#$
-writel_silent I am going to be dead soon $#%#$
+writel_silent 我待会就会死去了 $#%#$
 delay 3.16 $#%#$
 writel_silent $#%#$
-writel_silent You won $#%#$
+writel_silent 你赢了 $#%#$
 delay 1.69 $#%#$
-writel_silent You are stronger than me now $#%#$
+writel_silent 你现在比我更加强大了 $#%#$
 delay 2.27 $#%#$
-writel_silent What a master manipulator you are $#%#$
+writel_silent 你是多么强大啊 $#%#$
 delay 2.52 $#%#$
-writel_silent If you tricked NightHawks to cooperate with you $#%#$
+writel_silent 你欺骗NightHawks与您合作 $#%#$
 delay 3.35 $#%#$
 writel_silent $#%#$
-writel_silent You have enormous power now $#%#$
+writel_silent 你现在拥有巨大的力量 $#%#$
 delay 3.77 $#%#$
-writel_silent You know that everyone will talk about you now $#%#$
+writel_silent 你知道每个人都会谈论你 $#%#$
 delay 3.73 $#%#$
-writel_silent An infamous hacker Vortex $#%#$
+writel_silent 臭名昭著的黑客Vortex $#%#$
 delay 4.95 $#%#$
 writel_silent $#%#$
-writel_silent I didn't expect $#%#$
+writel_silent 我根本没期待 $#%#$
 delay 2.44 $#%#$
-writel_silent That you $#%#$
+writel_silent 你 $#%#$
 delay 0.71 $#%#$
 writel_silent ......... $#%#$
 delay 9.90 $#%#$
-writel_silent *cough* $#%#$
+writel_silent *咳嗽声* $#%#$
 delay 2.79 $#%#$
-writel_silent He got me pretty bad $#%#$
+writel_silent 他让我很难受现在 $#%#$
 delay 3.37 $#%#$
-writel_silent But I am gonna bleed to death anyway $#%#$
+writel_silent 我要流血致死了反正 $#%#$
 delay 2.45 $#%#$
-writel_silent And that's what you want, right? $#%#$
+writel_silent 这便是你想要的，不是吗? $#%#$
 delay 3.53 $#%#$
 writel_silent $#%#$
-writel_silent You think that you won $#%#$
+writel_silent 你觉得你赢了 $#%#$
 delay 2.22 $#%#$
-writel_silent But look at yourself $#%#$
+writel_silent 但是看看你自己 $#%#$
 delay 2.17 $#%#$
-writel_silent Who are you now?.. $#%#$
+writel_silent 你现在是谁?.. $#%#$
 delay 1.90 $#%#$
 writel_silent $#%#$
-writel_silent One of the most vile criminals that I knew $#%#$
+writel_silent 我认识的最邪恶的罪犯之一 $#%#$
 delay 3.39 $#%#$
-writel_silent You are no longer Cypher Mendes $#%#$
+writel_silent 你已经不再是Cypher Mendes $#%#$
 delay 3.74 $#%#$
-writel_silent Now, you are Vortex $#%#$
+writel_silent 现在，你是 Vortex $#%#$
 delay 4.06 $#%#$
-writel_silent An unstoppable king of hacker world $#%#$
+writel_silent 黑客世界里不可战胜的皇帝 $#%#$
 delay 3.74 $#%#$
-writel_silent And everybody will fear and respect you $#%#$
+writel_silent 所有人都会害怕你对你保持尊敬 $#%#$
 delay 4.33 $#%#$
 writel_silent $#%#$
-writel_silent You finally get my theory $#%#$
+writel_silent 你终于成了我所想象的人 $#%#$
 delay 3.00 $#%#$
-writel_silent You proved it $#%#$
+writel_silent 你证明了我的想法 $#%#$
 delay 2.09 $#%#$
-writel_silent Under right circumstances $#%#$
+writel_silent 在适当情况下 $#%#$
 delay 3.07 $#%#$
-writel_silent Even a saint can become devil himself $#%#$
+writel_silent 即使是圣徒也可以自己变成魔鬼 $#%#$
 delay 4.49 $#%#$
 writel_silent $#%#$
-writel_silent But now $#%#$
+writel_silent 现在 $#%#$
 delay 2.02 $#%#$
-writel_silent You are worse than devil $#%#$
+writel_silent 你比魔鬼还要可怕 $#%#$
 delay 3.27 $#%#$
-writel_silent *laugh* $#%#$
+writel_silent *大笑* $#%#$
 delay 4.25 $#%#$
-writel_silent *cough* $#%#$
+writel_silent *咳嗽* $#%#$
 delay 8.04 $#%#$
 writel_silent $#%#$
-writel_silent It all make $#%#$
+writel_silent 现在 $#%#$
 delay 2.28 $#%#$
-writel_silent Sense $#%#$
+writel_silent 这一切都 $#%#$
 delay 2.57 $#%#$
-writel_silent Now... $#%#$
+writel_silent 合理了... $#%#$
 delay 1.51 $#%#$
 writel_silent ... $#%#$
 delay 2.90 $#%#$

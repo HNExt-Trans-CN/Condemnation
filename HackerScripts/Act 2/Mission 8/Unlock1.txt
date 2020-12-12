@@ -2,9 +2,9 @@ config playerComp Delay 0.2 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-writel ERROR: LOCKDOWN HAS BEEN ALREADY REMOVED$#%#$
+writel ERROR: 锁定已解除$#%#$
 delay 1 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-writel ADDITINAL INFO: 37.122.36.119 $#%#$
-writel ADDITINAL INFO: admin = PrimeCandidate
+writel 附加信息: 37.122.36.119 $#%#$
+writel 附加信息: admin = PrimeCandidate

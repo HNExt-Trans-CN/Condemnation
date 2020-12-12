@@ -1,22 +1,23 @@
 config playerComp M5C3 0.0 $#%#$
 delete /home * $#%#$
 delete /bin * $#%#$
+writel #检测到外部语音来源，已开启自动翻译# $#%#$
 delay 0.65 $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent Nicely done Captain $#%#$
+write_silent 做得好队长 $#%#$
 delay 2.62 $#%#$
 writel_silent $#%#$
-write_silent You won a few days of freedom $#%#$
+write_silent 你赢得了几天的自由 $#%#$
 delay 3.15 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent But having you around is not in by best interests $#%#$
+write_silent 但是拥有你并不是最有利的 $#%#$
 delay 3.97 $#%#$
 writel_silent $#%#$
-write_silent So let me take your tools and close your digital eyes $#%#$
+write_silent 因此，我会拿走你的工具，闭上您的数码眼睛 $#%#$
 delay 6.18 $#%#$
 hideNetMap $#%#$
 delay 0.2 $#%#$
@@ -34,22 +35,22 @@ writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent That's better $#%#$
+write_silent 那样好多了 $#%#$
 delay 2.31 $#%#$
 writel_silent $#%#$
-write_silent I hope you've learned a valueble lesson $#%#$
+write_silent 希望这能给你带来一节有意义的棵 $#%#$
 delay 3.68 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent A wrong man in a wrong place can lose everything in 1 second $#%#$
+write_silent 正义之子面对有悖常理的世界能在1s中失去一切 $#%#$
 delay 6.72 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent THAT what is happened to YOU $#%#$
+write_silent 这便是发生在你身上的事情 $#%#$
 delay 3.69 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent Farewell, $#%#$
+write_silent 永别了, $#%#$
 delay 1.5 $#%#$
 write_silent Cypher... $#%#$
 delay 2 $#%#$
