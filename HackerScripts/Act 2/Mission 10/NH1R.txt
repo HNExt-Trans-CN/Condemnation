@@ -1,2 +1,2 @@
 config playerComp NHHub 0.1 $#%#$
-writel Prophet: Transfer port is ready, SSL is next
+writel Prophet: 进行转移，SSL即将破解
