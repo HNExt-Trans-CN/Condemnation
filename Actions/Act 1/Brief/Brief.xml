@@ -1,43 +1,43 @@
 <ConditionalActions>
 	<Instantly>
 	<AddConditionalActions Filepath="Actions/Act 1/Brief/Flag.xml" DelayHost="Delay" Delay="165.0"/>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="15.0">@channel Everybody is ready for the conference?</AddIRCMessage>
-	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="20.0">Yes, I think everything is set</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="25.0">Yeah, so, who is going to speak to our squad exactly?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="30.0">FBI special agent Gale and EnTech digital security assistant Diana</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">Interesting company we have here</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="38.0">Ok, they going to connect in 5...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="15.0">@channel 所有人都准备好参加会议了吗?</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="20.0">我认为所有东西都准备好了</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="25.0">是啊，所以我们将会和谁对话呢?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="30.0">FBI特别探员Gale和EnTech数字安全助理Diana</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">和一些有趣的公司代表</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="38.0">Ok, 倒计时，5...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="39.0">4...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="40.0">3...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="41.0">2...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="42.0">1...</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="43.0">!ANNOUNCEMENT! GALE MAUER CONNECTED TO THE SERVER @channel</AddIRCMessage>
-	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="43.5">!ANNOUNCEMENT! DIANA FRASER CONNECTED TO THE SERVER @channel</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="48.0">Greetings ladies and gentlemen, my name is Gale Mauer, special agent of Federal Bureau of Investigation</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="52.0">I am with the representative of the EnTech company Diana, and I am assigning her to your squad as your assistant in the next mission</AddIRCMessage>
-	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="59.0">Hello everyone</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="63.0">But we will get back to it a bit later. We heard about Medical Archive attack. Did you apprehend the hacker who is responsible for that attack?</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="70.0">Yes sir, his name is Daedra, he planned this attack together with his partner-in-crime hacker Repulse, they had a contract from yet unknown client to steal Olivia Brooks' Med File</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="80.0">Any info on the Client?</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="43.0">!ANNOUNCEMENT! GALE MAUER 已经连接至服务器 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="43.5">!ANNOUNCEMENT! DIANA FRASER 已经连接至服务器 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="48.0">绅士们女士们大家好, 我的名字是 Gale Mauer, 联邦调查局特别探员</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="52.0">我和EnTech公司的代表Diana一起，被指派为下一个任务小组的助理</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="59.0">大家好</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="63.0">但是我们稍后会再讲。 我们听说了医疗存档攻击。 您是否逮捕了负责该攻击的黑客?</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="70.0">是的，先生，他的名字叫Daedra，他与他的其合伙人Repulse一起策划了这次攻击，他们与一个未知客户签了合同，要窃取Olivia Brooks的医疗档案</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="80.0">有任何关于该客户的信息吗?</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="83.0">Bloyd?</AddIRCMessage>
-	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="87.0">Her name is Sandra Brooks, sister of Olivia, her intentions are unknown, we will get everything from her after interrigation with detectives</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="95.0">Well if that's not a terrorist attack then nothing serious for my division</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="100.0">As I said, I have assignment for your squad</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="105.0">There was a digital break-in last night on one of our secured servers</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="110.0">They seem to have acquired an SSL breaker tool, so they passed our security and stolen some confidential data, leaving no tracks at all, even disconnect logs</AddIRCMessage>
-	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="120.0">They are working as a professional team, using sequencer tool for a team hack, and forkbomb for invisible disconnection after clearing logs</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="128.0">Right, but a few hours ago we detected a disconnection log on one of the servers and most probably this is their gateway</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="136.0">I want you to turn their infrastructure upside down and get me their detailed information, location, everything</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="144.0">Roger that sir, we will do our best!</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="148.0">Good luck to you ladies and gentlemen, and remember that Ms. Diana will provide any kind of help</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="155.0">Good bye sir!</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="157.0">Good luck sir!</AddIRCMessage>
-	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="158.0">Bye sir!</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="159.0">Good bye sir!</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="160.0">!ANNOUNCEMENT! GALE MOWER DISCONNECTED FROM THE SERVER @channel</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="165.0">@channel CONFERENCE IS OVER!</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="170.0">Well team, I think it is time to start digging</AddIRCMessage>
-	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="175.0">@channel I uploaded an incident report to your mission hub</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="87.0">她名为Sandra Brooks，Olivia的姐姐，她的意图不明，我们将在与其进行讯问后从她那里得到一切。</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="95.0">好吧，如果那不是恐怖袭击，那对我的部门来说没什么大不了的</AddIRCMessage>
+<AddIRCMessage Author =" Gale" TargetComp =" PDIRC" Delay ="100.0">正如我所说，我已经为您的团队分配了任务</AddIRCMessage>
+<AddIRCMessage Author =" Gale" TargetComp =" PDIRC" Delay ="105.0">昨晚在我们其中一台安全服务器上进行了破坏</AddIRCMessage>
+<AddIRCMessage Author =" Gale" TargetComp =" PDIRC" Delay =" 110.0">他们似乎已经获得了SSL破解工具，因此他们通过了我们的安全性并窃取了一些机密数据，没有任何记录，甚至断开了日志</AddIRCMessage>
+<AddIRCMessage Author =" Diana" TargetComp =" PDIRC" Delay ="120.0">他们正在作为专业团队工作，使用sequencer工具进行破解，并在清除日志后使用Forkbomb进行隐形断开连接</AddIRCMessage>
+<AddIRCMessage Author =" Gale" TargetComp =" PDIRC" Delay =" 128.0">是的，但是几个小时前，我们在其中一台服务器上检测到断开连接日志，很可能这是它们的网关</AddIRCMessage>
+<AddIRCMessage Author =" Gale" TargetComp =" PDIRC" Delay =" 136.0">我希望您调查他们的基础架构，并让我获得他们的详细信息，位置和所有内容</AddIRCMessage>
+<AddIRCMessage Author ="＃PLAYERNAME＃" TargetComp =" PDIRC" Delay =" 144.0"> 我们会尽力而为！</AddIRCMessage>
+<AddIRCMessage Author =" Gale" TargetComp =" PDIRC" Delay =" 148.0">祝你好运，请记住，Diana女士将提供任何形式的帮助</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="155.0">再会，长官!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="157.0">祝好运，长官!</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="158.0">再见长官!</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="159.0">再见，长官!</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="160.0">!ANNOUNCEMENT! GALE MOWER 与服务器断开了连接 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="165.0">@channel 会议结束!</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="170.0">是时候该深入调查了</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="175.0">@channel 已经上传任务简报</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>
 	
