@@ -20,6 +20,6 @@
 <AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="40.0"> @#PLAYERNAME# 队长，这是... </AddIRCMessage>
 <AddIRCMessage Author ="Javis" TargetComp ="PDIRC" Delay ="45.0">这是毒品交易的证据!</AddIRCMessage>
 <AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="50.0"> FBI现在真的会被吸引住了</AddIRCMessage>
-<AddIRCMessage Author ="Javis" TargetComp ="PDIRC" Delay ="54.0"> @#PLAYERNAME# 队长，在我们的资产服务器上获取证据!</AddIRCMessage>
+<AddIRCMessage Author ="Javis" TargetComp ="PDIRC" Delay ="54.0"> @#PLAYERNAME# 队长，在我们的资源服务器上获取证据!</AddIRCMessage>
 	</OnAdminGained>
 </ConditionalActions>
