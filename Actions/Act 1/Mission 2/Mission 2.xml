@@ -5,7 +5,7 @@
 	</Instantly>
 	<OnConnect target="M2_Mail" needsMissionComplete="false">
 		<AddAsset FileName="eos_SyncData" FileContents="#BINARY#" TargetComp="M2_DaedraGate" TargetFolderpath="home" />
-		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# 队长！ 我的追踪器告诉我，Daedra的网关上有一个新文件！</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# 队长! 我的追踪器告诉我，Daedra的网关上有一个新文件!</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="6.0">希望这将有助于我们进入该邮件服务器，因为我遇到了问题</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="10.0">+1</AddIRCMessage>
 	</OnConnect>
