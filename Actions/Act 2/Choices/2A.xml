@@ -1,10 +1,10 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="Dead_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我帮助你杀了58个人</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I helped you to kill 58 people</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Dead_Flag_Scum">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我做出的决定导致58人死亡</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I made a decision to kill 58 people</AddIRCMessage>
 	</HasFlags>
 	
 	

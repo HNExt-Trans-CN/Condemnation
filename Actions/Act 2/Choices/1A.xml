@@ -1,26 +1,26 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="R_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我欺骗了你的外部操作员Repulse，使其陷入警察的陷阱</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I tricked your external operative, Repulse, into police trap</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="J_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我欺骗了你的外部操作员Jester，使其陷入警察的陷阱</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I tricked your external operative, Jester, into police trap</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我让我的前同事Javis Williamson进入了你的团队</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I made my ex-colleague, Javis Williamson, a dirtbag to get inside your group</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我让一名优秀警官进入了你的团队</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I made an honorable policeman, Allan Turner, a dirtbag to get inside your group</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag_Scum">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我完全毁了我的前同事Javis Williamson的生活，并导致了他的自杀。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I destroyed my ex-colleague Javis Williamson and made him go suicide</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag_Scum">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我完全毁了一名尽职尽责的警官Allan Turner的生活, 并导致了他的自杀。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I destroyed an honorable policeman, Allan Turner, and made him go suicide</AddIRCMessage>
 	</HasFlags>
 	
 </ConditionalActions>

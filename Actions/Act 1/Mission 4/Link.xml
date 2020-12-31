@@ -2,7 +2,7 @@
 	<Instantly>
 		<AddMissionToHubServer MissionFilepath="Missions/Act 1/Brief/Brief.xml" TargetComp="PDIRC" />
 		<DeleteFile TargetComp="playerComp" FilePath="home" FileName="netcfgx.dll" DelayHost="Delay" Delay="1.0"/>
-		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="5.0">@#PLAYERNAME# 干得好长官，现在我们可以正式结束这起案子了。</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="5.0">@#PLAYERNAME# Great job Cap, now we finally can close this case</AddIRCMessage>
 		<RunFunction FunctionName="removeFlags:Repulse" FunctionValue="6" />
 		<RunFunction FunctionName="addFlags:Jester" FunctionValue="6" />
 	</Instantly>

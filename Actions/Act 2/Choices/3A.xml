@@ -1,6 +1,6 @@
 <ConditionalActions>
 	
 	<HasFlags requiredFlags="NHIn">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我帮你摧毁了警察基础设施</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">I helped you to destroy Police Infrastructure</AddIRCMessage>
 	</HasFlags>
 </ConditionalActions>

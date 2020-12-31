@@ -1,25 +1,25 @@
 <ConditionalActions>
-<Instantly>
-<AddIRCMessage Author ="Javis" TargetComp ="PDIRC" Delay ="5.0"> @#PLAYERNAME#不错，第二个找到了</AddIRCMessage>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="10.0">仅剩一个混蛋</AddIRCMessage>
-<AddIRCMessage Author ="Bloyd" TargetComp ="PDIRC" Delay ="15.0"> @channel我正在Fluffy的战机上检测到移动数据传输，建议使用EoS扫描仪进行检查</AddIRCMessage>
-</Instantly>
-<OnConnect target ="M5C3" needsMissionComplete ="false">
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="10.0"> @channel 这是什么鬼?这个家伙有EnSec吗?</AddIRCMessage>
-<AddIRCMessage Author ="Diana" TargetComp ="PDIRC" Delay ="15.0">似乎如此</AddIRCMessage>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="18.0">那么，EnTech女士，您怎么能解释这一点?</AddIRCMessage>
-<AddIRCMessage Author ="Diana" TargetComp ="PDIRC" Delay ="22.0">它只能是被劫持的早期构建。在这种情况下，我可以帮上忙</AddIRCMessage>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="26.0">如何?</AddIRCMessage>
-<AddIRCMessage Author ="Diana" TargetComp ="PDIRC" Delay ="30.0">我可以扫描他的网络并使用相同的网络映射创建副本节点</AddIRCMessage>
-<AddIRCMessage Author ="Diana" TargetComp ="PDIRC" Delay ="34.0">在这里您进入"1.1.1.1"。只需获得管理员访问权限并扫描节点，也许您就可以找到新的入口点</AddIRCMessage>
-</OnConnect>
-<OnAdminGained target ="M5EndRelay">
-<RunFunction FunctionName ="playCustomSong:Music/RemiDrone.ogg" FunctionValue ="0"/>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="1.0"> @channel 我们已经完成了，这里只有一个文件没有被删除</AddIRCMessage>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="35.0"> @channel 噢，我的天哪... </AddIRCMessage>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="40.0"> @#PLAYERNAME# 队长，这是... </AddIRCMessage>
-<AddIRCMessage Author ="Javis" TargetComp ="PDIRC" Delay ="45.0">这是毒品交易的证据!</AddIRCMessage>
-<AddIRCMessage Author ="Clara" TargetComp ="PDIRC" Delay ="50.0"> FBI现在真的会被吸引住了</AddIRCMessage>
-<AddIRCMessage Author ="Javis" TargetComp ="PDIRC" Delay ="54.0"> @#PLAYERNAME# 队长，在我们的资源服务器上获取证据!</AddIRCMessage>
+	<Instantly>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="5.0">@#PLAYERNAME# Great job Cap, we got the second one</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">Only one bastard left</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="15.0">@channel I am detecting mobile data transmission on Fluffy's battlestation, worth checking out with an eOs scanner</AddIRCMessage>
+	</Instantly>
+	<OnConnect target="M5C3" needsMissionComplete="false">
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@channel What the fuck is this? This guy has EnSec?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="15.0">Seems so</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">So, Ms. EnTech representative, how can you explain this?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="22.0">It only could be a hijacked early build. In that case, I can help a little</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="26.0">How?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="30.0">I can scan his network and make a copy node with the same network map</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="34.0">Here you go "1.1.1.1" . Simply gain admin access and scan the node, maybe you can find new entry point</AddIRCMessage>
+	</OnConnect>
+	<OnAdminGained target="M5EndRelay">
+	<RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg" FunctionValue="0" />
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">@channel We are through, there is only one file here that hasn't been deleted</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="35.0">@channel Oh my fucking god...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="40.0">@#PLAYERNAME# Captain, this is...</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="45.0">This is drug trafic evidence!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="50.0">FBI would be really intrested in this now</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="54.0">@#PLAYERNAME# Captain, get the evidence on our Asset server!</AddIRCMessage>
 	</OnAdminGained>
 </ConditionalActions>
