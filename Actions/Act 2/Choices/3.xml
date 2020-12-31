@@ -1,9 +1,9 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="NHOut">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You refused to help us with the Police Asset server job</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">您拒绝帮助我们处理警察资源服务器工作</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="NHIn">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">You helped us to get inside Police Asset server</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">你帮助我们进到警察的资源服务器</AddIRCMessage>
 	</HasFlags>
 </ConditionalActions>

@@ -1,9 +1,9 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="NHOut">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">We saved our Police infrastructure from NightHawks</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">我们从NightHawks拯救了警察的基础设施</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="NHIn">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You helped NightHawks to destroy our Police infrastructure</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">您帮助NightHawks摧毁了我们警方的基础设施</AddIRCMessage>
 	</HasFlags>
 </ConditionalActions>
