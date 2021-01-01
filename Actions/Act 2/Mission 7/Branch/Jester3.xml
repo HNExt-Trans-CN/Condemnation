@@ -1,32 +1,32 @@
 <ConditionalActions>
 	<Instantly>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Revenge.xml" DelayHost="Delay" Delay="108.0"/>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="5.0">@Vortex Great Job buddy!</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="9.0">You've got very interesting material</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="13.0">HIV and Syphilis, wow, his is a whore fucker as I can see</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="18.0">While having a wife and two kids, this could work right</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="22.0">Plus he just lost all his academic degrees</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="26.0">At least his career is over</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="30.0">And I hope he will blow his own brains in some dirty alleyway soon...</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="35.0">Are we done?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="38.0">Sure pal, you just helped towards justice uprise</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="42.0">I'll give you second part of the fix, and...</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">...?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="50.0">... Are you interested in joining in?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">NightHawks?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="57.0">Yeah, we kinda could use your abilities and that log-disguise feature is pretty damn good as I can see</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">I have to continue my search and make someone pay</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="66.0">With a few portbreakers? If his is so hard to find and so powerful, I think he will crush you again, no offence</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="71.0">But if you become one of us, we could help each other</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="75.0">You will help with our contracts and we will provide you all intel about your guy</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="80.0">What ya think?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="83.0">...</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="86.0">Maybe</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="90.0">In any case, I'll activate the fix and there will be access data as well</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="94.0">It will show up on your terminal</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="98.0">Don't think for too long</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="102.0">We will change access details in a few hours</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="105.0">Here is your fix</AddIRCMessage>
-	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="105.0"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Revenge.xml" DelayHost=" Delay" Delay="108.0"/>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="5.0">@Vortex 干得漂亮兄弟!</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="9.0">你为我们整到了非常有趣的资料</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="13.0">艾滋病和梅毒, wow, 我猜他是个鸭子</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="18.0">特别是他还有着一个妻子和两个孩子时，这件事情一定会特别劲爆的</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="22.0">另外，他还失去了所有的学位</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="26.0">反正他的职业生涯结束了</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="30.0">我希望他能尽快在肮脏的小巷里轰掉自己的脑袋...</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="35.0">完事了?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="38.0">当然，朋友，你帮助了正义的崛起</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="42.0">我会给你修复补丁的第二部分，并且...</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">...?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="50.0">... 你感兴趣加入我们吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">NightHawks?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="57.0">是的，我们可以利用你的能力，你的数字伪装功能非常不错</AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="M7IRC" Delay ="62.0">我必须继续搜索并让某人付出代价</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="66.0">你有几个端口破解器?我想他这么难被发现并且如此强大，他会再次压死你。</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="71.0">但是，如果你成为我们中的一员，我们可以互相帮助</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="75.0">你将为我们的合同提供帮助，我们将为你提供有关你这个人的所有情报</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="80.0">你怎么看?</AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="M7IRC" Delay ="83.0"> ... </AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="M7IRC" Delay ="86.0">也许</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="90.0">不管如何，我都会激活该修复程序，并且还会有访问数据</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="94.0">它将显示在你的终端上</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="98.0">不要想太久</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="102.0">我们将在几个小时内更改访问白名单</AddIRCMessage>
+		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="105.0">做出选择吧</AddIRCMessage>
+		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost=" Delay" Delay="105.0"/>
 	</Instantly>
 </ConditionalActions>

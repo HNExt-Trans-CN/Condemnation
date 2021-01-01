@@ -1,31 +1,31 @@
 <ConditionalActions>
 	<Instantly>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/JusticeR.xml" DelayHost="Delay" Delay="109.0"/>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="5.0">@Vortex How is the progress?</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="9.0">I alredy made fakes, that can show him off as drug trafficking member, just like Mendes guy</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="13.0">I am working on it</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="18.0">Work faster, if you keep that slow pace of yours, I can manage it myself</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="22.0">Which makes you not a big help</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="26.0">Meaning there will be no fix for you</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="30.0">I am doing my best here, forgot that I don't have a working map already?</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="35.0">Ok, sorry, it's just matters for me too much</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="38.0">On it</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">I can't wait to find Cypher Mendes</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="5.0">@Vortex 进展如何?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="9.0">我已经伪造了些证据了，能把他也变成一个贩毒的，就像那个Mendes一样u</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="13.0">还在工作中</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="18.0">搞快点啊，如果您保持自己的慢节奏，我可以自己处理</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="22.0">而这对你没帮助</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="26.0">也意味着您将无法获得修复</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="30.0">我在尽力而为，忘了我还没有有效的网络地图?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="35.0">好吧，不好意思，这对我来说太重要了</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="38.0">在做了在做了</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">等不及找到Cypher Mendes可</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">...</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">What?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">Maybe he found you first</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="57.0">What do you mean?...</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">He disappeared after all, maybe he is in a big trouble like you, maybe you could've met him somewhere</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="66.0">And if he finds out you are looking for him, if he is such a bad cop, he will retailate</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="71.0">I am prepared to anything</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="75.0">Anything? Even if he comes with a gun to your house?</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="80.0">Don't sure about that...</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="85.0">SHIT, cops trying to break in!</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="88.0">What? Why?</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="92.0">IDK, maybe because of my experiments with their servers</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="95.0">I knew that they would find me sooner or later</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="99.0">I will activate your fix now, use additional info to find NightHawks' Hub, tell Maverick that experiment failed</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="105.0">NOW! GO!</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">什么?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">或许他会先找到你</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="57.0">你什么意思?...</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">毕竟他不见了，也许他像你一样遇到了大麻烦，也许你可以在某个地方遇见他</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="66.0">如果他发现您正在寻找他，而且他是个坏警察，他会报复你</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="71.0">我准备好了</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="75.0">确定? 包括他带着枪到你家也准备好了?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="80.0">那另当别论...</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="85.0">操, 条子正在尝试进到我家里边!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="88.0">什么? 为什么?</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="92.0">不知道, 也许我留下了些东西在他们的服务器上</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="95.0">我知道他们迟早会找到我的</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="99.0">我立即激活您的修复程序，使用其他信息找到NightHawks的hub，并告诉Maverick实验失败</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="105.0">现在!走!</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="107.0">!ANNOUNCEMENT! REPULSE LOST CONNECTION TO THE SERVER @channel</AddIRCMessage>
 	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="105.0"/>
 	</Instantly>
