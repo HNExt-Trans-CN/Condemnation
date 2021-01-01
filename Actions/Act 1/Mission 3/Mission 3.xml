@@ -1,10 +1,10 @@
 <ConditionalActions>
 	<OnAdminGained target="60.192.249.36">
-		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="10.0">@channel 伙计们，这个netcfgx.dll_FIXED有点可疑</AddIRCMessage>
-		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="14.0">netcfgx.dll快速检查的扫描器，提示这是空的，一点卵用都没有!</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">该死，他将所有网络系统数据重新传输到另一个dll文件中</AddIRCMessage>
-		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="25.0">@#PLAYERNAME# 再次看看他的服务器和计算机，应该有一些线索</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="30.0">是的，大几率只是该文件与其他计算机交换</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="10.0">@channel 伙计们,这个netcfgx.dll_FIXED有点可疑</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="14.0">netcfgx.dll快速检查的扫描器,提示这是空的,一点卵用都没有!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">该死,他将所有网络系统数据重新传输到另一个dll文件中</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="25.0">@#PLAYERNAME# 再次看看他的服务器和计算机,应该有一些线索</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="30.0">是的,大几率只是该文件与其他计算机交换</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="34.0">所以找到转发机的netcfgx.dll然后上传即可</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="37.0">@channel 我现在发送提醒</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="39.0">!ATTACHMENT:note#%#目标更新#%#找到正确的 netcfgx.dll 并上传至资源服务器</AddIRCMessage>

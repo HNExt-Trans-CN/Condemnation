@@ -1,2 +1,2 @@
 config playerComp NHHub 0.1 $#%#$
-writel Prophet: 进行转移，SSL即将破解
+writel Prophet: 进行转移,SSL即将破解

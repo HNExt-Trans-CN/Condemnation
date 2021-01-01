@@ -61,18 +61,18 @@ write 你能听到我吗? $#%#$
 delay 5 $#%#$
 writel $#%#$
 writel $#%#$
-write 好吧，这太滑稽了... $#%#$
+write 好吧,这太滑稽了... $#%#$
 delay 5 $#%#$
 writel $#%#$
 write 让我修复一下 $#%#$
 delay 5 $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 delay 0.84 $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent 你好，Mendes 队长 $#%#$
+write_silent 你好,Mendes 队长 $#%#$
 delay 3.20 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
@@ -103,7 +103,7 @@ writel_silent $#%#$
 write_silent 但是你有贩毒的证据 $#%#$
 delay 3.11 $#%#$
 writel_silent $#%#$
-write_silent 但是，啊，你不会感到惊讶吗? $#%#$
+write_silent 但是,啊,你不会感到惊讶吗? $#%#$
 delay 4.39 $#%#$
 writel_silent $#%#$
 write_silent 那个文件有个小脚本 $#%#$
@@ -113,13 +113,13 @@ writel_silent $#%#$
 write_silent 您的IP遍布我们的贩毒平台基础设施 $#%#$
 delay 7.35 $#%#$
 writel_silent $#%#$
-write_silent 然后你的FBI好友，现在正在深入挖掘以找到我们的那帮家伙 $#%#$
+write_silent 然后你的FBI好友,现在正在深入挖掘以找到我们的那帮家伙 $#%#$
 delay 6.40 $#%#$
 writel_silent $#%#$
 write_silent 会非常的惊讶 $#%#$
 delay 2.57 $#%#$
 writel_silent $#%#$
-write_silent 因为Cypher Mendes，San-Francisco网安部门队长 $#%#$
+write_silent 因为Cypher Mendes,San-Francisco网安部门队长 $#%#$
 delay 6.28 $#%#$
 writel_silent $#%#$
 write_silent 是该死的毒贩的私人助手 $#%#$
@@ -129,7 +129,7 @@ write_silent 那不是很有趣吗? $#%#$
 delay 2.33 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent 但是，嘿，没什么私人的 $#%#$
+write_silent 但是,嘿,没什么私人的 $#%#$
 delay 3.71 $#%#$
 writel_silent $#%#$
 write_silent 只有的是商业上的事情 $#%#$
@@ -144,7 +144,7 @@ delay 1.91 $#%#$
 writel_silent $#%#$
 write_silent 但是我在想... $#%#$
 delay 2.24 $#%#$
-write_silent 在这种极端情况下，您有什么能力? $#%#$
+write_silent 在这种极端情况下,您有什么能力? $#%#$
 delay 5.34 $#%#$
 writel_silent $#%#$
 write_silent 我再给你一次机会 $#%#$

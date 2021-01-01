@@ -1,7 +1,7 @@
 <Computer id="M7Gate" name="NightHawks 的网关" ip="44.198.25.198" security="3" type="4">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home" name="Hello.txt">去日你自己，傻逼，离开这里 :-)</file>
+<file path="home" name="Hello.txt">去日你自己,傻逼,离开这里 :-)</file>
 <eosDevice name="Jailbroken ePhone" id="Jester" icon="ePhone1" empty="false" passOverride="Alpine">
 <note>lel
 

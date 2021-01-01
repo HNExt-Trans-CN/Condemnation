@@ -1,10 +1,10 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="R_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我欺骗了你的外部操作员Repulse，使其陷入警察的陷阱</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我欺骗了你的外部操作员Repulse,使其陷入警察的陷阱</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="J_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我欺骗了你的外部操作员Jester，使其陷入警察的陷阱</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我欺骗了你的外部操作员Jester,使其陷入警察的陷阱</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag">
@@ -16,7 +16,7 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag_Scum">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我完全毁了我的前同事Javis Williamson的生活，并导致了他的自杀。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我完全毁了我的前同事Javis Williamson的生活,并导致了他的自杀。</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag_Scum">

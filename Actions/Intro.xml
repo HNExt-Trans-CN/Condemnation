@@ -4,26 +4,26 @@
 	<RunFunction FunctionName="playCustomSong:Music/dark" FunctionValue="0"/>
 	</Instantly>
 	<OnConnect target="PDIRC">
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">我发誓，如果这件事不能正常工作，我就ForkBomb这!</AddIRCMessage>
-		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="2.0">好吧，她又发疯了。..</AddIRCMessage>
-		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="3.0">你知道这台服务器不属于任何一个人吧，对吧，Clara?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">我发誓,如果这件事不能正常工作,我就ForkBomb这!</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="2.0">好吧,她又发疯了。..</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="3.0">你知道这台服务器不属于任何一个人吧,对吧,Clara?</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="4.0">我为你的心理健康而担心</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">闭嘴!BLOYD，求你了? ;-)</AddIRCMessage>
-		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="6.0">即使他的笑话很滑稽，你仍然威胁着这个服务器的主人（即使它不存在），而这必然是犯罪行为</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">闭嘴!BLOYD,求你了? ;-)</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="6.0">即使他的笑话很滑稽,你仍然威胁着这个服务器的主人（即使它不存在）,而这必然是犯罪行为</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="7.0">你们两都给我闭嘴</AddIRCMessage>
 		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="14.0">!ANNOUNCEMENT! CYPHER MENDES (又称 #PLAYERNAME#) 已经连接至服务器 @channel</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="15.0">终于啊!</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">早上好队长!</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="21.0">早上好</AddIRCMessage>
-		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="23.0">早上好，Mendes 队长</AddIRCMessage>
-		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="28.0">早上好，我从未吵架的团队</AddIRCMessage>
+		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="23.0">早上好,Mendes 队长</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="28.0">早上好,我从未吵架的团队</AddIRCMessage>
 		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="33.0">我错过了什么?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="36.0">我们收到了一些关于网络破坏行为的报告，一些黑客行为和数据被盗。 平常的东西，大鱼还未上钩</AddIRCMessage>
-		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="45.0">好吧，我们还在等什么呢?现在开始行动吧，Clara和Javis来帮我的忙</AddIRCMessage>
-		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="50.0">Bloyd, 我有个档案还未完成，如果你帮我整完我会很开心的。</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="36.0">我们收到了一些关于网络破坏行为的报告,一些黑客行为和数据被盗。 平常的东西,大鱼还未上钩</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="45.0">好吧,我们还在等什么呢?现在开始行动吧,Clara和Javis来帮我的忙</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="50.0">Bloyd, 我有个档案还未完成,如果你帮我整完我会很开心的。</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="55.0">好的长官!</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="58.0">Clara提到的所有3个报告都附加到此服务器的任务中心</AddIRCMessage>
-		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="62.0">好的，chop-chop!</AddIRCMessage>
+		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="62.0">好的,chop-chop!</AddIRCMessage>
 		<AddConditionalActions Filepath="Actions/Transfer.xml" DelayHost="Delay" Delay="55.0"/>
 	</OnConnect>
 </ConditionalActions>

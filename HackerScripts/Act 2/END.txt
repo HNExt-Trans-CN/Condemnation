@@ -1,7 +1,7 @@
 config playerComp M5C3 0.0 $#%#$
 delete /home * $#%#$
 delete /bin * $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 delay 0.65 $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
@@ -17,7 +17,7 @@ writel_silent $#%#$
 write_silent 但是拥有你并不是最有利的 $#%#$
 delay 3.97 $#%#$
 writel_silent $#%#$
-write_silent 因此，我会拿走你的工具，闭上您的数码眼睛 $#%#$
+write_silent 因此,我会拿走你的工具,闭上您的数码眼睛 $#%#$
 delay 6.18 $#%#$
 hideNetMap $#%#$
 delay 0.2 $#%#$

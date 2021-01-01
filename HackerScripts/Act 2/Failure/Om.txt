@@ -1,5 +1,5 @@
 config playerComp OmBoss 0.0 $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$

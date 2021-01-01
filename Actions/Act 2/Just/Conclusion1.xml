@@ -19,29 +19,29 @@
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="5.0">你好 @#PLAYERNAME#</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="10.0">我擦?..</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="13.0">CLARA?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="16.0">哦，天哪，见到你真好!</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="16.0">哦,天哪,见到你真好!</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="20.0">还好?</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="25.0">还有你是怎么找到我的</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="30.0">不咋地，我需要帮助</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="35.0">没问题，只要我能帮得上，什么忙?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="30.0">不咋地,我需要帮助</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="35.0">没问题,只要我能帮得上,什么忙?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="40.0">我在追踪Omicron</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="45.0">还在追他吗? 的确，他是个棘手的人</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="49.0">已经一年半了，天哪，时间飞逝啊</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="53.0">我没心情，你能帮忙吗?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="57.0">好吧，你到底想要什么?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="62.0">我想把他的头剪下来，放在矛上，做一个漂亮的烧烤</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="45.0">还在追他吗? 的确,他是个棘手的人</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="49.0">已经一年半了,天哪,时间飞逝啊</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="53.0">我没心情,你能帮忙吗?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="57.0">好吧,你到底想要什么?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="62.0">我想把他的头剪下来,放在矛上,做一个漂亮的烧烤</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="67.0">Clara,你吓到我了...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="72.0">你知道那脑瘫怎么对我了吗?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="75.0">把我陷害让我成为一个流亡者!</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="78.0">我的天哪...</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="82.0">你过得还好吧? 你有安全的地方吗?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="86.0">我没有反正，我在找垃圾食物和垃圾庇护所睡觉</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="86.0">我没有反正,我在找垃圾食物和垃圾庇护所睡觉</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="91.0">你怎么觉得我承受得住?</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="96.0">Clara, 我...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="100.0">你要么帮助我杀死他，要么就将我列入死亡名单</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="100.0">你要么帮助我杀死他,要么就将我列入死亡名单</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="105.0">我... 你到底是谁?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="110.0">一个乞丐罢了</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="115.0">帮，还是不帮?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="115.0">帮,还是不帮?</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="120.0">我不觉得...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="123.0">帮...</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="124.0">还是不...</AddIRCMessage>

@@ -7,12 +7,12 @@
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Brief/Link.xml</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="会议">
-当您觉得自己完成了其他所有工作后，我们将与FBI代表举行会议
+当您觉得自己完成了其他所有工作后,我们将与FBI代表举行会议
   </posting>
   <email>
     <sender>Clara</sender>
     <subject>会议</subject>
-    <body>我们的会议将与FBI代表，代理Gale和EnTech的数字安全助手以在线方式进行。 会议结束后，单击“完成”按钮即可。</body>
+    <body>我们的会议将与FBI代表,代理Gale和EnTech的数字安全助手以在线方式进行。 会议结束后,单击“完成”按钮即可。</body>
     <attachments>
     </attachments>
   </email>

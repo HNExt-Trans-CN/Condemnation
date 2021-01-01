@@ -1,20 +1,20 @@
 <Computer id="M7Lead" name="NightHawks 的边站" ip="128.51.57.121" security="3" type="empty">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home" name="Note.txt">发生紧急情况时，此服务器是NightHawks的边站
+<file path="home" name="Note.txt">发生紧急情况时,此服务器是NightHawks的边站
 
 它也用于在移动设备上进行秘密操作（正在进行中）
 
-服务器正在使用动态IP脚本，因此所有成员都应标记此服务器以防止丢失其地址 </file>
+服务器正在使用动态IP脚本,因此所有成员都应标记此服务器以防止丢失其地址 </file>
 <eosDevice name="Jailbroken ePad" id="M7eOS" icon="tablet" empty="false" passOverride="Alpine">
 <note>Vortex
 
-他是一个新的潜在成员，目前还很弱，但是具有自动覆盖他的日志的有趣功能，我们无法追踪到他，因此也是我们的潜在敌人
+他是一个新的潜在成员,目前还很弱,但是具有自动覆盖他的日志的有趣功能,我们无法追踪到他,因此也是我们的潜在敌人
 
 我用专门为他制作的NetMap修复程序诱使他
-没有第二部分，NetMap仍然无法操作
+没有第二部分,NetMap仍然无法操作
 
 它位于我的一个存档中（58.141.177.25）
-如果小组中的任何人反对让他进入，只需从链接的计算机中删除修复程序文件即可。</note>
+如果小组中的任何人反对让他进入,只需从链接的计算机中删除修复程序文件即可。</note>
 </eosDevice>
 </Computer>

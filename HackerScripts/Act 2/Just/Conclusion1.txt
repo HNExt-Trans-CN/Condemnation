@@ -7,7 +7,7 @@ delay 1.57 $#%#$
 writel_silent $#%#$
 writel_silent Cypher Mendes意识到自己正在被人操纵 $#%#$
 delay 3.07 $#%#$
-writel_silent 决定放弃Omicron这个案子，以换取自己的正常生活 $#%#$
+writel_silent 决定放弃Omicron这个案子,以换取自己的正常生活 $#%#$
 delay 3.36 $#%#$
 writel_silent $#%#$
 writel_silent Clara Gilmore继续调查这起神秘而强大的黑客案 $#%#$
@@ -19,7 +19,7 @@ delay 2.79 $#%#$
 writel_silent 便是Omicron这起案子还未结束... $#%#$
 delay 3.20 $#%#$
 writel_silent $#%#$
-writel_silent Cypher仍然在被通缉，但设法找到了一家匿名PI公司 $#%#$
+writel_silent Cypher仍然在被通缉,但设法找到了一家匿名PI公司 $#%#$
 delay 5.67 $#%#$
 writel_silent 他现在是那边的一位探员 $#%#$
 delay 1.75 $#%#$

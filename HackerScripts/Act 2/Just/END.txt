@@ -5,7 +5,7 @@ delay 0.2 $#%#$
 hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 delay 0.72 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
@@ -59,9 +59,9 @@ delay 2.81 $#%#$
 writel_silent $#%#$
 writel_silent 我妈妈20岁时生下我 $#%#$
 delay 2.96 $#%#$
-writel_silent 而一年以前，她只是Sacramento的一名普通学生 $#%#$
+writel_silent 而一年以前,她只是Sacramento的一名普通学生 $#%#$
 delay 4.41 $#%#$
-writel_silent 由于她的出色成绩，她被转到San Francisco的学院 $#%#$
+writel_silent 由于她的出色成绩,她被转到San Francisco的学院 $#%#$
 delay 4.50 $#%#$
 writel_silent 但是她无法融入新的环境 $#%#$
 delay 3.58 $#%#$
@@ -75,7 +75,7 @@ delay 2.64 $#%#$
 writel_silent $#%#$
 writel_silent 几个月之后 $#%#$
 delay 1.82 $#%#$
-writel_silent 她试着改变自己，去了派对 $#%#$
+writel_silent 她试着改变自己,去了派对 $#%#$
 delay 3.22 $#%#$
 writel_silent 尝试可卡因 $#%#$
 delay 1.50 $#%#$
@@ -86,7 +86,7 @@ writel_silent 她没钱了 $#%#$
 delay 1.86 $#%#$
 writel_silent 并决定做妓女让一个随机的人干自己 $#%#$
 delay 3.48 $#%#$
-writel_silent 在其中一次，她怀孕了 $#%#$
+writel_silent 在其中一次,她怀孕了 $#%#$
 delay 3.53 $#%#$
 writel_silent 那便是我 $#%#$
 delay 3.11 $#%#$
@@ -137,7 +137,7 @@ delay 3.5 $#%#$
 writel_silent $#%#$
 writel_silent 之后我被领养了 $#%#$
 delay 3.17 $#%#$
-writel_silent 新父母很好，但总是担心我也会成为瘾君子 $#%#$
+writel_silent 新父母很好,但总是担心我也会成为瘾君子 $#%#$
 delay 5.00 $#%#$
 writel_silent 我试图证明我并不会这样 $#%#$
 delay 2.78 $#%#$
@@ -146,16 +146,16 @@ delay 2.30 $#%#$
 writel_silent $#%#$
 writel_silent 我以为我是英雄 $#%#$
 delay 2.34 $#%#$
-writel_silent 我救了另一个像我妈妈一样的女孩，防止她变成了肮脏的生物 $#%#$
+writel_silent 我救了另一个像我妈妈一样的女孩,防止她变成了肮脏的生物 $#%#$
 delay 5.01 $#%#$
 writel_silent 但是我被送到了监狱 $#%#$
 delay 2.16 $#%#$
 writel_silent $#%#$
 writel_silent 这是什么样的正义呢? $#%#$
 delay 2.70 $#%#$
-writel_silent 当你不断受到社会谴责时，你不知道感觉如何 $#%#$
+writel_silent 当你不断受到社会谴责时,你不知道感觉如何 $#%#$
 delay 5.54 $#%#$
-writel_silent 由于过去，你无法向任何人证明任何事情 $#%#$
+writel_silent 由于过去,你无法向任何人证明任何事情 $#%#$
 delay 4.11 $#%#$
 writel_silent 没有人在乎我 $#%#$
 delay 2.60 $#%#$

@@ -14,7 +14,7 @@
   <branch>Missions/Act 2/Mission 9/Branch.xml</branch>
   </branchMissions>
   <posting title="毒蛇行动">
-一项重要工作，可以将我们的团队提升到更高级别
+一项重要工作,可以将我们的团队提升到更高级别
   </posting>
   <email>
     <sender>E-Mail</sender>
@@ -24,13 +24,13 @@
 此任务需要渗透到使用加密的组织良好的安全系统内部的技能。
 	
 
-Jenkins - 管理所有可能需要的工具，包括DECSuite，客户端在DECSuite部署服务器上提供
+Jenkins - 管理所有可能需要的工具,包括DECSuite,客户端在DECSuite部署服务器上提供
 
 Slayer - 确保没有人会干扰我们的运营
 
 Vortex - 研究并找到一种连接最安全单元的方法。 其中有5个（说明位于DECSuite部署服务器上）
 
-Deladello - 与往常一样的社会工程学，查找医务人员留下的所有可能的裂缝和泄漏
+Deladello - 与往常一样的社会工程学,查找医务人员留下的所有可能的裂缝和泄漏
 
 Prophet - 我需要您帮助我制造大量勒索软件
 

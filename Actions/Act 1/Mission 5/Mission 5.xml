@@ -7,10 +7,10 @@
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="14.0">我们的目标是黑进这3个黑客的机子</AddIRCMessage>
 	</OnAdminGained>
 	<OnAdminGained target="M5C1">
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">@#PLAYERNAME# 队长，你获取了第一个黑客的战机!</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="4.0">发送netcfgx.dll到资源服务器上，然后继续挖掘</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">@#PLAYERNAME# 队长,你获取了第一个黑客的战机!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="4.0">发送netcfgx.dll到资源服务器上,然后继续挖掘</AddIRCMessage>
 	</OnAdminGained>
 	<OnAdminGained target="M5C2">
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# 那个人的安全性很强，队长你做得很好，让我们获取他的netcfgx.dll</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# 那个人的安全性很强,队长你做得很好,让我们获取他的netcfgx.dll</AddIRCMessage>
 	</OnAdminGained>
 </ConditionalActions>

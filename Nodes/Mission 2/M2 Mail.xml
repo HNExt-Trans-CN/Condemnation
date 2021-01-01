@@ -8,27 +8,27 @@
 <mailServer name="动态更改" color="0, 255, 55" generateJunk="false">
 <email recipient="Daedra" sender="Repulse" subject="文件传输服务器架设完成">
 
-嘿，我已经完成了文件传输服务器的假设，别人可以在那上传他们的垃圾了。
+嘿,我已经完成了文件传输服务器的假设,别人可以在那上传他们的垃圾了。
 
 我整到医疗档案就上传到服务器上去。稍后再发送详情给你。
 
-我希望你有一个计划，因为我无法破解所有端口 ;(
+我希望你有一个计划,因为我无法破解所有端口 ;(
 
  -Rep
  </email>
  <email recipient="Daedra" sender="Repulse" subject="Re:Re:文件传输服务器架设完成">
-赞，期待你明天在IRC的回复。
+赞,期待你明天在IRC的回复。
 
  -Rep
 -----------------
-整到医疗端口的破解器了，所以不用担心，那文件明天估计就整到手。
+整到医疗端口的破解器了,所以不用担心,那文件明天估计就整到手。
 
  -D
  </email>
  <email recipient="Daedra" sender="Repulse" subject="Re:紧急情况">
-没问题，哥们。
+没问题,哥们。
 -----------------
-Dan，你能帮我备份下我电脑文件吗?除了你以外我不能相信任何人。
+Dan,你能帮我备份下我电脑文件吗?除了你以外我不能相信任何人。
 
 这是我的IP "60.192.249.36"
 
@@ -37,15 +37,15 @@ Dan，你能帮我备份下我电脑文件吗?除了你以外我不能相信任�
 P.S. 通过 12.111.65.135 访问
 </email>
 <email recipient="Repulse" sender="Daedra" subject="Re:文件传输服务器架设完成">
-整到医疗端口的破解器了，所以不用担心，那文件明天估计就整到手。
+整到医疗端口的破解器了,所以不用担心,那文件明天估计就整到手。
 </email>
 <email recipient="Repulse" sender="MailBot" subject="访问变更">
-由于技术困难，您的代理节点已关闭。
+由于技术困难,您的代理节点已关闭。
 
 在网关上保存日志 82.139.222.48
 </email>
 <email recipient="Repulse" sender="Daedra" subject="紧急情况">
-Dan，你能帮我备份下我电脑文件吗?除了你以外我不能相信任何人。
+Dan,你能帮我备份下我电脑文件吗?除了你以外我不能相信任何人。
 
 这是我的IP "60.192.249.36"
 

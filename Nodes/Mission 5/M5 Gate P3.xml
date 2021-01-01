@@ -4,7 +4,7 @@
 
  <file path="home/HackStation" name="SYNC_SUCCESS.log">更新过程成功：从此代理中删除同步文件
  
-  重要信息：重新启动该计算机以清除缓存，否则可能会发生内存转储!</file>
+  重要信息：重新启动该计算机以清除缓存,否则可能会发生内存转储!</file>
  
  <Memory>
 	<Data>

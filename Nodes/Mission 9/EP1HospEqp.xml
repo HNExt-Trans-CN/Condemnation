@@ -1,5 +1,5 @@
 <Computer id="M9EP1Hos" name="NLH Hospital, Kellis BioTech 附加服务器" security="3" icon="kellis" type="1">
 <trace time="90" />
 <admin type="progress"/>
-<file path="home" name="Important.txt">Simon, Kellis BioThech Inc. 提供了一个额外的生命支持设备，我通过电子邮件将其发送给了Dr. Evans，他将进行设置。 你应该问他所有细节</file>
+<file path="home" name="Important.txt">Simon, Kellis BioThech Inc. 提供了一个额外的生命支持设备,我通过电子邮件将其发送给了Dr. Evans,他将进行设置。 你应该问他所有细节</file>
 </Computer>

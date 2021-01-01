@@ -1,2 +1,2 @@
 config playerComp C5C 0.1 $#%#$
-writel Clara: 进行转移，SSL即将破解
+writel Clara: 进行转移,SSL即将破解

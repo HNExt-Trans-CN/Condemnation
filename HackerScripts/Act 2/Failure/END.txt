@@ -6,7 +6,7 @@ hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
 delay 0.5 $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 delay 0.68 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
@@ -55,11 +55,11 @@ writel_silent 优柔寡断和不确定性? $#%#$
 delay 3.62 $#%#$
 writel_silent 你不明白你在争取什么 $#%#$
 delay 3.25 $#%#$
-writel_silent 你正在尝试使事情变得正确，但你不知道什么是正确的 $#%#$
+writel_silent 你正在尝试使事情变得正确,但你不知道什么是正确的 $#%#$
 delay 5.68 $#%#$
 writel_silent 你的愤怒还不够 $#%#$
 delay 3.12 $#%#$
-writel_silent 你需要牺牲，让别人害怕你 $#%#$
+writel_silent 你需要牺牲,让别人害怕你 $#%#$
 delay 5.31 $#%#$
 writel_silent 这就是这个世界的运作方式 $#%#$
 delay 3.88 $#%#$

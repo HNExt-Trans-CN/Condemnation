@@ -26,5 +26,5 @@ E.G.: Missions/TeamAssembly/Get_Cryp7o.xml
 ### Detail  
 
 E.G.:  
-1.我已经给你设置了一个备份服务器，你只需要把你所有的文件上传到里面就可以了。(获取你的备份服务器)  
+1.我已经给你设置了一个备份服务器,你只需要把你所有的文件上传到里面就可以了。(获取你的备份服务器)  
 2.Specific statement(Contract involved)  
