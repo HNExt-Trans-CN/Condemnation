@@ -5,36 +5,36 @@
 	<RunFunction FunctionName="playCustomSong:Music/2.ogg" FunctionValue="0" />
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="1.0"/>
 	
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="3.0">!ANNOUNCEMENT! VORTEX JOINED THE SERVER @channel</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">Greetings Vortex, our external agent confirmed that you deserve a place among us</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="14.0">I am leader of NightHawks, there are five of us total, not counting external agents</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">Jenkins, our Technical Specialist, he can easily make one computer attack another one without anybody noticing anything</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="3.0">!ANNOUNCEMENT! VORTEX 连接至服务器 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">你好 Vortex, 刚刚加入我们的新干员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="14.0">我是NightHawks的领袖, 不包括外部人员的话团队共5人</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">Jenkins, 我们的技术专家, 他可以轻而易举地进到其他机子里边而不惊扰到任何东西。</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="25.0">Sup</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">Deladello, Social Engineering, utilizes human stupidity better than anyone else</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="34.0">Greetings</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">Prophet, Coordinator and Cooperative Hacker, helps me to hold everything under control, and if you pair with him, nobody can stop you both</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="43.0">When united - then strong</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Slayer, Damage Control, our blast force and sledgehammer in any situation, has access to the hitmen services in special cases</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="53.0">Need anything or anyone broken, you ask me</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">And me of course, Head of The Operations, Maverick</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">You are here because you have proven yourself as a resourceful hacker and we need people like you</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="68.0">And my guess is that you want something from us as well</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="72.0">I need to find one hacker</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">Deladello and Prophet can help you with that</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">But why I should give them that order?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="84.0">I can be a part of your team as well, you still need the Covert Operations specialist, someone untrackable, I bet you already know why I am the best candidate</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">Indeed, your log-disguise is a very interesting phenomenon</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="98.0">We have a few contracts that require delicate approach</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="102.0">While you will be busy with them, Deladello and Prophet will collect info about your guy</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="108.0">You accept that deal?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="111.0">Yes</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">Boys, help our new member with his personal problem and give his address to our contracts hub agent</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">Jenkins, Slayer, we have a business to attend to</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="124.0">What is the nickname of that hacker?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">Deladello, 社会工程学大师,比任何人都更好地利用人类的愚蠢</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="34.0">你好</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">Prophet, 协调员和合作黑客,帮助我控制一切,如果与他作对,没有人可以阻止他</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="43.0">当我们武装 - 我们便强大</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Slayer, 掌管损害的控制,在任何情况下,我们都能在特殊情况下雇佣杀手</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="53.0">需要任何东西或任何人被毁灭,找我</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">当然了还有我,行动主管, Maverick</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">你已经证明自己是一名机智的黑客,而我们需要像你这样的人</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="68.0">我的猜测是你也希望我们提供一些帮助</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="72.0">我需要找到个黑客</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">Deladello和Prophet可以帮助你</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">但是我打算给他们的合约怎么处理?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="84.0">我也可以成为你团队的一部分,你仍然需要隐秘运营专家,一个无法追踪的人,我敢打赌,你已经知道我为什么是最佳人选</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">确实,你的数据伪装是一个非常有趣的东西</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="98.0">我们有一些需要细心处理的合同</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="102.0">当你忙着你的任务时,Deladello和Prophet会处理你要找的人</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="108.0">是否同意?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="111.0">可</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">伙计们,帮我们的新成员解决个人问题,并将其地址告知我们的合同中心代理</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">Jenkins, Slayer, 我们有业务要参加</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="124.0">那个黑客的ID是?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="128.0">Omicron</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">We'll start digging, meanwhile you will complete contracts of our clients, first one should be easy</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="137.0">And check this server's files, you can find something useful</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="141.0">Here is your first one</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">我们会开始挖掘的,第一个任务应该很简单,你自己应该能解决</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="137.0">检查下服务器的文件,你应该能找到感兴趣的东西</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="141.0">第一个任务</AddIRCMessage>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/Bonk1.xml" DelayHost="Delay" Delay="145.0"/>
 	</OnAdminGained>
 	

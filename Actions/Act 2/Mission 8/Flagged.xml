@@ -1,13 +1,13 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="Repulse">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Repulse Sent me, he said that experiment failed and cops got to him</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">I was assisting Repulse with his personal matter</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">We will manage Repulse's matter, but as far as I can see you are interested in our group, so allow me to properly introduce us</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Repulse发信息给我,他说实验失败了,警察找上了他</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">我正在协助Repulse处理他的个人事务</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">我们将负责处理Repulse的事务,据我所知,你对我们的团队感兴趣,所以请允许我正式介绍我们</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Jester">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Jester Sent me, he said that experiment failed and cops got to him</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">I was assisting Jester with his personal matter</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">We will manage Jester's matter, but as far as I can see you are interested in our group, so allow me to properly introduce us</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Jester发信息给我,他说实验失败了,警察找上了他</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">我正在协助Jester处理他的个人事务</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">我们将负责处理Jester的事务,据我所知,你对我们的团队感兴趣,所以请允许我正式介绍我们</AddIRCMessage>
 	</HasFlags>
 </ConditionalActions>
