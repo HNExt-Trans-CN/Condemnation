@@ -3,7 +3,7 @@
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="8.0">!ANNOUNCEMENT! 锁定脚本已启动 @channel</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="11.0">看到了吧?没骗你</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="15.0">但是我仍然必须有一些筹码</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="19.0">您必须获得修复补丁的第二部分才能解锁地图</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="19.0">你必须获得修复补丁的第二部分才能解锁地图</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="24.0">当然,我非常乐意给你</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="28.0">前提是我完成了你给的工作</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="31.0">正解</AddIRCMessage>
@@ -16,7 +16,7 @@
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">你有你自己的团队?</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="66.0">好吧,我确实是更大的团队中的一部分</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="72.0">我们叫NightHawks</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="76.0">我会给您我们的十字路口服务器地址,您可以在那里找到一些有用的信息</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="76.0">我会给你我们的十字路口服务器地址,你可以在那里找到一些有用的信息</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="81.0">我将添加一些有关我们事务的文件夹</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="85.0">只需查找Project Oblivion文件夹</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="89.0">给你</AddIRCMessage>

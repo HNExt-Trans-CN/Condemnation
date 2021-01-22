@@ -77,7 +77,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">你可以联系他吗?</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="38.0">据我所见,没有。 我们需要引起他的注意</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="42.0">我们需要做一件大而有争议的工作。 我会打几个电话,与此同时,有人可以向Vortex解释一件明显的事情吗??</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="50.0">啊,可以啊 @Vortex, 你需要了解一些东西。 我们与你的协议是找到他,而不是与他对抗。 我知道你和他有某种私人仇恨,我建议你冷静一下。 如果他会提出一项业务建议,那么我们会接受的。 如果您拒绝合作,您将作为我们的敌人与我们打交道</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="50.0">啊,可以啊 @Vortex, 你需要了解一些东西。 我们与你的协议是找到他,而不是与他对抗。 我知道你和他有某种私人仇恨,我建议你冷静一下。 如果他会提出一项业务建议,那么我们会接受的。 如果你拒绝合作,你将作为我们的敌人与我们打交道</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="50.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="50.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="50.3"/>
@@ -94,7 +94,7 @@
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">差不多完成了,我需要输入多少?</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="116.0">将每个单位设为75</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="120.0">了解</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="125.0">@Vortex,你也要参加。 作为隐秘专家和聪明人,您将需要攻击5个受到最好保护且目前无法到达的单位</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="125.0">@Vortex,你也要参加。 作为隐秘专家和聪明人,你将需要攻击5个受到最好保护且目前无法到达的单位</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="125.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="125.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="125.3"/>

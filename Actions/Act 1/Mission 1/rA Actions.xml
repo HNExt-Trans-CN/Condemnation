@@ -33,10 +33,10 @@
 		
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">@channel,我已经上传了我们的工具合集到我们的资源服务器了,当然,我也上传了一份到你们的工作站</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="15.0">我嘞个去,几乎大多数都是我们从那些罪犯那搞来的工具!</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="20.0">如果您丢失了一些工具,则可以在资源服务器找回它们,但是您知道的,如果那样的话,您将被处以一大堆罚款,因此请当心,不要对那些无辜的人使用该程序。</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="20.0">如果你丢失了一些工具,则可以在资源服务器找回它们,但是你知道的,如果那样的话,你将被处以一大堆罚款,因此请当心,不要对那些无辜的人使用该程序。</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">我们是条子,不是犯人,你明白的Corala ;)</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="33.0">别那样叫我,从来没Get到你那冷笑话的点,好吗madlad?</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">HeHeHeH</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="38.0">@channel 不要忘记,您现在可以破解大多数端口,以及NetmapOrganizer,带有MemForensics的MemDumpGenerator,SignalScramble和其他有用的东西,请查看工作站的/bin文件夹以了解详细信息!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="38.0">@channel 不要忘记,你现在可以破解大多数端口,以及NetmapOrganizer,带有MemForensics的MemDumpGenerator,SignalScramble和其他有用的东西,请查看工作站的/bin文件夹以了解详细信息!</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

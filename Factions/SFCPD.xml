@@ -38,7 +38,7 @@
   
   <Action ValueRequired="3">
 	<AddConditionalActions Filepath="Actions/Act 1/Mission 3/Music.xml" DelayHost="Delay" Delay="3.0"/>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@#PLAYERNAME# 队长,我们分析了您现在发送的netcfgx.dll,他住在城市的北部,执法人员已经在路上</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@#PLAYERNAME# 队长,我们分析了你现在发送的netcfgx.dll,他住在城市的北部,执法人员已经在路上</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="15.0">干得漂亮,所有人!</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">I如果我没记错的话,我们应该和联邦调查局的代表开会</AddIRCMessage>
 	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="25.0">是的队长!</AddIRCMessage>
@@ -47,7 +47,7 @@
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="40.0">当然,我们可以继续进行会议,暂且离开他,警局另一只团队很可能会从Daedra的位置得到关于他的一切</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="48.0">但是这取决于你的指示</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="53.0">所以该咋办,老大?</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="56.0">@#PLAYERNAME# 队长,如果您仍然有兴趣,我会在任务中心附上一份关于Repulse的报道</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="56.0">@#PLAYERNAME# 队长,如果你仍然有兴趣,我会在任务中心附上一份关于Repulse的报道</AddIRCMessage>
 	</Action>
 
 </CustomFaction>

@@ -3,20 +3,20 @@
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 8/D.xml" DelayHost="Delay" Delay="190.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="3.0">!ANNOUNCEMENT! VORTEX 连接至服务器@channel</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="8.0">Vortex？真可惜</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="12.0">我们已经有2个月没有聊天了,这就是你打招呼的方式吗？无论如何,至少我必须感激它不是"将毁了你的犯罪分子" </AddIRCMessage>
+		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="8.0">Vortex?真可惜</AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="12.0">我们已经有2个月没有聊天了,这就是你打招呼的方式吗?无论如何,至少我必须感激它不是"将毁了你的犯罪分子" </AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="20.0">我现在真的在考虑它</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="25.0">没关系。我很高兴收到你的信息,Clara</AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="30.0">队长...请解释一下一切</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="34.0">这是一个杰作。我被第三位黑客Omicron所入侵,他给了我一个非常简单的选择": "立即或几天后被抓住。我更改了IP并逃离了</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="40.0">还记得我删除的最后一个文件吗？毒品贩运详情？好吧,里面有个脚本</AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="40.0">还记得我删除的最后一个文件吗?毒品贩运详情?好吧,里面有个脚本</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="45.0">授予对Emalio cartel的各种访问权限,并在所有地方放置我的IP</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="50.0">你拥有EnSec,你被黑客入侵的可能性有多大,为什么我应该相信你？</AddIRCMessage>
+		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="50.0">你拥有EnSec,你被黑客入侵的可能性有多大,为什么我应该相信你?</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="55.0">如果你还记得,那家伙也有EnSec,据我所知,他与EnTech有着特殊的联系。</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="60.0">只需考虑一下,他在DEA和警方中就有间谍。他知道当我们要逮捕他时,没有什么能阻止他向EnTech注入他的人,这是一个巨大的资金渴求的垄断公司</AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="70.0">Cypher,联邦调查局认为你是我们这边的间谍</AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="75.0">美联储得到了DEA的证据,他确认你正在与cartel合作</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="79.0">什么？</AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="79.0">什么?</AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="85.0">然后Omicron死了。其他小队在EnTech数字执法人员的帮助下禁用了EnSec协议,并进入了他的系统。他被cartel成员开枪,数据泄漏在他的中继服务器上,所以他们杀死了他</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="95.0">不,不可能,他还活着,他计划了所有这一切,他以这种方式处置了cartel,他仍然在那里我正在寻找他,我觉得我越来越近</AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="105.0">队长,我真的很想相信你,你让我明白了为什么我要全身心地帮助人们</AddIRCMessage>
@@ -26,13 +26,13 @@
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="124.0">我从不想看到我的朋友和家人受苦</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="128.0">所有这些不公正之处都必须打击</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="132.0">这是唯一激励我的事情</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="137.0">正义吗？</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="140.0">还是报仇？</AddIRCMessage>
+		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="137.0">正义吗?</AddIRCMessage>
+		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="140.0">还是报仇?</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="144.0"> ... </AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="150.0">当你找​​到答案后,我们将再次交谈</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="154.0">在你走之前,我必须问你一些事情</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="157.0">？</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="160.0">你能将当前的调查放慢一点吗？我是NightHawks小组的秘密成员,必须完成合同,这样他们才能给我有关Omicron的信息</AddIRCMessage>
+		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="157.0">?</AddIRCMessage>
+		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="160.0">你能将当前的调查放慢一点吗?我是NightHawks小组的秘密成员,必须完成合同,这样他们才能给我有关Omicron的信息</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="166.0">此后,我可以给你些东西</AddIRCMessage>
 		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="172.0">我给你一天的时间。明天,这些Spoofer的白痴将被拘留</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="176.0">谢谢你Clara。希望我们能一起做正确的事情</AddIRCMessage>

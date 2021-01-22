@@ -110,7 +110,7 @@ write_silent 那个文件有个小脚本 $#%#$
 delay 4.20 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-write_silent 您的IP遍布我们的贩毒平台基础设施 $#%#$
+write_silent 你的IP遍布我们的贩毒平台基础设施 $#%#$
 delay 7.35 $#%#$
 writel_silent $#%#$
 write_silent 然后你的FBI好友,现在正在深入挖掘以找到我们的那帮家伙 $#%#$
@@ -144,7 +144,7 @@ delay 1.91 $#%#$
 writel_silent $#%#$
 write_silent 但是我在想... $#%#$
 delay 2.24 $#%#$
-write_silent 在这种极端情况下,您有什么能力? $#%#$
+write_silent 在这种极端情况下,你有什么能力? $#%#$
 delay 5.34 $#%#$
 writel_silent $#%#$
 write_silent 我再给你一次机会 $#%#$

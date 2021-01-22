@@ -3,7 +3,7 @@
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="8.0">!ANNOUNCEMENT! 锁定脚本已启动 @channel</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="11.0">看到了吧?没骗你</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="15.0">但是我仍然必须有一些筹码</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="19.0">您必须获得修复补丁的第二部分才能解锁地图</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="19.0">你必须获得修复补丁的第二部分才能解锁地图</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="24.0">当然,我非常乐意给你</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="28.0">前提是我完成了你给的工作</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="31.0">正解</AddIRCMessage>
@@ -12,7 +12,7 @@
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="44.0">我没找到那个混蛋,他被指控贩毒后失踪了</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="49.0">但我找到了他的下属,名为Javis Williamson</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="54.0">我要勒索他</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="58.0">因此,您需要获取他的医疗文件,以便我制作伪造的副本,使他无法留在警察局</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="58.0">因此,你需要获取他的医疗文件,以便我制作伪造的副本,使他无法留在警察局</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="62.0">并备份他的学历</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="66.0">同时,我也会对他做出令人生畏的文件</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="72.0">然后他会帮我找到那个叫Mendes的家伙</AddIRCMessage>
@@ -20,8 +20,8 @@
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="81.0">我就将其公开,毁灭他的生活</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="85.0">就像他的老板毁了我和我的朋友一样</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="89.0">我是小组的成员,我们称自己为NightHawks,如果你成功了</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="94.0">如果您加入我们,将更容易找到您的敌人</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="98.0">我将为您提供十字路口服务器,查找Project Oblivion文件夹,我会在此列出所有详细信息</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="94.0">如果你加入我们,将更容易找到你的敌人</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="98.0">我将为你提供十字路口服务器,查找Project Oblivion文件夹,我会在此列出所有详细信息</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="102.0">给你</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="104.0">!ATTACHMENT:link#%#NightHawks' Crossroads#%#100.234.234.151</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="104.0">!ATTACHMENT:account#%#NightHawks' Crossroads#%#100.234.234.151#%#admin#%#Sl1ckPr3y</AddIRCMessage>

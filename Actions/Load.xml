@@ -7,7 +7,7 @@
 	<OnAdminGained target="M9Deploy">
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Copy.xml" DelayHost="Delay" Delay="25.0"/>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">@channel 你可以在DECSuite 部署服务器的/bin文件夹中找到解密的可执行文件。您应该知道所提供文件的密码</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">@channel 你可以在DECSuite 部署服务器的/bin文件夹中找到解密的可执行文件。你应该知道所提供文件的密码</AddIRCMessage>
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="15.0">我不认为Vortex知道</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">妈的 我自己去解密他的部分会更容易</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="25.0">@Vortex,我找到了入口点,它们在2号文件中</AddIRCMessage>

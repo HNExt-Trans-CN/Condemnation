@@ -4,6 +4,6 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="NHIn">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">您帮助NightHawks摧毁了我们警方的基础设施</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助NightHawks摧毁了我们警方的基础设施</AddIRCMessage>
 	</HasFlags>
 </ConditionalActions>

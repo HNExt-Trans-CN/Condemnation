@@ -4,11 +4,11 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Dead_Flag_Scum">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">您在毒蛇行动中亲自处决了58个人</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">你在毒蛇行动中亲自处决了58个人</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Clara_Flag">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">您破坏了毒蛇行动</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">你破坏了毒蛇行动</AddIRCMessage>
 	</HasFlags>
 	
 </ConditionalActions>

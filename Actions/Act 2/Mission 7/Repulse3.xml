@@ -11,7 +11,7 @@
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="35.0">I我只是让这个世界少一个肮脏的警察</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="38.0">所以我不能说我是坏人</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">感谢你的帮助,你做的事情对我意义真的很大</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="46.0">正如我所说,我将为您提供完整的地图修复程序,并且可以给你NightHawks的访问权限</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="46.0">正如我所说,我将为你提供完整的地图修复程序,并且可以给你NightHawks的访问权限</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">感兴趣加入我们吗?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">NightHawks?</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="57.0">是的,我们可以利用你的能力,你的数字伪装功能非常不错</AddIRCMessage>

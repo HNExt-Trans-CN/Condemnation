@@ -7,7 +7,7 @@
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Brief/Link.xml</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="会议">
-当您觉得自己完成了其他所有工作后,我们将与FBI代表举行会议
+当你觉得自己完成了其他所有工作后,我们将与FBI代表举行会议
   </posting>
   <email>
     <sender>Clara</sender>

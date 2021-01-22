@@ -23,7 +23,7 @@ writel_silent 你现在比我更加强大了 $#%#$
 delay 2.27 $#%#$
 writel_silent 你是多么强大啊 $#%#$
 delay 2.52 $#%#$
-writel_silent 你欺骗NightHawks与您合作 $#%#$
+writel_silent 你欺骗NightHawks与你合作 $#%#$
 delay 3.35 $#%#$
 writel_silent $#%#$
 writel_silent 你现在拥有巨大的力量 $#%#$

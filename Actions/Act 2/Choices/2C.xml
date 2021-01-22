@@ -1,6 +1,6 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="Dead_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">您参与谋杀58人</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你参与谋杀58人</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Dead_Flag_Scum">

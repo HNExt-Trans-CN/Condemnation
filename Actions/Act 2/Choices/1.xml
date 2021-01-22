@@ -1,26 +1,26 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="R_Flag">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">由于Repulse的错误,您成为我们的一员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">由于Repulse的错误,你成为我们的一员</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="J_Flag">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">由于Jester的错误,您成为我们的一员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">由于Jester的错误,你成为我们的一员</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Repulse的个人事务后,您成为我们中的一员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Repulse的个人事务后,你成为我们中的一员</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Jester的个人事务后,您成为我们中的一员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Jester的个人事务后,你成为我们中的一员</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag_Scum">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Repulse的个人事务后,您成为我们中的一员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Repulse的个人事务后,你成为我们中的一员</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag_Scum">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Jester的个人事务后,您成为我们中的一员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">完成Jester的个人事务后,你成为我们中的一员</AddIRCMessage>
 	</HasFlags>
 	
 </ConditionalActions>
