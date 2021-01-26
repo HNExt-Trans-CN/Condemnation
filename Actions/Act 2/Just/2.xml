@@ -20,17 +20,17 @@
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="52.0">美联储不会以"我是无辜的"作为论调</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="56.0">我相信Omicron整过不少替罪羊</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="66.0">所以现在,我请求你来帮我</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="69.0">Captain, you seem to be obsessed with Omicron</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="74.0">What do you mean?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="79.0">I mean your actions are not good</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="84.0">I know that we saved Asset server from these punks</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="89.0">But still, you made sacrifices that you didn't have to</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="94.0">What I did wrong?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="98.0">You know how hard it is to be udercover?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="104.0">It is pure hell</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="109.0">Not to mention that I am outlaw</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="115.0">I made a research on you, Captain</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="120.0">So here is the list of your actions:</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="69.0">队长,您似乎对Omicron着迷</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="74.0">您是什么意思?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="79.0">我的意思是你的行为不够正义</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="84.0">我知道我们从这些朋克小子那保护了资源服务器</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="89.0">但是,您仍然做出了不必要的牺牲</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="94.0">我做错了什么?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="98.0">您知道要保护它有多难吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="104.0">这真是地狱</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="109.0">更不用说我是非法的</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="115.0">队长,我对你进行了研究</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="120.0">因此,我的理由如下如下：</AddIRCMessage>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/1C.xml" DelayHost="Delay" Delay="125.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/2C.xml" DelayHost="Delay" Delay="130.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/3C.xml" DelayHost="Delay" Delay="135.0"/>

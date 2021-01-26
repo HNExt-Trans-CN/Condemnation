@@ -1,62 +1,62 @@
 <ConditionalActions>
 	<Instantly>
-	<RunFunction FunctionName="addFlags:NHOut" FunctionValue="0" />
-	<RunFunction FunctionName="addRankFaction:JEnd" FunctionValue="2" />
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Omicron3.xml" DelayHost="Delay" Delay="30.0"/>
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnBreak.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, You done?</AddIRCMessage>
-	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
+		<RunFunction FunctionName="addFlags:NHOut" FunctionValue="0" />
+		<RunFunction FunctionName="addRankFaction:JEnd" FunctionValue="2" />
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Omicron3.xml" DelayHost="Delay" Delay="30.0"/>
+		<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnBreak.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, 完事了?</AddIRCMessage>
+		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="5.3"/>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">Yep, I am fully armed now</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="14.0">That's good, but do you know how to get to the Omicron now?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="18.0">Look through EnSecBreach.dll once more, maybe there are some tags that can show source IP</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="23.0">Okay</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="26.0">Wait...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">He can still whatch us through it</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="35.50">You really thought that NightHawks attacked you directly?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="39.85">You trigered their traps while they were up to something more important</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="45.27">Their main target</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="47.37">Is Clara</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="49.16">Together we prepared a little surprise for her</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="53.16">I think killing her won't achieve anything good for me</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="57.61">But I always need a scapegoat that I can blame for my actions in front of the Police</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="63.70">And it would be 10 times better if it will be a cop</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="67.88">So I came up with a great idea</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="71.28">If you refuse to revenge me after what I did to you</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="75.05">Then let me try to do the same thing with Clara</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="78.09">Maybe she will be more suitable candidate</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="81.96">And after going through condemnation of society, same as you</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="87.06">She will be a proof of my theory of how this disgusting world works</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="92.43">Or will rot in a prison cell</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="95.26">Now it is time to prove yourself as a Captain</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="99.25">You need to decide what is more important to you</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="102.89">Revenge for the past</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="105.31">Or imaginary justice</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="107.39">That you won't achieve in the end</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="109.42">While I am uploading newly made Clara's dirty files to the FBI</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="114.48">You can get to my network and extract my location and get to me once and for all</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="120.07">You can arrest me, you can kill me, you can do whatever you want with me</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="125.59">Alternatively, you can find source files that are transmitting to FBI and save Clara</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="132.64">But that won't stop me and my future projects</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="135.85">Oh, and belive me</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="138.31">They will be disastrous</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="140.10">With a lot of people dead</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="142.63">Because of you</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="144.10">You won't have enough time to do both targets</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="146.97">You can either extract a geolocation file from my proxy</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="150.17">Or delete Clara files on my archive</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="153.38">You have something about two minutes</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="156.95">Well?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="158.80">WHAT ARE YOU WAITING FOR?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="161.01">!ANNOUNCEMENT! %@$#%@SUFHE73#$3AIJFA</AddIRCMessage>
-	<StartScreenBleedEffect AlertTitle="DECIDE" CompleteAction="Actions/Act 2/Mission 11/Failure.xml" TotalDurationSeconds="120.0" DelayHost="Delay" Delay="161.01">Scan the Gateway:113.114.36.122
-Clara - remove her folder from Archive
-Omicron - download his location file from Proxy</StartScreenBleedEffect>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">是的,我现在已经全副武装</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="14.0">很好,但是你知道现在如何黑入Omicron吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="18.0">再次浏览EnSecBreach.dll,也许有些标签可以显示源IP</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="23.0">行</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="26.0">等下...</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">他依旧从中跟踪这我们!</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="35.50">你真的以为NightHawks直接袭击了你吗?</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="39.85">当他们忙于更重要的事情时,你触发了他们的陷阱</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="45.27">他们的主要目标</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="47.37">是Clara</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="49.16">我们在一起为她准备了一些惊喜</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="53.16">我想杀了她不会对我有什么好处</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="57.61">但是我总是需要一个替罪羊,因为总得有个人为此负责</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="63.70">特别是如果那是个警察会更好</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="67.88">所以我想出了一个好主意</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="71.28">如果你在我对你做了之后拒绝报仇我</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="75.05">然后让我尝试对Clara做同样的事情</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="78.09">也许她会是更合适的候选人</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="81.96">经过社会的谴责之后,与你相同</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="87.06">她将证明我关于这个令人恶心的世界如何运作的理论</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="92.43">或者会在牢房中腐烂</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="95.26">现在是时候证明自己是队长了</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="99.25">你需要确定对你来说更重要的事情</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="102.89">过去的事物</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="105.31">或虚构的正义</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="107.39">最终将无法实现的</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="109.42">当我将新制作的Clara的诬陷文件上传到FBI时</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="114.48">你可以进入我的网络并提取我的位置,并一劳永逸地到达我</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="120.07">你可以逮捕我,杀死我,可以对我做任何想做的事情</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="125.59">或者,你可以找到要传输到FBI的源文件并保存Clara </AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="132.64">但这不会阻止我和我将来的项目</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="135.85">哦,相信我</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="138.31">它们将是灾难性的</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="140.10">死了很多人</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="142.63">由于你原因</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="144.10">你将没有足够的时间来同时完成两个目标</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="146.97">你可以从我的代理中提取地理位置文件</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="150.17">或删除存档中的Clara文件</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="153.38">你大约只有两分钟时间</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="156.95">明白了?</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="C5D" Delay="158.80">所 以 你 还 在 等 什 么 呢 ?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="161.01">!ANNOUNCEMENT! %@$#%@SUFHE73#$3AIJFA</AddIRCMessage>
+		<StartScreenBleedEffect AlertTitle="DECIDE" CompleteAction="Actions/Act 2/Mission 11/Failure.xml" TotalDurationSeconds="120.0" DelayHost="Delay" Delay="161.01">扫描网关:113.114.36.122
+Clara - 从"存档"中删除所有有关她的文件
+Omicron - 从代理中下载他的位置文件</StartScreenBleedEffect>
 	</Instantly>
-	
+
 	<OnConnect target="M11G" needsMissionComplete="false">
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M11G.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+		<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M11G.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
 </ConditionalActions>

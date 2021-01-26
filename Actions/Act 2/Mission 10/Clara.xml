@@ -3,15 +3,16 @@
 	<RunFunction FunctionName="setHubServer:C5D" FunctionValue="6" />
 	<RunFunction FunctionName="setAssetServer:C5D" FunctionValue="6" />
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/ClaraLoad.xml" DelayHost="Delay" Delay="30.0"/>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, looks like you made a decision</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, 看起来像您做出了决定</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="3.3"/>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, Alright folks, I think Vortex is not willing to cooperate with you anymore</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">I guess he doesn't want to give you all advanced portbreakers and will try to take everything for him and his girlfriend to fight me</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.0">That means, I am hiring NightHawks to attack these loverbirds</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">Good luck Vortex</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="25.0">You are going to need it...</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! VORTEX HAS BEEN RESTRICTED FROM CHAT @channel</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, 好的,我认为Vortex不再愿意与你们合作</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">我想他不想给你所有高级的端口破解器,而是会尽一切力量为他和他的女朋友击败我</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.0">这意味着,我将正式雇用NightHawks来攻击这对爱情鸟</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">祝好运 Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="25.0">你需要它的...</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! 已从聊天室将VORTEX封禁
+	@channel</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

@@ -7,59 +7,59 @@
 	
 	<OnConnect target="C5D" needsMissionComplete="false">
 	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">!ANNOUNCEMENT! CHANNEL IS ACTIVE @channel</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="6.0">What have you sent me just now?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="11.0">I am kinda busy here and it is dangerous to contact each other that frequently</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="16.0">It is him! Omicron</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="20.0">He wants to attack FBI server to wipe personal info</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="25.0">But he needs a crew, so he offered that job to the NightHawks</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="29.0">They need better tools, so they want to get to our PD Asset server!</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="35.0">It is protected with EnTech protocols, it should be safe</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">That .dll I dropped you? It is an EnSec breaker</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="44.0">You can make a valid .exe and breach through EnSec somehow</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="49.0">Our infrastructure is whitelisted as well, I don't see a direct threat</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="54.0">You sure it is Omicron who contacted you?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">YES!</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="60.0">Analyze that .dll, it should contain some clues to find a place where Omicron can get a tool that allows to avoid whitelist</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">It is a contract that he tried to offer to NightHawks with my help</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">You refused? So there is no cover anymore?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="75.0">Yes, I am on my own again, but I need to stop them before they figure out something else</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">I am disconnected from their chat</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="84.0">I don't know what Omicron is telling them, but they want to attack both of us, and Omicron is got info on YOU as well</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="90.0">I made a research</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="94.0">Maybe you were right...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="99.0">Looks like he is back</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="104.0">What should we do? What do you see in that .dll?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="110.0">It is...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="113.0">A genius code...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">It is definetly his work of art</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="120.0">I know that already, what else?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="125.0">Hmm. Looks like it is a modified code from one of the EnTech servers, most probably EnSec and other protocls related</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="130.0">So the thing that can help NightHawks to avoid whitelist could be there?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="135.0">Probably</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="139.0">But what is your angle? What exactly you want to do?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="145.0">I need to wipe everything that in theory can give NightHawks and Omicron an access to Police servers</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="150.0">You want to raid EnTech? That's insane!</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="155.0">In my perspective, letting a neo-nazi hacker group to gain access to a hacker tools digital vault is more dangerous than violating a policy of an EnTech inc.</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="161.0">You have a .dll that can break EnSec, I just need a valid .exe and I won't endager you any longer</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="166.0">You want to raid them by yourself???</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="170.0">Clara, I've endangered you several times now. It is my justice manner, nobody else should suffer because of me</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="175.0">And you think I will let you go on a suicide mission when you have to fight against everyone?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="180.0">Against a genius criminal mastermind?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="185.0">Against a powerful hacker group that now hunts you?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="190.0">Against a huge corporation and their security protocols?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="194.0">On your own?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="200.0">I've not made a decision about you yet, Captain</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="205.0">Never the less, I will support you on this one</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="210.0">Thank you Clara</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="215.0">Ok, I got the .exe that can help us, but I can't transfer it to you safely</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="220.0">SFCPD would notice</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="224.0">You can use exe trough me for now</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="228.0">I've created a file on this server's /bin folder, change IP to an actual address where EnSec is embedded and I will send you an admin pass</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="233.0">Just remember that this one works with new version of EnSec, older versions are not detected by .dll</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="237.0">Let's check this on Source of that .dll</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="241.0">If Omicron wants to find whitelist breaker, we should start our search from there</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="245.0">!ATTACHMENT:link#%#EnTech Side Server#%#27.113.216.249</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="247.0">Simply change IP text in INPUT.txt on this server to that address and it should work</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">!ANNOUNCEMENT! 聊天室被激活 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="6.0">你刚刚发给我什么玩意?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="11.0">我在这里有点忙,经常互相联系很危险</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="16.0">这是他! Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="20.0">他想攻击FBI服务器以擦除个人信息</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="25.0">但是他需要几个人帮忙,所以他把这份工作交给了NightHawks</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="29.0">他们需要更好的工具,因此他们想黑如我们的警署的文件服务器!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="35.0">它受EnTech协议保护,应该安全</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">你没看到我发给你的那个dll吗?那是EnSec破坏器!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="44.0">你可以制作一个有效的.exe并通过某种方式破坏EnSec</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="49.0">我们的基础架构也已列入白名单,我看不到直接威胁</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="54.0">你确定是Omicron与你联系了吗?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">是的!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="60.0">分析该.dll,它应该包含一些线索,以找到Omicron可以获取绕过白名单的地方。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">这是他试图在我的帮助下提供给NightHawks的合同</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">你拒绝了吗所以没有了掩护?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="75.0">是的,我又得独自战斗了,但是在他们弄清楚别的东西之前,我必须停止他们</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">所以我与他们的聊天室断开了连接</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="84.0">我不知道Omicron在告诉他们什么,但是他们想攻击我们两个人,Omicron也在"你"身上得到了信息</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="90.0">我做了点研究</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="94.0">或许你是对的...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="99.0">看起来他回来了</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="104.0">我们应该怎么办?你从那dll文件发现什么了么</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="110.0">这...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="113.0">简直是天才才能码出来的屎山...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">简直是艺术品</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="120.0">我已经知道了,还有什么?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="125.0">嗯看起来这是一台EnTech服务器的修改后的代码,很可能是EnSec和其他相关协议</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="130.0">那么可以帮助NightHawks绕过白名单的东西在那里吗?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="135.0">可能</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="139.0">但话说回来你到底想做什么?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="145.0">我需要擦除理论上可以使NightHawks和Omicron访问警方服务器的所有内容</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="150.0">你想突袭EnTech吗?太疯狂了!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="155.0">以我的观点,让纳粹黑客组织访问黑客工具数字保险库比违反EnTech公司的政策更危险。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="161.0">你有一个可能会破坏EnSec的.dll,我只需要一个有效的.exe,然后我就不会再来烦你了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="166.0">你想自己突袭???</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="170.0">Clara,我已经几次威胁到你了。这是我的公道态度,没有人应该因我而受苦</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="175.0">你认为当你与所有人作战时,我会让你执行自杀任务吗?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="180.0">面对一个天才的犯罪策划者?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="185.0">面对现在正在搜寻你的强大黑客团体?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="190.0">面对大型公司及其安全协议?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="194.0">独自战斗?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="200.0">我还没作出决定呢,队长</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="205.0">不管怎样,我会在这一方面为你提供支持</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="210.0">谢谢你,Clara</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="215.0">好的,我有可以帮助我们的.exe,但是我无法安全地将其转移给你</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="220.0">我们警署会注意到的</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="224.0">你现在可以通过我使用exe</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="228.0">我已经在此服务器的/bin文件夹中创建了一个文件,将IP更改为嵌入了EnSec的实际地址,我将向你发送管理员密码</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="233.0">请记住,此版本适用于EnSec的新版本,.dll未检测针对旧版本的破解。</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="237.0">检查该.dll的来源</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="241.0">如果Omicron想要找到白名单破坏工具,我们应该从那里开始搜索</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="245.0">!ATTACHMENT:link#%#EnTech副服务器#%#27.113.216.249</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="247.0">只需将此服务器上INPUT.txt中的IP文本更改为该地址,即可使用</AddIRCMessage>
 	</OnConnect>
 </ConditionalActions>

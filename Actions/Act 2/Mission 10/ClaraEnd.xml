@@ -1,37 +1,37 @@
 <ConditionalActions>
 	<Instantly>
-	<AppendToFile DelayHost="Delay" Delay="107.0" TargetComp="WL" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
-	<CopyAsset DestFilePath="bin" DestComp="PDAsset" SourceComp="Delay" SourceFileName="EnBreak.exe" SourceFilePath="home" />
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">@Vortex, We did it?</AddIRCMessage>
-	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
+		<AppendToFile DelayHost="Delay" Delay="107.0" TargetComp="WL" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+		<CopyAsset DestFilePath="bin" DestComp="PDAsset" SourceComp="Delay" SourceFileName="EnBreak.exe" SourceFilePath="home" />
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">@Vortex, 我们完事了吗?</AddIRCMessage>
+		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="3.3"/>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="6.0">Yeah, I think that is all of them</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">They won't get anything useful from those servers</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="14.0">Phew, that's a relief</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">That was hell of a risky move</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="23.0">Not entirely legal, huh?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="27.0">Yeah, that too</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="32.0">Ok, NightHawks won't have any tools</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="36.0">And Omicron doesn't have active allies for now</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">I have to find him and strike before he disappears or he finds another crew</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">Do you have any plan?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">Not exactly, I still need tools</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="54.0">We protected them, but I kind of need them as well</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="58.0">So please tell me if there is a way I could get them</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="62.0">I am thinking</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="67.0">I can forward a limited access, that way you can get EnBreak as well</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="72.0">SFCPD won't find out?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="76.0">I will be okay, but you should delete the logs after you download all tools that you need</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="81.0">Remember that Police still can see your logs, so do it quickly</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="86.0">And how would I get admin access?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="90.0">With your credentials, Captain</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="94.0">Oh, I forgot already that I still have them</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="98.0">Remind me your IP please</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="101.0">#PLAYER_IP#</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="107.0">Okay, you can connect now, but be quick about it</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="110.0">Take all tools, that you don't have and delete the logs after that</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="113.0">I'll try to stop anyone else from connecting to the server, but not for long</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">!ATTACHMENT:link#%#Asset Server#%#90.91.183.142</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="6.0">是的,我想所有的文件已经删掉了</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">他们不会从这些服务器中获得任何有用的信息</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="14.0">天哪,这很轻松</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">那是冒险的举动</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="23.0">而且并不合法,是吧?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="27.0">是的,也是如此</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="32.0">好吧,NightHawks将没有任何工具</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="36.0">而且Omicron目前没有活跃的盟友</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">我必须找到他并制裁他,然后让他消失</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">你有任何计划吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">大概,我仍然需要工具不管如何</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="54.0">我们保护了它们,但我也同样需要它们</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="58.0">所以请告诉我是否有办法让他们获得它们</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="62.0">我在想</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="67.0">我可以转发有限的访问权限,这样你也可以获取EnBreak</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="72.0">无法找到SFCPD吗?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="76.0">我可以,但是在下载所需的所有工具之后,应该删除日志</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="81.0">请记住,警察仍然可以看到你的日志,因此请迅速进行操作</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="86.0">我将如何获得管理员访问权限?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="90.0">使用你的凭据,队长</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="94.0">哦,我已经忘记了我仍然有它们</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="98.0">请提醒我你的IP地址</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="101.0">#PLAYER_IP#</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="107.0">好,你现在就可以连接,但是很快就可以了</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="110.0">使用你没有的所有工具,然后删除日志</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="113.0">我将尝试阻止其他任何人连接到服务器,但时间不会太长</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">!ATTACHMENT:link#%#资产服务器#%#90.91.183.142</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>
