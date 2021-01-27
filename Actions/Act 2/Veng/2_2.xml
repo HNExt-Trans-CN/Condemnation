@@ -14,7 +14,7 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="37.0">但是随后他必须使用某种Sequencer进行隐身操作</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">那又怎样呢?在哪里可以找到它?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">我真的怀疑他会在文件中留下真实地址,这绝对是一个陷阱</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="50.0">但是当它处于活动状态时,我们可以通过某种方式侦察他的网络的一部分,该网络以某种方式连接到他的PC,就像我说的通过Sequencer
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="50.0">但是当它处于活动状态时,我们可以通过某种方式侦察他的网络的一部分,该网络以某种方式连接到他的PC,就像我说的通过Sequencer</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="56.0">因此,我们需要触发他的陷阱,然后才能看到他的安全漏洞?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="61.0">嗯哼</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">那谁来做这个倒霉蛋?</AddIRCMessage>
