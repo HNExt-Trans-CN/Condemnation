@@ -14,7 +14,7 @@
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="17.0">我也会帮你的显然,但是我想Omicron也会从中阻挠</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="22.0">他从什么地方阻挠我?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="25.0">从那些.dll中</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">我可以通过断开某些端口来为您提供帮助,但是NightHawks也可能会干扰,因此请当心</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">我可以通过断开某些端口来为你提供帮助,但是NightHawks也可能会干扰,因此请当心</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="33.0">祝好运!</AddIRCMessage>
 	</OnAdminGained>
 	

@@ -3,7 +3,7 @@
 	<RunFunction FunctionName="setHubServer:C5D" FunctionValue="6" />
 	<RunFunction FunctionName="setAssetServer:C5D" FunctionValue="6" />
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/ClaraLoad.xml" DelayHost="Delay" Delay="30.0"/>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, 看起来像您做出了决定</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, 看起来像你做出了决定</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="3.3"/>
