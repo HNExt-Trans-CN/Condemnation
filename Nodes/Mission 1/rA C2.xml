@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rA_Sec" name="Presentation 的笔记本" ip="118.161.12.97" icon="DLCLaptop" type="empty">
+<Computer id="M1rA_Sec" name="发布会 笔记本" ip="118.161.12.97" icon="DLCLaptop" type="empty">
 <adminPass pass="JeveStobs" />
 <admin type="none"/>
 <ports>21, 22, 443, 80</ports>
