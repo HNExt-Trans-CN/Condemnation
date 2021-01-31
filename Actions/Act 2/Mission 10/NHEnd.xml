@@ -3,7 +3,7 @@
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/WL.txt" DelayHost="Delay" Delay="70.0" SourceComp="NHHub" TargetComp="WL" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, 所有人,干得不错</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.0">现在我可以从中制作一些有趣的软件</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">我们将在该资产服务器上找到什么?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">我们将在该资源服务器上找到什么?</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="20.0">一些很美妙的软件</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.0">啊,是的,它准备好向你招手呢</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="30.0">先生们,我邀请你加入我并升级自己的工具集</AddIRCMessage>

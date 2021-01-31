@@ -1,4 +1,4 @@
-<Computer id="NHCross" name="NightHawks 十字路口" ip="25.187.106.244" security="5" type="4">
+<Computer id="NHCross" name="NightHawks负载均衡服务器" ip="25.187.106.244" security="5" type="4">
 <adminPass pass="Sl1ckPr3y" />
 <trace time="-1" />
 <admin type="progress"/>

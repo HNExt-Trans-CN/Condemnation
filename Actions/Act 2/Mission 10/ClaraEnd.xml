@@ -32,6 +32,6 @@
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="107.0">好,你现在就可以连接,但是很快就可以了</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="110.0">使用你没有的所有工具,然后删除日志</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="113.0">我将尝试阻止其他任何人连接到服务器,但时间不会太长</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">!ATTACHMENT:link#%#资产服务器#%#90.91.183.142</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="116.0">!ATTACHMENT:link#%#资源服务器#%#90.91.183.142</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

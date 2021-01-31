@@ -16,11 +16,11 @@
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">你有你自己的团队?</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="66.0">好吧,我确实是更大的团队中的一部分</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="72.0">我们叫NightHawks</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="76.0">我会给你我们的十字路口服务器地址,你可以在那里找到一些有用的信息</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="76.0">我会给你我们的负载均衡服务器地址,你可以在那里找到一些有用的信息</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="81.0">我将添加一些有关我们事务的文件夹</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="85.0">只需查找Project Oblivion文件夹</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="89.0">给你</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:link#%#NightHawks 的十字路口#%#25.187.106.244</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:account#%#NightHawks 的十字路口#%#25.187.106.244#%#admin#%#Sl1ckPr3y</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:link#%#NightHawks 的负载均衡#%#25.187.106.244</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:account#%#NightHawks 的负载均衡#%#25.187.106.244#%#admin#%#Sl1ckPr3y</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

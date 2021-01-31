@@ -21,9 +21,9 @@
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="85.0">就像他的老板毁了我和我的朋友一样</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="89.0">我是小组的成员,我们称自己为NightHawks,如果你成功了</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="94.0">如果你加入我们,将更容易找到你的敌人</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="98.0">我将为你提供十字路口服务器,查找Project Oblivion文件夹,我会在此列出所有详细信息</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="98.0">我将为你提供负载均衡服务器,查找Project Oblivion文件夹,我会在此列出所有详细信息</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="102.0">给你</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="104.0">!ATTACHMENT:link#%#NightHawks' Crossroads#%#100.234.234.151</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="104.0">!ATTACHMENT:account#%#NightHawks' Crossroads#%#100.234.234.151#%#admin#%#Sl1ckPr3y</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="104.0">!ATTACHMENT:link#%#NightHawks' 负载均衡#%#100.234.234.151</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="104.0">!ATTACHMENT:account#%#NightHawks' 负载均衡#%#100.234.234.151#%#admin#%#Sl1ckPr3y</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

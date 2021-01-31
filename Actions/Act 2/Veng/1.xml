@@ -6,7 +6,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">不,你自己解密它,我们对伤害我们的捐助者不感兴趣</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">你一定要帮我!该死!</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">我需要他死!</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="23.0">我为你打开资产服务器!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="23.0">我为你打开资源服务器!</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="26.0">而你们也应付出代价!</AddIRCMessage>
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="31.0">我也帮了你</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="35.0">我们都以一种或另一种方式做出了贡献</AddIRCMessage>
