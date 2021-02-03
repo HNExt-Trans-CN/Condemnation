@@ -5,7 +5,7 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Omicron3A.xml" DelayHost="Delay" Delay="30.0"/>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0"> @channel,好的,所有人</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.0">销毁该地点和所有连接的服务器</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">现在该是我们不仅反击警察,反击美联储的时候了!</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">现在该是我们不仅反击警察,反击联邦政府官员的时候了!</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">是的!最后,我们拥有了应该拥有的力量</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">什么都不会阻止我们!</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">是的,没错</AddIRCMessage>

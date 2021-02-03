@@ -41,7 +41,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">参与本次行动的所有人将在几天之内得到回报</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">搜索任务的进度如何?</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="32.0">Omicron - 真名未知,似乎是狭窄圈子中的某种传奇。 有传言说已经死了,但我会怀疑是否属实,他之前已经消失了几次,但又回来了。 具有强大的黑客技能,他领导了非常困难的行动,甚至把联邦调查局都干烂了</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="40.0">他的最后工作是帮助联邦情报局干预贩毒集团,但是事情不顺,警察找到了些Omicron的小痕迹,后来美联储找到了贩毒集团的 同时,Omicron被贩毒集团那边派来的杀手枪杀了,但我之前也做过类似的事情,我认为他只是销声匿迹一段时间,继续深入调查中</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="40.0">他的最后工作是帮助联邦情报局干预贩毒集团,但是事情不顺,警察找到了些Omicron的小痕迹,后来联邦政府官员找到了贩毒集团的 同时,Omicron被贩毒集团那边派来的杀手枪杀了,但我之前也做过类似的事情,我认为他只是销声匿迹一段时间,继续深入调查中</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">Ok,继续调查,Jenkins会帮助你的。</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">@Vortex ,你可以看到我们在这履行自己的职责。而你也一样,你也应为客户做好一切。</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="55.1"/>
