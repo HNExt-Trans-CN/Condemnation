@@ -14,7 +14,7 @@
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="25.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="25.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="25.3"/>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">@channel 另外,你可以从我们的交叉路口服务器中的相应文件夹中获取勒索软件.bat文件</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">@channel 另外,你可以从我们的负载均衡服务器中的相应文件夹中获取勒索软件.bat文件</AddIRCMessage>
 	</OnAdminGained>
 	
 	<OnAdminGained target="M9EP1Hos">

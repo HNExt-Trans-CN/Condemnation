@@ -21,7 +21,7 @@
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="90.0">我们可能看起来像一个疯狂而嗜血如命的组织,但实际上只有Slayer这样。你是对的,我们陷入了困境。 我们将从毒蛇行动中得到4350000美元。但Omicron说他要支付一百万美元</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="105.0">我看不出任何逻辑可言。我仍然不明白为什么我们杀了58人!</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="111.0">一 个 人 一 百 万 美 元。 对整个团队来说意味着600万美元。包括你</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">但是,只有你接受我们的规则,你才能参与分钱。如果你忘记了我们在此处的行事手段,那就在我们的交叉路口服务器上看看Oath文件</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">但是,只有你接受我们的规则,你才能参与分钱。如果你忘记了我们在此处的行事手段,那就在我们的负载均衡服务器上看看Oath文件</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">赞! 我联系了客户,他也看到新闻了,它事实上更开心了。</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">显然他现在可以会爱上他的医疗计划</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">太好了,我希望我们也能从中受益</AddIRCMessage>
@@ -56,7 +56,7 @@
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="90.0">我们可能看起来像一个疯狂而嗜血如命的组织,但实际上只有Slayer这样。你是对的,我们陷入了困境。 我们将从毒蛇行动中得到4350000美元。但Omicron说他要支付一百万美元</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="105.0">我看不出任何逻辑可言。我仍然不明白为什么我们杀了58人!</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="111.0">一 个 人 一 百 万 美 元。 对整个团队来说意味着600万美元。包括你</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">但是,只有你接受我们的规则,你才能参与分钱。如果你忘记了我们在此处的行事手段,那就在我们的交叉路口服务器上看看Oath文件</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">但是,只有你接受我们的规则,你才能参与分钱。如果你忘记了我们在此处的行事手段,那就在我们的负载均衡服务器上看看Oath文件</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">赞! 我联系了客户,他也看到新闻了,它事实上更开心了。</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">显然他现在可以会爱上他的医疗计划</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">太好了,我希望我们也能从中受益</AddIRCMessage>
