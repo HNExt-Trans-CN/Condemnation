@@ -26,16 +26,16 @@
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="118.0">有多少个卧底去了脚本小子留言板并钓了它们?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="125.0">或者你认为我是卧底警察,并且正在该板上寻找一些危险的犯罪分子?</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="130.0">好吧,听起来很合理</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp ="M7IRC" Delay ="135.0">那么你能帮我恢复吗?</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp ="M7IRC" Delay ="139.0">至少我可以为你提供地图</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp ="M7IRC" Delay ="143.0">真的吗?</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp ="M7IRC" Delay ="146.0">当然不是免费的</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp ="M7IRC" Delay ="150.0">需要先完成一些操作</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp ="M7IRC" Delay ="153.0">有兴趣吗?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp ="M7IRC" Delay ="156.0">取决于你要我做什么</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp ="M7IRC" Delay ="160.0">不用担心,没什么严重的,我需要破坏一个人的生活</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp ="M7IRC" Delay ="165.0">如果你问我,这听起来像是一件很严肃的事情</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp ="M7IRC" Delay ="169.0">我将做主要部分,你只需要四处摸摸,发现我可以使用的一些污物</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="135.0">那么你能帮我恢复吗?</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="139.0">至少我可以为你提供地图</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="143.0">真的吗?</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="146.0">当然不是免费的</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="150.0">需要先完成一些操作</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="153.0">有兴趣吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="156.0">取决于你要我做什么</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="160.0">不用担心,没什么严重的,我需要破坏一个人的生活</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="165.0">如果你问我,这听起来像是一件很严肃的事情</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="169.0">我将做主要部分,你只需要四处摸摸,发现我可以使用的一些污物</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="174.0">或者伪造些什么让他变成犯人</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="178.0">他是谁?</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="185.0">他名为Cypher Mendes</AddIRCMessage>
