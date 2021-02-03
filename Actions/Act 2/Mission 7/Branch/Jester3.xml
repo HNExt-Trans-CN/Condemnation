@@ -1,6 +1,6 @@
 <ConditionalActions>
 	<Instantly>
-		<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Revenge.xml" DelayHost=" Delay" Delay="108.0"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Revenge.xml" DelayHost="Delay" Delay="108.0"/>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="5.0">@Vortex 干得漂亮兄弟!</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="9.0">你为我们整到了非常有趣的资料</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="13.0">艾滋病和梅毒, wow, 我猜他是个鸭子</AddIRCMessage>
@@ -27,6 +27,6 @@
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="98.0">不要想太久</AddIRCMessage>
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="102.0">我们将在几个小时内更改访问白名单</AddIRCMessage>
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="105.0">做出选择吧</AddIRCMessage>
-		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost=" Delay" Delay="105.0"/>
+		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="105.0"/>
 	</Instantly>
 </ConditionalActions>

@@ -1,6 +1,6 @@
 <ConditionalActions>
 	<Instantly>
-		<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Justice.xml" DelayHost=" Delay" Delay="86.0"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Justice.xml" DelayHost="Delay" Delay="86.0"/>
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="5.0"> @Vortex 进展如何?</AddIRCMessage>
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="9.0">我确实找到了些肮脏的玩意,但仍然没有可以使用的东西</AddIRCMessage>
 		<AddIRCMessage Author ="Vortex" TargetComp ="M7IRC" Delay ="13.0">我正在处理</AddIRCMessage>
@@ -22,6 +22,6 @@
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="80.0">我将立即激活你的修复程序,告诉Maverick实验失败了</AddIRCMessage>
 		<AddIRCMessage Author ="Jester" TargetComp ="M7IRC" Delay ="83.0">现在,滚蛋,别说我认识你</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="84.0">!ANNOUNCEMENT! JESTER 与服务器断开了连接 @channel</AddIRCMessage>
-		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost=" Delay" Delay="80.0"/>
+		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="80.0"/>
 	</Instantly>
 </ConditionalActions>
