@@ -22,14 +22,14 @@
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="83.0">Bloyd?</AddIRCMessage>
 	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="87.0">她名为Sandra Brooks,Olivia的姐姐,她的意图不明,我们将在与其进行讯问后从她那里得到一切。</AddIRCMessage>
 	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="95.0">好吧,如果那不是恐怖袭击,那对我的部门来说没什么大不了的</AddIRCMessage>
-<AddIRCMessage Author =" Gale" TargetComp ="PDIRC" Delay ="100.0">正如我所说,我已经为你的团队分配了任务</AddIRCMessage>
-<AddIRCMessage Author =" Gale" TargetComp ="PDIRC" Delay ="105.0">昨晚在我们其中一台安全服务器上进行了破坏</AddIRCMessage>
-<AddIRCMessage Author =" Gale" TargetComp ="PDIRC" Delay =" 110.0">他们似乎已经获得了SSL破解工具,因此他们通过了我们的安全性并窃取了一些机密数据,没有任何记录,甚至断开了日志</AddIRCMessage>
-<AddIRCMessage Author =" Diana" TargetComp ="PDIRC" Delay ="120.0">他们正在作为专业团队工作,使用sequencer工具进行破解,并在清除日志后使用Forkbomb进行隐形断开连接</AddIRCMessage>
-<AddIRCMessage Author =" Gale" TargetComp ="PDIRC" Delay =" 128.0">是的,但是几个小时前,我们在其中一台服务器上检测到断开连接日志,很可能这是它们的网关</AddIRCMessage>
-<AddIRCMessage Author =" Gale" TargetComp ="PDIRC" Delay =" 136.0">我希望你调查他们的基础架构,并让我获得他们的详细信息,位置和所有内容</AddIRCMessage>
-<AddIRCMessage Author ="＃PLAYERNAME＃" TargetComp ="PDIRC" Delay =" 144.0"> 我们会尽力而为!</AddIRCMessage>
-<AddIRCMessage Author =" Gale" TargetComp ="PDIRC" Delay =" 148.0">祝你好运,请记住,Diana女士将提供任何形式的帮助</AddIRCMessage>
+<AddIRCMessage Author="Gale" TargetComp ="PDIRC" Delay ="100.0">正如我所说,我已经为你的团队分配了任务</AddIRCMessage>
+<AddIRCMessage Author="Gale" TargetComp ="PDIRC" Delay ="105.0">昨晚在我们其中一台安全服务器上进行了破坏</AddIRCMessage>
+<AddIRCMessage Author="Gale" TargetComp ="PDIRC" Delay =" 110.0">他们似乎已经获得了SSL破解工具,因此他们通过了我们的安全性并窃取了一些机密数据,没有任何记录,甚至断开了日志</AddIRCMessage>
+<AddIRCMessage Author="Diana" TargetComp ="PDIRC" Delay ="120.0">他们正在作为专业团队工作,使用sequencer工具进行破解,并在清除日志后使用Forkbomb进行隐形断开连接</AddIRCMessage>
+<AddIRCMessage Author="Gale" TargetComp ="PDIRC" Delay =" 128.0">是的,但是几个小时前,我们在其中一台服务器上检测到断开连接日志,很可能这是它们的网关</AddIRCMessage>
+<AddIRCMessage Author="Gale" TargetComp ="PDIRC" Delay =" 136.0">我希望你调查他们的基础架构,并让我获得他们的详细信息,位置和所有内容</AddIRCMessage>
+<AddIRCMessage Author="＃PLAYERNAME＃" TargetComp ="PDIRC" Delay =" 144.0"> 我们会尽力而为!</AddIRCMessage>
+<AddIRCMessage Author="Gale" TargetComp ="PDIRC" Delay =" 148.0">祝你好运,请记住,Diana女士将提供任何形式的帮助</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="155.0">再会,长官!</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="157.0">祝好运,长官!</AddIRCMessage>
 	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="158.0">再见长官!</AddIRCMessage>

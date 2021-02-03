@@ -15,18 +15,18 @@
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">好吧,我有一个计划</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="64.0">洗耳恭听</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="68.0">我会警告NLH那边的安保,当然了他们不会惊动任何人</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="73.0">此外,我将对该.bat文件进行反向工程并将其发送安全补丁。生命维持单位不会有失效的风险,你那边会认为一切正常,只是他们实际上无法杀死任何人</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="85.0">这将看起来像是制造勒索软件的人的错误,你的团队不会怀疑你</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="90.0">我假设我必须继续执行我的部分操作?</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="94.0">按照他们说的去做</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="98.0">人们不会死,所以请像你正确地完成工作一样,在他们看来,制作.bat文件的人看起来显然更有问题</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="103.0">好,我将继续操作,但是客户呢?</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="108.0">一旦医院里的人安全了,条子便准备搬出他的住所</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="115.0">知道了。谢谢Clara。你刚刚救了很多人。但是我们还有另一个问题。我是对的,Omicron回来了,检查所有可用信息,扫描所有信息源,我们需要联系他,他正在为某种计划或攻击做准备</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="125.0">队长,我仍然认为这是胡说八道,但是我会检查一下</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="130.0">再次感谢</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="134.0">现在,完成你朋友指定的操作</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="138.0">我不会和一些新纳粹败类成为朋友</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="73.0">此外,我将对该.bat文件进行反向工程并将其发送安全补丁。生命维持单位不会有失效的风险,你那边会认为一切正常,只是他们实际上无法杀死任何人</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="85.0">这将看起来像是制造勒索软件的人的错误,你的团队不会怀疑你</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="90.0">我假设我必须继续执行我的部分操作?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="94.0">按照他们说的去做</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="98.0">人们不会死,所以请像你正确地完成工作一样,在他们看来,制作.bat文件的人看起来显然更有问题</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="103.0">好,我将继续操作,但是客户呢?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="108.0">一旦医院里的人安全了,条子便准备搬出他的住所</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="115.0">知道了。谢谢Clara。你刚刚救了很多人。但是我们还有另一个问题。我是对的,Omicron回来了,检查所有可用信息,扫描所有信息源,我们需要联系他,他正在为某种计划或攻击做准备</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="125.0">队长,我仍然认为这是胡说八道,但是我会检查一下</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="130.0">再次感谢</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="134.0">现在,完成你朋友指定的操作</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="138.0">我不会和一些新纳粹败类成为朋友</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="142.0">不管如何,保持联系</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="145.0">!ANNOUNCEMENT! 聊天室已关闭 @channel</AddIRCMessage>
 	</OnConnect>

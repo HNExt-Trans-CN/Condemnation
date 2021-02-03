@@ -15,7 +15,7 @@
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="31.0">Omicron试图对你做他对我做的同样的事情。</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="35.0">让你也被通缉。</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="39.0">把一些虚假的证据上传到FBI </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="44.0">那一点卵用也没有,毕竟我是无辜的</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="44.0">那一点卵用也没有,毕竟我是无辜的</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="48.0">我也没做错什么,看着我</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="52.0">联邦政府官员不会以"我是无辜的"作为论调</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="56.0">我相信Omicron整过不少替罪羊</AddIRCMessage>
@@ -34,37 +34,37 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/1C.xml" DelayHost="Delay" Delay="125.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/2C.xml" DelayHost="Delay" Delay="130.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/3C.xml" DelayHost="Delay" Delay="135.0"/>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="140.0">所以你并非什么大好人</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="140.0">所以你并非什么大好人</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="145.0">操... </AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="147.0">我... </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="150.0">你已经不是我所认识的那个人了</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="154.0">谁总是说一定有一种使事情公正的方法</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="159.0">现在,我只看到一个沉迷于复仇而已的人</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="164.0">为什么你然后救了我?虚无缥缈的道德被拉进了你的内心?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="150.0">你已经不是我所认识的那个人了</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="154.0">谁总是说一定有一种使事情公正的方法</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="159.0">现在,我只看到一个沉迷于复仇而已的人</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="164.0">为什么你然后救了我?虚无缥缈的道德被拉进了你的内心?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="169.0">我现在算是明白了些什么了</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="173.0">我变成了... </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="177.0">一个怪物,那就是你真正的真实身份</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="177.0">一个怪物,那就是你真正的真实身份</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="181.0">我很抱歉,Clara,我是如此生气而又自责,无法看到我做了多少坏事</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="184.0">这不应该是那样的... </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="188.0">我不信任你,也不想再与你交谈</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="193.0">你的品德非常糟糕且不可原谅</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="197.0">我只能就一件事达成共识</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="201.0"> Omicron是一个威胁,他必须在监狱里</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="205.0">我将开始寻找他,并在没有任何牺牲的情况下使事情变得正确</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="188.0">我不信任你,也不想再与你交谈</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="193.0">你的品德非常糟糕且不可原谅</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="197.0">我只能就一件事达成共识</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="201.0"> Omicron是一个威胁,他必须在监狱里</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="205.0">我将开始寻找他,并在没有任何牺牲的情况下使事情变得正确</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="210.0">等等,你不能单打独斗,他会很快反过来攻击你!</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="215.0">我不想再听到你的声音</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="220.0">真是太可怜了,好人变成了这样的怪物。</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="225.0">如果需要更多的暴力或牺牲,我不会追查Omicron,我理解我的错误,并且... </AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="230.0">该死,我只是想摆脱这种情况,等待更好的时刻,这样我就不必再次成为怪物了。</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="235.0">我对你的自责不感兴趣</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="240.0">你使用了不正当的行为,并也必将受到惩罚</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="244.0">这是我的观点</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="248.0">告别... </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="250.0">!ANNOUNCEMENT! CLARA已退出@channel </AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="255.0"> Clara?.. </AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="260.0">不要对我这样做... </AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="265.0">不... </AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="270.0"> ... </AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="215.0">我不想再听到你的声音</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="220.0">真是太可怜了,好人变成了这样的怪物。</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="225.0">如果需要更多的暴力或牺牲,我不会追查Omicron,我理解我的错误,并且... </AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="230.0">该死,我只是想摆脱这种情况,等待更好的时刻,这样我就不必再次成为怪物了。</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="235.0">我对你的自责不感兴趣</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="240.0">你使用了不正当的行为,并也必将受到惩罚</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="244.0">这是我的观点</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="248.0">告别... </AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="250.0">!ANNOUNCEMENT! CLARA已退出@channel </AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="255.0"> Clara?.. </AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="260.0">不要对我这样做... </AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="265.0">不... </AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="270.0"> ... </AddIRCMessage>
 		<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="274.0" />
 		<AddConditionalActions Filepath="Actions/Act 2/Just/Conclusion1.xml" DelayHost="Delay" Delay="280.0"/>
 

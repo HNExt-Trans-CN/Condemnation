@@ -5,46 +5,46 @@
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="5.0">@Clara, 你还好吗???</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="10.0">发生什么事了</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="14.0"> Omicron试图陷害你搞得你落到和我一样的境界</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="18.0">我阻止了向FBI服务器的上传</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="22.0">他制作了一些"所谓的罪证"</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="27.0">但我是无辜的</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="32.0">我知道,但是我们在EnTech内部进行了篡改</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="36.0">而且我认为Omicron可以将你的IP放置在某些犯罪服务器上</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="40.0">两个月前我也发生了同样的事情</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="45.0">确实呢... </AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="50.0">我们需要拖延一段时间,这对我们俩来说都太危险了</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="55.0">他会让我们做些使我们变成怪物或杀死我们的事情</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="60.0">但是他对每个人都是一个很大的危险</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="64.0">我知道,但是我们没有任何开始,他很可能又消失了</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="69.0">我可以获得他的位置文件,但是我不能牺牲你或其他任何人</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="74.0">我们应该尽可能静观其变</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="78.0">只是保持尊严,不要陷入报仇之深</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="83.0">我知道你在卧底时做了一些可疑的操作</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="88.0">但现在我相信你的灵魂仍然在正确的位置</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="92.0">你是对的,除了他的陷阱,牺牲不会带我们到任何地方</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="96.0">但是我们必须做些什么!</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="102.0">我没有主意,也许他在你的PC上留下了东西?</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="106.0">让我检查一下... </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="115.0">我认为他是在EnSecBreach.dll的帮助下下载了我的一些文件</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="120.0">也许我可以从被发送的数据找到个ip</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="125.0">在那儿要小心</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="133.0">我想我明白了</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="137.0">但我不认为这是他的真实PC </AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="141.0">最有可能是一个带有陷阱的陷阱</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="145.0">那我们应该怎么办?</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="150.0">他试图长时间操纵你</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="154.0">使你成为一个坏人</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="158.0">所以我拒绝帮助你</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="162.0">根据我的研究,这是他的计划的一部分</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="167.0">为什么他要我变丑?</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="172.0">也许他正在寻找继任者</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="176.0">不确定</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="180.0">重点是,他在等你去找他</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="185.0">也许你可以尝试找他,而我会寻找任何安全漏洞</AddIRCMessage>
-		<AddIRCMessage Author ="Vortex" TargetComp ="C5D" Delay ="190.0">所以我是诱饵,是吧?</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="194.0">是的,我认为这是现在联系他的唯一方法</AddIRCMessage>
-		<AddIRCMessage Author ="Clara" TargetComp ="C5D" Delay ="198.0">我会给你链接,你应该删除其中的所有内容</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="14.0"> Omicron试图陷害你搞得你落到和我一样的境界</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="18.0">我阻止了向FBI服务器的上传</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="22.0">他制作了一些"所谓的罪证"</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="27.0">但我是无辜的</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="32.0">我知道,但是我们在EnTech内部进行了篡改</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="36.0">而且我认为Omicron可以将你的IP放置在某些犯罪服务器上</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="40.0">两个月前我也发生了同样的事情</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="45.0">确实呢... </AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="50.0">我们需要拖延一段时间,这对我们俩来说都太危险了</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="55.0">他会让我们做些使我们变成怪物或杀死我们的事情</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="60.0">但是他对每个人都是一个很大的危险</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="64.0">我知道,但是我们没有任何开始,他很可能又消失了</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="69.0">我可以获得他的位置文件,但是我不能牺牲你或其他任何人</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="74.0">我们应该尽可能静观其变</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="78.0">只是保持尊严,不要陷入报仇之深</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="83.0">我知道你在卧底时做了一些可疑的操作</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="88.0">但现在我相信你的灵魂仍然在正确的位置</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="92.0">你是对的,除了他的陷阱,牺牲不会带我们到任何地方</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="96.0">但是我们必须做些什么!</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="102.0">我没有主意,也许他在你的PC上留下了东西?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="106.0">让我检查一下... </AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="115.0">我认为他是在EnSecBreach.dll的帮助下下载了我的一些文件</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="120.0">也许我可以从被发送的数据找到个ip</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="125.0">在那儿要小心</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="133.0">我想我明白了</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="137.0">但我不认为这是他的真实PC </AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="141.0">最有可能是一个带有陷阱的陷阱</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="145.0">那我们应该怎么办?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="150.0">他试图长时间操纵你</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="154.0">使你成为一个坏人</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="158.0">所以我拒绝帮助你</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="162.0">根据我的研究,这是他的计划的一部分</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="167.0">为什么他要我变丑?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="172.0">也许他正在寻找继任者</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="176.0">不确定</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="180.0">重点是,他在等你去找他</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="185.0">也许你可以尝试找他,而我会寻找任何安全漏洞</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp ="C5D" Delay ="190.0">所以我是诱饵,是吧?</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="194.0">是的,我认为这是现在联系他的唯一方法</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp ="C5D" Delay ="198.0">我会给你链接,你应该删除其中的所有内容</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="202.0">那很有可能会导致他攻击你</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="206.0">虽然你们俩都很忙,但我将寻找一种方法来访问他的真实PC </AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="215.0">务必小心,队长</AddIRCMessage>
