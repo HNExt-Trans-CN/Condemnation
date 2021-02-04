@@ -1,21 +1,21 @@
 <ConditionalActions>
 	<Instantly>
 	<AddConditionalActions Filepath="Actions/Act 2/Choices/DOG.xml" DelayHost="Delay" Delay="5.0"/>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, We did it??</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, 我们成功了吗??</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="5.3"/>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">Yes, I made it!</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="14.0">Great Job, Cypher!</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">Only one thing left</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="22.0">Upload it to the police</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="26.0">Am I having honors then?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">Well you got the file so yeah</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="35.0">You should upload it</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">Can you give an IP?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="44.0">Sure, I will give you IP of Santa-Rosa's PD, they are not EnTech protected so you won't have problems there</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">Thank you</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="55.0">Moment of truth</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="59.0">!ATTACHMENT:link#%#Santa-Rosa Police Department#%#175.102.196.84</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">是的,我做到了!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="14.0">干得好, Cypher!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">只剩最后一件事情了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="22.0">把这个上传上去</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="26.0">我配得到这些荣誉么?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">Well你毕竟是搞到所有文件的人</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="35.0">所以你应该自己去上传</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">那给我个IP?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="44.0">行,我给你个Santa-Rosa警署那边的ip,他们没被EnTech保护因此畅通无阻</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">感谢</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="55.0">IP来了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="59.0">!ATTACHMENT:link#%#Santa-Rosa 警署#%#175.102.196.84</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

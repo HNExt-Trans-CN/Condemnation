@@ -16,35 +16,35 @@
 	<RunFunction FunctionName="playCustomSong:Music/dark.ogg" FunctionValue="6" />
 	<AddConditionalActions Filepath="Actions/Act 2/Choices/Sil.xml" DelayHost="Delay" Delay="123.0"/>
 	<ChangeAlertIcon Target="ClBad" Type="irc" DelayHost="Delay" Delay="0.0"/>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="5.0">Hello @#PLAYERNAME#</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="10.0">What the?..</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="5.0">你好 @#PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="10.0">我擦?..</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="13.0">CLARA?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="16.0">Oh my god, it is so good to see you!</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="20.0">How are you?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="25.0">And how did you managed to find me?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="30.0">Not so good, I need a help</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="35.0">Sure darling, anything you need, what is it?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="40.0">I am looking for Omicron</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="45.0">Still chasing him? Yeah, a tricky one</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="49.0">It's been half a year, Jesus, time flies</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="53.0">I am not in the mood, will you help or not?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="57.0">Sure, what exactly do you want?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="62.0">I want to cut his head off, put it on a spear and a make a nice BBQ</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="67.0">Clara, you are scaring me...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="72.0">You know what that fucker did?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="75.0">Made me outlaw!</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="78.0">Oh my god...</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="82.0">How are you holding up? Do you have a safe spot?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="86.0">I am not holding up, I am sleeping with random jerks for food and shelter</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="91.0">HOW THE FUCK DO YOU THINK I AM HOLDING UP?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="96.0">Clara, I...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="100.0">You either help me to kill him, or you are gonna be on my death list as well</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="105.0">I... What ARE you now?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="110.0">Same old Ms. Gilmore</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="115.0">You are in or out?</AddIRCMessage>
-	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="120.0">I don't...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="123.0">In...</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="124.0">Or Out...</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="16.0">哦,天哪,见到你真好!</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="20.0">还好?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="25.0">还有你是怎么找到我的</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="30.0">不咋地,我需要帮助</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="35.0">没问题,只要我能帮得上,什么忙?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="40.0">我在追踪Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="45.0">还在追他吗? 的确,他是个棘手的人</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="49.0">已经一年半了,天哪,时间飞逝啊</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="53.0">我没心情,你能帮忙吗?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="57.0">好吧,你到底想要什么?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="62.0">我想把他的头剪下来,放在矛上,做一个漂亮的烧烤</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="67.0">Clara,你吓到我了...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="72.0">你知道那脑瘫怎么对我了吗?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="75.0">把我陷害让我成为一个流亡者!</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="78.0">我的天哪...</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="82.0">你过得还好吧? 你有安全的地方吗?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="86.0">我没有反正,我在找垃圾食物和垃圾庇护所睡觉</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="91.0">你怎么觉得我承受得住?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="96.0">Clara, 我...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="100.0">你要么帮助我杀死他,要么就将我列入死亡名单</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="105.0">我... 你到底是谁?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="110.0">一个乞丐罢了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="115.0">帮,还是不帮?</AddIRCMessage>
+	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="120.0">我不觉得...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="123.0">帮...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="ClBad" Delay="124.0">还是不...</AddIRCMessage>
 	<AddIRCMessage Author="Agent 47" TargetComp="ClBad" Delay="127.0">....</AddIRCMessage>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/Hide.txt" DelayHost="Delay" Delay="130.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="130.0" />

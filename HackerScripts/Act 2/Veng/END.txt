@@ -5,7 +5,7 @@ delay 0.2 $#%#$
 hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 delay 0.68 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
@@ -23,7 +23,7 @@ writel_silent 你现在比我更加强大了 $#%#$
 delay 2.27 $#%#$
 writel_silent 你是多么强大啊 $#%#$
 delay 2.52 $#%#$
-writel_silent 你欺骗NightHawks与您合作 $#%#$
+writel_silent 你欺骗NightHawks与你合作 $#%#$
 delay 3.35 $#%#$
 writel_silent $#%#$
 writel_silent 你现在拥有巨大的力量 $#%#$
@@ -45,7 +45,7 @@ writel_silent 他让我很难受现在 $#%#$
 delay 3.37 $#%#$
 writel_silent 我要流血致死了反正 $#%#$
 delay 2.45 $#%#$
-writel_silent 这便是你想要的，不是吗? $#%#$
+writel_silent 这便是你想要的,不是吗? $#%#$
 delay 3.53 $#%#$
 writel_silent $#%#$
 writel_silent 你觉得你赢了 $#%#$
@@ -59,7 +59,7 @@ writel_silent 我认识的最邪恶的罪犯之一 $#%#$
 delay 3.39 $#%#$
 writel_silent 你已经不再是Cypher Mendes $#%#$
 delay 3.74 $#%#$
-writel_silent 现在，你是 Vortex $#%#$
+writel_silent 现在,你是 Vortex $#%#$
 delay 4.06 $#%#$
 writel_silent 黑客世界里不可战胜的皇帝 $#%#$
 delay 3.74 $#%#$

@@ -18,11 +18,11 @@ We need to recover it from a hacker and along the way get his internal file.
 	<body>
 我就知道你会接这个任务。 我和Javis将负责剩下的两个。
 
-病毒渗透到了Macrosoft工作站中。 它本来应该受到很好的保护不会被黑进去，所以我猜他使用了一些社会工程学知识。
+病毒渗透到了Macrosoft工作站中。 它本来应该受到很好的保护不会被黑进去,所以我猜他使用了一些社会工程学知识。
 
-Macrosoft向我们提供了访问权限，我将其链接到此处。 找到黑客的足迹，研究他的设置并恢复补丁。 不要忘记将其放回Macrosoft工作站的home文件夹中。
+Macrosoft向我们提供了访问权限,我将其链接到此处。 找到黑客的足迹,研究他的设置并恢复补丁。 不要忘记将其放回Macrosoft工作站的home文件夹中。
 
-哦，当然，从/sys文件夹获得他PC的netcfgx.dll，因此我们可以分析他的活动并将其逮捕。
+哦,当然,从/sys文件夹获得他PC的netcfgx.dll,因此我们可以分析他的活动并将其逮捕。
 
     -C
 	
@@ -30,8 +30,8 @@ Macrosoft向我们提供了访问权限，我将其链接到此处。 找到黑�
 利用日志查找犯罪分子的轨迹
 
 目标：
-1)在黑客的其中一台计算机上找到Calculator_Patch.rar，并将其上传到Macrosoft Workstation的/home文件夹中
-2)黑入破坏者的PC，并将其netcfgx.dll上传到资源服务器
+1)在黑客的其中一台计算机上找到Calculator_Patch.rar,并将其上传到Macrosoft Workstation的/home文件夹中
+2)黑入破坏者的PC,并将其netcfgx.dll上传到资源服务器
 </body>
 <attachments>
 	<link comp="M1rC_Macro"/>

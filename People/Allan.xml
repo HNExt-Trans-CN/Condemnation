@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Person id="M7E1" handle="NONE" firstName="Allan" lastName="Turner" isMale="true" forceHasNeopals="false">
- <Birthplace name="加利福尼亚州，萨克拉门托" />
+ <Birthplace name="加利福尼亚州,萨克拉门托" />
  <DOB>19/11/1979 21:46:36</DOB>
  <Degrees>
     <Degree uni="Sacramento Police Acadamy" gpa="4.0">获准在执法部门工作</Degree>
@@ -19,8 +19,8 @@
 
 所有的处方药必须按时按量服用。
 
-如果所有条件都满足，梅毒的康复过程和HIV的降解过程将在2-3个月后开始。
+如果所有条件都满足,梅毒的康复过程和HIV的降解过程将在2-3个月后开始。
 
-同时，患者应每天进行定期检查。</Notes>
+同时,患者应每天进行定期检查。</Notes>
   </Medical>
   </Person>

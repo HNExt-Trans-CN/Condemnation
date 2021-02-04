@@ -1,2 +1,2 @@
 config playerComp C5C 0.1 $#%#$
-writel Clara: 完成，等待SSL
+writel Clara: 完成,等待SSL

@@ -1,26 +1,26 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="R_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You found a way to achieve justice and saved Javis from Repulse</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你找到了实现正义的方法,并将Javis从Repulse手中救了出来</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="J_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You found a way to achieve justice and saved an honorable policeman from Jester</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你找到了实现正义的方法,并将一个尽职尽责的优秀警官从Jester救了出来</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You helped Repulse and made Javis go suicide</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助了Repulse并最终促使Javis自杀</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You helped Jester and made an honorable policeman go suicide</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助了Jester并最终促使那名警官自杀e</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag_Scum">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You helped Repulse and decided that your operative is just some meet that you can sacrifice!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助了Repulse还认为牺牲Javis是在所难免的!</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag_Scum">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">You helped Jester and decided that an honorable policeman is just some meet that you can sacrifice!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助了Jester还认为牺牲那名警官是在所难免的!</AddIRCMessage>
 	</HasFlags>
 	
 </ConditionalActions>

@@ -6,7 +6,7 @@
   
   <nextMission IsSilent="true">Missions/Misc/5.xml</nextMission>
   <posting title="警察调查">
-San Francisco网络安全部门的探员在我们附近闲逛，给个人数据泄露业务带来不便
+San Francisco网络安全部门的探员在我们附近闲逛,给个人数据泄露业务带来不便
   </posting>
   <email>
     <sender>NONE</sender>

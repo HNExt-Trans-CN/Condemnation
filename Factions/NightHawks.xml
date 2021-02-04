@@ -4,8 +4,8 @@
 	
     <ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="5.0">@channel 屠龙行动的工具准备齐了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">辛苦了，有一个沟通任务要给你</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="12.0">还有，干得好 @Vortex，客户答复说他很满意，你很快就会得到下一个任务</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">辛苦了,有一个沟通任务要给你</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="12.0">还有,干得好 @Vortex,客户答复说他很满意,你很快就会得到下一个任务</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="12.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="12.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="12.3"/>
@@ -17,13 +17,13 @@
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="5.0">@channel 我们有个麻烦</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">啥?</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="12.0">一些警方探员正在调查我们的基础架构，可能是为Lao Zhin工作的那帮人</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="12.0">一些警方探员正在调查我们的基础架构,可能是为Lao Zhin工作的那帮人</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="16.0">处理它们</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">尽可能暴力，其他人会知道</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="25.0">我联系了Scalpel，他们会介入的</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">Shuriken联盟正受到一个无畏之徒的袭击，我们得靠自己了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Ok，为最后阶段做准备吧</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">@Vortex ，合同完成，拿下一个吧</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">尽可能暴力,其他人会知道</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="25.0">我联系了Scalpel,他们会介入的</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">Shuriken联盟正受到一个无畏之徒的袭击,我们得靠自己了</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Ok,为最后阶段做准备吧</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">@Vortex ,合同完成,拿下一个吧</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="40.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="40.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="40.3"/>
@@ -33,17 +33,17 @@
   <Action ValueRequired="3">
 	
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel 干得漂亮，屠龙行动已经完成</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel 干得漂亮,屠龙行动已经完成</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="9.0">干得好伙计们</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="12.0">整到多少钱了?</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="15.0">250k美刀</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="19.0">我勒个草</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">参与本次行动的所有人将在几天之内得到回报</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">搜索任务的进度如何?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="32.0">Omicron - 真名未知，似乎是狭窄圈子中的某种传奇。 有传言说已经死了，但我会怀疑是否属实，他之前已经消失了几次，但又回来了。 具有强大的黑客技能，他领导了非常困难的行动，甚至把联邦调查局都干烂了</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="40.0">他的最后工作是帮助联邦情报局干预贩毒集团，但是事情不顺，警察找到了些Omicron的小痕迹，后来美联储找到了贩毒集团的 同时，Omicron被贩毒集团那边派来的杀手枪杀了，但我之前也做过类似的事情，我认为他只是销声匿迹一段时间，继续深入调查中</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">Ok，继续调查，Jenkins会帮助你的。</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">@Vortex ，你可以看到我们在这履行自己的职责。而你也一样，你也应为客户做好一切。</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="32.0">Omicron - 真名未知,似乎是狭窄圈子中的某种传奇。 有传言说已经死了,但我会怀疑是否属实,他之前已经消失了几次,但又回来了。 具有强大的黑客技能,他领导了非常困难的行动,甚至把联邦调查局都干烂了</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="40.0">他的最后工作是帮助联邦情报局干预贩毒集团,但是事情不顺,警察找到了些Omicron的小痕迹,后来联邦政府官员找到了贩毒集团的 同时,Omicron被贩毒集团那边派来的杀手枪杀了,但我之前也做过类似的事情,我认为他只是销声匿迹一段时间,继续深入调查中</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">Ok,继续调查,Jenkins会帮助你的。</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">@Vortex ,你可以看到我们在这履行自己的职责。而你也一样,你也应为客户做好一切。</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="55.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="55.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="55.3"/>
@@ -55,7 +55,7 @@
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel 所有人报告</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="9.0">我和Prophet在Jenkins的帮助下找到了一些线索</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="13.0">完成我的个人事务，但比我想象的要血腥得多</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="13.0">完成我的个人事务,但比我想象的要血腥得多</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="18.0">不错。 @Vortex 我刚收到另一份合同确认书。 你的表现很棒。</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="18.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="18.2"/>
@@ -69,37 +69,37 @@
   <AddConditionalActions Filepath="Actions/Act 2/Mission 9/Start.xml" DelayHost="Delay" Delay="137.0"/>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="5.0">@channel 我们发现一些非常有趣的东西</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">是啥呢那么?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="13.0">在Omicron上拥有坚实的领先优势，这对整个团队都非常有用</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="17.0">他似乎正在准备一项大工作，他正寻找着潜在的合作对象。</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="13.0">在Omicron上拥有坚实的领先优势,这对整个团队都非常有用</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="17.0">他似乎正在准备一项大工作,他正寻找着潜在的合作对象。</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="23.0">而且报酬将比以前的屠龙行动多得多</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">一百万美刀?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="31.0">确实，相信我，他不是在胡闹</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="31.0">确实,相信我,他不是在胡闹</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">你可以联系他吗?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="38.0">据我所见，没有。 我们需要引起他的注意</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="42.0">我们需要做一件大而有争议的工作。 我会打几个电话，与此同时，有人可以向Vortex解释一件明显的事情吗？?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="50.0">啊，可以啊 @Vortex, 你需要了解一些东西。 我们与你的协议是找到他，而不是与他对抗。 我知道你和他有某种私人仇恨，我建议你冷静一下。 如果他会提出一项业务建议，那么我们会接受的。 如果您拒绝合作，您将作为我们的敌人与我们打交道</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="38.0">据我所见,没有。 我们需要引起他的注意</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="42.0">我们需要做一件大而有争议的工作。 我会打几个电话,与此同时,有人可以向Vortex解释一件明显的事情吗??</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="50.0">啊,可以啊 @Vortex, 你需要了解一些东西。 我们与你的协议是找到他,而不是与他对抗。 我知道你和他有某种私人仇恨,我建议你冷静一下。 如果他会提出一项业务建议,那么我们会接受的。 如果你拒绝合作,你将作为我们的敌人与我们打交道</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="50.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="50.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="50.3"/>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="60.0">明白?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="63.0">...</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="67.0">与他的所有业务完成后，别妨碍我就行</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="67.0">与他的所有业务完成后,别妨碍我就行</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="72.0">除非他给我们钱要求我们保护他</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">行，有工作了。我称之为毒蛇行动</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="82.0">客户想要勒索一个医疗机构，我们需要上传一些勒索软件</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">行,有工作了。我称之为毒蛇行动</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="82.0">客户想要勒索一个医疗机构,我们需要上传一些勒索软件</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="87.0">我们的主要目标是生命维持单位。 我们需要放置可以停用它们的勒索软件</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">因此，正如我所说，这将是双赢的局面。 我们要么获得金钱和一些关注，要么因杀死50至60人而臭名昭著</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="100.0">这将帮助我们获得新客户，甚至使Omicron注意到我们。 他的一百万美元这条件可太诱人了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">一步一步来。 首先，我们需要一个实际的勒索软件</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">差不多完成了，我需要输入多少?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">因此,正如我所说,这将是双赢的局面。 我们要么获得金钱和一些关注,要么因杀死50至60人而臭名昭著</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="100.0">这将帮助我们获得新客户,甚至使Omicron注意到我们。 他的一百万美元这条件可太诱人了</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">一步一步来。 首先,我们需要一个实际的勒索软件</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">差不多完成了,我需要输入多少?</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="116.0">将每个单位设为75</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="120.0">了解</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="125.0">@Vortex，你也要参加。 作为隐秘专家和聪明人，您将需要攻击5个受到最好保护且目前无法到达的单位</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="125.0">@Vortex,你也要参加。 作为隐秘专家和聪明人,你将需要攻击5个受到最好保护且目前无法到达的单位</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="125.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="125.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="125.3"/>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">其他人将攻击主要集群</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="134.0">@channel 我已经发送了任务简报，祝好运先生们。</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="134.0">@channel 我已经发送了任务简报,祝好运先生们。</AddIRCMessage>
 	
 	
 	

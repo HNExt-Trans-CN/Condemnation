@@ -5,20 +5,20 @@
 	<RunFunction FunctionName="addFlags:Dead_Flag" FunctionValue="6" />
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Music.xml" DelayHost="Delay" Delay="35.0"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Flags.xml" DelayHost="Delay" Delay="80.0"/>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, My scanner shows that 58 ransom files are active, well done everybody, I think we've bombed the whole place</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">Yeah, that's supposed to be all of them</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="14.0">Now what do we do?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="18.0">We'll wait. I notified the client. Waiting for further instructions</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">Will that attract Omicron?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">Most probably</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">We can kill them all right now if you want to attract everybody's attention, including Omicron</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="32.0">I didn't say I want to kill those people</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">And that is why you placed ransomware to extort a hospital. You have a pretty bendable morality, Vortex</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">But it would be better if you hadn't got it at all, it makes you weak</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">You want to win over Omicron? You've got to be strong, no remorse and second thoughts</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">Don't let anyone stop you on your path</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">That is our group's philosophy. And that is exact reason why we have such power and connections. We decide fate of people, would they live or die. Fear is our weapon. You can't scare a person with big words, you have to act</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="73.0">I bet Omicron knows that. He plays on the same rules</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">You want to find and fight him? Then prove that you've got balls!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, 我的扫描仪提示58个病毒都激活了,干得好所有人,我想我们已经让整个地方都被橄榄了。</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">是的,应该是所有人</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="14.0">现在干什么?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="18.0">耐心等待,我现在通知客户了,等待进一步的指示。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">会吸引到Omicron的注意吗?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">大概吧</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">如果你想引起所有人的关注,包括Omicron,我们现在就可以杀死他们。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="32.0">我可没说我想要杀死那些人。</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">这就是为什么让你放置勒索软件勒索医院的原因。 你的道德着实扭曲, Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">但是如果你根本没有它会更好,它使你弱小</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">你先要击败Omicron,不是吗? 你要不计手段,变得更加强大, 心狠手辣 ,行事果断</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">不让任何人停止你的脚步</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">这就是我们小组的理念。 这就是我们拥有如此强大的力量和关系网络的原因。 我们决定人们的生死存亡。 恐惧是我们的武器。 你不能用大话吓唬一个人,你必须采取行动</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="73.0">我打赌Omicron也明白这个道理,他也在</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">你想找到他并与他战斗吗? 那就证明你有这能力!</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

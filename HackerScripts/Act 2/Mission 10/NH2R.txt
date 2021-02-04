@@ -1,2 +1,2 @@
 config playerComp NHHub 0.1 $#%#$
-writel Prophet: 一个破解，另个开始
+writel Prophet: 一个破解,另个开始

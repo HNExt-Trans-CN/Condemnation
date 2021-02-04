@@ -2,26 +2,26 @@
 	<Instantly>
 	<AddConditionalActions Filepath="Actions/Act 2/Veng/Flag.xml" DelayHost="Delay" Delay="85.0"/>
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="5.0">!ANNOUNCEMENT! CHANNEL HAS BEEN RESETED @channel</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="7.0">Scan the setup as he said</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="12.0">Wait, what the fuck?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">Didn't expect that I will remember how your Hub is working?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">What the fuck do you want?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="24.0">I've got Omicron's location file! I need to decipher it!</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">And why the fuck do you think we will help?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="32.0">After turning us down</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="36.0">We can hit him together and get his personal tool collection</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">There is no WE between us, leech</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">Then we will go separate ways, but we all can have the address</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="50.0">Think, you can sell it to the Feds or other hackers</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="54.0">Feds? Yeah, you are truly rotten rat after all</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="58.0">But in fact we can use this info one way or another</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">Jenkins will decipher it and after that, don't you even dare to search for us</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="67.0">I just need an IP</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="71.0">That crazy fucker must die</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">I think your odds are small</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">But that's even better</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="85.0">@Vortex, drop the location file in /home folder of this server</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="5.0">!ANNOUNCEMENT! 聊天室已被重置 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="7.0">如他所说扫描设置</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="12.0">等等,他妈的发生了啥?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">没想到我会记得你的Hub的工作方式吗?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">你想干什么?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="24.0">我有Omicron的位置文件!我需要解密!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">你为什么认为我们会提供帮助呢?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="32.0">拒绝我们之后</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="36.0">我们可以一起打他,得到他的私人工具</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">从来都不是"我们",水蛭</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">然后我们将采取不同的方式,但是我们所有人都可以拥有地址</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="50.0">想一想,你可以将其出售给联邦政府官员或其他黑客</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="54.0">联邦政府官员?是的,你毕竟是烂老鼠</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="58.0">但实际上我们可以以一种或另一种方式使用此信息</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">Jenkins会解密它,然后,你甚至不敢搜索我们</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="67.0">我只需要一个IP</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="71.0">那疯子必须死</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">我认为你的胜算不大</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">但是你输了其实更好</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="85.0">@Vortex, 将位置文件放在此服务器的/home文件夹中</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="85.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="85.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="85.3"/>

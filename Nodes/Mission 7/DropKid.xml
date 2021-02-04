@@ -1,8 +1,8 @@
 <Computer id="M7Drop" name="Adrian 的PC" ip="178.184.180.189" security="2" type="2">
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home/To_Do" name="List.txt">1）父母把我赶出去，必须找到新的住所
-2）需要整点钱，尝试向Phil借钱
+<file path="home/To_Do" name="List.txt">1）父母把我赶出去,必须找到新的住所
+2）需要整点钱,尝试向Phil借钱
 3）必须发送有关我的情况的电子邮件并寻求帮助（Sync_from_eOS:@62.35.253.222 Inbox:Adrian3409@jmail.com Password:NancyAndAdrian2020）
 4）祈祷</file>
 </Computer>

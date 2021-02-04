@@ -1,27 +1,27 @@
 <ConditionalActions>
 	<Instantly>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Justice.xml" DelayHost="Delay" Delay="86.0"/>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="5.0">@Vortex How is the progress?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="9.0">I alredy contacted dirty media, and I still don't have any material I can use</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="13.0">I am working on it</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="18.0">Work faster, if you keep that slow pace of yours, I can manage it myself</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="22.0">Which makes you not a big help</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="26.0">Meaning there will be no fix for you</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="30.0">I am doing my best here, forgot that I don't have a working map already?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="35.0">Ok, just get the job done faster</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="38.0">On it</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="42.0">Wait, what the fuck?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">...?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="50.0">Suddently pigs started to crawl around</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">Should you alarm your partners?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="57.0">Done that already</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">Are you sure they are after you?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="66.0">Could be, after my little experiments</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="71.0">What experiments?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="75.0">Fuck, they are smashing door</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="80.0">I'll activate your fix now, use additional info there and tell Maverick that experiment failed</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="83.0">Now get the hell out of here, you never knew me</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="84.0">!ANNOUNCEMENT! JESTER LOST CONNECTION TO THE SERVER @channel</AddIRCMessage>
-	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="80.0"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/Justice.xml" DelayHost="Delay" Delay="86.0"/>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="5.0"> @Vortex 进展如何?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="9.0">我确实找到了些肮脏的玩意,但仍然没有可以使用的东西</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="13.0">我正在处理</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="18.0">搞快点啊,如果你保持自己的慢节奏,我可以自己处理</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="22.0">而这对你没帮助</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="26.0">也意味着你将无法获得修复</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="30.0">我在尽力,忘了我还没有有效的网络地图?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="35.0">好,请尽快完成工作</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="38.0">正在做了</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="42.0">等等,我擦?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="46.0"> ...?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="50.0">猎物要跑了</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="54.0">提醒下你伙伴?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="57.0">提醒了</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="62.0">要追踪他们吗?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="66.0">可能,在我完成我的小实验之后</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="71.0">什么实验?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="75.0">该死,他们在攻击我们</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="80.0">我将立即激活你的修复程序,告诉Maverick实验失败了</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="83.0">现在,滚蛋,别说我认识你</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="84.0">!ANNOUNCEMENT! JESTER 与服务器断开了连接 @channel</AddIRCMessage>
+		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="80.0"/>
 	</Instantly>
 </ConditionalActions>

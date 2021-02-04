@@ -1,2 +1,2 @@
 config playerComp NHHub 0.1 $#%#$
-writel EnBreak.exe 已激活，享受你的力量
+writel EnBreak.exe 已激活,享受你的力量

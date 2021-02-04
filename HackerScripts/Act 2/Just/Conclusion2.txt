@@ -5,7 +5,7 @@ delay 0.84 $#%#$
 writel_silent 结束: $#%#$
 delay 1.77 $#%#$
 writel_silent $#%#$
-writel_silent Sam Walker 或称黑客Omicron，已于两个月前被捕。 $#%#$
+writel_silent Sam Walker 或称黑客Omicron,已于两个月前被捕。 $#%#$
 delay 5.04 $#%#$
 writel_silent 警方试图让他认罪 $#%#$
 delay 3.44 $#%#$
@@ -17,18 +17,18 @@ delay 4.53 $#%#$
 writel_silent 并且她也是加利福尼亚州中最成功的探员 $#%#$
 delay 4.19 $#%#$
 writel_silent $#%#$
-writel_silent Omicron被拘捕后，Cypher Mendes失踪了，他的当前位置仍然未知 $#%#$
+writel_silent Omicron被拘捕后,Cypher Mendes失踪了,他的当前位置仍然未知 $#%#$
 delay 5.81 $#%#$
 writel_silent 尽管Omicron即将入狱 $#%#$
 delay 3.49 $#%#$
 writel_silent 那也不会改变Cypher的结局 $#%#$
 delay 2.57 $#%#$
 writel_silent $#%#$
-writel_silent Clara向联邦调查局报告说，黑客Vortex帮助她抓住了Omicron $#%#$
+writel_silent Clara向联邦调查局报告说,黑客Vortex帮助她抓住了Omicron $#%#$
 delay 4.76 $#%#$
-writel_silent 但是在此过程中，他被Omicron派来的一名刺客杀死了 $#%#$
+writel_silent 但是在此过程中,他被Omicron派来的一名刺客杀死了 $#%#$
 delay 5.07 $#%#$
-writel_silent 之后，Clara便确认了黑客Vortex的真名便是Cypher Mendes $#%#$
+writel_silent 之后,Clara便确认了黑客Vortex的真名便是Cypher Mendes $#%#$
 delay 5.56 $#%#$
 writel_silent $#%#$
 writel_silent 联邦调查局因Clara证实其去世而关闭了前队长的案子 $#%#$
@@ -37,10 +37,10 @@ writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Clara从前队长身上取来的唯一一件事便是睡眠问题 $#%#$
 delay 4.60 $#%#$
-writel_silent 在此之后，她便患有失眠症，每天晚上，都试图通过在笔记本电脑上记东西来入睡 $#%#$
+writel_silent 在此之后,她便患有失眠症,每天晚上,都试图通过在笔记本电脑上记东西来入睡 $#%#$
 delay 6.08 $#%#$
 writel_silent $#%#$
-writel_silent 但是她每天晚上3点向主服务器发送36个报告，向未知的Drop服务器发送1个报告 $#%#$
+writel_silent 但是她每天晚上3点向主服务器发送36个报告,向未知的Drop服务器发送1个报告 $#%#$
 delay 9.75 $#%#$
 writel_silent $#%#$
 writel_silent 该特别报告始终以相同的短语开头... $#%#$
@@ -50,7 +50,7 @@ writel_silent $#%#$
 writel_silent Clara: $#%#$
 delay 2.74 $#%#$
 writel_silent $#%#$
-writel_silent Mendes 队长，我有些新情报要给你。 $#%#$
+writel_silent Mendes 队长,我有些新情报要给你。 $#%#$
 delay 3.00 $#%#$
 clearTerminal $#%#$
 hideTerminal $#%#$

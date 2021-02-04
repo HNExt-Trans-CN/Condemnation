@@ -5,22 +5,22 @@
 	<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
 	<RunFunction FunctionName="changeSong" FunctionValue="11" />
 	<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="5.0">@channel, I've got it!</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">What is it?</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="14.0">He is linked through OSequenser.exe</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">Well, as I thought</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">Everybody ready for final strike?</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="25.0">Sure as hell</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">Of course</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">Yep</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="31.0">As always</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="33.0">Ready</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="38.0">You should strike all simple ports like 21, 22, 25, 80</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="43.0">And 211, since I can't do it myself</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="48.0">I will take firewall and rest of the ports</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">Gentlemen, it is time for a big hack</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">Download Omicron's netcfgx.dll</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">@channel, activate your OSequensers as you ready</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="5.0">@channel, 找到了!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">找到啥了?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="14.0">他通过OSequenser.exe链接到他自己的服务器</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">正如我所想</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">每个人都为最终的决斗做好准备了吗?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="25.0">是的</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">那不用说</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">嗯哼</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="31.0">一直如此</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="33.0">准备好了</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="38.0">你们处理简单的端口比如21, 22, 25, 80</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="43.0">还有 211,我自己没法处理这个</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="48.0">我来处理防火墙和剩下的东西</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">绅士们, 是时候来场真正的黑客行动了</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">下载 Omicron's netcfgx.dll</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">@channel, 激活你们的OSequensers当你们准备好了后</AddIRCMessage>
 	</Instantly>
 	
 	<OnConnect target="Omicron" needsMissionComplete="false">

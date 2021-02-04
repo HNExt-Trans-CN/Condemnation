@@ -1,23 +1,23 @@
 <ConditionalActions>
 	<Instantly>
 	<RunFunction FunctionName="addFlags:Failure" FunctionValue="0" />
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="5.0">Okay, give me some time</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">@Vortex, you will get Omicron's location and will forget about us forever</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="5.0">行,给我点时间</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">@Vortex, 你得到Omicron的具体位置就立马完全忘记我们。</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="10.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="10.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="10.3"/>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">Is that clear to you?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">Loud and clear</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="24.0">We will change our hub to another server</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">Don't try to search for us</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="32.0">Or you will have a romantic evening with Slayer</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="37.0">Ok, just a few more moments</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">Delete everything on Omicron's PC if you want to hurt him</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">He most probably has EnSec but you've got the EnBreak</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">But I don't think you will stand a chance</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="55.0">Ok, here it is</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">明白?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">非常明白</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="24.0">我们会把我们的hub迁移到其他服务器</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">别尝试寻找我们</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="32.0">否则你会和Slayer有个美妙的夜晚</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="37.0">Ok,再过一会儿</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">如果要攻击Omicron的PC,那就删除所有内容</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">他很可能部署了EnSec,但你拥有EnBreak</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">但我认为你不会有机会</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="55.0">Ok, 给你</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="57.0">!ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="59.0">Farewell. And don't come back...</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="59.0">永别,还有别再回来...</AddIRCMessage>
 	</Instantly>
 	
 	<OnConnect target="OmBoss" needsMissionComplete="false">

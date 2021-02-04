@@ -6,6 +6,6 @@
   <trace time="120" />
   <CustomConnectDisplayDaemon />
 
- <file path="home" name="Fluffy's Call.txt">他想问一些非常重要的事情，并假设一个电子邮件服务器（126.111.65.59）。 脑子里肯定tmd装了屎。</file>
+ <file path="home" name="Fluffy's Call.txt">他想问一些非常重要的事情,并假设一个电子邮件服务器（126.111.65.59）。 脑子里肯定tmd装了屎。</file>
   
 </Computer>

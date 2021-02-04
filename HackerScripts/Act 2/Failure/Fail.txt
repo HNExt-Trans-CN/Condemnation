@@ -3,7 +3,7 @@ writel_silent $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 delay 0.5 $#%#$
-writel #检测到外部语音来源，已开启自动翻译# $#%#$
+writel #检测到外部语音来源,已开启自动翻译# $#%#$
 delay 2.56 $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
@@ -26,7 +26,7 @@ delay 3.10 $#%#$
 writel_silent 但你失败了 $#%#$
 writel_silent $#%#$
 delay 2.91 $#%#$
-writel_silent 现在，Clara没有机会洗清罪证了 $#%#$
+writel_silent 现在,Clara没有机会洗清罪证了 $#%#$
 delay 3.76 $#%#$
 writel_silent 和你一样 $#%#$
 delay 1.77 $#%#$

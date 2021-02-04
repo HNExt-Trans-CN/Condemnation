@@ -1,56 +1,56 @@
 <ConditionalActions>
 	<Instantly>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="5.0">!ANNOUNCEMENT! VORTEX CONNECTED TO THE CHAT @channel</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="8.0">Greetings mysterious kid-troll, good to have you here</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="12.0">I suppose you are vacant and looking for some job?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="17.0">Something like that</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="21.0">I have been attacked and now I am trying to recover, find some tools and hunt down that cocksucker, so I can make sure nobody else is going to suffer from him</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="27.0">How hard have you been hitted?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="31.0">I barely have any tools, my node NetMap is corrupted and unusable right now</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="35.0">What OS are you using?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="39.0">Hacknet_OS, bet you are not familiar with it, supposed to be police-exclusive, but I had some experience with cops and know how to get their stuff time to time</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">At least before I was crippled by some powerful nutjob</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="50.0">A lot of hacker groups that I know are already using Hacknet</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="54.0">Did you get it way before? Like a few months back?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="58.0">Yeah, cops didn't know that I was inside their systems, used accounts of some fat guy Paul, a clerk in CyberPolice</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="63.0">Wow, nice moves man, fuck'em</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="67.0">I see that you gained access, but I can't see any logs</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="71.0">Are you using some tools for that? Maybe share? ;)</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="76.0">It's already in the system, Hacknet exclusive</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="80.0">Dude, I am using Hacknet right now, I don't have anything like that</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="85.0">Dunno, I read instructions from that clerk's emails</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="89.0">It said that police copies have that log-disguising function</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="94.0">How could you operate so close with cops, get police copy of OS way before everyone got regular Hacknet on deepweb, and get fucked from someone, so that you lost your tools and map?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="104.0">There is always bigger fish, don't ever get cocky</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="109.0">Hmm, it's still suspicious to me that you got all that police-exclusive tools, how can I be sure that you are not undercover pig?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="118.0">How many undercover pigs go to the script kiddies message boards and troll them?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="125.0">Or you think that I am undercover cop and was looking for some dangerous cool criminals on that board?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="130.0">Fine, sounds reasonable</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="135.0">So can you help me to recover?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="139.0">Well at least I can help you with the map</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="143.0">Really?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="146.0">Not free of course</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="150.0">Need something done first</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="153.0">Interested?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="156.0">Depends on what you want me to do</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="160.0">Don't worry, nothing serious, I need to ruin a life of one guy</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="165.0">Sounds like a fucking serious matter if you ask me</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="169.0">I'll do the main part, you just have to poke around and find some dirt I can use</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="174.0">Or make him dirty in some way</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="178.0">Who is he?</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="181.0">He is a cop</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="185.0">Not big one, few years back got promoted to detective, was a patrolman before</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="190.0">My detention made him a noble cop of a neighborhood</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="195.0">Packed me up because of a gun selling activity</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="201.0">My partners thought that I gonna snitch on them and tried to cut my throat, unsuccessful though</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="209.0">Not to mention a couple of violent faggots who tried to taste my ass</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="215.0">I was nearly raped and killed, while this pig basked in the glory of all local newspapers and other folks</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="222.0">A man in your position should understand how that need of revenge feels</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="230.0">See? We both have same goal</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="235.0">Help me to revenge this ass-licker and I help you to revenge that cocksucker you are talking about</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="243.0">Sounds good?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="247.0">...</AddIRCMessage>
-	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="252.0">To show that I really can fix your problem, go here "192.94.82.50" and download a .bat file</AddIRCMessage>
-	
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="5.0">!ANNOUNCEMENT! VORTEX 连接至聊天室 @channel</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="8.0">问候神秘的小巨魔,很高兴有看到你</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="12.0">我想你在是找些工作吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="17.0">差不多</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="21.0">我遭到了攻击,现在我正试图恢复,找到一些工具并追捕那个混蛋</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="27.0">你受到了多大的打击?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="31.0">我几乎没有任何工具,我的节点地图现已损坏且无法使用</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="35.0">你使用的是什么操作系统?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="39.0"> Hacknet_OS,打赌你对它不熟悉,应该是警察专用的,但是我对警察有一定的经验,并且知道如何使用它</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="46.0">至少在我被一些强大的疯子吓倒之前</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="50.0">我知道很多黑客已经在正在使用Hacknet </AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="54.0">你之前了解过吗?像几个月前一样?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="58.0">是的,警察不知道我在他们的系统内,借胖子Paul的话,他是警察局的一名职员</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="63.0">Wow,tmd干得好啊</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="67.0">我看到你已获得访问权限,但看不到任何日志</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="71.0">你是否为此使用了一些工具?分享下? ;）</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="76.0">它包含在系统中,由Hacknet独家提供</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="80.0"> Dude,我现在就在使用Hacknet,我没有这样的东西</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="85.0"> 啊不管如何,我从警察那边的电子邮件中阅读了说明</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="89.0">它说警察的副本具有该日志伪装功能</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="94.0">你是如何与警察关系这么紧密的,如何在每个人都在暗网上都有常规Hacknet之前获得警察的OS副本,并被某人搞砸,所以你丢失了你的工具和地图?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="104.0">总会有大鱼,永远不要自大</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="109.0">嗯,我仍然怀疑你拥有所有警察专用工具,如何确定你不是卧底?</AddIRCMessage >
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="118.0">有多少个卧底去了脚本小子留言板并钓了它们?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="125.0">或者你认为我是卧底警察,并且正在该板上寻找一些危险的犯罪分子?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="130.0">好吧,听起来很合理</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="135.0">那么你能帮我恢复吗?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="139.0">至少我可以为你提供地图</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="143.0">真的吗?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="146.0">当然不是免费的</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="150.0">需要先完成一些操作</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="153.0">有兴趣吗?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="156.0">取决于你要我做什么</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="160.0">不用担心,没什么严重的,我需要破坏一个人的生活</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="165.0">如果你问我,这听起来像是一件很严肃的事情</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="169.0">我将做主要部分,你只需要四处摸摸,发现我可以使用的一些污物</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="174.0">或者伪造些什么让他变成犯人</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="178.0">他是谁?</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="181.0">他是个条子</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="185.0">几年前被提升为探员,之前是巡逻员</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="190.0">我被他关押这件事使他成为了附近的贵族</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="195.0">因为卖枪活动而逮捕了我</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="201.0">我的同伴以为我会偷偷摸摸地试着自杀,但没有成功</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="209.0">更不用说几个馋着我的遗产的暴力迷们了</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="215.0">我几乎被强奸和杀害,而这头猪却沉浸在当地所有报纸和其他人的光荣之中</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="222.0">你应该了解复仇的感受</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="230.0">看到了吧? 我们有相同的目标</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="235.0">帮我报仇,然后帮你报仇那个你在说的混蛋</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="243.0">听起来不错?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="247.0">...</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="252.0">为了证明我确实可以解决你的问题, 去 "192.94.82.50" 下载一个.bat文件</AddIRCMessage>
+
 	</Instantly>
 </ConditionalActions>
