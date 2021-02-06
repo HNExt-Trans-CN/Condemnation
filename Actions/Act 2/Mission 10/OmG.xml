@@ -51,7 +51,8 @@
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="199.0">等等什么?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="203.0">别杀了她,杀了我吧</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="207.0">自我牺牲吗?嗯,我可以尊重你</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="211.0">干掉Slayer后,我会来找你</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="211.0">Slayer完事后,我就来杀死你</AddIRCMessage>
+
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="216.0">这是我们的事</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="220.0">不涉及其他任何人</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="225.0">嗯... </AddIRCMessage>
