@@ -20,7 +20,8 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">那谁来做这个倒霉蛋?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="70.0">当然是我</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">他正等着我呢</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="77.0">他玩他的小把戏时,你们就偷袭他</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="77.0">而当他玩着他的小把戏时,你们就偷袭他</AddIRCMessage>
+
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="82.0">感觉像是冒险之举但听起来非常炫酷</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="86.0">好的,我已经处理完该文件,从中可以看到它是一台虚拟PC,该PC通过/sys文件夹中的Core.dll文件连接</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="92.0">我敢打赌他只是在等你攻击</AddIRCMessage>
