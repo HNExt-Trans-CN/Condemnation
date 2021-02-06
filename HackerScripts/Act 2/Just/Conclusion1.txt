@@ -19,7 +19,7 @@ delay 2.79 $#%#$
 writel_silent 便是Omicron这起案子还未结束... $#%#$
 delay 3.20 $#%#$
 writel_silent $#%#$
-writel_silent Cypher仍然在被通缉,但设法找到了一家匿名PI公司 $#%#$
+writel_silent Cypher仍然在被通缉,但设法找到了一家匿名私家侦探公司 $#%#$
 delay 5.67 $#%#$
 writel_silent 他现在是那边的一位探员 $#%#$
 delay 1.75 $#%#$

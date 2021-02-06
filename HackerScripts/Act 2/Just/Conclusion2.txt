@@ -40,7 +40,7 @@ delay 4.60 $#%#$
 writel_silent 在此之后,她便患有失眠症,每天晚上,都试图通过在笔记本电脑上记东西来入睡 $#%#$
 delay 6.08 $#%#$
 writel_silent $#%#$
-writel_silent 但是她每天晚上3点向主服务器发送36个报告,向未知的Drop服务器发送1个报告 $#%#$
+writel_silent 但每晚3点,她向主服务器发送36个报告,向未知的共享服务器发送1个报告 $#%#$
 delay 9.75 $#%#$
 writel_silent $#%#$
 writel_silent 该特别报告始终以相同的短语开头... $#%#$

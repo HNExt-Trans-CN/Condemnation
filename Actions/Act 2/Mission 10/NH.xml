@@ -10,13 +10,13 @@
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="3.3"/>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, Vortex站在我们这边!</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.0">我认为我们该忘记他以前那些不当行为</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.0">因此,Jenkins,我想现在你可以为我们准备一个新的.exe文件,它具有破坏EnSec </AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.0">因此,Jenkins,我想现在你可以为我们准备一个能破坏EnSec的新exe文件 </AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="19.0">好的</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.0">在此期间,让我向大家解释我们的任务目标是什么</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="28">我设法侦查了EnTech,发现了一些非常混乱的漏洞</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.0">这就是我获得EnSec断路器或称EnBreak的方式</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.0">这就是我获得EnSec破坏器或称EnBreak的方式</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="37.0">在某个地方也应该有我们需要的白名单文件</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.0">你必须扫描那里的所有内容并找到以下特定文件：Token文件,SecCore.dll和可以找到的所有转储文件</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.0">你必须扫描那里的所有内容并找到以下特定文件:Token文件,SecCore.dll和可以找到的所有转储文件</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="47.0">EnBreak.exe 准备好了</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="50.0">赞</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="53.0">现在,将其上传到此服务器,以便所有人都可以使用</AddIRCMessage>
@@ -39,7 +39,7 @@
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="118.0">你将获得抗击Omicron的工具,我们将获得未来业务的所需的玩意</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="122.0">双赢</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">Prophet可以帮助你解决可能遇到的任何问题,他拥有个人工具集</AddIRCMessage>
-		<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="132.0">我可以通过.dll来查看你丢给我们的信息,因此,如果端口有任何问题,我会帮助你</AddIRCMessage>
+		<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="132.0">我可以通过你发给我们的.dll来观察你,如果遇到任何无法破解的端口,我会帮助你</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="137.0">切入点找到了</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="140.0">!ATTACHMENT:link#%#EnTech 副服务器#%#27.113.216.249</AddIRCMessage>
 	</Instantly>

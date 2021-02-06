@@ -5,7 +5,7 @@
 <portsForCrack val="4" />
 <trace time="120" />
 
- <file path="home" name="RELAY.log">启用命令跟踪序列：保存IRC的中继信息</file>
+ <file path="home" name="RELAY.log">启用命令跟踪序列:保存IRC的中继信息</file>
  <file path="home/Sequencer" name="logs">建立用户连接: Muskat, Super_Flufy, Omicron to *ADRESS DELETED*
  
  连接成功

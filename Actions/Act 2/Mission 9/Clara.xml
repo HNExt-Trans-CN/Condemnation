@@ -21,8 +21,8 @@
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="94.0">按照他们说的去做</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="98.0">人们不会死,所以请像你正确地完成工作一样,在他们看来,制作.bat文件的人看起来显然更有问题</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="103.0">好,我将继续操作,但是客户呢?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="108.0">一旦医院里的人安全了,条子便准备搬出他的住所</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="115.0">知道了。谢谢Clara。你刚刚救了很多人。但是我们还有另一个问题。我是对的,Omicron回来了,检查所有可用信息,扫描所有信息源,我们需要联系他,他正在为某种计划或攻击做准备</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="108.0">执法人员已经在他的位置准备好了,一旦医院里的人安全了,他们立刻行动</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="115.0">知道了。谢谢你Clara。你刚刚救了很多人。但是我们还有另一个问题。我是对的,Omicron回来了,检查所有可用信息,扫描所有信息源,我们需要找到他,他正在为某种计划或攻击做准备</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="125.0">队长,我仍然认为这是胡说八道,但是我会检查一下</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="130.0">再次感谢</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="134.0">现在,完成你朋友指定的操作</AddIRCMessage>

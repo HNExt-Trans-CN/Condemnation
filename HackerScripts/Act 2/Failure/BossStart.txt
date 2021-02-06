@@ -7,7 +7,7 @@ writel 系统破坏风险! $#%#$
 delay 2 $#%#$
 writel Session.dll文件正在传输病毒数据! $#%#$
 delay 4 $#%#$
-writel 查找源计算机,找到以下文件并删除它! $#%#$
+writel 查找源计算机,找到此文件并删除它! $#%#$
 delay 5 $#%#$
 writel 数据上传将在大约4分钟内完成! $#%#$
 delay 4 $#%#$

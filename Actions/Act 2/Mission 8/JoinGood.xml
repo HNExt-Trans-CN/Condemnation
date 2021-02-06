@@ -11,24 +11,24 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">你怎么进来的?</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">所以说他们设法找到了他。 他妈的</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="30.0">@channel 大家注意,请勿与任何警方的服务器进行交互,它们正在升级其软件,我们的一个外部代理已被捕获</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="39.0">如果他让你访问该服务器的数据,那么你就不会陌生</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="39.0">如果他让你访问该服务器的数据,你就不是什么陌生人了</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="43.0">事实上,他跟我们聊过你</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Vortex, 你的NetMap已损坏,同时你具有独特的伪装日志功能。 没错,我们无法在此服务器上的日志中看到你,只有你具有通过我们的密码获得的管理员访问权限</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Vortex, 你的网络地图已损坏,同时你具有独特的伪装日志功能。 没错,我们无法在此服务器上的日志中看到你,只有你具有通过我们的密码获得的管理员访问权限</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="64.0">Jenkins, 脚本编写, 可以轻而易举地进到其他机子里边而不惊扰到任何东西。</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="70.0">Sup</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="74.0">Deladello, 社会工程学大师,比任何人都更好地利用人类的愚蠢</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="80.0">你好</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">Prophet, Prophet, 协调员和合作黑客,帮助我控制一切,如果与他作对,没有人可以阻止他</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="90.0">当我们武装 - 我们便强大</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="94.0">Slayer,  掌管损害的控制,在任何情况下,我们都能在特殊情况下雇佣杀手</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="90.0">当我们团结 - 我们便强大</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="94.0">Slayer,  掌管破坏,任何时候,我们都能在特殊情况下雇佣杀手</AddIRCMessage>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="100.0">需要任何东西或任何人被毁灭,找我</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="104.0">当然了还有我,行动主管, Maverick</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">所以说,你想干啥?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="111.0">我需要找到个黑客</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">Deladello和Prophet可以帮助你</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">但是我为何要对他们下达这样的命令?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="123.0">我也可以成为你团队的一部分,你仍然需要隐秘运营专家,一个无法追踪的人,我敢打赌,你已经知道我为什么是最佳人选</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">确实,你的数据伪装是一个非常有趣的东西</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="123.0">我也可以成为你团队的一部分,你仍然需要秘密行动专家,一个无法追踪的人,我敢打赌,你已经知道我为什么是最佳人选</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">确实,你的日志伪装是一个非常有趣的东西</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="135.0">我们有一些需要细心处理的合同</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="140.0">当你忙着你的任务时,Deladello和Prophet会处理你要找的人</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="145.0">是否同意?</AddIRCMessage>

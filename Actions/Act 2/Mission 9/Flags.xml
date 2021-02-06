@@ -5,7 +5,7 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="143.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">你tmd这是怎么了??</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="7.0">我已经出色地完成了我这边的任务,你还想怎样?</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">你真可怜。我以为你里面有什么原因要超越他</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">你真可怜。我本以为你内心有一种超越别人的优越感</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">事实证明我错了</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="24.0">错什么?你从我身上刻画了什么?一个杀手?你有Slayer,我是一名黑客,我在这里做了我该做的活</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="34.0">你想让我说什么? "请杀死那些无辜的病人,这样我就可以和毁了我一生的混蛋说话", - 是吗? </AddIRCMessage>
@@ -40,7 +40,7 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="143.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">你tmd这是怎么了??</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="7.0">我已经出色地完成了我这边的任务,你还想怎样?</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">你真可怜。我以为你里面有什么原因要超越他</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="13.0">你真可怜。我本以为你内心有一种超越别人的优越感</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">事实证明我错了</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="24.0">错什么?你从我身上刻画了什么?一个杀手?你有Slayer,我是一名黑客,我在这里做了我该做的活</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="34.0">你想让我说什么? "请杀死那些无辜的病人,这样我就可以和毁了我一生的混蛋说话", - 是吗? </AddIRCMessage>
@@ -74,7 +74,7 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="44.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="103.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">我的复仇是唯一可以证明我们正在做的事情的理由,因为这个人所做的事情对我的生活来说极为可怕,他杀死了我,那就更好了</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">那将会是他的错误。因为现在你很坚强</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">那将会是他的错误。因为现在你很强大</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">是的我知道我想要什么</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">但这真的需要那么多人死吗?</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">你在怀疑自己的目标吗?</AddIRCMessage>
@@ -107,7 +107,7 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Dead.xml" DelayHost="Delay" Delay="44.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="103.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="2.0">我的复仇是唯一可以证明我们正在做的事情的理由,因为这个人所做的事情对我的生活来说极为可怕,他杀死了我,那就更好了</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">那将会是他的错误。因为现在你很坚强</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">那将会是他的错误。因为现在你很强大</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">是的我知道我想要什么</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">但这真的需要那么多人死吗?</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="23.0">你在怀疑自己的目标吗?</AddIRCMessage>
@@ -145,7 +145,7 @@
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">So按下该死的按钮</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="18.0">呜啊</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">如果这使Omicron从阴影中现身,那么所有这些都是值得的</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">我现在没疑惑了</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">我现在决定了</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! HaHaTrap 脚本激活 @channel</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="33.0">@Deladello, 把我们所做的事情发送给所有媒体,我希望每个California的人都知道发生了什么</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="37.0">没问题</AddIRCMessage>
@@ -176,7 +176,7 @@
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">So按下该死的按钮</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="18.0">呜啊</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">如果这使Omicron从阴影中现身,那么所有这些都是值得的</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">我现在没疑惑了</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">我现在决定了</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! HaHaTrap 脚本激活 @channel</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="33.0">@Deladello, 把我们所做的事情发送给所有媒体,我希望每个California的人都知道发生了什么</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="37.0">没问题</AddIRCMessage>

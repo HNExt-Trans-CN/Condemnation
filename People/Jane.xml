@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Person id="M9" handle="NONE" firstName="Jane" lastName="Dotry" isMale="false" forceHasNeopals="false">
- <Birthplace name="加利福尼亚州,萨克拉门托" />
+ <Birthplace name="Califonia, Sacramento" />
  <DOB>11/05/2002 21:46:36</DOB>
  <Degrees>
     <Degree uni="Dalary Academy" gpa="3.8">市场营销学学士</Degree>

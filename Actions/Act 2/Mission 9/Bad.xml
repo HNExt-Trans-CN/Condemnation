@@ -13,12 +13,12 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">大概吧</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">如果你想引起所有人的关注,包括Omicron,我们现在就可以杀死他们。</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="32.0">我可没说我想要杀死那些人。</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">这就是为什么让你放置勒索软件勒索医院的原因。 你的道德着实扭曲, Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">这就是为什么你要放置勒索软件勒索医院的原因。 你的道德着实扭曲, Vortex</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">但是如果你根本没有它会更好,它使你弱小</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">你先要击败Omicron,不是吗? 你要不计手段,变得更加强大, 心狠手辣 ,行事果断</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">不让任何人停止你的脚步</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">这就是我们小组的理念。 这就是我们拥有如此强大的力量和关系网络的原因。 我们决定人们的生死存亡。 恐惧是我们的武器。 你不能用大话吓唬一个人,你必须采取行动</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="73.0">我打赌Omicron也明白这个道理,他也在</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="73.0">我打赌Omicron也明白这个道理,他也在玩同样的规则</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="77.0">你想找到他并与他战斗吗? 那就证明你有这能力!</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

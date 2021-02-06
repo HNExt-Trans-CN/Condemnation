@@ -7,7 +7,7 @@
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="20.0">一些很美妙的软件</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.0">啊,是的,它准备好向你招手呢</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="30.0">先生们,我邀请你加入我并升级自己的工具集</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="35.0">但是,在我们黑入之前,我认为我们都应该感谢Vortex的足智多谋</AddIRCMessage>!
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="35.0">但是,在我们黑入之前,我认为我们都应该感谢Vortex的足智多谋!</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="40.0">废话少说</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="44.0">Ooookaaay</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.0">我认为现在是解决我们问题的合适时机</AddIRCMessage>
@@ -19,7 +19,7 @@
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="67.0">3...</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">2...</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="69.0">1...</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.0">@channel, 去窃取那的所有东西!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.0">@channel, 去拿走那的所有东西!</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.0">!ATTACHMENT:link#%#资源服务器#%#90.91.183.142</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

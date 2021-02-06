@@ -10,11 +10,11 @@
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="3.3"/>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="8.0">确实!</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="12.0">太好了,现在扫描所有内容并删除所有具有“白名单”的内容,这仅是一个线索</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="12.0">太好了,现在扫描所有内容并删除所有具有"白名单"的内容,这是唯一的线索</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="17.0">我也会帮你的显然,但是我想Omicron也会从中阻挠</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="22.0">他从什么地方阻挠我?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="25.0">从那些.dll中</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">我可以通过断开某些端口来为你提供帮助,但是NightHawks也可能会干扰,因此请当心</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">我可以通过打开某些端口来为你提供帮助,但是NightHawks也可能会干扰,因此请当心</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="33.0">祝好运!</AddIRCMessage>
 	</OnAdminGained>
 	

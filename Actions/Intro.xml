@@ -10,7 +10,7 @@
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="4.0">我为你的心理健康而担心</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">闭嘴!BLOYD,求你了? ;-)</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="6.0">即使他的笑话很滑稽,你仍然威胁着这个服务器的主人（即使TA不存在）,而这必然是犯罪行为</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="7.0">你们两都给我闭嘴</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="7.0">你们俩都给我闭嘴</AddIRCMessage>
 		<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="14.0">!ANNOUNCEMENT! CYPHER MENDES (又称 #PLAYERNAME#) 已经连接至服务器 @channel</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="15.0">终于啊!</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">早上好,队长!</AddIRCMessage>

@@ -1,57 +1,60 @@
 <ConditionalActions>
+
 	<Instantly>
-	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
-	<LoadMission MissionName="Missions/Act 2/Mission 9/Mission9.xml" />
+		<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>
+		<LoadMission MissionName="Missions/Act 2/Mission 9/Mission9.xml" />
 	</Instantly>
 
 	<OnAdminGained target="M9Deploy">
-	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Copy.xml" DelayHost="Delay" Delay="25.0"/>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">@channel 你可以在DECSuite 部署服务器的/bin文件夹中找到解密的可执行文件。你应该知道所提供文件的密码</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="15.0">我不认为Vortex知道</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">妈的 我自己去解密他的部分会更容易</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="25.0">@Vortex,我找到了入口点,它们在2号文件中</AddIRCMessage>
-	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="25.1"/>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Copy.xml" DelayHost="Delay" Delay="25.0"/>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">@channel 你可以在DECSuite部署服务器的/bin文件夹找到解码器</AddIRCMessage>
+		<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="15.0">我认为Vortex不知道</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">妈的我自己去解密他的部分会更容易</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="25.0">@Vortex, 我破译了你的入口点,它们在2号文件中</AddIRCMessage>
+		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="25.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="25.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="25.3"/>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">@channel 另外,你可以从我们的负载均衡服务器中的相应文件夹中获取勒索软件.bat文件</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">@channel 另外,你可以从我们的负载均衡服务器中的相应文件夹中获取勒索软件的.bat文件</AddIRCMessage>
 	</OnAdminGained>
-	
+
 	<OnAdminGained target="M9EP1Hos">
-	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel 目前进展?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="10.0">拿到中央集群的控制权了</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="13.0">部署了25台机器</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">继续努力</AddIRCMessage>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, 进展?</AddIRCMessage>
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="10.0">进入到他们主计算机了</AddIRCMessage>
+		<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="13.0">部署了 25 个文件</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">所有人继续</AddIRCMessage>
 	</OnAdminGained>
-	
+
 	<OnAdminGained target="M9EP2Key3">
-	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-	<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="20.0">@channel 找不到被加密文件的密码</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">Jenkins, 能解决?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">Hmm, 理论可以,他们正在使用自动解密程序,并且如果加密文件处于锁定模式,则他们很可能需要在加密源上使用纯文本储存密码</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">能制作那样的工具吗?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="39.0">可以,头信息阅读器可以读出文件源IP。我把它放在我们服务器里边了</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="45.0">好的,感谢。</AddIRCMessage>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+		<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="20.0">@channel 在处理.dec文件时候出现了密码</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">Jenkins, 我们能解决吗?</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">嗯,理论上是的。他们正在使用自动解密程序,并且如果加密文件处于锁定模式,则他们很可能需要在加密源上使用纯文本密码</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">你可以制作某种工具吗?</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="39.0">是的,DecHead可以向你显示源IP。我将其放置在此服务器的存储中</AddIRCMessage>
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="45.0">谢了,这一定会有帮助的。</AddIRCMessage>
 	</OnAdminGained>
-	
+
 	<OnConnect target="M9EP2Main" needsMissionComplete="false">
-	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-	<AddAsset FileName="SQLOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
-	<AddAsset FileName="104.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="30.0">@Jenkins, 我们遇到些端口方面的问题了</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="35.0">让我猜猜, SQL?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="40.0">不,是104</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="45.0">Ah,我觉得我可能在Kellis的服务器上看到过这玩意的破解工具。</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="50.0">@channel 我已经上传了两工具,一个适用于104,一个适用于1433</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="53.0">干得好Jenkins,那应该能帮到咋们</AddIRCMessage>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+		<AddAsset FileName="SQLOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
+		<AddAsset FileName="104.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="NHHub" TargetFolderpath="bin/Stash" />
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="30.0">@Jenkins, 我们无法破解一个端口</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="35.0">让我猜猜, SQL?</AddIRCMessage>
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="40.0">不, 104</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="45.0">Ah。好吧,我想我已经在Kellis服务器上的某个地方看到了破解器</AddIRCMessage>
+
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="50.0">@channel 我已经在Stash文件夹中上传了一些端口破解器。一种适用于104（医疗）,另一种适用于1433（SQL）</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="53.0">干得好Jenkins,那应该能帮到我们的。</AddIRCMessage>
+
 	</OnConnect>
-	
+
 	<OnAdminGained target="M9EP3Gate">
-	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="5.0">@Maverick, 我们能相信我们的客户么?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">我们现在不能退缩,他对这种工作很感兴趣</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="15.0">好吧</AddIRCMessage>
+		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="5.0">@Maverick, 我们可以相信我们的客户吗?</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">是的,我们现在可不能退缩,他对我们的工作很感兴趣</AddIRCMessage>
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="15.0">明白</AddIRCMessage>
 	</OnAdminGained>
 </ConditionalActions>

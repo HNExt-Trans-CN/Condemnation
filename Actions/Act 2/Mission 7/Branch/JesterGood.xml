@@ -6,7 +6,7 @@
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="13.0">我正在处理</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="18.0">搞快点啊,如果你保持自己的慢节奏,我可以自己处理</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="22.0">而这对你没帮助</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="26.0">也意味着你将无法获得修复</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="26.0">也意味着你将无法获得补丁</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="30.0">我在尽力,忘了我还没有有效的网络地图?</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay ="35.0">好,请尽快完成工作</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="38.0">正在做了</AddIRCMessage>

@@ -3,6 +3,6 @@
 	<RunFunction FunctionName="playCustomSong:Music/1.ogg" FunctionValue="6" />
 	<RunFunction FunctionName="addFlags:FINAL_HACK" FunctionValue="6" />
 	<RunFunction FunctionName="removeFlags:OSEQ" FunctionValue="6" />
-	<StartScreenBleedEffect AlertTitle="FINAL HACK" CompleteAction="Actions/Conclusion.xml" TotalDurationSeconds="105.05" DelayHost="Delay" Delay="31.96">EXTRACT Omicron's netcfgx.dll!!!</StartScreenBleedEffect>
+	<StartScreenBleedEffect AlertTitle="FINAL HACK" CompleteAction="Actions/Conclusion.xml" TotalDurationSeconds="105.05" DelayHost="Delay" Delay="31.96">提取Omicron的netcfgx.dll!!!</StartScreenBleedEffect>
 	</Instantly>
 </ConditionalActions>

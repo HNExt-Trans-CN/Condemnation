@@ -2,15 +2,15 @@
 	<Instantly>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 7/Branch/JusticeR.xml" DelayHost="Delay" Delay="109.0"/>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="5.0">@Vortex 进展如何?</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="9.0">我已经伪造了些证据了,能把他也变成一个贩毒的,就像那个Mendes一样u</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="9.0">我已经伪造了些证据了,能把他也变成一个贩毒的,就像那个Mendes一样</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="13.0">还在工作中</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="18.0">搞快点啊,如果你保持自己的慢节奏,我可以自己处理</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="22.0">而这对你没帮助</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="26.0">也意味着你将无法获得修复</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="26.0">也意味着你将无法获得补丁</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="30.0">我在尽力而为,忘了我还没有有效的网络地图?</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="35.0">好吧,不好意思,这对我来说太重要了</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="38.0">在做了在做了</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">等不及找到Cypher Mendes可</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="42.0">等不及找到Cypher Mendes了</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">...</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">什么?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="54.0">或许他会先找到你</AddIRCMessage>
@@ -24,7 +24,7 @@
 	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="88.0">什么? 为什么?</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="92.0">不知道, 也许我留下了些东西在他们的服务器上</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="95.0">我知道他们迟早会找到我的</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="99.0">我立即激活你的修复程序,使用其他信息找到NightHawks的hub,并告诉Maverick实验失败</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="99.0">我立即激活你的修复程序,使用其他信息找到NightHawks的中枢,并告诉Maverick实验失败</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="105.0">现在!走!</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="107.0">!ANNOUNCEMENT! REPULSE LOST CONNECTION TO THE SERVER @channel</AddIRCMessage>
 	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="105.0"/>

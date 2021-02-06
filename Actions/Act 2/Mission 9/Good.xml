@@ -8,57 +8,57 @@
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Silence.xml" DelayHost="Delay" Delay="210.6"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Music.xml" DelayHost="Delay" Delay="30.0"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/MusicG.xml" DelayHost="Delay" Delay="87.0"/>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, My scanner shows that 58 ransom files are active, well done everybody, I think we've bombed the whole place</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">Yeah, that's supposed to be all of them</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="14.0">Now what do we do?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="18.0">We'll wait. I notified the client. Waiting for further instructions</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">Will that attract Omicron?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">Most probably</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">We can kill them all right now if you want to attract everybody's attention, including Omicron</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="32.0">Then do it</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">Whoa, we still may get some cash out of them first</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">You said that Omicron pays generous, you need him as much as I do. Kill them</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">I am interested in seeing that Omicron guy as well so why the fuck not?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">Anybody else wants to support Vortex's initiative?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="60.0">I am curious about a partnership with a legend</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="65.0">I heard he got some beautiful tools and programs extracted directly from EnTech archives</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="70.0">Prophet? What is your opinion?</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="75.0">He is in a major league. At least he was. He can teach us how to strike FBI and get away with it. So I am voting for Vortex</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">Then the decision is made</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">!ANNOUNCEMENT! NullException_@Q#$%NLH#$%, HaHaTrap CANNOT EXECUTE @channel</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">What the fuck is this?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="93.0">IDK, everything is supposed to work</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="97.0">I figured it out myself. But guess what?</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="100.0">IT IS NOT WORKING</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="103.0">I am doublechecking everything</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="108.0">I don't see any activity of a medical staff, they don't know about us</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="115.0">FUCK. I didn't input one of the security protocols</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">Can you fix it?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="124.0">I, I don't understand, they all have a unique token cycling procedure, I am pretty sure it wasn't there</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">Can you make a new .bat?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="134.0">No, it is a completly different procces, I can't even make an automated .bat, only .exe with manual activation, we would barelly deactivate 4-5 units and then they will notice us and cut the remote access</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="144.0">How didn't you notice that in a first place??</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="148.0">I am sure it was a different process</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="152.0">You think we were compromised and they changed security?</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="156.0">No, in that case they would've whitelisted the whole place, they are not aware of us</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="161.0">So it is a technical mistake</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="164.0">Yeah, at least I think so</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="167.0">So</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="169.0">Operation failed?</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="174.0">Because of me apparently</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="179.0">We are working together for a whole year. But you know the rules, and you've made a major fuck up</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="183.0">I understand</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="187.0">Vortex proved his abilities, and I think he can take your place now. He is stronger, and he done his part perfectly</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="191.0">And you know there is no place for weak in here</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="195.0">I won't send Slayer after you. But you better forget about us and our existence</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="203.0">Despite our failure, I want to congratulate Vortex as our new technical specialist</AddIRCMessage>
-	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="208.0">Great job man!</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="210.0">Well done!</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="211.0">Congrats</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.6">!ANNOUNCEMENT! MAVERICK IS MUTED @channel</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.7">!ANNOUNCEMENT! PROPHET IS MUTED @channel</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.8">!ANNOUNCEMENT! JENKINS IS MUTED @channel</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.9">!ANNOUNCEMENT! SLAYER IS MUTED @channel</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.0">!ANNOUNCEMENT! DELADELLO IS MUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, 我的扫描仪提示58个病毒都激活了,干得好所有人,我想我们已经让整个地方都被橄榄了。</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="10.0">是的,应该是所有人</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="14.0">现在干什么?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="18.0">耐心等待,我现在通知客户了,等待进一步的指示。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">会吸引到Omicron的注意吗?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">大概吧</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">如果你想引起所有人的关注,包括Omicron,我们现在就可以杀死他们。</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="32.0">那就立刻动手吧。</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">呜啊, 我们还没在他们上面捞到多少钱呢</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">你说过Omicron在上面有着巨大的投资。杀了他们</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">我也很想见那个叫Omicron的家伙,所以说为什么不tmd现在动手?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">还有人要支持Vortex的倡议吗?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="60.0">我对这个传奇人物的伙伴感到好奇</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="65.0">我听说他从EnTech档案中直接提取了一些漂亮的工具和程序</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="70.0">Prophet? 你怎么想的?</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="75.0">他在一个大团队里边中,至少他可能是。 他可以教我们如何打击FBI并摆脱困境。 所以我投票支持Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">那么看来各位已经作出决定了</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">!ANNOUNCEMENT! NullException_@Q#$%NLH#$%, HaHaTrap 无法运行 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">什么鬼?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="93.0">IDK, 它们本该正常运行的</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="97.0">我自己想明白了。你猜怎么着?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="100.0">它压根没在运行!</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="103.0">我正在重新检查</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="108.0">我没有看到任何医务人员的活动,他们并没有发现我们</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="115.0">操 我没有输入一个安全协议</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">你能修好它吗?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="124.0">我,我不明白,他们都有一个独特的令牌循环程序,我很确定这是不存在的</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="130.0">你能做一个新的 .bat 吗?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="134.0">不,这是一个完全不同的过程,我甚至不能做一个自动的.bat,只能做一个手动激活的.exe,我们只能停用4-5台设备,然后他们就会注意到我们并切断远程访问。</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="144.0">你怎么一开始就没注意到呢??</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="148.0">我很确信这是一个不同的安全程序</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="152.0">你认为我们被发现了,他们改变了安全机制?</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="156.0">不,如果是这样的话,他们会把整个地方都列入白名单,他们不知道我们的存在</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="161.0">所以这是一个技术性错误</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="164.0">是的,至少我是这么认为的</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="167.0">所以</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="169.0">行动失败了?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="174.0">显然是因为我</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="179.0">我们在一起工作了整整一年。但你知道规则,你已经犯了一个重大的错误</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="183.0">我明白</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="187.0">Votrex证明了他的能力,我想他可以取代你的位置了。他更强大,而且他完美地完成了他的任务</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="191.0">你知道在这里没有弱者的位置</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="195.0">我不会派Slayer去找你的,但你最好忘掉我们和我们的存在</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="203.0">尽管我们失败了,但我还是要祝贺Votrex成为我们新的技术专家</AddIRCMessage>
+	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="208.0">干得漂亮 兄弟!</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="210.0">干得好!</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="211.0">祝贺</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.6">!ANNOUNCEMENT! MAVERICK 被禁言 @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.7">!ANNOUNCEMENT! PROPHET 被禁言 @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.8">!ANNOUNCEMENT! JENKINS 被禁言 @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.9">!ANNOUNCEMENT! SLAYER 被禁言 @channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="212.0">!ANNOUNCEMENT! DELADELLO 被禁言 @channel</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

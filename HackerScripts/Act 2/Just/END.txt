@@ -84,7 +84,7 @@ delay 1.94 $#%#$
 writel_silent $#%#$
 writel_silent 她没钱了 $#%#$
 delay 1.86 $#%#$
-writel_silent 并决定做妓女让一个随机的人干自己 $#%#$
+writel_silent 并决定做妓女让随便哪个人干自己 $#%#$
 delay 3.48 $#%#$
 writel_silent 在其中一次,她怀孕了 $#%#$
 delay 3.53 $#%#$
@@ -98,7 +98,7 @@ delay 2.35 $#%#$
 writel_silent $#%#$
 writel_silent 我妈妈用我向陌生人讨钱 $#%#$
 delay 3.25 $#%#$
-writel_silent 试图卖把我卖给别人 $#%#$
+writel_silent 试图把我卖给别人 $#%#$
 delay 2.42 $#%#$
 writel_silent 我恨她恨过所有东西 $#%#$
 delay 3.99 $#%#$
@@ -164,7 +164,7 @@ writel_silent 然后我便化身成为Omicron $#%#$
 delay 3.06 $#%#$
 writel_silent 我从监狱学到了一些东西 $#%#$
 delay 2.70 $#%#$
-writel_silent 包括黑科技能 $#%#$
+writel_silent 包括黑客技能 $#%#$
 delay 1.87 $#%#$
 writel_silent $#%#$
 writel_silent 只有当我给他们理由害怕我时 $#%#$

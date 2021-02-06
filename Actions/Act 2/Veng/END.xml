@@ -11,7 +11,7 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">我只想问一个问题</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="39.0">说吧</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">Slayer, 我想你去杀了他 立刻</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">没有问题,只需将他的netcfgx.dll上传到我将发送的文件投放服务器上</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">没有问题,只需将他的netcfgx.dll上传到我将发送的文件共享服务器上</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">大家辛苦了!</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="58.0">Vortex, 感谢你提供的这份合同</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="63.0">我希望你能享受你的复仇</AddIRCMessage>

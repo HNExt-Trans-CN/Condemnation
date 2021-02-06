@@ -1,4 +1,4 @@
-<Computer id="M7Kellis" name="Kellis BioTech 安全存档 267" ip="48.189.248.31" security="3" type="4">
+<Computer id="M7Kellis" name="Kellis BioTech 安全档案馆 267" ip="48.189.248.31" security="3" type="4">
 <trace time="90" />
 <admin type="progress"/>
 <file path="home/104" name="Memo.txt">这是医疗服务端口破解器的原型,请勿将此副本发送给未经授权的人员</file>

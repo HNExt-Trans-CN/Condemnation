@@ -13,8 +13,8 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">Deladello, 社会工程学大师,比任何人都更好地利用人类的愚蠢</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="34.0">你好</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">Prophet, 协调员和合作黑客,帮助我控制一切,如果与他作对,没有人可以阻止他</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="43.0">当我们武装 - 我们便强大</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Slayer, 掌管损害的控制,在任何情况下,我们都能在特殊情况下雇佣杀手</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="43.0">当我们团结 - 我们便强大</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Slayer, 掌管破坏,任何时候,我们都能在特殊情况下雇佣杀手</AddIRCMessage>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="53.0">需要任何东西或任何人被毁灭,找我</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="57.0">当然了还有我,行动主管, Maverick</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="62.0">你已经证明自己是一名机智的黑客,而我们需要像你这样的人</AddIRCMessage>
@@ -22,8 +22,8 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="72.0">我需要找到个黑客</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">Deladello和Prophet可以帮助你</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">但是我打算给他们的合约怎么处理?</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="84.0">我也可以成为你团队的一部分,你仍然需要隐秘运营专家,一个无法追踪的人,我敢打赌,你已经知道我为什么是最佳人选</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">确实,你的数据伪装是一个非常有趣的东西</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="84.0">我也可以成为你团队的一部分,你仍然需要秘密行动专家,一个无法追踪的人,我敢打赌,你已经知道我为什么是最佳人选</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">确实,你的日志伪装是一个非常有趣的东西</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="98.0">我们有一些需要细心处理的合同</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="102.0">当你忙着你的任务时,Deladello和Prophet会处理你要找的人</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="108.0">是否同意?</AddIRCMessage>
