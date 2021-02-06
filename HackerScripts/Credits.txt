@@ -70,7 +70,7 @@ delay 10 $#%#$
 writel $#%#$
 writel 中文版翻译: $#%#$
 delay 0.5 $#%#$
-writel gao_cai_sheng $#%#$
+writel gao_cai_sheng, Niko $#%#$
 delay 10 $#%#$
 writel $#%#$
 writel 特别感谢: $#%#$
