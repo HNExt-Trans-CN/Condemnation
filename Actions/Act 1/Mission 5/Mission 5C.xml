@@ -2,7 +2,8 @@
 <Instantly>
 <AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay ="5.0"> @#PLAYERNAME#不错,第二台机子也到手了</AddIRCMessage>
 <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="10.0">仅剩一个混蛋</AddIRCMessage>
-<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay ="15.0"> @channel我正在Fluffy的战机上检测到移动数据传输,建议使用eOS扫描仪进行检查</AddIRCMessage>
+<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay ="15.0"> @channel我正在Fluffy的战机上检测到移动数据传输,建议使用EoS扫描仪进行检查</AddIRCMessage>
+
 </Instantly>
 <OnConnect target ="M5C3" needsMissionComplete ="false">
 <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="10.0"> @channel 这是什么鬼?这个家伙有EnSec吗?</AddIRCMessage>
