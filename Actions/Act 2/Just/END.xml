@@ -10,7 +10,8 @@
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">只剩最后一件事情了</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="22.0">把这个上传给警方</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="26.0">我配得到这些荣誉么?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">l你毕竟是搞到所有文件的人</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">Well你毕竟是搞到所有文件的人</AddIRCMessage>
+
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="35.0">所以你应该自己去上传</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">那给我个IP?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="44.0">行,我给你个Santa-Rosa警署那边的ip,他们没被EnTech保护因此畅通无阻</AddIRCMessage>
