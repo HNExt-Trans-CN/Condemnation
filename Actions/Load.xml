@@ -44,7 +44,8 @@
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="30.0">@Jenkins, 我们无法破解一个端口</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="35.0">让我猜猜, SQL?</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="40.0">不, 104</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="45.0">啊。好吧,我想我已经在Kellis服务器上的某个地方看到了破解器</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="45.0">Ah。好吧,我想我已经在Kellis服务器上的某个地方看到了破解器</AddIRCMessage>
+
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="50.0">@channel 我已经在Stash文件夹中上传了一些端口破解器。一种适用于104（医疗）,另一种适用于1433（SQL）</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="53.0">干得不错,Jenkins,这会有帮助的</AddIRCMessage>
 	</OnConnect>
