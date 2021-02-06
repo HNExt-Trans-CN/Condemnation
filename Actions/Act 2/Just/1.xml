@@ -55,7 +55,8 @@
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="225.0">如果需要更多的暴力或牺牲,我不会追查Omicron,我理解我的错误,并且... </AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="230.0">该死,我只是想摆脱这种情况,等待更好的时刻,这样我就不必再次成为怪物了。</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="235.0">我对你的自责不感兴趣</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="240.0">你使用了不正当的手段,并必将受到惩罚</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="240.0">你使用了不正当的手段,也必将受到惩罚</AddIRCMessage>
+
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="244.0">这是我的观点</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="248.0">告别... </AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="250.0">!ANNOUNCEMENT! CLARA已退出@channel </AddIRCMessage>
