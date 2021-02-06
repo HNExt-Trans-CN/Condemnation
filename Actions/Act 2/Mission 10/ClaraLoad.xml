@@ -22,7 +22,8 @@
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">是的!</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="60.0">分析该.dll,它应该包含一些线索,以找到Omicron得到绕过白名单的工具的地方。</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">这是他试图在我的帮助下提供给NightHawks的合同</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">你拒绝了?所以没有了掩护?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">你拒绝了?所以你没有一个人帮你掩护咯?</AddIRCMessage>
+
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="75.0">是的,我又得独自战斗了,但是在他们弄清楚别的东西之前,我必须让他们停下</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">所以我与他们的聊天室断开了连接</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="84.0">我不知道Omicron在告诉他们什么,但是他们想攻击我们两个人,Omicron也在"你"身上得到了信息</AddIRCMessage>
