@@ -27,7 +27,8 @@
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="106.0">这会改变一切</AddIRCMessage>
 		<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="111.0">那么我想我要带上武器并准备对Vortex进行真人快打?</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="117.0">那肯定不</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="120.0">我对他有着计划呢</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="120.0">我对在他身上有着计划呢</AddIRCMessage>
+
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="125.0">我认为我的计划与你的计划有些不同</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="129.0">我会让你的余生永远待在牢房中并彻底洗白我自己</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="133.0">他的真实姓名是Cypher Mendes </AddIRCMessage>
