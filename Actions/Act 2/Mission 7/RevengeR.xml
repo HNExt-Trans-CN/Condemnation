@@ -1,7 +1,7 @@
 <ConditionalActions>
 	<Instantly>
 	<RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated" FunctionValue="0" />
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.0">!ANNOUNCEMENT! 安全模式已启动  正在登入聊天室</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.0">!ANNOUNCEMENT! 安全模式已启动  登录以进入聊天室</AddIRCMessage>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/JoinBad.xml" DelayHost="Delay" Delay="1.0"/>
 	<RunFunction FunctionName="removeFlags:NetMapLok" FunctionValue="0" />
 	<RunFunction FunctionName="playCustomSong:Music/dark.ogg" FunctionValue="0" />

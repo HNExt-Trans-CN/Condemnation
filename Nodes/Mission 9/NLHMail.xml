@@ -4,14 +4,14 @@
 <trace time="10" />
 <admin type="progress"/>
 <mailServer name="Never Loose Hope Hospital" color="0,255,141" generateJunk="false">
-<email recipient="Nigtoren" sender="Kellis BT" subject="生命支持设备已发货">你好 Dr. Evans, 一个额外的生命支持设备已经到达NLH Hospital,我们希望我们对你的新医疗政策的支持将使我们成为未来业务的重要合作伙伴。
-
-	祝你身体健康,
+<email recipient="Nigtoren" sender="Kellis BT" subject="生命支持设备已发货">你好 Dr. Evans, 一个额外的生命支持设备已经到达NLH Hospital,我们希望我们对你的新医疗政策的支持将使我们成为未来业务的重要合作伙伴。 
+ 
+	祝你身体健康, 
 	Mary - 运输部</email>
-<email recipient="Nigtoren" sender="Simon" subject="Re:Re:生命支持设备">谢谢你 Dr. Evans!
----------------
-IP 176.0.9.163, 保密!
----------------
-你好,Dr. Evans,我是肺病科的Simon。 感谢你给我们的生命支持设备,我们感激不尽! 但是我们还需要一个外部IP才能将其连接到那个机器的计算机系统。 你能告诉我吗?</email>
+<email recipient="Nigtoren" sender="Simon" subject="Re:Re:生命支持设备">谢谢你 Dr. Evans! 
+--------------- 
+IP 176.0.9.163, 保密! 
+--------------- 
+你好,Dr. Evans,我是肺病科的Simon。 感谢你给我们的生命支持设备,我们感激不尽! 但是我们还需要一个外部IP才能将其连接到计算机系统。 你能告诉我吗?</email>
 </mailServer>
 </Computer>

@@ -49,9 +49,9 @@ delay 2.66 $#%#$
 writel_silent 所以我已经寄给你一个保姆 $#%#$
 delay 3 $#%#$
 writel_silent $#%#$
-writel_silent 你知道是什么导致了你 $#%#$
+writel_silent 你知道是什么害你落到现在这局面吗? $#%#$
 delay 2.41 $#%#$
-writel_silent 优柔寡断和不确定性? $#%#$
+writel_silent 优柔寡断,迟疑不决 $#%#$
 delay 3.62 $#%#$
 writel_silent 你不明白你在争取什么 $#%#$
 delay 3.25 $#%#$
@@ -64,7 +64,7 @@ delay 5.31 $#%#$
 writel_silent 这就是这个世界的运作方式 $#%#$
 delay 3.88 $#%#$
 writel_silent $#%#$
-writel_silent 在中游换马不会带给你任何好处 $#%#$
+writel_silent 临阵换将不会带给你任何好处 $#%#$
 delay 5.10 $#%#$
 writel_silent 那是你应该学到的东西 $#%#$
 delay 3.52 $#%#$

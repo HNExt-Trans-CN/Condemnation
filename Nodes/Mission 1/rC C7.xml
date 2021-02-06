@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rC_B5" name="Pear_Lover 存档服务器" type="2">
+<Computer id="M1rC_B5" name="Pear_Lover 档案馆" type="2">
 <ports>21, 22, 25, 80, 554</ports>
 <portsForCrack val="0" />
 <trace time="-1" />

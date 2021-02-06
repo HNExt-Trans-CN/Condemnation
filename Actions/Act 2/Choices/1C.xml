@@ -4,7 +4,7 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="J_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你找到了实现正义的方法,并将一个尽职尽责的优秀警官从Jester救了出来</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你找到了实现正义的方法,并将一个尽职尽责的优秀警官从Jester手中救了出来</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag">
@@ -12,7 +12,7 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助了Jester并最终促使那名警官自杀e</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你帮助了Jester并最终促使那名警官自杀</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag_Scum">

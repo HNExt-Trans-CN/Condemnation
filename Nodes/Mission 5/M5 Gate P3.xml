@@ -2,20 +2,20 @@
 <Computer id="M5GateP3" name="代理节点 VR01" security="3" type="empty">
 
 
- <file path="home/HackStation" name="SYNC_SUCCESS.log">更新过程成功：从此代理中删除同步文件
+ <file path="home/HackStation" name="SYNC_SUCCESS.log">更新成功:正在从此代理中删除同步文件
  
-  重要信息：重新启动该计算机以清除缓存,否则可能会发生内存转储!</file>
+  重要信息:重新启动该计算机以清除缓存,否则内存转储中可能存在信息!</file>
  
  <Memory>
 	<Data>
 		<Block>
 		已重新配置访问数据。将报告发送到 "13.211.189.8"
 		
-			更新过程成功：
+			更新过程成功:
 			从代理删除同步文件
 			迁移缓冲区缓存
 			
-		成功：结束报告
+		成功:结束报告
 		</Block>
 	</Data>
 </Memory>

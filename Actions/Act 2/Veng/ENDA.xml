@@ -3,7 +3,7 @@
 	<AddAsset FileName="netcfgx.dll" FileContents="#BINARY#" TargetComp="NHHub" TargetFolderpath="home" />
 	<AddConditionalActions Filepath="Actions/Act 2/Choices/Dark.xml" DelayHost="Delay" Delay="5.0"/>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel, 完成了??</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="10.0">Vortex掉线了，但是我设法进入并搞到了所有文件,扔到这台机子上的home文件夹了</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="10.0">Vortex掉线了,但是我设法进入并搞到了所有文件,扔到这台机子上的home文件夹了</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">耶~~~</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="19.0">我从sys中拿走了他的Token</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="22.0">他的钱是我们的了</AddIRCMessage>
@@ -12,7 +12,7 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="35.0">我只想问一个问题</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="39.0">说吧</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">Slayer, 我想你去杀了他 立刻</AddIRCMessage>
-	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">没有问题,只需将他的netcfgx.dll上传到我将发送的文件投放服务器上</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="50.0">没有问题,只需将他的netcfgx.dll上传到我将发送的文件共享服务器上</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">大家辛苦了!</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="58.0">Vortex, 感谢你提供的这份合同</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="63.0">我希望你能享受你的复仇</AddIRCMessage>

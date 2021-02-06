@@ -1,8 +1,8 @@
 <ConditionalActions>
 <Instantly>
-<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay ="5.0"> @#PLAYERNAME#不错,第二个找到了</AddIRCMessage>
+<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay ="5.0"> @#PLAYERNAME#不错,第二台机子也到手了</AddIRCMessage>
 <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="10.0">仅剩一个混蛋</AddIRCMessage>
-<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay ="15.0"> @channel我正在Fluffy的战机上检测到移动数据传输,建议使用EoS扫描仪进行检查</AddIRCMessage>
+<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay ="15.0"> @channel我正在Fluffy的战机上检测到移动数据传输,建议使用eOS扫描仪进行检查</AddIRCMessage>
 </Instantly>
 <OnConnect target ="M5C3" needsMissionComplete ="false">
 <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="10.0"> @channel 这是什么鬼?这个家伙有EnSec吗?</AddIRCMessage>
@@ -11,7 +11,7 @@
 <AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="22.0">它只能是被劫持的早期构建。在这种情况下,我可以帮上忙</AddIRCMessage>
 <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="26.0">如何?</AddIRCMessage>
 <AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="30.0">我可以扫描他的网络并使用相同的网络映射创建副本节点</AddIRCMessage>
-<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="34.0">在这里你进入"1.1.1.1"。只需获得管理员访问权限并扫描节点,也许你就可以找到新的入口点</AddIRCMessage>
+<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="34.0">访问"1.1.1.1"。获得管理员访问权限并扫描节点,也许你就可以找到新的切入点</AddIRCMessage>
 </OnConnect>
 <OnAdminGained target ="M5EndRelay">
 <RunFunction FunctionName ="playCustomSong:Music/RemiDrone.ogg" FunctionValue ="0"/>

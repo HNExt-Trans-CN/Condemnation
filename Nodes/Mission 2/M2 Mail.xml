@@ -5,10 +5,10 @@
 <portsForCrack val="5" />
 <trace time="8" />
 <admin type="fast" resetPassword="true" isSuper="true"/>
-<mailServer name="动态更改" color="0, 255, 55" generateJunk="false">
+<mailServer name="动态邮箱" color="0, 255, 55" generateJunk="false">
 <email recipient="Daedra" sender="Repulse" subject="文件传输服务器架设完成">
 
-嘿,我已经完成了文件传输服务器的假设,别人可以在那上传他们的垃圾了。
+嘿,我已经完成了文件传输服务器的搭建,别人可以在那上传他们的垃圾了。
 
 我整到医疗档案就上传到服务器上去。稍后再发送详情给你。
 
@@ -40,9 +40,9 @@ P.S. 通过 12.111.65.135 访问
 整到医疗端口的破解器了,所以不用担心,那文件明天估计就整到手。
 </email>
 <email recipient="Repulse" sender="MailBot" subject="访问变更">
-由于技术困难,你的代理节点已关闭。
+由于技术问题,你的代理节点已关闭。
 
-在网关上保存日志 82.139.222.48
+已经在网关上保存日志 82.139.222.48
 </email>
 <email recipient="Repulse" sender="Daedra" subject="紧急情况">
 Dan,你能帮我备份下我电脑文件吗?除了你以外我不能相信任何人。
@@ -54,7 +54,7 @@ Dan,你能帮我备份下我电脑文件吗?除了你以外我不能相信任何
 P.S. 通过 12.111.65.135 访问
 </email>
 <email recipient="Repulse" sender="Spam" subject="2天速成壮阳药!">
-你是否曾想要和女友一战到天明但又因某些问题放弃呢?来试试我们的特殊药丸“马力”。
+你是否曾想要和女友一战到天明但又因某些问题放弃呢?来试试我们的特殊药丸"马力"。
 
 联系方式: *REMOVED BY SPAM-BOT*
 </email>

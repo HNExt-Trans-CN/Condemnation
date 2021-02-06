@@ -6,7 +6,7 @@
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="13.0">看到你们最近的工作,我对每个人都感到震惊</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.0">我喜欢你们的风格!</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="22.0">我希望你们与我们取得联系,但方式有所不同</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.0">喜欢什么?电子邮件吗?</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.0">比如什么?电子邮件吗?</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="31.0">我认为人们应以一种非同寻常的方式对待不同的东西</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="36.0">这很不正常</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="40.0">你在做什么?那怎么可能?</AddIRCMessage>
@@ -20,47 +20,47 @@
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="60.0">Oww, 别这么生气嘛</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="64.0">你还活着嘛毕竟</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">我认为我们应该从过去继续前进,直视美好的未来</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">你可以将美好的未来推向前进</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.0">适当记录</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="80.0">无论如何,我以为我在这里看到一些专业人员在医院杀死了58人并逃脱了</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">去你妈的美好未来</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.0">注意一下你的言行</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="80.0">无论如何,我认为我来这里是为看到一些在医院杀死了58人并成功逃脱的专业人员</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="85.0">并同时在《加州主要新闻》中脱颖而出</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">Yes,我们当然是行业人士</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="95.0">你的伙伴似乎对我们的伙伴充满敌意和不理性</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="95.0">你的伙伴似乎对我们的合作充满敌意和不理性</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="100.0">如果你需要,他将很快被淘汰。</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="103.0">不可能</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="103.0">免了</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="105.0">我还在他身上有些计划呢</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="110.0">让我介绍下我们小组</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="113.0">Noooo. 我想我说得很清楚,我想让Vortex介绍你的小组</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="118.0">如果他不这样做,我们之间就没有一点商业计划</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="118.0">如果他不这样做,我们就别想做生意了</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="122.0">@Vortex, 请放下你那骄傲并正确介绍NightHawks</AddIRCMessage>
 		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="122.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="122.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="122.3"/>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="126.0">如果不呢?</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="127.0">那你得亲自跟Slayer说话</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="132.0">那不会是漫长的对话</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="136.0">想一会儿。你想报仇?聪明点,不要大胆和愚蠢</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="132.0">你从见到他到断气不会有多久的</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="136.0">好好想想吧。你想报仇?聪明点,别这么莽撞和愚蠢</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="142.0">你应该听那个人说的</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="146.0">如果你只介绍你的朋友,我保证我会全力以赴摧毁你们</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="146.0">只要你好好介绍下你的朋友,我保证我会全力以赴帮助你们</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="150.0">就这样</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="153.0">这不难</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="160.0">我确信你已经知道关于我们的一切了</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="164.0">所以你可以退出那个小丑聚会,我们将面对面交谈</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="169.0">你叫我一个小丑?</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="169.0">我没听错吧,你叫我小丑？</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="173.0">是的</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="177.0">Hmm.我不喜欢和侮辱我的人一起工作</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="181.0">所以也许我应该去找一个更合适的人</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="184.0">不,我们对此感到抱歉</AddIRCMessage>
-		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="188.0">我认为Vortex意味着你可能已经收集了有关我们的所有信息,先生,没必要这样</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="193.0">是的,这只是个愚蠢的笑话</AddIRCMessage>
+		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="188.0">我认为Vortex指的是你可能已经收集了有关我们的所有信息,先生,没必要这样</AddIRCMessage>
+		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="193.0">是的,这只是个愚蠢的笑话,他不过是今天刚好不顺心而已</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="199.0">我难受了大约2个月的时间</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="203.0">而那个人是主要原因</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="208.0">你想找我吗?表示敬意,表现得像个绅士</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="213.0">你毕竟是专业的</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="218.0">好吧</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="221.0">Maverick,那群脑瘫的首脑</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="226.0">Jenkins,玩弄他的傻逼工具集的彪子</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="231.0">Deladello,假心理学家,自以为玩世不恭的24/7很酷</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="226.0">Jenkins,玩弄他的傻逼工具集的婊子</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="231.0">Deladello,假心理学家,自以为24/7都在玩世不恭很酷</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="236.0">Slayer,喜欢杀人的精神病患者</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="241.0">最后个 Prophet, 不咋喜欢说活,我对他不怎么了解</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="246.0">你开心了吗,废物?</AddIRCMessage>
@@ -68,40 +68,40 @@
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="254.0">好吧,伙计们,我想你不应该对他生气,说实话,他的状态非常糟糕</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="259.0">他毕竟是条子的队长两个月前</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="263.0">什     么?</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="266.0">他是个听话的人</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="266.0">那时他是个遵纪守法的良民</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="270.0">现在他帮助你谋杀58个人</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="274.0">所以如果我是你,我会给他一些荣誉</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="278.0">他真名是Cypher Mendes</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="282.0">我敢打赌你们两个月前都读到了关于他的新闻</AddIRCMessage>
 		<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="287.0">从事毒品工作的那个条子?</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="290.0">正解</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="294.0">现在他想因为我的小恶作剧而想要找到我</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="300.0">你摧毁了我的生命,使我残废,使我成为杀人犯,现在取笑我</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="294.0">现在他因为我的小恶作剧而想要找到我</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="300.0">你摧毁了我的生命,使我残废,使我成为杀人犯,现在还在这取笑我</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="305.0">而我会杀了你</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="309.0">那不是警察会说的话, Cypher</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="313.0">但是我会给你机会</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="317.0">你只是必须有足够的动力和胆量才能做到这一点</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="322.0">@channel 我有一份工作给你们大家</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="322.0">@channel 我有一份工作给你们</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="326.0">我们将访问FBI数据库,并且所有人都有机会擦除所有个人数据并开始新的生活</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="333.0">但是你需要用于此的工具</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="337.0">幸运的是,Vortex知道警署文件服务器的地址</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="333.0">但是你们需要用于此的工具</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="337.0">幸运的是,Vortex知道警署资源服务器的地址</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="342.0">但是鉴于他记忆不好,我会在这里链接</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="345.0">!ATTACHMENT:link#%# 文件服务器#%#90.91.183.142</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="345.0">!ATTACHMENT:link#%# 资源服务器#%#90.91.183.142</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="353.0">@channel 但是如你所见,它受到高级EnTech安全协议的保护</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="358.0">我有一个特殊的工具来破解EnSec,但是我们不能绕过白名单系统</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="363.0">我知道一个可以得到我们所需要的地方</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="363.0">我知道一个可以得到我们所需要的工具的地方</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="367.0">但是为了使它更有趣,Vortex将领导该行动</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="372.0">我将上传一个有助于破坏EnSec的.dll到Vortex的PC,然后你可以攻击包含绕过白名单的工具的EnTech档案</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="380.0">Vortex可以通过将该.dll上载到此服务器的/home文件夹中,将该文件提供给NightHawks,也可以与他最近秘密联系的女友团结起来</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="372.0">我将上传一个有助于破坏EnSec的.dll到Vortex的PC,然后你可以攻击包含绕过白名单的工具的EnTech档案服务器</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="380.0">Vortex可以通过将该.dll上传到此服务器的/home文件夹中,将该文件提供给NightHawks,也可以与他最近秘密联系的女友团结起来</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="385.0">什么女朋友?</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="388.0">在你给Vortex的一份合同中,他与一位名叫Clara的条子进行了对话</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="392.0">显然,她是Vortex以前的同事</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="396.0">他妈的废物</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="400.0">所以说, @Vortex, 你有一个非常简单的选择：如果你想与NightHawks联合,请将.dll文件上传到此服务器的/home文件夹,我保证我们会在之后解决问题,没有人会打扰我们</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="400.0">所以说, @Vortex, 你有一个非常简单的选择:如果你想与NightHawks联合,请将.dll文件上传到此服务器的/home文件夹,我保证我们会在之后解决问题,没有人会打扰我们</AddIRCMessage>
 		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="400.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="400.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="400.3"/>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="410.0">另外,如果你仍然有道德,可以将其发送到Clara的工作站的/home文件夹并与她联系。但我警告你,NightHawks会攻击你们俩,你可能再也看不到我了</AddIRCMessage>
+		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="410.0">另外,如果你仍然秉持正义,可以将其发送到Clara的工作站的/home文件夹并与她联系。但我警告你,NightHawks会攻击你们俩,你可能再也看不到我了</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="420.0">你自己不能直接使用此.dll,需要一个可以制作有效.exe的伙伴。</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="425.0">所以...</AddIRCMessage>
 		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="428.0">做出决定吧</AddIRCMessage>

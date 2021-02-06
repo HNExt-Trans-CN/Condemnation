@@ -38,7 +38,7 @@ writel_silent $#%#$
 delay 2.77 $#%#$
 writel_silent 由于某些原因 $#%#$
 delay 2.47 $#%#$
-writel_silent 在我们拥有一切之后 $#%#$
+writel_silent 在经历了一切后 $#%#$
 delay 2.37 $#%#$
 writel_silent 我对你有些感觉 $#%#$
 delay 2.92 $#%#$
@@ -60,7 +60,7 @@ delay 1.42 $#%#$
 writel_silent 是对你自己 $#%#$
 writel_silent $#%#$
 delay 2.53 $#%#$
-writel_silent 所以让仇恨和愤怒在你中流淌 $#%#$
+writel_silent 所以让仇恨和愤怒在你血管中流淌 $#%#$
 delay 5.83 $#%#$
 writel_silent 最后找到我 $#%#$
 writel_silent $#%#$

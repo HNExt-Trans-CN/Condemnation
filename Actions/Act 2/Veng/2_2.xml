@@ -10,7 +10,7 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">同时,一旦我们进入他的真实PC,就可以得到他的真实网关,而不是虚拟网关</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="25.0">好吧,他自己的防护措施呢?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="29.0">很可能会有一些安全系统</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="33.0">那从我们的扫描仪覆盖了他的电脑</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="33.0">那从我们的扫描仪中隐藏了他的电脑</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="37.0">但是随后他必须使用某种Sequencer进行隐身操作</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">那又怎样呢?在哪里可以找到它?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="45.0">我真的怀疑他会在文件中留下真实地址,这绝对是一个陷阱</AddIRCMessage>
@@ -20,11 +20,11 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">那谁来做这个倒霉蛋?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="70.0">当然是我</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">他正等着我呢</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="77.0">他玩他的小把戏时,而你们就偷袭他</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="77.0">他玩他的小把戏时,你们就偷袭他</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="82.0">感觉像是冒险之举但听起来非常炫酷</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="86.0">好的,我已经处理完该文件,从中可以看到它是一台虚拟PC,该PC通过/sys文件夹中的Core.dll文件连接</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="92.0">我敢打赌他只是等你什么时候先罢工</AddIRCMessage>
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="97.0">好吧,当我摆弄那个混蛋时,分析那个假人的所有过程</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="92.0">我敢打赌他只是在等你攻击</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="97.0">好吧,当我玩弄那个混蛋时,分析那个虚拟PC的所有进程</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="102.0">是的,删除Core.dll,这将为你触发某种陷阱</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">我们会注意他安全性是否有任何漏洞</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">Ok, IP在这</AddIRCMessage>

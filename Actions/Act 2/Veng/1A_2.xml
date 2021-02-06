@@ -8,11 +8,11 @@
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="10.3"/>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">明白?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="19.0">非常明白</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="24.0">我们会把我们的hub迁移到其他服务器</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="24.0">我们会把我们的中枢迁移到其他服务器</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">别尝试寻找我们</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="32.0">否则你会和Slayer有个美妙的夜晚</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="37.0">Ok,再过一会儿</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">如果要攻击Omicron的PC,那就删除所有内容</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="41.0">如果你想反击Omicron,那就删除他PC上的所有内容</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">他很可能部署了EnSec,但你拥有EnBreak</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">但我认为你不会有机会</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="55.0">Ok, 给你</AddIRCMessage>

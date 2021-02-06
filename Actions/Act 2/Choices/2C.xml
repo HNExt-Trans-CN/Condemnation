@@ -8,7 +8,7 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Clara_Flag">
-	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你拯救了58条无辜的生灵。</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="0.0">你拯救了NLH医院中58条无辜的生灵。</AddIRCMessage>
 	</HasFlags>
 	
 </ConditionalActions>

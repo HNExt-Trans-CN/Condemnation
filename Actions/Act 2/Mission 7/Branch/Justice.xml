@@ -1,7 +1,7 @@
 <ConditionalActions>
 	<Instantly>
 	<RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated" FunctionValue="0" />
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.0">!ANNOUNCEMENT! 安全模式已启动  正在登入聊天室</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.0">!ANNOUNCEMENT! 安全模式已启动  登录以进入聊天室</AddIRCMessage>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/JoinGood.xml" DelayHost="Delay" Delay="1.0"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 8/Unlock1.txt" DelayHost="Delay" Delay="1.5" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<LoadMission MissionName="Missions/Act 2/Mission 8/StartGood.xml" />

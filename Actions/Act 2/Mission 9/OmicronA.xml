@@ -26,8 +26,8 @@
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.04">为了</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.14">逮到</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.33">我?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.93">看着你的良心正在消退是很有趣的</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="19.99">我知道我们之间还有一些未完成的纠葛</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.93">看着你的良心逐渐消退是很有趣的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="19.99">我知道我们之间还有一些未完的纠葛</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="24.08">但是,让我们撇清纠纷,度过美好时光</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.6">然后,请让我介绍下自己</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="32.17">哦,很抱歉给你带来不便,但他们听不到我的声音</AddIRCMessage>
@@ -36,7 +36,6 @@
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="45.53">扭曲的</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="46.89">声音</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.11">但不会太久了...</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="19.99">I know we have a little unfinished business between us</AddIRCMessage>
 	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="49.95">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
 	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="51.25">!ANNOUNCEMENT! 解除禁言 @channel</AddIRCMessage>
 	</Instantly>

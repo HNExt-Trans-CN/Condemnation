@@ -2,7 +2,7 @@
 	<Instantly>
 	<AddConditionalActions Filepath="Actions/Act 1/Mission 3/Transfer.xml" DelayHost="Delay" Delay="56.0"/>
 	<RunFunction FunctionName="addRankSilent" FunctionValue="1" />
-	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="3.0">发送到文件服务器了r</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="3.0">发送到资源服务器了</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="6.0">收到钱了</AddIRCMessage>
 	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="9.0">我操</AddIRCMessage>
 	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="12.0">我勒个操</AddIRCMessage>
@@ -14,11 +14,11 @@
 	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="27.0">你是唯一一个知道密码的人!</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="30.0">Umm, 你是不是疯了?</AddIRCMessage>
 	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="32.0">我没有,你他妈的就是屎,他们要来找我了</AddIRCMessage>
-	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="35.0">Mr.Repulse显然是个小偷</AddIRCMessage>
+	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="35.0">Mr.Repulse显然是个打小报告的家伙</AddIRCMessage>
 	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="37.0">拉倒吧,我可什么也没做!</AddIRCMessage>
 	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="40.0">好吧,那么让我告诉整个互联网,你心爱的屎猫Margolis是你所有帐户的密码 :)</AddIRCMessage>
 	<AddIRCMessage Author="Daedra" TargetComp="M4_IRC" Delay="40.0">甚至动态邮箱密码也只是 Repulse+Margolis, LOL</AddIRCMessage>
-	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="42.0">你是疯狂、古怪的罗伯特,我出去了,把自己的钱拿走</AddIRCMessage>
+	<AddIRCMessage Author="Repulse" TargetComp="M4_IRC" Delay="42.0">你TM就是个疯子、偏执狂,我走了,把你那臭钱拿走</AddIRCMessage>
 	<DeleteFile TargetComp="playerComp" FilePath="home" FileName="netcfgx.dll" DelayHost="Delay" Delay="1.0"/>
 	</Instantly>
 </ConditionalActions>

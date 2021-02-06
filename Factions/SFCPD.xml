@@ -5,17 +5,17 @@
     <AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# 干得好,队长,我们会处理另外两个任务</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="8.0">很快就能逮到他们了。我们的技术人员会分析这些傻瓜的netcfgx.dll,这样我们就知道他们干了些什么事情了。</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="13.0">甚至他们的物理位置!</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">如果只对单个文件进行1次分析这也可能找着他们?</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">仅仅对一个文件进行一次分析就可以找到他们吗?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="23.0">对,但是要有加利福尼亚州所有的ISP和一位特殊人士帮助我们才行。</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="28.0">特殊人士?那是谁?</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="31.0">EnTech</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="34.0">他们最近获得了政府的支持,并向美国不少警察局提供了高端方案。</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="40.0">包括了EnSec和Hacknet_OS,也就是我们现在用的这套玩意。</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="45.0">这样我们才能更有效地对抗黑客,他们也无法轻松地反击l</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="45.0">这样我们才能更有效地对抗黑客,他们也无法轻松反击</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="52.0">如果我们中的某人出于某种原因叛逃,它甚至可以保护我们的基础设施</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="56.0">好吧,这个操作系统确实很厉害,但是对于没有受到EnSec保护的普通人,它可能会造成很多损害。</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="62.0">是一种垄断,不是吗?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="66.0">是的,但是如果他们以某种方式通过了所有反垄断委员会,这意味着他们的行为符合反垄断法</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="66.0">是的,但是如果他们以某种方式被所有反垄断委员会认可,就意味着他们的行为符合反垄断法</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="73.0">我想我们需要知道的是,不能让那帮犯罪分子拥有这些东西,并确保没有人针对非犯罪性元素使用这些工具</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="80.0">赞同</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="83.0">现在让我们专注于自己的工作上吧</AddIRCMessage>
@@ -28,11 +28,11 @@
   </Action>
   
   <Action ValueRequired="2">
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">找到了,让我们稍等一下,很快我们可以获得对白名单服务器的管理员访问权限</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="5.0">找到了,稍等一下,很快就可以获得对白名单服务器的管理员访问权限</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="12.0">那怎么可能?</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="16.0">我认识到该特定的白名单程序,它存在一些漏洞</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="16.0">我认识该类型的白名单程序,它存在一些漏洞</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="22.0">有趣</AddIRCMessage>
-	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="26.0">而且是的,这确实起作用了,密码是"EternalFriendship"  (永恒的友谊)</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="26.0">这确实起作用了,密码是"EternalFriendship"  (永恒的友谊)</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="31.0">Oh 这人真可爱</AddIRCMessage>
   </Action>
   
@@ -40,11 +40,11 @@
 	<AddConditionalActions Filepath="Actions/Act 1/Mission 3/Music.xml" DelayHost="Delay" Delay="3.0"/>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@#PLAYERNAME# 队长,我们分析了你现在发送的netcfgx.dll,他住在城市的北部,执法人员已经在路上</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="15.0">干得漂亮,所有人!</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">I如果我没记错的话,我们应该和联邦调查局的代表开会</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="PDIRC" Delay="18.0">如果我没记错的话,我们应该和联邦调查局的代表开会</AddIRCMessage>
 	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="25.0">是的队长!</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">但是我们对第二个黑客 - Repulse - 的工作仍未完成</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">他没有参加是袭击,但仍然是犯罪分子</AddIRCMessage>
-	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="40.0">当然,我们可以继续进行会议,暂且离开他,警局另一只团队很可能会从Daedra的位置得到关于他的一切</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="35.0">他没有参加这次袭击,但仍然是犯罪分子</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="40.0">当然,我们可以继续进行会议,暂且放下对他的调查,警局另一只团队很可能会从Daedra的位置得到关于他的一切</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="48.0">但是这取决于你的指示</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="53.0">所以该咋办,老大?</AddIRCMessage>
 	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="56.0">@#PLAYERNAME# 队长,如果你仍然有兴趣,我会在任务中心附上一份关于Repulse的报道</AddIRCMessage>

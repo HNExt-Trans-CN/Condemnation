@@ -1,8 +1,8 @@
 <ConditionalActions>
 	<Instantly>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="5.0">!ANNOUNCEMENT! VORTEX 连接到聊天室@channel</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="8.0">问候神秘的小巨魔,很高兴有看到你</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="12.0">我想你在是找些工作吗?</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="8.0">问候神秘的小巨魔,很高兴看到你</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="12.0">我想你在是找工作?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="17.0">差不多</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="21.0">我遭到了攻击,现在我正试图恢复,找到一些工具并追捕那个混蛋</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="27.0">你受到了多大的打击?</AddIRCMessage>
@@ -11,8 +11,8 @@
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="39.0">Hacknet_OS,打赌你对它不熟悉,应该是警察专用的,但是我对警察有一定的经验,并且知道如何使用它</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="46.0">至少在我被一些强大的疯子吓倒之前</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="50.0">我知道很多黑客已经在正在使用Hacknet </AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="54.0">你之前了解过吗?像几个月前一样?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="58.0">是的,警察不知道我在他们的系统内,借胖子Paul的话,他是警察局的一名职员</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="54.0">你之前了解过吗?比方说几个月前?</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="58.0">是的,警察不知道我在他们的系统内,我用了胖子Paul的账户,他是警察局的一名职员</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="63.0">Wow,tmd干得好啊</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="67.0">我看到你已获得访问权限,但看不到任何日志</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="71.0">你是否为此使用了一些工具?分享下? ;）</AddIRCMessage>
@@ -33,13 +33,11 @@
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="150.0">需要先完成一些操作</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="153.0">有兴趣吗?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="156.0">取决于你要我做什么</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="160.0">不用担心,没什么严重的,我需要破坏一个人的生活</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay ="165.0">如果你问我,这听起来像是一件很严肃的事情</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="169.0">我将做主要部分,你只需要四处摸摸,发现我可以使用的一些污物</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="174.0">或者伪造些什么让他变成犯人</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="178.0">他是谁?</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="185.0">他名为Cypher Mendes</AddIRCMessage>
-		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="190.0">领导了逮捕我朋友Daedra的行动</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay ="160.0">不用担心,没什么严重的,我需要找到一个家伙</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="178.0">谁?</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="181.0">一个条子</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="185.0">名为Cypher Mendes</AddIRCMessage>
+		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="190.0">他领导了逮捕我朋友Daedra的行动</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="195.0">因为我们完成的一个工作逮捕了他</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="201.0">他们也差点连接到我这,但由于某种原因很快就断连了</AddIRCMessage>
 		<AddIRCMessage Author="Repulse" TargetComp="M7IRC" Delay="209.0">也许是因为我没有参加实际的黑客活动</AddIRCMessage>

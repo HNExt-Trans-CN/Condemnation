@@ -2,7 +2,7 @@
 	<OnConnect target="NHHub" needsMissionComplete="false">
 		<AddConditionalActions Filepath="Actions/Act 2/Veng/Flag.xml" DelayHost="Delay" Delay="118.0"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.0"/>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="5.0">@channel, 恭喜大家，我们是目前美国最强大的黑客之一！</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="5.0">@channel, 恭喜大家,我们是目前美国最强大的黑客之一!</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="10.0">我知道我们很可能会分道扬镳</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="15.0">但我认为我可以提供的最后一份工作是</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="20.0">杀死和抢劫千万富翁黑客: Omicron</AddIRCMessage>
@@ -10,22 +10,22 @@
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="30.0">但是我知道你们所有人都有无限的潜力</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">我们现在有足够的力量</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="39.0">你想违背自己的誓言?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="43.0">如果可以变得更强大，那么就必须变得更强大</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="43.0">如果可以变得更强大,那么就必须变得更强大</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">你有什么考虑？</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="52.0">我要杀死Omicron，你可以拥有他的王国，我可以拥有他的灵魂</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="57.0">记住我做了什么：</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="52.0">我要杀死Omicron,你可以拥有他的王国,我可以拥有他的灵魂</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="57.0">记住我做了什么:</AddIRCMessage>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/1A.xml" DelayHost="Delay" Delay="62.0"/>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="67.0">我创造了些辉煌的成就 - 至少看上去</AddIRCMessage>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/2A.xml" DelayHost="Delay" Delay="72.0"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Choices/3A.xml" DelayHost="Delay" Delay="77.0"/>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="82.0">最后：获得Omicron的位置文件!</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="87.0">我对你们来说是宝贵的财富，现在也适合您的风格</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="82.0">最后:获得Omicron的位置文件!</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="87.0">我对你们来说是宝贵的财富,现在也适合你的风格</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="92.0">所以我们做点生意</AddIRCMessage>
 		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="96.0">你想要他的位置文件?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="100.0">不知道里面有什么，但是我们可以一起提取细节</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="105.0">你可以拿走他所有的钱，我只想杀了他</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="110.0">双赢，你会喜欢它的</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">好的，Jenkins将分析文件</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="100.0">不知道里面有什么,但是我们可以一起提取细节</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="105.0">你可以拿走他所有的钱,我只想杀了他</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="110.0">双赢,你会喜欢它的</AddIRCMessage>
+		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">好的,Jenkins将分析文件</AddIRCMessage>
 		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="118.0">@Vortex, 将位置文件放在此服务器的/ home文件夹中</AddIRCMessage>
 		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="118.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="118.2"/>

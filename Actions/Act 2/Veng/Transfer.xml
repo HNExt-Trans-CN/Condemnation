@@ -7,7 +7,7 @@
 	<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="5.0">@channel, 找到了!</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="10.0">找到啥了?</AddIRCMessage>
-	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="14.0">他通过OSequenser.exe链接到他自己的服务器</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="14.0">他通过OSequencer.exe链接到他自己的服务器</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="18.0">正如我所想</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="22.0">每个人都为最终的决斗做好准备了吗?</AddIRCMessage>
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="25.0">是的</AddIRCMessage>
@@ -19,8 +19,8 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="43.0">还有 211,我自己没法处理这个</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="48.0">我来处理防火墙和剩下的东西</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">绅士们, 是时候来场真正的黑客行动了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">下载 Omicron's netcfgx.dll</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">@channel, 激活你们的OSequensers当你们准备好了后</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="60.0">下载 Omicron的netcfgx.dll</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="65.0">@channel, 当你们准备好后, 激活你们的OSequencer</AddIRCMessage>
 	</Instantly>
 	
 	<OnConnect target="Omicron" needsMissionComplete="false">

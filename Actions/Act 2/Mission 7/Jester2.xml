@@ -8,8 +8,8 @@
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="28.0">前提是我完成了你给的工作</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="31.0">正解</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="35.0">我会看看我能做什么</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="40.0">太好了,我有一些想法可以挖掘：</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="44.0">1) 我想要他的医疗档案,希望会有一些有趣的事情</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="40.0">太好了,我有一些想法可以挖掘:</AddIRCMessage>
+		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="44.0">1) 我想要他的医疗档案,希望会有一些有趣的东西</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="49.0">2) 我要抹去他的学位。 因此,他可以被描绘成一个非法雇用的人</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="54.0">我会处理剩下的事情,在媒体上留下些东西</AddIRCMessage>
 		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="58.0">从技术上讲,不是我,是我所在的团队处理</AddIRCMessage>

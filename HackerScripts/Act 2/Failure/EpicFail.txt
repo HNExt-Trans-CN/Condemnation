@@ -1,7 +1,7 @@
 config playerComp OmBoss 0.0 $#%#$
 hideRam $#%#$
 delay 1 $#%#$
-writel 严重错误：UI模块损坏! $#%#$
+writel 严重错误:UI模块损坏! $#%#$
 writel 功能存在不稳定! $#%#$
 delay 2 $#%#$
 writel 原因已找到! $#%#$

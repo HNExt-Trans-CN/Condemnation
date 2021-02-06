@@ -2,10 +2,10 @@
 <trace time="90" />
 <admin type="progress"/>
 <dlink target="M9EP1Gate" />
-<file path="home/Export" name="Details.txt">出口明细：
-Los Angeles：250个起搏器,45个生命支持单位
-San Francisco：200个起搏器,25个生命支持装置
-Sacramento：150个起搏器,60个生命支持单位
+<file path="home/Export" name="Details.txt">出口明细:
+Los Angeles:250个起搏器,45个生命支持单位
+San Francisco:200个起搏器,25个生命支持装置
+Sacramento:150个起搏器,60个生命支持单位
 
 其他区域位置归档在其他基于位置的服务器上</file>
 </Computer>

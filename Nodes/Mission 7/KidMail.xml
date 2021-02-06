@@ -5,9 +5,9 @@
 <trace time="7" />
 <admin type="fast" resetPassword="true" isSuper="true" />
 <mailServer name="JMail" color="149,0,13" generateJunk="true">
-   <email recipient="Adrian3409" sender="Nancy" subject="白痴!">如果你认为我会和一个像你这样愚蠢的人出去,那将证明你更加愚蠢。
+   <email recipient="Adrian3409" sender="Nancy" subject="白痴!">如果你认为我会和一个像你这样愚蠢的人出去,那证明你比我想象的还要愚蠢。
 
-考虑我们未曾相识,告别</email>
+考虑我们未曾相识,再见了</email>
    <email recipient="Adrian3409" sender="Westbrook University" subject="停学通知">亲爱的 Adrian Baker,
 
 Westbrook University因你极差的学习成绩和多项纪律警告而将你停学。

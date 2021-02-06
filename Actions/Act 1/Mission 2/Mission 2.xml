@@ -6,18 +6,18 @@
 	<OnConnect target="M2_Mail" needsMissionComplete="false">
 		<AddAsset FileName="eos_SyncData" FileContents="#BINARY#" TargetComp="M2_DaedraGate" TargetFolderpath="home" />
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="3.0">@#PLAYERNAME# 队长! 我的追踪器告诉我,Daedra的网关上有一个新文件!</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="6.0">希望这将有助于我们进入该邮件服务器,因为我遇到了问题</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="6.0">希望这有助于我们进入该邮件服务器,因为我遇到了问题</AddIRCMessage>
 		<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="10.0">+1</AddIRCMessage>
 	</OnConnect>
 	<OnConnect target="12.111.65.135" needsMissionComplete="false">
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="3.0">@channel 日了,上面有白名单</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="7.0">啊淦,我们接下来还能干啥?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="12.0">好吧,我们需要访问白名单服务器,所以我们可以访问IP列表</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="12.0">好吧,我们需要黑入白名单服务器,这样我们就能修改白名单IP列表了</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">但是有个端口无法破解啊</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="25.0">我有一个想法如何找出管理员密码,但这将重置IP列表</AddIRCMessage>
-		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">这样我们就可以进入,但是我们将失去第二位黑客的IP?</AddIRCMessage>
+		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="30.0">这样我们就可以访问,但是我们将失去第二位黑客的IP?</AddIRCMessage>
 		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="35.0">是</AddIRCMessage>
 		<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="38.0">我将尝试找到他,必须联系FBI,他们将帮助找到他。 至少我们知道他的昵称和名字</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="48.0">@#PLAYERNAME# 队长,通过我们的任务中心发送该白名单节点（Daedra的PC）的IP,所以我可以将其发送给技术人员,他们将发挥自己的魔力</AddIRCMessage>
+		<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="48.0">@#PLAYERNAME# 队长,通过我们的任务中心发送该受白名单保护的节点（Daedra的PC）的IP,这样我可以将其发送给技术人员,他们将发挥自己的魔力</AddIRCMessage>
 	</OnConnect>
 </ConditionalActions>
