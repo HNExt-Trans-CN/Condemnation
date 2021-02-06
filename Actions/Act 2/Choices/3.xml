@@ -1,6 +1,7 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="NHOut">
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">你拒绝帮助我们进入警察的资源服务器</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="0.0">你拒绝帮助我们处理警察的资源服务器</AddIRCMessage>
+
 	</HasFlags>
 	
 	<HasFlags requiredFlags="NHIn">
