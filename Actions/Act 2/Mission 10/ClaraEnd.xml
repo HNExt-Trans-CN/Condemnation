@@ -14,7 +14,8 @@
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="27.0">啊,也是</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="32.0">好吧,NightHawks将没有任何工具</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="36.0">而且Omicron目前没有活跃的盟友</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">我必须在他消失之前找到并制裁他,否则他会找到另一个帮手</AddIRCMessage>
+		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="40.0">我必须找到他并制裁他,然后让他永远消失</AddIRCMessage>
+
 		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">你有任何计划吗?</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">大概,无论如何,我仍然需要工具</AddIRCMessage>
 		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="54.0">我们保护了它们,但我也同样需要它们</AddIRCMessage>
