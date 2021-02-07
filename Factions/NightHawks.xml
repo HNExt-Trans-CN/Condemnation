@@ -19,7 +19,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">啥?</AddIRCMessage>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="12.0">一些警方探员正在调查我们的基础设施,可能是为Lao Zhin工作的那帮人</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="16.0">处理它们</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">尽可能暴力,让其他人都知道/AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">尽可能暴力,让其他人都知道</AddIRCMessage>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="25.0">我联系了Scalpel,他们会介入的</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">Shuriken联盟正受到一个叫做"Dreadnought"的组织的袭击,我们得靠自己了</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Ok,为最后阶段做准备吧</AddIRCMessage>
