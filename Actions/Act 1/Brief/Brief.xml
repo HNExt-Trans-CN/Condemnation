@@ -13,7 +13,7 @@
 	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="42.0">1...</AddIRCMessage>
 	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="43.0">!ANNOUNCEMENT! GALE MAUER 已经连接至服务器 @channel</AddIRCMessage>
 	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="43.5">!ANNOUNCEMENT! DIANA FRASER 已经连接至服务器 @channel</AddIRCMessage>
-	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="48.0">绅士们女士们大家好, 我的名字是 Gale Mauer, 联邦调查局特别探员</AddIRCMessage>
+	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="48.0">女士们先生们大家好, 我的名字是 Gale Mauer, 联邦调查局特别探员</AddIRCMessage>
 
 	<AddIRCMessage Author="Gale" TargetComp="PDIRC" Delay="52.0">我和EnTech公司的代表Diana一起,被指派为下一个任务小组的助理</AddIRCMessage>
 	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="59.0">大家好</AddIRCMessage>
