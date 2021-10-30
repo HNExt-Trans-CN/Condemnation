@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<OnDisconnect target="ispComp">
+        <DeleteFile TargetComp="testNode" FilePath="home" FileName="ETAS"/>
+        <AddAsset FileName="ETAS" FileContents="#PLAYER_IP#" TargetComp="testNode" TargetFolderpath="home"/>
+        <AddConditionalActions Filepath="Actions/Act 1/Mission 5/Check.xml"/>
+    </OnDisconnect>
+</ConditionalActions>

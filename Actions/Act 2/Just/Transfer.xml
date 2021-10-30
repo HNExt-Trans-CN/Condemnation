@@ -1,38 +1,39 @@
 <ConditionalActions>
 	<Instantly>
-		<AddConditionalActions Filepath="Actions/Act 2/Veng/Oseq.xml" DelayHost="Delay" Delay="84.0"/>
-		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
-		<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
-		<RunFunction FunctionName="changeSong" FunctionValue="11" />
-		<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, 找到了!</AddIRCMessage>
-		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/SRClear.txt" SourceComp="M7PD1" TargetComp="M7PD5" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/Oseq.xml" DelayHost="Delay" Delay="84.0"/>
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
+	<RunFunction FunctionName="changeSong" FunctionValue="11" />
+	<ShowNode DelayHost="Delay" Delay="0.0" Target="playerComp" />
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, 找到了!</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="5.3"/>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="10.0">我们可以抓到他了!</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="14.0">艰难啊,希望这是值得的</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">他正在通过PC上的Sequencer控制所有东西</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="22.0">我们可以使用它,并且OSequencer.exe将直接将我们重定向到Omicron</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="27.0">但是我们不会有很多时间。</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="32.0">嗯哼,所以计划是这样的</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="36.0">我会黑下21, 22, 25, 80和 211这些端口</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="40.0">你去黑下其他的端口和防火墙</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">懂?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">黑进去之后要下载他的netcfgx.dll吗?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="54.0">废话,下载之后我们就可以传到警方那边了</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="58.0">它应该包含有关他的所有信息,以及位置,他无法躲避</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">就是这样吗? 最终破解?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">似乎是的呢</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="75.0">无论如何,很高兴与你共事,队长</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">我也是,Gilmore女士</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="84.0">@Vortex, 激活OSequencer然后让我们找回正义吧</AddIRCMessage>
-		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="84.1"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="10.0">我们可以抓到他了!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="14.0">艰难啊,希望这是值得的</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="18.0">他正在通过PC上的Sequencer控制所有东西</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="22.0">我们可以使用它,并且OSequencer.exe将直接将我们重定向到Omicron</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="27.0">但是我们不会有很多时间。</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="32.0">嗯哼,所以计划是这样的</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="36.0">我会黑下21, 22, 25, 80和 211这些端口</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="40.0">你去黑下其他的端口和防火墙</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="45.0">懂?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="50.0">黑进去之后要下载他的netcfgx.dll吗?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="54.0">废话,下载之后我们就可以传到警方那边了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="58.0">它应该包含有关他的所有信息,以及位置,他无法躲避</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="65.0">就是这样吗? 最终破解?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="70.0">似乎是的呢</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="75.0">无论如何,很高兴与你共事,队长</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="80.0">我也是,Gilmore女士</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="84.0">@Vortex, 激活OSequencer然后让我们找回正义吧</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="84.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="84.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="84.3"/>
 	</Instantly>
-
+	
 	<OnConnect target="Omicron" needsMissionComplete="false">
-		<LaunchHackScript Filepath="HackerScripts/Act 2/Veng/Fin.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="Omicron" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Veng/Fin.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="Omicron" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
-
+	
 </ConditionalActions>

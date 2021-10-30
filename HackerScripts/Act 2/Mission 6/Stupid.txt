@@ -1,4 +1,4 @@
-config M6Stupid Delay 0.2 $#%#$
+config M6Stupid Delay 0.0 $#%#$
 openPort 21 $#%#$
 openPort 22 $#%#$
 openPort 25 $#%#$

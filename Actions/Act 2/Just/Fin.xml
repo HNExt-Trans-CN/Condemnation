@@ -1,7 +1,7 @@
 <ConditionalActions>
 	<Instantly>
 	<RunFunction FunctionName="removeFlags:EpicFail" FunctionValue="6" />
-	<AddConditionalActions Filepath="Actions/Act 2/Failure/Silence.xml" DelayHost="Delay" Delay="0.00"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/Sil.xml" DelayHost="Delay" Delay="0.00"/>
 	<CancelScreenBleedEffect DelayHost="Delay" Delay="0.0" />
 	<KillExe DelayHost="Delay" Delay="0.0" ExeName="*" />
 	<CrashComputer TargetComp="Omicron" CrashSource="Delay" DelayHost="Delay" Delay="0.0" />

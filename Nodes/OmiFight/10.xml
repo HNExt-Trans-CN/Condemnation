@@ -1,8 +1,8 @@
-<Computer id="OmBoss10" name="吔屎吧你" type="4">
-<ports>1433, 554, 211, 21, 6881, 443</ports>
+<Computer id="OmBoss10" name="吔屎吧你" security="2" type="4">
+<ports>211, 443</ports>
 
-<portsForCrack val="3" />
+<portsForCrack val="0" />
 <trace time="-1" />
 <admin type="none"/>
-<file path="home" name="Secret.txt">PINAS</file>
+<file path="home" name="Secret.txt">P I N A S</file>
 </Computer>

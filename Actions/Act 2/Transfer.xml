@@ -12,7 +12,6 @@
 	
 	<OnConnect target="M6Thread" needsMissionComplete="false">
 	<ChangeAlertIcon Target="M6Thread" Type="board" DelayHost="Delay" Delay="0.1"/>
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 6/Stupid.txt" DelayHost="Delay" Delay="1.0" SourceComp="Delay" TargetComp="M6Stupid" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
 	
 	<HasFlags requiredFlags="Jester">

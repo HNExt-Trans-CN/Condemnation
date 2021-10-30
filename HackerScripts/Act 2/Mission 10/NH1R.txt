@@ -1,2 +1,4 @@
 config playerComp NHHub 0.1 $#%#$
-writel Prophet: Transfer端口已被打开,SSL破解即将完成
+writel_silent $#%#$
+writel Prophet: Transfer端口已被打开,SSL破解即将完成 $#%#$
+writel_silent

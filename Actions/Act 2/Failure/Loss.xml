@@ -3,7 +3,8 @@
 	<RunFunction FunctionName="removeFlags:OmBoss" FunctionValue="6" />
 	<RunFunction FunctionName="addFlags:EpicFail" FunctionValue="6" />
 	<RunFunction FunctionName="changeSong" FunctionValue="11" />
+	<ShowNode Target="playerComp"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/EpicFail.txt" DelayHost="Delay" Delay="0.0" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<AddConditionalActions Filepath="Actions/Act 2/Failure/Loop.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Loop.xml" DelayHost="Delay" Delay="5.0"/>
 	</HasFlags>
 </ConditionalActions>

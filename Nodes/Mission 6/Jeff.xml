@@ -1,4 +1,7 @@
-<Computer id="M6Jeff" name="Jeffry 的PC" ip="84.172.98.106" security="1" type="2">
+<Computer id="M6Jeff" name="Jeffrey 的PC" ip="84.172.98.106" security="2" type="2">
+<ports>22, 21, 25, 80</ports>
+<portsForCrack val="1"/>
+<portRemap>21=25565</portRemap>
 <trace time="-1" />
 <admin type="progress"/>
 <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
@@ -10,7 +13,7 @@
 		<Command>ls</Command>
 		<Command>cd /log</Command>
 		<Command>rm *</Command>
-		<Command>forkbomb</Command>
+		<Command>dc</Command>
 	</Commands>
 	<Images>
       <Image>Logos/UM.jpg</Image>

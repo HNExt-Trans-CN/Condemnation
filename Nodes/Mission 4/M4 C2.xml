@@ -1,7 +1,7 @@
-<Computer id="M4_Home" name="Daniel 的个人电脑" ip="91.36.194.224" icon="DLCPC1" type="3">
+<Computer id="M4_Home" name="Daniel 的个人电脑" ip="91.36.194.224" security="2" type="3">
 <ports>21, 22, 25, 80, 6881</ports>
 <portsForCrack val="5" />
-<proxy time="2" />
+<portRemap>21=31,22=32,25=35,80=08,6881=1886</portRemap>
 <firewall level="8" solution="MARGOLIS" additionalTime="0.0"/>
 <trace time="90" />
 <admin type="progress"/>

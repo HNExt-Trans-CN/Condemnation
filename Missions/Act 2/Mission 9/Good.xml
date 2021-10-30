@@ -2,7 +2,7 @@
 <mission id="Mission 9 Good" activeCheck="true">
   <goals>
   <goal type="fileupload" target="M9Target" file="netcfgx.dll" path="sys" destTarget="C5C" destPath="home"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="C5C" destPath="home"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="C5C" destPath="home"/>
   </goals>
   <nextMission>Missions/Act 2/Mission 9/Delay.xml</nextMission>
   <email>

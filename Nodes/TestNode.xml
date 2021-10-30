@@ -1,5 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="testNode" name="Test Node" type="empty">
+<Computer id="testNode" 
+          name="Extension Example PC" 
+          ip="6666.6666.6666.6666"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="1" > 
 
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
@@ -9,5 +15,7 @@
 You can write whatever you want here.</file>
 
    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   
+   <file path="home" name="ETAS">151.152.153.154</file>
   
 </Computer>

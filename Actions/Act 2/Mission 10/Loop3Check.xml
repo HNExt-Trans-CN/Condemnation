@@ -1,0 +1,10 @@
+<ConditionalActions>
+	<OnConnect target="M10P3">
+        <RunFunction FunctionName="addFlags:M10Con3" FunctionValue="0"/>
+    </OnConnect>
+
+    <OnDisconnect target="M10P3">
+        <RunFunction FunctionName="removeFlags:M10Con3" FunctionValue="0"/>
+        <AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop3Check.xml"/>
+    </OnDisconnect>
+</ConditionalActions>

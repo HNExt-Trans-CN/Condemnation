@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rC_Personal" name="Mike 的个人电脑" type="2">
+<Computer id="M1rC_Personal" name="Mike 的个人电脑" icon="DLCPC1" type="2">
 <ports>21, 22, 25, 80, 554</ports>
 <portsForCrack val="4" />
 <firewall level="6" solution="Pear20" additionalTime="0"/>

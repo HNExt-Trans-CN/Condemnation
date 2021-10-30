@@ -1,5 +1,7 @@
-<Computer id="C3A" name="Diamond Breeze" security="4" type="4">
-<trace time="90" />
+<Computer id="C3A" name="Diamond Breeze" security="2" type="4">
+<ports>21, 80, 25</ports>
+<portsForCrack val="3"/>
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="C3B" />
 <variableMissionListingServer name="Diamond Breeze" iconPath="Logos/Breeze.png" articleFolderPath="Missions/Misc/News" color="0,186,194" assigner="false" public="true" title="Diamond Breeze 新闻频道" />

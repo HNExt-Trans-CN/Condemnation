@@ -6,24 +6,26 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C4.xml</missionStart>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="数据提取">
-一串16位数据可以为我们带来一大笔收入
+  <posting title="Data Extraction">
+A 16-digit peice of data can solve a big $ question
   </posting>
   <email>
     <sender>E-Mail</sender>
     <subject>数据提取</subject>
     <body>此电子邮件由从外部收件箱接收: 
- 
+
 我们已经受到威胁,一群黑客拦截了我们的交易并将我们的资金汇到其他银行帐户。 银行名称是Union Gold,他们回答了我们的事,他们回答了我们,表示会在一周内解决这个问题,但是我的合作伙伴迫不及待。 
- 
+
 我希望你进入该银行系统,并找到一个16位数字的银行帐户,该帐户最近汇入了1,160万美元。 汇款账户是JNS33ID4-1523LAVF。 
- 
+
 目标: 
- 
+
 1) 回复邮件并在附件中附上收款账户的具体数字 (例子: XXXXXXXX-XXXXXXXX)
 </body>
     <attachments>
 	<link comp="C4A" />
+	<note title="目标">1) 回复邮件并在附件中附上收款账户的具体数字 (例子: XXXXXXXX-XXXXXXXX)</note>
+	<note title="原始账户">JNS33ID4-1523LAVF</note>
     </attachments>
   </email>
 </mission>

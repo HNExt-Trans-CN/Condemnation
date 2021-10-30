@@ -1,7 +1,9 @@
-<Computer id="C5D" name="私密 IRC" ip="149.17.58.225" security="0" type="4">
+<Computer id="C5D" name="私密 IRC" ip="149.17.58.225" security="1" type="4">
+<ports>22, 21</ports>
+<portsForCrack val="1"/>
 <trace time="-1" />
 <admin type="progress"/>
-<IRCDaemon themeColor="254,168,0" name="Stealth IRC" needsLogin="true">
+<IRCDaemon themeColor="254,168,0" name="私密 IRC" needsLogin="true">
 <user name="Clara" color="254,0,3"/>
 <user name="Vortex" color="255,255,1"/>
 <user name="Omicron" color="255,255,255"/>

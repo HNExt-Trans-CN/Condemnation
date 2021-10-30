@@ -1,33 +1,33 @@
 <ConditionalActions>
 	<OnConnect target="C5D" needsMissionComplete="false">
-		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
-		<AddConditionalActions Filepath="Actions/Act 2/Mission 9/D.xml" DelayHost="Delay" Delay="149.0"/>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="2.0">!ANNOUNCEMENT! 聊天室被激活 @channel</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="8.0">这个家伙要你袭击NLH医院? 如果我说的没错的话,他们想使用某种勒索软件?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="15.0">是的,NightHawks现在正在安装,他们想将勒索软件植入生命维持单元。 他们把我分配给难黑入的人</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="20.0">他们想使用勒索软件勒索NLH医院吗? 每个单位75英镑?</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="25.0">是这样</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">那家医院没有那么多钱,他们最近向Kellis BioTech支付了新设备的费用</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="35.0">这样,与生命支持单位联系在一起的每个人都会死亡。 NightHawks希望成为一个著名团队并加入高级黑客联盟,以便他们变得更加强大</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="42.0">真是tmd疯了</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="46.0">我们能做些什么吗???</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="50.0">啊tmd,让我想想!</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">好吧,我有一个计划</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="64.0">洗耳恭听</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="68.0">我会警告NLH那边的安保,当然了他们不会惊动任何人</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="73.0">此外,我将对该.bat文件进行反向工程并将其发送安全补丁。生命维持单位不会有失效的风险,你那边会认为一切正常,只是他们实际上无法杀死任何人</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="85.0">这将看起来像是制造勒索软件的人的错误,你的团队不会怀疑你</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="90.0">我假设我必须继续执行我的部分操作?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="94.0">按照他们说的去做</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="98.0">人们不会死,所以请像你正确地完成工作一样,在他们看来,制作.bat文件的人看起来显然更有问题</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="103.0">好,我将继续操作,但是客户呢?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="108.0">执法人员已经在他的位置准备好了,一旦医院里的人安全了,他们立刻行动</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="115.0">知道了。谢谢你Clara。你刚刚救了很多人。但是我们还有另一个问题。我是对的,Omicron回来了,检查所有可用信息,扫描所有信息源,我们需要找到他,他正在为某种计划或攻击做准备</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="125.0">队长,我仍然认为这是胡说八道,但是我会检查一下</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="130.0">再次感谢</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay ="134.0">现在,完成你朋友指定的操作</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay ="138.0">我不会和一些新纳粹败类成为朋友</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="142.0">不管如何,保持联系</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="145.0">!ANNOUNCEMENT! 聊天室已关闭 @channel</AddIRCMessage>
+	<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/D.xml" DelayHost="Delay" Delay="149.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="2.0">!ANNOUNCEMENT! 聊天室被激活 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="8.0">这个家伙要你袭击NLH医院? 如果我说的没错的话,他们想使用某种勒索软件?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="15.0">是的,NightHawks现在正在安装,他们想将勒索软件植入生命维持单元。 他们把我分配给难黑入的人</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="20.0">他们想使用勒索软件勒索NLH医院吗? 每个单位75英镑?</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="25.0">是这样</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="29.0">那家医院没有那么多钱,他们最近向Kellis BioTech支付了新设备的费用</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="35.0">这样,与生命支持单位联系在一起的每个人都会死亡。 NightHawks希望成为一个著名团队并加入高级黑客联盟,以便他们变得更加强大</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="42.0">真是tmd疯了</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="46.0">我们能做些什么吗???</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="50.0">啊tmd,让我想想!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">好吧,我有一个计划</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="64.0">洗耳恭听</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="68.0">我会警告NLH那边的安保,当然了他们不会惊动任何人</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="73.0">此外,我将对该.bat文件进行反向工程并将其发送安全补丁。生命维持单位不会有失效的风险,你那边会认为一切正常,只是他们实际上无法杀死任何人</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="85.0">这将看起来像是制造勒索软件的人的错误,你的团队不会怀疑你</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="90.0">我假设我必须继续执行我的部分操作?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="94.0">按照他们说的去做</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="98.0">人们不会死,所以请像你正确地完成工作一样,在他们看来,制作.bat文件的人看起来显然更有问题</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="103.0">好,我将继续操作,但是客户呢?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="108.0">执法人员已经在他的位置准备好了,一旦医院里的人安全了,他们立刻行动</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="115.0">知道了。谢谢你Clara。你刚刚救了很多人。但是我们还有另一个问题。我是对的,Omicron回来了,检查所有可用信息,扫描所有信息源,我们需要找到他,他正在为某种计划或攻击做准备</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="125.0">队长,我仍然认为这是胡说八道,但是我会检查一下</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="130.0">再次感谢</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="134.0">现在,完成你朋友指定的操作</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="138.0">我不会和一些新纳粹败类成为朋友</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="142.0">不管如何,保持联系</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="145.0">!ANNOUNCEMENT! 聊天室已关闭 @channel</AddIRCMessage>
 	</OnConnect>
 </ConditionalActions>

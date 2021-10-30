@@ -1,5 +1,10 @@
 <Computer id="academic" name="学术档案数据库" security="5" type="4">
  <adminPass pass="ScienceIsPower" />
+ <ports>22, 21, 25, 80, 1433, 554</ports>
+<portsForCrack val="5"/>
+<portRemap>21=1729,80=491,22=95,1433=1771,554=544</portRemap>
+<firewall level="10" solution="FedSysPass" additionalTime="0.1"/>
+<proxy time="5"/>
 <trace time="7" />
 <admin type="fast" resetPassword="false" isSuper="true" />
 <academicDatabase />

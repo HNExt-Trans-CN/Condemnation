@@ -1,4 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="ispComp" name="Gigabit Rabbit" security="3" icon="Psylance" type="3">
+<Computer id="ispComp" name="GigaBit RabBit" icon="Psylance" type="3">
+<ports>1433, 21, 22</ports>
+<portsForCrack val="3"/>
 <ispSystem />
 </Computer>

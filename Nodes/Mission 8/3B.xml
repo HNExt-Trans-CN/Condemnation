@@ -1,5 +1,9 @@
-<Computer id="C3B" name="Diamond Breeze 服务器群" security="5" type="4">
-<trace time="90" />
+<Computer id="C3B" name="Diamond Breeze 服务器群" icon="DLCServer" type="4">
+<ports>22, 21, 80, 554, 25</ports>
+<portsForCrack val="5"/>
+<portRemap>21=69,80=280,22=614,25=587,554=1</portRemap>
+<firewall level="9" solution="GossipRag" additionalTime="0.0"/>
+<trace time="120" />
 <admin type="progress"/>
 <dlink target="C3A" />
 <dlink target="C3Empt1" />

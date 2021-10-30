@@ -4,15 +4,16 @@
 	<RunFunction FunctionName="setHubServer:NHHub" FunctionValue="0" />
 	<RunFunction FunctionName="playCustomSong:Music/2.ogg" FunctionValue="0" />
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="1.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionLoad1.xml" DelayHost="Delay" Delay="119.0"/>
 	
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="3.0">!ANNOUNCEMENT! VORTEX 连接至服务器 @channel</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">你好 Vortex, 刚刚加入我们的新干员</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">你好 Vortex, 刚刚加入我们的新人</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="14.0">我是NightHawks的领袖, 不包括外部人员的话团队共5人</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="19.0">Jenkins, 我们的技术专家, 他可以轻而易举地进到其他机子里边而不惊扰到任何东西。</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="25.0">Sup</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">Deladello, 社会工程学大师,比任何人都更好地利用人类的愚蠢</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="34.0">你好</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">Prophet, 协调员和合作黑客,帮助我控制一切,如果与他作对,没有人可以阻止他</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="37.0">Prophet, 协调员和合作黑客,帮助我控制一切,如果与他联合,没有人可以阻止你俩</AddIRCMessage>
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="43.0">当我们团结 - 我们便强大</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="47.0">Slayer, 掌管破坏,任何时候,我们都能在特殊情况下雇佣杀手</AddIRCMessage>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="53.0">需要任何东西或任何人被毁灭,找我</AddIRCMessage>
@@ -21,7 +22,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="68.0">我的猜测是你也希望我们提供一些帮助</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="72.0">我需要找到个黑客</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">Deladello和Prophet可以帮助你</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">但是我打算给他们的合约怎么处理?</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">但是我为何要对他们下达这样的命令?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="84.0">我也可以成为你团队的一部分,你仍然需要秘密行动专家,一个无法追踪的人,我敢打赌,你已经知道我为什么是最佳人选</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="93.0">确实,你的日志伪装是一个非常有趣的东西</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="98.0">我们有一些需要细心处理的合同</AddIRCMessage>
@@ -29,7 +30,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="108.0">是否同意?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="111.0">可</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="115.0">伙计们,帮我们的新成员解决个人问题,并将其地址告知我们的合同中心代理</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">Jenkins, Slayer, 我们有业务要参加</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="119.0">Jenkins, Slayer, 我们有业务要参加, 检查“可用的任务列表”</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="124.0">那个黑客的ID是?</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="128.0">Omicron</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="133.0">我们会开始挖掘的,第一个任务应该很简单,你自己应该能解决</AddIRCMessage>

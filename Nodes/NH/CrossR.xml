@@ -1,24 +1,27 @@
-<Computer id="NHCrossR" name="NightHawks负载均衡服务器" ip="100.234.234.151" security="5" type="4">
+<Computer id="NHCrossR" name="NightHawks | 负载均衡服务器" ip="100.234.234.151" security="3" type="4">
+<ports>22, 21, 1433, 443</ports>
+<portsForCrack val="4"/>
 <adminPass pass="Sl1ckPr3y" />
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home/Project_Oblivion" name="GOALS.txt">目标:Javis Williamson
+<file path="home/Project_Oblivion" name="目标.txt">目标: Javis Williamson
 
 1）将Javis的医疗档案发送到RAPTOR@jmail.com（可访问医疗档案并搜索其条目）
 2）删除Javis学位（可以访问学术档案并搜索他的学籍）</file>
-<file path="home/Project_Oblivion/Medical_part" name="Details.txt">我知道服务器的地址,但是你不能只是简单地黑入就行,它们有一个特殊的端口 104,显然没有人为你留下管理员密码。
+<file path="home/Project_Oblivion/医疗相关" name="明细.txt">我知道服务器的地址,但是你不能只是简单地黑入就行,它们有一个特殊的端口 104,显然没有人为你留下管理员密码。
 
 你必须找到一个密码,或者一个端口破解器。 我所能找到的只是一台来自其他城市的医生的电脑。 这些人定期与这些档案馆合作,你很可能会在那找到一些切入点。
+
 档案馆: 182.172.94.94
 医生: 221.214.78.150</file>
-<file path="home/Project_Oblivion/Academical_part" name="Details.txt">我没有直接链接到档案的信息,但我知道你可以在哪里获得它
+<file path="home/Project_Oblivion/教育相关" name="明细.txt">我没有直接链接到档案的信息,但我知道你可以在哪里获得它
 
 我认识一个人,他认识一个最近被大学开除的人。 幸运的是,所有大学都已连接到国际学术数据库,你可以从其中任意一个系统中访问。
 
 退学者想必对如何进入大学系统有一定的了解
 
 退学者:178.184.180.189</file>
-<file path="home/Oath" name="Oath.txt">我承认以下规则,并将遵守这些规则:
+<file path="home/誓言" name="誓言.txt">我承认以下规则,并将遵守这些规则:
 
 我将永远进化,并努力在生活的各个方面变得强大起来。
 
@@ -27,11 +30,11 @@
 对弱者不应怀怜悯之心,因为他们本可以保持坚强,但选择了对立面。作为天意的光荣代理,我发誓要利用这样的人作为工具或对他们作出回击,使他们成为社会垃圾。
 
 如果我能在软弱和死亡之间做出选择,死亡是唯一的途径,因为我会坚强而独立地死去,不会像奴隶般过着悲惨的生活。</file>
-<file path="home/Memory_Tools" name="Memo.txt">注意 NightHawks!
+<file path="home/内存工具" name="Memo.txt">注意 NightHawks!
 
 这套内存取证软件用于从所有类型的计算机中提取转储。 使用它来获取数据并进行分析,以便在删除后将文件还原</file>
-<file path="home/Memory_Tools" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
-<file path="home/Memory_Tools" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="home/内存工具" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="home/内存工具" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
 <file path="home/Misc" name="PD list">这是California州警署列表的一部分
 
 请注意并记住它们的地址,以便在任何日志中找到它们时都可以正确识别它们:
@@ -99,7 +102,7 @@ Repulse: 这是你的傻逼WebServerWorm.exe
 				
 Repulse: !ATTACHMENT:link#%#文件存放节点#%#212.42.92.36
 				
-			END OF IRC DUMP
+			IRC 缓存 结束
 		</Block>
 	</Data>
 </Memory>

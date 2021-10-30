@@ -1,9 +1,12 @@
-<Computer id="M9EP2Key3" name="安全部门 服务器访问数据库" security="4" type="4">
-<trace time="90" />
+<Computer id="M9EP2Key3" name="安全部门 | 服务器访问数据库" security="2" type="4">
+<ports>554</ports>
+<portsForCrack val="1"/>
+<portRemap>554=290472904</portRemap>
+<trace time="-1" />
 <admin type="progress"/>
-<encryptedFile path="home" name="Addresing.dec" extension=".db" ip="101.64.243.132" header="Encrypted with DECSuite" pass="IVLAP216ocfs">地址:TOKEN
-内部邮件服务器@222.116.127.15:NONE
-生命支持设备@64.45.145.215:DG85
-AI控制数据库@90.125.177.225:HJ67
+<encryptedFile path="home" name=">_地址.dec" extension=".db" ip="101.64.243.132" header="Encrypted with DECSuite" pass="IVLAP216ocfs">地址:ADMIN_TOKEN
+内部邮件服务器@222.116.127.15 :NONE
+生命支持设备@64.45.145.215 :DG85
+AI控制数据库@90.125.177.225 :HJ67
 </encryptedFile>
 </Computer>

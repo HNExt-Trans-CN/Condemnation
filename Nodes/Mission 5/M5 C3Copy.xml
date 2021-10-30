@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5C3Copy" name="复制节点" ip="1.1.1.1" type="empty">
+<Computer id="M5C3Copy" name="复制节点" ip="1.1.1.1" icon="chip" type="empty">
 
   <portsForCrack val="0" />
   <ports>22, 21, 25</ports>

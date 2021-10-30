@@ -1,9 +1,17 @@
 config playerComp OmBoss 0.0 $#%#$
 hideRam $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+clearTerminal $#%#$
 delay 1 $#%#$
 writel 严重错误:UI模块损坏! $#%#$
 writel 功能存在不稳定! $#%#$
 delay 2 $#%#$
 writel 原因已找到! $#%#$
 writel 删除 Session.dll $#%#$
-writel 204.63.174.159
+writel 204.63.174.159 $#%#$
+delay 2 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+makeFile home Session.dll_位置 204.63.174.159

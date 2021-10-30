@@ -23,7 +23,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="85.0">尽管我们会采取最后一步来帮助你,并且会解密该位置文件</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="90.0">然后,你可以与Omicron搏斗,而毫无机会获胜</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="95.0">Jenkins, 解决它</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="100.0">@Vortex, 将位置文件放在此服务器的/home文件夹中</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="100.0">@Vortex, 将位置文件放在此服务器的/home/文件夹中</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="100.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="100.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="100.3"/>

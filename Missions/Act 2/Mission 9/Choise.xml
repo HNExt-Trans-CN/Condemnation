@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="Mission 9 Cross" activeCheck="true">
   <goals>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP1D1" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D1" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D2" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D3" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP3D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP1D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP2D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP2D2" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP2D3" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP3D1" destPath="sys"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 9/BadC.xml</missionEnd>
   <nextMission>NONE</nextMission>
@@ -16,21 +16,21 @@
     <sender>Cypher</sender>
     <subject>日记</subject>
     <body>我黑入了客户的PC 
- 
+
 我可以尝试操纵他的数据以防止那场恐怖袭击 
 但是那种情况下NightHawks不会受到任何关注,Omicron不会感兴趣 
- 
+
 我居然在考虑为谋杀将近60个人辩解,这是不是有点令人作呕?... 
- 
+
 我需要Clara的帮助 
 她可以分析这家伙的netcfgx.dll并查找恐怖袭击准备的证据 
 现在,我可以肯定地知道Omicron还活着并且准备再次发动攻击。Clara应该知道这一点 
- 
+
 我需要发送向她发送Malber的netcfgx.dll和HaHaTrap.bat的副本进行分析 
-我可以将它们放在她工作站的/home文件夹中 
- 
+我可以将它们放在她工作站的/home/文件夹中 
+
 除非我想完成那令人恶心的工作... 
- 
+
 这将帮助我直接面对Omicron 
 但是这又将付出多少牺牲呢?...</body>
     <attachments>

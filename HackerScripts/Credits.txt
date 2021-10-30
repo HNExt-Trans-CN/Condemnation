@@ -21,12 +21,22 @@ delay 5 $#%#$
 writel $#%#$
 writel 代码指导: $#%#$
 delay 0.5 $#%#$
-write Fayti1703,chanbakjsd $#%#$
+write Fayti1703, chanbakjsd $#%#$
 delay 5 $#%#$
 writel $#%#$
-writel 测试者: $#%#$
+writel 测试: $#%#$
 delay 0.5 $#%#$
-write danilapon, Raven, chanbakjsd $#%#$
+write danilapon, Neopoznano, Lynx Mindlock, Polyacov_Yury, breezoreceiver, chanbakjsd, Raven $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel 声优: $#%#$
+delay 0.5 $#%#$
+write danilapon, NIKA $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel 翻译，校对: $#%#$
+delay 0.5 $#%#$
+write danilapon, gao_cai_sheng, Niko, Polyacov_Yury, Neopoznano, breezoreceiver $#%#$
 delay 5 $#%#$
 writel $#%#$
 writel 音乐: $#%#$
@@ -68,19 +78,16 @@ delay 0.5 $#%#$
 writel Fighting men - vedas $#%#$
 delay 10 $#%#$
 writel $#%#$
-writel 中文版翻译: $#%#$
-delay 0.5 $#%#$
-writel gao_cai_sheng, Niko $#%#$
-delay 10 $#%#$
-writel $#%#$
 writel 特别感谢: $#%#$
 delay 0.5 $#%#$
 writel Matt Trobbiani, Fayti1703, Raven, chanbakjsd $#%#$
 delay 0.5 $#%#$
+writel theTracers team $#%#$
+delay 0.5 $#%#$
 writel 整个Hacknet社区 $#%#$
 delay 0.5 $#%#$
 writel 还有你! $#%#$
-delay 10 $#%#$
+delay 8.5 $#%#$
 writel ---------------------THE END--------------------- $#%#$
-delay 20 $#%#$
+delay 10 $#%#$
 hideTerminal $#%#$

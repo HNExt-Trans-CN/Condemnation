@@ -1,5 +1,7 @@
-<Computer id="M9EP1Gate" name="设备管理网关" security="5" type="4">
-<trace time="90" />
-<admin type="progress"/>
+<Computer id="M9EP1Gate" name="设备管理网关" security="3" type="4">
+<ports>554</ports>
+<portsForCrack val="1"/>
+<trace time="18" />
+<admin type="fast" isSuper="true" resetPassword="true"/>
 <dlink target="M9EP1Hos" />
 </Computer>

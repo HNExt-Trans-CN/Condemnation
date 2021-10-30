@@ -1,7 +1,10 @@
-<Computer id="M9EP3Gate" name="辅助医疗档案" security="3" type="4">
-<trace time="90" />
+<Computer id="M9EP3Gate" name="辅助医疗档案" security="4" type="4">
+<ports>21, 22, 554</ports>
+<portsForCrack val="3"/>
+<firewall level="10"/>
+<trace time="60" />
 <admin type="progress"/>
-<file path="home/Special_Case" name="Mrs._Jane_Dotry.txt">我们有一个新的病人,病情很重,已为她分配了一个生命支持单位
+<file path="home/特殊档案" name="Mrs._Jane_Dotry.txt">我们有一个新的病人,病情很重,已为她分配了一个生命支持单位
 
 在她的医疗档案中做一个记录（查找Jane Dotry）</file>
 </Computer>

@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 7 Cross Dump" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="M7Jester" file="netcfgx.dll" path="sys" destTarget="M7PD5" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 7/Branch/TransferGood.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <branchMissions>
+  <branch>Missions/Act 2/Mission 7/Cross1.xml</branch>
+  <branch>Missions/Act 2/Mission 7/Cross2.xml</branch>
+  <branch>Missions/Act 2/Mission 7/CrossR.xml</branch>
+  <branch>Missions/Act 2/Mission 7/MemUniCross.xml</branch>
+  <branch>Missions/Act 2/Mission 7/MemJeff.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Cypher</sender>
+    <subject>日记</subject>
+    <body>我设法找到了他们系统的切入点 
+
+我的网络地图现已恢复,但是... 
+接下来做什么? 
+
+现在想想,我仍然无法独自找到Omicron 
+
+我需要从NightHawks获得信任 
+也许我可以利用他们的联系和能力在Omicron上找到些玩意 
+我必须联合他们 
+
+但是怎么做才能这样? 
+
+我仍然可以毁掉一个无辜男人的生活来完成工作 
+或者我也可以做些其他事情... 
+
+我可以尝试让NightHawks直接注意到我 
+但前提是他们现在监督我的代理搞砸监督我这件事情
+
+我必须找出办法让他陷入困境 
+想方设法让他犯一个错误 
+
+我记得他在一个内存转储上提到警察和他们的反应实验... 
+但是要进行这项工作,我必须找到他的PC,而不是代理,档案馆或网关 
+我唯一能想到的就是尝试在他最近以某种方式操作的服务器上找到他的日志... 
+
+我该怎么办?
+...</body>
+    <attachments>
+	<note title="线索">这家伙似乎很在意自己的生意，因此他不会在很多重要节点上留下自己的痕迹。也许我该去一些与他生意不相干的节点看看。
+
+根据我的经验来说，一般人可能不会费心对模因之类的东西，不过他是不是我就不清楚了……</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,4 +1,6 @@
-<Computer id="M6Thread" name="/h/ 黑客版块" security="0" ip="34.12.21.38" type="empty">
+<Computer id="M6Thread" name="/h/ 黑客版块" security="3" ip="34.12.21.38" type="empty">
+<ports>21, 22, 80</ports>
+<portsForCrack val="0"/>
 <trace time="-1" />
 <admin type="progress"/>
 <messageBoard name="/h/ 黑客版块">

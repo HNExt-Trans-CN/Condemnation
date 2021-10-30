@@ -4,10 +4,10 @@
 	</Instantly>
 	
 	<HasFlags requiredFlags="Jester">
-	<CopyAsset DestFilePath="home/Contract_Files/Data_Manipulation" DestComp="NHCross" SourceComp="Delay" SourceFileName="Fin-Rep.accdb" SourceFilePath="home" />
+	<CopyAsset DestFilePath="home/任务文件/数据处理" DestComp="NHCross" SourceComp="Delay" SourceFileName="Fin-Rep.accdb" SourceFilePath="home" />
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Repulse">
-	<CopyAsset DestFilePath="home/Contract_Files/Data_Manipulation" DestComp="NHCrossR" SourceComp="Delay" SourceFileName="Fin-Rep.accdb" SourceFilePath="home" />
+	<CopyAsset DestFilePath="home/任务文件/数据处理" DestComp="NHCrossR" SourceComp="Delay" SourceFileName="Fin-Rep.accdb" SourceFilePath="home" />
 	</HasFlags>
 </ConditionalActions>

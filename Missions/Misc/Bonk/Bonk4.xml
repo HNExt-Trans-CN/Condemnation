@@ -5,8 +5,8 @@
   </goals>
   
   <nextMission IsSilent="true">Missions/Misc/4.xml</nextMission>
-  <posting title="数据提取">
-一串16位数据可以为我们带来一大笔收入
+  <posting title="Data Extraction">
+A 16-digit peice of data can solve a big $ question
   </posting>
   <email>
     <sender>NONE</sender>

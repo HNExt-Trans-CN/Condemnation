@@ -1,5 +1,7 @@
-<Computer id="C1A" name="FJR-Insurance, 人事部" security="4" type="1">
-<trace time="90" />
+<Computer id="C1A" name="FJR-Insurance | 人事部" icon="laptop" type="1">
+<ports>25, 22, 1433</ports>
+<portsForCrack val="2"/>
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="C1B" />
 </Computer>

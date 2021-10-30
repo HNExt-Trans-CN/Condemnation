@@ -1,24 +1,26 @@
 config playerComp M5C3 0.0 $#%#$
 delete /home * $#%#$
+delete /home/MemDumps * $#%#$
 delete /bin * $#%#$
-writel #检测到外部语音来源,已开启自动翻译# $#%#$
-delay 0.65 $#%#$
+delay 0.59 $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 write_silent 做得好队长 $#%#$
-delay 2.62 $#%#$
+delay 2.76 $#%#$
 writel_silent $#%#$
 write_silent 你赢得了几天的自由 $#%#$
-delay 3.15 $#%#$
+delay 2.69 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 write_silent 但是拥有你并不是最有利的 $#%#$
-delay 3.97 $#%#$
+delay 4.15 $#%#$
 writel_silent $#%#$
-write_silent 因此,我会拿走你的工具,闭上你的数码眼睛 $#%#$
-delay 6.18 $#%#$
+write_silent 因此,我会拿走你的工具, $#%#$
+delay 2.52 $#%#$
+write_silent 闭上你的数码眼睛 $#%#$
+delay 2.77 $#%#$
 hideNetMap $#%#$
 delay 0.2 $#%#$
 showNetMap $#%#$
@@ -29,29 +31,29 @@ showNetMap $#%#$
 delay 0.2 $#%#$
 hideNetMap $#%#$
 delay 0.2 $#%#$
-delay 3 $#%#$
+delay 3.53 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 write_silent 那样好多了 $#%#$
-delay 2.31 $#%#$
+delay 1.84 $#%#$
 writel_silent $#%#$
 write_silent 希望这能给你带来一节有意义的棵 $#%#$
-delay 3.68 $#%#$
+delay 3.27 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 write_silent 正义之子面对有悖常理的世界能在1s中失去一切 $#%#$
-delay 6.72 $#%#$
+delay 5.67 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 write_silent 这便是发生在你身上的事情 $#%#$
-delay 3.69 $#%#$
+delay 3.13 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 write_silent 永别了, $#%#$
-delay 1.5 $#%#$
+delay 1.47 $#%#$
 write_silent Cypher... $#%#$
 delay 2 $#%#$
 

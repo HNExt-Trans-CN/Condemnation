@@ -1,7 +1,7 @@
-<Computer id="OmBoss8" name="挥舞你的头" type="4">
+<Computer id="OmBoss8" name="挥舞你的头" security="2" type="4">
 <ports>1433, 554, 211, 21, 6881, 443</ports>
 
-<portsForCrack val="3" />
+<portsForCrack val="0" />
 <trace time="-1" />
 <admin type="none"/>
 <file path="home" name="Address.txt">查看服务器的名称=>执行</file>

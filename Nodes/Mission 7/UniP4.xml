@@ -1,5 +1,7 @@
-<Computer id="M7P4" name="Westbrook University 通讯部门" security="2" type="4">
-<trace time="90" />
+<Computer id="M7P4" name="Westbrook University 通讯部门" security="0" type="4">
+<ports>21, 22, 554</ports>
+<portsForCrack val="1"/>
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="M7P1" />
 <dlink target="M7P2" />

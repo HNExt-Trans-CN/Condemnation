@@ -1,7 +1,10 @@
-<Computer id="M9EP2Key1" name="安全部门 账户数据库" security="4" type="4">
-<trace time="90" />
+<Computer id="M9EP2Key1" name="安全部门 | 账户数据库" security="2" type="4">
+<ports>211</ports>
+<portsForCrack val="0"/>
+<proxy time="1"/>
+<trace time="-1" />
 <admin type="progress"/>
-<encryptedFile path="home" name="Accounting.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">用户名:TOKEN
+<encryptedFile path="home" name=">_账户.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">用户名:TOKEN
 Ramferp:HJ67
 Leghtnoose:BI83
 Nigtoren:CR10

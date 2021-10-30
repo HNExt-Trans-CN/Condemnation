@@ -7,7 +7,7 @@
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 2/Transfer.xml</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="黑客攻击">
-有人攻击了San Francisco的医学档案,并从中偷了一个医疗档案。
+有人攻击了San-Francisco的医学档案,并从中偷了一个医疗档案。
 
 是时候找到那个混蛋,让他面对正义了。
   </posting>
@@ -16,18 +16,19 @@
     <subject>医学保密</subject>
     <body>
 主管部门为我们提供了对医疗档案馆的有限访问权限,因此我们可以检查日志,这就是我们所需要的。 
- 
+
 我们需要找出谁对该攻击负责,并获取他的netcfgx.dll。应该从他的个人PC（而不是网关或代理服务器,这不会帮助我们找到他）中提取它。 
- 
+
 队长,我们将一路为你服务! 
- 
-  -B 
+
+  -B
   
 目标: 
 1)黑入破坏者的PC,并将其netcfgx.dll上传到资源服务器</body>
     <attachments>
 	<link comp="M2_Med" />
 	<account comp="M2_Med" user="PoliceInvestigation" pass="CheckPass" />
+	<note title="目标">1)黑入破坏者的PC,并将其netcfgx.dll上传到资源服务器</note>
     </attachments>
   </email>
 </mission>

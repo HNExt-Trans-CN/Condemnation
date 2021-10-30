@@ -1,9 +1,9 @@
-<Computer id="M9Deploy" name="DECSuite 部署服务器" security="5" type="4">
+<Computer id="M9Deploy" name="DECSuite 部署服务器" security="3" type="4">
  <adminPass pass="COnj0st3R" />
 <trace time="90" />
 <admin type="progress"/>
 <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
-<encryptedFile path="home" name="Entry_Points_1.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">1个入口点: Kellis BioTech, 其中包含1个生命维持设备
+<encryptedFile path="home" name="Entry_Points_1.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">Here is an Entry Point: Kellis BioTech, which contains 1 life support unit
 
 160.173.170.74</encryptedFile>
 <encryptedFile path="home" name="Entry_Points_2.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">3个入口点: West Wing, Kellis BioTech, Medical Archive. 其中包含5个生命维持设备
@@ -11,7 +11,7 @@
 222.176.165.116
 160.173.170.74
 202.210.23.133</encryptedFile>
-<encryptedFile path="home" name="Entry_Points_3.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">1个入口点: Medical Archive 其中包含1个生命维持设备
+<encryptedFile path="home" name="Entry_Points_3.dec" extension=".txt" ip="108.174.163.243" header="Encrypted with DECSuite" pass="huefsf3wuh">Here is an Entry Point: Medical Archive, which contains 1 life support unit
 
 202.210.23.133</encryptedFile>
 </Computer>

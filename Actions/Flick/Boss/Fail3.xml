@@ -1,0 +1,35 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+       <SetLock DelayHost="Delay" Delay="0.38" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.40" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.47" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.48" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.72" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.75" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.85" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.87" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.93" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.95" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.97" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.02" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.03" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.10" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.13" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.17" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.18" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.20" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.22" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.27" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.28" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.30" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.32" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.35" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.38" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.40" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.45" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.65" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.67" Module="netmap" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="1.78" Module="netmap" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="1.80" Module="netmap" IsLocked="false" IsHidden="false" />
+    </Instantly>
+</ConditionalActions>

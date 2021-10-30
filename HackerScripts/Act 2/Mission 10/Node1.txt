@@ -6,6 +6,8 @@ hideRam $#%#$
 showRam $#%#$
 hideTerminal $#%#$
 showTerminal $#%#$
+writel $#%#$
+writel $#%#$
 writel 停止 $#%#$
 write 抵抗 $#%#$
 write 然后 $#%#$

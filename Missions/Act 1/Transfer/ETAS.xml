@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Act 1 End ETAS" activeCheck="true">
+<goals>
+  <goal type="filechange" target="testNode" file="ETAS" path="home" keyword="151.152.153.154" removal="true"/>
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/Act 1/Transfer/Transfer.xml</nextMission>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

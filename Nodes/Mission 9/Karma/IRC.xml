@@ -1,13 +1,15 @@
-<Computer id="M9IRC" name="Leaking IRC" security="4" type="4">
+<Computer id="M9IRC" name="Leaking IRC" security="1" type="4">
+<ports>21, 80, 22</ports>
+<portsForCrack val="3"/>
 <firewall level="4" solution="LEAK" additionalTime="0.0"/>
-<trace time="90" />
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="M9Leak" />
 <dlink target="M9Target" />
 <IRCDaemon themeColor="198,255,1" name="Leaking IRC" needsLogin="true">
 <user name="Leak_agent_56" color="254,255,1"/>
 <user name="Malber" color="16,255,6"/>
- <post user="Leak_agent_56">You've reached LEAK, what piece of data do you want?</post>
+ <post user="Leak_agent_56">你已经进到了LEAK里边了，你想要什么信息?</post>
  <post user="Malber">我要 DECSuite</post>
  <post user="Leak_agent_56">那需要25k美刀</post>
  <post user="Malber">钱不是问题</post>

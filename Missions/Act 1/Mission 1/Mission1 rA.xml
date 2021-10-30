@@ -3,8 +3,8 @@
   <goals>
     <!-- Goals here -->
 	<goal type="fileupload" target="M1rA_SK" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
-	<goal type="filechange" target="M1rA_Sec" file="Presentation_Text.docx" path="home" keyword="DICK" removal="true"/>
-	<goal type="filechange" target="M1rA_Sec" file="Presentation_Text.docx" path="home" keyword="ePhone" caseSensitive="true"/>
+	<goal type="filechange" target="M1rA_Sec" file="ePhone_-_演示文本.docx" path="home" keyword="DICK" removal="true"/>
+	<goal type="filechange" target="M1rA_Sec" file="ePhone_-_演示文本.docx" path="home" keyword="ePhone" caseSensitive="true"/>
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rA Actions.xml</missionStart>
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
@@ -22,26 +22,28 @@
 	<subject>擅长破坏=牢狱之灾</subject>
 	<body>
 我就知道你会接这个任务。 我和Javis将负责剩下的两个。 
- 
+
 Pear公司的安全主管将此消息发给我们。 他说这对他来说不是问题,但是发布会前的时间太少了。 
- 
+
 因此,他将所有内容都保留了下来,这意味着你很有可能会找到该脚本小子的一些痕迹。 
- 
-我们需要他的netcfgx.dll,你可以在sys/中找到它,这样我们可以研究他犯下的其它罪恶,然后收拾他。 得到后,将其上传到资源服务器。 
- 
+
+我们需要他的netcfgx.dll,你可以在/sys/中找到它,这样我们可以研究他犯下的其它罪恶,然后收拾他。 得到后,将其上传到资源服务器。 
+
 哦,对了,你能在发布会的文案中将DICK替换回ePhone吗?你会在日志和我链接的PC上找到所有内容。 
- 
--C 
- 
+
+    -C
+
 专业提示: 
 利用日志查找犯罪分子的轨迹 
- 
+
 目标: 
 1)黑入破坏者的战机,并将其netcfgx.dll上传到资源服务器 
 2)在演示文稿文件中将单词"DICK"替换为"ePhone"</body>
 	<attachments>
 	<link comp="M1rA_Sec"/>
 	<account comp="M1rA_Sec" user="admin" pass="JeveStobs"/>
+	<note title="目标">1)黑入破坏者的战机,并将其netcfgx.dll上传到资源服务器 
+2)在演示文稿文件中将单词"DICK"替换为"ePhone"</note>
 	</attachments>
 </email>
 </mission>

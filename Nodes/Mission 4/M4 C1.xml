@@ -1,4 +1,6 @@
-<Computer id="M4_Gate" name="Repulse 的网关" ip="82.139.222.48" security="4" type="empty">
+<Computer id="M4_Gate" name="Repulse 的网关" ip="82.139.222.48" security="3" type="empty">
+<ports>6881, 554, 1433</ports>
+<portsForCrack val="3"/>
 <trace time="90" />
 <admin type="progress"/>
 <file path="home/Reset_Button" name="REPORT.log">[08:45 PM] 计算机文件已成功删除!切记重新启动计算机以清除所有转储中的内存缓存!</file>

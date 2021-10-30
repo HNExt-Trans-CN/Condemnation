@@ -1,25 +1,25 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="OmBoss">
-	<AddConditionalActions Filepath="Actions/Act 2/Failure/IPCycle.xml" DelayHost="Delay" Delay="7.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/IPCycle.xml" DelayHost="Delay" Delay="10.0"/>
 	<ShowNode DelayHost="Delay" Delay="0.0" Target="OmBoss1" />
-	<HideNode DelayHost="Delay" Delay="0.7" TargetComp="OmBoss1" />
-	<ShowNode DelayHost="Delay" Delay="0.7" Target="OmBoss2" />
-	<HideNode DelayHost="Delay" Delay="1.4" TargetComp="OmBoss2" />
-	<ShowNode DelayHost="Delay" Delay="1.4" Target="OmBoss3" />
-	<HideNode DelayHost="Delay" Delay="2.1" TargetComp="OmBoss3" />
-	<ShowNode DelayHost="Delay" Delay="2.1" Target="OmBoss4" />
-	<HideNode DelayHost="Delay" Delay="2.8" TargetComp="OmBoss4" />
-	<ShowNode DelayHost="Delay" Delay="2.8" Target="OmBoss5" />
-	<HideNode DelayHost="Delay" Delay="3.5" TargetComp="OmBoss5" />
-	<ShowNode DelayHost="Delay" Delay="3.5" Target="OmBoss6" />
-	<HideNode DelayHost="Delay" Delay="4.2" TargetComp="OmBoss6" />
-	<ShowNode DelayHost="Delay" Delay="4.2" Target="OmBoss7" />
-	<HideNode DelayHost="Delay" Delay="4.9" TargetComp="OmBoss7" />
-	<ShowNode DelayHost="Delay" Delay="4.9" Target="OmBoss8" />
-	<HideNode DelayHost="Delay" Delay="5.6" TargetComp="OmBoss8" />
-	<ShowNode DelayHost="Delay" Delay="5.6" Target="OmBoss9" />
-	<HideNode DelayHost="Delay" Delay="6.3" TargetComp="OmBoss9" />
-	<ShowNode DelayHost="Delay" Delay="6.3" Target="OmBoss10" />
-	<HideNode DelayHost="Delay" Delay="7.0" TargetComp="OmBoss10" />
+	<HideNode DelayHost="Delay" Delay="1.0" TargetComp="OmBoss1" />
+	<ShowNode DelayHost="Delay" Delay="1.0" Target="OmBoss2" />
+	<HideNode DelayHost="Delay" Delay="2.0" TargetComp="OmBoss2" />
+	<ShowNode DelayHost="Delay" Delay="2.0" Target="OmBoss3" />
+	<HideNode DelayHost="Delay" Delay="3.0" TargetComp="OmBoss3" />
+	<ShowNode DelayHost="Delay" Delay="3.0" Target="OmBoss4" />
+	<HideNode DelayHost="Delay" Delay="4.0" TargetComp="OmBoss4" />
+	<ShowNode DelayHost="Delay" Delay="4.0" Target="OmBoss5" />
+	<HideNode DelayHost="Delay" Delay="5.0" TargetComp="OmBoss5" />
+	<ShowNode DelayHost="Delay" Delay="5.0" Target="OmBoss6" />
+	<HideNode DelayHost="Delay" Delay="6.0" TargetComp="OmBoss6" />
+	<ShowNode DelayHost="Delay" Delay="6.0" Target="OmBoss7" />
+	<HideNode DelayHost="Delay" Delay="7.0" TargetComp="OmBoss7" />
+	<ShowNode DelayHost="Delay" Delay="7.0" Target="OmBoss8" />
+	<HideNode DelayHost="Delay" Delay="8.0" TargetComp="OmBoss8" />
+	<ShowNode DelayHost="Delay" Delay="8.0" Target="OmBoss9" />
+	<HideNode DelayHost="Delay" Delay="9.0" TargetComp="OmBoss9" />
+	<ShowNode DelayHost="Delay" Delay="9.0" Target="OmBoss10" />
+	<HideNode DelayHost="Delay" Delay="10.0" TargetComp="OmBoss10" />
 	</HasFlags>
 </ConditionalActions>

@@ -1,4 +1,6 @@
-<Computer id="NHHub" name="NightHawks 中枢" ip="37.122.36.119" security="5" type="4">
+<Computer id="NHHub" name="NightHawks 中枢" ip="37.122.36.119" security="1" type="4">
+<ports>22, 21, 554, 443</ports>
+<portsForCrack val="4"/>
 <adminPass pass="PrimeCandidate" />
 <trace time="90" />
 <admin type="progress"/>
@@ -6,6 +8,7 @@
 <file path="bin/Stash" name="FTPBounce.exe">#FTP_CRACK#</file>
 <file path="bin/Stash" name="WebServerWorm.exe">#WEB_CRACK#</file>
 <file path="bin/Stash" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin/Stash" name="RTSPCrack.exe">#RTSP_EXE#</file>
 <file path="bin/Stash" name="HexClock.exe">#HEXCLOCK_EXE#</file>
 <file path="bin/Stash" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
 <file path="bin/Stash" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>

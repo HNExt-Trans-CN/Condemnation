@@ -5,233 +5,230 @@ delay 0.2 $#%#$
 hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
-writel #检测到外部语音来源,已开启自动翻译# $#%#$
-delay 0.72 $#%#$
+delay 0.37 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent 不... $#%#$
-delay 1.77 $#%#$
+delay 1.61 $#%#$
 writel_silent $#%#$
 writel_silent 这不应该这样结束 $#%#$
-delay 2.97 $#%#$
+delay 2.56 $#%#$
 writel_silent $#%#$
 writel_silent Clara应该恨你 $#%#$
-delay 2.18 $#%#$
+delay 1.82 $#%#$
 writel_silent 你应该成为史上最邪恶的罪犯 $#%#$
-delay 2.81 $#%#$
+delay 2.54 $#%#$
 writel_silent 然后取代我的地位 $#%#$
-delay 2.26 $#%#$
+delay 1.94 $#%#$
 writel_silent 否则Clara是下一个候选人 $#%#$
-delay 2.89 $#%#$
+delay 3.41 $#%#$
 writel_silent 但她却选择站在你的那边 $#%#$
-delay 1.99 $#%#$
-writel_silent 你们其中一个应该成为我的继任者! $#%#$
-delay 2.47 $#%#$
-writel_silent 然后杀了我! $#%#$
 delay 1.92 $#%#$
+writel_silent 你们其中一个应该成为我的继任者! $#%#$
+delay 2.30 $#%#$
+writel_silent 然后杀了我! $#%#$
+delay 4.14 $#%#$
 writel_silent $#%#$
 writel_silent 这便是我的计划 $#%#$
-delay 2.97 $#%#$
+delay 2.51 $#%#$
 writel_silent 这便是我的臆说 $#%#$
-delay 2.23 $#%#$
+delay 2.69 $#%#$
 writel_silent $#%#$
 writel_silent 这个世界是被恐惧、猜忌与愤怒所控制 $#%#$
-delay 5.73 $#%#$
+delay 5.68 $#%#$
 writel_silent 它们是推进世界发展的最强大的动力 $#%#$
-delay 3.36 $#%#$
+delay 4.11 $#%#$
 writel_silent $#%#$
 writel_silent 你知道这世界上最没用的东西是什么吗? $#%#$
-delay 4.18 $#%#$
+delay 5.82 $#%#$
 writel_silent 是正义 $#%#$
-delay 1.88 $#%#$
+delay 2.17 $#%#$
 writel_silent 为何? $#%#$
-delay 1.76 $#%#$
+delay 2.35 $#%#$
 writel_silent 因为这个世界上根本没有正义 $#%#$
-delay 3.62 $#%#$
+delay 4.28 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent 你不相信我? $#%#$
-delay 2.19 $#%#$
+delay 2.43 $#%#$
 writel_silent 我跟你讲讲我的故事吧 $#%#$
-delay 2.81 $#%#$
+delay 4.05 $#%#$
 writel_silent $#%#$
 writel_silent 我妈妈20岁时生下我 $#%#$
-delay 2.96 $#%#$
+delay 3.34 $#%#$
 writel_silent 而一年以前,她只是Sacramento的一名普通学生 $#%#$
-delay 4.41 $#%#$
+delay 4.00 $#%#$
 writel_silent 由于她的出色成绩,她被转到San Francisco的学院 $#%#$
-delay 4.50 $#%#$
+delay 4.35 $#%#$
 writel_silent 但是她无法融入新的环境 $#%#$
-delay 3.58 $#%#$
+delay 3.35 $#%#$
 writel_silent 因为他们是肮脏的有钱社会渣滓 $#%#$
-delay 3.77 $#%#$
+delay 3.33 $#%#$
 writel_silent $#%#$
 writel_silent 她不想被他们的生活方式所侵蚀 $#%#$
-delay 2.80 $#%#$
+delay 2.99 $#%#$
 writel_silent 她为此被欺负 $#%#$
-delay 2.64 $#%#$
+delay 2.58 $#%#$
 writel_silent $#%#$
 writel_silent 几个月之后 $#%#$
-delay 1.82 $#%#$
+delay 1.49 $#%#$
 writel_silent 她试着改变自己,去了派对 $#%#$
-delay 3.22 $#%#$
+delay 2.85 $#%#$
 writel_silent 尝试可卡因 $#%#$
-delay 1.50 $#%#$
+delay 1.44 $#%#$
 writel_silent 并成为瘾君子 $#%#$
-delay 1.94 $#%#$
+delay 2.21 $#%#$
 writel_silent $#%#$
 writel_silent 她没钱了 $#%#$
-delay 1.86 $#%#$
+delay 1.89 $#%#$
 writel_silent 并决定做妓女让随便哪个人干自己 $#%#$
-delay 3.48 $#%#$
+delay 3.41 $#%#$
 writel_silent 在其中一次,她怀孕了 $#%#$
-delay 3.53 $#%#$
+delay 4.03 $#%#$
 writel_silent 那便是我 $#%#$
-delay 3.11 $#%#$
+delay 2.59 $#%#$
 writel_silent $#%#$
 writel_silent 我出生后她就被赶出了学界 $#%#$
-delay 3.06 $#%#$
+delay 2.99 $#%#$
 writel_silent 我们成了街头垃圾 $#%#$
-delay 2.35 $#%#$
+delay 2.64 $#%#$
 writel_silent $#%#$
 writel_silent 我妈妈用我向陌生人讨钱 $#%#$
-delay 3.25 $#%#$
+delay 3.22 $#%#$
 writel_silent 试图把我卖给别人 $#%#$
-delay 2.42 $#%#$
+delay 2.15 $#%#$
 writel_silent 我恨她恨过所有东西 $#%#$
-delay 3.99 $#%#$
+delay 3.56 $#%#$
 writel_silent $#%#$
 writel_silent 我曾尝试寻求帮助 $#%#$
-delay 2.09 $#%#$
+delay 2.32 $#%#$
 writel_silent 我曾尝试去找警察 $#%#$
-delay 2.57 $#%#$
+delay 2.38 $#%#$
 writel_silent 但是没人愿意听到一个吸毒者妓女的儿子讲一句话 $#%#$
-delay 4.98 $#%#$
+delay 5.51 $#%#$
 writel_silent $#%#$
 writel_silent 然后她就吸毒吸到疯了 $#%#$
-delay 4.74 $#%#$
+delay 4.81 $#%#$
 writel_silent 她的头脑如同被烧毁了 $#%#$
-delay 3.69 $#%#$
+delay 4.34 $#%#$
 writel_silent 最后有一天 $#%#$
-delay 2.48 $#%#$
+delay 2.43 $#%#$
 writel_silent 她用药过量 $#%#$
-delay 2.35 $#%#$
+delay 1.87 $#%#$
 writel_silent 死于自己的呕吐造成的呼吸困难 $#%#$
-delay 2.73 $#%#$
+delay 2.20 $#%#$
 writel_silent $#%#$
 writel_silent 你知道我是怎么想的吗? $#%#$
-delay 2.51 $#%#$
+delay 2.40 $#%#$
 writel_silent 棒极了 $#%#$
-delay 2.02 $#%#$
+delay 1.96 $#%#$
 writel_silent $#%#$
 writel_silent 如果这个世界有正义 $#%#$
-delay 3.85 $#%#$
+delay 3.01 $#%#$
 writel_silent 为什么一个12岁的孩子会因自己母亲过世而大笑起来?? $#%#$
-delay 6.87 $#%#$
+delay 8.96 $#%#$
 writel_silent 然后我连续哭了四天 $#%#$
-delay 3.57 $#%#$
+delay 2.69 $#%#$
 writel_silent 因为饥饿而停止 $#%#$
-delay 3.5 $#%#$
+delay 3.68 $#%#$
 writel_silent $#%#$
 writel_silent 之后我被领养了 $#%#$
-delay 3.17 $#%#$
+delay 2.41 $#%#$
 writel_silent 新父母很好,但总是担心我也会成为瘾君子 $#%#$
-delay 5.00 $#%#$
+delay 4.86 $#%#$
 writel_silent 我试图证明我并不会这样 $#%#$
 delay 2.78 $#%#$
 writel_silent 杀了一个毒贩 $#%#$
-delay 2.30 $#%#$
+delay 3.28 $#%#$
 writel_silent $#%#$
 writel_silent 我以为我是英雄 $#%#$
-delay 2.34 $#%#$
+delay 2.15 $#%#$
 writel_silent 我救了另一个像我妈妈一样的女孩,防止她变成了肮脏的生物 $#%#$
-delay 5.01 $#%#$
+delay 5.22 $#%#$
 writel_silent 但是我被送到了监狱 $#%#$
-delay 2.16 $#%#$
+delay 2.78 $#%#$
 writel_silent $#%#$
 writel_silent 这是什么样的正义呢? $#%#$
-delay 2.70 $#%#$
+delay 2.59 $#%#$
 writel_silent 当你不断受到社会谴责时,你不知道感觉如何 $#%#$
-delay 5.54 $#%#$
+delay 5.17 $#%#$
 writel_silent 由于过去,你无法向任何人证明任何事情 $#%#$
-delay 4.11 $#%#$
+delay 4.04 $#%#$
 writel_silent 没有人在乎我 $#%#$
-delay 2.60 $#%#$
+delay 6.06 $#%#$
 writel_silent $#%#$
 writel_silent 然后我便化身成为Omicron $#%#$
-delay 3.06 $#%#$
+delay 4.15 $#%#$
 writel_silent 我从监狱学到了一些东西 $#%#$
-delay 2.70 $#%#$
+delay 2.84 $#%#$
 writel_silent 包括黑客技能 $#%#$
-delay 1.87 $#%#$
+delay 1.81 $#%#$
 writel_silent $#%#$
 writel_silent 只有当我给他们理由害怕我时 $#%#$
-delay 3.53 $#%#$
+delay 3.47 $#%#$
 writel_silent 人们才开始尊重我 $#%#$
-delay 3.64 $#%#$
+delay 3.91 $#%#$
 writel_silent $#%#$
 writel_silent 当你虚弱之时寻求帮助 $#%#$
-delay 3.25 $#%#$
+delay 3.17 $#%#$
 writel_silent 像我童年一样 $#%#$
-delay 2.68 $#%#$
+delay 2.42 $#%#$
 writel_silent 没有人会来救你 $#%#$
-delay 2.60 $#%#$
+delay 3.02 $#%#$
 writel_silent $#%#$
 writel_silent 当你给别人一个害怕你的理由时 $#%#$
-delay 3.18 $#%#$
+delay 3.17 $#%#$
 writel_silent 他们便会完全按照你的意愿做 $#%#$
-delay 3.78 $#%#$
+delay 3.63 $#%#$
 writel_silent $#%#$
 writel_silent 所以告诉我 $#%#$
-delay 1.70 $#%#$
+delay 1.74 $#%#$
 writel_silent 这世界有正义么? $#%#$
-delay 2.07 $#%#$
+delay 2.75 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent 但是你和Clara现在改变了我 $#%#$
-delay 3.47 $#%#$
+delay 3.25 $#%#$
 writel_silent 我了解发生在我身上的一切都是厄运 $#%#$
-delay 5.06 $#%#$
+delay 5.32 $#%#$
 writel_silent 但是人总是可以承受一些限制 $#%#$
-delay 3.78 $#%#$
+delay 3.59 $#%#$
 writel_silent 我的压力和愤怒超出了任何可能的极限 $#%#$
 delay 4.84 $#%#$
 writel_silent $#%#$
 writel_silent 我不会抗拒逮捕 $#%#$
-delay 2.38 $#%#$
+delay 2.19 $#%#$
 writel_silent 但我仍然会为自己的行为辩护 $#%#$
-delay 2.95 $#%#$
+delay 2.85 $#%#$
 writel_silent 是我摧毁了Emalio cartel并从另一帮毒品贩子中拯救了San Francisco $#%#$
-delay 6.04 $#%#$
+delay 5.83 $#%#$
 writel_silent 是我从禁毒署中清除了间谍 $#%#$
-delay 3.34 $#%#$
+delay 3.89 $#%#$
 writel_silent 我让这个城市更加干净 $#%#$
-delay 3.42 $#%#$
+delay 3.28 $#%#$
 writel_silent 而且没有毒品 $#%#$
-delay 2.37 $#%#$
+delay 2.01 $#%#$
 writel_silent 我不认为我让社会变得更糟 $#%#$
-delay 3.42 $#%#$
+delay 3.19 $#%#$
 writel_silent $#%#$
 writel_silent 但是你应该成为我的继任者 $#%#$
-delay 2.91 $#%#$
+delay 4.04 $#%#$
 writel_silent 把我的愤怒带走然后杀死我 $#%#$
-delay 4.52 $#%#$
+delay 4.06 $#%#$
 writel_silent $#%#$
 writel_silent 但是你和Clara胜过我 $#%#$
-delay 2.58 $#%#$
+delay 2.49 $#%#$
 writel_silent 并证明有些人并不那么恶心 $#%#$
-delay 4.28 $#%#$
+delay 3.85 $#%#$
 writel_silent $#%#$
 writel_silent 我想是时候关闭我的语音通话了 $#%#$
-delay 3.96 $#%#$
+delay 3.91 $#%#$
 writel_silent 但我至少必须保守一些秘密 $#%#$
-delay 2.74 $#%#$
+delay 2.82 $#%#$
 writel_silent $#%#$
 writel_silent 永别了, Cypher and Clara $#%#$
-delay 5.18 $#%#$
+delay 3.78 $#%#$
 writel_silent $#%#$
-writel_silent ... $#%#$
-delay 5.00 $#%#$
-hideTerminal $#%#$
+writel_silent ...

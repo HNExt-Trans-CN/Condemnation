@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rC_B5" name="Pear_Lover 档案馆" type="2">
+<Computer id="M1rC_B5" name="Pear_Lover 档案馆 No.5" security="4" type="2">
 <ports>21, 22, 25, 80, 554</ports>
 <portsForCrack val="0" />
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="Homework.pdf">#BINARY##BINARY##BINARY#</file>
-<file path="home" name="Textbooks.pdf">#BINARY##BINARY##BINARY#</file>
-<file path="home" name="Academic_lists.pdf">#BINARY##BINARY##BINARY#</file>
+<file path="home" name="作业.pdf">#BINARY##BINARY##BINARY#</file>
+<file path="home" name="课本.pdf">#BINARY##BINARY##BINARY#</file>
+<file path="home" name="成绩单.pdf">#BINARY##BINARY##BINARY#</file>
 </Computer>

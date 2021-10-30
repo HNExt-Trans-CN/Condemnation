@@ -21,7 +21,7 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="71.0">那疯子必须死</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="76.0">我认为你的胜算不大</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">但是你输了其实更好</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="85.0">@Vortex, 将位置文件放在此服务器的/home文件夹中</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="85.0">@Vortex, 将位置文件放在此服务器的/home/文件夹中</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="85.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="85.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="85.3"/>

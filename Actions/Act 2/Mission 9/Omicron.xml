@@ -1,47 +1,49 @@
 <ConditionalActions>
 	<Instantly>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Transfer.xml" DelayHost="Delay" Delay="54.07"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Transfer.xml" DelayHost="Delay" Delay="52.58"/>
 	<RunFunction FunctionName="playCustomSongImmediatley:Music/Omicron2.ogg" FunctionValue="0" />
 	<RunFunction FunctionName="addFlags:Om_B" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Flick/AftHos/Flick1.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Flick/AftHos/Flick1.xml" DelayHost="Delay" Delay="51.34"/>
+	<AddConditionalActions Filepath="Actions/Flick/AftHos/Flick2.xml" DelayHost="Delay" Delay="1.3"/>
 	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="0.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
 	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.3">!ANNOUNCEMENT! ofMEJIPDWAU892387$f%s$fs$</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.3">你好</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.9">Cypher</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.5">或者</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.6">我</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.7">现在</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.37">你好</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.99">Cypher</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.24">或者</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.49">我</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.74">现在</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">应该</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.3">叫</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.8">你</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.3">Vortex?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="8.7">卷土重来</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.4">不是吗</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.96">你曾一度</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.2">让</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.58">我</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.82">认为</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.18">你</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.31">是个</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.65">好</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.94">条子</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.2">但是我现在</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.47">没法</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.75">认同</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.44">一个</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="16.48">好</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="16.9">警察</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="18.18">刚刚参与了一场牵扯58人的</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="20.47">屠  杀</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.93">我知道我们之间还有一些未完的纠葛</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="26.98">但是,让我们撇清纠纷,度过美好时光</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="30.45">然后,请让我介绍下自己</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="35.02">哦,很抱歉给你带来不便,但他们听不到我的声音</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="39.73">只有你的系统中有我的后门</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="44.01">所以我怕你也听不到我的美丽</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.39">扭曲的</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.26">声音</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="50.94">但不会太久了...</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="52.77">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="54.08">!ANNOUNCEMENT! 解除禁言 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.32">叫</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.82">你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.69">Vortex?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.33">卷土重来</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.63">不是吗</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.50">你曾一度</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.72">让</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.95">我</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.16">认为</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.58">你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.74">是个</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.86">好</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="13.37">条子</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="14.77">但是我现在</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.15">没法</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.50">认同</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="16.09">一个</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.08">好</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.50">警察</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="18.23">刚刚参与了一场牵扯58人的屠杀</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.65">我知道我们之间还有一些未完的纠葛</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="26.56">但是,让我们撇清纠纷,度过美好时光</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="29.91">然后,请让我向你们这群小丑介绍下自己</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="34.44">哦,很抱歉给你带来不便,但他们听不到我的声音</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="38.84">只有你的系统中有我的后门</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="42.89">所以我怕你也听不到我的美丽</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="47.39">扭曲的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.10">声音</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.64">但不会太久了...</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="51.34">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="52.58">!ANNOUNCEMENT! 解除禁言 @channel</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

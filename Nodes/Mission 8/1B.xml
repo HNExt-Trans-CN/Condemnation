@@ -1,5 +1,9 @@
-<Computer id="C1B" name="FJR-Insurance, 数据中心" security="5" type="1">
-<trace time="90" />
+<Computer id="C1B" name="FJR-Insurance | 数据中心" icon="DLCServer" type="1">
+<ports>80, 22, 21, 25</ports>
+<portsForCrack val="4"/>
+<portRemap>21=349,80=488,22=830,25=125</portRemap>
+<firewall level="10" solution="DoNotAudit" additionalTime="0.0"/>
+<trace time="60" />
 <admin type="progress"/>
 <dlink target="C1A" />
 <dlink target="C1C" />

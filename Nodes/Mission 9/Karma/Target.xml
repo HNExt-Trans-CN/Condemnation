@@ -1,4 +1,4 @@
-<Computer id="M9Target" name="Malber 的PC" ip="246.241.66.106" security="5" type="2">
+<Computer id="M9Target" name="Malber 的PC" ip="246.241.66.106" security="5" icon="DLCPC1" type="2">
 <adminPass pass="f8emsWDNAU" />
 <portsForCrack val="101" />
 <trace time="90" />

@@ -1,10 +1,15 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5EndRelay" name="Omicron 的中继" security="5" type="empty">
+<Computer id="M5EndRelay" name="Omicron 的中继" security="4" type="empty">
+<ports>1433, 6881, 21, 443</ports>
+<portsForCrack val="4"/>
+<portRemap>21=2019,1433=1343,6881=6818,443=433</portRemap>
+<firewall level="8" solution="dopamine" additionalTime="0"/>
+<trace time="-1"/>
 <admin type="progress" />
 
  
 
-<file path="home" name="Report_for_the_Boss.docx">
+<file path="home" name="Report_-_向老板提供的报告.docx">
 交易详情:
 
 新墨西哥州的货物藏在西部仓库。含有:

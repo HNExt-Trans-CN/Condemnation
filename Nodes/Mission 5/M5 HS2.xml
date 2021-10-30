@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5HS2" name="Team Rioba 的黑客站点" ip="55.128.35.25"  type="empty">
+<Computer id="M5HS2" name="Team Rioba 的黑客站点 2" ip="55.128.35.25" security="2" type="empty">
 
-<ports>21, 22, 25, 443</ports>
-<portsForCrack val="4" />
+<ports>22, 21, 443</ports>
+<portsForCrack val="3" />
 <trace time="120" />
-
+<file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
   <file path="home/Sequencer" name="logs">建立用户连接: Muskat, Super_Flufy, Omicron to *地址已删除*
  
  连接成功

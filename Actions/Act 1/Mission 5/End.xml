@@ -1,9 +1,11 @@
 <ConditionalActions>
 	<Instantly>
+	<AddConditionalActions Filepath="Actions/Flick/1Fin/Flick1.xml" DelayHost="Delay" Delay="1.0"/>
+	<AddConditionalActions Filepath="Actions/Flick/1Fin/Flick2.xml" DelayHost="Delay" Delay="3.0"/>
 	<RunFunction FunctionName="addFlags:CSEC_Member" FunctionValue="0" />
 	<LaunchHackScript Filepath="HackerScripts/Act 1/Mission 5/End.txt" DelayHost="Delay" Delay="1.0" SourceComp="M5C3" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<HideAllNodes DelayHost="Delay" Delay="2.0"/>
 	<AddConditionalActions Filepath="Actions/Act 1/Mission 5/Voice.xml" DelayHost="Delay" Delay="46.5"/>
-	<AddConditionalActions Filepath="Actions/Act 1/Mission 5/Transfer.xml" DelayHost="Delay" Delay="141.72"/>
+	<AddConditionalActions Filepath="Actions/Act 1/Mission 5/Transfer.xml" DelayHost="Delay" Delay="126.5"/>
 	</Instantly>
 </ConditionalActions>

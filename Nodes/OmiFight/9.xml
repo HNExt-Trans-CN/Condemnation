@@ -1,7 +1,7 @@
-<Computer id="OmBoss9" name="脑瘫" type="4">
-<ports>1433, 554, 211, 21, 6881, 443</ports>
-
-<portsForCrack val="3" />
+<Computer id="OmBoss9" name="脑瘫" security="2" type="4">
+<ports>1433, 25</ports>
+<portRemap>25=21,1433=22</portRemap>
+<portsForCrack val="2" />
 <trace time="-1" />
 <admin type="none"/>
 <file path="home" name="Source_Fragment.txt">2=63</file>

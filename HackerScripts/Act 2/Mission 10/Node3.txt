@@ -15,4 +15,4 @@ write #BINARY# $#%#$
 write #BINARY# $#%#$
 write #BINARY# $#%#$
 write #BINARY# $#%#$
-write #BINARY# $#%#$
+write #BINARY#

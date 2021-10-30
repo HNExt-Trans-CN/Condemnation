@@ -1,65 +1,67 @@
 <ConditionalActions>
 	<Instantly>
-		<RunFunction FunctionName="addFlags:NHIn" FunctionValue="0" />
-		<RunFunction FunctionName="addRankFaction:VEnd" FunctionValue="2" />
-		<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Omicron3A.xml" DelayHost="Delay" Delay="30.0"/>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0"> @channel,好的,所有人</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.0">销毁该地点和所有连接的服务器</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">现在该是我们不仅反击警察,反击联邦政府官员的时候了!</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">是的!最后,我们拥有了应该拥有的力量</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">什么都不会阻止我们!</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">是的,没错</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="26.0">享受你的力量,并向所有人证明你势不可挡!</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">说得好!</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">是的!</AddIRCMessage>
-		<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="30.0">好啊!</AddIRCMessage>
-		<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="30.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="36.23">看看你做了什么</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="38.79">你赋予了新纳粹组织他们梦寐以求的力量</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="43.45">现在,他们可以做任何想做的事</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="46.69">"感谢"你</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.02">他们绝对会扰乱整个社会</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="51.08">并摧毁每个不够强大的人</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="55.72">而你也变得更加强大</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="58.30">你终于可以匹敌我</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="60.96">但是首先,我们需要确保没有人会打扰我们</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="64.59">如果有人干预我们的事情,那将是可耻的</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.79">我让NighHawks忙于他们的新玩具</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="72.42">尽管我仍然担心只有一个人会毁了我们的派对</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="79.43">Clara Gilmore</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="82.16">一位出色的探员已经成为她警署中最好的探员之一</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="86.51">顺便说一句,因为你的失败</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="89.36">她利用你,终于走到了顶端</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="93.11">并成为队长</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="95.58">但是你现在比以往任何时候都强大</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="100.30">没有法律可以控制你</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="103.83">没有规则</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="105.43">你是命运的主人</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="108.51">你的报仇只有一个障碍</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="112.71">我</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="114.23">而当我上传完Clara的罪证后</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="118.74">她将退出这场游戏</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="121.52">你可以找到我的位置文件</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="124.71">你可以逮捕我,杀死我,可以对我做任何想做的事情</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="130.28">或者,你可以找到要传输到FBI的源文件并救下Clara </AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="137.25">但这不会阻止我和我未来的项目</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="140.56">哦,请相信我</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="142.88">它们将是灾难性的</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="144.75">会有很多人牺牲</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="147.26">只是因为你的一点小小的欲望</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="148.79">你没有足够的时间来同时完成两个目标</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="151.58">你可以从我的代理中提取地理位置文件</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="154.84">或删除档案馆中的Clara文件</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="158.04">你大约有两分钟的时间</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="161.64">好吗?</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="163.42">你还在等什么呢?</AddIRCMessage>
-		<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="164.90">!ANNOUNCEMENT! %@$#%@SUFHE73#$3AIJFA</AddIRCMessage>
-		<StartScreenBleedEffect AlertTitle="DECIDE" CompleteAction="Actions/Act 2/Mission 11/Failure.xml" TotalDurationSeconds="120.0" DelayHost="Delay" Delay="161.01">扫描网关:113.114.36.122
+	<RunFunction FunctionName="addFlags:NHIn" FunctionValue="0" />
+	<RunFunction FunctionName="addRankFaction:VEnd" FunctionValue="2" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Omicron3A.xml" DelayHost="Delay" Delay="30.0"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@channel,好的,所有人</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.0">销毁该地点和所有连接的服务器</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.0">现在该是我们不仅反击警察,反击联邦政府官员的时候了!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="15.0">是的!最后,我们拥有了应该拥有的力量</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="18.0">什么都不会阻止我们!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">是的,没错</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="26.0">享受你的力量,并向所有人证明你势不可挡!</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="28.0">说得好!</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="29.0">是的!</AddIRCMessage>
+	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="30.0">好啊!</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="30.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Flick/2Fin/FlickDisplay.xml" DelayHost="Delay" Delay="33.76"/>
+	<AddConditionalActions Filepath="Actions/Flick/2Fin/FlickMap.xml" DelayHost="Delay" Delay="30.0"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="35.93">看看你做了什么</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="37.81">你赋予了新纳粹组织他们梦寐以求的力量</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.48">现在,他们可以做任何想做的事</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="45.11">"感谢"你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="46.64">他们绝对会扰乱整个社会</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.74">并摧毁每个不够强大的人</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="52.94">而你也变得更加强大</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="55.76">你终于可以匹敌我</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="58.88">但是首先,我们需要确保没有人会打扰我们</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="62.92">如果有人干预我们的事情,那将是可耻的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="66.50">我让NighHawks忙于他们的新玩具</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="69.55">尽管我仍然担心只有一个人会毁了我们的派对</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="75.56">Clara Gilmore</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.69">一位出色的探员已经成为她警署中最好的探员之一</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="81.48">顺便说一句,因为你的失败</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="84.43">她利用你,终于走到了顶端</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="88.00">并成为队长</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="90.64">但是你现在比以往任何时候都强大</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="94.69">没有法律可以控制你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="98.59">没有规则</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="100.45">你是命运的主人</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="104.93">你的报仇只有一个障碍</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="109.85">我</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="111.71">当我将新制作的Clara的诬陷文件上传到FBI时</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="116.84">你可以进入我的网络并提取我的位置,并抓住我,为过去的一切复仇</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="122.42">你可以逮捕我,杀死我,可以对我做任何想做的事情</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="127.38">或者,你可以把将传到FBI服务器的源文件删了来救下Clara</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="133.55">但这不会阻止我和我将来的项目</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="137.13">哦,相信我</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="139.00">它们将是灾难性的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="141.21">会有很多人牺牲</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="143.45">只因为你的一己私欲</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="145.19">你将没有足够的时间来同时完成两个目标</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="148.34">你可以从我的代理中提取地理位置文件</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="151.64">或删除档案馆中的Clara文件</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="154.52">你大约只有两分钟时间</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="158.02">明白了?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="159.26">所 以 你 还 在 等 什 么 呢 ?</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="160.56">!ANNOUNCEMENT! %@$#%@SUFHE73#$3AIJFA</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Flick/Flick.xml" DelayHost="Delay" Delay="160.56"/>
+	<StartScreenBleedEffect AlertTitle="DECIDE" CompleteAction="Actions/Act 2/Mission 11/Failure.xml" TotalDurationSeconds="130.00" DelayHost="Delay" Delay="160.56">扫描网关:113.114.36.122
 Clara - 从档案馆中删除所有有关她的文件
 Omicron - 从代理中下载他的位置文件</StartScreenBleedEffect>
 	</Instantly>
-
+	
 	<OnConnect target="M11G" needsMissionComplete="false">
-		<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M11G.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M11G.txt" DelayHost="Delay" Delay="0.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
 </ConditionalActions>

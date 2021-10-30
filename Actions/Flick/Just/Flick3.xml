@@ -1,0 +1,51 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+       <SetLock DelayHost="Delay" Delay="0.06" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.07" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.15" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.16" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.19" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.20" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.28" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.28" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.30" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.32" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.33" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.34" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.35" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.37" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.39" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.40" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.41" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.44" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.47" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.48" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.49" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.50" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.51" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.52" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.53" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.55" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.56" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.57" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.58" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.62" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.63" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.66" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.67" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.68" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.69" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.70" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.71" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.72" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.72" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.75" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.77" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.77" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.78" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.80" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.81" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.82" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.84" Module="terminal" IsLocked="false" IsHidden="false" />
+    </Instantly>
+</ConditionalActions>

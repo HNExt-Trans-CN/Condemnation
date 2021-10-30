@@ -1,0 +1,51 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+       <SetLock DelayHost="Delay" Delay="0.06" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.07" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.15" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.16" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.19" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.20" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.28" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.28" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.30" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.32" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.33" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.34" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.35" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.37" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.39" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.40" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.41" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.44" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.47" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.48" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.49" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.50" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.51" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.52" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.53" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.55" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.56" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.57" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.58" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.62" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.63" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.66" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.67" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.68" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.69" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.70" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.71" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.72" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.72" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.75" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.77" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.77" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.78" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.80" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.81" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.82" Module="ram" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.84" Module="ram" IsLocked="false" IsHidden="false" />
+    </Instantly>
+</ConditionalActions>

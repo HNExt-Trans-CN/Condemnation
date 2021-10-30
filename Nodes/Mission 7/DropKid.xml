@@ -1,4 +1,4 @@
-<Computer id="M7Drop" name="Adrian 的PC" ip="178.184.180.189" security="2" type="2">
+<Computer id="M7Drop" name="Adrian 的PC" ip="178.184.180.189" security="2" icon="laptop" type="2">
 <trace time="-1" />
 <admin type="progress"/>
 <file path="home/To_Do" name="List.txt">1）父母把我赶出去,必须找到新的住所

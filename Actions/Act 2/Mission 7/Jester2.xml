@@ -1,26 +1,26 @@
 <ConditionalActions>
 	<Instantly>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="8.0">!ANNOUNCEMENT! 锁定脚本已启动 @channel</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="11.0">看到了吧?没骗你</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="15.0">但是我仍然必须有一些筹码</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="19.0">你必须获得修复补丁的第二部分才能解锁地图</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="24.0">当然,我非常乐意给你</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="28.0">前提是我完成了你给的工作</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="31.0">正解</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="35.0">我会看看我能做什么</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="40.0">太好了,我有一些想法可以挖掘:</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="44.0">1) 我想要他的医疗档案,希望会有一些有趣的东西</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="49.0">2) 我要抹去他的学位。 因此,他可以被描绘成一个非法雇用的人</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="54.0">我会处理剩下的事情,在媒体上留下些东西</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="58.0">从技术上讲,不是我,是我所在的团队处理</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">你有你自己的团队?</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="66.0">好吧,我确实是更大的团队中的一部分</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="72.0">我们叫NightHawks</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="76.0">我会给你我们的负载均衡服务器地址,你可以在那里找到一些有用的信息</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="81.0">我将添加一些有关我们事务的文件夹</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="85.0">只需查找Project Oblivion文件夹</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="89.0">给你</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:link#%#NightHawks 的负载均衡#%#25.187.106.244</AddIRCMessage>
-		<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:account#%#NightHawks 的负载均衡#%#25.187.106.244#%#admin#%#Sl1ckPr3y</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="8.0">!ANNOUNCEMENT! 锁定脚本已启动 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="11.0">看到了吧?没骗你</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="15.0">但是我仍然必须有一些筹码</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="19.0">你必须获得修复补丁的第二部分才能解锁地图</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="24.0">当然,我非常乐意给你</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="28.0">前提是我完成了你给的工作</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="31.0">正解</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="35.0">我会看看我能做什么</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="40.0">太好了,我有一些想法可以挖掘:</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="44.0">1) 我想要他的医疗档案,希望会有一些有趣的东西</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="49.0">2) 我要抹去他的学位。 因此,他可以被描绘成一个非法雇用的人</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="54.0">我会处理剩下的事情,在媒体上留下些东西</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="58.0">从技术上讲,不是我,是我所在的团队处理</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="M7IRC" Delay="62.0">你有你自己的团队?</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="66.0">好吧,我确实是更大的团队中的一部分</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="72.0">我们叫NightHawks</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="76.0">我会给你我们的负载均衡服务器地址,你可以在那里找到一些有用的信息</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="81.0">我将添加一些有关我们事务的文件夹</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="85.0">只需查找Project Oblivion文件夹</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="89.0">给你</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:link#%#NightHawks 的负载均衡#%#25.187.106.244</AddIRCMessage>
+	<AddIRCMessage Author="Jester" TargetComp="M7IRC" Delay="91.0">!ATTACHMENT:account#%#NightHawks 的负载均衡#%#25.187.106.244#%#admin#%#Sl1ckPr3y</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

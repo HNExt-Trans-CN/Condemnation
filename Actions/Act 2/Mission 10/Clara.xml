@@ -12,7 +12,6 @@
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.0">这意味着,我将正式雇用NightHawks来攻击这对爱情鸟</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="22.0">祝好运 Vortex</AddIRCMessage>
 	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="25.0">你需要它的...</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! 已从聊天室将VORTEX封禁
-	@channel</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="28.0">!ANNOUNCEMENT! 已从聊天室将VORTEX封禁 @channel</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

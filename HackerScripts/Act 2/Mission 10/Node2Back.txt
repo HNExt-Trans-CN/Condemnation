@@ -1,4 +1,5 @@
 config playerComp NHHub 0.0 $#%#$
-showNetMap $#%#$
-showRam $#%#$
-showDisplay $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel UI控制恢复 $#%#$
+writel_silent

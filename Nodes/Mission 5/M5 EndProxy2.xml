@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5EndProxy2" name="Omicron 的个人节点 2" type="empty">
+<Computer id="M5EndProxy2" name="Omicron 的个人节点 2" icon="DLCServer" type="empty">
 
   <portsForCrack val="101" />
   <ports>22, 21, 25</ports>

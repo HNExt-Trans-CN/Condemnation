@@ -1,20 +1,20 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="Mission 10 NH Main" activeCheck="true">
   <goals>
-  <goal type="fileupload" target="M10P1" file="SecCore.dll" path="home/Whitelist" destTarget="NHHub" destPath="home"/>
-  <goal type="fileupload" target="M10P2" file="Token" path="home/Whitelist" destTarget="NHHub" destPath="home"/>
-  <goal type="fileupload" target="M10P3" file="Dump_34" path="home/Whitelist" destTarget="NHHub" destPath="home"/>
-  <goal type="fileupload" target="M10P3" file="Dump_53" path="home/Whitelist" destTarget="NHHub" destPath="home"/>
-  <goal type="fileupload" target="M10P3" file="Dump_69" path="home/Whitelist" destTarget="NHHub" destPath="home"/>
-  <goal type="fileupload" target="M10P3" file="Dump_10" path="home/Whitelist" destTarget="NHHub" destPath="home"/>
+  <goal type="fileupload" target="M10P1" file="SecCore.dll" path="home/白名单" destTarget="NHHub" destPath="home"/>
+  <goal type="fileupload" target="M10P2" file="Token" path="home/白名单" destTarget="NHHub" destPath="home"/>
+  <goal type="fileupload" target="M10P3" file="Dump_34" path="home/白名单" destTarget="NHHub" destPath="home"/>
+  <goal type="fileupload" target="M10P3" file="Dump_53" path="home/白名单" destTarget="NHHub" destPath="home"/>
+  <goal type="fileupload" target="M10P3" file="Dump_69" path="home/白名单" destTarget="NHHub" destPath="home"/>
+  <goal type="fileupload" target="M10P3" file="Dump_10" path="home/白名单" destTarget="NHHub" destPath="home"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 10/NHEnd.xml</missionEnd>
   <nextMission IsSilent="true">Missions/Act 2/Mission 10/NHEnd.xml</nextMission>
   <email>
     <sender>E-mail</sender>
     <subject>?</subject>
-    <body>那是什么 
-回到IRC</body>
+    <body>What is that?
+Go to the IRC</body>
     <attachments>
 	<link comp="C5D" />
     </attachments>

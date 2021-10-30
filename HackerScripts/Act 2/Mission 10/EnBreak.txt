@@ -1,2 +1,9 @@
-config playerComp NHHub 0.1 $#%#$
-writel EnBreak.exe 已激活,享受你的力量
+config playerComp NHHub 0.0 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel -----------------EnBreak v1.6----------------- $#%#$
+writel_silent 激活中................成功! $#%#$
+writel_silent 自动模式................已启用! $#%#$
+writel_silent 提示: 该工具已进入自动模式。当连接至有EnSec保护的节点，查看终端以获得更多信息。该节点管理员密码将在10s后显示。请不要直接执行! $#%#$
+writel_silent ---------------------------------------------- $#%#$
+writel_silent 

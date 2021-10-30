@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="M7Mem_5" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filechange" target="playerComp" file="Westbrook_University_??????_dump.mem" path="home/MemDumps" keyword="MEMORY_DUMP" caseSensitive="true"/>
+    </goals>
+
+    <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 7/MemD5.xml</missionEnd>
+    <nextMission IsSilent="true">NONE</nextMission>
+    
+
+    
+
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+            <note title="Important Note">SSHCrack opens port 22. Also, these can be multiple lines.</note>
+            <link comp="linkedNodeID"/>
+            <account comp="linkedNodeID2" user="username" pass="password"/>
+        </attachments>
+    </email>
+</mission>

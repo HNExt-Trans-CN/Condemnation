@@ -2,9 +2,11 @@
   
   <Action ValueRequired="1">
 	
-    <ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
+    <AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionDel1.xml" DelayHost="Delay" Delay="0.0"/>
+    <AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionLoad2.xml" DelayHost="Delay" Delay="9.0"/>
+	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="5.0">@channel 屠龙行动的工具准备齐了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">辛苦了,有一个沟通任务要给你</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="9.0">辛苦了,有一个沟通任务要给你, 检查“可用的任务列表”</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="12.0">还有,干得好 @Vortex,客户答复说他很满意,你很快就会得到下一个任务</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="12.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="12.2"/>
@@ -14,6 +16,8 @@
   </Action>
   
   <Action ValueRequired="2">
+  <AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionDel2.xml" DelayHost="Delay" Delay="0.0"/>
+  <AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionLoad3.xml" DelayHost="Delay" Delay="35.0"/>
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="5.0">@channel 我们有个麻烦</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="8.0">啥?</AddIRCMessage>
@@ -22,7 +26,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="20.0">尽可能暴力,让其他人都知道</AddIRCMessage>
 	<AddIRCMessage Author="Slayer" TargetComp="NHHub" Delay="25.0">我联系了Scalpel,他们会介入的</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="30.0">Shuriken联盟正受到一个叫做"Dreadnought"的组织的袭击,我们得靠自己了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">Ok,为最后阶段做准备吧</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="35.0">OK, 为最后阶段做准备吧, 检查“可用的任务列表”</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="40.0">@Vortex ,合同完成,接受下一个吧</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="40.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="40.2"/>
@@ -31,7 +35,8 @@
   </Action>
   
   <Action ValueRequired="3">
-	
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionDel3.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionLoad4.xml" DelayHost="Delay" Delay="50.0"/>
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel 干得漂亮,屠龙行动已经完成</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="9.0">干得好伙计们</AddIRCMessage>
@@ -42,7 +47,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="27.0">搜索任务的进度如何?</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="32.0">Omicron - 真名未知,似乎是狭窄圈子中的某种传奇。 有传言说已经死了,但我怀疑是否属实,他之前已经消失了几次,但又回来了。 具有强大的黑客技能,他领导了非常困难的行动,甚至把联邦调查局都干烂了</AddIRCMessage>
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="40.0">他的最后工作是帮助联邦情报局干预贩毒集团,但是事情不顺,警察找到了些Omicron的小痕迹,后来联邦政府官员找到了贩毒集团。同时,Omicron被贩毒集团那边派来的杀手枪杀了,但我之前也做过类似的事情,我认为他只是销声匿迹一段时间,继续深入调查中</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">Ok,继续调查,Jenkins会帮助你的。</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">Ok,继续调查,Jenkins会帮助你的, 检查“可用的任务列表”</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="55.0">@Vortex ,你可以看到我们在这履行自己的职责。而你也一样,你也应为客户做好一切。</AddIRCMessage>
 	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="55.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="55.2"/>
@@ -52,6 +57,7 @@
   </Action>
   
   <Action ValueRequired="4">
+  <AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionDel4.xml" DelayHost="Delay" Delay="0.0"/>
 	<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="5.0">@channel 所有人报告</AddIRCMessage>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="9.0">我和Prophet在Jenkins的帮助下找到了一些线索</AddIRCMessage>
@@ -65,6 +71,7 @@
   </Action>
   
   <Action ValueRequired="5">
+  <AddConditionalActions Filepath="Actions/Act 2/Mission 8/MissionDel5.xml" DelayHost="Delay" Delay="0.0"/>
   <ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="0.1"/>
   <AddConditionalActions Filepath="Actions/Act 2/Mission 9/Start.xml" DelayHost="Delay" Delay="137.0"/>
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="5.0">@channel 我们发现一些非常有趣的东西</AddIRCMessage>

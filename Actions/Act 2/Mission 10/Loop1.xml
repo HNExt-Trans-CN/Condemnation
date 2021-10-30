@@ -1,5 +1,6 @@
 <ConditionalActions>
-	<HasFlags requiredFlags="Node1">
+	<HasFlags requiredFlags="Node1, M10Con1">
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara1.txt" DelayHost="Delay" Delay="7.0" SourceComp="C5C" TargetComp="M10P1" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node1C.txt" DelayHost="Delay" Delay="0.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop1.xml" DelayHost="Delay" Delay="3.0"/>
 	</HasFlags>

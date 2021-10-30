@@ -1,6 +1,8 @@
-<Computer id="M9EP3" name="NLH Hospital 辅助服务器" ip="202.210.23.133" security="4" type="1">
-<trace time="90" />
+<Computer id="M9EP3" name="NLH Hospital | 辅助服务器" ip="202.210.23.133" security="3" type="1">
+<ports>25, 80, 554</ports>
+<portsForCrack val="3"/>
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="M9EP3Gate" />
-<file path="home" name="Reminder.txt">为了正确使用所有计算机设备,所有患者均应具有数字医疗档案。 所有医疗档案都将被存储在适当的数据库中（102.36.38.173）</file>
+<file path="home" name="提示.txt">为了正确使用所有计算机设备,所有患者均应具有数字医疗档案。 所有医疗档案都将被存储在适当的数据库中（102.36.38.173）</file>
 </Computer>

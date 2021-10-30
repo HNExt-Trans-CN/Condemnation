@@ -7,26 +7,29 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C3.xml</missionStart>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="口臭">
-某新闻公司认为我国有言论自由
+  <posting title="Foul Mouths">
+A certain news company think that there is a freedom of speech in our country
   </posting>
   <email>
     <sender>E-Mail</sender>
-    <subject>Foul Mouths</subject>
+    <subject>口臭</subject>
     <body>此电子邮件由从外部收件箱接收: 
- 
+
 你好,探员,你是否曾经被无礼的大众媒体所烦恼,而这些媒体只是在引发争议? 是的,我知道,该死,他们谈论我为我自己将父母的钱花在可卡因上的事,但实际上那是出于我的个人交友问题,我朋友在我们在顶层公寓玩耍时肯定是要high一点的嘛。 
- 
+
 无论如何,我希望你关闭该愚蠢的新闻频道,然后破坏其基础设施,就像在好莱坞大片中击中他们的大型机一样,我不知道,你毕竟是黑客。 
- 
+
 目标: 
- 
+
 1)中断新闻频道服务器,使其不会显示任何文章(清空/MsgBoard文件夹) 
 2)摧毁该新闻公司大型机(清空/sys文件夹) 
 3)一切完成后回复此电子邮件
 </body>
     <attachments>
 	<link comp="C3A" />
+	<note title="目标">1) 中断新闻频道服务器,使其不会显示任何文章(清空/MsgBoard文件夹) 
+2) 摧毁该新闻公司大型机(清空/sys文件夹) 
+3) 一切完成后回复此电子邮件</note>
     </attachments>
   </email>
 </mission>

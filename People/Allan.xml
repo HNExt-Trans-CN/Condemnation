@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Person id="M7E1" handle="NONE" firstName="Allan" lastName="Turner" isMale="true" forceHasNeopals="false">
- <Birthplace name="Califonia, Sacramento" />
+ <Birthplace name="California, Sacramento" />
  <DOB>19/11/1979 21:46:36</DOB>
  <Degrees>
     <Degree uni="Sacramento Police Acadamy" gpa="4.0">获准在执法部门工作</Degree>

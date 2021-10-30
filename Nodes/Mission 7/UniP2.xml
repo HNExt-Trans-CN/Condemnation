@@ -1,12 +1,16 @@
-<Computer id="M7P2" name="Westbrook University 联邦系统关系中心" security="2" type="3">
-<trace time="90" />
+<Computer id="M7P2" name="Westbrook University 联邦系统关系中心" icon="DLCServer" type="3">
+<ports>22, 21, 25, 80, 1433, 554</ports>
+<portsForCrack val="3"/>
+<portRemap>21=1729,80=491,22=95,1433=1771,554=544</portRemap>
+<firewall level="10" solution="FedSysPass" additionalTime="0.1"/>
+<trace time="200" />
 <admin type="progress"/>
 <dlink target="academic" />
 <dlink target="M7P1" />
 <dlink target="M7Front" />
 <dlink target="M7P3" />
 <dlink target="M7P4" />
-<file path="home/Academic_Database" name="Important.txt">该计算机已连接到国际学术数据库（加利福尼亚州访问）。
+<file path="home/学术档案数据库" name="重要.txt">该计算机已连接到国际学术数据库（加利福尼亚州访问）。
 
 允许该计算机的管理员访问。
 

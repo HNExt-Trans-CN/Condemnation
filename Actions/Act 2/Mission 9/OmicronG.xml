@@ -1,57 +1,59 @@
 <ConditionalActions>
 	<Instantly>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Transfer.xml" DelayHost="Delay" Delay="111.79"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 9/Transfer.xml" DelayHost="Delay" Delay="97.45"/>
 	<RunFunction FunctionName="playCustomSongImmediatley:Music/Omicron2G.ogg" FunctionValue="0" />
 	<RunFunction FunctionName="addFlags:Om_G" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Flick/AftHos/Flick1.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Flick/AftHos/Flick1.xml" DelayHost="Delay" Delay="96.21"/>
+	<AddConditionalActions Filepath="Actions/Flick/AftHos/Flick2.xml" DelayHost="Delay" Delay="1.3"/>
 	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="0.0">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
 	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="1.3">!ANNOUNCEMENT! ofMEJIPDWAU892387$f%s$fs$</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.28">你...</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.01">Cypher</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.26">Vortex</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="7.55">随便你怎么称呼自己</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.79">你</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.35">真的</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.84">认为</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="11.81">我不会对这些做出反应</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="13.98">如果我的特工之一</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.95">被San Francisco网络警察局拘留?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="20.36">而且纯属巧合</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.02">签合同的小组也失败了</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="26.84">尽管所有成员都是专业人士</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="31.57">你是否认为自己胜过所有人?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="34.83">你认为你是最好的卧底警察吗?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="39.07">那我必须打破你所有的幻想</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="42.78">几天前</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="43.86">我让Malber搞NLH医院</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="46.80">那个</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="47.68">没人会觉得安全</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.49">并担心死亡随时可能到来的地方</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="53.79">这个</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="54.92">地方</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="56.27">让我回想起我的过去</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="59.39">那些我想要忘却的东西</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="61.74">那些</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="62.98">私人</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="64.03">事物</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="66.2">我不会随便问一些问题</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="69.85">Malber是少数几个</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="71.91">真正了解我的人之一</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="74.31">然后你</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="76.27">被谴责的警察队长</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="78.91">寻求正义</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="80.64">但躲在他所对抗的污秽之中</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="84.40">毁灭一些</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="85.75">对 我 十 分 重 要 的!</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="88.63">但是真正让我生气的是</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="91.33">你以为</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="92.43">你可以在行动中保持圣洁</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="95.75">你以为我不认识你的那个女朋友吗?</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="100.72">然后</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="101.48">现在是时候露出你手上的牌了</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="104.71">让我们问问你NightHawks的哥们</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="106.88">他们是怎么看待你</AddIRCMessage>
-	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="108.55">以前的职业?</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="110.5">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
-	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="111.8">!ANNOUNCEMENT! UNMUTED @channel</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.15">你...</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="4.60">Cypher</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="5.72">Vortex</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.73">随便你怎么称呼自己</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="8.66">你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.18">真的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="9.62">认为</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.41">我不会对这些做出反应</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="12.43">如果我的特工之一</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="13.92">被San Francisco网络警察局拘留?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="17.58">而且纯属巧合</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="19.56">签合同的小组也失败了</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.19">尽管所有成员都是专业人士</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="27.60">你是否认为自己胜过所有人?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="30.01">你认为你是最好的卧底警察吗?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.41">那我必须打破你所有的幻想</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="36.48">几天前</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="38.09">我让Malber搞NLH医院</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.12">那个</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.88">没人会觉得安全</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="43.72">并担心死亡随时可能到来的地方</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="47.80">这个</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="48.66">地方</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="49.74">让我回想起我的过去</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="52.44">那些我想要忘却的东西</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="54.90">那些</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="55.53">私人</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="56.44">事物</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="57.84">我不会随便问一些问题</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="61.25">Malber是少数几个</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="63.21">真正了解我的人之一</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="65.31">然后你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="67.06">被谴责的警察队长</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.84">寻求正义</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="70.51">但躲在他所对抗的污秽之中</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="73.33">毁灭一些 对 我 十 分 重 要 的!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="76.61">但是真正让我生气的是</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="78.87">你以为</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="79.79">你可以在行动中保持圣洁</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="82.51">你以为我不认识你的那个女朋友吗?</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="86.61">然后</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="87.38">现在是时候露出你手上的牌了</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="90.63">让我们问问你NightHawks的哥们</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="92.60">他们是怎么看待你</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="94.17">以前的职业?</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="96.21">!ANNOUNCEMENT! %@$#%@UFSEH989#$INESO2458</AddIRCMessage>
+	<AddIRCMessage Author="NOTIFICATION" TargetComp="NHHub" Delay="97.45">!ANNOUNCEMENT! 解除禁言 @channel</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

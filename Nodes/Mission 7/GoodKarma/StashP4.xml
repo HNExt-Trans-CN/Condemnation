@@ -1,7 +1,13 @@
-<Computer id="M7PN4" name="代理节点 JZ3" security="2" type="2">
+<Computer id="M7PN4" name="代理节点 JZ3" security="4" type="2">
+<ports>21, 80, 22</ports>
+<portsForCrack val="3"/>
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="Reconfiguring_Tool_Status.txt">动态IP脚本已开启
+<dlink target="M7PN1" />
+<dlink target="M7PN2" />
+<dlink target="M7PN3" />
+<dlink target="M7Stash" />
+<file path="home" name="配置文件重置工具状态.txt">动态IP脚本已开启
 
 重置第2值:
 	

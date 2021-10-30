@@ -1,22 +1,22 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5GateP2" name="代理节点 KF89" security="3" type="empty">
+<Computer id="M5GateP2" name="Proxy Node KF89" security="3" type="empty">
 
 
 
- <file path="home/HackStation" name="SYNC_SUCCESS.log">更新成功:正在从此代理中删除同步文件
+ <file path="home/HackStation" name="SYNC_SUCCESS.log">UPDATE PROCEDURE SUCCESS: DELETING SYNC FILES FROM THIS PROXY
  
-  重要信息:重新启动该计算机以清除缓存,否则内存转储中可能存在信息!</file>
+ IMPORTANT: reboot the machine for memory cache clean-up!</file>
  
  <Memory>
 	<Data>
 		<Block>
-		已重新配置访问数据。将报告发送到 "69.205.170.213"
+		Access Data reconfigured, sending report to "69.205.170.213"
 		
-			更新过程成功:
-			从代理删除同步文件
-			迁移缓冲区缓存
+			UPDATE PROCEDURE SUCCESS: 
+			DELETING SYNC FILES FROM PROXY
+			RELOCATING BUFFER CACHE 
 			
-		成功:结束报告
+		SUCCESS: EndOfReport
 		</Block>
 	</Data>
 </Memory>

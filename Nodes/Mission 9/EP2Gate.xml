@@ -1,6 +1,9 @@
-<Computer id="M9EP2Gate" name="NLH Hospital West Wing 网关" security="5" type="4">
-<trace time="90" />
-<admin type="progress"/>
+<Computer id="M9EP2Gate" name="NLH Hospital | West Wing 网关" security="3" type="4">
+<ports>21, 22</ports>
+<portsForCrack val="2"/>
+<portRemap>21=25,22=80</portRemap>
+<trace time="20" />
+<admin type="fast" isSuper="true" resetPassword="true"/>
 <dlink target="M9EP2Key1" />
 <dlink target="M9EP2Key2" />
 <dlink target="M9EP2Key3" />

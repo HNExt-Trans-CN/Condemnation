@@ -1,17 +1,20 @@
 <Computer id="M7Gate" name="NightHawks 的网关" ip="44.198.25.198" security="3" type="4">
-<trace time="90" />
+<ports>554, 22, 21, 3659</ports>
+<portsForCrack val="2"/>
+<portRemap>21=47,22=830</portRemap>
+<trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="Hello.txt">去日你自己,傻逼,离开这里 :-)</file>
-<eosDevice name="Jailbroken ePhone" id="Jester" icon="ePhone1" empty="false" passOverride="Alpine">
+<file path="home" name="你好.txt">去日你自己,傻逼,离开这里 :-)</file>
+<eosDevice name="Jailbroken ePhone" id="Jester" icon="ePhone" empty="false" passOverride="Alpine">
 <note>lel
 
 需要更多不寻常的梗图来诱骗孩子</note>
 </eosDevice>
-<eosDevice name="Jailbroken ePhone" id="Repulse" icon="ePhone1" empty="false" passOverride="Alpine">
+<eosDevice name="Jailbroken ePhone" id="Repulse" icon="ePhone" empty="false" passOverride="Alpine">
 <note>我看到你了
 
 Baka</note>
 </eosDevice>
-<eosDevice name="Jailbroken ePhone" id="Maverick" icon="ePhone1" empty="false" passOverride="Alpine">
+<eosDevice name="Jailbroken ePhone" id="Maverick" icon="ePhone" empty="false" passOverride="Alpine">
 </eosDevice>
 </Computer>

@@ -1,2 +1,4 @@
-config playerComp OmBoss 0.2 $#%#$
-writel UI控制恢复
+config playerComp OmBoss 0.0 $#%#$
+writel_silent $#%#$
+writel UI控制恢复 $#%#$
+writel_silent 

@@ -25,7 +25,7 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="70.0">Prophet? 你怎么想的?</AddIRCMessage>
 	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="75.0">他在一个大团队里边中,至少他可能是。 他可以教我们如何打击FBI并摆脱困境。 所以我投票支持Vortex</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="80.0">那么看来各位已经作出决定了</AddIRCMessage>
-	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">!ANNOUNCEMENT! NullException_@Q#$%NLH#$%, HaHaTrap 无法运行 @channel</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="84.0">!ANNOUNCEMENT! NullPointerException @Q#$%NLH#$% HaHaTrap 无法运行 @channel</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="89.0">什么鬼?</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="93.0">IDK, 它们本该正常运行的</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="97.0">我自己想明白了。你猜怎么着?</AddIRCMessage>

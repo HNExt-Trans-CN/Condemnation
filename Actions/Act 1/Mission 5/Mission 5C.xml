@@ -1,26 +1,27 @@
 <ConditionalActions>
-<Instantly>
-<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay ="5.0"> @#PLAYERNAME#不错,第二台机子也到手了</AddIRCMessage>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="10.0">仅剩一个混蛋</AddIRCMessage>
-<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay ="15.0"> @channel我正在Fluffy的战机上检测到移动数据传输,建议使用EoS扫描仪进行检查</AddIRCMessage>
-
-</Instantly>
-<OnConnect target ="M5C3" needsMissionComplete ="false">
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="10.0"> @channel 这是什么鬼?这个家伙有EnSec吗?</AddIRCMessage>
-<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="15.0">似乎如此</AddIRCMessage>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="18.0">那么,EnTech女士,你怎么能解释这一点?</AddIRCMessage>
-<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="22.0">它只能是被劫持的早期构建。在这种情况下,我可以帮上忙</AddIRCMessage>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="26.0">如何?</AddIRCMessage>
-<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="30.0">我可以扫描他的网络并使用相同的网络映射创建副本节点</AddIRCMessage>
-<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay ="34.0">访问"1.1.1.1"。获得管理员访问权限并扫描节点,也许你就可以找到新的切入点</AddIRCMessage>
-</OnConnect>
-<OnAdminGained target ="M5EndRelay">
-<RunFunction FunctionName ="playCustomSong:Music/RemiDrone.ogg" FunctionValue ="0"/>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="1.0"> @channel 我们已经完成了,这里只有一个文件没有被删除</AddIRCMessage>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="35.0"> @channel 噢,我的天哪... </AddIRCMessage>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="40.0"> @#PLAYERNAME# 队长,这是... </AddIRCMessage>
-<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay ="45.0">这是毒品交易的证据!</AddIRCMessage>
-<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay ="50.0"> FBI现在真的会被吸引住了</AddIRCMessage>
-<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay ="54.0"> @#PLAYERNAME# 队长,在我们的资源服务器上获取证据!</AddIRCMessage>
+	<Instantly>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="5.0">@#PLAYERNAME# 不错,第二台机子也到手了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">仅剩一个混蛋</AddIRCMessage>
+	<AddIRCMessage Author="Bloyd" TargetComp="PDIRC" Delay="15.0">@channel 我正在Fluffy的战机上检测到移动数据传输,建议使用EoS扫描仪进行检查</AddIRCMessage>
+	</Instantly>
+	<OnConnect target="M5C3" needsMissionComplete="false">
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="10.0">@channel 这是什么鬼?这个家伙有EnSec吗?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="15.0">似乎如此</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="18.0">那么,EnTech女士,你怎么能解释这一点?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="22.0">它只能是被劫持的早期构建。在这种情况下,我可以帮上忙</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="26.0">如何?</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="30.0">我可以扫描他的网络并使用相同的网络映射创建副本节点</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="34.0">给你:</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="35.0">!ATTACHMENT:link#%#复制节点#%#1.1.1.1</AddIRCMessage>
+	<AddIRCMessage Author="Diana" TargetComp="PDIRC" Delay="37.0">获得管理员访问权限并扫描节点,也许你就可以找到新的切入点</AddIRCMessage>
+	</OnConnect>
+	<OnAdminGained target="M5EndRelay">
+	<RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg" FunctionValue="0" />
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="1.0">@channel 我们已经完成了,这里只有一个文件没有被删除</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="35.0">@channel 噢,我的天哪...</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="40.0">@#PLAYERNAME# 队长,这是...</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="45.0">这是毒品交易的证据!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="PDIRC" Delay="50.0">FBI现在真的会被吸引住了</AddIRCMessage>
+	<AddIRCMessage Author="Javis" TargetComp="PDIRC" Delay="54.0">@#PLAYERNAME# 队长,在我们的资源服务器上获取证据!</AddIRCMessage>
 	</OnAdminGained>
 </ConditionalActions>

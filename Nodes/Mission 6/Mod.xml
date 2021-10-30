@@ -1,4 +1,5 @@
-<Computer id="M6Mod" name="Mandy 的PC" ip="149.183.107.65" security="2" type="2">
+<Computer id="M6Mod" name="Mandy 的PC" ip="149.183.107.65" security="2" icon="laptop" type="2">
 <trace time="-1" />
 <admin type="progress"/>
+<CustomConnectDisplayDaemon />
 </Computer>

@@ -7,7 +7,6 @@
 		<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="PDAsset" TargetFolderpath="bin"/>
 		<AddAsset FileName="SQLOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="PDAsset" TargetFolderpath="bin"/>
 		<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
-		<AddAsset FileName="OpShell.exe" FileContents="#SHELL_OPENER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
 		<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
 		<AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
 		<AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="PDAsset" TargetFolderpath="bin"/>
@@ -22,7 +21,6 @@
 		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SMTPOverflow.exe" SourceFilePath="bin"/>
 		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SQLOverflow.exe" SourceFilePath="bin"/>
 		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="eosDeviceScan.exe" SourceFilePath="bin"/>
-		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="OpShell.exe" SourceFilePath="bin"/>
 		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="RTSPCrack.exe" SourceFilePath="bin"/>
 		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="SignalScramble.exe" SourceFilePath="bin"/>
 		<CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="PDAsset" SourceFileName="TorrentStreamInjector.exe" SourceFilePath="bin"/>

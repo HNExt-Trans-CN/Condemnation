@@ -1,2 +1,4 @@
 config playerComp C5C 0.1 $#%#$
-writel Clara: 端口211完成,等待SSL
+writel_silent $#%#$
+writel Clara: 端口211完成,等待SSL $#%#$
+writel_silent

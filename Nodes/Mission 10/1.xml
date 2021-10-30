@@ -1,14 +1,14 @@
-<Computer id="M10P1" name="子节点" type="4">
-<ports>21, 22, 25, 80, 211, 443</ports>
+<Computer id="M10P1" name="子节点" security="2" type="4">
+<ports>21, 22, 554, 80, 211, 443</ports>
 <portsForCrack val="6" />
-<firewall level="13" solution="dwuhaWUDH25ef" additionalTime="0.0"/>
+<firewall level="13"/>
 <trace time="120" />
 <admin type="none"/>
 <file path="home/EnSec" name="REPORT_34">#BINARY#</file>
 <file path="home/EnSec" name="REPORT_11">#BINARY#</file>
 <file path="home/EnSec" name="REPORT_72">#BINARY#</file>
-<file path="home/Whitelist" name="SecCore.dll">#BINARY#</file>
-<file path="home/Whitelist" name="Main.bat">#BINARY#</file>
-<file path="home/Whitelist" name="SubCode.dll">#BINARY#</file>
-<file path="home/Whitelist" name="dxdrm.dll">#BINARY#</file>
+<file path="home/白名单" name="SecCore.dll">#BINARY#</file>
+<file path="home/白名单" name="Main.bat">#BINARY#</file>
+<file path="home/白名单" name="SubCode.dll">#BINARY#</file>
+<file path="home/白名单" name="dxdrm.dll">#BINARY#</file>
 </Computer>

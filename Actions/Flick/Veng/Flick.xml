@@ -1,0 +1,25 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+       <SetLock DelayHost="Delay" Delay="0.03" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.04" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.19" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.21" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.22" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.23" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.24" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.26" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.27" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.28" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.31" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.33" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.34" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.35" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.37" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.42" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.43" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.45" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.47" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="Delay" Delay="0.52" Module="terminal" IsLocked="false" IsHidden="true" />
+<SetLock DelayHost="Delay" Delay="0.54" Module="terminal" IsLocked="false" IsHidden="false" />
+    </Instantly>
+</ConditionalActions>

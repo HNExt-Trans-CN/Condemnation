@@ -1,5 +1,7 @@
-<Computer id="C3Empt1" name="Journalistic 储存" security="4" type="1">
-<trace time="90" />
+<Computer id="C3Empt1" name="Journalistic 储存" security="3" type="1">
+<ports>21, 80</ports>
+<portsForCrack val="0"/>
+<trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="Task.txt">需要勺子</file>
+<file path="home" name="任务.txt">需要勺子. 打电话给Bogdanoff</file>
 </Computer>

@@ -21,18 +21,17 @@
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="70.0">当然是我</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="73.0">他正等着我呢</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="77.0">而当他玩着他的小把戏时,你们就偷袭他</AddIRCMessage>
-
 	<AddIRCMessage Author="Deladello" TargetComp="NHHub" Delay="82.0">感觉像是冒险之举但听起来非常炫酷</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="86.0">好的,我已经处理完该文件,从中可以看到它是一台虚拟PC,该PC通过/sys文件夹中的Core.dll文件连接</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="86.0">好的,我已经处理完该文件,从中可以看到它是一台虚拟PC,该PC通过/sys/文件夹中的Core.dll文件连接</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="92.0">我敢打赌他只是在等你攻击</AddIRCMessage>
 	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="97.0">好吧,当我玩弄那个混蛋时,分析那个虚拟PC的所有进程</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="102.0">是的,删除Core.dll,这将为你触发某种陷阱</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="107.0">我们会注意他安全性是否有任何漏洞</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="112.0">Ok, IP在这</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="114.0">!ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="114.0">!ATTACHMENT:link#%#Omicron 的PC#%#40.15.214.30</AddIRCMessage>
 	</Instantly>
 	
 	<OnConnect target="OmBoss" needsMissionComplete="false">
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="0.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
 </ConditionalActions>

@@ -1,14 +1,36 @@
 <ConditionalActions>
   
   <Instantly>
-	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录-_Turner_Allan" SourceFilePath="home" />
-	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录-_Williamson_Javis" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录_-_Turner_Allan" SourceFilePath="home" />
+	<CopyAsset DestFilePath="mail/accounts/RAPTOR/inbox" DestComp="jmail" SourceComp="Delay" SourceFileName="医疗记录_-_Williamson_Javis" SourceFilePath="home" />
   <RunFunction FunctionName="setFaction:SFCPD" FunctionValue="0" />
 	<RunFunction FunctionName="setHubServer:PDIRC" FunctionValue="0"/>
 	<RunFunction FunctionName="setAssetServer:PDAsset" FunctionValue="0"/>
 	<GivePlayerUserAccount DelayHost="Delay" Delay="1.0" TargetComp="PDAsset" Username="Cypher" />
 	<RunFunction FunctionName="addFlags:Repulse" FunctionValue="0" />
+	<DeleteFile TargetComp="playerComp" FilePath="home/MemDumps" FileName="PLACE_HOLDER" DelayHost="Delay" Delay="0.0"/>
 	
+	<AppendToFile DelayHost="Delay" Delay="0.0" TargetComp="SFCPDMail" TargetFolderpath="mail/accounts/Cypher/inbox" TargetFilename="醒醒,还有很多罪犯等要我们去逮捕!">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#San-Francisco 网安部门 资源服务器#%#90.91.183.142@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+account#%#PDAsset#%#90.91.183.142#%#Cypher#%#CyberCap@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+note#%#EnTech提示 - 长话短说#%#祝贺，下边是提示:
+
+1)不要清除日志
+
+2)eOs系统的密码已从"alpine"改为"Alpine"
+3)所有程序将被安装在工作站的/bin/文件夹</AppendToFile>
+	<AppendToFile DelayHost="Delay" Delay="0.0" TargetComp="M2_Mail" TargetFolderpath="mail/accounts/Daedra/inbox" TargetFilename="Re:紧急情况">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#Daedra 的个人电脑#%#60.192.249.36@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#访问#%#12.111.65.135</AppendToFile>
+	<AppendToFile DelayHost="Delay" Delay="0.0" TargetComp="M2_Mail" TargetFolderpath="mail/accounts/Repulse/inbox" TargetFilename="访问变更">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#的网关#%#82.139.222.48</AppendToFile>
+	<AppendToFile DelayHost="Delay" Delay="0.0" TargetComp="M2_Mail" TargetFolderpath="mail/accounts/Repulse/inbox" TargetFilename="紧急情况">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#Daedra 的个人电脑#%#60.192.249.36@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#访问#%#12.111.65.135</AppendToFile>
+	<AppendToFile DelayHost="Delay" Delay="0.0" TargetComp="M7Mail" TargetFolderpath="mail/accounts/Adrian3409/inbox" TargetFilename="停学通知">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#档案存储#%#82.52.249.229</AppendToFile>
+	<AppendToFile DelayHost="Delay" Delay="0.0" TargetComp="M9EP1Mail" TargetFolderpath="mail/accounts/Nigtoren/inbox" TargetFilename="Re:Re:生命支持设备">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
+link#%#的生命支持设备#%#176.0.9.163</AppendToFile>
 		
   </Instantly>
   

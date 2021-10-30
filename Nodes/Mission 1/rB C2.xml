@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rB_Tab_MF" name="数字之风 服务器群" ip="156.218.207.104" icon="DLCServer" type="empty">
-<ports>21, 22, 25, 554, 1433</ports>
+<Computer id="M1rB_Tab_MF" name="Rizer | 服务器集群" ip="156.218.207.104" icon="DLCServer" type="empty">
+<ports>21, 22, 80, 554, 1433</ports>
 <portsForCrack val="5"/>
 <firewall level="8" solution="fakenews" additionalTime="0"/>
 <trace time="120"/>

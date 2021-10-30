@@ -5,72 +5,72 @@ delay 0.2 $#%#$
 hideRam $#%#$
 delay 0.2 $#%#$
 hideDisplay $#%#$
-delay 0.5 $#%#$
-writel #检测到外部语音来源,已开启自动翻译# $#%#$
-delay 0.68 $#%#$
+delay 1.00 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent Omicron: $#%#$
 writel_silent $#%#$
 writel_silent 差点啊 $#%#$
-delay 2.28 $#%#$
+delay 2.08 $#%#$
 writel_silent 你差点逮着我了 $#%#$
-delay 2.88 $#%#$
+delay 2.41 $#%#$
 writel_silent $#%#$
 writel_silent 至少那是你的想法 $#%#$
-delay 2.58 $#%#$
+delay 2.68 $#%#$
 writel_silent $#%#$
 writel_silent 但实际上 $#%#$
-delay 2.03 $#%#$
+delay 2.38 $#%#$
 writel_silent $#%#$
 writel_silent 你从来没有像现在这样远离我 $#%#$
-delay 4.88 $#%#$
+delay 4.70 $#%#$
 writel_silent $#%#$
 writel_silent 追逐自己的尾巴 $#%#$
-delay 2.40 $#%#$
+delay 2.25 $#%#$
 writel_silent 像一条傻狗 $#%#$
-delay 2.17 $#%#$
+delay 2.43 $#%#$
 writel_silent 那才是你真正的身份 $#%#$
-delay 2.73 $#%#$
+delay 2.81 $#%#$
 writel_silent $#%#$
 writel_silent 我对你寄予厚望 $#%#$
-delay 3.49 $#%#$
+delay 3.42 $#%#$
 writel_silent 你应该成为我最大的项目 $#%#$
-delay 3.55 $#%#$
+delay 3.43 $#%#$
 writel_silent 但是我错了 $#%#$
-delay 1.81 $#%#$
+delay 3.72 $#%#$
 writel_silent 你是一个彻底的失败 $#%#$
-delay 2.57 $#%#$
+delay 3.81 $#%#$
 writel_silent $#%#$
 writel_silent 无需继续我们的互动 $#%#$
-delay 2.91 $#%#$
+delay 2.82 $#%#$
 writel_silent 你太软弱了无法执行我的计划 $#%#$
-delay 2.66 $#%#$
+delay 2.83 $#%#$
 writel_silent 所以我已经寄给你一个保姆 $#%#$
-delay 3 $#%#$
+delay 3.57 $#%#$
 writel_silent $#%#$
 writel_silent 你知道是什么害你落到现在这局面吗? $#%#$
-delay 2.41 $#%#$
+delay 2.71 $#%#$
 writel_silent 优柔寡断,迟疑不决 $#%#$
-delay 3.62 $#%#$
+delay 4.94 $#%#$
 writel_silent 你不明白你在争取什么 $#%#$
-delay 3.25 $#%#$
+delay 3.53 $#%#$
 writel_silent 你正在尝试使事情变得正确,但你不知道什么是正确的 $#%#$
-delay 5.68 $#%#$
+delay 5.03 $#%#$
 writel_silent 你的愤怒还不够 $#%#$
-delay 3.12 $#%#$
-writel_silent 你需要牺牲,让别人害怕你 $#%#$
-delay 5.31 $#%#$
+delay 2.90 $#%#$
+writel_silent 你需要牺牲 $#%#$
+delay 2.42 $#%#$
+writel_silent 让别人害怕你 $#%#$
+delay 3.85 $#%#$
 writel_silent 这就是这个世界的运作方式 $#%#$
-delay 3.88 $#%#$
+delay 4.42 $#%#$
 writel_silent $#%#$
 writel_silent 临阵换将不会带给你任何好处 $#%#$
-delay 5.10 $#%#$
+delay 4.36 $#%#$
 writel_silent 那是你应该学到的东西 $#%#$
-delay 3.52 $#%#$
+delay 3.85 $#%#$
 writel_silent $#%#$
 writel_silent 永别了 $#%#$
-delay 1.90 $#%#$
+delay 1.53 $#%#$
 write_silent Cypher... $#%#$
-delay 1.10 $#%#$
+delay 2.39 $#%#$
 hideTerminal $#%#$

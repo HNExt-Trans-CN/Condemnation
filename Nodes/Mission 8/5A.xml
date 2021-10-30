@@ -1,4 +1,6 @@
 <Computer id="C5A" name="Spoofer 的网关" security="3" type="4">
-<trace time="90" />
+<ports>22, 21</ports>
+<portsForCrack val="2"/>
+<trace time="-1" />
 <admin type="progress"/>
 </Computer>

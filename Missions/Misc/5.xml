@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="M8 5" activeCheck="true">
   <goals>
-  <goal type="fileupload" target="playerComp" file="Contact_Note.txt" path="home/Contact_Note" destTarget="C5C" destPath="home"/>
+  <goal type="fileupload" target="playerComp" file=">_联系我.txt" path="home/Notes" destTarget="C5C" destPath="home"/>
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C5.xml</missionStart>
   <nextMission>Missions/Misc/R/Delay.xml</nextMission>
-  <posting title="警察调查">
-San Francisco网安部的探员在我们附近闲逛,给个人数据泄露业务带来不便
+  <posting title="Police Investigation">
+Detective of a San-Francisco CyberPolice Department poking around us, making an inconvenience for a personal data leakage business
   </posting>
   <email>
     <sender>E-Mail</sender>
@@ -14,29 +14,30 @@ San Francisco网安部的探员在我们附近闲逛,给个人数据泄露业务
     <body>此电子邮件由从外部收件箱接收:
 
 你好。我们在条子那边遇到了些麻烦。他们的一名探员真的很激进并且破坏了我们的业务,我们需要将他排除在游戏之外,但是尽管我们的服务器上存在一些外部活动,我们找不到任何日志。
- 
+
 我们将链接我们的网关之一,希望你能在其中找到任何东西。 
- 
+
 	个人笔记: 
 这是我的部下! 
 当然首先得联系他们 
- 
+
 但是怎么做? 
- 
+
 谁正在调查此案? 
- 
+
 我做了个笔记 
 尽管如此,它也可能毁了我的整个计划 
 但是我必须抓住这个机会 
- 
+
 如果是我下属的人,他们会明白 
 希望他不会揭发我 
- 
+
 目标: 
-1) 查找神秘的探员并进行联系（将PC/home文件夹中的联系人记录上载到该探员的PC/home文件夹中）
+1) 查找神秘的探员并进行联系（将PC/home文件夹中的联系人记录上载到该探员的PC/home/Notes/文件夹中）
 </body>
     <attachments>
 	<link comp="C5A" />
+	<note title="目标">1) 查找神秘的探员并进行联系（将PC/home/Notes/文件夹中的联系人记录上载到该探员的PC/home文件夹中）</note>
     </attachments>
   </email>
 </mission>

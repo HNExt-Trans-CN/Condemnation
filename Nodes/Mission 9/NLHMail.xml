@@ -1,11 +1,11 @@
-<Computer id="M9EP1Mail" name="NLH Hospital 内部邮件服务器" ip="222.116.127.15" security="5" type="4">
+<Computer id="M9EP1Mail" name="NLH Hospital | 内部邮件服务器" ip="222.116.127.15" security="5" type="4">
 <account username="Nigtoren" password="PAC5yb" type="2" />
 <portsForCrack val="101" />
 <trace time="10" />
 <admin type="progress"/>
-<mailServer name="Never Loose Hope Hospital" color="0,255,141" generateJunk="false">
-<email recipient="Nigtoren" sender="Kellis BT" subject="生命支持设备已发货">你好 Dr. Evans, 一个额外的生命支持设备已经到达NLH Hospital,我们希望我们对你的新医疗政策的支持将使我们成为未来业务的重要合作伙伴。 
- 
+<mailServer name="Never Lose Hope Hospital" color="0,255,141" generateJunk="false">
+<email recipient="Nigtoren" sender="Kellis BT" subject="生命支持设备已发货">你好 Dr. Evans, 一个额外的生命支持设备已经到达NLH Hospital,我们希望我们对你的新医疗政策的支持将使我们成为未来业务的重要合作伙伴。
+
 	祝你身体健康, 
 	Mary - 运输部</email>
 <email recipient="Nigtoren" sender="Simon" subject="Re:Re:生命支持设备">谢谢你 Dr. Evans! 

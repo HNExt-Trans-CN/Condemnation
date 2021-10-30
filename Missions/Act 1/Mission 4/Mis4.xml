@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission 4 Memd" activeCheck="false">
+  <goals>
+  <goal type="fileupload" target="M4_Home" file="netcfgx.dll" path="sys" destTarget="PDAsset" destPath="Drop/Uploads"/>
+  </goals>
+  
+  <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 4/Link.xml</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <branchMissions>
+		<branch>Missions/Act 1/Mission 4/MemD.xml</branch>
+  </branchMissions>
+  <posting title="Repulse的拦截">
+完成今天的黑客攻击操作并找到第二个黑客的主机
+  </posting>
+  <email>
+    <sender>Javis</sender>
+    <subject>排斥的工作类型</subject>
+    <body>
+很高兴知道你急于完成此事,队长! 
+
+我和Bloyd分析了Daedra的netcfgx.dll。 还记得他们提到过IRC和一些文件上传服务器吗? 我们找到了他们。 
+
+Bloyd黑入了文件上传服务器。他得到了一个名叫Olivia Brooks的人的医疗档案,这意味着这是违反保密性的合同。 
+
+而且,你必须进入他们的IRC服务器,并找到某种方法来到达Repulse的家用工作站,获取他的netcfgx.dll并上传到资源服务器。 同时,我将对该动态邮件服务器进行调查,我们没有从中获得安全证书,这意味着它们不是可信赖的服务。 
+
+这个案件结束后,我们可以开始会议。 队长,祝你好运。 
+
+    -J
+  
+目标: 
+1)黑入Repulse的个人电脑然后上传他的netcfgx.dll到我们的资源服务器</body>
+    <attachments>
+	<link comp="M4_IRC" />
+	 <note title="目标">1)黑入Repulse的个人电脑然后上传他的netcfgx.dll到我们的资源服务器</note>
+    </attachments>
+  </email>
+</mission>

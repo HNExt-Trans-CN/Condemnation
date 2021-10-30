@@ -1,5 +1,9 @@
-<Computer id="M9Mike" name="Mike 的PC" ip="173.135.163.31" security="5" icon="Laptop" type="2">
-<trace time="90" />
+<Computer id="M9Mike" name="Mike 的PC" ip="173.135.163.31" icon="laptop" type="2">
+<ports>21, 25, 80</ports>
+<portsForCrack val="3"/>
+<portRemap>21=265,80=745,25=595</portRemap>
+<firewall solution="Cracker007" additionalTime="0.0"/>
+<trace time="30" />
 <admin type="progress"/>
 <file path="home/IRC_FRAGMENTATOR" name="IRC_09.log">//[09:21]/Mike/我见过最有趣的事情是我们的管理员如何管理他的访问数据XD //
 //[09:21]/Dalvin/怎么管理的他?//

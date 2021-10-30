@@ -1,9 +1,10 @@
-<Computer id="OmSource" name="攻击_脚本 源" ip="204.63.174.159" security="5" type="4">
-<adminPass pass="tnI4VeFa" />
-<portsForCrack val="101" />
+<Computer id="OmSource" name="攻击_脚本 源" ip="204.63.174.159" security="3" type="4">
+<ports>21,22,25,80,1433,6881,554</ports>
+<adminPass pass="script666" />
+<portsForCrack val="9999999" />
 <trace time="-1" />
 <admin type="progress"/>
-<file path="home/Backup" name="OSequencer.exe">#EXT_SEQUENCER_EXE#</file>
+<file path="bin/Backup" name="OSequencer.exe">#EXT_SEQUENCER_EXE#</file>
 <file path="home/Transmitter" name="OSequencer.exe">#EXT_SEQUENCER_EXE#</file>
 <file path="home/Transmitter" name="Session.dll">#BINARY#</file>
 </Computer>

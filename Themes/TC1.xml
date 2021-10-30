@@ -20,7 +20,7 @@
   <exeModuleTitleText>155,85,37,0</exeModuleTitleText>
 
   <!-- Extra Options -->
-  <warningColor>255,0,0</warningColor>
+  <warningColor>255,255,255</warningColor>
   <subtleTextColor>90,90,90</subtleTextColor>
   <darkBackgroundColor>8,8,8</darkBackgroundColor>
   <indentBackgroundColor>12,12,12</indentBackgroundColor>

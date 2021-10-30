@@ -7,6 +7,7 @@
 	<AddConditionalActions Filepath="Actions/Act 2/Failure/Flag1.xml" DelayHost="Delay" Delay="191.77"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Failure/Flag1R.xml" DelayHost="Delay" Delay="206.12"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Failure/Music.xml" DelayHost="Delay" Delay="0.0"/>
+	<AddConditionalActions Filepath="Actions/Flick/Boss/Start.xml" DelayHost="Delay" Delay="0.0"/>
 	<HideAllNodes DelayHost="Delay" Delay="6.03"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/Start.txt" DelayHost="Delay" Delay="0.0" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Failure/Om.txt" DelayHost="Delay" Delay="15.71" SourceComp="OmBoss" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
@@ -31,6 +32,6 @@
 	</Instantly>
 	
 	<OnConnect target="OmSource" needsMissionComplete="false">
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmSource.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmSource.txt" DelayHost="Delay" Delay="0.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
 </ConditionalActions>

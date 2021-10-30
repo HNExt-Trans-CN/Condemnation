@@ -1,5 +1,5 @@
 config 156.218.207.104 73.229.139.24 0.2 $#%#$
 connect $#%#$
 delete /sys x-server.sys $#%#$
-setAdminPass StalinIsDaBest $#%#$
+setAdminPass BladiIsDaBest $#%#$
 disconnect $#%#$

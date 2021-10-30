@@ -16,12 +16,12 @@
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="45.0">他很可能部署了EnSec,但你拥有EnBreak</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="50.0">但我认为你不会有机会</AddIRCMessage>
 	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="55.0">Ok, 给你</AddIRCMessage>
-	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="57.0">!ATTACHMENT:link#%#Omicron's PC#%#40.15.214.30</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="57.0">!ATTACHMENT:link#%#Omicron 的PC#%#40.15.214.30</AddIRCMessage>
 	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="59.0">永别,还有别再回来...</AddIRCMessage>
 	</Instantly>
 	
 	<OnConnect target="OmBoss" needsMissionComplete="false">
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/OmBoss.txt" DelayHost="Delay" Delay="0.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	<HideNode DelayHost="Delay" Delay="0.0" TargetComp="NHHub" />
 	<ChangeIP DelayHost="Delay" Delay="0.0" TargetComp="NHHub" NewIP="#RANDOM_IP#" />
 	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="Delay" Delay="0.0"/>

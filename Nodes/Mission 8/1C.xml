@@ -1,5 +1,8 @@
-<Computer id="C1C" name="FJR-Insurance 账务部" security="4" type="1">
-<trace time="90" />
+<Computer id="C1C" name="FJR-Insurance | 账务部" security="4" type="1">
+<ports>554, 22, 21, 1433, 80</ports>
+<portsForCrack val="4"/>
+<firewall level="20" solution="NoMoreRoomForBackups" additionalTime="-0.3"/>
+<trace time="120" />
 <admin type="progress"/>
 <file path="home/02_20" name="Budget.pdf">#BINARY#</file>
 <file path="home/01_20" name="Budget.pdf">#BINARY#</file>
@@ -15,4 +18,5 @@
 <file path="home/07_19" name="Fin-Rep.accdb">#BINARY#</file>
 <file path="home/06_19" name="Budget.pdf">#BINARY#</file>
 <file path="home/06_19" name="Fin-Rep.accdb">#BINARY#</file>
+<CustomConnectDisplayDaemon />
 </Computer>

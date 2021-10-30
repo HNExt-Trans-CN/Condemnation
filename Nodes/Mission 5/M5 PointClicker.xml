@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5PoCl" name="Point Clicker!" ip="73.254.28.94" security="3" type="3">
+<Computer id="M5PoCl" name="Point Clicker!" ip="73.254.28.94" security="3" icon="DLCServer" type="3">
 
 
 <PointClicker />

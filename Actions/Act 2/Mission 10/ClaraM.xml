@@ -1,5 +1,6 @@
 <ConditionalActions>
 	<Instantly>
+	<RunFunction FunctionName="addFlags:M10Active" FunctionValue="0" />
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="3.0">!ANNOUNCEMENT! Admin=FIHef3ih @channel</AddIRCMessage>
 	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">试试</AddIRCMessage>
 	</Instantly>
@@ -20,33 +21,35 @@
 	
 	<OnConnect target="M10P1" needsMissionComplete="false">
 	<RunFunction FunctionName="addFlags:Node1" FunctionValue="0" />
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara1.txt" DelayHost="Delay" Delay="22.0" SourceComp="C5C" TargetComp="M10P1" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop1Check.xml" DelayHost="Delay" Delay="0.0"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara1R.txt" DelayHost="Delay" Delay="25.0" SourceComp="C5C" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node1.txt" DelayHost="Delay" Delay="15.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop1.xml" DelayHost="Delay" Delay="20.0"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node1.txt" DelayHost="Delay" Delay="10.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop1.xml" DelayHost="Delay" Delay="15.0"/>
 	</OnConnect>
 	<OnAdminGained target="M10P1">
 	<RunFunction FunctionName="removeFlags:Node1" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/LogClear1.xml" DelayHost="Delay" Delay="0.0"/>
 	</OnAdminGained>
 	
 	<OnConnect target="M10P2" needsMissionComplete="false">
 	<RunFunction FunctionName="addFlags:Node2" FunctionValue="0" />
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara2.txt" DelayHost="Delay" Delay="22.0" SourceComp="C5C" TargetComp="M10P2" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop2Check.xml" DelayHost="Delay" Delay="0.0"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara2R.txt" DelayHost="Delay" Delay="25.0" SourceComp="C5C" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Node2.txt" DelayHost="Delay" Delay="10.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop2.xml" DelayHost="Delay" Delay="15.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop2.xml" DelayHost="Delay" Delay="10.0"/>
 	</OnConnect>
 	<OnAdminGained target="M10P2">
 	<RunFunction FunctionName="removeFlags:Node2" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/LogClear2.xml" DelayHost="Delay" Delay="0.0"/>
 	</OnAdminGained>
 	
 	<OnConnect target="M10P3" needsMissionComplete="false">
 	<RunFunction FunctionName="addFlags:Node3" FunctionValue="0" />
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara3.txt" DelayHost="Delay" Delay="22.0" SourceComp="C5C" TargetComp="M10P3" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop3Check.xml" DelayHost="Delay" Delay="0.0"/>
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/Clara3R.txt" DelayHost="Delay" Delay="25.0" SourceComp="C5C" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop3.xml" DelayHost="Delay" Delay="15.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/Loop3.xml" DelayHost="Delay" Delay="10.0"/>
 	</OnConnect>
 	<OnAdminGained target="M10P3">
 	<RunFunction FunctionName="removeFlags:Node3" FunctionValue="0" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/LogClear3.xml" DelayHost="Delay" Delay="0.0"/>
 	</OnAdminGained>
 </ConditionalActions>

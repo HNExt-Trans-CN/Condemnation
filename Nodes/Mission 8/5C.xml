@@ -1,4 +1,6 @@
-<Computer id="C5C" name="Clara 的工作站" security="5" type="4">
+<Computer id="C5C" name="Clara 的工作站" icon="DLCLaptop" type="4">
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
 <trace time="60" />
 <admin type="progress"/>
 <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>

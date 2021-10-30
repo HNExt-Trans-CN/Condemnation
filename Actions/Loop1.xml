@@ -1,5 +1,6 @@
 <ConditionalActions>
   <HasFlags requiredFlags="NetMapHid">
+    <LaunchHackScript Filepath="HackerScripts/Act 2/Mission 6/Stupid.txt" DelayHost="Delay" Delay="0.0" SourceComp="Delay" TargetComp="M6Stupid" RequireLogsOnSource="false" RequireSourceIntact="true"/>
     <SetLock DelayHost="Delay" Delay="0.1" Module="netmap" IsLocked="false" IsHidden="true" />
     <AddConditionalActions Filepath="Actions/Loop1.xml" Delay="1.0" DelayHost="Delay" />
   </HasFlags>

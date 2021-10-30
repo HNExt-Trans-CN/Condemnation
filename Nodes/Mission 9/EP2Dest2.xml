@@ -1,4 +1,4 @@
-<Computer id="M9EP2D2" name="James Sand 的生命支持设备" type="4">
+<Computer id="M9EP2D2" name="James Sand 的生命支持设备" icon="chip" type="4">
 <ports>104</ports>
 <portsForCrack val="1" />
 <trace time="-1" />

@@ -1,0 +1,7 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+    <CopyAsset DestFileName="Dump_144_Westbrook_University_培训实践中心.mem" DestFilePath="home/MemDumps" DestComp="playerComp" SourceComp="playerComp" SourceFileName="Westbrook_University_??????_dump.mem" SourceFilePath="home/MemDumps"/>
+    <DeleteFile TargetComp="playerComp" FilePath="home/MemDumps" FileName="Westbrook_University_??????_dump.mem"/>
+    <LoadMission MissionName="Missions/Act 2/Mission 7/DumpCross.xml"/>
+	</Instantly>
+</ConditionalActions>

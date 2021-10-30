@@ -7,37 +7,41 @@
 <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 1/rB Actions.xml</missionStart>
 <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 1/Link.xml</missionEnd>
 <nextMission>NONE</nextMission>
-<posting title="骇客主义">
+<posting title="鼠标癫狂">
 
-主要嫌疑人是共产主义的宣传者,并且使用非常激进的策略。
+主要嫌疑人是Rizer公司的一位心烦意乱的客户，他使用非常激进的"退款"策略。
 
-在年轻的最高纲领主义者对此做出反应之前,我们必须做些事情。
+我们必须做点什么，以免旧金山的大量电脑鼠标损毁。
 </posting>
 <email>
 	<sender>Clara</sender>
-	<subject>数码斯大林回来了</subject>
+	<subject>鼠标癫狂</subject>
 	<body>
 我就知道你会接这个任务。 我和Javis将负责剩下的两个。 
- 
-这个家伙攻击了新闻服务器,并新闻更改为他荒唐的政治宣传。 
- 
-我们必须跟踪他的PC的IP并将其逮着。 我将一个前端服务器附在了附件里,但很可能你必须四处找找才能找到该家伙的一些踪迹。 
- 
-至于怎么黑进去,那个混蛋在整个基础设施上更改了管理员密码,不过这意味着我们可以使用破解工具。 
- 
-我们需要他的netcfgx.dll,你可以在sys/中找到它。上传它到我们的资源服务器,我们就能了解他的一切。 
- 
-祝你好运! 
-    -C 
- 
+
+这家伙因为12键鼠标的按键还是太少而生气，他试图自己在上面添加另外3个按钮。 在一次不成功的尝试之后，他申请了退款，但显然遭到了拒绝。
+
+之后，他攻击了当地Rizer商店的首页，并获得了对其内部网络的访问权，并彻底摧毁了店面内的所有计算机鼠标。
+
+我们必须跟踪他的 PC 的 IP 并将他摧毁。 我将链接一个前端服务器，但很可能你必须四处找找服务器集群才能找到那个人的一些踪迹。
+
+至于访问，那个混蛋更改了整个网络的管理员密码，这意味着我们必须只能自己破解黑进去。
+
+找到他的IP并黑入他，然后从/sys/获取他的netcfgx.dll上传到Asset服务器，一旦你完成，我们就知道他的一切了。
+
+祝你好运！
+    
+    -C
+
 专业提示: 
 利用日志查找犯罪分子的轨迹 
- 
+
 目标: 
-1)黑入破坏者的战机,并将其netcfgx.dll上传到资源服务器
+1)黑入黑客的工作站并上传他的netcfgx.dll到资源服务器
 </body>
 <attachments>
 	<link comp="M1rB_Tab"/>
+	<note title="目标">1)黑入黑客的工作站并上传他的netcfgx.dll到资源服务器</note>
 </attachments>
 </email>
 </mission>

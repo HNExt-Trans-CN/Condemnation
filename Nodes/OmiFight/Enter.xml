@@ -1,8 +1,22 @@
-<Computer id="OmBoss" name="Omicron 的PC" ip="40.15.214.30" security="5" type="4">
+<Computer id="OmBoss" name="Omicron 的PC" ip="40.15.214.30" security="5" icon="DLCPC2" type="4">
 <adminPass pass="jGlQbO" />
-<portsForCrack val="101" />
+<portsForCrack val="9999999" />
 <trace time="-1" />
 <admin type="progress"/>
+<file path="home/AstraNotes" name="TO_YOU">到了最后的时刻了
+在这炼狱之门之前
+你是要成为屠龙的勇者
+亦或是拯救公主的英雄
+
+你也许并不知道
+但是一言既出驷马难追
+不管结果如何
+你都必须接受
+
+不管结局如何
+记住一个简单的规则
+"动词也许无用
+而名词绝不撒谎"</file>
 <file path="sys" name="Astra_OS.dll">#BINARY#</file>
 <file path="sys" name="libs.dll">#BINARY#</file>
 <file path="sys" name="Core.dll">#BINARY#</file>

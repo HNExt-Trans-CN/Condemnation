@@ -6,7 +6,7 @@
 <eosDevice name="Daedra's ePhone XR" id="M2_eos" icon="ePhone2" empty="false" passOverride="Alpine">
 <mail username="Daedra@dynamic.com" pass="JujaPic123" />
 </eosDevice>
-<file path="home" name="Reminder">动态邮件服务器IP更新器将每周更改IP
+<file path="home" name="提示">动态邮件服务器IP更新器将每周更改IP
 
 这周的ip: "43.58.94.100"</file>
 <dlink target="M2_P2" />

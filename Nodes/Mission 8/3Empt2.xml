@@ -1,5 +1,9 @@
-<Computer id="C3Empt2" name="Gossip 储存" security="4" type="1">
-<trace time="90" />
+<Computer id="C3Empt2" name="Gossip 储存" security="3" type="1">
+<ports>21, 80</ports>
+<portsForCrack val="0"/>
+<trace time="-1" />
 <admin type="progress"/>
-<file path="home" name="To_Jane.txt">还我的卫生纸!</file>
+<file path="home" name="To_Jane.txt">把厕纸换回来
+
+不然下篇文章就是关于你，你个臭婊子!</file>
 </Computer>

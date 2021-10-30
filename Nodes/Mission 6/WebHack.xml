@@ -1,4 +1,6 @@
-<Computer id="M6Web" name="文件存放节点" ip="212.42.92.36" security="2" type="2">
+<Computer id="M6Web" name="文件存放节点 (Delta)" ip="212.42.92.36" security="4" type="2">
+<ports>21, 22, 25, 1433</ports>
+<portsForCrack val="2"/>
 <trace time="-1" />
 <admin type="progress"/>
 <file path="home/Gift" name="WebServerWorm.exe">#WEB_CRACK#</file>
@@ -10,7 +12,7 @@
 		<Command>ls</Command>
 		<Command>cd /log</Command>
 		<Command>rm *</Command>
-		<Command>reboot</Command>
+		<Command>dc</Command>
 	</Commands>
 </Memory>
 </Computer>

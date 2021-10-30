@@ -1,4 +1,6 @@
-<Computer id="M7IRC" name="Oblivion 计划" ip="120.138.80.110" security="3" type="4">
+<Computer id="M7IRC" name="Oblivion 计划" ip="120.138.80.110" security="1" type="4">
+<ports>22, 21, 80, 25</ports>
+<portsForCrack val="3"/>
 <trace time="-1" />
 <admin type="progress"/>
 <IRCDaemon themeColor="252,0,230" name="Oblivion 计划" needsLogin="true">

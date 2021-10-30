@@ -1,10 +1,14 @@
-<Computer id="M7P3" name="Westbrook University 培训实践中心" security="2" type="4">
-<trace time="90" />
+<Computer id="M7P3" name="Westbrook University 培训实践中心" security="0" type="4">
+<ports>21, 22, 554</ports>
+<portsForCrack val="1"/>
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="M7P1" />
 <dlink target="M7P2" />
 <dlink target="M7Front" />
 <dlink target="M7P4" />
+<file path="home" name="别用MEMDUMP GENERATOR">我是认真的，除非你想吓到尖叫
+甚至让你你心脏骤停!</file>
 <Memory>
 	<Images>
       <Image>Logos/helo.jpg</Image>

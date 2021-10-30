@@ -1,5 +1,8 @@
-<Computer id="M9Source" name="网关" ip="108.174.163.243" security="5" type="4">
+<Computer id="M9Source" name="秘密网关" ip="108.174.163.243" security="3" type="4">
+<ports>22, 21, 80, 25, 1433, 554</ports>
+<portsForCrack val="6"/>
+<firewall level="13"/>
 <trace time="90" />
-<admin type="progress"/>
+<admin type="fast" isSuper="true" resetPassword="true"/>
 <dlink target="M9IRC" />
 </Computer>

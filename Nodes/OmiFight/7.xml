@@ -1,7 +1,7 @@
-<Computer id="OmBoss7" name="屎东西" type="4">
-<ports>1433, 554, 211, 21, 6881, 443</ports>
+<Computer id="OmBoss7" name="屎东西" security="2" type="4">
+<ports>21, 22</ports>
 
-<portsForCrack val="3" />
+<portsForCrack val="2" />
 <trace time="-1" />
 <admin type="none"/>
 <file path="home" name="Source_Fragment.txt">1=204</file>

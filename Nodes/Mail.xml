@@ -1,4 +1,4 @@
-<Computer id="jmail" name="Hacknet_OS 内部收件箱" security="5" icon="chip" type="3">
+<Computer id="jmail" name="Hacknet OS 内部收件箱" security="5" icon="chip" type="3">
 <account username="#PLAYERNAME#" password="" type="2" />
 <account username="RAPTOR" password="hgshrg" type="2" />
 <trace time="101" />
@@ -6,14 +6,23 @@
 <admin type="fast" resetPassword="true" isSuper="true" />
 <mailServer name="OS_Internal" color="255,141,0" generateJunk="false">
  <email recipient="#PLAYERNAME#" sender="EnTech" subject="内部收件箱">
-该收件箱是系统的一部分 
+该收件箱是系统的一部分。
 
-你可以在此处制作任何类型的日志或日记记录,以备将来参考 
+你可以在此处制作任何类型的日志或日记记录,以备将来参考。
 
-它还连接到你的外部收件箱:Vort_Moz@jmail.com 
+它还连接到你的外部收件箱:Vort_Moz@jmail.com 。
 
-其他Hacknet_OS用户可以通过外部收件箱与你联系 
+其他Hacknet_OS用户可以通过外部收件箱与你联系。
 
-你始终可以使用你的Hacknet_OS用户名和空密码访问内部收件箱 </email>
+你始终可以使用你的Hacknet_OS用户名和空密码访问内部收件箱。</email>
+<email recipient="#PLAYERNAME#" sender="EnTech" subject="系统自动翻译已启动!">你已经将中文设置为主要使用与显示语言。
+
+Hacknet_OS将过滤所有数据并尝试使用EnTranslator翻译，因为目前版本分发频道是experimental，所以可能会出现无法预测的错误。
+
+注意，并非所有文本都将(例子: 拉丁语系的姓名)。
+
+我们祝您在学习语言方面一切顺利!
+
+			-EnTech</email>
 </mailServer>
 </Computer>

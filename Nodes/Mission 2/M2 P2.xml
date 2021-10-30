@@ -1,4 +1,6 @@
 <Computer id="M2_P2" name="代理节点 X46" security="4" type="3">
+<ports>25, 80</ports>
+<portsForCrack val="2" />
 <trace time="90" />
 <admin type="progress"/>
 </Computer>

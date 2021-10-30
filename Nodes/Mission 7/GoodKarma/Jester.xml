@@ -1,5 +1,9 @@
-<Computer id="M7Jester" name="Jester 的PC" ip="158.245.255.177" security="3" type="2">
+<Computer id="M7Jester" name="Jester 的PC" ip="158.245.255.177" icon="DLCPC1" type="2">
+<ports>21, 22, 25, 6881</ports>
+<portsForCrack val="2"/>
+<portRemap>21=3305,22=911,6881=8618,25=61</portRemap>
 <trace time="40" />
-<firewall level="6" solution="fkcymt" additionalTime="0.3"/>
+<firewall level="6" solution="YoMama" additionalTime="0.1"/>
 <admin type="progress"/>
+<CustomConnectDisplayDaemon />
 </Computer>

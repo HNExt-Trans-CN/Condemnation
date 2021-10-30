@@ -1,5 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5GateP3" name="代理节点 VR01" security="3" type="empty">
+<Computer id="M5GateP3" name="代理节点 VR01" security="4" type="empty">
+<portsForCrack val="3" />
+  <ports>25, 554, 443</ports>
+  <trace time="90" />
 
 
  <file path="home/HackStation" name="SYNC_SUCCESS.log">更新成功:正在从此代理中删除同步文件

@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="Act 1 End" activeCheck="true">
   <goals>
-  <goal type="fileupload" target="M5EndRelay" file="Report_for_the_Boss.docx" path="home" destTarget="PDAsset" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="M5EndRelay" file="Report_-_向老板提供的报告.docx" path="home" destTarget="PDAsset" destPath="Drop/Uploads"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 5/End.xml</missionEnd>
-   <nextMission IsSilent="true">Missions/Act 1/Transfer/Transfer.xml</nextMission>
+   <nextMission IsSilent="true">Missions/Act 1/Transfer/ETAS.xml</nextMission>
   <email>
     <sender>NONE</sender>
     <subject>NONE</subject>

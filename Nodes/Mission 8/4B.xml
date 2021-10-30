@@ -1,107 +1,110 @@
-<Computer id="C4B" name="Union Gold 账户储存" security="5" type="1">
-<trace time="60" />
+<Computer id="C4B" name="Union Gold 账户储存" security="4" type="1">
+<ports>22, 25, 554</ports>
+<portsForCrack val="3"/>
+<proxy time="2"/>
+<trace time="-1" />
 <admin type="progress"/>
-<file path="home/Accounts" name="CJIS8319-4K9AHY69">编号: KJSN
+<file path="home/账户" name="CJIS8319-4K9AHY69">编号: KJSN
 姓名: Polly Thompson
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="IRBAY7R3-MEAWL341">编号: OESG
+<file path="home/账户" name="IRBAY7R3-MEAWL341">编号: OESG
 姓名: Gavin Douglas
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="NJDAW341-45IJIN52">编号: GHDW
+<file path="home/账户" name="NJDAW341-45IJIN52">编号: GHDW
 姓名: Nathan Blomfield
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="24BJ8F4Y-WDANJ4BH">编号: ASCP
+<file path="home/账户" name="24BJ8F4Y-WDANJ4BH">编号: ASCP
 姓名: Stacy Audley
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="FESNJK42-4782IYNF">编号: RMBI
+<file path="home/账户" name="FESNJK42-4782IYNF">编号: RMBI
 姓名: Eden Cramer
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="CDWNIJ4W-B359Z78R">编号: TSEN
-姓名: 男iguel Albertson
+<file path="home/账户" name="CDWNIJ4W-B359Z78R">编号: TSEN
+姓名: Miguel Albertson
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="32XRBY7M-2DUNSCU8">编号: 女NWE
+<file path="home/账户" name="32XRBY7M-2DUNSCU8">编号: FNWE
 姓名: Evan Dutton
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="YFGU2678-DH89D3HU">编号: LWTV
+<file path="home/账户" name="YFGU2678-DH89D3HU">编号: LWTV
 姓名: Alisha Donaldson
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="FVDBH534-N985EAYB">编号: PLAD
+<file path="home/账户" name="FVDBH534-N985EAYB">编号: PLAD
 姓名: Eve Flannagan
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="AJNK0523-D3UNX687">编号: NSEM
+<file path="home/账户" name="AJNK0523-D3UNX687">编号: NSEM
 姓名: Jordan Benson
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="JNS33ID4-1523LAVF">编号: ADWJ
+<file path="home/账户" name="JNS33ID4-1523LAVF">编号: ADWJ
 姓名: Richard Cook
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="NUIYCT2R-4753CD8U">编号: CZOS
-姓名: 男oira Austin
+<file path="home/账户" name="NUIYCT2R-4753CD8U">编号: CZOS
+姓名: Moira Austin
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="2NJK7B54-D9SIUVFH">编号: UNCS
+<file path="home/账户" name="2NJK7B54-D9SIUVFH">编号: UNCS
 姓名: Joseph Harris
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="WDH79UCH-59F7AWIK">编号: 男RWA
+<file path="home/账户" name="WDH79UCH-59F7AWIK">编号: MRWA
 姓名: Gabriel Ferguson
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="RJNA3RUI-6D8VIUAS">编号: VFAI
+<file path="home/账户" name="RJNA3RUI-6D8VIUAS">编号: VFAI
 姓名: Connon Coleman
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="TVGY6482-D8G93DKB">编号: TCSJ
+<file path="home/账户" name="TVGY6482-D8G93DKB">编号: TCSJ
 姓名: Jacob Hall
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="HCYU48XH-4CN8GEHS">编号: KRAE
+<file path="home/账户" name="HCYU48XH-4CN8GEHS">编号: KRAE
 姓名: Ruth Bush
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="US8R42UH-SAUINM35">编号: RCSU
+<file path="home/账户" name="US8R42UH-SAUINM35">编号: RCSU
 姓名: Rosemary Albertson
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="4NUI24TV-QOMZ6832">编号: GCWJ
+<file path="home/账户" name="4NUI24TV-QOMZ6832">编号: GCWJ
 姓名: Donna Conors
 性别: 女
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="N9AOYTVB-7B13B8DA">编号: URAB
+<file path="home/账户" name="N9AOYTVB-7B13B8DA">编号: URAB
 姓名: Alexander White
 性别: 男
 详情:
 #BINARY#</file>
-<file path="home/Accounts" name="EUXNNJ43-DA095THJ">编号: YANB
+<file path="home/账户" name="EUXNNJ43-DA095THJ">编号: YANB
 姓名: Susan Croftoon
 性别: 女
 详情:

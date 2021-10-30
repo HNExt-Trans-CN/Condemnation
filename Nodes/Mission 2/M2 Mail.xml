@@ -7,7 +7,6 @@
 <admin type="fast" resetPassword="true" isSuper="true"/>
 <mailServer name="动态邮箱" color="0, 255, 55" generateJunk="false">
 <email recipient="Daedra" sender="Repulse" subject="文件传输服务器架设完成">
-
 嘿,我已经完成了文件传输服务器的搭建,别人可以在那上传他们的垃圾了。
 
 我整到医疗档案就上传到服务器上去。稍后再发送详情给你。

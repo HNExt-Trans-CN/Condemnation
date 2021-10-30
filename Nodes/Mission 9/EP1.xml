@@ -1,10 +1,13 @@
-<Computer id="M9EP1" name="Kellis BioTech, 设备管理" ip="160.173.170.74" security="4" icon="kellis" type="1">
-<trace time="90" />
+<Computer id="M9EP1" name="Kellis BioTech | 设备管理" ip="160.173.170.74" icon="kellis" type="1">
+<ports>22, 21, 554</ports>
+<portsForCrack val="3"/>
+<portRemap>21=1433,22=80,554=6881</portRemap>
+<trace time="120" />
 <admin type="progress"/>
 <dlink target="M9EP1Gate" />
-<file path="home/Export" name="Details.txt">出口明细:
-Los Angeles:250个起搏器,45个生命支持单位
-San Francisco:200个起搏器,25个生命支持装置
+<file path="home/出口" name="明细.txt">出口明细:
+Los-Angeles:250个起搏器,45个生命支持单位
+San-Francisco:200个起搏器,25个生命支持装置
 Sacramento:150个起搏器,60个生命支持单位
 
 其他区域位置归档在其他基于位置的服务器上</file>

@@ -1,2 +1,4 @@
 config playerComp NHHub 0.1 $#%#$
-writel Prophet: 一个端口已被破解,开始破解另一个
+writel_silent $#%#$
+writel Prophet: 一个端口已被破解,开始破解另一个 $#%#$
+writel_silent

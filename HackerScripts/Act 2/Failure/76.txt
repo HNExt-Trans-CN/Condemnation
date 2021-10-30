@@ -1,2 +1,4 @@
 config playerComp OmBoss 0.0 $#%#$
-writel 上传进度: 76% 
+writel_silent $#%#$
+writel 上传进度: 76% $#%#$
+writel_silent 

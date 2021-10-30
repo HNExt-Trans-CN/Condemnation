@@ -2,9 +2,9 @@
 <mission id="Mission 7 Main R" activeCheck="true">
   <goals>
   <goal type="filechange" target="jmail" file="医疗记录_-_Williamson_Javis" path="mail/accounts/RAPTOR/inbox" keyword="12345" removal="true"/>
-  <goal type="filechange" target="academic" file="javis_williamson" path="academic_data/entry_cache" keyword="Admitted" removal="true"/>
-  <goal type="filechange" target="academic" file="javis_williamson" path="academic_data/entry_cache" keyword="Bachelor" removal="true"/>
-  <goal type="filechange" target="academic" file="javis_williamson" path="academic_data/entry_cache" keyword="Masters" removal="true"/>
+  <goal type="filechange" target="academic" file="javis_williamson" path="academic_data/entry_cache" keyword="获准在执法部门工作" removal="true"/>
+  <goal type="filechange" target="academic" file="javis_williamson" path="academic_data/entry_cache" keyword="网络安全学士" removal="true"/>
+  <goal type="filechange" target="academic" file="javis_williamson" path="academic_data/entry_cache" keyword="网络安全硕士" removal="true"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/Act 2/Mission 7/TransferBad.xml</missionEnd>
   <nextMission IsSilent="true">NONE</nextMission>

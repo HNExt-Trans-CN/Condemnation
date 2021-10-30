@@ -5,8 +5,8 @@
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/Load.xml</missionEnd>
   <nextMission IsSilent="true">NONE</nextMission>
-  <posting title="毒蛇行动">
-一项重要工作,可以将我们的团队提升到更高级别
+  <posting title="Operation Venomous Snake">
+A major job, that can promote our group to a higher league of hackers
   </posting>
   <email>
     <sender>NONE</sender>

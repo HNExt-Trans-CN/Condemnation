@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<Instantly>
+	<DeleteFile TargetComp="NHHub" FilePath="HomeBase/contracts" FileName="Contact_ODL1.ctc" DelayHost="Delay" Delay="0.0"/>
+	<DeleteFile TargetComp="NHHub" FilePath="HomeBase/contracts" FileName="Contact_ODL3.ctc" DelayHost="Delay" Delay="0.0"/>
+	<DeleteFile TargetComp="NHHub" FilePath="HomeBase/contracts" FileName="Contact_COMS.ctc" DelayHost="Delay" Delay="0.0"/>
+	</Instantly>
+</ConditionalActions>

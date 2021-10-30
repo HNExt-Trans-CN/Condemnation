@@ -1,5 +1,7 @@
-<Computer id="C1Empt3" name="FJR-Insurance 联邦联通部门" security="4" type="1">
-<trace time="90" />
+<Computer id="C1Empt3" name="FJR-Insurance | 联邦联通部门" security="4" type="1">
+<ports>25, 80</ports>
+<portsForCrack val="2"/>
+<trace time="30" />
 <admin type="progress"/>
 <file path="home" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
 </Computer>

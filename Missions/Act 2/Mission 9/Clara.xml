@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="M9 Clara" activeCheck="true">
   <goals>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP1D1" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D1" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D2" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP2D3" destPath="sys"/>
-  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/Venomous_Snake" destTarget="M9EP3D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP1D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP2D1" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP2D2" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP2D3" destPath="sys"/>
+  <goal type="fileupload" target="NHCross" file="HaHaTrap.bat" path="home/毒蛇行动" destTarget="M9EP3D1" destPath="sys"/>
   <goal type="hasflag" target="Clara_Contacted_M9"/>
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 9/Clara.xml</missionStart>

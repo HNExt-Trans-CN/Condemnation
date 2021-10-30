@@ -1,10 +1,11 @@
-<Computer id="M9EP2" name="NLH Hospital, West Wing" ip="222.176.165.116" security="4" icon="kellis" type="1">
-<trace time="90" />
+<Computer id="M9EP2" name="NLH Hospital | West Wing" ip="222.176.165.116" icon="kellis" type="1">
+<ports>21, 22, 80</ports>
+<portsForCrack val="3"/>
+<trace time="-1" />
 <admin type="progress"/>
 <dlink target="M9EP2Gate" />
 <CustomConnectDisplayDaemon />
-<LogoDaemon Name="Never Loose Hope Hospital" ShowsTitle="false" TextColor="255, 255, 255, 255" LogoImagePath="Logos/NLH.png">
-NLH Never Loose Hope Hospital
+<LogoDaemon Name="NEVER LOSE HOPE HOSPITAL" ShowsTitle="true" TextColor="255, 255, 255, 255" LogoImagePath="Logos/NLH.png">
 永不失去希望的医院
   </LogoDaemon>
 </Computer>

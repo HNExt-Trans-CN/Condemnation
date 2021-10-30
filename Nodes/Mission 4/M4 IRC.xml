@@ -1,7 +1,7 @@
-<Computer id="M4_IRC" name="HackSquad IRC" icon="DLCServer" type="3">
-<ports>21, 22, 25, 80, 1433</ports>
-<portsForCrack val="5" />
-<trace time="90" />
+<Computer id="M4_IRC" name="HackSquad IRC" security="1" type="3">
+<ports>21, 22</ports>
+<portsForCrack val="2" />
+<trace time="-1" />
 <admin type="progress"/>
 <IRCDaemon themeColor="0,255,55" name="HackSquad IRC" needsLogin="true">
 	<user name="Repulse" color="0,209,232"/>

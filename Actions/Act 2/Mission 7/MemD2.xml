@@ -1,0 +1,7 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+    <CopyAsset DestFileName="Dump_195_NightHawks_-_负载均衡服务器.mem" DestFilePath="home/MemDumps" DestComp="playerComp" SourceComp="playerComp" SourceFileName="NightHawks_|_???????_dump.mem" SourceFilePath="home/MemDumps"/>
+    <DeleteFile TargetComp="playerComp" FilePath="home/MemDumps" FileName="NightHawks_|_???????_dump.mem"/>
+    <LoadMission MissionName="Missions/Act 2/Mission 7/DumpMain.xml"/>
+	</Instantly>
+</ConditionalActions>

@@ -1,4 +1,8 @@
-<Computer id="C4A" name="Union Gold 服务器群" security="5" type="1">
+<Computer id="C4A" name="Union Gold 服务器群" icon="DLCServer" type="1">
+<ports>22, 21, 80, 25, 554</ports>
+<portsForCrack val="5"/>
+<portRemap>21=36027,80=2691,22=46676,25=91503,554=544</portRemap>
+<firewall solution="$$$RichBitch$$$" additionalTime="-0.05"/>
 <trace time="60" />
 <admin type="progress"/>
 <dlink target="C4B" />

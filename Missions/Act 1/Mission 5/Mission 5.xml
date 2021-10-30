@@ -6,21 +6,27 @@
   <missionStart val="0">loadConditionalActions:Actions/Act 1/Mission 5/Mission 5.xml</missionStart>
   <missionEnd val="0">loadConditionalActions:Actions/Act 1/Mission 5/Del.xml</missionEnd>
   <nextMission>Missions/Act 1/Mission 5/Next.xml</nextMission>
-  <posting title="Special Assignment">
+  <branchMissions>
+		<branch>Missions/Act 1/Mission 5/MemD1.xml</branch>
+		<branch>Missions/Act 1/Mission 5/MemD2.xml</branch>
+  </branchMissions>
+  <posting title="特殊任务">
+  *机密*
   </posting>
   <email>
     <sender>Diana</sender>
     <subject>狩猎</subject>
     <body>我们现在拥有的唯一信息是他们网关的IP。 尝试通过它找到他们的战机,并将其netcfgx.dll的副本上传到PD资源服务器里。
-
+	
 我在附件中为你提供IP
 	
-			-Diana
+    -Diana
 			
 目标:
-1)黑入黑客的战机并把他们的netcfgx.dll上传至资源服务器。</body>
+1)黑入黑客的战机并把他们的netcfgx.dll上传至资源服务器</body>
     <attachments>
 	<link comp="M5Gate" />  
+	<note title="目标">1)黑入黑客的战机并把他们的netcfgx.dll上传至资源服务器</note>
     </attachments>
   </email>
 </mission>

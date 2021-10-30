@@ -3,12 +3,9 @@
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
-  <posting title="屠龙行动">
+  <posting title="屠龙行动" client="ODL1">
 有些人对"老志"(Lao Zhin)的军火业务内部细节很感兴趣,客户要求所有贩运情报
-
-Jenkins - 准备适当的工具
-Slayer - 设置跟踪器和证物清除器
-  </posting>
+</posting>
   <email>
     <sender>NONE</sender>
     <subject>NONE</subject>

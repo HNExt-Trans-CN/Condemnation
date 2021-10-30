@@ -9,7 +9,7 @@
   <nextMission>NONE</nextMission>
   <posting title="数据盗贼">
 Macrosoft有（严格来讲,曾有）一个新的安全补丁,修复了一个允许进行远程访问的漏洞。 
- 
+
 我们需要从黑客手中恢复它,同时拿到他的系统文件。
 </posting>
 <email>
@@ -17,25 +17,29 @@ Macrosoft有（严格来讲,曾有）一个新的安全补丁,修复了一个允
 	<subject>抓住小偷--让世界更美好</subject>
 	<body>
 我就知道你会接这个任务。 我和Javis将负责剩下的两个。 
- 
+
 病毒渗透到了Macrosoft工作站中。 它本来应该受到很好的保护,所以我猜黑客使用了一些社会工程学知识。
- 
+
 Macrosoft向我们提供了访问权限,我将其链接到此处。 找到黑客的足迹,研究他所做的修改并恢复补丁。 不要忘记将其放回Macrosoft工作站的home文件夹中。 
- 
-哦,当然,从/sys文件夹获得他PC的netcfgx.dll,因此我们可以分析他的活动并将其逮捕。 
- 
-    -C 
+
+哦,当然,从/sys/文件夹获得他PC的netcfgx.dll,因此我们可以分析他的活动并将其逮捕。 
+
+祝你好运!
+
+    -C
 	
 专业提示: 
 利用日志查找犯罪分子的轨迹 
- 
+
 目标: 
-1)在黑客的其中一台计算机上找到Calculator_Patch.rar,并将其上传到Macrosoft 工作站的/home文件夹中 
+1)在黑客的其中一台计算机上找到Calculator_Patch.rar,并将其上传到Macrosoft 工作站的/home/文件夹中 
 2)黑入破坏者的PC,并将其netcfgx.dll上传到资源服务器
 </body>
 <attachments>
 	<link comp="M1rC_Macro"/>
 	<account comp="M1rC_Macro" user="admin" pass="FuckPear"/>
+	<note title="目标">1)在黑客的其中一台计算机上找到Calculator_Patch.rar,并将其上传到Macrosoft 工作站的/home文件夹中
+2)黑入破坏者的PC,并将其netcfgx.dll上传到资源服务器</note>
 </attachments>
 </email>
 </mission>

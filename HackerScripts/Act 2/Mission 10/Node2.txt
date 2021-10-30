@@ -1,12 +1,5 @@
 config playerComp NHHub 0.0 $#%#$
-hideNetMap $#%#$
-hideRam $#%#$
-hideDisplay $#%#$
-delay 1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
 writel ERROR: UI损坏,正在初始化恢复过程 $#%#$
-delay 1 $#%#$
-write_silent . $#%#$
-delay 1 $#%#$
-write_silent . $#%#$
-delay 1 $#%#$
-write_silent .
+writel_silent

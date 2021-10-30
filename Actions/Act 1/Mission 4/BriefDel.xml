@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly needsMissionComplete="false">
+	<DeleteFile TargetComp="PDIRC" FilePath="HomeBase/contracts" FileName="Contact_Brief.ctc" DelayHost="Delay" Delay="0.1"/>
+	</Instantly>
+</ConditionalActions>

@@ -2,7 +2,7 @@ config playerComp Delay 0.2 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
 writel_silent $#%#$
-writel ERROR: 锁定已解除$#%#$
+writel ERROR: 锁定已解除 $#%#$
 delay 1 $#%#$
 writel_silent $#%#$
 writel_silent $#%#$

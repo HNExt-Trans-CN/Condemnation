@@ -1,14 +1,17 @@
-<Computer id="C2B" name="James-Jonathan 的PC" security="4" icon="DLCLaptop" type="2">
-<trace time="90" />
+<Computer id="C2B" name="James-Jonathan 的PC" icon="laptop" type="2">
+<ports>22, 21, 25</ports>
+<portsForCrack val="3"/>
+<firewall level="8" solution="HotTeens" additionalTime="0.0"/>
+<trace time="200" />
 <admin type="progress"/>
-<file path="home/Work" name="Analitic_Report_Num16">#BINARY#</file>
-<file path="home/Work" name="Analitic_Report_Num29">#BINARY#</file>
-<file path="home/Work" name="Analitic_Report_Num09">#BINARY#</file>
-<file path="home/Work" name="Analitic_Report_Num13">#BINARY#</file>
-<file path="home/Work" name="Analitic_Report_Num22">#BINARY#</file>
-<file path="home/Personal" name="Plans.docx">亲爱的Kati! 我们的浪漫计划有一点小变化,这个周末我们要去另一个地方,别担心,James叔叔在城外找到了一家新的五星级酒店。
+<file path="home/工作事项" name="报告_No16">#BINARY#</file>
+<file path="home/工作事项" name="报告_No29">#BINARY#</file>
+<file path="home/工作事项" name="报告_No09">#BINARY#</file>
+<file path="home/工作事项" name="报告_No13">#BINARY#</file>
+<file path="home/工作事项" name="报告_No22">#BINARY#</file>
+<file path="home/个人事项" name="23_11_19_计划.docx">亲爱的Katie! 我们的浪漫计划有一点小变化,这个周末我们要去另一个地方,别担心,James叔叔在城外找到了一家新的五星级酒店。
 
 同时,看看我找到的新姿势,热辣的3P,所以我期待你和你最好的朋友Jane,当然,如果你想在New-Lane Ave的甜蜜公寓也可以。;)</file>
-<file path="home/Personal" name="Poses.png">#BINARY#</file>
-<file path="home/Personal" name="Notes.docx">以前的地方都会受到影响,我让David去寻找和预订加强的"隐私"政策的酒店,这个周末要去参观Marsh酒店,而Debra和孩子们正在度假。</file>
+<file path="home/个人事项" name="20_11_19_艳照.png">#BINARY#</file>
+<file path="home/个人事项" name="24_11_19_笔记.docx">以前的地方都会受到影响,我让David去寻找和预订加强的"隐私"政策的酒店,这个周末要去参观Marsh酒店,而Debra和孩子们正在度假。</file>
 </Computer>

@@ -1,0 +1,7 @@
+<ConditionalActions>
+	<Instantly>
+	<AddMissionToHubServer MissionFilepath="Missions/Empt/3A.xml" TargetComp="NHHub" AssignmentTag="Maverick"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Empt/3B.xml" TargetComp="NHHub" AssignmentTag="Jenkins"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Empt/3C.xml" TargetComp="NHHub" AssignmentTag="Slayer"/>
+	</Instantly>
+</ConditionalActions>

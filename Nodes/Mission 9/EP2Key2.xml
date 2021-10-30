@@ -1,7 +1,10 @@
-<Computer id="M9EP2Key2" name="安全部门 密钥数据库" security="5" type="4">
-<trace time="90" />
+<Computer id="M9EP2Key2" name="安全部门 | 密钥数据库" security="2" type="4">
+<ports>211</ports>
+<portsForCrack val="0"/>
+<firewall solution="HolyShitWhoWouldSetThisCrapAsPassword" additionalTime="-0.3"/>
+<trace time="-1" />
 <admin type="progress"/>
-<encryptedFile path="home" name="Passwords.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">TOKEN:密码
+<encryptedFile path="home" name=">_密码.dec" extension=".db" ip="222.176.165.116" header="Encrypted with DECSuite">TOKEN:密码
 VP39:GTV4hb
 TV65:CON1dp
 CR10:PAC5yb

@@ -1,4 +1,6 @@
-<Computer id="M7Front" name="Westbrook University 档案存储" ip="82.52.249.229" security="2" icon="DLCServer" type="4">
+<Computer id="M7Front" name="Westbrook University 档案存储" ip="82.52.249.229" security="3" type="4">
+<ports>21, 22, 1433, 554</ports>
+<portsForCrack val="2"/>
 <trace time="-1" />
 <admin type="progress"/>
 <dlink target="M7P1" />

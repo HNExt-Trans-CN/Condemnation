@@ -1,4 +1,8 @@
-<Computer id="M7MedIRC" name="Sutter Medical Center 外科部门 IRC" ip="211.74.214.49" security="3" type="4">
+<Computer id="M7MedIRC" name="Sutter Medical Center | 外科部门 IRC" ip="211.74.214.49" security="1" type="4">
+<ports>21, 22, 80, 104</ports>
+<portsForCrack val="3"/>
+<portRemap>21=3883,80=8338,22=8383</portRemap>
+<firewall level="11" solution="hippocrates" additionalTime="0.3"/>
 <trace time="-1" />
 <admin type="progress"/>
 <dlink target="M7SysAdm" />

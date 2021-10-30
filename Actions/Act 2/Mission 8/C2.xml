@@ -4,10 +4,10 @@
 	</Instantly>
 	
 	<HasFlags requiredFlags="Jester">
-	<CopyAsset DestFilePath="home/Contract_Files/Denigration" DestComp="NHCross" SourceComp="Delay" SourceFileName="Kati_25_11_19.png" SourceFilePath="home" />
+	<CopyAsset DestFilePath="home/任务文件/毁灭" DestComp="NHCross" SourceComp="Delay" SourceFileName="Katie_25_11_19.png" SourceFilePath="home" />
 	</HasFlags>
 	
 	<HasFlags requiredFlags="Repulse">
-	<CopyAsset DestFilePath="home/Contract_Files/Denigration" DestComp="NHCrossR" SourceComp="Delay" SourceFileName="Kati_25_11_19.png" SourceFilePath="home" />
+	<CopyAsset DestFilePath="home/任务文件/毁灭" DestComp="NHCrossR" SourceComp="Delay" SourceFileName="Katie_25_11_19.png" SourceFilePath="home" />
 	</HasFlags>
 </ConditionalActions>

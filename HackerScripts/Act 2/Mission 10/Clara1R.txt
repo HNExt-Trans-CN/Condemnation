@@ -1,2 +1,4 @@
 config playerComp C5C 0.1 $#%#$
-writel Clara: 我设法打开了其中一个端口,接下来是SSL
+writel_silent $#%#$
+writel Clara: 我设法打开了其中一个端口,接下来是SSL $#%#$
+writel_silent

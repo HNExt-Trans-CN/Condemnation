@@ -1,0 +1,30 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <SetLock DelayHost="Delay" Delay="1.72" Module="netmap" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="1.82" Module="netmap" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="1.92" Module="netmap" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="2.02" Module="netmap" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="2.32" Module="netmap" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="2.6" Module="netmap" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="2.61" Module="netmap" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="3.75" Module="netmap" IsLocked="false" IsHidden="fek"/>
+
+		<SetLock DelayHost="Delay" Delay="1.72" Module="ram" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="1.82" Module="ram" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="1.92" Module="ram" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="2.02" Module="ram" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="2.32" Module="ram" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="2.6" Module="ram" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="2.61" Module="ram" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="3.75" Module="ram" IsLocked="false" IsHidden="fek"/>
+		
+		<SetLock DelayHost="Delay" Delay="1.72" Module="terminal" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="1.82" Module="terminal" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="1.92" Module="terminal" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="2.02" Module="terminal" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="2.32" Module="terminal" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="2.6" Module="terminal" IsLocked="false" IsHidden="fek"/>
+        <SetLock DelayHost="Delay" Delay="2.61" Module="terminal" IsLocked="false" IsHidden="true"/>
+        <SetLock DelayHost="Delay" Delay="3.75" Module="terminal" IsLocked="false" IsHidden="fek"/>
+    </Instantly>
+</ConditionalActions>

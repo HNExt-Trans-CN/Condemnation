@@ -8,11 +8,11 @@
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我让我的前同事Javis Williamson进入了你的团队</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我让我的前同事Javis Williamson成为了废人</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="AT_Flag">
-	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我让一名优秀警官进入了你的团队</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="NHHub" Delay="0.0">我让一名优秀警官成为了废人</AddIRCMessage>
 	</HasFlags>
 	
 	<HasFlags requiredFlags="JW_Flag_Scum">

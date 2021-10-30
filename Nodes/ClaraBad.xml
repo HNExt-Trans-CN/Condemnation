@@ -1,4 +1,4 @@
-<Computer id="ClBad" name="私密 IRC" security="0" type="4">
+<Computer id="ClBad" name="私密 IRC" security="1" type="4">
 <trace time="-1" />
 <admin type="progress"/>
 <IRCDaemon themeColor="254,168,0" name="私密 IRC" needsLogin="false">

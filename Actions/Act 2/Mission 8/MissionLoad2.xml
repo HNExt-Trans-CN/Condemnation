@@ -1,0 +1,5 @@
+<ConditionalActions>
+	<Instantly>
+	<AddMissionToHubServer MissionFilepath="Missions/Empt/2A.xml" TargetComp="NHHub" AssignmentTag="Jenkins"/>
+	</Instantly>
+</ConditionalActions>

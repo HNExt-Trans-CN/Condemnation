@@ -1,5 +1,7 @@
-<Computer id="C1Empt1" name="FJR-Insurance, 问答区域" security="4" type="1">
-<trace time="90" />
+<Computer id="C1Empt1" name="FJR-Insurance | 问答区域" icon="DLCLaptop" type="1">
+<ports>1433, 554, 22, 21</ports>
+<portsForCrack val="0"/>
+<trace time="-1" />
 <admin type="progress"/>
-<file path="home/Quality_Report" name="Quality_Report.pdf">#BINARY#</file>
+<file path="home/质量检测报告" name="质量检测报告.txt">跟屎一样</file>
 </Computer>

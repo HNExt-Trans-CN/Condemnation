@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5HS4" name="Team Rioba 的黑客站点" ip="13.211.189.8" type="3">
+<Computer id="M5HS4" name="Team Rioba 的黑客站点 3" ip="13.211.189.8" security="2" type="3">
 
-<ports>21, 22, 25, 443</ports>
-<portsForCrack val="4" />
+<ports>25, 554, 443</ports>
+<portsForCrack val="3" />
 <trace time="120" />
 
  <file path="home" name="RELAY.log">启用命令跟踪序列:保存IRC的中继信息</file>
- <file path="home/Sequencer" name="logs">建立用户连接: Muskat, Super_Flufy, Omicron to *ADRESS DELETED*
+ <file path="home/Sequencer" name="logs">建立用户连接: Muskat, Super_Flufy, Omicron to *地址已删除*
  
  连接成功
 	已启用追踪评估程序

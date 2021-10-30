@@ -1,4 +1,6 @@
-<Computer id="C2A" name="Kati 的PC" security="2" type="2">
+<Computer id="C2A" name="Katie 的PC" icon="DLCLaptop" type="2">
+<ports>21, 22, 25</ports>
+<portsForCrack val="2"/>
 <trace time="-1" />
 <admin type="progress"/>
 </Computer>

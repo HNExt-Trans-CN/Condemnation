@@ -1,31 +1,31 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="M8 2">
   <goals>
-  <goal type="fileupload" target="C2B" file="Plans.docx" path="home/Personal" destTarget="C2C" destPath="Drop/Uploads"/>
-  <goal type="fileupload" target="C2B" file="Poses.png" path="home/Personal" destTarget="C2C" destPath="Drop/Uploads"/>
-  <goal type="fileupload" target="C2B" file="Notes.docx" path="home/Personal" destTarget="C2C" destPath="Drop/Uploads"/>
-  <goal type="fileupload" target="NHCross" file="Kati_25_11_19.png" path="home/Contract_Files/Denigration" destTarget="C2A" destPath="home"/>
+  <goal type="fileupload" target="C2B" file="23_11_19_计划.docx" path="home/个人事项" destTarget="C2C" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="C2B" file="20_11_19_艳照.png" path="home/个人事项" destTarget="C2C" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="C2B" file="24_11_19_笔记.docx" path="home/个人事项" destTarget="C2C" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="NHCross" file="Katie_25_11_19.png" path="home/任务文件/毁灭" destTarget="C2A" destPath="home"/>
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C2.xml</missionStart>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>NONE</nextMission>
   
-  <posting title="毁灭">
-一位偏心的政治家对我的勒索并不感到害怕,是时候解决这个问题了
+  <posting title="Denigration">
+One excentric politician is not intimidated with my blackmail, it is time to fix this
   </posting>
   <email>
     <sender>E-Mail</sender>
     <subject>毁灭</subject>
     <body>此电子邮件由从外部收件箱接收: 
- 
-问候,我是Oswaldo,勒索是我的生活宗旨和主要工作。我遇到一个政客,名字叫J.J. Broadster,我有一些他和19岁的Kati的性爱照片,这是我在像他这样的人身上得到的平凡东西。如果他从辅导员职位辞职,没有人会看到这些照片。 
- 
-事实是,他认为这对他来说不是一个大问题,没有人会在意。 但是拜托,每个人都喜欢一些性丑闻,但绝对不是女性受害者。 因此,如果我不能直接影响他,我需要你向Kati展示在理论上可以使她成为学院明星的东西。 将我的照片放在她的PC上（将提供链接）,你可以在组织的负载均衡服务器上找到它们。 也许她可以更好地刺激他。 
- 
+
+问候,我是Oswaldo,勒索是我的生活宗旨和主要工作。我遇到一个政客,名字叫J.J. Broadster,我有一些他和19岁的Katie的性爱照片,这是我在像他这样的人身上得到的平凡东西。如果他从辅导员职位辞职,没有人会看到这些照片。 
+
+事实是,他认为这对他来说不是一个大问题,没有人会在意。 但是拜托,每个人都喜欢一些性丑闻,但绝对不是女性受害者。 因此,如果我不能直接影响他,我需要你向Katie展示在理论上可以使她成为学院明星的东西。 将我的照片放在她的PC上（将提供链接）,你可以在组织的负载均衡服务器上找到它们。 也许她可以更好地刺激他。 
+
 在此过程中,我需要一些可以使用的新材料。 同样,也要进入他的PC,并弄清任何个人信息,最好是些能抓住他把柄的东西,然后将其放入我将提供的上传服务器中。 
- 
+
 目标: 
- 
+
 1) 在Kati的PC上上传性爱照片（将它们放在/home文件夹中） 
 2) 将Broadster的个人数据上传到Oswaldo的共享服务器
 3) 回复email
@@ -34,6 +34,9 @@
 	<link comp="C2A" />
 	<link comp="C2B" />
 	<link comp="C2C" />
+	<note title="目标">1) 在Kati的PC上上传性爱照片（将它们放在/home文件夹中） 
+2) 将Broadster的个人数据上传到Oswaldo的共享服务器
+3) 回复email</note>
     </attachments>
   </email>
 </mission>

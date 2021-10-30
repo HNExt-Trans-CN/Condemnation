@@ -4,7 +4,7 @@
 	</Instantly>
 	
 	<OnConnect target="M10M" needsMissionComplete="false">
-	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M10M.txt" DelayHost="Delay" Delay="1.0" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/EnSec/M10M.txt" DelayHost="Delay" Delay="0.5" SourceComp="NHHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 	</OnConnect>
 
 	<OnConnect target="M10P1" needsMissionComplete="false">

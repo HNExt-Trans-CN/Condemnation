@@ -2,7 +2,7 @@
 
 	 <HasFlags requiredFlags="NetMapLok">
     <SetLock DelayHost="Delay" Delay="0.1" Module="netmap" IsLocked="true" IsHidden="false" />
-    <AddConditionalActions Filepath="Actions/Loop2.xml" Delay="0.8" DelayHost="Delay" />
+    <AddConditionalActions Filepath="Actions/Loop2.xml" Delay="1.0" DelayHost="Delay" />
   </HasFlags>
  
 </ConditionalActions>

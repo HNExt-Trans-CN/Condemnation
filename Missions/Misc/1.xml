@@ -1,29 +1,31 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="M8 1">
   <goals>
-<goal type="fileupload" target="NHCross" file="Fin-Rep.accdb" path="home/Contract_Files/Data_Manipulation" destTarget="C1C" destPath="home/11_19"/>
+<goal type="fileupload" target="NHCross" file="Fin-Rep.accdb" path="home/任务文件/数据处理" destTarget="C1C" destPath="home/11_19"/>
   </goals>
   <missionStart val="0">loadConditionalActions:Actions/Act 2/Mission 8/C1.xml</missionStart>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>NONE</nextMission>
   
-  <posting title="数据处理">
-某些文档必须放置在不应放置的位置
+  <posting title="Data Manipulation">
+Some documents must be placed where they are not supposed to be
   </posting>
   <email>
     <sender>E-Mail</sender>
     <subject>数据处理</subject>
     <body>此电子邮件由从外部收件箱接收: 
- 
+
 你好,探员,我有一个任务交给你。我需要淘汰我的商业竞争对手,使其被突如其来的税务检查迎头一击。我需要你在公司的财务服务器上植入一些报告,其中包含一些"未说明的费用",该报告应该在11_19文件夹中。 
- 
+
 你可以在组织的负载均衡服务器上找到Fin-Rep.accdb文件,我拥有他们的人力资源部门的IP,你可以从那里浏览他们的系统。 
+
 目标: 
- 
+
 1) 上传Fin-Rep.accdb至 FJR-Insurance company的数据服务器中的11_19文件夹
 </body>
     <attachments>
 	<link comp="C1A" />
+	<note title="目标">1) 上传Fin-Rep.accdb至 FJR-Insurance company的数据服务器中的11_19文件夹</note>
     </attachments>
   </email>
 </mission>

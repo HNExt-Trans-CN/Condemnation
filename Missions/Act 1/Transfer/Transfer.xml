@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="Act 1 End Sup" activeCheck="true">
 <goals>
-  <goal type="hasflag" target="ETAS"/>
+  <goal type="delay" time="15.0"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/Act 2/MailChange.xml</missionEnd>
   <nextMission IsSilent="true">Missions/Act 2/DEMO.xml</nextMission>

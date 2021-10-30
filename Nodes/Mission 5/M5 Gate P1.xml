@@ -1,5 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5GateP1" name="代理节点 ZF25" security="3" type="3">
+<Computer id="M5GateP1" name="代理节点 ZF25" security="4" type="3">
+<portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <trace time="90" />
 
 
 

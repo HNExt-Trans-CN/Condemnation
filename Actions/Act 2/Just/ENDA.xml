@@ -1,23 +1,23 @@
 <ConditionalActions>
 	<Instantly>
-		<AddAsset FileName="netcfgx.dll" FileContents="#BINARY#" TargetComp="C5D" TargetFolderpath="home" />
-		<AddConditionalActions Filepath="Actions/Act 2/Choices/DOG.xml" DelayHost="Delay" Delay="5.0"/>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, 发生什么了??</AddIRCMessage>
-		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
+	<AddAsset FileName="netcfgx.dll" FileContents="#BINARY#" TargetComp="C5D" TargetFolderpath="home" />
+	<AddConditionalActions Filepath="Actions/Act 2/Choices/DOG.xml" DelayHost="Delay" Delay="5.0"/>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="5.0">@Vortex, 发生什么了??</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="5.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="5.2"/>
 		<ChangeAlertIcon Target="C5D" Type="irc" DelayHost="Delay" Delay="5.3"/>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">操,我从服务器断开连接了!</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="15.0">这次是我救了你,因为已经得到那些文件了,他们在/home文件夹里边</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="20.0">WOW, 赞耶!!</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="25.0">只剩下最后一件事情要做了</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">把这个上传给警方</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="34.0">我配得到这些荣誉么?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="38.0">没事,我认为这是你应得的</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="42.0">所以你自己去上传吧</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="47.0">那给我个IP?</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="51.0">行,我给你个Santa-Rosa警署那边的ip,他们没被EnTech保护因此畅通无阻</AddIRCMessage>
-		<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">感谢</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">稍等</AddIRCMessage>
-		<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="63.0">!ATTACHMENT:link#%#Santa-Rosa 警署#%#175.102.196.84</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="10.0">操,我从服务器断开连接了!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="15.0">这次是我救了你,因为已经得到那些文件了,他们在/home/文件夹里边!</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="20.0">WOW, 赞耶!!</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="25.0">只剩下最后一件事情要做了</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="30.0">把这个上传给警方</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="34.0">我配得到这些荣誉么?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="38.0">没事,我认为这是你应得的</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="42.0">所以你自己去上传吧</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="47.0">那给我个IP?</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="51.0">行,我给你个Santa-Rosa警署那边的ip,他们没被EnTech保护因此畅通无阻</AddIRCMessage>
+	<AddIRCMessage Author="Vortex" TargetComp="C5D" Delay="57.0">感谢</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="60.0">稍等</AddIRCMessage>
+	<AddIRCMessage Author="Clara" TargetComp="C5D" Delay="63.0">!ATTACHMENT:link#%#Santa-Rosa 警署#%#175.102.196.84</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

@@ -1,0 +1,6 @@
+<ConditionalActions>
+	<HasFlags requiredFlags="M10Active">
+        <LaunchHackScript Filepath="HackerScripts/Act 2/Mission 10/LogClear.txt" DelayHost="Delay" Delay="0.0" SourceComp="C5C" TargetComp="M10P3" RequireLogsOnSource="false" RequireSourceIntact="true"/> 
+        <AddConditionalActions Filepath="Actions/Act 2/Mission 10/LogClear3.xml" DelayHost="Delay" Delay="3.0"/>
+    </HasFlags>
+</ConditionalActions>

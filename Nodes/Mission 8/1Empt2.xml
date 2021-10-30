@@ -1,5 +1,67 @@
-<Computer id="C1Empt2" name="FJR-Insurance 客户数据库" security="4" type="1">
-<trace time="90" />
+<Computer id="C1Empt2" name="FJR-Insurance | 客户数据库" icon="DLCServer" type="1">
+<ports>1433, 554, 22, 21</ports>
+<portsForCrack val="0"/>
+<trace time="-1" />
 <admin type="progress"/>
-<DatabaseDaemon Permissions="public" DataType="" Foldername="database" Color="255,250,36" AdminEmailAccount="" AdminEmailHostID="" Name="客户数据库"/>
+<DatabaseDaemon Permissions="public" DataType="OnlineAccount" Foldername="database" Color="255,250,36" AdminEmailAccount="" AdminEmailHostID="" Name="Client Database">
+
+<OnlineAccount>
+<ID>1702</ID>
+<Username>Mottvey Trobovich</Username>
+<BanStatus>Permanent</BanStatus>
+<Notes>Found out that he's ginger. Insurance revoked.</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>4321</ID>
+<Username>breezoreceiver</Username>
+<BanStatus>Not Banned</BanStatus>
+<Notes>Headcanons are insured.</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>1703</ID>
+<Username>Fayti</Username>
+<BanStatus>Not Banned</BanStatus>
+<Notes>Privathaftpflichtversicherung, Hausratversicherung.</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>1538</ID>
+<Username>Raven a.k.a Neopoznano</Username>
+<BanStatus>Not Banned</BanStatus>
+<Notes>Who would insure a fucking python?..</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>1908</ID>
+<Username>Lynx Mindlock</Username>
+<BanStatus>Permanent</BanStatus>
+<Notes>Annoyed our consultant to death. How's that even possible?..</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>1006</ID>
+<Username>Tmerus a.k.a Sonic</Username>
+<BanStatus>Banned for 3 Months</BanStatus>
+<Notes>Tried to insure a fucking flamethrower. Of course we banned him.</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>8194</ID>
+<Username>Aqua</Username>
+<BanStatus>Not Banned</BanStatus>
+<Notes>Insured his meme and T-shirt collections.
+Funny...</Notes>
+</OnlineAccount>
+
+<OnlineAccount>
+<ID>4990</ID>
+<Username>Z</Username>
+<BanStatus>Not Banned</BanStatus>
+<Notes>Insured his car and virginity...
+OK, why not?..</Notes>
+</OnlineAccount>
+
+</DatabaseDaemon>
 </Computer>

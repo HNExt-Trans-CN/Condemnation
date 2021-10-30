@@ -1,42 +1,45 @@
-<Computer id="C4C" name="Union Gold 转账记录储存" security="5" type="1">
-<trace time="60" />
+<Computer id="C4C" name="Union Gold 转账记录储存" security="4" type="1">
+<ports>22, 21, 80</ports>
+<portsForCrack val="3"/>
+<portRemap>21=65535,80=8008,22=4251</portRemap>
+<trace time="-1" />
 <admin type="progress"/>
-<file path="home/Transactions/25_11" name="N245">汇款账户: OESG
+<file path="home/转账记录/25_11" name="N245">汇款账户: OESG
 收款账户: MRWA
 金额: 3260.0$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N246">汇款账户: UNCS
+<file path="home/转账记录/25_11" name="N246">汇款账户: UNCS
 收款账户: YANB
 金额: 720.6$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N247">汇款账户: GCWJ
+<file path="home/转账记录/25_11" name="N247">汇款账户: GCWJ
 收款账户: APB-HOUSING INC.
 金额: 89999.0$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N248">汇款账户: CZOS
+<file path="home/转账记录/25_11" name="N248">汇款账户: CZOS
 收款账户: PEAR INC.
 金额: 5007000.0$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N249">汇款账户: URAB
+<file path="home/转账记录/25_11" name="N249">汇款账户: URAB
 收款账户: KJSN
 金额: 499.9$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N250">汇款账户: ADWJ
+<file path="home/转账记录/25_11" name="N250">汇款账户: ADWJ
 收款账户: RMBI
 金额: 11600000.0$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N251">汇款账户: FNWE
+<file path="home/转账记录/25_11" name="N251">汇款账户: FNWE
 收款账户: UNCS
 金额: 999.9$
 TOKEN信息:
 #BINARY#</file>
-<file path="home/Transactions/25_11" name="N252">汇款账户: ASCP
+<file path="home/转账记录/25_11" name="N252">汇款账户: ASCP
 收款账户: PORESTO STORE
 金额: 1659.9$
 TOKEN信息:

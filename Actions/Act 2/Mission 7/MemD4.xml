@@ -1,0 +1,7 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+    <CopyAsset DestFileName="Dump_011_文件存放节点_(Delta).mem" DestFilePath="home/MemDumps" DestComp="playerComp" SourceComp="playerComp" SourceFileName="??????_(Delta)_dump.mem" SourceFilePath="home/MemDumps"/>
+    <DeleteFile TargetComp="playerComp" FilePath="home/MemDumps" FileName="??????_(Delta)_dump.mem"/>
+    <LoadMission MissionName="Missions/Act 2/Mission 7/DumpMain.xml"/>
+	</Instantly>
+</ConditionalActions>

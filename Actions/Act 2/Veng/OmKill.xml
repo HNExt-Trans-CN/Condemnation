@@ -1,15 +1,17 @@
 <ConditionalActions>
 	<Instantly>
-	<HideAllNodes DelayHost="Delay" Delay="0.0"/>
-	<SwitchToTheme ThemePathOrName="Themes/TC0.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="5.0" />
+	<AddConditionalActions Filepath="Actions/Flick/Veng/Flick.xml" DelayHost="Delay" Delay="38.33"/>
+	<AddConditionalActions Filepath="Actions/Flick/Veng/Flick.xml" DelayHost="Delay" Delay="47.22"/>
+	<LaunchHackScript Filepath="HackerScripts/Act 2/Just/Hide.txt" DelayHost="Delay" Delay="121.40" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<SwitchToTheme ThemePathOrName="Themes/TC0.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="5.4" />
 	<LaunchHackScript Filepath="HackerScripts/Act 2/Veng/END.txt" DelayHost="Delay" Delay="5.0" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Veng/SIp.xml" DelayHost="Delay" Delay="5.4"/>
-	<AddConditionalActions Filepath="Actions/Act 2/Failure/Silence.xml" DelayHost="Delay" Delay="123.9"/>
-	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="123.9" />
-	<AddConditionalActions Filepath="Actions/Act 2/Veng/Music1.xml" DelayHost="Delay" Delay="130.0"/>
-	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="162.25" />
-	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="172.69" />
-	<LaunchHackScript Filepath="HackerScripts/Credits.txt" DelayHost="Delay" Delay="172.69" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
-	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="277.69" />
+	<AddConditionalActions Filepath="Actions/Act 2/Failure/Silence.xml" DelayHost="Delay" Delay="121.40"/>
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="121.40" />
+	<AddConditionalActions Filepath="Actions/Act 2/Veng/Music1.xml" DelayHost="Delay" Delay="128.40"/>
+	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="160.52" />
+	<SwitchToTheme ThemePathOrName="Themes/Credits.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="171.18" />
+	<LaunchHackScript Filepath="HackerScripts/Credits.txt" DelayHost="Delay" Delay="171.18" SourceComp="Delay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<SwitchToTheme ThemePathOrName="Themes/Logo.xml" FlickerInDuration="0.0" DelayHost="Delay" Delay="276.18" />
 	</Instantly>
 </ConditionalActions>

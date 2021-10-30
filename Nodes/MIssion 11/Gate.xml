@@ -1,6 +1,6 @@
-<Computer id="M11G" name="Omicron 的网关" ip="113.114.36.122" security="5" type="4">
-<adminPass pass="FEUHseuh2" />
-<portsForCrack val="101" />
+<Computer id="M11G" name="Omicron 的网关" ip="113.114.36.122" security="3" type="4">
+<adminPass pass="utc001" />
+<portsForCrack val="9999999" />
 <trace time="-1" />
 <admin type="progress"/>
 <dlink target="M11A" />

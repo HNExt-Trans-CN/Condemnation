@@ -1,8 +1,8 @@
-<Computer id="M7SysAdm" name="Anthony 的电脑" security="3" icon="Laptop" type="2">
-<trace time="-1" />
+<Computer id="M7SysAdm" name="Anthony 的电脑" security="3" icon="laptop" type="2">
+<trace time="200" />
 <firewall level="6" solution="Cronko" additionalTime="0.3"/>
 <admin type="progress"/>
-<file path="home" name="Kellis Report.docx">（机密:请勿与任何人分享）
+<file path="home" name="Kellis 报告.docx">（机密:请勿与任何人分享）
 
 安全主管Logan Derrick Kellis BioTech的报告:
 

@@ -1,6 +1,8 @@
-<Computer id="M7Stash" name="文件存放节点" ip="182.73.133.251" security="3" type="2">
+<Computer id="M7Stash" name="文件存放节点 (Saturn)" ip="182.73.133.251" security="4" type="2">
+<ports>21, 22, 80, 1433</ports>
+<portsForCrack val="3"/>
 <trace time="90" />
-<firewall level="9" solution="drivedonk" additionalTime="0.3"/>
+<firewall level="9" solution="vigilance" additionalTime="0.1"/>
 <admin type="progress"/>
 <dlink target="M7PN1" />
 <dlink target="M7PN2" />

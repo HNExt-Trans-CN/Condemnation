@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M5IRC" name="Team Rioba 的IRC" ip="83.201.110.70" icon="DLCServer" type="empty">
+<Computer id="M5IRC" name="Team Rioba 的IRC" ip="83.201.110.70" security="1" type="empty">
 
   <portsForCrack val="5" />
   <ports>22, 21, 25, 80, 443</ports>
-  <proxy time="1" />
-  <trace time="90" />
+  <proxy time="3" />
+  <trace time="120" />
 
 <IRCDaemon themeColor="255,250,2" name="Team Rioba 的IRC" needsLogin="true">
   <user name="Omicron" color="255,6,6"/>

@@ -1,2 +1,4 @@
 config playerComp NHHub 0.1 $#%#$
-writel Prophet: 完成一半, 破解端口 21,22,25,80
+writel_silent $#%#$
+writel Prophet: 完成一半, 破解端口 21,22,80,554 $#%#$
+writel_silent

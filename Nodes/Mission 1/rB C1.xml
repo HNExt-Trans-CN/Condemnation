@@ -1,9 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1rB_Tab" name="数字之风" allowsDefaultBootModule="true" security="1" type="empty">
+<Computer id="M1rB_Tab" name="Rizer | San-Francisco" allowsDefaultBootModule="true" security="1" type="empty">
 <ports>21, 22, 25, 554</ports>
 <portsForCrack val="4"/>
 <trace time="100"/>
 <admin type="progress"/>
 <dlink target="M1rB_Tab_MF"/>
-<variableMissionListingServer name="数字之风" iconPath="Logos/Star.png" articleFolderPath="/Missions/Act 1/Mission 1/Articles rB" color="255, 142, 0" assigner="false" public="true" title="数字之风" />
+<variableMissionListingServer name="Rizer | San-Francisco" iconPath="Logos/Rizer.png" articleFolderPath="/Missions/Act 1/Mission 1/Articles rB" color="159, 229, 255" assigner="false" public="true" title="Rizer | San-Francisco" />
 </Computer>

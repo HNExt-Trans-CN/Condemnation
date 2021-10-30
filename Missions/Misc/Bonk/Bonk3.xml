@@ -5,8 +5,8 @@
   </goals>
   
   <nextMission IsSilent="true">Missions/Misc/3.xml</nextMission>
-  <posting title="口臭">
-某新闻公司认为我国有言论自由
+  <posting title="Foul Mouths">
+A certain news company think that there is a freedom of speech in our country
   </posting>
   <email>
     <sender>NONE</sender>

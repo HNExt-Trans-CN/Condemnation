@@ -1,46 +1,46 @@
 <ConditionalActions>
 	<Instantly>
-		<RunFunction FunctionName="setHubServer:NHHub" FunctionValue="6" />
-		<RunFunction FunctionName="setAssetServer:NHHub" FunctionValue="6" />
-		<AddConditionalActions Filepath="Actions/Act 2/Mission 10/MisLo.xml" DelayHost="Delay" Delay="140.0"/>
-		<AddConditionalActions Filepath="Actions/Act 2/Mission 10/MisCop.xml" DelayHost="Delay" Delay="58.5"/>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, 看来你已经作出决定了</AddIRCMessage>
-		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
+	<RunFunction FunctionName="setHubServer:NHHub" FunctionValue="6" />
+	<RunFunction FunctionName="setAssetServer:NHHub" FunctionValue="6" />
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/MisLo.xml" DelayHost="Delay" Delay="140.0"/>
+	<AddConditionalActions Filepath="Actions/Act 2/Mission 10/MisCop.xml" DelayHost="Delay" Delay="58.5"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="3.0">@Vortex, 看来你已经作出决定了</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="3.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="3.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="3.3"/>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, Vortex站在我们这边!</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.0">我认为我们该忘记他以前那些不当行为</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.0">因此,Jenkins,我想现在你可以为我们准备一个能破坏EnSec的新exe文件 </AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="19.0">好的</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.0">在此期间,让我向大家解释我们的任务目标是什么</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="28">我设法侦查了EnTech,发现了一些非常混乱的漏洞</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.0">这就是我获得EnSec破坏器或称EnBreak的方式</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="37.0">在某个地方也应该有我们需要的白名单文件</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.0">你必须扫描那里的所有内容并找到以下特定文件:Token文件,SecCore.dll和可以找到的所有转储文件</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="47.0">EnBreak.exe 准备好了</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="50.0">赞</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="53.0">现在,将其上传到此服务器,以便所有人都可以使用</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="58.0">完成</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="63.0">当你拥有该.exe时,它将在你连接到受EnSec保护的服务器时自动运行</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">请注意,它不会对旧版本做出反应,因此它不是通用的</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="73.0">现在,我希望Jenkens黑入我们的切入点</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.0">在计算机上安装EnBreak.exe后,请尝试访问EnTech网络并获取我的特定文件</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="82.0">如果你忘记了,我会留下笔记</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="85.0">!ATTACHMENT:note#%#文件名#%#Token 文件,SecCore.dll,内存缓存</AddIRCMessage>
-		<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="90.0">将它们上传到该服务器的/home文件夹中,这样我就可以获取它们</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="95.0">明白了。那么,Jenkins。切入点在哪?</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="100.0">在找着呢</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="105.0">@Vortex, 应Omicron的要求,你将领导这次行动</AddIRCMessage>
-		<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="105.1"/>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="6.0">@channel, Vortex站在我们这边!</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="10.0">我认为我们该忘记他以前那些不当行为</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="15.0">因此,Jenkins,我想现在你可以为我们准备一个能破坏EnSec的新exe文件</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="19.0">好的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="23.0">在此期间,让我向大家解释我们的任务目标是什么</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="28">我设法侦查了EnTech,发现了一些非常混乱的漏洞</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="33.0">这就是我获得EnSec破坏器或称EnBreak的方式</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="37.0">在某个地方也应该有我们需要的白名单文件</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="41.0">你必须扫描那里的所有内容并找到以下特定文件:Token文件,SecCore.dll和可以找到的所有转储文件</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="47.0">EnBreak.exe 准备好了</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="50.0">赞</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="53.0">现在,将其上传到此服务器,以便所有人都可以使用</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="58.0">完成</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="63.0">当你拥有该.exe时,它将在你连接到受EnSec保护的服务器时自动运行</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="68.0">请注意,它不会对旧版本做出反应,因此它不是通用的</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="73.0">现在,我希望Jenkens黑入我们的切入点</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="77.0">在计算机上安装EnBreak.exe后,请尝试访问EnTech网络并获取我的特定文件</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="82.0">如果你忘记了,我会留下笔记</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="85.0">!ATTACHMENT:note#%#文件名#%#Token 文件,SecCore.dll,内存缓存</AddIRCMessage>
+	<AddIRCMessage Author="Omicron" TargetComp="NHHub" Delay="90.0">将它们上传到该服务器的/home/文件夹中,这样我就可以获取它们</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="95.0">明白了。那么,Jenkins。切入点在哪?</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="100.0">在找着呢</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="105.0">@Vortex, 应Omicron的要求,你将领导这次行动</AddIRCMessage>
+	<ChangeAlertIcon Target="M6Alert" Type="board" DelayHost="Delay" Delay="105.1"/>
 		<AddConditionalActions Filepath="Actions/Act 2/Mission 6/Hid2.xml" DelayHost="Delay" Delay="105.2"/>
 		<ChangeAlertIcon Target="NHHub" Type="irchub" DelayHost="Delay" Delay="105.3"/>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="110.0">我知道我们的关系现在处于非常脆弱的状态</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="114.0">但让我们从业务角度来看</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="118.0">你将获得抗击Omicron的工具,我们将获得未来业务的所需的玩意</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="122.0">双赢</AddIRCMessage>
-		<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">Prophet可以帮助你解决可能遇到的任何问题,他拥有个人工具集</AddIRCMessage>
-		<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="132.0">我可以通过你发给我们的.dll来观察你,如果遇到任何无法破解的端口,我会帮助你</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="137.0">切入点找到了</AddIRCMessage>
-		<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="140.0">!ATTACHMENT:link#%#EnTech 副服务器#%#27.113.216.249</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="110.0">我知道我们的关系现在处于非常脆弱的状态</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="114.0">但让我们从业务角度来看</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="118.0">你将获得抗击Omicron的工具,我们将获得未来业务的所需的玩意</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="122.0">双赢</AddIRCMessage>
+	<AddIRCMessage Author="Maverick" TargetComp="NHHub" Delay="126.0">Prophet可以帮助你解决可能遇到的任何问题,他拥有个人工具集</AddIRCMessage>
+	<AddIRCMessage Author="Prophet" TargetComp="NHHub" Delay="132.0">我可以通过你发给我们的.dll来观察你,如果遇到任何无法破解的端口,我会帮助你</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="137.0">切入点找到了</AddIRCMessage>
+	<AddIRCMessage Author="Jenkins" TargetComp="NHHub" Delay="140.0">!ATTACHMENT:link#%#EnTech副服务器#%#27.113.216.249</AddIRCMessage>
 	</Instantly>
 </ConditionalActions>

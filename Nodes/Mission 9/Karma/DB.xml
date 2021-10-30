@@ -5,6 +5,10 @@
 <firewall level="9" solution="Dodcasper" additionalTime="0.3"/>
 <trace time="90" />
 <admin type="progress"/>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
 <DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="0,190,186" AdminEmailAccount="LEAK_ADMIN" AdminEmailHostID="M7Mail" Name="LEAK">
 <GitCommitEntry>
       <EntryNumber>1478</EntryNumber>

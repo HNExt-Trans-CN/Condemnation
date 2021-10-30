@@ -1,7 +1,7 @@
-<Computer id="OmBoss5" name="回家哭吧" type="4">
-<ports>1433, 554, 211, 21, 6881, 443</ports>
+<Computer id="OmBoss5" name="回家哭吧" security="2" type="4">
+<ports>1433, 80</ports>
 
-<portsForCrack val="3" />
+<portsForCrack val="2" />
 <trace time="-1" />
 <admin type="none"/>
 <file path="home" name="Omicron's IP.txt">666.420.FUCK.YOU</file>

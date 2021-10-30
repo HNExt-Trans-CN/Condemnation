@@ -3,7 +3,7 @@
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
-  <posting title="会议">
+  <posting title="会议" client="COMS">
 与Shuriken联盟联系并说服他们为我们提供帮助
   </posting>
   <email>

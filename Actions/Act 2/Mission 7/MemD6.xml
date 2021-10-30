@@ -1,0 +1,7 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+    <CopyAsset DestFileName="Dump_469_Jeffrey_的PC.mem" DestFilePath="home/MemDumps" DestComp="playerComp" SourceComp="playerComp" SourceFileName="Jeffrey_?PC_dump.mem" SourceFilePath="home/MemDumps"/>
+    <DeleteFile TargetComp="playerComp" FilePath="home/MemDumps" FileName="Jeffrey_?PC_dump.mem"/>
+    <LoadMission MissionName="Missions/Act 2/Mission 7/DumpCross.xml"/>
+	</Instantly>
+</ConditionalActions>

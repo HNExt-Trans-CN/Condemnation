@@ -1,11 +1,8 @@
 <ConditionalActions>
 	<HasFlags requiredFlags="EpicFail">
-	<SetLock DelayHost="Delay" Delay="0.1" Module="ram" IsLocked="false" IsHidden="true" />
-	<SetLock DelayHost="Delay" Delay="2.1" Module="ram" IsLocked="false" IsHidden="false" />
-	<SetLock DelayHost="Delay" Delay="10.0" Module="display" IsLocked="false" IsHidden="true" />
-	<SetLock DelayHost="Delay" Delay="12.0" Module="display" IsLocked="false" IsHidden="false" />
-	<SetLock DelayHost="Delay" Delay="20.0" Module="terminal" IsLocked="false" IsHidden="true" />
-	<SetLock DelayHost="Delay" Delay="22.0" Module="terminal" IsLocked="false" IsHidden="false" />
+	<AddConditionalActions Filepath="Actions/Flick/Boss/Fail1.xml"/>
+	<AddConditionalActions Filepath="Actions/Flick/Boss/Fail2.xml" DelayHost="Delay" Delay="10.0"/>
+	<AddConditionalActions Filepath="Actions/Flick/Boss/Fail3.xml" DelayHost="Delay" Delay="20.0"/>
 	<AddConditionalActions Filepath="Actions/Act 2/Failure/Loop.xml" DelayHost="Delay" Delay="30.0"/>
 	</HasFlags>
 </ConditionalActions>
