@@ -1,4 +1,4 @@
-<Computer id="jmail" name="Hacknet OS 内部收件箱" security="5" icon="chip" type="3">
+<Computer id="jmail" name="Hacknet_OS 内部收件箱" security="5" icon="chip" type="3">
 <account username="#PLAYERNAME#" password="" type="2" />
 <account username="RAPTOR" password="hgshrg" type="2" />
 <trace time="101" />
@@ -19,7 +19,7 @@
 
 Hacknet_OS将过滤所有数据并尝试使用EnTranslator翻译，因为目前版本分发频道是experimental，所以可能会出现无法预测的错误。
 
-注意，并非所有文本都将(例子: 拉丁语系的姓名)。
+注意，并非所有文本都将被翻译(如: 拉丁语系的姓名)。
 
 我们祝您在学习语言方面一切顺利!
 
